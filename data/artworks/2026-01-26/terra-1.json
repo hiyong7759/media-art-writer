@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고대 시간이 쌓인 퇴적물",
+    "en": "Sediment of Ancient Time"
+  },
+  "description": {
+    "ko": "소금과 돌로 쓰인 역사의 지도, 모든 균열이 지구의 긴 기억에 대한 이야기를 들려줍니다.",
+    "en": "A map of history written in salt and stone, where every crack tells a story of the earth's long memory."
+  },
+  "prompt": "A bird's-eye topographic view of an ancient river delta that has crystallized into a mosaic of cracked ochre clay and translucent salt deposits, with veins of oxidized copper running through the strata. Rough textures of rock, sediment layers, and weathered soil. 8k resolution, hyper-realistic. The lighting mimics a low-angle sunset, casting long, dramatic shadows that reveal every geological fissure. Micro-displacement textures for every salt crystal and layer of sediment, rendered with global illumination to showcase the narrative of the land carved by eons.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-25T13:53:45.202Z"
+}

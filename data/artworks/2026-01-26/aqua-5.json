@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해 소용돌이의 심장",
+    "en": "The Heart of the Deep Vortex"
+  },
+  "description": {
+    "ko": "압도적인 심해의 깊이 속에서, 순수한 빛의 진주가 생물 발광의 불꽃 춤을 깨웁니다.",
+    "en": "In the crushing depths, a pearl of pure light awakens a dance of bioluminescent fire."
+  },
+  "prompt": "A massive, spiraling underwater vortex of bioluminescent plankton and rising bubbles surrounding a central 'pearl' of concentrated turquoise energy. Detailed fluid simulation with intricate caustic patterns dancing across the deep-sea trench walls. Focus on deep-sea translucency and the fluid dynamics of the swirling water. 8k, Octane Render. Raytraced caustics and volumetric underwater lighting create a sense of immense depth. Subsurface scattering on the plankton clouds, with global illumination from the energy core lighting the dark water.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-01-25T13:53:51.420Z"
+}

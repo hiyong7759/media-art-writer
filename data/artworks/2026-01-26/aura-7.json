@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "태고의 숨결이 깃든 나선",
+    "en": "The Helix of Primordial Breath"
+  },
+  "description": {
+    "ko": "안개 속을 솟아오르는 생명 코드의 춤, 빛과 생명이 신성한 나선으로 뒤엉킵니다.",
+    "en": "A dance of biological code rising through the mist, where light and life entwine in a sacred spiral."
+  },
+  "prompt": "A complex double-helix structure formed by bioluminescent fern-like fronds and glowing sap-filled roots, spiraling upwards in a misty, dark primordial forest clearing. The organic shapes pulse with emerald and pale yellow light, casting soft glows on the surrounding damp moss. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Intense subsurface scattering on the translucent plant tissues, volumetric light rays filtering through the thick canopy, and global illumination reflecting off floating golden spores. Cinematic lighting with a sharp focus on the intricate, vein-like textures of the breathing light.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-01-25T13:53:07.632Z"
+}
