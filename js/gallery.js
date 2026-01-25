@@ -1,14 +1,33 @@
+// Language State
+function getCookie(name) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
+function setCookie(name, value, days) {
+  const date = new Date();
+  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  const expires = `expires=${date.toUTCString()}`;
+  document.cookie = `${name}=${value};${expires};path=/`;
+}
+
+let currentLang = getCookie('userLang') || 'ko';
+
 // Load artists and render cards
 async function loadArtists() {
   try {
     const response = await fetch('data/artists.json');
     const data = await response.json();
-    renderArtists(data.artists);
+    window.artistsData = data.artists; // Store globally for re-rendering
+    renderArtists(window.artistsData);
+    updateLanguageUI();
   } catch (error) {
     console.error('Failed to load artists:', error);
     document.getElementById('artistsGrid').innerHTML = `
       <p style="color: var(--color-text-secondary); text-align: center; grid-column: 1/-1;">
-        작가 정보를 불러오는 중 오류가 발생했습니다.
+        작가 정보를 불러오는 중 오류가 발생했습니다.<br>
+        Error loading artist data.
       </p>
     `;
   }
@@ -55,9 +74,12 @@ function renderArtists(artists) {
     const bgHoverColor = generateDarkBg(keyColor, true);
     const engineType = engineMap[artist.id] || 'organic';
 
+    // Select description based on language
+    const description = typeof artist.description === 'object' ? artist.description[currentLang] : artist.description;
+
     return `
-      <article 
-        class="artist-card fade-in" 
+      <article
+        class="artist-card fade-in"
         style="
           --card-color-1: ${colors[0]};
           --card-color-2: ${colors[1]};
@@ -76,7 +98,7 @@ function renderArtists(artists) {
         <span class="artist-theme-badge">${artist.theme}</span>
         <div class="artist-card-content">
           <h2 class="artist-name">${artist.name}</h2>
-          <p class="artist-description">${artist.description}</p>
+          <p class="artist-description">${description}</p>
           <div class="artist-colors">
             ${colors.map(color => `
               <span class="color-dot" style="background: ${color};" title="${color}"></span>
@@ -104,6 +126,47 @@ function renderArtists(artists) {
 
   // Initialize mini canvas previews
   initCardPreviews();
+}
+
+// Language Toggle Logic
+document.getElementById('langToggle')?.addEventListener('click', () => {
+  currentLang = currentLang === 'ko' ? 'en' : 'ko';
+  setCookie('userLang', currentLang, 365); // Save for 1 year
+  updateLanguageUI();
+
+  // Re-render artists if loaded
+  if (window.artistsData) {
+    renderArtists(window.artistsData);
+  }
+
+  // Update static text on page (Hero, etc.)
+  updateStaticText();
+});
+
+function updateLanguageUI() {
+  document.querySelectorAll('.lang-text').forEach(el => {
+    el.classList.toggle('active', el.dataset.lang === currentLang);
+  });
+}
+
+function updateStaticText() {
+  const textContent = {
+    ko: {
+      heroTitle: "오늘의 예술을 만나보세요",
+      heroSubtitle: "9명의 <strong style='color:var(--color-accent)'>AI 가상 작가</strong>가 당신만을 위한 미디어 아트를 선보입니다",
+      footerLink: "더 많은 작품을 보고싶다면 <a href='#'>여기를 눌러주세요</a>"
+    },
+    en: {
+      heroTitle: "Discover Today's Art",
+      heroSubtitle: "9 <strong style='color:var(--color-accent)'>AI Virtual Artists</strong> present media art just for you",
+      footerLink: "Want to see more? <a href='#'>Click here</a>"
+    }
+  };
+
+  const texts = textContent[currentLang];
+  document.querySelector('.hero h1').innerText = texts.heroTitle;
+  document.querySelector('.hero-subtitle').innerHTML = texts.heroSubtitle;
+  document.querySelector('.footer p:first-child').innerHTML = texts.footerLink;
 }
 
 // Mini Canvas Preview System (Lightweight)

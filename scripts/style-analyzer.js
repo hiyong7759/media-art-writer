@@ -38,7 +38,9 @@ function analyzeAndGenerateStyle(artist, prompt) {
         '--dynamic-font': selectedFont,
         '--dynamic-mood': dominantMood,
         '--dynamic-primary': artist.styleHints.colorPalette[0],
-        '--dynamic-secondary': artist.styleHints.colorPalette[1]
+        '--dynamic-secondary': artist.styleHints.colorPalette[1],
+        '--dynamic-tertiary': artist.styleHints.colorPalette[2],
+        '--dynamic-quaternary': artist.styleHints.colorPalette[3]
     };
 
     return styleData;

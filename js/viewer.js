@@ -119,6 +119,12 @@ class MediaArtViewer {
             if (dailyData.style['--dynamic-secondary']) {
               artist.styleHints.colorPalette[1] = dailyData.style['--dynamic-secondary'];
             }
+            if (dailyData.style['--dynamic-tertiary']) {
+              artist.styleHints.colorPalette[2] = dailyData.style['--dynamic-tertiary'];
+            }
+            if (dailyData.style['--dynamic-quaternary']) {
+              artist.styleHints.colorPalette[3] = dailyData.style['--dynamic-quaternary'];
+            }
           }
         } else {
           console.log('No daily artwork found (fetch error), using mock data.');
@@ -154,16 +160,28 @@ class MediaArtViewer {
   }
 
   updateUI() {
+    // 1. Language Setting
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+    const userLang = getCookie('userLang') || 'ko';
+
     const artist = this.currentArtist;
     const daily = this.dailyArtwork;
 
-    // 1. Artwork Header (Title & Date)
+    // 2. Headings & Metadata
     const titleEl = document.getElementById('artworkTitle');
     const dateEl = document.getElementById('generatedDate');
 
     if (daily) {
-      titleEl.textContent = daily.title || "무제";
-      // Format: 2026.01.25
+      // Dynamic Title (Dual Language)
+      const title = (daily.title && typeof daily.title === 'object')
+        ? daily.title[userLang]
+        : daily.title || "무제";
+      titleEl.textContent = title;
+
       const dateStr = daily.generatedAt ? daily.generatedAt.split('T')[0].replace(/-/g, '.') : new Date().toISOString().split('T')[0].replace(/-/g, '.');
       dateEl.textContent = dateStr;
     } else {
@@ -171,33 +189,48 @@ class MediaArtViewer {
       dateEl.textContent = "";
     }
 
-    // 2. Daily Description
+    // 3. Daily Description
     const dailyDescEl = document.getElementById('artworkDescription');
     if (dailyDescEl) {
       if (daily) {
-        dailyDescEl.textContent = daily.description || "작품 설명이 없습니다.";
+        // Dynamic Description (Dual Language)
+        let desc = "";
+        if (daily.description && typeof daily.description === 'object') {
+          desc = daily.description[userLang] || daily.description['ko'];
+        } else if (daily.description) {
+          desc = daily.description;
+        } else {
+          desc = userLang === 'ko' ? "작품 설명이 없습니다." : "No description available.";
+        }
+
+        dailyDescEl.textContent = desc;
         dailyDescEl.style.display = 'block';
-        dailyDescEl.style.color = ''; // Reset color
+        dailyDescEl.style.color = '';
       } else {
-        dailyDescEl.textContent = "오늘 생성된 작품 데이터가 없습니다. (로컬 데이터 확인 필요)";
-        dailyDescEl.style.color = 'var(--color-accent)';
+        dailyDescEl.textContent = userLang === 'ko' ? "오늘 생성된 작품 데이터가 없습니다." : "No artwork data generated for today.";
       }
     }
 
-    // 3. Artist Profile
-    document.getElementById('artistName').textContent = artist.name;
-    document.getElementById('artistDescription').textContent = artist.description;
+    // 4. Artist Profile
+    // Dynamic Artist Desc (Dual Language)
+    const artistDesc = (artist.description && typeof artist.description === 'object')
+      ? artist.description[userLang]
+      : artist.description;
 
-    // Render color palette in viewer
+    document.getElementById('artistName').textContent = artist.name;
+    document.getElementById('artistDescription').textContent = artistDesc;
+
+    // 5. Color Palette (Ensure all 4 colors are shown)
     const colorsContainer = document.getElementById('artistColors');
     if (colorsContainer) {
       const colors = artist.styleHints.colorPalette;
-      colorsContainer.innerHTML = colors.slice(0, 4).map(color =>
+      // Removed slice to show all available colors (usually 4)
+      colorsContainer.innerHTML = colors.map(color =>
         `<span class="color-dot" style="background: ${color};" title="${color}"></span>`
       ).join('');
     }
 
-    // 4. Metadata (Model, Prompt)
+    // 6. Metadata (Model, Prompt)
     const modelEl = document.getElementById('modelInfo');
     const promptEl = document.getElementById('promptText');
 
@@ -206,11 +239,14 @@ class MediaArtViewer {
       if (promptEl) promptEl.textContent = daily.prompt || 'No prompt available';
     } else {
       if (modelEl) modelEl.textContent = "MODEL: -";
-      if (promptEl) promptEl.textContent = "프롬프트 정보가 없습니다.";
+      if (promptEl) promptEl.textContent = userLang === 'ko' ? "프롬프트 정보가 없습니다." : "No prompt information available.";
     }
 
-    // 5. Global Styles
-    document.title = `${daily ? daily.title : artist.name} | Media Art Viewer`;
+    // 7. Global Styles & Title
+    const pageTitle = daily
+      ? (typeof daily.title === 'object' ? daily.title[userLang] : daily.title)
+      : artist.name;
+    document.title = `${pageTitle} | Media Art Viewer`;
 
     const colors = artist.styleHints.colorPalette;
     document.documentElement.style.setProperty('--color-dynamic-primary', colors[0]);

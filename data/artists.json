@@ -5,7 +5,10 @@
       "name": "AURA-7",
       "theme": "Organic Flow",
       "promptBase": "bioluminescent organic shapes, flowing liquid light, deep underwater atmosphere, glowing tendrils",
-      "description": "숨 쉬는 자연의 빛, 유기적 생명의 흐름",
+      "description": {
+        "ko": "숨 쉬는 자연의 빛, 유기적 생명의 흐름",
+        "en": "Breathing light of nature, flow of organic life"
+      },
       "styleHints": {
         "colorPalette": [
           "#2D5A3D",
@@ -23,7 +26,10 @@
       "name": "KURO-X",
       "theme": "Geometric Glitch",
       "promptBase": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
-      "description": "질서 속 혼돈, 파편이 만드는 완벽한 균형",
+      "description": {
+        "ko": "질서 속 혼돈, 파편이 만드는 완벽한 균형",
+        "en": "Chaos within order, perfect balance created by fragments"
+      },
       "styleHints": {
         "colorPalette": [
           "#1A1A1A",
@@ -41,7 +47,10 @@
       "name": "NEON-V",
       "theme": "Cyberpunk City",
       "promptBase": "cyberpunk cityscape colors, neon pink and blue, rainy reflections, futuristic urban texture",
-      "description": "네온과 금속, 미래 도시의 디지털 낭만",
+      "description": {
+        "ko": "네온과 금속, 미래 도시의 디지털 낭만",
+        "en": "Neon and metal, digital romance of a futuristic city"
+      },
       "styleHints": {
         "colorPalette": [
           "#FF00FF",
@@ -59,7 +68,10 @@
       "name": "FLORA-9",
       "theme": "Digital Nature",
       "promptBase": "fractal flowers, blooming digital petals, soft pastels, nature reclaiming technology",
-      "description": "영원히 피어나는 디지털 정원의 봄",
+      "description": {
+        "ko": "영원히 피어나는 디지털 정원의 봄",
+        "en": "Spring of a digital garden that blooms forever"
+      },
       "styleHints": {
         "colorPalette": [
           "#4A0E4E",
@@ -77,7 +89,10 @@
       "name": "ECHO-0",
       "theme": "Sound Visualization",
       "promptBase": "visualized soundwaves, vibrating frequencies, minimal lines reacting to invisible sound",
-      "description": "침묵 속 울림, 소리의 시각적 공명",
+      "description": {
+        "ko": "침묵 속 울림, 소리의 시각적 공명",
+        "en": "Resonance in silence, visual consonance of sound"
+      },
       "styleHints": {
         "colorPalette": [
           "#FF4500",
@@ -95,7 +110,10 @@
       "name": "VOID-3",
       "theme": "Cosmic Deep",
       "promptBase": "deep space nebula, stars dust, infinite void, cosmic horror majesty",
-      "description": "심연의 별, 무한 우주의 고요한 장엄",
+      "description": {
+        "ko": "심연의 별, 무한 우주의 고요한 장엄",
+        "en": "Stars of the abyss, silent majesty of the infinite universe"
+      },
       "styleHints": {
         "colorPalette": [
           "#0D0221",
@@ -113,7 +131,10 @@
       "name": "TERRA-1",
       "theme": "Earth Texture",
       "promptBase": "topographic maps, rough textures of rocks and soil, earthy tones, sediment layers",
-      "description": "흙과 바위, 시간이 새긴 대지의 서사",
+      "description": {
+        "ko": "흙과 바위, 시간이 새긴 대지의 서사",
+        "en": "Earth and rock, narrative of the land carved by time"
+      },
       "styleHints": {
         "colorPalette": [
           "#8B4513",
@@ -131,7 +152,10 @@
       "name": "AQUA-5",
       "theme": "Deep Ocean",
       "promptBase": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
-      "description": "심해의 빛, 투명한 생명의 평온한 춤",
+      "description": {
+        "ko": "심해의 빛, 투명한 생명의 평온한 춤",
+        "en": "Light of the deep sea, peaceful dance of transparent life"
+      },
       "styleHints": {
         "colorPalette": [
           "#006994",
@@ -149,7 +173,10 @@
       "name": "PRISM-2",
       "theme": "Light Refraction",
       "promptBase": "light dispersion, rainbow caustics, glass refraction, chromatic aberration",
-      "description": "빛의 굴절, 무지개가 담긴 순수 에너지",
+      "description": {
+        "ko": "빛의 굴절, 무지개가 담긴 순수 에너지",
+        "en": "Refraction of light, pure energy containing the rainbow"
+      },
       "styleHints": {
         "colorPalette": [
           "#FF0080",

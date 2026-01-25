@@ -75,11 +75,14 @@ async function generateBatchArtworks(artists, date, history) {
             .map(([_, p]) => p)
             .slice(-10); // Last 10 works
 
+        // Handle description object (fallback to string if legacy)
+        const descEn = (typeof artist.description === 'object') ? artist.description.en : artist.description;
+
         return {
             id: artist.id,
             name: artist.name,
             theme: artist.theme,
-            philosophy: artist.description,
+            philosophy: descEn,
             baseStyle: artist.promptBase,
             colors: artist.styleHints.colorPalette.join(', '),
             pastPrompts: pastPrompts
@@ -89,28 +92,48 @@ async function generateBatchArtworks(artists, date, history) {
     // High-Fidelity Prompt Engineering
     const systemPrompt = `
       You are an expert Art Director and Prompt Engineer for a high-end digital art exhibition.
-      Your task is to generate **production-ready**, **highly detailed** image generation prompts for ${artists.length} distinct artists.
+      Your task is to generate **production-ready**, **highly detailed** image generation prompts and metadata for ${artists.length} distinct artists.
 
       ## Global Quality Standards (Must apply to ALL prompts):
       - **Render Quality**: Unreal Engine 5, Octane Render, 8k resolution, hyper-realistic, sharp focus, raytracing.
       - **Lighting**: Volumetric lighting, cinematic lighting, dramatic shadows, global illumination.
       - **Texture**: Detailed textures, subsurface scattering (if applicable), intricate details.
-      - **Composition**: Golden ratio, rule of thirds, dynamic perspective, depth of field.
+      - **Complexity**: NEVER use simple descriptions. Always describe complex interactions of light, form, and texture.
+      - **Specific Focus**:
+        - AQUA-5: Focus on fluid simulation, caustic patterns, bubbles, and deep-sea translucency.
+        - PRISM-2: Focus on spectral dispersion, refractive indices, crystal facets, and light splitting.
+        - TERRA-1: Focus on erosion patterns, geological strata, sedimentary layers, and raw organic textures.
+        - VOID-3: Focus on nebulous gas clouds, star clusters, event horizons, and cosmic scale.
       
       ## Instructions:
-      1. **Uniqueness**: For each artist, check their 'pastPrompts'. Generate something COMPLETELY NEW in terms of composition and subject matter while keeping their 'Theme' and 'BaseStyle'.
-      2. **Specificity**: Avoid vague terms like "abstract art". Be specific: "shattering glass shards suspended in mid-air", "liquid chrome flowing over obsidian rocks".
-      3. **Structure**: 
+      1. **Uniqueness**: Review 'pastPrompts'. Generate something COMPLETELY NEW in terms of composition and subject matter while keeping their 'Theme' and 'BaseStyle'.
+      2. **Structure**: 
          - Subject Description (Unique for today)
          - Artist's Visual Style (BaseStyle + Colors)
          - Technical Specs (Lighting, Render, Quality)
-      
+      3. **Metadata**: Create a poetic Title and Description in both English and Korean.
+
       ## Input Data:
       ${JSON.stringify(artistContexts, null, 2)}
 
       ## Output Format:
-      Return a **JSON Object** where keys are 'artistId' and values are the generated prompt strings.
-      Example: { "aura-7": "Detailed prompt...", "kuro-x": "Detailed prompt..." }
+      Return a **JSON Object** where keys are 'artistId' and values are objects containing:
+      - 'prompt': The detailed English art prompt.
+      - 'title_en': Title in English.
+      - 'title_ko': Title in Korean.
+      - 'description_en': Short poetic description in English (1-2 sentences).
+      - 'description_ko': Short poetic description in Korean (1-2 sentences).
+      
+      Example: 
+      { 
+        "aura-7": { 
+            "prompt": "...", 
+            "title_en": "Whisper of the Deep", 
+            "title_ko": "심해의 속삭임",
+            "description_en": "...", 
+            "description_ko": "..."
+        } 
+      }
     `;
 
     try {
@@ -130,17 +153,27 @@ async function generateBatchArtworks(artists, date, history) {
         console.log("Batch generation successful. Processing results...");
 
         for (const artist of artists) {
-            let prompt = generatedPrompts[artist.id];
+            let data = generatedPrompts[artist.id];
+            let prompt = "";
 
-            if (!prompt) {
-                console.error(`No prompt generated for ${artist.name}. Using fallback.`);
+            if (!data || !data.prompt) {
+                console.error(`No data generated for ${artist.name}. Using fallback.`);
                 prompt = artist.promptBase;
+                data = {
+                    prompt: artist.promptBase,
+                    title_en: "Untitled",
+                    title_ko: "무제",
+                    description_en: "No description available.",
+                    description_ko: "설명이 없습니다."
+                };
             } else {
+                prompt = data.prompt;
                 // Safety Check
                 const isSafe = await validateContent(prompt);
                 if (!isSafe) {
                     console.warn(`[${artist.name}] Safety check failed. Using fallback.`);
                     prompt = artist.promptBase;
+                    data.prompt = prompt;
                 }
             }
 
@@ -153,7 +186,14 @@ async function generateBatchArtworks(artists, date, history) {
             const artworkData = {
                 date: date,
                 artistId: artist.id,
-                title: "Daily Creation",
+                title: {
+                    ko: data.title_ko,
+                    en: data.title_en
+                },
+                description: {
+                    ko: data.description_ko,
+                    en: data.description_en
+                },
                 prompt: prompt,
                 style: styleData,
                 generatedAt: new Date().toISOString()

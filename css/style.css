@@ -210,6 +210,35 @@ a:hover {
   height: 20px;
 }
 
+/* Language Toggle */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-sm {
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  height: 32px;
+}
+
+.lang-divider {
+  opacity: 0.3;
+  margin: 0 4px;
+}
+
+.lang-text {
+  opacity: 0.4;
+  transition: opacity 0.2s;
+}
+
+.lang-text.active {
+  opacity: 1;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
 /* Button Base */
 .btn {
   display: inline-flex;
@@ -747,15 +776,12 @@ a:hover {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.4);
   white-space: pre-wrap;
-  max-height: 80px;
-  overflow-y: auto;
   line-height: 1.4;
-  transition: color 0.2s, max-height 0.2s;
+  transition: color 0.2s;
 }
 
 .prompt-text:hover {
   color: rgba(255, 255, 255, 0.8);
-  max-height: 200px;
 }
 
 .controls {
