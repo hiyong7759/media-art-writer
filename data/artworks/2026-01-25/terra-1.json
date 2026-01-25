@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "terra-1",
   "title": {
-    "ko": "시간의 지층",
-    "en": "Strata of Time"
+    "ko": "돌의 연대기",
+    "en": "Chronicle of Stone"
   },
   "description": {
-    "ko": "지구의 수직 도서관, 바위의 모든 층은 지나온 영겁의 시간을 이야기합니다.",
-    "en": "A vertical library of the earth, where every layer of rock tells a story of an eon passed."
+    "ko": "퇴적물과 시간의 층위 속에 새겨진 세상의 역사.",
+    "en": "The history of the world etched into the sediment and layers of time."
   },
   "prompt": "topographic maps, rough textures of rocks and soil, earthy tones, sediment layers",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-25T06:34:05.141Z"
+  "generatedAt": "2026-01-25T06:41:59.718Z"
 }

@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "neon-v",
   "title": {
-    "ko": "크롬의 비",
-    "en": "Chromium Rain"
+    "ko": "홀로그램의 비",
+    "en": "Holographic Rainfall"
   },
   "description": {
-    "ko": "금속성 빗방울마다 반사되는, 잠들지 않는 도시의 짜릿한 심장박동.",
-    "en": "The electric heartbeat of a city that never sleeps, reflected in every drop of metallic rain."
+    "ko": "결코 잠들지 않는 도시의 젖은 보도에 반사된 인공적인 꿈.",
+    "en": "Artificial dreams reflected in the damp pavements of a city that never sleeps."
   },
-  "prompt": "Unreal Engine 5, Octane Render, 8k. An ultra-detailed close-up of a futuristic skyscraper's facade during a torrential downpour. Neon pink and cyan fiber-optic cables glowing behind wet glass panels. Hyper-realistic rain reflections and futuristic urban textures with volumetric fog. Cinematic lighting highlighting the intricate circuit-like architecture of a digital metropolis.",
+  "prompt": "cyberpunk cityscape colors, neon pink and blue, rainy reflections, futuristic urban texture",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T06:34:01.140Z"
+  "generatedAt": "2026-01-25T06:41:53.591Z"
 }

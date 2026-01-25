@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "aqua-5",
   "title": {
-    "ko": "생체 발광의 해류",
-    "en": "Bioluminescent Current"
+    "ko": "시안의 안식처",
+    "en": "Cyan Sanctuary"
   },
   "description": {
-    "ko": "심해의 압력을 견디며 유영하는 심해 생명체들의 평화로운 군무.",
-    "en": "The peaceful choreography of deep-sea spirits navigating the weightless pressure of the abyss."
+    "ko": "심해의 압도적인 깊이 속에서 펼쳐지는 고요한 빛의 발레.",
+    "en": "A quiet ballet of light in the crushing depths of the deep sea."
   },
   "prompt": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T06:34:05.206Z"
+  "generatedAt": "2026-01-25T06:41:59.831Z"
 }
