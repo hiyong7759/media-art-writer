@@ -1,1 +1,0 @@
-light dispersion, rainbow caustics, glass refraction, chromatic aberration

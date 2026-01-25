@@ -14,7 +14,7 @@ if (API_KEY) {
     console.warn("Warning: GEMINI_API_KEY is not set. Using fallback prompts.");
 }
 
-const { validateContent } = require('./safety-check');
+
 const { analyzeAndGenerateStyle } = require('./style-analyzer');
 const HISTORY_FILE = path.join(__dirname, '../data/history.json');
 
@@ -156,7 +156,7 @@ async function generateBatchArtworks(artists, date, history) {
             let data = generatedPrompts[artist.id];
             let prompt = "";
 
-            if (!data || !data.prompt) {
+            if (!prompt) {
                 console.error(`No data generated for ${artist.name}. Using fallback.`);
                 prompt = artist.promptBase;
                 data = {
@@ -166,16 +166,8 @@ async function generateBatchArtworks(artists, date, history) {
                     description_en: "No description available.",
                     description_ko: "설명이 없습니다."
                 };
-            } else {
-                prompt = data.prompt;
-                // Safety Check
-                const isSafe = await validateContent(prompt);
-                if (!isSafe) {
-                    console.warn(`[${artist.name}] Safety check failed. Using fallback.`);
-                    prompt = artist.promptBase;
-                    data.prompt = prompt;
-                }
             }
+            // Safety check removed by user request
 
             console.log(`[${artist.name}] Prompt: ${prompt.substring(0, 50)}...`);
 
