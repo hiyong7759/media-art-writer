@@ -413,6 +413,7 @@ class MediaArtViewer {
     const colors = artist.styleHints.colorPalette;
 
     // Select Engine
+    this.canvas.style.backgroundColor = ''; // Reset background tint
     let engineType = artist.styleHints.engineType || this.inferEngineType(artist.id);
 
     // Initialize specific engine

@@ -28,8 +28,17 @@ export class GeometricEngine extends ArtEngine {
 
     draw() {
         // Transparent Check for Kuro-X (Needs high visibility)
+        // 1. Dynamic Background Tint (Deep Dark)
+        if (this.canvas) {
+            this.canvas.style.backgroundColor = 'rgba(5, 5, 8, 0.85)';
+        }
+
         if (this.transparentMode) {
-            this.ctx.clearRect(0, 0, this.width, this.height);
+            this.ctx.save();
+            this.ctx.globalCompositeOperation = 'destination-out';
+            this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            this.ctx.fillRect(0, 0, this.width, this.height);
+            this.ctx.restore();
         } else {
             this.ctx.fillStyle = 'rgba(10, 10, 15, 0.1)';
             this.ctx.fillRect(0, 0, this.width, this.height);
