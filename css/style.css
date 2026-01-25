@@ -566,11 +566,22 @@ a:hover {
   inset: 0;
 }
 
+/* 배경 이미지 레이어 */
+.artwork-background {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
 #generativeCanvas {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .info-overlay {
@@ -799,6 +810,59 @@ a:hover {
 .viewer-container.show-controls .controls {
   opacity: 1;
   pointer-events: auto;
+}
+
+/* Animation Controls (Top Center) */
+.animation-controls {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  background: rgba(20, 20, 30, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  z-index: 20;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.viewer-container.show-controls .animation-controls {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.animation-controls.hidden {
+  display: none !important;
+}
+
+.mode-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 50px;
+}
+
+.mode-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.mode-btn.active {
+  background: var(--color-accent);
+  color: white;
+  box-shadow: 0 0 15px var(--color-accent-glow);
 }
 
 .control-btn {

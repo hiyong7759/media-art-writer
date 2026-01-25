@@ -7,10 +7,12 @@ class MediaArtViewer {
   constructor() {
     this.canvas = document.getElementById('generativeCanvas');
     this.ctx = this.canvas.getContext('2d');
+    this.bgDiv = document.getElementById('artworkBackground');
     this.currentArtist = null;
     this.dailyArtwork = null; // Store daily data
     this.animationId = null;
     this.engine = null;
+    this.hasBackgroundImage = false; // 배경 이미지 모드 플래그
 
     this.init();
   }
@@ -62,6 +64,10 @@ class MediaArtViewer {
       if (e.key === 'Escape') {
         window.location.href = 'index.html';
       }
+      // [Dev] Test random data for variety check
+      if (e.key === 'd' || e.key === 'D') {
+        this.testRandomData();
+      }
     });
 
     document.getElementById('fullscreenBtn')?.addEventListener('click', () => {
@@ -73,14 +79,72 @@ class MediaArtViewer {
     });
 
     document.getElementById('saveBtn')?.addEventListener('click', () => {
+      // 1. Create temporary canvas
+      const tempCanvas = document.createElement('canvas');
+      tempCanvas.width = this.canvas.width;
+      tempCanvas.height = this.canvas.height;
+      const tCtx = tempCanvas.getContext('2d');
+
+      // 2. Draw Background
+      if (this.hasBackgroundImage && this.bgImage) {
+        // Cover fit logic
+        const img = this.bgImage;
+        const aspect = img.width / img.height;
+        const canvasAspect = tempCanvas.width / tempCanvas.height;
+        let drawW, drawH, drawX, drawY;
+
+        if (aspect > canvasAspect) {
+          drawH = tempCanvas.height;
+          drawW = drawH * aspect;
+          drawX = (tempCanvas.width - drawW) / 2;
+          drawY = 0;
+        } else {
+          drawW = tempCanvas.width;
+          drawH = drawW / aspect;
+          drawX = 0;
+          drawY = (tempCanvas.height - drawH) / 2;
+        }
+        tCtx.drawImage(img, drawX, drawY, drawW, drawH);
+      } else {
+        tCtx.fillStyle = '#0a0a0f';
+        tCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+      }
+
+      // 3. Apply Mix-Blend-Mode simulation (approximate)
+      if (this.currentArtist && this.currentArtist.id === 'neon-v') {
+        tCtx.globalCompositeOperation = 'screen';
+      } else {
+        tCtx.globalCompositeOperation = 'source-over';
+      }
+
+      // 4. Draw Generative Canvas
+      tCtx.drawImage(this.canvas, 0, 0);
+
+      // 5. Download
       const link = document.createElement('a');
       link.download = `media-art-${this.currentArtist.id}-${Date.now()}.png`;
-      link.href = this.canvas.toDataURL('image/png');
+      link.href = tempCanvas.toDataURL('image/png');
       link.click();
     });
 
     document.getElementById('toggleInfoBtn')?.addEventListener('click', () => {
       document.getElementById('infoOverlay')?.classList.toggle('hidden');
+    });
+
+    // Animation Mode Switching
+    document.getElementById('animationControls')?.addEventListener('click', (e) => {
+      if (e.target.classList.contains('mode-btn')) {
+        const mode = e.target.dataset.mode;
+
+        // Update Active UI
+        document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+
+        // Switch Engine Mode
+        if (this.engine && typeof this.engine.setMode === 'function') {
+          this.engine.setMode(mode);
+        }
+      }
     });
   }
 
@@ -138,12 +202,66 @@ class MediaArtViewer {
       this.currentArtist = artist;
       this.dailyArtwork = dailyData;
 
+      // 배경 이미지 로드 시도
+      await this.loadBackgroundImage(artistId, targetDate);
+
+      this.updateUI();
       this.updateUI();
       this.initEngine();
       this.animate();
     } catch (error) {
       console.error('Failed to load artist:', error);
     }
+  }
+
+  // 배경 이미지 로드 (하이브리드 아트)
+  loadBackgroundImage(artistId, targetDate) {
+    return new Promise((resolve) => {
+      const bgUrl = `data/artworks/${targetDate}/${artistId}.png`;
+      const img = new Image();
+      img.onload = () => {
+        this.bgDiv.style.backgroundImage = `url(${bgUrl})`;
+        this.bgImage = img; // Save capture reference
+        this.hasBackgroundImage = true;
+        console.log('Background image loaded:', bgUrl);
+
+        const BLEND_MODES = {
+          'neon-v': 'screen',
+          'aqua-5': 'overlay',
+          'void-3': 'lighten',
+          'prism-2': 'color-dodge',
+          'default': 'normal'
+        };
+        this.canvas.style.mixBlendMode = BLEND_MODES[artistId] || BLEND_MODES.default;
+        resolve();
+      };
+      img.onerror = () => {
+        this.hasBackgroundImage = false;
+        console.log('No background image found, using solid background');
+        resolve();
+      };
+      img.src = bgUrl;
+    });
+  }
+
+  getArtistModes(artistId) {
+    const common = {
+      rain: 'Rain', scanner: 'Scan', hud: 'Sniper', data: 'Data', circuit: 'Circ', sign: 'Sign', net: 'Net'
+    };
+
+    const mapping = {
+      'neon-v': { ...common },
+      'aura-7': { rain: 'Seed', scanner: 'Wind', hud: 'Bloom', data: 'Flow', circuit: 'Root', sign: 'Pulse', net: 'Life' },
+      'kuro-x': { rain: 'Point', scanner: 'Line', hud: 'Poly', data: 'Solid', circuit: 'Chaos', sign: 'Frac', net: 'Dim' },
+      'void-3': { rain: 'Dust', scanner: 'Orbit', hud: 'Star', data: 'Nova', circuit: 'Galaxy', sign: 'Quasar', net: 'Void' },
+      'aqua-5': { rain: 'Drop', scanner: 'Tide', hud: 'Bubble', data: 'Stream', circuit: 'Deep', sign: 'Mist', net: 'Ice' },
+      'prism-2': { rain: 'Beam', scanner: 'Spec', hud: 'Bokeh', data: 'Neon', circuit: 'Mirror', sign: 'Glass', net: 'Flash' },
+      'echo-0': { rain: 'Voice', scanner: 'Wave', hud: 'EQ', data: 'Noise', circuit: 'String', sign: 'Pulse', net: 'Void' },
+      'terra-1': { rain: 'Sand', scanner: 'Layer', hud: 'Map', data: 'River', circuit: 'Rock', sign: 'Core', net: 'Mount' },
+      'flora-9': { rain: 'Petal', scanner: 'Vine', hud: 'Bloom', data: 'Pollen', circuit: 'Vine', sign: 'Scent', net: 'Garden' }
+    };
+
+    return mapping[artistId] || common;
   }
 
   getMockData(date) {
@@ -251,6 +369,25 @@ class MediaArtViewer {
     const colors = artist.styleHints.colorPalette;
     document.documentElement.style.setProperty('--color-dynamic-primary', colors[0]);
     document.documentElement.style.setProperty('--color-dynamic-secondary', colors[1]);
+
+    // 8. Animation Controls Visibility & Label Update
+    const controls = document.getElementById('animationControls');
+    if (controls) {
+      // Show controls for ALL artists now
+      controls.classList.remove('hidden');
+
+      // Update Button Labels based on Artist Theme
+      const modeNames = this.getArtistModes(artist.id);
+      const buttons = controls.querySelectorAll('.mode-btn');
+
+      buttons.forEach(btn => {
+        const modeKey = btn.getAttribute('data-mode'); // rain, scanner, etc.
+        if (modeNames[modeKey]) {
+          btn.textContent = modeNames[modeKey].toUpperCase();
+          btn.title = `${modeNames[modeKey]} Mode`;
+        }
+      });
+    }
   }
 
   hideLoading() {
@@ -275,7 +412,7 @@ class MediaArtViewer {
         this.engine = new GeometricEngine(this.canvas, this.ctx, colors);
         break;
       case 'Cyberpunk':
-        this.engine = new CyberpunkEngine(this.canvas, this.ctx, colors);
+        this.engine = new CyberpunkEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Wave':
         this.engine = new WaveEngine(this.canvas, this.ctx, colors);
@@ -301,6 +438,14 @@ class MediaArtViewer {
 
     // Initial resize to set up engine state
     this.engine.resize(this.canvas.width, this.canvas.height);
+
+    // Sync UI with Auto-Selected Mode (for Cyberpunk engine)
+    if (engineType === 'Cyberpunk' && this.engine.mode) {
+      const mode = this.engine.mode;
+      document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.querySelector(`.mode-btn[data-mode="${mode}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
+    }
   }
 
   inferEngineType(id) {
@@ -324,6 +469,70 @@ class MediaArtViewer {
       this.engine.draw();
     }
     this.animationId = requestAnimationFrame(() => this.animate());
+  }
+
+
+  // Developer Tool: Generate Random Data for Testing
+  testRandomData() {
+    const prompts = [
+      "Minimal short text.", // Should trigger Style 1 (Horizontal) or similar
+      "Complex neural network topology visualizing deep learning pathways. The data flows like water through the digital veins of the city.", // Style 0?
+      "ERROR ERROR ERROR ERROR ERROR ERROR FATAL SYSTEM FAILURE REBOOT SEQUENCE INITIATED", // Style 1 or 2
+      "0101010101011110001010101010101010101010101010101010101010101", // Style 0 or 2
+      "Aha!",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ];
+
+    // Randomize length more drastically
+    const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
+    // Allow very short or very long
+    let longText = randomPrompt;
+    if (Math.random() > 0.5) {
+      longText = randomPrompt.repeat(Math.floor(Math.random() * 5) + 1);
+    }
+
+    // Ensure variety in starting char for Circuit Style
+    const prefix = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+    longText = prefix + longText;
+
+    console.log(`[TEST] Applying Random Data (Length: ${longText.length})`);
+    console.log(`[TEST] Prompt: ${longText.substring(0, 50)}...`);
+
+    // Mock Daily Data
+    this.dailyArtwork = {
+      prompt: longText,
+      title: { ko: "테스트 데이터 모드", en: "Test Data Mode" },
+      description: { ko: "랜덤 생성된 데이터로 시각화 테스트 중입니다.", en: "Visualizing random generated data." }
+    };
+
+    // Save current mode if engine exists
+    let currentMode = 'rain';
+    if (this.engine && this.engine.mode) {
+      currentMode = this.engine.mode;
+    }
+
+    this.updateUI();
+    this.initEngine(); // Re-init engine with new data
+
+    // Restore mode
+    if (this.engine && typeof this.engine.setMode === 'function') {
+      this.engine.setMode(currentMode);
+
+      // Update UI buttons
+      const btn = document.querySelector(`.mode-btn[data-mode="${currentMode}"]`);
+      if (btn) {
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+    }
+
+    // Show toast or log
+    const titleEl = document.getElementById('artworkTitle');
+    let styleInfo = "";
+    if (this.engine.getCurrentStyleName) {
+      styleInfo = ` | Style: ${this.engine.getCurrentStyleName()}`;
+    }
+    if (titleEl) titleEl.textContent = `TEST DATA (${longText.length} chars)${styleInfo}`;
   }
 }
 

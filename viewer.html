@@ -22,7 +22,10 @@
             <p style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-text-secondary);">작품을 불러오는
                 중...</p>
         </div>
-        <div class="artwork-wrapper"><canvas id="generativeCanvas"></canvas></div>
+        <div class="artwork-wrapper">
+            <div id="artworkBackground" class="artwork-background"></div>
+            <canvas id="generativeCanvas"></canvas>
+        </div>
         <a href="index.html" class="back-btn control-btn" aria-label="뒤로">
             <svg viewBox="0 0 24 24">
                 <path d="M19 12H5M12 19l-7-7 7-7" />
@@ -48,6 +51,17 @@
                         d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
                 </svg>
             </button>
+        </div>
+
+        <!-- Animation Controls (NEON-V Only) -->
+        <div class="animation-controls hidden" id="animationControls">
+            <button class="mode-btn active" data-mode="rain" title="Digital Rain">RAIN</button>
+            <button class="mode-btn" data-mode="scanner" title="Glitch Scanner">SCAN</button>
+            <button class="mode-btn" data-mode="hud" title="Tactical Sniper">SNIPER</button>
+            <button class="mode-btn" data-mode="data" title="Data Stream">DATA</button>
+            <button class="mode-btn" data-mode="circuit" title="Neural Circuit">CIRC</button>
+            <button class="mode-btn" data-mode="sign" title="Signal Wave">SIGN</button>
+            <button class="mode-btn" data-mode="net" title="Cyber Net">NET</button>
         </div>
 
         <!-- Viewer Info Overlay (Split Layout) -->
