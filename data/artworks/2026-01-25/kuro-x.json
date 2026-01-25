@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": {
-    "ko": "파편화된 특이점",
-    "en": "Fragmented Singularity"
+    "ko": "부서진 논리",
+    "en": "Shattered Logic"
   },
   "description": {
-    "ko": "무너진 질서의 완벽한 균형, 흑백의 디지털 폭풍 속에서 혼돈과 구조가 충돌합니다.",
-    "en": "The perfect balance of a collapsed order, where chaos and structure collide in a monochromatic digital storm."
+    "ko": "수학적 질서와 디지털 혼돈이 만나는, 붕괴하는 시스템의 아름다움.",
+    "en": "The beauty of a system in collapse, where mathematical order and digital chaos converge."
   },
-  "prompt": "8k resolution, raytracing, sharp focus. A massive monochromatic monolithic sphere suspended in a white void, shattered into thousands of floating obsidian cubes and sharp geometric shards. Glitch art aesthetics featuring digital scanlines and pixel-sorted displacement tearing through the 3D space. High-contrast black and white lighting with brutalist shadows and complex monochrome textures.",
+  "prompt": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "intense",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF",
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T06:33:58.827Z"
+  "generatedAt": "2026-01-25T06:41:51.742Z"
 }

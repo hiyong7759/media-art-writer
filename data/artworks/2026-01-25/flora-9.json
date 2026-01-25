@@ -3,13 +3,13 @@
   "artistId": "flora-9",
   "title": {
     "ko": "실리콘의 개화",
-    "en": "Silicon Blossom"
+    "en": "Silicon Bloom"
   },
   "description": {
-    "ko": "빛과 코드로 짜인 꽃들이 계절을 잊은 정원에서 피어나는 디지털의 봄.",
-    "en": "A digital spring where flowers are woven from light and code, blooming in a garden that ignores the seasons."
+    "ko": "소프트웨어가 흙을 만나는 곳, 데이터와 디지털 빛으로 빚어진 꽃.",
+    "en": "Where software meets soil, a flower forged from data and digital light."
   },
-  "prompt": "Hyper-realistic 8k, Octane Render. A complex fractal flower where the petals are composed of iridescent glass layers and soft pastel digital fibers. Gold circuitry veins running through the translucent leaves. Nature reclaiming technology as digital pollen particles float in volumetric light. Subsurface scattering on blooming digital petals with soft pink and mint green hues.",
+  "prompt": "fractal flowers, blooming digital petals, soft pastels, nature reclaiming technology",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T06:34:02.598Z"
+  "generatedAt": "2026-01-25T06:41:55.284Z"
 }

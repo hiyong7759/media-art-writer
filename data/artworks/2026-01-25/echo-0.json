@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "echo-0",
   "title": {
-    "ko": "침묵의 공명",
-    "en": "Resonance of Silence"
+    "ko": "황금의 공명",
+    "en": "Resonance of Gold"
   },
   "description": {
-    "ko": "보이지 않는 것을 보이게 함으로써, 음파가 공기를 조각하는 찰나를 포착합니다.",
-    "en": "The invisible made visible, capturing the moment a sound wave sculpts the very air it travels through."
+    "ko": "공허의 정적을 뚫고 물결치는, 단 하나의 완벽한 음표가 남긴 시각적 메아리.",
+    "en": "The visual echo of a single perfect note, rippling through the silence of the void."
   },
-  "prompt": "Octane Render, 8k, raytracing. Three-dimensional soundwaves frozen in space, resembling concentric rings of liquid gold and electric blue mercury suspended in mid-air. Minimalist background with sharp focus on vibrating frequencies and minimal lines reacting to an invisible sonic boom. Dramatic global illumination and raytraced reflections on fluid metallic surfaces.",
+  "prompt": "visualized soundwaves, vibrating frequencies, minimal lines reacting to invisible sound",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "rhythmic",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T06:34:05.015Z"
+  "generatedAt": "2026-01-25T06:41:57.562Z"
 }

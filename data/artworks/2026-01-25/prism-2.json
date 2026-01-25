@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "prism-2",
   "title": {
-    "ko": "분광된 균열",
+    "ko": "스펙트럼의 균열",
     "en": "Spectral Fracture"
   },
   "description": {
-    "ko": "순수한 빛이 비밀스러운 색들로 부서지며, 단 하나의 광선 속에 숨겨진 무지개를 드러냅니다.",
-    "en": "Pure light shattered into its secret colors, revealing the hidden rainbow within a single beam."
+    "ko": "수천 개의 유리 단면에 의해 근원적인 비밀로 부서진 백색광.",
+    "en": "White light shattered into its primal secrets by a thousand glass facets."
   },
   "prompt": "light dispersion, rainbow caustics, glass refraction, chromatic aberration",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-25T06:34:05.267Z"
+  "generatedAt": "2026-01-25T06:41:59.910Z"
 }
