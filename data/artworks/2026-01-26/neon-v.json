@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "neon-v",
   "title": {
-    "ko": "오일로 뒤덮인 네온 부두",
-    "en": "The Oil-Slicked Neon Wharf"
+    "ko": "고공에서의 시안화 꿈",
+    "en": "Cyanide Dreams at Altitude"
   },
   "description": {
-    "ko": "밀폐된 골목에서 벗어나 거대한 산업용 해안가로 시선을 돌렸습니다. 이 작품은 육중한 해양 기계 장치와 시그니처 네온 미학의 조화에 집중하며, 움직이는 물결과 산업용 금속에 반사되는 복잡한 빛을 강조합니다.",
-    "en": "A shift from claustrophobic alleys to a vast, industrial waterfront. This piece focuses on the intersection of heavy maritime machinery and the signature neon aesthetics, highlighting complex reflections on moving water and industrial metal."
+    "ko": "네온의 비가 다가올 미래의 크롬 지평선과 만나는, 금속적 낭만이 머무는 찰나.",
+    "en": "A suspended moment of metallic romance, where neon rain meets the chrome horizon of a future yet to come."
   },
-  "prompt": "A wide-angle panoramic view of a massive, automated cyberpunk harbor during a heavy downpour. Enormous, rusted robotic cargo cranes tower over stacks of shipping containers glowing with flickering pink and cyan identification codes. The harbor water is a dark, oily expanse, churning with realistic fluid simulations that reflect the city's neon skyline through a thick layer of industrial smog. Bioluminescent chemicals leak into the waves, creating swirling patterns of glowing turquoise against the dark water. Rendered in 8k using Octane Render, featuring cinematic volumetric lighting, ray-traced reflections on both metal surfaces and churning water, and sharp focus on the spray of waves hitting the concrete pier.",
+  "prompt": "A high-altitude cinematic view of a maglev station suspended between two chrome skyscrapers in a rain-slicked cyberpunk metropolis. Intricate futuristic textures of brushed metal and wet glass reflect vibrant neon pink (#FF00FF) and cyan (#00FFFF) light. Volumetric neon smog fills the gaps between buildings, illuminated by global illumination from massive holographic displays. 8k, Octane Render, hyper-realistic fluid dynamics on the glass surfaces. The lighting is cinematic and moody, capturing the digital romance of a city that never sleeps, with sharp focus on the glowing maglev tracks.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T14:12:00.217Z"
+  "generatedAt": "2026-01-25T14:23:45.673Z"
 }

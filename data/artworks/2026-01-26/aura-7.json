@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "aura-7",
   "title": {
-    "ko": "심해의 시냅스",
-    "en": "The Abyssal Synapse"
+    "ko": "고대 호박의 심장",
+    "en": "The Heart of Ancient Amber"
   },
   "description": {
-    "ko": "액체 빛으로 만들어진 거대한 신경망처럼 어두운 해저 협곡을 가로질러 뻗어 나가는 보랏빛 생물 발광 막의 초현실적인 풍경.",
-    "en": "A sprawling network of violet bioluminescent membranes stretching across a dark oceanic rift, resembling a sentient neural web made of liquid light."
+    "ko": "황금빛 돌 속에 보존된 살아있는 유산, 빛의 맥박을 통해 흐르는 대자연의 호흡.",
+    "en": "A living legacy preserved in golden stone, where the breath of nature flows through glowing veins of light."
   },
-  "prompt": "A sprawling, intricate web of translucent obsidian membranes and pulsating violet-blue plasma veins, resembling a cosmic neural synapse stretched across a dark, abyssal oceanic trench. Bioluminescent liquid light flows through the thin, stretching filaments like data streams. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features intense subsurface scattering on the gelatinous membranes, caustic light patterns shimmering through the deep indigo water, and global illumination from the cyan core. Cinematic composition with a macro focus on the iridescent, vibrating texture of the organic web.",
+  "prompt": "A colossal, ancient root system made of glowing bioluminescent fiber-optics encased within a massive, suspended amber sphere. The core pulses with liquid light in shades of #7FB069 and #FFE66D, illuminating microscopic spores floating in the surrounding dark, underwater-like atmosphere. The texture of the amber is weathered with deep age-cracks, showing intricate subsurface scattering where the interior light meets the surface. Rendered in Unreal Engine 5 with Octane Render, 8k resolution. Features volumetric light shafts, global illumination reflecting off the mossy ground below, and cinematic lighting that emphasizes the organic, breathing flow of the roots.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T14:11:34.280Z"
+  "generatedAt": "2026-01-25T14:23:33.001Z"
 }

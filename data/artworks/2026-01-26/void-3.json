@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "void-3",
   "title": {
-    "ko": "공허 핵의 수정 침묵",
-    "en": "The Crystalline Silence of the Void-Core"
+    "ko": "청색 거성의 모놀리스",
+    "en": "Monoliths of the Blue Giant"
   },
   "description": {
-    "ko": "에메랄드빛 색조와 비유클리드 기하학적 건축이 특징인, 소멸한 우주의 마지막 기록을 상징하는 흑요석과 갇힌 별빛의 거대 구조물입니다.",
-    "en": "A vast, geometric structure of obsidian and trapped starlight, representing the final archive of a dead universe, characterized by emerald hues and non-Euclidean architecture."
+    "ko": "무한의 끝에서, 고대의 거울들이 허공으로 사라져가는 별의 마지막 빛을 붙잡습니다.",
+    "en": "At the edge of the infinite, ancient mirrors catch the last light of a star screaming into the void."
   },
-  "prompt": "An infinite lattice of jagged, obsidian-glass monoliths floating in the absolute center of a dead-star nebula. Within the translucent shards, the trapped light of a thousand extinguished suns glows with a sickly emerald and pale gold radiance. The structures form a non-Euclidean, recursive cathedral of geometric perfection, dwarfing entire solar systems. Cosmic scale, cosmic horror majesty. 8k, Octane Render, raytracing. Extreme volumetric shadow play, refractive light through crystalline surfaces, and global illumination from internal stellar embers. Detailed textures of cold, polished void-glass and ancient, etched celestial runes.",
+  "prompt": "A Dyson-swarm inspired structure of floating geometric mirrors surrounding a massive, dying blue giant star. Swirling nebulous gas clouds in deep violet (#3D1A78) and lavender (#E6E6FA) fill the infinite void, creating a sense of cosmic horror and majesty. Detailed textures of the weathered star-mirrors and intense volumetric lighting from the star's radiation. 8k resolution, raytracing, cinematic scale. Global illumination from the star scatters through the space dust, highlighting the event horizon of the surrounding abyss.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T14:12:39.497Z"
+  "generatedAt": "2026-01-25T14:24:04.705Z"
 }

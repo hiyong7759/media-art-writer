@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "prism-2",
   "title": {
-    "ko": "프리즘 그로토",
-    "en": "The Prismatic Grotto"
+    "ko": "다이아몬드 실크의 분산",
+    "en": "Diamond Silk Dispersion"
   },
   "description": {
-    "ko": "고립된 정물에서 벗어나 거대한 몰입형 환경으로 확장한 작품으로, 유기적인 크리스탈 생명체들이 단일 광원을 복잡한 굴절과 스펙트럼 산란의 교향곡으로 변화시키는 신비로운 동굴의 모습을 묘사합니다.",
-    "en": "A departure from isolated objects into a vast, immersive environment where organic crystal lifeforms transform a single light source into a complex symphony of refraction and spectral scattering."
+    "ko": "순수한 빛의 연약한 기하학, 단 하나의 광선이 수천 개의 수정 같은 꿈으로 부서집니다.",
+    "en": "A fragile geometry of pure light, where a single beam shatters into a thousand crystalline dreams."
   },
-  "prompt": "An expansive subterranean cavern filled with giant, organic crystalline flora resembling ferns and weeping willows. Each leaf is a thin, razor-sharp prism of high-index glass. A singular, intense beam of moonlight pierces through a crevice in the ceiling, striking the prismatic canopy and exploding into a chaotic, psychedelic display of spectral dispersion. The cave walls are draped in vibrant, swirling rainbow caustics. Intense chromatic aberration blurs the edges of the furthest crystals. Deep shadows contrast with the blindingly bright spectral threads. 8k, hyper-detailed, raytracing, cinematic macro photography of light hitting a crystal leaf edge, volumetric lighting.",
+  "prompt": "An intricate web of dew-covered spider silk made of synthetic diamond, suspended in a dark, minimalist void. A single concentrated beam of light hits the web, causing extreme spectral dispersion and rainbow caustics. Focus on the high refractive indices of the diamond droplets and the chromatic aberration at the edges of the light splits. 8k, hyper-realistic, raytracing. Global illumination and cinematic lighting capture the pure energy of the rainbow contained within the crystalline structure.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-25T14:14:03.109Z"
+  "generatedAt": "2026-01-25T14:24:23.612Z"
 }

@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "aqua-5",
   "title": {
-    "ko": "심해의 갈비뼈 제단",
-    "en": "The Abyssal Ribcage Altar"
+    "ko": "유체 용의 야상곡",
+    "en": "The Fluid Dragon's Nocturne"
   },
   "description": {
-    "ko": "이 작품은 무리나 소용돌이에서 벗어나 거대하고 정적인 골격 구조물에 집중합니다. 단단하고 오래된 뼈와 부드럽고 빛나는 관해파리 사이의 대비를 강조하며, 무거운 소금물이 만들어내는 '수중 폭포'를 통해 독특한 유체 움직임을 묘사합니다.",
-    "en": "This piece shifts away from swarms and vortices toward a monumental, static skeletal structure. It focuses on the contrast between the hard, ancient bone and the soft, glowing siphonophores, featuring 'underwater waterfalls' of heavy brine to create unique fluid movement."
+    "ko": "심해의 빛과 압력의 춤 속을 움직이는, 심연의 투명한 영혼.",
+    "en": "A transparent spirit of the abyss, moving through a dance of light and pressure in the deep."
   },
-  "prompt": "An ancient, skeletal ribcage of a leviathan resting on the silken sands of the Abyssal Plain, overgrown with translucent, neon-veined siphonophores that resemble delicate glass lace. Cascading streams of heavy, luminous brine fall through the skeletal gaps like underwater waterfalls. Intricate fluid dynamics of the brine mixing with the surrounding dark water, creating swirling indigo smoke patterns. Detailed caustic light refracted through the gelatinous membranes of the siphonophores. 8k, Octane Render. Focus on macro textures of the translucent tissue and the interplay of volumetric violet lighting against the deep-sea dark. Raytraced subsurface scattering on the bioluminescent organs.",
+  "prompt": "A majestic sea dragon composed entirely of hyper-realistic fluid dynamics, weaving through a forest of glowing thermal vents. Detailed caustic patterns are projected onto the dragon's translucent skin and the sea floor. Focus on deep-sea translucency, rising bubble clusters, and the intricate dance of liquid light (#40E0D0, #000080). 8k, Octane Render, raytraced caustics. Volumetric underwater lighting and subsurface scattering create a peaceful yet mysterious atmosphere in the midnight ocean.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#006994",
     "--dynamic-secondary": "#40E0D0",
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T14:13:06.138Z"
+  "generatedAt": "2026-01-25T14:24:17.335Z"
 }

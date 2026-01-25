@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "flora-9",
   "title": {
-    "ko": "메아리치는 개화",
-    "en": "The Echoing Bloom"
+    "ko": "데이터의 봄, 깨어남",
+    "en": "The Data-Spring Awakening"
   },
   "description": {
-    "ko": "구식 통신 기술 장치가 고도의 디지털 식생을 위한 양육장으로 재탄생하는 광활한 풍경화로, 차갑고 부식된 금속과 활기차고 분형(fractal)적인 생명체 사이의 대조를 강조합니다.",
-    "en": "A vast landscape piece showing an obsolete piece of communication technology being repurposed as a nursery for advanced digital vegetation, emphasizing the contrast between cold, decaying metal and vibrant, fractal life."
+    "ko": "정보가 꽃잎으로 피어나고 빛이 기계에 생명을 불어넣는 디지털 정원.",
+    "en": "A digital garden where information blooms into petals and light breathes life into the machine."
   },
-  "prompt": "An abandoned, decaying satellite dish deep in a misty valley, its rusted metal surface being overtaken by a thick layer of luminescent fractal moss and giant, translucent mushrooms with geometric gill structures. From the center of the dish, a massive orchid-like flower blooms, its petals made of shimmering, soft-pastel glass layers that pulse with faint data-streams. The surrounding air is filled with floating spores that resemble tiny, glowing polyhedral shapes. Soft lavender, mint, and pale peach color palette. 8k resolution, wide-angle cinematic shot, hyper-realistic textures of weathered metal against delicate digital flora, volumetric lighting filtering through a thick morning fog.",
+  "prompt": "A 'Neural Willow Tree' whose hanging branches are made of glowing fiber-optic strands, interacting with a swarm of holographic, fractal butterflies. The petals on the ground are translucent binary-coded leaves in soft pastels (#89CFF0, #FFB6C1). Nature is shown reclaiming a derelict server room, with moss growing over metallic processors. Macro photography style, 8k, Unreal Engine 5. Subsurface scattering on the digital flora, soft bokeh background, and cinematic lighting that highlights the delicate, blooming textures of the forever-spring garden.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T14:12:12.895Z"
+  "generatedAt": "2026-01-25T14:23:52.022Z"
 }

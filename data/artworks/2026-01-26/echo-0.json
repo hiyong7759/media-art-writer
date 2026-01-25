@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "echo-0",
   "title": {
-    "ko": "흑요석의 공명",
-    "en": "The Obsidian Resonance"
+    "ko": "침묵하는 사막의 공명",
+    "en": "Resonance of the Silent Desert"
   },
   "description": {
-    "ko": "고주파의 긴장감을 시각화한 연구로, 빈 공간 속에서 단단한 흑요석을 파괴하고 리드미컬한 건축적 막으로 재구성하는 소리의 힘을 표현합니다.",
-    "en": "A study of high-frequency tension, visualizing sound as the force that shatters and reconstructs solid obsidian into a rhythmic architectural membrane within a void."
+    "ko": "보이지 않는 것이 실체가 되는 곳, 소리의 건축이 대지의 정적 속에서 솟아오릅니다.",
+    "en": "The invisible made manifest, where the architecture of sound rises from the stillness of the earth."
   },
-  "prompt": "A macro close-up of a singular, translucent obsidian membrane suspended in a pitch-black void, vibrating violently to a high-frequency violin pitch. The membrane is shattering into microscopic geometric glass shards that reassemble in mid-air, following the path of invisible, glowing ultraviolet soundwaves. Minimalist white neon lines intersect the fracture points, tracing the mathematical logic of the frequency. 6A0DAD ultraviolet accents. Unreal Engine 5, 8k, raytracing. Extreme depth of field with sharp focus on the crystalline fractures and soft bokeh on the vibrating edges. Cinematic lighting using a singular top-down spotlight to create high-contrast shadows and emphasize the physical anatomy of a single note.",
+  "prompt": "A vast landscape of vibrating architectural glass pillars of varying heights, forming a physical 3D waveform across a silent digital desert. The pillars resonate with visible frequency ripples in the air, colored in intense bursts of #FF4500 and #4169E1. Sharp focus on the microscopic vibrations on the glass surfaces. 8k, raytracing, Octane Render. The lighting mimics a sunset over a digital sea, creating long, dramatic shadows that visualize the silence and the hidden consonance of sound.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#FF4500",
     "--dynamic-secondary": "#4169E1",
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T14:12:26.522Z"
+  "generatedAt": "2026-01-25T14:23:58.297Z"
 }

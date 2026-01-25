@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "kuro-x",
   "title": {
-    "ko": "신경 글리치 매트릭스",
-    "en": "The Neural Glitch Matrix"
+    "ko": "단색 복셀의 엔트로피",
+    "en": "Monochrome Voxel Entropy"
   },
   "description": {
-    "ko": "건축적 형태에서 벗어나 생물학적 형상을 탐구한 이 작품은, 극단적인 기하학적 붕괴와 고속 데이터 용해 미학을 통해 인간의 실루엣이 해체되는 과정을 보여줍니다.",
-    "en": "A departure from architectural forms into the biological, this piece explores the deconstruction of a human silhouette through extreme geometric corruption and high-speed data-melt aesthetics."
+    "ko": "디지털 파편화의 완벽한 춤, 황량한 기하학적 공허 속에서 질서와 혼돈이 충돌합니다.",
+    "en": "A perfect dance of digital fragmentation, where order and chaos collide in a stark, geometric void."
   },
-  "prompt": "A hyper-detailed profile of a human bust composed entirely of razor-sharp, interlocking black obsidian polygons and crystalline white structures. The form is experiencing a violent 'data-melt,' with massive horizontal displacement glitches and pixel-sorting artifacts tearing the facial features into a chaotic stream of monochrome geometric fragments. High-contrast 8k rendering with intense raytraced reflections and harsh shadows. The background is a dense field of digital scanlines and rhythmic geometric noise. Sharp angles, global illumination, and textured digital corruption define the volumetric form in a sterile, high-bitrate void.",
+  "prompt": "A complex 3D isometric labyrinth composed of shifting monochrome voxels and obsidian plates, deconstructing and reconstructing in mid-air. The scene features high-contrast glitch art aesthetics with digital scanlines slicing through the sharp angles of the structure. Reflections of pure white light (#FFFFFF) hit the matte black surfaces (#1A1A1A), creating a stark, high-contrast environment. 8k resolution, raytracing enabled, sharp focus on the fragmented edges. Cinematic lighting with dramatic shadows highlights the geometric chaos and the perfect balance of the digital void.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T14:11:46.309Z"
+  "generatedAt": "2026-01-25T14:23:39.299Z"
 }
