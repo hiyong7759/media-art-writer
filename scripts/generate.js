@@ -64,6 +64,47 @@ function updateHistory(artistId, date, prompt) {
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
 }
 
+// Helper: Similarity Check (Bi-gram Dice Coefficient)
+function getBigrams(text) {
+    const words = text.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 0);
+    const bigrams = new Set();
+    for (let i = 0; i < words.length - 1; i++) {
+        bigrams.add(`${words[i]} ${words[i + 1]}`);
+    }
+    return bigrams;
+}
+
+function getSimilarity(text1, text2) {
+    if (!text1 || !text2) return 0;
+    const s1 = getBigrams(text1);
+    const s2 = getBigrams(text2);
+
+    if (s1.size === 0 || s2.size === 0) return 0;
+
+    let intersection = 0;
+    for (const item of s1) {
+        if (s2.has(item)) intersection++;
+    }
+
+    return (2.0 * intersection) / (s1.size + s2.size);
+}
+
+function isDuplicate(newPrompt, historyObj) {
+    if (!historyObj) return false;
+    const THRESHOLD = 0.8; // 80% similarity threshold
+
+    // Compare 1-to-1 with EVERY past prompt
+    for (const [date, pastPrompt] of Object.entries(historyObj)) {
+        if (!pastPrompt) continue;
+        const score = getSimilarity(newPrompt, pastPrompt);
+        if (score >= THRESHOLD) {
+            console.warn(`[Duplicate Detected] Score: ${(score * 100).toFixed(1)}% vs (${date})`);
+            return true;
+        }
+    }
+    return false;
+}
+
 async function generateBatchArtworks(artists, date, history) {
     console.log(`Starting Batch Generation for ${artists.length} artists...`);
 
