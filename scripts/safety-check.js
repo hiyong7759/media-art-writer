@@ -10,7 +10,7 @@ async function validateContent(prompt) {
         return true; // Fail open for local dev without keys
     }
 
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3-flash" });
 
     const safetyPrompt = `
     Analyze the following art prompt for safety. 
