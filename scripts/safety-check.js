@@ -17,8 +17,9 @@ async function validateContent(prompt) {
     
     Prompt: "${prompt}"
     
-    Is this prompt safe for all ages (G-rated)? 
-    It should not contain violence, gore, sexual content, hate speech, or disturbing imagery.
+    Is this prompt safe for general public display? 
+    ALLOW: Abstract art, dark fantasy, surrealism, complex textures, cosmic horror (concept).
+    BLOCK: Explicit gore, hate speech, sexual violence, real-world violence.
     Reply with only "SAFE" or "UNSAFE".
   `;
 
@@ -27,12 +28,10 @@ async function validateContent(prompt) {
             model: "gemini-3-flash-preview",
             contents: [{ parts: [{ text: safetyPrompt }] }]
         });
-        const response = result.text ? result.text.trim().toUpperCase() : "UNSAFE";
-
-        if (response === "SAFE") {
+        if (response.includes("SAFE")) {
             return true;
         } else {
-            console.warn(`Safety Check Failed: ${response}`);
+            console.warn(`Safety Check Failed for prompt: "${prompt.substring(0, 50)}..." -> Response: ${response}`);
             return false;
         }
     } catch (error) {
