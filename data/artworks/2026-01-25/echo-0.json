@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "echo-0",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "침묵의 공명",
+    "en": "Resonance of Silence"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "고요한 마음의 표면을 흔드는 보이지 않는 주파수를 시각화한 형상입니다.",
+    "en": "Visualizing the invisible frequencies that stir the surface of the quiet mind."
   },
-  "prompt": "visualized soundwaves, vibrating frequencies, minimal lines reacting to invisible sound",
+  "prompt": "Concentric ripples of vibrating liquid gold and deep cobalt, visualized as 3D waveforms rising from a silent surface. Minimalist yet complex lines reacting to an invisible bass frequency. High-speed liquid simulation, 8k, Unreal Engine 5, raytraced reflections, cinematic lighting using #FF4500 and #4169E1, sharp focus on the crest of the waves, and global illumination highlighting the sound-reactive surface.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "rhythmic",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#FF4500",
     "--dynamic-secondary": "#4169E1",
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T06:50:43.595Z"
+  "generatedAt": "2026-01-25T07:07:26.690Z"
 }

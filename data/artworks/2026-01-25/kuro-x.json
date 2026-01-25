@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "파편화된 절대자",
+    "en": "Fragmented Absolute"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "완벽한 질서가 디지털 혼돈을 만나 흑백의 공허를 산산조각 내는 순간입니다.",
+    "en": "The moment where perfect order meets digital chaos, shattering the monochrome void."
   },
-  "prompt": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
+  "prompt": "A monolith of pure obsidian being violently fractured by a digital glitch, sharp geometric shards hovering in mid-air amidst layers of monochrome scanlines and static noise. Sharp angles create a complex play of shadows. 8k, hyper-realistic, monochrome palette using #1A1A1A and #FFFFFF, high-contrast lighting, Octane Render, ray-traced reflections on the fragmented surfaces, ultra-detailed digital artifacts, and chaotic order.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "intense",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF",
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T06:50:43.593Z"
+  "generatedAt": "2026-01-25T07:07:26.688Z"
 }

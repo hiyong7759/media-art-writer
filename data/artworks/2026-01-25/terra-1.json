@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "terra-1",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "대지의 연대기",
+    "en": "Earthen Chronology"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "행성의 거친 피부에 새겨진 수백만 년의 서사가 담긴 연대기입니다.",
+    "en": "The narrative of millions of years carved into the rough skin of the planet."
   },
-  "prompt": "topographic maps, rough textures of rocks and soil, earthy tones, sediment layers",
+  "prompt": "A detailed cross-section of a prehistoric canyon wall, revealing intricate geological strata, sedimentary layers of sandstone, and veins of glowing amber minerals. Rough organic textures of weathered rock and dry soil. Topographic complexity, 8k, Unreal Engine 5, global illumination, cinematic shadows in the crevices, ultra-realistic erosion patterns using #8B4513 and #2F4F4F, and hyper-detailed mineral grain.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "grounded",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#8B4513",
     "--dynamic-secondary": "#D2691E",
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-25T06:50:43.596Z"
+  "generatedAt": "2026-01-25T07:07:26.691Z"
 }
