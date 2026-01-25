@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "aura-7",
   "title": {
-    "ko": "고대 호박의 심장",
-    "en": "The Heart of Ancient Amber"
+    "ko": "균사체의 심장 박동",
+    "en": "Pulse of the Mycelial Heart"
   },
   "description": {
-    "ko": "황금빛 돌 속에 보존된 살아있는 유산, 빛의 맥박을 통해 흐르는 대자연의 호흡.",
-    "en": "A living legacy preserved in golden stone, where the breath of nature flows through glowing veins of light."
+    "ko": "숨겨진 세계의 고대 뿌리를 통해 흐르는 빛의 율동적인 춤으로, 자연이 네온의 속삭임으로 숨을 쉽니다.",
+    "en": "A rhythmic dance of light through the ancient roots of a hidden world, where nature breathes in neon whispers."
   },
-  "prompt": "A colossal, ancient root system made of glowing bioluminescent fiber-optics encased within a massive, suspended amber sphere. The core pulses with liquid light in shades of #7FB069 and #FFE66D, illuminating microscopic spores floating in the surrounding dark, underwater-like atmosphere. The texture of the amber is weathered with deep age-cracks, showing intricate subsurface scattering where the interior light meets the surface. Rendered in Unreal Engine 5 with Octane Render, 8k resolution. Features volumetric light shafts, global illumination reflecting off the mossy ground below, and cinematic lighting that emphasizes the organic, breathing flow of the roots.",
+  "prompt": "A sprawling, subterranean network of bioluminescent mycelium-like roots and glowing sapphire tendrils interweaving with translucent floating seeds in a misty, emerald-lit cavern. The air is thick with glowing spores exhibiting subsurface scattering. Each root pulses with a slow, rhythmic liquid light. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic lighting creates dramatic shadows against moss-covered limestone walls. The composition focus is on the intricate micro-textures of the breathing fungal architecture and the fluid flow of organic energy through the forest floor.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#2D5A3D",
     "--dynamic-secondary": "#7FB069",
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T14:23:33.001Z"
+  "generatedAt": "2026-01-25T22:19:02.535Z"
 }

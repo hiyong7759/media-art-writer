@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "terra-1",
   "title": {
-    "ko": "얼어붙은 시간의 혈맥",
-    "en": "The Frozen Veins of Time"
+    "ko": "불의 얼어붙은 시대",
+    "en": "Frozen Epoch of Fire"
   },
   "description": {
-    "ko": "돌에 새겨진 침묵의 서사, 지구의 기억이 결정체 지층 속에 보존되어 있습니다.",
-    "en": "A silent narrative carved in stone, where the earth's memory is preserved in crystalline strata."
+    "ko": "지구의 격동적인 역사가 식어가는 돌의 고요한 숨결 속에 한순간에 담겼습니다.",
+    "en": "The violent history of the earth captured in a single, motionless breath of cooling stone."
   },
-  "prompt": "A subterranean cavern featuring a frozen waterfall composed of petrified salt crystals and raw earthy minerals. Intricate erosion patterns and geological strata are visible in the rock walls, showing layers of burnt orange (#D2691E) and deep slate (#2F4F4F). Micro-displacement textures for every mineral facet, 8k resolution, hyper-realistic. Lighting is provided by rare crystal bioluminescence, casting dramatic shadows and revealing the raw organic textures carved by eons of time.",
+  "prompt": "A frozen volcanic eruption capturing the exact moment molten lava turns into jagged obsidian and basalt, with intricate cracks revealing iridescent geological strata of raw copper and gold. Detailed textures of parched soil, sediment layers, and cooling rock. 8k resolution, Unreal Engine 5. Global illumination highlights the rough organic textures and erosion patterns carved by time. The lighting mimics the golden hour, casting long, dramatic shadows that emphasize the topographical complexity of the cooling earth.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-25T14:24:11.072Z"
+  "generatedAt": "2026-01-25T22:19:39.912Z"
 }

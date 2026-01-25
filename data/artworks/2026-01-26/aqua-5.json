@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "aqua-5",
   "title": {
-    "ko": "유체 용의 야상곡",
-    "en": "The Fluid Dragon's Nocturne"
+    "ko": "빛의 산란이 머무는 심해 대성당",
+    "en": "Cathedral of the Caustic Deep"
   },
   "description": {
-    "ko": "심해의 빛과 압력의 춤 속을 움직이는, 심연의 투명한 영혼.",
-    "en": "A transparent spirit of the abyss, moving through a dance of light and pressure in the deep."
+    "ko": "대양의 압력이 살아있는 생물 발광의 보석을 만들어내는 침묵과 빛의 안식처.",
+    "en": "A sanctuary of silence and light where the pressure of the ocean creates jewels of living bioluminescence."
   },
-  "prompt": "A majestic sea dragon composed entirely of hyper-realistic fluid dynamics, weaving through a forest of glowing thermal vents. Detailed caustic patterns are projected onto the dragon's translucent skin and the sea floor. Focus on deep-sea translucency, rising bubble clusters, and the intricate dance of liquid light (#40E0D0, #000080). 8k, Octane Render, raytraced caustics. Volumetric underwater lighting and subsurface scattering create a peaceful yet mysterious atmosphere in the midnight ocean.",
+  "prompt": "A deep-sea cathedral formed by spiraling crystalline coral structures, filled with swirling, bioluminescent plankton clouds and sharp caustic light patterns projected from the surface. Detailed fluid simulation with rising bubbles and translucent jellyfish bells that pulse with turquoise light. 8k, Octane Render, raytraced caustics. Focus on the deep-sea translucency and the intricate textures of the coral walls. Volumetric underwater lighting creates a peaceful yet mysterious dance of light and shadow in the high-pressure depths.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T14:24:17.335Z"
+  "generatedAt": "2026-01-25T22:19:46.120Z"
 }

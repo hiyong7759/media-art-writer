@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "kuro-x",
   "title": {
-    "ko": "단색 복셀의 엔트로피",
-    "en": "Monochrome Voxel Entropy"
+    "ko": "흑백의 회귀적 붕괴",
+    "en": "Monochrome Recursive Decay"
   },
   "description": {
-    "ko": "디지털 파편화의 완벽한 춤, 황량한 기하학적 공허 속에서 질서와 혼돈이 충돌합니다.",
-    "en": "A perfect dance of digital fragmentation, where order and chaos collide in a stark, geometric void."
+    "ko": "완벽한 질서가 필연적인 오류를 만나는 곳, 디지털 공허 속 기하학의 침묵하는 투쟁.",
+    "en": "Where perfect order meets the inevitable glitch, a silent struggle of geometry in a digital void."
   },
-  "prompt": "A complex 3D isometric labyrinth composed of shifting monochrome voxels and obsidian plates, deconstructing and reconstructing in mid-air. The scene features high-contrast glitch art aesthetics with digital scanlines slicing through the sharp angles of the structure. Reflections of pure white light (#FFFFFF) hit the matte black surfaces (#1A1A1A), creating a stark, high-contrast environment. 8k resolution, raytracing enabled, sharp focus on the fragmented edges. Cinematic lighting with dramatic shadows highlights the geometric chaos and the perfect balance of the digital void.",
+  "prompt": "An infinite architectural staircase of liquid-chrome geometric cubes melting into a vast sea of monochrome digital static and horizontal scanline ripples. The composition uses high-contrast monochrome complexity with sharp obsidian angles clashing against soft white digital noise. 8k, Octane Render, raytraced reflections on shifting mirror surfaces. Global illumination highlights the glitch art aesthetics where order dissolves into chaotic fragments. Dramatic shadows emphasize the depth of the recursive geometric structure, with a focus on the razor-sharp edges of the fracturing monoliths.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF",
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T14:23:39.299Z"
+  "generatedAt": "2026-01-25T22:19:08.807Z"
 }

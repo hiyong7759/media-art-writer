@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "void-3",
   "title": {
-    "ko": "청색 거성의 모놀리스",
-    "en": "Monoliths of the Blue Giant"
+    "ko": "무한의 눈",
+    "en": "The Eye of the Infinite"
   },
   "description": {
-    "ko": "무한의 끝에서, 고대의 거울들이 허공으로 사라져가는 별의 마지막 빛을 붙잡습니다.",
-    "en": "At the edge of the infinite, ancient mirrors catch the last light of a star screaming into the void."
+    "ko": "깊은 심연 속의 고요한 파수꾼이 무심한 위엄으로 별들의 탄생과 죽음을 지켜봅니다.",
+    "en": "A silent sentinel in the deep abyss, watching the birth and death of stars with indifferent majesty."
   },
-  "prompt": "A Dyson-swarm inspired structure of floating geometric mirrors surrounding a massive, dying blue giant star. Swirling nebulous gas clouds in deep violet (#3D1A78) and lavender (#E6E6FA) fill the infinite void, creating a sense of cosmic horror and majesty. Detailed textures of the weathered star-mirrors and intense volumetric lighting from the star's radiation. 8k resolution, raytracing, cinematic scale. Global illumination from the star scatters through the space dust, highlighting the event horizon of the surrounding abyss.",
+  "prompt": "A colossal eye-shaped nebula with a core of dense crystalline star-clusters, viewed through a thick veil of dark matter filaments and swirling gas clouds of deep violet and indigo. Cosmic scale with event horizon physics affecting the light of nearby pulsars. 8k, hyper-realistic, volumetric gas simulations. Detailed textures of stardust and celestial debris. Dramatic lighting comes from the radiant core, creating a sense of cosmic horror majesty and infinite depth. Raytraced light scattering through the nebulous gas creates a haunting, majestic atmosphere of the deep abyss.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T14:24:04.705Z"
+  "generatedAt": "2026-01-25T22:19:33.699Z"
 }

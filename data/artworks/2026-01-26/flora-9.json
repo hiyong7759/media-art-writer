@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "flora-9",
   "title": {
-    "ko": "데이터의 봄, 깨어남",
-    "en": "The Data-Spring Awakening"
+    "ko": "실리콘의 봄",
+    "en": "The Silicon Spring"
   },
   "description": {
-    "ko": "정보가 꽃잎으로 피어나고 빛이 기계에 생명을 불어넣는 디지털 정원.",
-    "en": "A digital garden where information blooms into petals and light breathes life into the machine."
+    "ko": "유리 꽃잎과 논리 회로가 시대를 초월한 꽃 피는 안식처로 합쳐지는 디지털의 재탄생.",
+    "en": "A digital rebirth where glass petals and logic boards merge into a timeless, blooming sanctuary."
   },
-  "prompt": "A 'Neural Willow Tree' whose hanging branches are made of glowing fiber-optic strands, interacting with a swarm of holographic, fractal butterflies. The petals on the ground are translucent binary-coded leaves in soft pastels (#89CFF0, #FFB6C1). Nature is shown reclaiming a derelict server room, with moss growing over metallic processors. Macro photography style, 8k, Unreal Engine 5. Subsurface scattering on the digital flora, soft bokeh background, and cinematic lighting that highlights the delicate, blooming textures of the forever-spring garden.",
+  "prompt": "A cascading waterfall of liquid cherry blossom petals made of iridescent glass, pouring over a mossy microchip cliffside where nature is reclaiming technology. The waterfall flows into a pool of soft pastel liquid light. Fractal flower patterns emerge from the silicon rock faces, featuring delicate translucent petals with binary-coded veins. 8k resolution, macro photography style, Unreal Engine 5. Intricate subsurface scattering on the glass petals and cinematic lighting that emphasizes the soft spring atmosphere. Focus on the interplay between organic growth and rigid circuitry.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T14:23:52.022Z"
+  "generatedAt": "2026-01-25T22:19:21.258Z"
 }
