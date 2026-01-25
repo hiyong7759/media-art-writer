@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "neon-v",
   "title": {
-    "ko": "홀로그램의 비",
-    "en": "Holographic Rainfall"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "결코 잠들지 않는 도시의 젖은 보도에 반사된 인공적인 꿈.",
-    "en": "Artificial dreams reflected in the damp pavements of a city that never sleeps."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "cyberpunk cityscape colors, neon pink and blue, rainy reflections, futuristic urban texture",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T06:41:53.591Z"
+  "generatedAt": "2026-01-25T06:50:43.594Z"
 }

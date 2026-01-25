@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "aura-7",
   "title": {
-    "ko": "생명의 맥동",
-    "en": "Vibrant Pulse"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "액체 세계의 그림자 속에 빛을 불어넣는, 숨겨진 숲의 심장박동.",
-    "en": "The heartbeat of the hidden forest, breathing light into the shadows of a liquid world."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "bioluminescent organic shapes, flowing liquid light, deep underwater atmosphere, glowing tendrils",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T06:41:49.313Z"
+  "generatedAt": "2026-01-25T06:50:43.592Z"
 }

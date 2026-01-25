@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "aqua-5",
   "title": {
-    "ko": "시안의 안식처",
-    "en": "Cyan Sanctuary"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "심해의 압도적인 깊이 속에서 펼쳐지는 고요한 빛의 발레.",
-    "en": "A quiet ballet of light in the crushing depths of the deep sea."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T06:41:59.831Z"
+  "generatedAt": "2026-01-25T06:50:43.596Z"
 }

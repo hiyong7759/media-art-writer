@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": {
-    "ko": "부서진 논리",
-    "en": "Shattered Logic"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "수학적 질서와 디지털 혼돈이 만나는, 붕괴하는 시스템의 아름다움.",
-    "en": "The beauty of a system in collapse, where mathematical order and digital chaos converge."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T06:41:51.742Z"
+  "generatedAt": "2026-01-25T06:50:43.593Z"
 }

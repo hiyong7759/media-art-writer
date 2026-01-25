@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "void-3",
   "title": {
-    "ko": "심연의 아가리",
-    "en": "Abyssal Maw"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "중력이 빛조차 삼켜버리는 우주적 춤사위 속, 무한함이 지닌 고요한 장엄함.",
-    "en": "The silent majesty of the infinite, where gravity devours light itself in a cosmic dance."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "deep space nebula, stars dust, infinite void, cosmic horror majesty",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T06:41:59.649Z"
+  "generatedAt": "2026-01-25T06:50:43.595Z"
 }

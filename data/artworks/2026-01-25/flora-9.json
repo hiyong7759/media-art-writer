@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "flora-9",
   "title": {
-    "ko": "실리콘의 개화",
-    "en": "Silicon Bloom"
+    "ko": "무제",
+    "en": "Untitled"
   },
   "description": {
-    "ko": "소프트웨어가 흙을 만나는 곳, 데이터와 디지털 빛으로 빚어진 꽃.",
-    "en": "Where software meets soil, a flower forged from data and digital light."
+    "ko": "설명이 없습니다.",
+    "en": "No description available."
   },
   "prompt": "fractal flowers, blooming digital petals, soft pastels, nature reclaiming technology",
   "style": {
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T06:41:55.284Z"
+  "generatedAt": "2026-01-25T06:50:43.594Z"
 }
