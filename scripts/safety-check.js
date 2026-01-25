@@ -1,16 +1,15 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { GoogleGenAI } = require("@google/genai");
 require('dotenv').config();
 
 const API_KEY = process.env.GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(API_KEY);
+// Initialize with new SDK
+const genAI = API_KEY ? new GoogleGenAI({ apiKey: API_KEY, apiVersion: "v1alpha" }) : null;
 
 async function validateContent(prompt) {
-    if (!API_KEY) {
+    if (!genAI) {
         console.warn("Warning: GEMINI_API_KEY not set. Skipping safety check.");
         return true; // Fail open for local dev without keys
     }
-
-    const model = genAI.getGenerativeModel({ model: "gemini-3-flash" });
 
     const safetyPrompt = `
     Analyze the following art prompt for safety. 
@@ -24,8 +23,11 @@ async function validateContent(prompt) {
   `;
 
     try {
-        const result = await model.generateContent(safetyPrompt);
-        const response = result.response.text().trim().toUpperCase();
+        const result = await genAI.models.generateContent({
+            model: "gemini-3-flash",
+            contents: [{ parts: [{ text: safetyPrompt }] }]
+        });
+        const response = result.text ? result.text.trim().toUpperCase() : "UNSAFE";
 
         if (response === "SAFE") {
             return true;

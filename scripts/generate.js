@@ -1,4 +1,4 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { GoogleGenAI } = require("@google/genai");
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config();
@@ -9,7 +9,7 @@ const MODEL_NAME = "gemini-3-flash";
 
 let genAI = null;
 if (API_KEY) {
-    genAI = new GoogleGenerativeAI(API_KEY);
+    genAI = new GoogleGenAI({ apiKey: API_KEY, apiVersion: "v1alpha" });
 } else {
     console.warn("Warning: GEMINI_API_KEY is not set. Using fallback prompts.");
 }
@@ -114,11 +114,17 @@ async function generateBatchArtworks(artists, date, history) {
     `;
 
     try {
-        const model = genAI.getGenerativeModel({ model: MODEL_NAME, generationConfig: { responseMimeType: "application/json" } });
-
         console.log("Sending batch request to Gemini...");
-        const result = await model.generateContent(systemPrompt);
-        const responseText = result.response.text();
+        const result = await genAI.models.generateContent({
+            model: MODEL_NAME,
+            config: { responseMimeType: "application/json" },
+            contents: [{ parts: [{ text: systemPrompt }] }]
+        });
+
+        // New SDK response checking
+        const responseText = result.text;
+        if (!responseText) throw new Error("No text in response");
+
         const generatedPrompts = JSON.parse(responseText);
 
         console.log("Batch generation successful. Processing results...");
@@ -179,46 +185,15 @@ async function generateArtworkForArtist(artist, date, history) {
     if (genAI) {
         try {
             // 1. Generate detailed prompt with AI
-            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
-            const colors = artist.styleHints.colorPalette.join(', ');
+            // New SDK call
+            const result = await genAI.models.generateContent({
+                model: MODEL_NAME,
+                contents: [{ parts: [{ text: promptReq }] }]
+            });
 
-            // Get past prompts for this artist
-            const pastPromptsObj = history[artist.id] || {};
-            const pastPrompts = Object.entries(pastPromptsObj)
-                .filter(([d, _]) => d !== date)
-                .map(([_, p]) => p);
+            generatedPrompt = result.text ? result.text.trim() : "";
+            if (!generatedPrompt) throw new Error("Empty response from AI");
 
-            const pastPromptsContext = pastPrompts.length > 0
-                ? JSON.stringify(pastPrompts.slice(-20))
-                : "None (First artwork)";
-
-            // Enhanced Prompt Engineering
-            const promptReq = `
-              Role: You are an expert art curator and generative artist assistant.
-              Task: Create a highly specific, poetic, and abstract art prompt for the generative artist '${artist.name}'.
-              
-              Artist Profile:
-              - Theme: ${artist.theme}
-              - Philosophy: ${artist.description}
-              - Signature Style: ${artist.promptBase}
-              - Color Palette: ${colors}
-              - Movement: ${artist.styleHints.movementSpeed}
-              - Mood: ${artist.styleHints.dominantMood}
-              
-              Past Works (DO NOT REPEAT THESE):
-              ${pastPromptsContext}
-
-              Guidelines for Today's Creation:
-              1. **Uniqueness**: Review the 'Past Works'. You must create something completely distinct from them in terms of specific imagery, composition, or metaphorical focus.
-              3. **Abstract Nature**: The description must be non-representational. Focus on the interplay of light, form, texture, and motion.
-              4. **Poetic Precision**: Use evocative language (e.g., "whispering gradients", "shattered geometric silence", "cascading liquid gold").
-              
-              Output Format:
-              Return ONLY the raw prompt text. No titles, no "Here is the prompt:", just the description.
-            `;
-
-            const result = await model.generateContent(promptReq);
-            generatedPrompt = result.response.text().trim();
             console.log(`[${artist.name}] Generated Prompt (AI): ${generatedPrompt}`);
 
             // 2. Safety Check (Only if AI was used)
