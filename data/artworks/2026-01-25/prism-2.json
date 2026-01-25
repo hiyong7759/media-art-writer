@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "prism-2",
   "title": {
-    "ko": "스펙트럼의 파편",
-    "en": "Spectral Splinter"
+    "ko": "수정체 정신의 스펙트럼",
+    "en": "Spectrum of the Crystalline Mind"
   },
   "description": {
-    "ko": "한 줄기 빛이 산산조각 나며 드러내는 숨겨진 활기찬 영혼의 해부도입니다.",
-    "en": "The anatomy of a single light beam shattered into its hidden, vibrant soul."
+    "ko": "유리 심장의 정밀함을 통해 수천 가지 가능성으로 부서지는 한 줄기 빛.",
+    "en": "A single beam of light shattered into a thousand possibilities through the precision of a glass heart."
   },
-  "prompt": "A complex arrangement of suspended dichroic glass prisms splitting a single beam of pure light into a chaotic spectrum of rainbow caustics. High refractive indices and chromatic aberration. 8k, Octane Render, hyper-realistic glass refraction, raytracing, dramatic volumetric light beams, sharp focus on the spectral dispersion of #FF0080 and #8000FF, and global illumination reflecting off facets.",
+  "prompt": "An intricate glass sculpture of a complex polyhedral fractal, hit by a concentrated beam of white light. Spectral dispersion and light splitting into vivid rainbows. Focus on refractive indices, crystal facets, and chromatic aberration. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits. Detailed rainbow caustics dance across the background. Global illumination and cinematic lighting capture the pure energy of the spectrum contained within the glass.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "bright",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#FF0080",
     "--dynamic-secondary": "#00FF80",
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-25T07:07:26.692Z"
+  "generatedAt": "2026-01-25T07:26:50.128Z"
 }

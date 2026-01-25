@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": {
-    "ko": "파편화된 절대자",
-    "en": "Fragmented Absolute"
+    "ko": "파편화된 질서의 모놀리스",
+    "en": "Monolith of Fragmented Order"
   },
   "description": {
-    "ko": "완벽한 질서가 디지털 혼돈을 만나 흑백의 공허를 산산조각 내는 순간입니다.",
-    "en": "The moment where perfect order meets digital chaos, shattering the monochrome void."
+    "ko": "날카로운 흑요석의 가장자리와 부서진 현실의 디지털 정적이 만나는 혼돈과 구조의 춤.",
+    "en": "A dance of chaos and structure where sharp obsidian edges meet the digital static of a broken reality."
   },
-  "prompt": "A monolith of pure obsidian being violently fractured by a digital glitch, sharp geometric shards hovering in mid-air amidst layers of monochrome scanlines and static noise. Sharp angles create a complex play of shadows. 8k, hyper-realistic, monochrome palette using #1A1A1A and #FFFFFF, high-contrast lighting, Octane Render, ray-traced reflections on the fragmented surfaces, ultra-detailed digital artifacts, and chaotic order.",
+  "prompt": "A massive, fractured obsidian monolith suspended in a white digital void, perpetually shattering and reforming with glitch art aesthetics. Sharp geometric abstraction with obsidian shards, scanlines, and monochrome complexity. 8k, raytracing, sharp angles. The lighting is harsh and high-contrast, utilizing dramatic shadows and raytraced reflections on the black glass surfaces. Detailed textures of digital noise and fragmented scanlines integrated into the 3D form, rendered with global illumination in a stark black and white environment.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T07:07:26.688Z"
+  "generatedAt": "2026-01-25T07:26:50.125Z"
 }

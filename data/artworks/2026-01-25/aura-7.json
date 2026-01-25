@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "aura-7",
   "title": {
-    "ko": "심해의 호흡",
-    "en": "The Abyssal Breath"
+    "ko": "신록의 심연의 심장",
+    "en": "The Heart of the Verdant Abyss"
   },
   "description": {
-    "ko": "심해의 정적 속에서 유기적인 빛이 호흡하며 생명력을 불어넣는 리듬감 넘치는 춤입니다.",
-    "en": "A rhythmic dance of organic light breathing life into the silent depths of the ocean."
+    "ko": "고대 수중 숲의 호흡을 닮은, 유기적 섬유를 따라 흐르는 리드미컬한 빛의 맥동.",
+    "en": "A rhythmic pulse of light flowing through organic fibers, mimicking the breathing of an ancient underwater forest."
   },
-  "prompt": "An intricate spiral of bioluminescent kelp-like tendrils pulsing with deep emerald and pale yellow light, suspended in a dark abyssal trench. The liquid light flows through the translucent veins of the organic forms. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic textures, subsurface scattering on the membranes, volumetric lighting illuminating the floating particles, cinematic raytracing, and global illumination reflecting off the #2D5A3D and #7FB069 surfaces.",
+  "prompt": "An intricate, pulsating heart-like organ made of translucent emerald moss and glowing sap, suspended in a deep underwater kelp forest. Bioluminescent organic shapes and flowing liquid light tendrils wrap around the core, pulsing with life. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features heavy subsurface scattering on the mossy fibers, volumetric light shafts piercing through dark green water, and global illumination reflecting off floating spores. Cinematic lighting, sharp focus on the microscopic texture of the breathing light.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T07:07:26.687Z"
+  "generatedAt": "2026-01-25T07:26:50.124Z"
 }

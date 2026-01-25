@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "neon-v",
   "title": {
-    "ko": "실리카의 맥박",
-    "en": "Silica Pulse"
+    "ko": "형광빛 우의 제례",
+    "en": "Fluorescent Rain Ritual"
   },
   "description": {
-    "ko": "네온의 반사로 젖어든, 칩 크기로 응축된 도시의 전기적 심장박동입니다.",
-    "en": "The electrical heartbeat of a city shrunk to the size of a chip, wet with neon reflections."
+    "ko": "네온빛으로 젖어든 폭우의 선명한 반사 속에 포착된 미래 도시의 외로운 메아리.",
+    "en": "The lonely echo of a futuristic city captured in the vibrant reflections of a neon-soaked downpour."
   },
-  "prompt": "A macro view of a cybernetic circuit board designed as a miniature neon city, where glowing pink and cyan pathways are drenched in digital rain. Reflective metallic textures with intricate soldering detail. Unreal Engine 5, 8k, cinematic lighting, dramatic puddles reflecting the #FF00FF and #00FFFF neon signs, volumetric fog, Raytracing, Global Illumination, and sharp focus on the microscopic skyscrapers.",
+  "prompt": "A low-angle view of a claustrophobic, rainy cyberpunk alleyway filled with dense vertical neon signage. Puddles on the asphalt reflect vibrant pink and cyan lights with hyper-realistic fluid dynamics. Textures include rusted metal, wet pavement, and glowing holographic ads. Rendered in 8k, Octane Render, featuring cinematic volumetric fog and global illumination. Light spills from high-density urban structures, creating dramatic shadows and a digital romance atmosphere with sharp focus on individual rain droplets falling through neon beams.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T07:07:26.688Z"
+  "generatedAt": "2026-01-25T07:26:50.125Z"
 }
