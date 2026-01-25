@@ -152,55 +152,42 @@ async function generateBatchArtworks(artists, date, history) {
 
         console.log("Batch generation successful. Processing results...");
 
+        // Check for duplicates and collect failures
+        const failedArtists = [];
+        const validResults = {};
+
         for (const artist of artists) {
             let data = generatedPrompts[artist.id];
             let prompt = data ? data.prompt : "";
 
-            if (!prompt) {
-                console.error(`No data generated for ${artist.name}. Using fallback.`);
-                prompt = artist.promptBase;
-                data = {
-                    prompt: artist.promptBase,
-                    title_en: "Untitled",
-                    title_ko: "무제",
-                    description_en: "No description available.",
-                    description_ko: "설명이 없습니다."
-                };
+            // Check duplicate against FULL history
+            const pastHistory = history[artist.id];
+            if (isDuplicate(prompt, pastHistory)) {
+                console.log(`[${artist.name}] Generated prompt is too similar to past work. Queuing for retry.`);
+                failedArtists.push(artist);
+            } else if (!prompt) {
+                console.log(`[${artist.name}] No prompt generated. Queuing for retry/fallback.`);
+                failedArtists.push(artist);
+            } else {
+                validResults[artist.id] = { prompt: prompt, data: data };
             }
-            // Safety check removed by user request
+        }
 
-            console.log(`[${artist.name}] Prompt: ${prompt.substring(0, 50)}...`);
+        // 1. Process Valid Results
+        for (const artist of artists) {
+            if (failedArtists.includes(artist)) continue;
 
-            // Generate Style Analysis
-            const styleData = analyzeAndGenerateStyle(artist, prompt);
-
-            // Create Metadata
-            const artworkData = {
-                date: date,
-                artistId: artist.id,
-                title: {
-                    ko: data.title_ko,
-                    en: data.title_en
-                },
-                description: {
-                    ko: data.description_ko,
-                    en: data.description_en
-                },
-                prompt: prompt,
-                style: styleData,
-                generatedAt: new Date().toISOString()
-            };
-
-            // Save Metadata
-            const outputFile = path.join(__dirname, `../data/artworks/${date}/${artist.id}.json`);
-            const dir = path.dirname(outputFile);
-            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-
-            fs.writeFileSync(outputFile, JSON.stringify(artworkData, null, 2));
-            console.log(`[${artist.name}] Saved to ${outputFile}`);
-
-            // Update History
+            const { prompt, data } = validResults[artist.id];
+            await saveArtworkData(artist, date, prompt, data);
             updateHistory(artist.id, date, prompt);
+        }
+
+        // 2. Process Failed (Retry Individually)
+        if (failedArtists.length > 0) {
+            console.log(`Retrying ${failedArtists.length} artists individually...`);
+            for (const artist of failedArtists) {
+                await generateArtworkForArtist(artist, date, history);
+            }
         }
 
     } catch (error) {
@@ -209,55 +196,39 @@ async function generateBatchArtworks(artists, date, history) {
     }
 }
 
-async function generateArtworkForArtist(artist, date, history) {
-    console.log(`[${artist.name}] Generating artwork...`);
+// Helper: Common Save Logic
+function saveArtworkData(artist, date, prompt, data) {
+    // Generate Style Analysis
+    const styleData = analyzeAndGenerateStyle(artist, prompt);
 
-    let generatedPrompt = "";
-
-    if (genAI) {
-        try {
-            // 1. Generate detailed prompt with AI
-            // New SDK call
-            const result = await genAI.models.generateContent({
-                model: MODEL_NAME,
-                contents: [{ parts: [{ text: promptReq }] }]
-            });
-
-            generatedPrompt = result.text ? result.text.trim() : "";
-            if (!generatedPrompt) throw new Error("Empty response from AI");
-
-            console.log(`[${artist.name}] Generated Prompt (AI): ${generatedPrompt}`);
-
-            // 2. Safety Check (Only if AI was used)
-            const isSafe = await validateContent(generatedPrompt);
-            if (!isSafe) {
-                console.warn(`[${artist.name}] Safety check failed for AI prompt. Using fallback.`);
-                generatedPrompt = artist.promptBase;
-            }
-        } catch (err) {
-            console.error(`[${artist.name}] AI Generation failed: ${err.message}. Using fallback.`);
-            generatedPrompt = artist.promptBase;
-        }
-    } else {
-        // Fallback if no API key
-        console.log(`[${artist.name}] Using fallback prompt (No API Key).`);
-        generatedPrompt = artist.promptBase;
+    // Fallback metadata if missing
+    if (!data) {
+        data = {
+            title_en: "Daily Creation",
+            title_ko: "오늘의 작품",
+            description_en: "No description available",
+            description_ko: "설명이 없습니다"
+        };
     }
 
-    // 3. Style Analysis
-    const styleData = analyzeAndGenerateStyle(artist, generatedPrompt);
-
-    // 4. Create Metadata
+    // Create Metadata
     const artworkData = {
         date: date,
         artistId: artist.id,
-        title: "Daily Creation",
-        prompt: generatedPrompt,
+        title: {
+            ko: data.title_ko || "오늘의 작품",
+            en: data.title_en || "Daily Creation"
+        },
+        description: {
+            ko: data.description_ko || "설명이 없습니다",
+            en: data.description_en || "No description available"
+        },
+        prompt: prompt,
         style: styleData,
         generatedAt: new Date().toISOString()
     };
 
-    // 5. Save Metadata File (Prompts are now only stored here, not as separate txt files)
+    // Save Metadata File
     const outputFile = path.join(__dirname, `../data/artworks/${date}/${artist.id}.json`);
     const dir = path.dirname(outputFile);
     if (!fs.existsSync(dir)) {
@@ -266,8 +237,86 @@ async function generateArtworkForArtist(artist, date, history) {
 
     fs.writeFileSync(outputFile, JSON.stringify(artworkData, null, 2));
     console.log(`[${artist.name}] Metadata saved to ${outputFile}`);
+}
 
-    // 6. Update History
+async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
+    if (retryCount > 3) {
+        console.warn(`[${artist.name}] Max retries reached. Using fallback.`);
+        const fallbackPrompt = artist.promptBase;
+        // Even fallback should act as valid generation result
+        saveArtworkData(artist, date, fallbackPrompt, null);
+        updateHistory(artist.id, date, fallbackPrompt);
+        return;
+    }
+
+    console.log(`[${artist.name}] Generating artwork (Attempt ${retryCount + 1})...`);
+
+    let generatedPrompt = "";
+    let generatedData = null;
+
+    if (genAI) {
+        try {
+            // Individual Prompt Engineering
+            const pastPromptsObj = history[artist.id] || {};
+            const pastPrompts = Object.values(pastPromptsObj).slice(-10);
+
+            const promptReq = `
+                You are an expert Art Director. Generate a NEW, UNIQUE art prompt for artist '${artist.name}'.
+                
+                Artist Theme: ${artist.theme}
+                Base Style: ${artist.promptBase}
+                Past Works: ${JSON.stringify(pastPrompts)}
+                
+                CRITICAL INSTRUCTION:
+                The new prompt MUST be significantly different from Past Works.
+                
+                Return JSON format:
+                {
+                    "prompt": "Detailed prompt string...",
+                    "title_en": "Title",
+                    "title_ko": "Title Korean",
+                    "description_en": "Description",
+                    "description_ko": "Description Korean"
+                }
+            `;
+
+            const result = await genAI.models.generateContent({
+                model: MODEL_NAME,
+                config: { responseMimeType: "application/json" },
+                contents: [{ parts: [{ text: promptReq }] }]
+            });
+
+            const responseText = result.text;
+            if (!responseText) throw new Error("Empty response");
+
+            generatedData = JSON.parse(responseText);
+            generatedPrompt = generatedData.prompt;
+
+            // DUPLICATE CHECK
+            if (isDuplicate(generatedPrompt, history[artist.id])) {
+                console.warn(`[${artist.name}] Duplicate detected on attempt ${retryCount + 1}. Retrying...`);
+                await generateArtworkForArtist(artist, date, history, retryCount + 1);
+                return;
+            }
+
+        } catch (err) {
+            console.error(`[${artist.name}] AI Generation failed: ${err.message}.`);
+            // If error is not fatal, maybe retry? For now, fallback if critical or count as retry
+            // Here we retry to hope for transient error fix or duplicate skip
+            if (retryCount < 3) {
+                await generateArtworkForArtist(artist, date, history, retryCount + 1);
+                return;
+            }
+        }
+    }
+
+    // Fallback if AI failed completely or no key (handled inside loop/condition usually, but here for safety)
+    if (!generatedPrompt) {
+        console.log(`[${artist.name}] Using fallback prompt.`);
+        generatedPrompt = artist.promptBase;
+    }
+
+    saveArtworkData(artist, date, generatedPrompt, generatedData);
     updateHistory(artist.id, date, generatedPrompt);
 }
 
