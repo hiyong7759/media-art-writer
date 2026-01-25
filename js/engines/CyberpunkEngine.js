@@ -27,16 +27,9 @@ export class CyberpunkEngine extends ArtEngine {
         this.streamLines = [];
         this.circuitNodes = [];
 
-        // Init Default
-        if (this.data) {
-            this.mode = this.determineModeFromData();
-            console.log(`[Auto Select] Mode based on data: ${this.mode}`);
-        } else {
-            this.mode = 'rain'; // Fallback
-        }
-
-        // Initial setup based on selected mode
-        this.setMode(this.mode);
+        // Initialize with fixed 'rain' mode for NEON-V
+        this.mode = 'rain';
+        this.setMode('rain', 0); // Always start with Style 0: Modern (Falling rain)
     }
 
     determineModeFromData() {
@@ -95,12 +88,12 @@ export class CyberpunkEngine extends ArtEngine {
         return 'Default';
     }
 
-    setMode(mode) {
+    setMode(mode, forcedStyle = null) {
         this.mode = mode;
         console.log(`Switched to mode: ${mode}`);
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        if (mode === 'rain') this.initRain();
+        if (mode === 'rain') this.initRain(forcedStyle);
         if (mode === 'scanner') this.initScanner();
         if (mode === 'hud') {
             this.initHUD();
@@ -178,49 +171,46 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 1. Rain Mode ---
-    initRain() {
+    initRain(forcedStyle = null) {
         const text = (this.data && this.data.prompt) ? this.data.prompt : "";
         const seedValue = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-        this.rainStyle = seedValue % 3;
+
+        if (forcedStyle !== null) this.rainStyle = forcedStyle;
+        else this.rainStyle = seedValue % 3;
+
         console.log(`[RAIN Mode] Style: ${['Modern', 'Binary', 'Storm'][this.rainStyle]}`);
 
-        const columns = Math.floor(this.width / 20);
-        this.drops = Array(columns).fill(1).map(() => Math.random() * -100);
+        const columns = Math.floor(this.width / 15); // Sync with 15px in gallery.js
+        this.drops = Array(columns).fill(0).map(() => Math.random() * this.height);
     }
 
     drawRain() {
+        const chars = '가나다라마바사아자차카타파하디지털코드데이터미래네온시티전력신호접속흐름빛';
         this.ctx.font = '15px monospace';
-        let chars = '가나다라마바사아자차카타파하디지털코드데이터미래네온시티전력신호접속흐름빛';
-        if (this.rainStyle === 1) chars = '01';
-        if (this.rainStyle === 2) chars = '⚡↯▁▂▃░▒▓';
 
         for (let i = 0; i < this.drops.length; i++) {
             const char = chars[Math.floor(Math.random() * chars.length)];
-            const x = i * 20;
-            const y = this.drops[i] * 20;
+            const x = i * 15;
+            const y = this.drops[i];
 
+            // Match viewer logic: mostly main color, rarely white/secondary
             if (Math.random() > 0.98) {
-                this.ctx.fillStyle = this.colors[1] || '#fff';
+                this.ctx.fillStyle = '#ffffff';
             } else {
-                this.ctx.fillStyle = this.hexToRgba(this.colors[0], 0.8);
+                this.ctx.fillStyle = this.hexToRgba(this.colors[0], 0.9);
             }
 
-            let drawX = x;
-            if (this.rainStyle === 2) {
-                drawX = x + (y * 0.2);
+            this.ctx.fillText(char, x, y);
+
+            // Move drops
+            if (this.rainStyle === 1) this.drops[i] += 2;      // Binary (Slower)
+            else if (this.rainStyle === 2) this.drops[i] += 8; // Storm (Faster)
+            else this.drops[i] += 5;                          // Modern (Standard - Match index)
+
+            // Reset if out of bounds (random reset to make it look natural)
+            if (this.drops[i] > this.height && Math.random() > 0.975) {
+                this.drops[i] = -20;
             }
-
-            this.ctx.fillText(char, drawX, y);
-
-            if (y > this.height && Math.random() > 0.975) {
-                this.drops[i] = 0;
-            }
-
-            let speed = 1;
-            if (this.rainStyle === 1) speed = 0.2;
-            if (this.rainStyle === 2) speed = 2.5;
-
-            this.drops[i] += speed;
         }
     }
 

@@ -218,7 +218,6 @@ class MediaArtViewer {
       await this.loadBackgroundImage(artistId, targetDate);
 
       this.updateUI();
-      this.updateUI();
       this.initEngine();
       this.animate();
     } catch (error) {
@@ -460,8 +459,8 @@ class MediaArtViewer {
     // Initial resize to set up engine state
     this.engine.resize(this.canvas.width, this.canvas.height);
 
-    // Sync UI with Auto-Selected Mode (for Cyberpunk engine)
-    if (engineType === 'Cyberpunk' && this.engine.mode) {
+    // Sync UI with Engine Mode (Generic)
+    if (this.engine && this.engine.mode) {
       const mode = this.engine.mode;
       document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
       const activeBtn = document.querySelector(`.mode-btn[data-mode="${mode}"]`);

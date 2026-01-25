@@ -19,6 +19,9 @@ if (API_KEY) {
 const { analyzeAndGenerateStyle } = require('./style-analyzer');
 const HISTORY_FILE = path.join(__dirname, '../data/history.json');
 
+// Helper: Sleep
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 // Helper: Load or Build History
 function loadOrBuildHistory() {
     if (fs.existsSync(HISTORY_FILE)) {
@@ -178,67 +181,77 @@ async function generateBatchArtworks(artists, date, history) {
       }
     `;
 
-    try {
-        console.log("Sending batch request to Gemini...");
-        const result = await genAI.models.generateContent({
-            model: MODEL_NAME,
-            config: { responseMimeType: "application/json" },
-            contents: [{ parts: [{ text: systemPrompt }] }]
-        });
+    let retryCount = 0;
+    const maxRetries = 3;
 
-        // New SDK response checking
-        const responseText = result.text;
-        if (!responseText) throw new Error("No text in response");
+    while (retryCount <= maxRetries) {
+        try {
+            console.log(`Sending batch request to Gemini (Attempt ${retryCount + 1})...`);
+            const result = await genAI.models.generateContent({
+                model: MODEL_NAME,
+                config: { responseMimeType: "application/json" },
+                contents: [{ parts: [{ text: systemPrompt }] }]
+            });
 
-        const generatedPrompts = JSON.parse(responseText);
+            const responseText = result.text;
+            if (!responseText) throw new Error("No text in response");
 
-        console.log("Batch generation successful. Processing results...");
+            const generatedPrompts = JSON.parse(responseText);
+            console.log("Batch generation successful. Processing results...");
 
-        // Check for duplicates and collect failures
-        const failedArtists = [];
-        const validResults = {};
+            // Check for duplicates and collect failures
+            const failedArtists = [];
+            const validResults = {};
 
-        for (const artist of artists) {
-            let data = generatedPrompts[artist.id];
-            let prompt = data ? data.prompt : "";
+            for (const artist of artists) {
+                let data = generatedPrompts[artist.id];
+                let prompt = data ? data.prompt : "";
 
-            // Check duplicate against FULL history
-            const pastHistory = history[artist.id];
-            if (isDuplicate(prompt, pastHistory)) {
-                console.log(`[${artist.name}] Generated prompt is too similar to past work. Queuing for retry.`);
-                failedArtists.push(artist);
-            } else if (!prompt) {
-                console.log(`[${artist.name}] No prompt generated. Queuing for retry/fallback.`);
-                failedArtists.push(artist);
+                const pastHistory = history[artist.id];
+                if (isDuplicate(prompt, pastHistory)) {
+                    console.log(`[${artist.name}] Generated prompt is too similar to past work. Queuing for retry.`);
+                    failedArtists.push(artist);
+                } else if (!prompt) {
+                    console.log(`[${artist.name}] No prompt generated. Queuing for retry/fallback.`);
+                    failedArtists.push(artist);
+                } else {
+                    validResults[artist.id] = { prompt: prompt, data: data };
+                }
+            }
+
+            // 1. Process Valid Results
+            for (const artist of artists) {
+                if (failedArtists.includes(artist)) continue;
+
+                const { prompt, data } = validResults[artist.id];
+                const imageBuffer = await generateImage(artist, prompt);
+                await saveArtworkData(artist, date, prompt, data, imageBuffer);
+                updateHistory(artist.id, date, prompt);
+            }
+
+            // 2. Process Failed (Retry Individually)
+            if (failedArtists.length > 0) {
+                console.log(`Retrying ${failedArtists.length} artists individually...`);
+                for (const artist of failedArtists) {
+                    await generateArtworkForArtist(artist, date, history);
+                }
+            }
+
+            return; // Success, exit function
+
+        } catch (error) {
+            console.error(`Batch generation attempt ${retryCount + 1} failed:`, error.message);
+
+            if (retryCount < maxRetries) {
+                const waitTime = Math.pow(2, retryCount) * 2000;
+                console.log(`Waiting ${waitTime / 1000}s before retry...`);
+                await sleep(waitTime);
+                retryCount++;
             } else {
-                validResults[artist.id] = { prompt: prompt, data: data };
+                console.error("Max retries reached. Generation failed.");
+                process.exit(1);
             }
         }
-
-        // 1. Process Valid Results
-        for (const artist of artists) {
-            if (failedArtists.includes(artist)) continue;
-
-            const { prompt, data } = validResults[artist.id];
-
-            // Generate Image using the main prompt
-            const imageBuffer = await generateImage(artist, prompt);
-
-            await saveArtworkData(artist, date, prompt, data, imageBuffer);
-            updateHistory(artist.id, date, prompt);
-        }
-
-        // 2. Process Failed (Retry Individually)
-        if (failedArtists.length > 0) {
-            console.log(`Retrying ${failedArtists.length} artists individually...`);
-            for (const artist of failedArtists) {
-                await generateArtworkForArtist(artist, date, history);
-            }
-        }
-
-    } catch (error) {
-        console.error("Batch generation failed:", error);
-        process.exit(1);
     }
 }
 
@@ -246,38 +259,45 @@ async function generateBatchArtworks(artists, date, history) {
 async function generateImage(artist, imagePrompt) {
     if (!genAI) return null;
 
-    console.log(`[${artist.name}] Generating image with ${IMAGE_MODEL_NAME}...`);
-    try {
-        // Use the new SDK's generateImages method if available, or fallback
-        // Note: SDK structure assumed based on @google/genai
-        const response = await genAI.models.generateImages({
-            model: IMAGE_MODEL_NAME,
-            prompt: imagePrompt,
-            config: {
-                numberOfImages: 1,
-                aspectRatio: "16:9",
-                // safetySettings usually not needed for trusted prompt but good practice
-            }
-        });
+    let retryCount = 0;
+    const maxRetries = 2;
 
-        if (response && response.images && response.images.length > 0) {
-            const imageBase64 = response.images[0].imageRaw; // Adjust property based on SDK
-            if (imageBase64) {
-                return Buffer.from(imageBase64, 'base64');
+    while (retryCount <= maxRetries) {
+        try {
+            console.log(`[${artist.name}] Generating image with ${IMAGE_MODEL_NAME} (Attempt ${retryCount + 1})...`);
+            const response = await genAI.models.generateImages({
+                model: IMAGE_MODEL_NAME,
+                prompt: imagePrompt,
+                config: {
+                    numberOfImages: 1,
+                    aspectRatio: "16:9",
+                    // safetySettings usually not needed for trusted prompt but good practice
+                }
+            });
+
+            if (response && response.images && response.images.length > 0) {
+                const imageBase64 = response.images[0].imageRaw; // Adjust property based on SDK
+                if (imageBase64) {
+                    return Buffer.from(imageBase64, 'base64');
+                }
+            }
+
+            throw new Error("Image response format unrecognized.");
+
+        } catch (error) {
+            console.error(`[${artist.name}] Image generation attempt ${retryCount + 1} failed:`, error.message);
+
+            if (retryCount < maxRetries) {
+                const waitTime = Math.pow(2, retryCount) * 2000;
+                await sleep(waitTime);
+                retryCount++;
+            } else {
+                console.error(`[${artist.name}] Max retries reached for image generation.`);
+                return null;
             }
         }
-
-        // Fallback for different SDK response structure (e.g. bytesJson)
-        // If the SDK returns bytes directly:
-        // return response.images[0].bytes; 
-
-        console.warn(`[${artist.name}] Image generation response format unrecognized.`);
-        return null;
-
-    } catch (error) {
-        console.error(`[${artist.name}] Image Generation Failed:`, error.message);
-        return null;
     }
+    return null; // Should not be reached if successful or max retries hit
 }
 
 // Helper: Common Save Logic

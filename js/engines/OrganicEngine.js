@@ -7,10 +7,19 @@ import { ArtEngine } from './ArtEngine.js';
 export class OrganicEngine extends ArtEngine {
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
-        this.mode = 'rain'; // Default internal mapping (Rain=Seed)
+        this.mode = 'data'; // Default: FLOW (Matches index preview)
         this.particles = [];
         this.roots = [];
-        this.initSeed(); // Default
+        this.initFlow(2); // Style 2: Network (Connected dots) for default AURA-7
+    }
+
+    resize(width, height) {
+        // If dimensions were 0 or small (first setup), re-initialize particles to distribute them correctly
+        const wasEmpty = (this.width <= 310 && this.height <= 160); // Default canvas size check
+        super.resize(width, height);
+        if (wasEmpty && this.mode) {
+            this.setMode(this.mode);
+        }
     }
 
     setMode(mode) {
@@ -274,8 +283,10 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 4. FLOW (Data Mapping) - DNA / Stream / Network
-    initFlow() {
-        this.flowStyle = this.getStyle(4);
+    initFlow(style = null) {
+        if (style !== null) this.flowStyle = style;
+        else if (this.flowStyle === undefined) this.flowStyle = this.getStyle(4);
+
         if (this.flowStyle === 0) { // DNA
             this.particles = Array.from({ length: 40 }, (_, i) => ({
                 x: -50,
@@ -289,12 +300,16 @@ export class OrganicEngine extends ArtEngine {
                 len: Math.random() * 100 + 50,
                 speed: Math.random() * 10 + 5
             }));
-        } else { // Network
-            this.particles = Array.from({ length: 30 }, () => ({
+        } else { // Network (Standardized with index preview)
+            this.particles = Array.from({ length: 80 }, () => ({
                 x: Math.random() * this.width,
                 y: Math.random() * this.height,
-                vx: (Math.random() - 0.5) * 2,
-                vy: (Math.random() - 0.5) * 2
+                vx: (Math.random() - 0.5) * 0.5,
+                vy: (Math.random() - 0.5) * 0.5,
+                radius: Math.random() * 3 + 1,
+                color: this.colors[Math.floor(Math.random() * this.colors.length)],
+                alpha: Math.random() * 0.5 + 0.2,
+                pulseSpeed: Math.random() * 0.05 + 0.02
             }));
         }
     }
@@ -329,32 +344,41 @@ export class OrganicEngine extends ArtEngine {
                 this.ctx.lineTo(p.x - p.len, p.y);
                 this.ctx.stroke();
             });
-        } else { // Network
-            this.ctx.fillStyle = this.colors[0];
-            this.ctx.strokeStyle = this.hexToRgba(this.colors[0], 0.2);
-            this.particles.forEach((p, i) => {
+        } else { // Network (Improved connected dots)
+            this.particles.forEach(p => {
                 p.x += p.vx; p.y += p.vy;
-                if (p.x < 0 || p.x > this.width) p.vx *= -1;
-                if (p.y < 0 || p.y > this.height) p.vy *= -1;
+                if (p.x < 0) p.x = this.width;
+                if (p.x > this.width) p.x = 0;
+                if (p.y < 0) p.y = this.height;
+                if (p.y > this.height) p.y = 0;
 
+                const pulse = Math.sin(this.frame * p.pulseSpeed) * 0.2;
                 this.ctx.beginPath();
-                this.ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+                this.ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                this.ctx.fillStyle = this.hexToRgba(p.color, Math.max(0, p.alpha + pulse));
                 this.ctx.fill();
+            });
 
+            for (let i = 0; i < this.particles.length; i++) {
+                const p1 = this.particles[i];
                 for (let j = i + 1; j < this.particles.length; j++) {
                     const p2 = this.particles[j];
-                    const dx = p.x - p2.x;
-                    const dy = p.y - p2.y;
+                    const dx = p1.x - p2.x;
+                    const dy = p1.y - p2.y;
                     const dist = Math.sqrt(dx * dx + dy * dy);
-                    if (dist < 150) {
+                    const maxDist = 150;
+
+                    if (dist < maxDist) {
+                        const lineAlpha = (1 - dist / maxDist) * 0.2;
                         this.ctx.beginPath();
-                        this.ctx.lineWidth = (1 - dist / 150) * 2;
-                        this.ctx.moveTo(p.x, p.y);
+                        this.ctx.moveTo(p1.x, p1.y);
                         this.ctx.lineTo(p2.x, p2.y);
+                        this.ctx.strokeStyle = this.hexToRgba(p1.color, lineAlpha);
+                        this.ctx.lineWidth = 1;
                         this.ctx.stroke();
                     }
                 }
-            });
+            }
         }
     }
 
@@ -544,13 +568,29 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 7. LIFE (Net Mapping) - Firefly / Butterfly / Spirit
-    initLife() {
-        this.lifeStyle = this.getStyle(7);
-        this.particles = Array.from({ length: 30 }, () => this.createParticle());
+    initLife(style = null) {
+        if (style !== null) this.lifeStyle = style;
+        else if (this.lifeStyle === undefined) this.lifeStyle = this.getStyle(7) % 3;
+        this.particles = Array.from({ length: 30 }, () => this.createLifeParticle());
     }
+
+    createLifeParticle() {
+        const baseColor = this.colors[Math.floor(Math.random() * this.colors.length)];
+        return {
+            x: Math.random() * this.width,
+            y: Math.random() * this.height,
+            vx: (Math.random() - 0.5) * 1,
+            vy: (Math.random() - 0.5) * 1,
+            radius: Math.random() * 3 + 1,
+            color: baseColor,
+            alpha: Math.random() * 0.5 + 0.2,
+            pulseSpeed: Math.random() * 0.1 + 0.05,
+            angle: Math.random() * Math.PI * 2
+        };
+    }
+
     drawLife() {
         this.particles.forEach(p => {
-            // Move logic
             p.x += p.vx; p.y += p.vy;
             if (p.x < -50) p.x = this.width + 50;
             if (p.x > this.width + 50) p.x = -50;
@@ -560,19 +600,16 @@ export class OrganicEngine extends ArtEngine {
             const alpha = p.alpha + Math.sin(this.frame * p.pulseSpeed) * 0.2;
             this.ctx.fillStyle = this.hexToRgba(p.color, Math.max(0, alpha));
 
-            if (this.lifeStyle === 0) { // Firefly (Shimmering Dot)
+            if (this.lifeStyle === 0) { // Firefly
                 this.ctx.beginPath();
-                // Intense center
                 this.ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
                 this.ctx.fill();
-                // Glow
                 const shimmer = Math.random() * 0.5 + 0.5;
                 this.ctx.beginPath();
                 this.ctx.arc(p.x, p.y, p.radius * 3, 0, Math.PI * 2);
-                this.ctx.fillStyle = this.hexToRgba(p.color, 0.2 * shimmer);
+                this.ctx.fillStyle = this.hexToRgba(p.color, 0.1 * shimmer);
                 this.ctx.fill();
-
-            } else if (this.lifeStyle === 1) { // Butterfly (Triangle)
+            } else if (this.lifeStyle === 1) { // Butterfly
                 this.ctx.beginPath();
                 const wing = Math.abs(Math.sin(this.frame * 0.2)) * 10;
                 this.ctx.moveTo(p.x, p.y);
@@ -584,39 +621,19 @@ export class OrganicEngine extends ArtEngine {
                 this.ctx.lineTo(p.x + wing, p.y - 5);
                 this.ctx.lineTo(p.x + wing, p.y + 5);
                 this.ctx.fill();
-            } else { // Spirit (Wisp with Tail)
+            } else { // Spirit
                 this.ctx.beginPath();
                 this.ctx.arc(p.x, p.y, p.radius * 1.5, 0, Math.PI * 2);
                 this.ctx.shadowBlur = 10;
                 this.ctx.shadowColor = p.color;
                 this.ctx.fill();
-
-                // Tail
                 this.ctx.beginPath();
                 this.ctx.moveTo(p.x, p.y);
                 this.ctx.quadraticCurveTo(p.x - p.vx * 10, p.y - p.vy * 10, p.x - p.vx * 20, p.y - p.vy * 20 + Math.sin(this.frame * 0.2) * 5);
-                this.ctx.strokeStyle = this.hexToRgba(p.color, 0.5);
+                this.ctx.strokeStyle = this.hexToRgba(p.color, 0.3);
                 this.ctx.stroke();
-
                 this.ctx.shadowBlur = 0;
             }
         });
-    }
-
-    createParticle() {
-        // Unique color HSL shift based on base color
-        // Here we just use palette randomly
-        const baseColor = this.colors[Math.floor(Math.random() * this.colors.length)];
-
-        return {
-            x: Math.random() * this.width,
-            y: Math.random() * this.height,
-            vx: (Math.random() - 0.5) * 1,
-            vy: (Math.random() - 0.5) * 1,
-            radius: Math.random() * 3 + 1,
-            color: baseColor,
-            alpha: Math.random() * 0.5 + 0.2,
-            pulseSpeed: Math.random() * 0.1 + 0.05, // Faster blink
-        };
     }
 }
