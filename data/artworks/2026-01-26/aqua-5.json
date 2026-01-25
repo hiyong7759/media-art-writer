@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "aqua-5",
   "title": {
-    "ko": "심해 소용돌이의 심장",
-    "en": "The Heart of the Deep Vortex"
+    "ko": "심해의 갈비뼈 제단",
+    "en": "The Abyssal Ribcage Altar"
   },
   "description": {
-    "ko": "압도적인 심해의 깊이 속에서, 순수한 빛의 진주가 생물 발광의 불꽃 춤을 깨웁니다.",
-    "en": "In the crushing depths, a pearl of pure light awakens a dance of bioluminescent fire."
+    "ko": "이 작품은 무리나 소용돌이에서 벗어나 거대하고 정적인 골격 구조물에 집중합니다. 단단하고 오래된 뼈와 부드럽고 빛나는 관해파리 사이의 대비를 강조하며, 무거운 소금물이 만들어내는 '수중 폭포'를 통해 독특한 유체 움직임을 묘사합니다.",
+    "en": "This piece shifts away from swarms and vortices toward a monumental, static skeletal structure. It focuses on the contrast between the hard, ancient bone and the soft, glowing siphonophores, featuring 'underwater waterfalls' of heavy brine to create unique fluid movement."
   },
-  "prompt": "A massive, spiraling underwater vortex of bioluminescent plankton and rising bubbles surrounding a central 'pearl' of concentrated turquoise energy. Detailed fluid simulation with intricate caustic patterns dancing across the deep-sea trench walls. Focus on deep-sea translucency and the fluid dynamics of the swirling water. 8k, Octane Render. Raytraced caustics and volumetric underwater lighting create a sense of immense depth. Subsurface scattering on the plankton clouds, with global illumination from the energy core lighting the dark water.",
+  "prompt": "An ancient, skeletal ribcage of a leviathan resting on the silken sands of the Abyssal Plain, overgrown with translucent, neon-veined siphonophores that resemble delicate glass lace. Cascading streams of heavy, luminous brine fall through the skeletal gaps like underwater waterfalls. Intricate fluid dynamics of the brine mixing with the surrounding dark water, creating swirling indigo smoke patterns. Detailed caustic light refracted through the gelatinous membranes of the siphonophores. 8k, Octane Render. Focus on macro textures of the translucent tissue and the interplay of volumetric violet lighting against the deep-sea dark. Raytraced subsurface scattering on the bioluminescent organs.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T13:53:51.420Z"
+  "generatedAt": "2026-01-25T14:13:06.138Z"
 }
