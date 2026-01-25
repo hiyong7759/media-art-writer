@@ -24,7 +24,7 @@ async function validateContent(prompt) {
 
     try {
         const result = await genAI.models.generateContent({
-            model: "gemini-3-pro-preview",
+            model: "gemini-3-flash",
             contents: [{ parts: [{ text: safetyPrompt }] }]
         });
         const response = result.text ? result.text.trim().toUpperCase() : "UNSAFE";
