@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "aqua-5",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "액체적 투명성",
+    "en": "Liquid Transparency"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "바다의 무중력 품 안에서 펼쳐지는 생명체의 평화롭고 투명한 춤사위입니다.",
+    "en": "The peaceful, translucent dance of life within the weightless embrace of the ocean."
   },
-  "prompt": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
+  "prompt": "Microscopic view of translucent jellyfish-like lifeforms suspended in a chaotic swirl of oxygen bubbles and caustic light patterns. Fluid simulation showing the intricate turbulence of the deep sea. Deep blue and turquoise tones #006994 and #48D1CC. Unreal Engine 5, Octane Render, hyper-realistic fluid dynamics, 8k, raytraced caustics, volumetric underwater lighting, and subsurface scattering on the membranes.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T06:50:43.596Z"
+  "generatedAt": "2026-01-25T07:07:26.691Z"
 }

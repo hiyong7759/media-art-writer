@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "flora-9",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "회로의 개화",
+    "en": "Circuit Blossom"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "기술이 프랙탈 자연의 끈기 있는 성장 앞에 굴복하는 영원한 봄의 현장입니다.",
+    "en": "The eternal spring where technology yields to the persistent growth of fractal nature."
   },
-  "prompt": "fractal flowers, blooming digital petals, soft pastels, nature reclaiming technology",
+  "prompt": "A forest of fractal lilies blooming out of weathered copper machinery, their petals transitioning from soft pink glass to digital pixel clouds. Intricate botanical details merging with technological debris. Soft pastel colors #89CFF0 and #FFB6C1, 8k resolution, Octane Render, subsurface scattering on the glass petals, dreamy volumetric lighting, hyper-realistic macro photography style, and raytraced translucency.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T06:50:43.594Z"
+  "generatedAt": "2026-01-25T07:07:26.689Z"
 }

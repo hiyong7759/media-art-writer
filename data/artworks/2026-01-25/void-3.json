@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "void-3",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "무한의 심연",
+    "en": "The Infinite Abyss"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "빛과 시간이 영원한 아름다움으로 뒤틀리는 우주 공허의 정적이고도 장엄한 광경입니다.",
+    "en": "The silent majesty of the cosmic void, where light and time warp into eternal beauty."
   },
-  "prompt": "deep space nebula, stars dust, infinite void, cosmic horror majesty",
+  "prompt": "A massive event horizon of a black hole surrounded by a swirling iridescent accretion disk and towering pillars of gaseous nebula in shades of #3D1A78 and #E6E6FA. Cosmic scale with billions of sharp star clusters in the background. Octane Render, 8k, hyper-realistic space simulation, volumetric gas clouds, raytracing, dramatic light warping around the void, and high-fidelity textures of cosmic dust.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T06:50:43.595Z"
+  "generatedAt": "2026-01-25T07:07:26.690Z"
 }

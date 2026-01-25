@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "neon-v",
   "title": {
-    "ko": "무제",
-    "en": "Untitled"
+    "ko": "실리카의 맥박",
+    "en": "Silica Pulse"
   },
   "description": {
-    "ko": "설명이 없습니다.",
-    "en": "No description available."
+    "ko": "네온의 반사로 젖어든, 칩 크기로 응축된 도시의 전기적 심장박동입니다.",
+    "en": "The electrical heartbeat of a city shrunk to the size of a chip, wet with neon reflections."
   },
-  "prompt": "cyberpunk cityscape colors, neon pink and blue, rainy reflections, futuristic urban texture",
+  "prompt": "A macro view of a cybernetic circuit board designed as a miniature neon city, where glowing pink and cyan pathways are drenched in digital rain. Reflective metallic textures with intricate soldering detail. Unreal Engine 5, 8k, cinematic lighting, dramatic puddles reflecting the #FF00FF and #00FFFF neon signs, volumetric fog, Raytracing, Global Illumination, and sharp focus on the microscopic skyscrapers.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T06:50:43.594Z"
+  "generatedAt": "2026-01-25T07:07:26.688Z"
 }
