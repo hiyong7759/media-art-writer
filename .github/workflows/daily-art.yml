@@ -43,4 +43,4 @@ jobs:
         with:
           commit_message: "art: Daily generative artwork for ${{ steps.date.outputs.date }}"
           branch: main
-          file_pattern: 'data/artworks/*.json'
+          file_pattern: 'data/**'
