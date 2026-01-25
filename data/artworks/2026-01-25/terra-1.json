@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "terra-1",
   "title": "Daily Creation",
-  "prompt": "geological formations, mineral textures, earth tones, layered strata, ancient landscapes, crystal structures, macro earth photography",
+  "prompt": "topographic maps, rough textures of rocks and soil, earthy tones, sediment layers",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "grounded",
     "--dynamic-primary": "#8B4513",
     "--dynamic-secondary": "#D2691E"
   },
-  "generatedAt": "2026-01-25T00:58:18.889Z"
+  "generatedAt": "2026-01-25T04:13:47.432Z"
 }
