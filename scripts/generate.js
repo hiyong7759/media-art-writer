@@ -188,13 +188,19 @@ async function generateBatchArtworks(artists, date, history) {
     while (retryCount <= maxRetries) {
         try {
             console.log(`Sending batch request to Gemini (Attempt ${retryCount + 1})...`);
-            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
-            const result = await model.generateContent({
+
+            // Sync with new SDK: Use genAI.models.generateContent directly
+            const result = await genAI.models.generateContent({
+                model: MODEL_NAME,
                 contents: [{ role: "user", parts: [{ text: systemPrompt }] }],
-                generationConfig: { responseMimeType: "application/json" }
+                config: { responseMimeType: "application/json" }
             });
 
-            let responseText = result.response.text();
+            // Sync with new SDK response structure
+            let responseText = "";
+            if (result && result.candidates && result.candidates[0].content.parts) {
+                responseText = result.candidates[0].content.parts[0].text || "";
+            }
             if (!responseText) throw new Error("No text in response");
 
             // Clean markdown blocks if present
@@ -394,13 +400,16 @@ async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
                 }
             `;
 
-            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
-            const result = await model.generateContent({
+            const result = await genAI.models.generateContent({
+                model: MODEL_NAME,
                 contents: [{ role: "user", parts: [{ text: promptReq }] }],
-                generationConfig: { responseMimeType: "application/json" }
+                config: { responseMimeType: "application/json" }
             });
 
-            let responseText = result.response.text();
+            let responseText = "";
+            if (result && result.candidates && result.candidates[0].content.parts) {
+                responseText = result.candidates[0].content.parts[0].text || "";
+            }
             if (!responseText) throw new Error("Empty response");
 
             // Clean markdown blocks if present
