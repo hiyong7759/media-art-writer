@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "prism-2",
   "title": "Daily Creation",
-  "prompt": "light refraction, rainbow spectrum, crystal prism, iridescent surfaces, holographic effects, chromatic aberration art, vivid colors",
+  "prompt": "light dispersion, rainbow caustics, glass refraction, chromatic aberration",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "vibrant",
+    "--dynamic-mood": "bright",
     "--dynamic-primary": "#FF0080",
     "--dynamic-secondary": "#00FF80"
   },
-  "generatedAt": "2026-01-25T00:58:18.890Z"
+  "generatedAt": "2026-01-25T04:13:47.433Z"
 }

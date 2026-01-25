@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": "Daily Creation",
-  "prompt": "minimalist geometric composition, clean lines, high contrast, negative space, zen aesthetic, architectural precision",
+  "prompt": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
   "style": {
-    "--dynamic-font": "'Inter', sans-serif",
-    "--dynamic-mood": "contemplative",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "intense",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF"
   },
-  "generatedAt": "2026-01-25T00:58:18.887Z"
+  "generatedAt": "2026-01-25T04:13:47.430Z"
 }
