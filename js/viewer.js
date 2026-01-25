@@ -3,6 +3,18 @@
  * 작가별 제너러티브 아트 렌더링 및 UI 제어
  */
 
+// ES Module Imports
+import { ArtEngine } from './engines/ArtEngine.js';
+import { OrganicEngine } from './engines/OrganicEngine.js';
+import { GeometricEngine } from './engines/GeometricEngine.js';
+import { CyberpunkEngine } from './engines/CyberpunkEngine.js';
+import { WaveEngine } from './engines/WaveEngine.js';
+import { CosmicEngine } from './engines/CosmicEngine.js';
+import { FlowEngine } from './engines/FlowEngine.js';
+import { ContourEngine } from './engines/ContourEngine.js';
+import { RefractionEngine } from './engines/RefractionEngine.js';
+import { BloomEngine } from './engines/BloomEngine.js';
+
 class MediaArtViewer {
   constructor() {
     this.canvas = document.getElementById('generativeCanvas');
@@ -406,34 +418,34 @@ class MediaArtViewer {
     // Initialize specific engine
     switch (engineType) {
       case 'Organic':
-        this.engine = new OrganicEngine(this.canvas, this.ctx, colors);
+        this.engine = new OrganicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Geometric':
-        this.engine = new GeometricEngine(this.canvas, this.ctx, colors);
+        this.engine = new GeometricEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Cyberpunk':
         this.engine = new CyberpunkEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Wave':
-        this.engine = new WaveEngine(this.canvas, this.ctx, colors);
+        this.engine = new WaveEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Cosmic':
-        this.engine = new CosmicEngine(this.canvas, this.ctx, colors);
+        this.engine = new CosmicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Flow':
-        this.engine = new FlowEngine(this.canvas, this.ctx, colors);
+        this.engine = new FlowEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Contour':
-        this.engine = new ContourEngine(this.canvas, this.ctx, colors);
+        this.engine = new ContourEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Refraction':
-        this.engine = new RefractionEngine(this.canvas, this.ctx, colors);
+        this.engine = new RefractionEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       case 'Bloom':
-        this.engine = new BloomEngine(this.canvas, this.ctx, colors);
+        this.engine = new BloomEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
         break;
       default:
-        this.engine = new OrganicEngine(this.canvas, this.ctx, colors);
+        this.engine = new OrganicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
     }
 
     // Initial resize to set up engine state
