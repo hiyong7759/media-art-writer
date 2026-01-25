@@ -10,6 +10,7 @@ const IMAGE_MODEL_NAME = "gemini-2.5-flash-image";
 
 let genAI = null;
 if (API_KEY) {
+    // Sync with sample: Simplified initialization
     genAI = new GoogleGenAI(API_KEY);
 } else {
     console.warn("Warning: GEMINI_API_KEY is not set. Using fallback prompts.");
@@ -187,14 +188,17 @@ async function generateBatchArtworks(artists, date, history) {
     while (retryCount <= maxRetries) {
         try {
             console.log(`Sending batch request to Gemini (Attempt ${retryCount + 1})...`);
-            const result = await genAI.models.generateContent({
-                model: MODEL_NAME,
-                config: { responseMimeType: "application/json" },
-                contents: [{ parts: [{ text: systemPrompt }] }]
+            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+            const result = await model.generateContent({
+                contents: [{ role: "user", parts: [{ text: systemPrompt }] }],
+                generationConfig: { responseMimeType: "application/json" }
             });
 
-            const responseText = result.text;
+            let responseText = result.response.text();
             if (!responseText) throw new Error("No text in response");
+
+            // Clean markdown blocks if present
+            responseText = responseText.replace(/```json\n?|```/g, "").trim();
 
             const generatedPrompts = JSON.parse(responseText);
             console.log("Batch generation successful. Processing results...");
@@ -266,22 +270,15 @@ async function generateImage(artist, imagePrompt) {
         try {
             console.log(`[${artist.name}] Generating image with ${IMAGE_MODEL_NAME} (Attempt ${retryCount + 1})...`);
 
-            // Fixed call according to official docs: using generateContent for image generation
-            const response = await genAI.models.generateContent({
+            // Sync with sample: Directly call ai.models.generateContent
+            const result = await genAI.models.generateContent({
                 model: IMAGE_MODEL_NAME,
-                contents: [{ parts: [{ text: imagePrompt }] }],
-                config: {
-                    responseModalities: ["Image"],
-                    imageConfig: {
-                        aspectRatio: "16:9"
-                    }
-                }
+                contents: imagePrompt, // Sample passes string directly
             });
 
-            // Extract image data from parts
-            if (response && response.candidates && response.candidates[0].content.parts) {
-                const parts = response.candidates[0].content.parts;
-                for (const part of parts) {
+            // Sync with sample: Iterate through candidates[0].content.parts
+            if (result && result.candidates && result.candidates[0].content.parts) {
+                for (const part of result.candidates[0].content.parts) {
                     if (part.inlineData) {
                         return Buffer.from(part.inlineData.data, 'base64');
                     }
@@ -397,14 +394,17 @@ async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
                 }
             `;
 
-            const result = await genAI.models.generateContent({
-                model: MODEL_NAME,
-                config: { responseMimeType: "application/json" },
-                contents: [{ parts: [{ text: promptReq }] }]
+            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+            const result = await model.generateContent({
+                contents: [{ role: "user", parts: [{ text: promptReq }] }],
+                generationConfig: { responseMimeType: "application/json" }
             });
 
-            const responseText = result.text;
+            let responseText = result.response.text();
             if (!responseText) throw new Error("Empty response");
+
+            // Clean markdown blocks if present
+            responseText = responseText.replace(/```json\n?|```/g, "").trim();
 
             generatedData = JSON.parse(responseText);
             generatedPrompt = generatedData.prompt;
