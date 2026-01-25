@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "terra-1",
   "title": {
-    "ko": "대지의 연대기",
-    "en": "Earthen Chronology"
+    "ko": "지층의 연대기",
+    "en": "Chronicles of the Strata"
   },
   "description": {
-    "ko": "행성의 거친 피부에 새겨진 수백만 년의 서사가 담긴 연대기입니다.",
-    "en": "The narrative of millions of years carved into the rough skin of the planet."
+    "ko": "시간과 바람의 인내심 강한 손길이 고대 석재에 새겨 넣은 지구의 촉각적 역사.",
+    "en": "The tactile history of the earth, etched into the ancient stone by the patient hands of time and wind."
   },
-  "prompt": "A detailed cross-section of a prehistoric canyon wall, revealing intricate geological strata, sedimentary layers of sandstone, and veins of glowing amber minerals. Rough organic textures of weathered rock and dry soil. Topographic complexity, 8k, Unreal Engine 5, global illumination, cinematic shadows in the crevices, ultra-realistic erosion patterns using #8B4513 and #2F4F4F, and hyper-detailed mineral grain.",
+  "prompt": "A macro cross-section of a desert canyon wall, revealing intricate erosion patterns and geological strata with veins of raw gold mineral. Rough textures of rock, sediment layers, and parched soil in deep ochre and burnt umber. 8k resolution, hyper-realistic. Lighting mimics the harsh, direct sun of high noon, creating deep dramatic shadows in the crevices. Micro-displacement textures for every grain of sand and layer of sediment, rendered with global illumination to show the narrative of time carved in stone.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-25T07:07:26.691Z"
+  "generatedAt": "2026-01-25T07:26:50.127Z"
 }

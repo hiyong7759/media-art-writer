@@ -2,14 +2,14 @@
   "date": "2026-01-25",
   "artistId": "echo-0",
   "title": {
-    "ko": "침묵의 공명",
-    "en": "Resonance of Silence"
+    "ko": "액체 금속의 공명",
+    "en": "Resonance in Liquid Metal"
   },
   "description": {
-    "ko": "고요한 마음의 표면을 흔드는 보이지 않는 주파수를 시각화한 형상입니다.",
-    "en": "Visualizing the invisible frequencies that stir the surface of the quiet mind."
+    "ko": "녹은 은의 격렬하고 아름다운 떨림을 통해 형상화된 소리의 보이지 않는 힘.",
+    "en": "The invisible power of sound made manifest through the violent and beautiful tremors of molten silver."
   },
-  "prompt": "Concentric ripples of vibrating liquid gold and deep cobalt, visualized as 3D waveforms rising from a silent surface. Minimalist yet complex lines reacting to an invisible bass frequency. High-speed liquid simulation, 8k, Unreal Engine 5, raytraced reflections, cinematic lighting using #FF4500 and #4169E1, sharp focus on the crest of the waves, and global illumination highlighting the sound-reactive surface.",
+  "prompt": "A sphere of liquid mercury suspended in mid-air, reacting violently to an invisible low-frequency soundwave, erupting into sharp architectural spikes and vibrating ripples. Minimal lines and visualized soundwaves intersect the form. 4169E1 and FFD700 color accents. Unreal Engine 5, 8k, raytracing. High-speed motion blur on the edges of the liquid metal, sharp focus on the central resonance. Cinematic lighting with dramatic shadows emphasizing the physical form of sound.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T07:07:26.690Z"
+  "generatedAt": "2026-01-25T07:26:50.126Z"
 }

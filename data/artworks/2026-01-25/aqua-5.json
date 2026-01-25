@@ -2,21 +2,21 @@
   "date": "2026-01-25",
   "artistId": "aqua-5",
   "title": {
-    "ko": "액체적 투명성",
-    "en": "Liquid Transparency"
+    "ko": "발광하는 심해의 전례",
+    "en": "Liturgy of the Luminescent Deep"
   },
   "description": {
-    "ko": "바다의 무중력 품 안에서 펼쳐지는 생명체의 평화롭고 투명한 춤사위입니다.",
-    "en": "The peaceful, translucent dance of life within the weightless embrace of the ocean."
+    "ko": "어두운 바다의 무중력 포옹 속에서 느리고 고요한 춤을 추는 천상의 빛의 존재들.",
+    "en": "Ethereal beings of light performing a slow, silent dance in the weightless embrace of the dark ocean."
   },
-  "prompt": "Microscopic view of translucent jellyfish-like lifeforms suspended in a chaotic swirl of oxygen bubbles and caustic light patterns. Fluid simulation showing the intricate turbulence of the deep sea. Deep blue and turquoise tones #006994 and #48D1CC. Unreal Engine 5, Octane Render, hyper-realistic fluid dynamics, 8k, raytraced caustics, volumetric underwater lighting, and subsurface scattering on the membranes.",
+  "prompt": "A swarm of translucent, bioluminescent jellyfish shaped like crystalline chandeliers drifting through a midnight ocean. Detailed fluid simulation with rising bubbles and intricate caustic patterns projected onto the sea floor. Focus on deep-sea translucency and membrane textures. 8k, Octane Render. Raytraced caustics, volumetric underwater lighting, and subsurface scattering on the jellyfish bells. The atmosphere is peaceful yet mysterious, with global illumination from the creatures themselves lighting the dark water.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#006994",
     "--dynamic-secondary": "#40E0D0",
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T07:07:26.691Z"
+  "generatedAt": "2026-01-25T07:26:50.128Z"
 }
