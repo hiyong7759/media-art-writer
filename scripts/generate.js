@@ -5,7 +5,7 @@ require('dotenv').config();
 
 // Configuration
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL_NAME = "gemini-pro";
+const MODEL_NAME = "gemini-3-flash";
 
 let genAI = null;
 if (API_KEY) {
@@ -16,8 +16,55 @@ if (API_KEY) {
 
 const { validateContent } = require('./safety-check');
 const { analyzeAndGenerateStyle } = require('./style-analyzer');
+const HISTORY_FILE = path.join(__dirname, '../data/history.json');
 
-async function generateArtworkForArtist(artist, date) {
+// Helper: Load or Build History
+function loadOrBuildHistory() {
+    if (fs.existsSync(HISTORY_FILE)) {
+        return JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+    }
+
+    console.log("Building history index from existing artworks...");
+    const history = {};
+    const artworksDir = path.join(__dirname, '../data/artworks');
+
+    if (fs.existsSync(artworksDir)) {
+        const dates = fs.readdirSync(artworksDir);
+        for (const date of dates) {
+            const dateDir = path.join(artworksDir, date);
+            if (fs.statSync(dateDir).isDirectory()) {
+                const files = fs.readdirSync(dateDir).filter(f => f.endsWith('.json'));
+                for (const file of files) {
+                    try {
+                        const content = JSON.parse(fs.readFileSync(path.join(dateDir, file), 'utf8'));
+                        const artistId = content.artistId;
+                        if (!history[artistId]) history[artistId] = {};
+                        history[artistId][date] = content.prompt;
+                    } catch (e) {
+                        console.error(`Error reading ${date}/${file}:`, e.message);
+                    }
+                }
+            }
+        }
+    }
+    fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+    return history;
+}
+
+// Helper: Update History
+function updateHistory(artistId, date, prompt) {
+    let history = {};
+    if (fs.existsSync(HISTORY_FILE)) {
+        history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8'));
+    }
+
+    if (!history[artistId]) history[artistId] = {};
+    history[artistId][date] = prompt;
+
+    fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+}
+
+async function generateArtworkForArtist(artist, date, history) {
     console.log(`[${artist.name}] Generating artwork...`);
 
     let generatedPrompt = "";
@@ -27,27 +74,40 @@ async function generateArtworkForArtist(artist, date) {
             // 1. Generate detailed prompt with AI
             const model = genAI.getGenerativeModel({ model: MODEL_NAME });
             const colors = artist.styleHints.colorPalette.join(', ');
+
+            // Get past prompts for this artist
+            const pastPromptsObj = history[artist.id] || {};
+            const pastPrompts = Object.entries(pastPromptsObj)
+                .filter(([d, _]) => d !== date)
+                .map(([_, p]) => p);
+
+            const pastPromptsContext = pastPrompts.length > 0
+                ? JSON.stringify(pastPrompts.slice(-20))
+                : "None (First artwork)";
+
+            // Enhanced Prompt Engineering
             const promptReq = `
-              You are creating a prompt for a generative abstract artwork.
+              Role: You are an expert art curator and generative artist assistant.
+              Task: Create a highly specific, poetic, and abstract art prompt for the generative artist '${artist.name}'.
               
               Artist Profile:
-              - Name: ${artist.name}
               - Theme: ${artist.theme}
               - Philosophy: ${artist.description}
-              - Base Style: ${artist.promptBase}
+              - Signature Style: ${artist.promptBase}
               - Color Palette: ${colors}
               - Movement: ${artist.styleHints.movementSpeed}
               - Mood: ${artist.styleHints.dominantMood}
               
-              Create a creative, poetic prompt for today's artwork.
-              The prompt must:
-              1. Stay true to the artist's unique color palette and visual identity
-              2. Reflect the artist's core philosophy and theme
-              3. Be non-representational and abstract
-              4. Focus on colors, shapes, textures, movement, and emotion
-              5. Be fresh and different from previous days while maintaining consistency
+              Past Works (DO NOT REPEAT THESE):
+              ${pastPromptsContext}
+
+              Guidelines for Today's Creation:
+              1. **Uniqueness**: Review the 'Past Works'. You must create something completely distinct from them in terms of specific imagery, composition, or metaphorical focus.
+              3. **Abstract Nature**: The description must be non-representational. Focus on the interplay of light, form, texture, and motion.
+              4. **Poetic Precision**: Use evocative language (e.g., "whispering gradients", "shattered geometric silence", "cascading liquid gold").
               
-              Output ONLY the prompt, no explanations.
+              Output Format:
+              Return ONLY the raw prompt text. No titles, no "Here is the prompt:", just the description.
             `;
 
             const result = await model.generateContent(promptReq);
@@ -83,16 +143,7 @@ async function generateArtworkForArtist(artist, date) {
         generatedAt: new Date().toISOString()
     };
 
-    // 5. Save Prompt Text (For Manual Image Generation)
-    const promptFile = path.join(__dirname, `../data/prompts/${date}/${artist.id}.txt`);
-    const promptDir = path.dirname(promptFile);
-    if (!fs.existsSync(promptDir)) {
-        fs.mkdirSync(promptDir, { recursive: true });
-    }
-    fs.writeFileSync(promptFile, generatedPrompt);
-    console.log(`[${artist.name}] Prompt saved to ${promptFile}`);
-
-    // 6. Save Metadata File
+    // 5. Save Metadata File (Prompts are now only stored here, not as separate txt files)
     const outputFile = path.join(__dirname, `../data/artworks/${date}/${artist.id}.json`);
     const dir = path.dirname(outputFile);
     if (!fs.existsSync(dir)) {
@@ -101,6 +152,9 @@ async function generateArtworkForArtist(artist, date) {
 
     fs.writeFileSync(outputFile, JSON.stringify(artworkData, null, 2));
     console.log(`[${artist.name}] Metadata saved to ${outputFile}`);
+
+    // 6. Update History
+    updateHistory(artist.id, date, generatedPrompt);
 }
 
 async function main() {
@@ -134,9 +188,12 @@ async function main() {
 
         console.log(`Starting generation for ${targetArtists.length} artist(s) on ${targetDate}...`);
 
+        // Load history once
+        const history = loadOrBuildHistory();
+
         for (const artist of targetArtists) {
             try {
-                await generateArtworkForArtist(artist, targetDate);
+                await generateArtworkForArtist(artist, targetDate, history);
             } catch (err) {
                 console.error(`Failed to generate for ${artist.name}:`, err.message);
                 // Continue to next artist even if one fails
