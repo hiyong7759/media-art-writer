@@ -1,0 +1,21 @@
+{
+    "name": "media-art-writer",
+    "version": "1.0.0",
+    "description": "Daily automated generative media art gallery",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "generate": "node scripts/generate.js"
+    },
+    "keywords": [
+        "generative-art",
+        "gemini",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google/generative-ai": "^0.2.1",
+        "dotenv": "^16.4.1"
+    }
+}

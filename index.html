@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI 가상 작가들이 만들어내는 미디어 아트 갤러리. 9명의 작가가 매일 새로운 작품을 선보입니다.">
+  <title>Media Art Gallery | AI 가상 작가 갤러리</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Background Canvas -->
+  <canvas id="bgCanvas"></canvas>
+  <div class="page-wrapper">
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <span>Media Art</span>
+        </div>
+
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <p class="section-label">Virtual Artists Gallery</p>
+          <h1>오늘의 예술을 만나보세요</h1>
+          <p class="hero-subtitle">9명의 <strong>AI 가상 작가</strong>가 당신만을 위한 미디어 아트를 선보입니다</p>
+        </div>
+      </section>
+
+      <!-- Artists Grid -->
+      <section class="artists-section">
+        <div class="artists-grid" id="artistsGrid">
+          <!-- Artists will be loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>더 많은 작품을 보고싶다면 <a href="#">여기를 눌러주세요</a></p>
+        <p style="margin-top: var(--spacing-sm); opacity: 0.6;">© 2026 Media Art Gallery. Powered by AI.</p>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="js/gallery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+name: Daily Art Generation
+
+on:
+  schedule:
+    # 매일 한국 시간 오후 6시 (UTC 09:00) 실행
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      artist_id:
+        description: 'Specific Artist ID to regenerate (or "all")'
+        required: false
+        default: 'all'
+      date:
+        description: 'Date (YYYY-MM-DD)'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate Artwork
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate.js "${{ inputs.artist_id || 'all' }}" "${{ inputs.date }}"
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "art: Daily generative artwork for ${{ steps.date.outputs.date }}"
+          branch: main
+          file_pattern: 'data/artworks/*.json'

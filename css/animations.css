@@ -1,0 +1,337 @@
+/* ============================================
+   Media Art Writer - Animation System
+   작가별 고유 애니메이션 효과
+   ============================================ */
+
+/* ============================================
+   Base Animation Properties
+   ============================================ */
+
+.artwork-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.artwork-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    will-change: transform, filter;
+}
+
+/* ============================================
+   Animation Type: gentle-pulse (AURA-7)
+   부드러운 밝기/투명도 변화
+   ============================================ */
+
+.animation-gentle-pulse {
+    animation: gentlePulse 8s ease-in-out infinite;
+}
+
+@keyframes gentlePulse {
+
+    0%,
+    100% {
+        filter: brightness(1) saturate(1);
+        transform: scale(1);
+    }
+
+    50% {
+        filter: brightness(1.1) saturate(1.1);
+        transform: scale(1.02);
+    }
+}
+
+/* ============================================
+   Animation Type: subtle-float (KURO-X)
+   미세한 떠다니는 효과
+   ============================================ */
+
+.animation-subtle-float {
+    animation: subtleFloat 12s ease-in-out infinite;
+}
+
+@keyframes subtleFloat {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    33% {
+        transform: translateY(-8px) rotate(0.5deg);
+    }
+
+    66% {
+        transform: translateY(4px) rotate(-0.3deg);
+    }
+}
+
+/* ============================================
+   Animation Type: slow-zoom (NEON-V)
+   느린 줌 인/아웃
+   ============================================ */
+
+.animation-slow-zoom {
+    animation: slowZoom 20s ease-in-out infinite;
+}
+
+@keyframes slowZoom {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+/* ============================================
+   Animation Type: breathing (FLORA-9)
+   생명체처럼 숨쉬는 효과
+   ============================================ */
+
+.animation-breathing {
+    animation: breathing 6s ease-in-out infinite;
+}
+
+@keyframes breathing {
+
+    0%,
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+
+    40% {
+        transform: scale(1.03);
+        filter: brightness(1.05);
+    }
+
+    60% {
+        transform: scale(1.03);
+        filter: brightness(1.05);
+    }
+}
+
+/* ============================================
+   Animation Type: wave-ripple (ECHO-0)
+   파동처럼 퍼지는 효과
+   ============================================ */
+
+.animation-wave-ripple {
+    animation: waveRipple 10s ease-in-out infinite;
+}
+
+@keyframes waveRipple {
+
+    0%,
+    100% {
+        transform: scale(1) translateX(0);
+        filter: hue-rotate(0deg);
+    }
+
+    25% {
+        transform: scale(1.02) translateX(5px);
+        filter: hue-rotate(5deg);
+    }
+
+    50% {
+        transform: scale(1) translateX(0);
+        filter: hue-rotate(0deg);
+    }
+
+    75% {
+        transform: scale(1.02) translateX(-5px);
+        filter: hue-rotate(-5deg);
+    }
+}
+
+/* ============================================
+   Animation Type: drift (VOID-3)
+   우주 표류 효과
+   ============================================ */
+
+.animation-drift {
+    animation: drift 30s linear infinite;
+}
+
+@keyframes drift {
+    0% {
+        transform: scale(1.05) translate(0, 0);
+    }
+
+    25% {
+        transform: scale(1.08) translate(10px, -5px);
+    }
+
+    50% {
+        transform: scale(1.05) translate(5px, 5px);
+    }
+
+    75% {
+        transform: scale(1.08) translate(-5px, -3px);
+    }
+
+    100% {
+        transform: scale(1.05) translate(0, 0);
+    }
+}
+
+/* ============================================
+   Animation Type: slow-reveal (TERRA-1)
+   천천히 드러나는 효과
+   ============================================ */
+
+.animation-slow-reveal {
+    animation: slowReveal 15s ease-in-out infinite;
+}
+
+@keyframes slowReveal {
+
+    0%,
+    100% {
+        transform: scale(1);
+        filter: contrast(1) brightness(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+        filter: contrast(1.1) brightness(1.05);
+    }
+}
+
+/* ============================================
+   Transition Effects (작품 전환)
+   ============================================ */
+
+.transition-fade {
+    transition: opacity 1.5s ease-in-out;
+}
+
+.transition-fade.hidden {
+    opacity: 0;
+}
+
+.transition-crossfade-enter {
+    animation: crossfadeIn 1.5s ease forwards;
+}
+
+.transition-crossfade-exit {
+    animation: crossfadeOut 1.5s ease forwards;
+}
+
+@keyframes crossfadeIn {
+    from {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes crossfadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+}
+
+/* ============================================
+   UI Overlay Animations
+   ============================================ */
+
+.overlay-slide-up {
+    animation: overlaySlideUp 0.5s ease forwards;
+}
+
+@keyframes overlaySlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.overlay-fade {
+    transition: opacity 0.3s ease;
+}
+
+.overlay-fade.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* ============================================
+   Loading Animation
+   ============================================ */
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: var(--color-accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Shimmer Effect for Loading */
+.shimmer {
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* ============================================
+   Reduced Motion Support
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .artwork-image {
+        animation: none !important;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Art Viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&family=Outfit:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+</head>
+
+<body>
+    <div class="viewer-container" id="viewerContainer">
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner"></div>
+            <p style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--color-text-secondary);">작품을 불러오는
+                중...</p>
+        </div>
+        <div class="artwork-wrapper"><canvas id="generativeCanvas"></canvas></div>
+        <a href="index.html" class="back-btn control-btn" aria-label="뒤로">
+            <svg viewBox="0 0 24 24">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+        </a>
+        <div class="controls">
+            <button class="control-btn" id="saveBtn" aria-label="이미지 저장">
+                <svg viewBox="0 0 24 24">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+            </button>
+            <button class="control-btn" id="toggleInfoBtn" aria-label="정보">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16v-4M12 8h.01" />
+                </svg>
+            </button>
+            <button class="control-btn" id="fullscreenBtn" aria-label="전체화면">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+                </svg>
+            </button>
+        </div>
+        <div class="info-overlay" id="infoOverlay">
+            <div class="artist-badge"><span class="dot"></span><span id="artistName">AURA-7</span></div>
+            <h1 class="artwork-title" id="artworkTitle">오늘의 작품</h1>
+            <p class="artwork-description" id="artworkDescription">AI 작가가 생성한 미디어 아트입니다.</p>
+        </div>
+    </div>
+
+    <script src="js/generative.js"></script>
+    <script src="js/viewer.js"></script>
+</body>
+
+</html>
