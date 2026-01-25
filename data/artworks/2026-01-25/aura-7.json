@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "aura-7",
-  "title": "Daily Creation",
-  "prompt": "A macro cinematic shot of a pulsating, semi-transparent biological heart-organism made of intricate bioluminescent glowing tendrils. Deep emerald green (#2D5A3D) and soft lime (#7FB069) liquid light pulses through translucent arterial veins. Golden yellow (#FFE66D) pollen-like particles float in a deep underwater void. Hyper-realistic, Unreal Engine 5, Octane Render, 8k, volumetric lighting, subsurface scattering on organic membranes, sharp focus on texture.",
+  "title": {
+    "ko": "에메랄드의 맥동",
+    "en": "The Emerald Pulse"
+  },
+  "description": {
+    "ko": "살아있는 혈관을 통해 흐르는 빛의 리드미컬한 춤, 해저가 하나의 거대한 호흡하는 생명체가 되는 순간.",
+    "en": "A rhythmic dance of light through living veins, where the ocean floor becomes a breathing organism."
+  },
+  "prompt": "Unreal Engine 5 render, Octane Render, 8k. A sprawling mycelial network of glowing emerald and amber tendrils weaving through submerged obsidian columns in a deep underwater atmosphere. Hyper-realistic bioluminescent organic shapes with liquid light flowing through semi-translucent membranes. Volumetric green light beams piercing through murky depths. Subsurface scattering on glowing tendrils, cinematic lighting, dramatic shadows, global illumination.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#2D5A3D",
-    "--dynamic-secondary": "#7FB069"
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T06:10:07.069Z"
+  "generatedAt": "2026-01-25T06:33:56.706Z"
 }

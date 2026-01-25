@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "kuro-x",
-  "title": "Daily Creation",
-  "prompt": "A massive monolithic obsidian spire fracturing and shattering into thousands of perfect geometric cubes, frozen in mid-air. The composition features sharp monochrome edges with digital scanlines and displacement glitches. Stark white (#FFFFFF) light pierces through deep black (#1A1A1A) voids, creating high-contrast shadows. Razor-sharp focus on the cubic fragments, black and white geometric abstraction, 8k, raytraced reflections on polished surfaces, cinematic glitch aesthetics.",
+  "title": {
+    "ko": "파편화된 특이점",
+    "en": "Fragmented Singularity"
+  },
+  "description": {
+    "ko": "무너진 질서의 완벽한 균형, 흑백의 디지털 폭풍 속에서 혼돈과 구조가 충돌합니다.",
+    "en": "The perfect balance of a collapsed order, where chaos and structure collide in a monochromatic digital storm."
+  },
+  "prompt": "8k resolution, raytracing, sharp focus. A massive monochromatic monolithic sphere suspended in a white void, shattered into thousands of floating obsidian cubes and sharp geometric shards. Glitch art aesthetics featuring digital scanlines and pixel-sorted displacement tearing through the 3D space. High-contrast black and white lighting with brutalist shadows and complex monochrome textures.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
     "--dynamic-primary": "#1A1A1A",
-    "--dynamic-secondary": "#FFFFFF"
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T06:10:09.693Z"
+  "generatedAt": "2026-01-25T06:33:58.827Z"
 }

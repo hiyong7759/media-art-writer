@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "flora-9",
-  "title": "Daily Creation",
-  "prompt": "A rusted mechanical robotic hand resting on a bed of digital moss, being consumed by blooming fractal cherry blossoms with glowing crystalline petals. Soft pastel pink (#FFB6C1) and sky blue (#89CFF0) petals unfold in complex Fibonacci patterns. The interaction of weathered copper gears and delicate digital flora. Depth of field, macro photography style, Unreal Engine 5, soft cinematic sunlight, intricate petal textures, nature reclaiming technology.",
+  "title": {
+    "ko": "실리콘의 개화",
+    "en": "Silicon Blossom"
+  },
+  "description": {
+    "ko": "빛과 코드로 짜인 꽃들이 계절을 잊은 정원에서 피어나는 디지털의 봄.",
+    "en": "A digital spring where flowers are woven from light and code, blooming in a garden that ignores the seasons."
+  },
+  "prompt": "Hyper-realistic 8k, Octane Render. A complex fractal flower where the petals are composed of iridescent glass layers and soft pastel digital fibers. Gold circuitry veins running through the translucent leaves. Nature reclaiming technology as digital pollen particles float in volumetric light. Subsurface scattering on blooming digital petals with soft pink and mint green hues.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
     "--dynamic-primary": "#4A0E4E",
-    "--dynamic-secondary": "#89CFF0"
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T06:10:14.200Z"
+  "generatedAt": "2026-01-25T06:34:02.598Z"
 }

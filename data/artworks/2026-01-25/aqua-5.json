@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "aqua-5",
-  "title": "Daily Creation",
+  "title": {
+    "ko": "생체 발광의 해류",
+    "en": "Bioluminescent Current"
+  },
+  "description": {
+    "ko": "심해의 압력을 견디며 유영하는 심해 생명체들의 평화로운 군무.",
+    "en": "The peaceful choreography of deep-sea spirits navigating the weightless pressure of the abyss."
+  },
   "prompt": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#006994",
-    "--dynamic-secondary": "#40E0D0"
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-25T06:10:16.174Z"
+  "generatedAt": "2026-01-25T06:34:05.206Z"
 }

@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "echo-0",
-  "title": "Daily Creation",
-  "prompt": "An infinite desert landscape where the sand dunes are frozen into sharp, vibrating audio frequency spikes and cymatic patterns. Bright orange (#FF4500) and royal blue (#4169E1) light traces the sharp crests of the soundwaves. Minimalist composition, gold dust (#FFD700) suspended in the air. 8k resolution, raytraced shadows, sharp focus on the crystalline sand grains, volumetric atmospheric haze, visualized soundwaves reacting to invisible sound.",
+  "title": {
+    "ko": "침묵의 공명",
+    "en": "Resonance of Silence"
+  },
+  "description": {
+    "ko": "보이지 않는 것을 보이게 함으로써, 음파가 공기를 조각하는 찰나를 포착합니다.",
+    "en": "The invisible made visible, capturing the moment a sound wave sculpts the very air it travels through."
+  },
+  "prompt": "Octane Render, 8k, raytracing. Three-dimensional soundwaves frozen in space, resembling concentric rings of liquid gold and electric blue mercury suspended in mid-air. Minimalist background with sharp focus on vibrating frequencies and minimal lines reacting to an invisible sonic boom. Dramatic global illumination and raytraced reflections on fluid metallic surfaces.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-mood": "rhythmic",
     "--dynamic-primary": "#FF4500",
-    "--dynamic-secondary": "#4169E1"
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T06:10:15.805Z"
+  "generatedAt": "2026-01-25T06:34:05.015Z"
 }

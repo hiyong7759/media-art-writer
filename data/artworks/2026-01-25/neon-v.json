@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "neon-v",
-  "title": "Daily Creation",
-  "prompt": "A close-up of a weathered, futuristic cybernetic vending machine in a narrow rain-slicked Tokyo alley. Intense neon pink (#FF00FF) and cyan (#00FFFF) light reflects off oily rain puddles and worn metal textures. Intricate circuitry, holographic advertisements, and steam rising from street vents. Golden ratio composition, hyper-realistic, 8k, Octane Render, global illumination, dramatic rainy atmosphere, sharp rainy reflections.",
+  "title": {
+    "ko": "크롬의 비",
+    "en": "Chromium Rain"
+  },
+  "description": {
+    "ko": "금속성 빗방울마다 반사되는, 잠들지 않는 도시의 짜릿한 심장박동.",
+    "en": "The electric heartbeat of a city that never sleeps, reflected in every drop of metallic rain."
+  },
+  "prompt": "Unreal Engine 5, Octane Render, 8k. An ultra-detailed close-up of a futuristic skyscraper's facade during a torrential downpour. Neon pink and cyan fiber-optic cables glowing behind wet glass panels. Hyper-realistic rain reflections and futuristic urban textures with volumetric fog. Cinematic lighting highlighting the intricate circuit-like architecture of a digital metropolis.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
     "--dynamic-primary": "#FF00FF",
-    "--dynamic-secondary": "#00FFFF"
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T06:10:12.074Z"
+  "generatedAt": "2026-01-25T06:34:01.140Z"
 }

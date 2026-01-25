@@ -1,13 +1,22 @@
 {
   "date": "2026-01-25",
   "artistId": "void-3",
-  "title": "Daily Creation",
+  "title": {
+    "ko": "심연의 눈",
+    "en": "The Abyssal Eye"
+  },
+  "description": {
+    "ko": "보랏빛 안개 속에서 빛이 소멸하고 시간이 멈추는 무한의 중심을 향한 시선.",
+    "en": "A gaze into the heart of the infinite, where light is consumed and time stands still in a purple haze."
+  },
   "prompt": "deep space nebula, stars dust, infinite void, cosmic horror majesty",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#0D0221",
-    "--dynamic-secondary": "#3D1A78"
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T06:10:15.890Z"
+  "generatedAt": "2026-01-25T06:34:05.077Z"
 }
