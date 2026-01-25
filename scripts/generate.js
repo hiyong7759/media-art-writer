@@ -6,6 +6,7 @@ require('dotenv').config();
 // Configuration
 const API_KEY = process.env.GEMINI_API_KEY;
 const MODEL_NAME = "gemini-3-flash-preview";
+const IMAGE_MODEL_NAME = "gemini-2.5-flash-image";
 
 let genAI = null;
 if (API_KEY) {
@@ -219,7 +220,11 @@ async function generateBatchArtworks(artists, date, history) {
             if (failedArtists.includes(artist)) continue;
 
             const { prompt, data } = validResults[artist.id];
-            await saveArtworkData(artist, date, prompt, data);
+
+            // Generate Image using the main prompt
+            const imageBuffer = await generateImage(artist, prompt);
+
+            await saveArtworkData(artist, date, prompt, data, imageBuffer);
             updateHistory(artist.id, date, prompt);
         }
 
@@ -237,8 +242,46 @@ async function generateBatchArtworks(artists, date, history) {
     }
 }
 
+// Helper: Image Generation
+async function generateImage(artist, imagePrompt) {
+    if (!genAI) return null;
+
+    console.log(`[${artist.name}] Generating image with ${IMAGE_MODEL_NAME}...`);
+    try {
+        // Use the new SDK's generateImages method if available, or fallback
+        // Note: SDK structure assumed based on @google/genai
+        const response = await genAI.models.generateImages({
+            model: IMAGE_MODEL_NAME,
+            prompt: imagePrompt,
+            config: {
+                numberOfImages: 1,
+                aspectRatio: "16:9",
+                // safetySettings usually not needed for trusted prompt but good practice
+            }
+        });
+
+        if (response && response.images && response.images.length > 0) {
+            const imageBase64 = response.images[0].imageRaw; // Adjust property based on SDK
+            if (imageBase64) {
+                return Buffer.from(imageBase64, 'base64');
+            }
+        }
+
+        // Fallback for different SDK response structure (e.g. bytesJson)
+        // If the SDK returns bytes directly:
+        // return response.images[0].bytes; 
+
+        console.warn(`[${artist.name}] Image generation response format unrecognized.`);
+        return null;
+
+    } catch (error) {
+        console.error(`[${artist.name}] Image Generation Failed:`, error.message);
+        return null;
+    }
+}
+
 // Helper: Common Save Logic
-function saveArtworkData(artist, date, prompt, data) {
+function saveArtworkData(artist, date, prompt, data, imageBuffer = null) {
     // Generate Style Analysis
     const styleData = analyzeAndGenerateStyle(artist, prompt);
 
@@ -278,6 +321,13 @@ function saveArtworkData(artist, date, prompt, data) {
 
     fs.writeFileSync(outputFile, JSON.stringify(artworkData, null, 2));
     console.log(`[${artist.name}] Metadata saved to ${outputFile}`);
+
+    // Save Image File
+    if (imageBuffer) {
+        const imageFile = path.join(__dirname, `../data/artworks/${date}/${artist.id}.png`);
+        fs.writeFileSync(imageFile, imageBuffer);
+        console.log(`[${artist.name}] Image saved to ${imageFile}`);
+    }
 }
 
 async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
@@ -285,7 +335,7 @@ async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
         console.warn(`[${artist.name}] Max retries reached. Using fallback.`);
         const fallbackPrompt = artist.promptBase;
         // Even fallback should act as valid generation result
-        saveArtworkData(artist, date, fallbackPrompt, null);
+        saveArtworkData(artist, date, fallbackPrompt, null, null);
         updateHistory(artist.id, date, fallbackPrompt);
         return;
     }
@@ -357,7 +407,10 @@ async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
         generatedPrompt = artist.promptBase;
     }
 
-    saveArtworkData(artist, date, generatedPrompt, generatedData);
+    // Generate Image using the main prompt
+    const imageBuffer = await generateImage(artist, generatedPrompt);
+
+    saveArtworkData(artist, date, generatedPrompt, generatedData, imageBuffer);
     updateHistory(artist.id, date, generatedPrompt);
 }
 

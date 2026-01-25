@@ -281,7 +281,8 @@ class MediaArtViewer {
       title: "로컬 테스트 작품 (Dummy)",
       description: "데이터가 없을 경우 표시되는 임시 설명입니다. 실제 배포 시에는 생성된 데이터가 표시됩니다.",
       prompt: "This is a dummy prompt for local testing purposes. The API key might be missing or the generation script has not run yet. (Local mode)",
-      model: "Mock-Model (Local)",
+      model_prompt: "gemini-3-flash",
+      model_image: "gemini-2.5-flash-image",
       generatedAt: new Date().toISOString(),
       style: {
         // Only override if needed, otherwise uses artist default
@@ -365,7 +366,14 @@ class MediaArtViewer {
     const promptEl = document.getElementById('promptText');
 
     if (daily) {
-      if (modelEl) modelEl.textContent = `MODEL: ${daily.model || 'Unknown'}`;
+      if (modelEl) {
+        const pModel = daily.model_prompt || daily.model || 'gemini-3-flash';
+        const iModel = daily.model_image || 'gemini-2.5-flash-image';
+        modelEl.innerHTML = `PROMPT MODEL: ${pModel}<br>IMAGE MODEL: ${iModel}`;
+        modelEl.style.lineHeight = '1.4';
+        modelEl.style.display = 'inline-block';
+        modelEl.style.textAlign = 'left';
+      }
       if (promptEl) promptEl.textContent = daily.prompt || 'No prompt available';
     } else {
       if (modelEl) modelEl.textContent = "MODEL: -";
