@@ -154,7 +154,7 @@ async function generateBatchArtworks(artists, date, history) {
 
         for (const artist of artists) {
             let data = generatedPrompts[artist.id];
-            let prompt = "";
+            let prompt = data ? data.prompt : "";
 
             if (!prompt) {
                 console.error(`No data generated for ${artist.name}. Using fallback.`);
