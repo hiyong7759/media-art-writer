@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "echo-0",
   "title": {
-    "ko": "유리 사구의 공명",
-    "en": "Resonance of the Glass Dunes"
+    "ko": "흑요석의 공명",
+    "en": "The Obsidian Resonance"
   },
   "description": {
-    "ko": "소리가 얼어붙은 코발트 유리의 바다를 가로지르며 보이지 않는 것이 실체가 됩니다.",
-    "en": "The invisible becomes tangible as sound carves its path through a frozen sea of cobalt glass."
+    "ko": "고주파의 긴장감을 시각화한 연구로, 빈 공간 속에서 단단한 흑요석을 파괴하고 리드미컬한 건축적 막으로 재구성하는 소리의 힘을 표현합니다.",
+    "en": "A study of high-frequency tension, visualizing sound as the force that shatters and reconstructs solid obsidian into a rhythmic architectural membrane within a void."
   },
-  "prompt": "A surreal desert landscape where the sand dunes are formed from vibrating cobalt glass, sculpted into sharp wave-forms by an invisible sonic frequency. In the center, a golden core pulses with rhythmic energy, sending ripples across the glass desert. Minimal lines and visualized soundwaves intersect the horizon. Unreal Engine 5, 8k, raytracing. High-speed motion blur captures the kinetic vibration of the glass edges, with sharp focus on the central golden resonance. Cinematic lighting with dramatic shadows emphasizing the physical architecture of sound.",
+  "prompt": "A macro close-up of a singular, translucent obsidian membrane suspended in a pitch-black void, vibrating violently to a high-frequency violin pitch. The membrane is shattering into microscopic geometric glass shards that reassemble in mid-air, following the path of invisible, glowing ultraviolet soundwaves. Minimalist white neon lines intersect the fracture points, tracing the mathematical logic of the frequency. 6A0DAD ultraviolet accents. Unreal Engine 5, 8k, raytracing. Extreme depth of field with sharp focus on the crystalline fractures and soft bokeh on the vibrating edges. Cinematic lighting using a singular top-down spotlight to create high-contrast shadows and emphasize the physical anatomy of a single note.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#FF4500",
     "--dynamic-secondary": "#4169E1",
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T13:53:32.772Z"
+  "generatedAt": "2026-01-25T14:12:26.522Z"
 }

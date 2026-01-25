@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "void-3",
   "title": {
-    "ko": "아스트랄 레비아탄의 여정",
-    "en": "The Astral Leviathan's Journey"
+    "ko": "공허 핵의 수정 침묵",
+    "en": "The Crystalline Silence of the Void-Core"
   },
   "description": {
-    "ko": "심해를 지나는 침묵의 거인, 고대 별들의 무게를 등에 지고 나아갑니다.",
-    "en": "A silent giant moves through the abyss, carrying the weight of ancient stars on its back."
+    "ko": "에메랄드빛 색조와 비유클리드 기하학적 건축이 특징인, 소멸한 우주의 마지막 기록을 상징하는 흑요석과 갇힌 별빛의 거대 구조물입니다.",
+    "en": "A vast, geometric structure of obsidian and trapped starlight, representing the final archive of a dead universe, characterized by emerald hues and non-Euclidean architecture."
   },
-  "prompt": "A colossal cosmic leviathan composed of dark matter and swirling star clusters, swimming through a deep violet nebula. The creature's body is an event horizon, distorting the light of nearby supernovae into elongated streaks of indigo and lavender. Cosmic scale, cosmic horror majesty. 8k, Octane Render, raytracing. Volumetric gas simulations create layers of depth within the nebula, with global illumination from distant stars lighting the creature's ethereal form. Detailed textures of stellar dust and energy fields flowing like celestial water.",
+  "prompt": "An infinite lattice of jagged, obsidian-glass monoliths floating in the absolute center of a dead-star nebula. Within the translucent shards, the trapped light of a thousand extinguished suns glows with a sickly emerald and pale gold radiance. The structures form a non-Euclidean, recursive cathedral of geometric perfection, dwarfing entire solar systems. Cosmic scale, cosmic horror majesty. 8k, Octane Render, raytracing. Extreme volumetric shadow play, refractive light through crystalline surfaces, and global illumination from internal stellar embers. Detailed textures of cold, polished void-glass and ancient, etched celestial runes.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#0D0221",
     "--dynamic-secondary": "#3D1A78",
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-25T13:53:38.992Z"
+  "generatedAt": "2026-01-25T14:12:39.497Z"
 }

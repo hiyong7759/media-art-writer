@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "kuro-x",
   "title": {
-    "ko": "모노리스 속의 파편화된 논리",
-    "en": "Fragmented Logic in the Monolith"
+    "ko": "신경 글리치 매트릭스",
+    "en": "The Neural Glitch Matrix"
   },
   "description": {
-    "ko": "건축과 오류가 만나는 지점, 디지털 붕괴의 순간에서 완벽한 균형이 발견됩니다.",
-    "en": "Where architecture meets the error, a perfect balance is found in the moment of digital collapse."
+    "ko": "건축적 형태에서 벗어나 생물학적 형상을 탐구한 이 작품은, 극단적인 기하학적 붕괴와 고속 데이터 용해 미학을 통해 인간의 실루엣이 해체되는 과정을 보여줍니다.",
+    "en": "A departure from architectural forms into the biological, this piece explores the deconstruction of a human silhouette through extreme geometric corruption and high-speed data-melt aesthetics."
   },
-  "prompt": "An impossible Escher-esque staircase composed of hyper-reflective black obsidian and matte white marble, suspended in a sterile grey void. The geometry is violently interrupted by horizontal digital slicing and glitch artifacts that offset sections of the architecture. 8k, raytracing, sharp angles. High-contrast cinematic lighting creates deep, dramatic shadows and razor-sharp highlights on the monochromatic surfaces. Detailed textures of digital noise and fragmented scanlines are etched into the stone, rendered with global illumination to emphasize the balance between order and chaos.",
+  "prompt": "A hyper-detailed profile of a human bust composed entirely of razor-sharp, interlocking black obsidian polygons and crystalline white structures. The form is experiencing a violent 'data-melt,' with massive horizontal displacement glitches and pixel-sorting artifacts tearing the facial features into a chaotic stream of monochrome geometric fragments. High-contrast 8k rendering with intense raytraced reflections and harsh shadows. The background is a dense field of digital scanlines and rhythmic geometric noise. Sharp angles, global illumination, and textured digital corruption define the volumetric form in a sterile, high-bitrate void.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T13:53:13.870Z"
+  "generatedAt": "2026-01-25T14:11:46.309Z"
 }

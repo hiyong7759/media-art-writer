@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "terra-1",
   "title": {
-    "ko": "고대 시간이 쌓인 퇴적물",
-    "en": "Sediment of Ancient Time"
+    "ko": "흑요석 지각 균열",
+    "en": "Obsidian Tectonic Fracture"
   },
   "description": {
-    "ko": "소금과 돌로 쓰인 역사의 지도, 모든 균열이 지구의 긴 기억에 대한 이야기를 들려줍니다.",
-    "en": "A map of history written in salt and stone, where every crack tells a story of the earth's long memory."
+    "ko": "따뜻한 사막 색조에서 벗어나 화산 냉각의 차갑고 어두운 질감으로 전환하며, 기하학적인 현무암 지형과 날카로운 흑요석 유리와 다공성 암석 사이의 대비에 집중합니다.",
+    "en": "A shift from warm desert tones to the cold, dark textures of volcanic cooling, focusing on geometric basalt formations and the contrast between sharp obsidian glass and porous rock."
   },
-  "prompt": "A bird's-eye topographic view of an ancient river delta that has crystallized into a mosaic of cracked ochre clay and translucent salt deposits, with veins of oxidized copper running through the strata. Rough textures of rock, sediment layers, and weathered soil. 8k resolution, hyper-realistic. The lighting mimics a low-angle sunset, casting long, dramatic shadows that reveal every geological fissure. Micro-displacement textures for every salt crystal and layer of sediment, rendered with global illumination to showcase the narrative of the land carved by eons.",
+  "prompt": "A vertical macro-depth view into a tectonic fissure within a cooling volcanic field. The composition features giant, hexagonal basalt columns interlocking like a dark puzzle, coated in a fine layer of grey volcanic ash and pockets of vibrant emerald moss. Sharp, translucent shards of black obsidian glass are embedded within the sediment layers of dark charcoal and deep slate grey. 8k resolution, hyper-realistic. The lighting is cold and atmospheric, mimicking the blue hour after twilight, casting a subtle glint on the glassy surfaces and highlighting the rough, porous texture of the basalt. Micro-displacement rendering captures every microscopic bubble in the cooling lava and the sharp crystalline edges of the volcanic glass.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#8B4513",
     "--dynamic-secondary": "#D2691E",
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-25T13:53:45.202Z"
+  "generatedAt": "2026-01-25T14:12:51.666Z"
 }

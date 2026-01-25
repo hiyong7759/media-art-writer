@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "prism-2",
   "title": {
-    "ko": "공중에 멈춘 부서진 빛",
-    "en": "Shattered Light in Suspension"
+    "ko": "프리즘 그로토",
+    "en": "The Prismatic Grotto"
   },
   "description": {
-    "ko": "단 하나의 빛줄기가 무한한 색채의 태피스트리로 풀어헤쳐지며 시간이 멈춥니다.",
-    "en": "Time stops as a single beam of light is unraveled into a tapestry of infinite color."
+    "ko": "고립된 정물에서 벗어나 거대한 몰입형 환경으로 확장한 작품으로, 유기적인 크리스탈 생명체들이 단일 광원을 복잡한 굴절과 스펙트럼 산란의 교향곡으로 변화시키는 신비로운 동굴의 모습을 묘사합니다.",
+    "en": "A departure from isolated objects into a vast, immersive environment where organic crystal lifeforms transform a single light source into a complex symphony of refraction and spectral scattering."
   },
-  "prompt": "A series of suspended liquid droplets frozen in a zero-gravity environment, each acting as a perfect spherical lens refracting a beam of white light into a complex web of spectrum-colored threads. Spectral dispersion and light splitting with high refractive indices. Focus on crystal facets and intense chromatic aberration within the droplets. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where the rainbows intersect. Detailed rainbow caustics projected onto a dark, velvet-textured background. Global illumination captures the pure energy of the rainbow.",
+  "prompt": "An expansive subterranean cavern filled with giant, organic crystalline flora resembling ferns and weeping willows. Each leaf is a thin, razor-sharp prism of high-index glass. A singular, intense beam of moonlight pierces through a crevice in the ceiling, striking the prismatic canopy and exploding into a chaotic, psychedelic display of spectral dispersion. The cave walls are draped in vibrant, swirling rainbow caustics. Intense chromatic aberration blurs the edges of the furthest crystals. Deep shadows contrast with the blindingly bright spectral threads. 8k, hyper-detailed, raytracing, cinematic macro photography of light hitting a crystal leaf edge, volumetric lighting.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-25T13:53:57.653Z"
+  "generatedAt": "2026-01-25T14:14:03.109Z"
 }
