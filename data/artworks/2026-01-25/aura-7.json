@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "aura-7",
   "title": "Daily Creation",
-  "prompt": "bioluminescent organic shapes, flowing liquid light, deep underwater atmosphere, glowing tendrils",
+  "prompt": "A macro cinematic shot of a pulsating, semi-transparent biological heart-organism made of intricate bioluminescent glowing tendrils. Deep emerald green (#2D5A3D) and soft lime (#7FB069) liquid light pulses through translucent arterial veins. Golden yellow (#FFE66D) pollen-like particles float in a deep underwater void. Hyper-realistic, Unreal Engine 5, Octane Render, 8k, volumetric lighting, subsurface scattering on organic membranes, sharp focus on texture.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#2D5A3D",
     "--dynamic-secondary": "#7FB069"
   },
-  "generatedAt": "2026-01-25T04:57:50.636Z"
+  "generatedAt": "2026-01-25T06:10:07.069Z"
 }

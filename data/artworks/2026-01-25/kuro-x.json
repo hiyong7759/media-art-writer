@@ -2,12 +2,12 @@
   "date": "2026-01-25",
   "artistId": "kuro-x",
   "title": "Daily Creation",
-  "prompt": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
+  "prompt": "A massive monolithic obsidian spire fracturing and shattering into thousands of perfect geometric cubes, frozen in mid-air. The composition features sharp monochrome edges with digital scanlines and displacement glitches. Stark white (#FFFFFF) light pierces through deep black (#1A1A1A) voids, creating high-contrast shadows. Razor-sharp focus on the cubic fragments, black and white geometric abstraction, 8k, raytraced reflections on polished surfaces, cinematic glitch aesthetics.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "intense",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF"
   },
-  "generatedAt": "2026-01-25T04:57:50.748Z"
+  "generatedAt": "2026-01-25T06:10:09.693Z"
 }
