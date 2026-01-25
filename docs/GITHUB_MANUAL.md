@@ -62,3 +62,16 @@ Midjourney, DALL-E, 또는 로컬 Stable Diffusion 등을 사용하여 이미지
 *   **파일명**: `artist-id.png` (예: `aura-7.png`)
 
 > 이미지를 업로드하고 커밋(`git push`)하면, 뷰어는 해당 이미지가 있을 경우 우선적으로 표시하거나 배경으로 사용할 수 있습니다. (현재 뷰어는 코드 기반 생성이 우선이므로, 이미지 적용 로직 추가가 필요할 수 있습니다)
+
+---
+
+## 5. 호스팅 설정 (GitHub Pages)
+
+웹사이트를 인터넷에 배포하여 누구나 접속할 수 있게 만듭니다.
+
+1.  GitHub 저장소의 **Settings** 탭 클릭
+2.  왼쪽 메뉴에서 **Pages** 클릭
+3.  **Build and deployment** 섹션의 **Source**를 **Deploy from a branch**로 선택
+4.  **Branch**를 `main`으로 선택하고 폴더는 `/(root)` 선택 후 **Save** 클릭
+5.  몇 분 후 상단에 생성된 웹사이트 주소(URL)가 표시됩니다. (예: `https://YOUR_USERNAME.github.io/media-art-writer/`)
+

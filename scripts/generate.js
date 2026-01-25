@@ -26,13 +26,28 @@ async function generateArtworkForArtist(artist, date) {
         try {
             // 1. Generate detailed prompt with AI
             const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+            const colors = artist.styleHints.colorPalette.join(', ');
             const promptReq = `
-              Artist: ${artist.name} (${artist.theme})
-              Description: ${artist.description}
-              Style: ${artist.promptBase}
+              You are creating a prompt for a generative abstract artwork.
               
-              Create a prompt for a generative, non-representational abstract artwork.
-              Focus on colors, shapes, movement, and feelings.
+              Artist Profile:
+              - Name: ${artist.name}
+              - Theme: ${artist.theme}
+              - Philosophy: ${artist.description}
+              - Base Style: ${artist.promptBase}
+              - Color Palette: ${colors}
+              - Movement: ${artist.styleHints.movementSpeed}
+              - Mood: ${artist.styleHints.dominantMood}
+              
+              Create a creative, poetic prompt for today's artwork.
+              The prompt must:
+              1. Stay true to the artist's unique color palette and visual identity
+              2. Reflect the artist's core philosophy and theme
+              3. Be non-representational and abstract
+              4. Focus on colors, shapes, textures, movement, and emotion
+              5. Be fresh and different from previous days while maintaining consistency
+              
+              Output ONLY the prompt, no explanations.
             `;
 
             const result = await model.generateContent(promptReq);

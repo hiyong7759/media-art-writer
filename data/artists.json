@@ -3,172 +3,163 @@
     {
       "id": "aura-7",
       "name": "AURA-7",
-      "nameKo": "아우라-7",
-      "theme": "디지털 자연주의",
-      "description": "빛과 자연의 순간을 포착하는 명상적 작품",
-      "promptBase": "ethereal natural scene, soft diffused light, organic flowing shapes, bioluminescent elements, dreamlike atmosphere, 4K",
+      "theme": "Organic Flow",
+      "promptBase": "bioluminescent organic shapes, flowing liquid light, deep underwater atmosphere, glowing tendrils",
+      "description": "숨 쉬는 자연의 빛, 유기적 생명의 흐름",
       "styleHints": {
-        "dominantMood": "serene",
-        "animationType": "gentle-pulse",
-        "engineType": "Organic",
         "colorPalette": [
           "#2D5A3D",
           "#7FB069",
           "#E6F2E1",
           "#FFE66D"
-        ]
+        ],
+        "movementSpeed": "slow",
+        "particleCount": "high",
+        "dominantMood": "serene"
       }
     },
     {
       "id": "kuro-x",
       "name": "KURO-X",
-      "nameKo": "쿠로-엑스",
-      "theme": "미니멀 기하학",
-      "description": "공간과 형태, 빈 공간의 대화",
-      "promptBase": "minimalist geometric composition, clean lines, high contrast, negative space, zen aesthetic, architectural precision",
+      "theme": "Geometric Glitch",
+      "promptBase": "black and white geometric abstraction, glitch art aesthetics, scanlines, sharp angles, monochrome complexity",
+      "description": "질서 속 혼돈, 파편이 만드는 완벽한 균형",
       "styleHints": {
-        "dominantMood": "contemplative",
-        "animationType": "subtle-float",
-        "engineType": "Geometric",
         "colorPalette": [
           "#1A1A1A",
           "#FFFFFF",
           "#808080",
           "#C0C0C0"
-        ]
+        ],
+        "movementSpeed": "fast",
+        "particleCount": "medium",
+        "dominantMood": "intense"
       }
     },
     {
       "id": "neon-v",
       "name": "NEON-V",
-      "nameKo": "네온-브이",
-      "theme": "사이버펑크 비전",
-      "description": "네온 도시와 미래의 풍경",
-      "promptBase": "cyberpunk cityscape, neon reflections, rain-slicked streets, holographic elements, blade runner aesthetic, 8K",
+      "theme": "Cyberpunk City",
+      "promptBase": "cyberpunk cityscape colors, neon pink and blue, rainy reflections, futuristic urban texture",
+      "description": "네온과 금속, 미래 도시의 디지털 낭만",
       "styleHints": {
-        "dominantMood": "electric",
-        "animationType": "slow-zoom",
-        "engineType": "Cyberpunk",
         "colorPalette": [
           "#FF00FF",
           "#00FFFF",
           "#1A0033",
           "#FF6B35"
-        ]
+        ],
+        "movementSpeed": "medium",
+        "particleCount": "high",
+        "dominantMood": "energetic"
       }
     },
     {
       "id": "flora-9",
       "name": "FLORA-9",
-      "nameKo": "플로라-9",
-      "theme": "초현실 식물학",
-      "description": "상상 속 식물과 미지의 생태계",
-      "promptBase": "surreal botanical illustration, impossible flowers, alien flora, scientific aesthetic, detailed texture, macro photography style",
+      "theme": "Digital Nature",
+      "promptBase": "fractal flowers, blooming digital petals, soft pastels, nature reclaiming technology",
+      "description": "영원히 피어나는 디지털 정원의 봄",
       "styleHints": {
-        "dominantMood": "mysterious",
-        "animationType": "breathing",
-        "engineType": "Organic",
         "colorPalette": [
           "#4A0E4E",
           "#89CFF0",
           "#50C878",
           "#FFB6C1"
-        ]
+        ],
+        "movementSpeed": "slow",
+        "particleCount": "high",
+        "dominantMood": "peaceful"
       }
     },
     {
       "id": "echo-0",
       "name": "ECHO-0",
-      "nameKo": "에코-제로",
-      "theme": "추상 음향 시각화",
-      "description": "소리와 리듬의 시각적 표현",
-      "promptBase": "abstract sound visualization, audio waveforms, rhythm patterns, synesthesia art, flowing energy, vibrant gradients",
+      "theme": "Sound Visualization",
+      "promptBase": "visualized soundwaves, vibrating frequencies, minimal lines reacting to invisible sound",
+      "description": "침묵 속 울림, 소리의 시각적 공명",
       "styleHints": {
-        "dominantMood": "dynamic",
-        "animationType": "wave-ripple",
-        "engineType": "Wave",
         "colorPalette": [
           "#FF4500",
           "#4169E1",
           "#FFD700",
           "#32CD32"
-        ]
+        ],
+        "movementSpeed": "fast",
+        "particleCount": "low",
+        "dominantMood": "rhythmic"
       }
     },
     {
       "id": "void-3",
       "name": "VOID-3",
-      "nameKo": "보이드-3",
-      "theme": "우주적 심연",
-      "description": "끝없는 우주와 존재의 근원을 탐구하는 작품",
-      "promptBase": "cosmic void, deep space nebula, stellar formations, infinite darkness with scattered starlight, existential atmosphere, ultra detailed",
+      "theme": "Cosmic Deep",
+      "promptBase": "deep space nebula, stars dust, infinite void, cosmic horror majesty",
+      "description": "심연의 별, 무한 우주의 고요한 장엄",
       "styleHints": {
-        "dominantMood": "cosmic",
-        "animationType": "drift",
-        "engineType": "Cosmic",
         "colorPalette": [
           "#0D0221",
           "#3D1A78",
           "#7B68EE",
           "#E6E6FA"
-        ]
+        ],
+        "movementSpeed": "very slow",
+        "particleCount": "high",
+        "dominantMood": "mysterious"
       }
     },
     {
       "id": "terra-1",
       "name": "TERRA-1",
-      "nameKo": "테라-1",
-      "theme": "대지의 기억",
-      "description": "지구의 광물, 지층, 자연의 시간을 담은 작품",
-      "promptBase": "geological formations, mineral textures, earth tones, layered strata, ancient landscapes, crystal structures, macro earth photography",
+      "theme": "Earth Texture",
+      "promptBase": "topographic maps, rough textures of rocks and soil, earthy tones, sediment layers",
+      "description": "흙과 바위, 시간이 새긴 대지의 서사",
       "styleHints": {
-        "dominantMood": "grounded",
-        "animationType": "slow-reveal",
-        "engineType": "Wave",
         "colorPalette": [
           "#8B4513",
           "#D2691E",
           "#F4A460",
           "#2F4F4F"
-        ]
+        ],
+        "movementSpeed": "slow",
+        "particleCount": "medium",
+        "dominantMood": "grounded"
       }
     },
     {
       "id": "aqua-5",
       "name": "AQUA-5",
-      "nameKo": "아쿠아-5",
-      "theme": "심해의 신비",
-      "description": "깊은 바다 속 미지의 생명체와 빛의 춤",
-      "promptBase": "deep sea creatures, bioluminescent ocean, underwater photography, mysterious depths, flowing water, ethereal marine life, 8K",
+      "theme": "Deep Ocean",
+      "promptBase": "bioluminescence in deep sea, fluid dynamics, bubbles, translucent jellyfish forms",
+      "description": "심해의 빛, 투명한 생명의 평온한 춤",
       "styleHints": {
-        "dominantMood": "mysterious",
-        "animationType": "wave-ripple",
-        "engineType": "Wave",
         "colorPalette": [
           "#006994",
           "#40E0D0",
           "#000080",
           "#48D1CC"
-        ]
+        ],
+        "movementSpeed": "medium",
+        "particleCount": "medium",
+        "dominantMood": "calm"
       }
     },
     {
       "id": "prism-2",
       "name": "PRISM-2",
-      "nameKo": "프리즘-2",
-      "theme": "빛의 스펙트럼",
-      "description": "빛의 굴절과 분산이 만들어내는 무한한 색채",
-      "promptBase": "light refraction, rainbow spectrum, crystal prism, iridescent surfaces, holographic effects, chromatic aberration art, vivid colors",
+      "theme": "Light Refraction",
+      "promptBase": "light dispersion, rainbow caustics, glass refraction, chromatic aberration",
+      "description": "빛의 굴절, 무지개가 담긴 순수 에너지",
       "styleHints": {
-        "dominantMood": "vibrant",
-        "animationType": "gentle-pulse",
-        "engineType": "Organic",
         "colorPalette": [
           "#FF0080",
           "#00FF80",
           "#8000FF",
           "#FFFF00"
-        ]
+        ],
+        "movementSpeed": "fast",
+        "particleCount": "low",
+        "dominantMood": "bright"
       }
     }
   ]

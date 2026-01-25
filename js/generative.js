@@ -173,37 +173,20 @@ class GeometricEngine extends ArtEngine {
     }
 
     draw() {
-        this.ctx.clearRect(0, 0, this.width, this.height);
-
-        // Background grid (subtle)
-        this.ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
-        this.ctx.lineWidth = 1;
-        const gridSize = 100;
-
-        // Grid movement
-        const offset = (this.frame * 0.5) % gridSize;
-
-        this.ctx.beginPath();
-        for (let x = offset; x < this.width; x += gridSize) {
-            this.ctx.moveTo(x, 0);
-            this.ctx.lineTo(x, this.height);
-        }
-        this.ctx.stroke();
-
-        this.ctx.beginPath();
-        for (let y = offset; y < this.height; y += gridSize) {
-            this.ctx.moveTo(0, y);
-            this.ctx.lineTo(this.width, y);
-        }
-        this.ctx.stroke();
+        this.ctx.fillStyle = 'rgba(10, 10, 15, 0.1)'; // Trails
+        this.ctx.fillRect(0, 0, this.width, this.height);
 
         // Shapes
         this.shapes.forEach(s => {
+            s.rotation += s.rotationSpeed;
+            // Gentle float movement like index
+            s.x += Math.sin(this.frame * 0.005 + s.size) * 0.5;
+
             this.ctx.save();
             this.ctx.translate(s.x, s.y);
             this.ctx.rotate(s.rotation);
-            this.ctx.strokeStyle = this.hexToRgba(s.color, 0.6);
-            this.ctx.lineWidth = s.lineWidth;
+            this.ctx.strokeStyle = this.hexToRgba(s.color, 0.7);
+            this.ctx.lineWidth = 1.5;
 
             this.ctx.beginPath();
             for (let i = 0; i < s.sides; i++) {
@@ -214,12 +197,6 @@ class GeometricEngine extends ArtEngine {
                 else this.ctx.lineTo(x, y);
             }
             this.ctx.closePath();
-            this.ctx.stroke();
-
-            // Connecting lines to corners
-            this.ctx.beginPath();
-            this.ctx.moveTo(0, 0);
-            this.ctx.lineTo(Math.cos(0) * s.size, Math.sin(0) * s.size); // Just one for minimalism
             this.ctx.stroke();
 
             this.ctx.restore();
@@ -257,8 +234,9 @@ class CyberpunkEngine extends ArtEngine {
         this.ctx.font = '15px monospace';
 
         for (let i = 0; i < this.drops.length; i++) {
-            // Random character
-            const char = String.fromCharCode(0x30A0 + Math.random() * 96);
+            // Korean character
+            const koreanChars = '가나다라마바사아자차카타파하디지털코드데이터미래네온시티전력신호접속흐름빛';
+            const char = koreanChars[Math.floor(Math.random() * koreanChars.length)];
             const x = i * 20;
             const y = this.drops[i] * 20;
 
@@ -387,6 +365,220 @@ class CosmicEngine extends ArtEngine {
             this.ctx.arc(x, y, r, 0, Math.PI * 2);
             this.ctx.fillStyle = this.hexToRgba(star.color, 0.8 * (1 - star.z / 1000));
             this.ctx.fill();
+        });
+    }
+}
+
+/**
+ * Flow Engine (AQUA-5)
+ * 떠오르는 물방울
+ */
+class FlowEngine extends ArtEngine {
+    constructor(canvas, ctx, colors) {
+        super(canvas, ctx, colors);
+        this.bubbles = [];
+        this.initBubbles();
+    }
+
+    initBubbles() {
+        const count = 40;
+        this.bubbles = Array.from({ length: count }, () => ({
+            x: Math.random() * this.width,
+            y: Math.random() * this.height,
+            radius: Math.random() * 10 + 5,
+            speed: Math.random() * 1.5 + 0.5,
+            wobble: Math.random() * Math.PI * 2,
+            color: this.colors[Math.floor(Math.random() * this.colors.length)]
+        }));
+    }
+
+    resize(width, height) {
+        super.resize(width, height);
+        this.initBubbles();
+    }
+
+    draw() {
+        this.ctx.fillStyle = 'rgba(10, 10, 20, 0.1)';
+        this.ctx.fillRect(0, 0, this.width, this.height);
+
+        this.bubbles.forEach(b => {
+            b.y -= b.speed;
+            b.x += Math.sin(this.frame * 0.05 + b.wobble) * 0.5;
+
+            if (b.y < -50) b.y = this.height + 50;
+
+            this.ctx.beginPath();
+            this.ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+            this.ctx.fillStyle = this.hexToRgba(b.color, 0.6);
+            this.ctx.strokeStyle = this.hexToRgba(b.color, 0.8);
+            this.ctx.lineWidth = 1;
+            this.ctx.fill();
+            this.ctx.stroke();
+        });
+    }
+}
+
+/**
+ * Contour Engine (TERRA-1)
+ * 등고선
+ */
+class ContourEngine extends ArtEngine {
+    constructor(canvas, ctx, colors) {
+        super(canvas, ctx, colors);
+        this.contours = [];
+        this.initContours();
+    }
+
+    initContours() {
+        const count = 10;
+        this.contours = Array.from({ length: count }, (_, i) => ({
+            y: (this.height / count) * i,
+            points: Array.from({ length: 20 }, () => Math.random() * 20 - 10),
+            speed: Math.random() * 0.02 + 0.01,
+            color: this.colors[i % this.colors.length]
+        }));
+    }
+
+    resize(width, height) {
+        super.resize(width, height);
+        this.initContours();
+    }
+
+    draw() {
+        // Clear fully for clean lines or trail? Let's use trails for smoothness
+        this.ctx.fillStyle = 'rgba(20, 15, 10, 0.1)';
+        this.ctx.fillRect(0, 0, this.width, this.height);
+
+        this.contours.forEach((c, i) => {
+            this.ctx.beginPath();
+            this.ctx.strokeStyle = this.hexToRgba(c.color, 0.7);
+            this.ctx.lineWidth = 2;
+
+            for (let x = 0; x <= this.width; x += 20) {
+                const idx = Math.floor(x / (this.width / 20)); // Adjusted step
+                const offset = c.points[idx % c.points.length] || 0;
+                const nextOffset = c.points[(idx + 1) % c.points.length] || 0;
+                const t = (x % (this.width / 20)) / (this.width / 20);
+                const smoothOffset = offset * (1 - t) + nextOffset * t;
+
+                const y = c.y + smoothOffset * 10 + Math.sin(this.frame * c.speed + i) * 15;
+                if (x === 0) this.ctx.moveTo(x, y);
+                else this.ctx.lineTo(x, y);
+            }
+            this.ctx.stroke();
+        });
+    }
+}
+
+/**
+ * Refraction Engine (PRISM-2)
+ * 빛 굴절
+ */
+class RefractionEngine extends ArtEngine {
+    constructor(canvas, ctx, colors) {
+        super(canvas, ctx, colors);
+        this.beams = [];
+        this.initBeams();
+    }
+
+    initBeams() {
+        const count = 20;
+        this.beams = Array.from({ length: count }, () => ({
+            x: Math.random() * this.width,
+            angle: Math.random() * Math.PI - Math.PI / 2,
+            width: Math.random() * 20 + 10,
+            length: Math.random() * this.height * 0.6 + this.height * 0.4, // Much longer beams
+            speed: Math.random() * 0.01 + 0.005,
+            color: this.colors[Math.floor(Math.random() * this.colors.length)]
+        }));
+    }
+
+    resize(width, height) {
+        super.resize(width, height);
+        this.initBeams();
+    }
+
+    draw() {
+        this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+        this.ctx.fillRect(0, 0, this.width, this.height);
+
+        this.beams.forEach(b => {
+            b.angle += Math.sin(this.frame * 0.01) * 0.002;
+
+            this.ctx.save();
+            this.ctx.translate(b.x, this.height); // Start from bottom
+            this.ctx.rotate(b.angle);
+
+            const grad = this.ctx.createLinearGradient(0, 0, 0, -b.length);
+            grad.addColorStop(0, this.hexToRgba(b.color, 0));
+            grad.addColorStop(0.5, this.hexToRgba(b.color, 0.8)); // Brighter
+            grad.addColorStop(1, this.hexToRgba(b.color, 0));
+
+            this.ctx.fillStyle = grad;
+            this.ctx.fillRect(-b.width / 2, -b.length, b.width, b.length);
+
+            this.ctx.restore();
+        });
+    }
+}
+
+/**
+ * Bloom Engine (FLORA-9)
+ * 꽃잎
+ */
+class BloomEngine extends ArtEngine {
+    constructor(canvas, ctx, colors) {
+        super(canvas, ctx, colors);
+        this.petals = [];
+        this.initPetals();
+    }
+
+    initPetals() {
+        const count = 30;
+        this.petals = Array.from({ length: count }, () => ({
+            x: Math.random() * this.width,
+            y: Math.random() * this.height,
+            size: Math.random() * 15 + 5,
+            angle: Math.random() * Math.PI * 2,
+            speed: Math.random() * 0.02 + 0.01,
+            sway: Math.random() * 0.05,
+            color: this.colors[Math.floor(Math.random() * this.colors.length)]
+        }));
+    }
+
+    resize(width, height) {
+        super.resize(width, height);
+        this.initPetals();
+    }
+
+    draw() {
+        this.ctx.fillStyle = 'rgba(10, 5, 20, 0.1)';
+        this.ctx.fillRect(0, 0, this.width, this.height);
+
+        this.petals.forEach(p => {
+            p.angle += p.speed;
+            p.x += Math.sin(this.frame * p.sway) * 0.5;
+            p.y += Math.cos(this.frame * p.sway) * 0.5;
+
+            if (p.x < -50) p.x = this.width + 50;
+            if (p.x > this.width + 50) p.x = -50;
+            if (p.y < -50) p.y = this.height + 50;
+            if (p.y > this.height + 50) p.y = -50;
+
+            this.ctx.save();
+            this.ctx.translate(p.x, p.y);
+            this.ctx.rotate(p.angle);
+
+            this.ctx.beginPath();
+            // Draw petal shape using bezier curves
+            this.ctx.moveTo(0, 0);
+            this.ctx.quadraticCurveTo(-p.size, -p.size, 0, -p.size * 3);
+            this.ctx.quadraticCurveTo(p.size, -p.size, 0, 0);
+
+            this.ctx.fillStyle = this.hexToRgba(p.color, 0.6);
+            this.ctx.fill();
+
+            this.ctx.restore();
         });
     }
 }

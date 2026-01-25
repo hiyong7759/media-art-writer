@@ -49,10 +49,36 @@
                 </svg>
             </button>
         </div>
+
+        <!-- Viewer Info Overlay (Split Layout) -->
         <div class="info-overlay" id="infoOverlay">
-            <div class="artist-badge"><span class="dot"></span><span id="artistName">AURA-7</span></div>
-            <h1 class="artwork-title" id="artworkTitle">오늘의 작품</h1>
-            <p class="artwork-description" id="artworkDescription">AI 작가가 생성한 미디어 아트입니다.</p>
+            <div class="info-split">
+                <!-- Left: Artwork Info -->
+                <div class="info-left">
+                    <h1 class="artwork-title" id="artworkTitle">Loading...</h1>
+                    <p class="artwork-description daily" id="artworkDescription">작품 정보를 불러오는 중입니다...</p>
+                    <div class="meta-info">
+                        <span class="meta-tag" id="generatedDate"></span>
+                        <span class="meta-tag" id="modelInfo">MODEL: -</span>
+                    </div>
+                    <div class="prompt-section">
+                        <span class="prompt-label">PROMPT:</span>
+                        <p id="promptText" class="prompt-text">No prompt available</p>
+                    </div>
+                </div>
+
+                <!-- Right: Artist Profile -->
+                <div class="info-right">
+                    <span class="artist-section-title">ARTIST</span>
+                    <div class="artist-profile-group">
+                        <div class="artist-name-row">
+                            <span class="artist-name-label" id="artistName"></span>
+                            <div class="artist-colors-inline" id="artistColors"></div>
+                        </div>
+                        <p class="artwork-description static" id="artistDescription"></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
