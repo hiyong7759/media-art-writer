@@ -5,7 +5,7 @@ require('dotenv').config();
 
 // Configuration
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL_NAME = "gemini-3-flash";
+const MODEL_NAME = "gemini-3-pro-preview";
 
 let genAI = null;
 if (API_KEY) {
