@@ -2,37 +2,65 @@ import { ArtEngine } from './ArtEngine.js';
 
 /**
  * Geometric Engine (KURO-X)
- * 기하학적 형태, 선, 회전
+ * 기하학적 형태, 선, 회전 + 7 Modes (POINT, LINE, POLY, SOLID, FRACTAL, DIM, CHAOS)
  */
 export class GeometricEngine extends ArtEngine {
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
-        this.mode = 'rain'; // Point
+        this.mode = 'hud'; // Default: POLY (Shape) matches HUD in viewer.js mapping
+        this.variant = 0;
         this.shapes = [];
-        this.initPoint();
+        this.points = [];
+        this.lines = [];
+        this.cubes = [];
+        this.chaosP = { x: 0.1, y: 0.1, z: 0.1 };
+
+        this.initShapes(); // Initialize index-style shapes
+        this.setMode('hud');
     }
 
-    setMode(mode) {
+    determineVariantFromData() {
+        if (!this.data || !this.data.prompt) return 0;
+        const text = (this.data.prompt || "").toLowerCase();
+
+        // Keyword Mapping for Variants (0: Shape, 1: Voronoi, 2: Hex)
+        const keywords = {
+            1: ['voronoi', 'cell', 'organic', 'nerve', 'network', 'biological'],
+            2: ['hex', 'honeycomb', 'bee', 'hive', 'six', 'hexagon']
+        };
+
+        for (let v in keywords) {
+            if (keywords[v].some(word => text.includes(word))) return parseInt(v);
+        }
+
+        // Default to Variant 0 (Shape) for consistency with index
+        return 0;
+    }
+
+    setMode(mode, forcedVariant = null) {
         this.mode = mode;
+        this.variant = forcedVariant !== null ? forcedVariant : this.determineVariantFromData();
+        console.log(`[GeometricEngine] Mode: ${mode}, Variant: ${this.variant}`);
+
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        if (mode === 'rain') this.initPoint();      // POINT
-        else if (mode === 'scanner') this.initLine();   // LINE
-        else if (mode === 'hud') this.initPoly();       // POLY
-        else if (mode === 'data') this.initSolid();     // SOLID
-        else if (mode === 'circuit') this.initFractal();// FRACTAL
-        else if (mode === 'sign') this.initDim();       // DIMENSION
-        else if (mode === 'net') this.initChaos();      // CHAOS
-        else this.initPoint();
+        // Reset/Init for specific modes (Using common keys)
+        if (mode === 'rain') this.initPoint();
+        if (mode === 'scanner') this.initLine();
+        if (mode === 'hud') this.initShapes();
+        if (mode === 'data') this.initSolid();
+        if (mode === 'circuit') this.initFractal();
+        if (mode === 'sign') this.initDim();
+        if (mode === 'net') this.initNet(); // NET is CHAOS
+    }
+
+    resize(width, height) {
+        super.resize(width, height);
+        this.setMode(this.mode);
     }
 
     draw() {
-        // Transparent Check for Kuro-X (Needs high visibility)
-        // 1. Dynamic Background Tint (Deep Dark)
-        if (this.canvas) {
-            this.canvas.style.backgroundColor = 'rgba(5, 5, 8, 0.85)';
-        }
-
+        // Deep background for Kuro-X
         if (this.transparentMode) {
             this.ctx.save();
             this.ctx.globalCompositeOperation = 'destination-out';
@@ -40,7 +68,7 @@ export class GeometricEngine extends ArtEngine {
             this.ctx.fillRect(0, 0, this.width, this.height);
             this.ctx.restore();
         } else {
-            this.ctx.fillStyle = 'rgba(10, 10, 15, 0.1)';
+            this.ctx.fillStyle = 'rgba(5, 5, 8, 0.1)';
             this.ctx.fillRect(0, 0, this.width, this.height);
         }
 
@@ -52,236 +80,339 @@ export class GeometricEngine extends ArtEngine {
             case 'circuit': this.drawFractal(); break;
             case 'sign': this.drawDim(); break;
             case 'net': this.drawChaos(); break;
-            default: this.drawPoint();
+            default: this.drawPoly();
         }
     }
 
-    getStyle(salt) {
-        if (!this.data || !this.data.prompt) return 0;
-        return (this.data.prompt.length + salt) % 3;
-    }
-
-    // 1. POINT (Rain) - Star/Grid
+    // --- 1. POINT (Star, Dust, Grid) ---
     initPoint() {
-        this.points = Array.from({ length: 100 }, () => ({
+        // Point variants: 0: Star, 1: Dust, 2: Grid
+        const count = this.variant === 2 ? 100 : 200;
+        this.points = Array.from({ length: count }, () => ({
             x: Math.random() * this.width,
             y: Math.random() * this.height,
-            size: Math.random() * 2,
-            blink: Math.random() * 0.1
+            z: Math.random() * 200,
+            vx: (Math.random() - 0.5) * 0.5,
+            vy: (Math.random() - 0.5) * 0.5,
+            size: Math.random() * 2 + 1,
+            color: this.colors[Math.floor(Math.random() * this.colors.length)]
         }));
     }
     drawPoint() {
         this.points.forEach(p => {
-            if (Math.random() > 0.99) p.x = Math.random() * this.width; // Teleport
+            if (this.variant === 0) { // Star (Nebula)
+                p.x += Math.sin(this.frame * 0.001 + p.z) * 0.2;
+                p.y += Math.cos(this.frame * 0.001 + p.z) * 0.2;
+            } else if (this.variant === 1) { // Dust (Random Noise)
+                p.x += (Math.random() - 0.5) * 2;
+                p.y += (Math.random() - 0.5) * 2;
+            } else { // Grid
+                // Handled in draw for static feel, but with pulse
+            }
 
-            const alpha = 0.5 + Math.sin(this.frame * p.blink) * 0.5;
-            this.ctx.fillStyle = this.hexToRgba(this.colors[0], alpha);
-            this.ctx.fillRect(p.x, p.y, p.size, p.size);
+            if (p.x < 0) p.x = this.width; if (p.x > this.width) p.x = 0;
+            if (p.y < 0) p.y = this.height; if (p.y > this.height) p.y = 0;
+
+            const alpha = 0.3 + Math.sin(this.frame * 0.05 + p.z) * 0.4;
+            this.ctx.fillStyle = this.hexToRgba(p.color, alpha);
+
+            if (this.variant === 2) { // Grid override
+                const gap = 40;
+                const gx = Math.floor(p.x / gap) * gap;
+                const gy = Math.floor(p.y / gap) * gap;
+                this.ctx.fillRect(gx, gy, 2, 2);
+            } else {
+                this.ctx.beginPath();
+                this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                this.ctx.fill();
+            }
         });
-
-        // Grid overlay
-        this.ctx.fillStyle = this.hexToRgba(this.colors[1], 0.3);
-        const gap = 50;
-        for (let x = 0; x < this.width; x += gap) this.ctx.fillRect(x, 0, 1, this.height);
-        for (let y = 0; y < this.height; y += gap) this.ctx.fillRect(0, y, this.width, 1);
     }
 
-    // 2. LINE (Scanner) - String Art
+    // --- 2. LINE (String, Connect, Ray) ---
     initLine() {
-        this.lineStyle = this.getStyle(2);
-        this.lines = []; // Procedural
+        // Line variants: 0: String, 1: Connect, 2: Ray
+        this.initPoint(); // Use points for connections
     }
     drawLine() {
-        const cx = this.width / 2;
-        const cy = this.height / 2;
-        const r = Math.min(this.width, this.height) * 0.4;
-
-        this.ctx.strokeStyle = this.hexToRgba(this.colors[1], 0.2);
         this.ctx.lineWidth = 1;
 
-        const count = 30;
-        const step = this.frame * 0.01;
-
-        this.ctx.beginPath();
-        for (let i = 0; i < count; i++) {
-            const a1 = (i / count) * Math.PI * 2 + step;
-            // Variant logic for connection index
-            const multiplier = (this.lineStyle === 0) ? 2 : (this.lineStyle === 1 ? 3 : 1.5);
-            const a2 = ((i * multiplier) / count) * Math.PI * 2 - step;
-
-            const x1 = cx + Math.cos(a1) * r;
-            const y1 = cy + Math.sin(a1) * r;
-            const x2 = cx + Math.cos(a2) * r;
-            const y2 = cy + Math.sin(a2) * r;
-
-            this.ctx.moveTo(x1, y1);
-            this.ctx.lineTo(x2, y2);
-        }
-        this.ctx.stroke();
-    }
-
-    // 3. POLY (HUD) - Triangle / Voronoi
-    initPoly() {
-        this.polys = [];
-        const size = 100;
-        for (let x = 0; x < this.width + size; x += size) {
-            for (let y = 0; y < this.height + size; y += size) {
-                this.polys.push({
-                    x: x, y: y,
-                    offX: (Math.random() - 0.5) * 50,
-                    offY: (Math.random() - 0.5) * 50
-                });
+        if (this.variant === 0) { // String (Vibrating lines)
+            for (let i = 0; i < 20; i++) {
+                const y = (this.height / 20) * i;
+                this.ctx.beginPath();
+                this.ctx.strokeStyle = this.hexToRgba(this.colors[i % this.colors.length], 0.3);
+                this.ctx.moveTo(0, y);
+                for (let x = 0; x < this.width; x += 10) {
+                    const wave = Math.sin(x * 0.01 + this.frame * 0.1 + i) * 10;
+                    this.ctx.lineTo(x, y + wave);
+                }
+                this.ctx.stroke();
+            }
+        } else if (this.variant === 1) { // Connect (Constellation)
+            this.drawPoint(); // Draw points first
+            this.ctx.strokeStyle = this.hexToRgba(this.colors[0], 0.2);
+            for (let i = 0; i < this.points.length; i++) {
+                for (let j = i + 1; j < this.points.length; j++) {
+                    const d = Math.hypot(this.points[i].x - this.points[j].x, this.points[i].y - this.points[j].y);
+                    if (d < 100) { // Increased distance for visibility
+                        this.ctx.beginPath();
+                        this.ctx.moveTo(this.points[i].x, this.points[i].y);
+                        this.ctx.lineTo(this.points[j].x, this.points[j].y);
+                        this.ctx.stroke();
+                    }
+                }
+            }
+        } else { // Ray (Center Burst)
+            const cx = this.width / 2;
+            const cy = this.height / 2;
+            for (let i = 0; i < 36; i++) {
+                const angle = (i * 10) * Math.PI / 180 + this.frame * 0.01;
+                const len = 200 + Math.sin(this.frame * 0.05 + i) * 100;
+                this.ctx.beginPath();
+                this.ctx.strokeStyle = this.hexToRgba(this.colors[i % this.colors.length], 0.4);
+                this.ctx.moveTo(cx, cy);
+                this.ctx.lineTo(cx + Math.cos(angle) * len, cy + Math.sin(angle) * len);
+                this.ctx.stroke();
             }
         }
     }
-    drawPoly() {
-        this.ctx.strokeStyle = this.hexToRgba(this.colors[2], 0.3);
-        this.ctx.beginPath();
-        this.polys.forEach((p, i) => {
-            // Simple triangulation grid
-            if (i % 10 === 0) return; // Skip edges for variety
-            const dx = Math.sin(this.frame * 0.01 + p.x) * 20;
-            const dy = Math.cos(this.frame * 0.01 + p.y) * 20;
 
-            this.ctx.moveTo(p.x + dx, p.y + dy);
-            this.ctx.lineTo(p.x + dx + 100, p.y + dy);
-            this.ctx.lineTo(p.x + dx + 50, p.y + dy + 86); // Equilateral
-            this.ctx.lineTo(p.x + dx, p.y + dy);
+    // --- 3. POLY (Shape, Voronoi, Hex) ---
+    initShapes() {
+        // Poly variants: 0: Shape (Multy), 1: Voronoi, 2: Hex
+        const density = this.variant === 1 ? 25 : (this.variant === 2 ? 18 : 8);
+        this.shapes = Array.from({ length: density }, () => ({
+            x: Math.random() * this.width,
+            y: Math.random() * this.height,
+            size: Math.random() * 40 + 20,
+            rotation: Math.random() * Math.PI * 2,
+            rotSpeed: (Math.random() - 0.5) * 0.03,
+            sides: this.variant === 2 ? 6 : (Math.floor(Math.random() * 4) + 3), // 3~6 for Shape/Voronoi
+            color: this.colors[Math.floor(Math.random() * this.colors.length)]
+        }));
+    }
+    drawPoly() {
+        if (this.variant === 1) { // Voronoi approximation
+            this.ctx.strokeStyle = this.hexToRgba(this.colors[1], 0.2);
+            this.shapes.forEach(s => {
+                s.x += Math.sin(this.frame * 0.01) * 0.2;
+                s.y += Math.cos(this.frame * 0.01) * 0.2;
+                // Simple cellular lines
+                this.ctx.beginPath();
+                this.shapes.forEach(target => {
+                    const d = Math.hypot(s.x - target.x, s.y - target.y);
+                    if (d < 100) {
+                        this.ctx.moveTo(s.x, s.y);
+                        this.ctx.lineTo(target.x, target.y);
+                    }
+                });
+                this.ctx.stroke();
+            });
+            return;
+        }
+
+        this.shapes.forEach(s => {
+            s.rotation += s.rotSpeed;
+            s.x += Math.sin(this.frame * 0.01 + s.size) * 0.3;
+            if (s.x < 0) s.x = this.width;
+            if (s.x > this.width) s.x = 0;
+
+            this.ctx.save();
+            this.ctx.translate(s.x, s.y);
+            this.ctx.rotate(s.rotation);
+            this.ctx.strokeStyle = this.hexToRgba(s.color, 0.85);
+            this.ctx.lineWidth = 2;
+            this.ctx.beginPath();
+            for (let i = 0; i < s.sides; i++) {
+                const angle = (i / s.sides) * Math.PI * 2;
+                const x = Math.cos(angle) * s.size;
+                const y = Math.sin(angle) * s.size;
+                if (i === 0) this.ctx.moveTo(x, y);
+                else this.ctx.lineTo(x, y);
+            }
+            this.ctx.closePath();
+            this.ctx.stroke();
+
+            // Light fill for Kuro-X
+            this.ctx.fillStyle = this.hexToRgba(s.color, 0.05);
+            this.ctx.fill();
+            this.ctx.restore();
         });
-        this.ctx.stroke();
     }
 
-    // 4. SOLID (Data) - Rotating Cubes
+    // --- 4. SOLID (Cube, Crystal, Platonic) ---
     initSolid() {
-        this.cubes = [{ x: this.width / 2, y: this.height / 2, size: 100, rx: 0, ry: 0 }];
+        this.cubes = [{ x: this.width / 2, y: this.height / 2, size: 120, rx: 0, ry: 0 }];
     }
     drawSolid() {
-        // Simple 3D projection
         const cube = this.cubes[0];
-        cube.rx += 0.01; cube.ry += 0.02;
+        cube.rx += 0.015; cube.ry += 0.01;
 
-        const nodes = [
+        const nodes = this.variant === 2 ? [ // Platonic (Octahedron approx)
+            [0, 1, 0], [0, -1, 0], [1, 0, 0], [-1, 0, 0], [0, 0, 1], [0, 0, -1]
+        ] : [ // Cube
             [-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
             [-1, -1, 1], [1, -1, 1], [1, 1, 1], [-1, 1, 1]
         ];
 
         const project = (x, y, z) => {
-            // Rotate Y
             let x1 = x * Math.cos(cube.ry) - z * Math.sin(cube.ry);
             let z1 = z * Math.cos(cube.ry) + x * Math.sin(cube.ry);
-            // Rotate X
             let y2 = y * Math.cos(cube.rx) - z1 * Math.sin(cube.rx);
             let z2 = z1 * Math.cos(cube.rx) + y * Math.sin(cube.rx);
-
-            const scale = 300 / (300 + z2);
+            const scale = 400 / (400 + z2 * cube.size);
             return {
                 x: cube.x + x1 * cube.size * scale,
                 y: cube.y + y2 * cube.size * scale
             };
         };
 
-        const p = nodes.map(n => project(n[0], n[1], n[2]));
+        const pts = nodes.map(n => project(n[0], n[1], n[2]));
 
-        this.ctx.strokeStyle = this.colors[3] || this.colors[0];
+        this.ctx.strokeStyle = this.colors[0];
         this.ctx.lineWidth = 2;
         this.ctx.beginPath();
 
-        const edges = [
-            [0, 1], [1, 2], [2, 3], [3, 0], // Front
-            [4, 5], [5, 6], [6, 7], [7, 4], // Back
-            [0, 4], [1, 5], [2, 6], [3, 7]  // Connect
+        const edges = this.variant === 2 ? [
+            [0, 2], [0, 3], [0, 4], [0, 5], [1, 2], [1, 3], [1, 4], [1, 5], [2, 4], [4, 3], [3, 5], [5, 2]
+        ] : [
+            [0, 1], [1, 2], [2, 3], [3, 0], [4, 5], [5, 6], [6, 7], [7, 4], [0, 4], [1, 5], [2, 6], [3, 7]
         ];
 
         edges.forEach(e => {
-            this.ctx.moveTo(p[e[0]].x, p[e[0]].y);
-            this.ctx.lineTo(p[e[1]].x, p[e[1]].y);
+            this.ctx.moveTo(pts[e[0]].x, pts[e[0]].y);
+            this.ctx.lineTo(pts[e[1]].x, pts[e[1]].y);
         });
-
         this.ctx.stroke();
+
+        if (this.variant === 1) { // Crystal (Inner glow)
+            this.ctx.fillStyle = this.hexToRgba(this.colors[1], 0.1);
+            this.ctx.fill();
+        }
     }
 
-    // 5. FRACTAL (Circuit) - Recursive Tree
+    // --- 5. FRACTAL (Mandelbrot, Fern, Snowflake) ---
     initFractal() { }
     drawFractal() {
         const cx = this.width / 2;
-        const cy = this.height;
-        const len = 150;
+        const cy = this.height / 2;
 
-        this.ctx.strokeStyle = this.hexToRgba(this.colors[0], 0.6);
-        this.ctx.lineWidth = 1;
-
-        // Non-recursive approximation for performance or limit depth
-        // Just drawing a static fractal-like pattern changing with time
-        this.drawBranch(cx, cy, len, -Math.PI / 2, 0);
+        if (this.variant === 2) { // Snowflake (Koch-like)
+            this.drawKoch(cx - 150, cy + 80, cx + 150, cy + 80, 4);
+            this.drawKoch(cx + 150, cy + 80, cx, cy - 180, 4);
+            this.drawKoch(cx, cy - 180, cx - 150, cy + 80, 4);
+        } else { // Mandelbrot/Fern approx (Recursive pattern)
+            this.drawTree(cx, this.height, 120, -Math.PI / 2, 0);
+        }
     }
-    drawBranch(x, y, len, angle, depth) {
-        if (depth > 4) return;
-
+    drawTree(x, y, len, angle, depth) {
+        if (depth > (this.variant === 0 ? 5 : 4)) return;
         const ex = x + Math.cos(angle) * len;
         const ey = y + Math.sin(angle) * len;
-
+        this.ctx.strokeStyle = this.hexToRgba(this.colors[depth % this.colors.length], 0.6);
         this.ctx.beginPath();
         this.ctx.moveTo(x, y);
         this.ctx.lineTo(ex, ey);
         this.ctx.stroke();
-
-        const spread = Math.sin(this.frame * 0.01) * 0.5 + 0.5; // Breathe
-        this.drawBranch(ex, ey, len * 0.7, angle + spread, depth + 1);
-        this.drawBranch(ex, ey, len * 0.7, angle - spread, depth + 1);
+        const spread = this.variant === 0 ? 0.7 : 0.5;
+        this.drawTree(ex, ey, len * 0.7, angle + spread + Math.sin(this.frame * 0.02) * 0.1, depth + 1);
+        this.drawTree(ex, ey, len * 0.7, angle - spread - Math.sin(this.frame * 0.02) * 0.1, depth + 1);
+    }
+    drawKoch(x1, y1, x2, y2, depth) {
+        if (depth === 0) {
+            this.ctx.beginPath();
+            this.ctx.moveTo(x1, y1);
+            this.ctx.lineTo(x2, y2);
+            this.ctx.strokeStyle = this.colors[0];
+            this.ctx.stroke();
+            return;
+        }
+        const dx = (x2 - x1) / 3, dy = (y2 - y1) / 3;
+        const p1 = { x: x1 + dx, y: y1 + dy };
+        const p3 = { x: x2 - dx, y: y2 - dy };
+        const sin60 = Math.sin(Math.PI / 3);
+        const cos60 = Math.cos(Math.PI / 3);
+        const p2 = {
+            x: p1.x + (p3.x - p1.x) * cos60 - (p3.y - p1.y) * sin60,
+            y: p1.y + (p3.x - p1.x) * sin60 + (p3.y - p1.y) * cos60
+        };
+        this.drawKoch(x1, y1, p1.x, p1.y, depth - 1);
+        this.drawKoch(p1.x, p1.y, p2.x, p2.y, depth - 1);
+        this.drawKoch(p2.x, p2.y, p3.x, p3.y, depth - 1);
+        this.drawKoch(p3.x, p3.y, x2, y2, depth - 1);
     }
 
-    // 6. DIM (Sign) - Tesseract / Dimension
+    // --- 6. DIM (Tesseract, Mirror, Wormhole) ---
     initDim() { }
     drawDim() {
-        // Concentric squares tunnel
         const cx = this.width / 2;
         const cy = this.height / 2;
 
-        this.ctx.strokeStyle = this.hexToRgba(this.colors[1], 0.5);
-        this.ctx.lineWidth = 2;
-
-        for (let i = 0; i < 10; i++) {
-            const t = (this.frame * 0.02 + i * 0.5) % 5;
-            const size = Math.pow(2, t) * 20;
-            const rot = t * 0.5;
-
+        if (this.variant === 1) { // Mirror (Kaleidoscope)
             this.ctx.save();
             this.ctx.translate(cx, cy);
-            this.ctx.rotate(rot);
-            this.ctx.strokeRect(-size / 2, -size / 2, size, size);
+            for (let i = 0; i < 8; i++) {
+                this.ctx.rotate(Math.PI / 4);
+                this.drawPoly(); // Draw base shapes mirrored
+            }
+            this.ctx.restore();
+        } else if (this.variant === 2) { // Wormhole
+            for (let i = 0; i < 15; i++) {
+                const t = (this.frame * 0.02 + i * 0.5) % 8;
+                const r = Math.pow(1.5, t) * 10;
+                this.ctx.beginPath();
+                this.ctx.arc(cx, cy, r, 0, Math.PI * 2);
+                this.ctx.strokeStyle = this.hexToRgba(this.colors[i % 4], 0.3 * (1 - t / 8));
+                this.ctx.stroke();
+            }
+        } else { // Tesseract (4D projection)
+            this.drawSolid(); // Reuse solid but with double layering
+            this.ctx.save();
+            this.ctx.scale(0.5, 0.5);
+            this.drawSolid();
             this.ctx.restore();
         }
     }
 
-    // 7. CHAOS (Net) - Strange Attractor
-    initChaos() {
+    // --- 7. CHAOS (Attractor, Glitch, Entropy) ---
+    initNet() {
         this.chaosP = { x: 0.1, y: 0.1, z: 0.1 };
     }
     drawChaos() {
-        // Lorentz Attractor math visualization?
-        // Simplified: Random glitch lines
         const cx = this.width / 2;
         const cy = this.height / 2;
 
-        this.ctx.strokeStyle = this.hexToRgba(this.colors[2], 0.8);
-        this.ctx.lineWidth = 1;
-        this.ctx.beginPath();
-
-        const dt = 0.01;
-        const sigma = 10, rho = 28, beta = 8 / 3;
-
-        let x = this.chaosP.x, y = this.chaosP.y, z = this.chaosP.z;
-        this.ctx.moveTo(cx + x * 10, cy + y * 10);
-
-        for (let i = 0; i < 50; i++) {
-            let dx = sigma * (y - x);
-            let dy = x * (rho - z) - y;
-            let dz = x * y - beta * z;
-            x += dx * dt; y += dy * dt; z += dz * dt;
-            this.ctx.lineTo(cx + x * 10, cy + y * 10);
+        if (this.variant === 1) { // Glitch
+            this.drawPoly(); // Base
+            if (Math.random() > 0.9) {
+                const x = Math.random() * this.width;
+                const y = Math.random() * this.height;
+                const w = Math.random() * 100;
+                const h = Math.random() * 5;
+                this.ctx.fillStyle = this.hexToRgba(this.colors[0], 0.6);
+                this.ctx.fillRect(x, y, w, h);
+                this.ctx.drawImage(this.canvas, x, y, w, h, x + (Math.random() - 0.5) * 40, y, w, h);
+            }
+        } else if (this.variant === 2) { // Entropy (Diffusion)
+            this.initPoint(); // Keep points moving
+            this.drawPoint();
+        } else { // Attractor (Lorenz)
+            const dt = 0.01;
+            const sigma = 10, rho = 28, beta = 8 / 3;
+            let { x, y, z } = this.chaosP;
+            this.ctx.beginPath();
+            this.ctx.strokeStyle = this.hexToRgba(this.colors[0], 0.6);
+            this.ctx.moveTo(cx + x * 10, cy + y * 10);
+            for (let i = 0; i < 40; i++) {
+                let dx = sigma * (y - x);
+                let dy = x * (rho - z) - y;
+                let dz = x * y - beta * z;
+                x += dx * dt; y += dy * dt; z += dz * dt;
+                this.ctx.lineTo(cx + x * 12, cy + y * 12);
+            }
+            this.ctx.stroke();
+            this.chaosP = { x, y, z };
         }
-        this.ctx.stroke();
-
-        this.chaosP = { x, y, z }; // Continue state
     }
 }

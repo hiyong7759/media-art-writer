@@ -263,7 +263,7 @@ class MediaArtViewer {
     const mapping = {
       'neon-v': { ...common },
       'aura-7': { rain: 'Seed', scanner: 'Wind', hud: 'Bloom', data: 'Flow', circuit: 'Root', sign: 'Pulse', net: 'Life' },
-      'kuro-x': { rain: 'Point', scanner: 'Line', hud: 'Poly', data: 'Solid', circuit: 'Chaos', sign: 'Frac', net: 'Dim' },
+      'kuro-x': { rain: 'Point', scanner: 'Line', hud: 'Poly', data: 'Solid', circuit: 'Fractal', sign: 'Dim', net: 'Chaos' },
       'void-3': { rain: 'Dust', scanner: 'Orbit', hud: 'Star', data: 'Nova', circuit: 'Galaxy', sign: 'Quasar', net: 'Void' },
       'aqua-5': { rain: 'Drop', scanner: 'Tide', hud: 'Bubble', data: 'Stream', circuit: 'Deep', sign: 'Mist', net: 'Ice' },
       'prism-2': { rain: 'Beam', scanner: 'Spec', hud: 'Bokeh', data: 'Neon', circuit: 'Mirror', sign: 'Glass', net: 'Flash' },

@@ -55,7 +55,7 @@
 |------|------|-----------|-----------|-----------|
 | **POINT** | 0차원 | Star (성운) | Dust (노이즈) | Grid (행렬) |
 | **LINE** | 1차원 | String (현) | Connect (별자리) | Ray (광선) |
-| **POLY** | 2차원 | Triangle (삼각형) | Voronoi (세포) | Hex (벌집) |
+| **POLY** | 2차원 | Shape (다각형) | Voronoi (세포) | Hex (벌집) |
 | **SOLID** | 3차원 | Cube (큐브) | Crystal (결정) | Platonic (정다면체) |
 | **FRACTAL** | 무한 | Mandelbrot | Fern (고사리) | Snowflake (눈송이) |
 | **DIM** | 초공간 | Tesseract (4D) | Mirror (만화경) | Wormhole (왜곡) |
@@ -70,7 +70,7 @@
    - *Connect*: 점들을 잇는 별자리 라인.
    - *Ray*: 중심에서 뻗어나가는 빛의 줄기.
 3. **POLY (2차원)**: 면의 구성.
-   - *Triangle*: 삼각형 테셀레이션 (Low Poly).
+   - *Shape*: 다양한 변을 가진 다각형 테셀레이션 및 회전.
    - *Voronoi*: 세포 형태의 보로노이 다이어그램.
    - *Hex*: 벌집 모양의 육각형 패턴.
 4. **SOLID (3차원)**: 입체와 공간.

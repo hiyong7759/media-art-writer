@@ -10,7 +10,7 @@ const IMAGE_MODEL_NAME = "gemini-2.5-flash-image";
 
 let genAI = null;
 if (API_KEY) {
-    genAI = new GoogleGenAI({ apiKey: API_KEY, apiVersion: "v1alpha" });
+    genAI = new GoogleGenAI(API_KEY);
 } else {
     console.warn("Warning: GEMINI_API_KEY is not set. Using fallback prompts.");
 }
@@ -265,24 +265,30 @@ async function generateImage(artist, imagePrompt) {
     while (retryCount <= maxRetries) {
         try {
             console.log(`[${artist.name}] Generating image with ${IMAGE_MODEL_NAME} (Attempt ${retryCount + 1})...`);
-            const response = await genAI.models.generateImages({
+
+            // Fixed call according to official docs: using generateContent for image generation
+            const response = await genAI.models.generateContent({
                 model: IMAGE_MODEL_NAME,
-                prompt: imagePrompt,
+                contents: [{ parts: [{ text: imagePrompt }] }],
                 config: {
-                    numberOfImages: 1,
-                    aspectRatio: "16:9",
-                    // safetySettings usually not needed for trusted prompt but good practice
+                    responseModalities: ["Image"],
+                    imageConfig: {
+                        aspectRatio: "16:9"
+                    }
                 }
             });
 
-            if (response && response.images && response.images.length > 0) {
-                const imageBase64 = response.images[0].imageRaw; // Adjust property based on SDK
-                if (imageBase64) {
-                    return Buffer.from(imageBase64, 'base64');
+            // Extract image data from parts
+            if (response && response.candidates && response.candidates[0].content.parts) {
+                const parts = response.candidates[0].content.parts;
+                for (const part of parts) {
+                    if (part.inlineData) {
+                        return Buffer.from(part.inlineData.data, 'base64');
+                    }
                 }
             }
 
-            throw new Error("Image response format unrecognized.");
+            throw new Error("Image data not found in response.");
 
         } catch (error) {
             console.error(`[${artist.name}] Image generation attempt ${retryCount + 1} failed:`, error.message);
@@ -297,7 +303,7 @@ async function generateImage(artist, imagePrompt) {
             }
         }
     }
-    return null; // Should not be reached if successful or max retries hit
+    return null;
 }
 
 // Helper: Common Save Logic
