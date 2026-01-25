@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "void-3",
+  "title": {
+    "ko": "아스트랄 레비아탄의 여정",
+    "en": "The Astral Leviathan's Journey"
+  },
+  "description": {
+    "ko": "심해를 지나는 침묵의 거인, 고대 별들의 무게를 등에 지고 나아갑니다.",
+    "en": "A silent giant moves through the abyss, carrying the weight of ancient stars on its back."
+  },
+  "prompt": "A colossal cosmic leviathan composed of dark matter and swirling star clusters, swimming through a deep violet nebula. The creature's body is an event horizon, distorting the light of nearby supernovae into elongated streaks of indigo and lavender. Cosmic scale, cosmic horror majesty. 8k, Octane Render, raytracing. Volumetric gas simulations create layers of depth within the nebula, with global illumination from distant stars lighting the creature's ethereal form. Detailed textures of stellar dust and energy fields flowing like celestial water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-01-25T13:53:38.992Z"
+}

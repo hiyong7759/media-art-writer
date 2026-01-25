@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "코드의 눈물을 흘리는 버드나무",
+    "en": "The Willow of Coded Tears"
+  },
+  "description": {
+    "ko": "데이터가 물처럼 흐르고 모든 잎사귀가 살아있는 시 한 줄이 되는 디지털의 봄.",
+    "en": "A digital spring where data flows like water and every leaf is a line of living poetry."
+  },
+  "prompt": "A majestic weeping willow tree where each leaf is a shimmering strand of golden binary code, drooping into a pond of liquid silver. Fractal lotus flowers bloom on the surface, their petals displaying shifting pastel gradients of emerald and rose. Nature reclaiming technology, soft pastel colors and metallic textures. 8k resolution, macro photography style. Intricate textures of digital petals and flowing code-leaves with heavy subsurface scattering. Soft bokeh background and cinematic lighting highlighting the delicate ripples of the silver water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-01-25T13:53:26.438Z"
+}

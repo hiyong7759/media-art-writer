@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "고공의 네온 메아리",
+    "en": "High-Altitude Neon Echoes"
+  },
+  "description": {
+    "ko": "사이버 도시의 구름 위, 빛과 금속의 맥박이 새로운 디지털 로맨스를 정의합니다.",
+    "en": "Above the clouds of the cyber-city, the pulse of light and metal defines a new digital romance."
+  },
+  "prompt": "A cinematic high-altitude view of a futuristic maglev station suspended between two colossal chrome skyscrapers, illuminated by vibrant pink and cyan neon plasma. Volumetric smog and heavy rain create a dense, atmospheric texture, with every drop reflecting the city's neon glow. Rendered in 8k using Octane Render, featuring realistic fluid dynamics on metallic surfaces and complex global illumination. Dramatic shadows are cast by the massive urban structures, while sharp focus captures the glowing holographic advertisements flickering through the industrial haze.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-01-25T13:53:20.211Z"
+}

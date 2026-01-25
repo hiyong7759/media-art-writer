@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모노리스 속의 파편화된 논리",
+    "en": "Fragmented Logic in the Monolith"
+  },
+  "description": {
+    "ko": "건축과 오류가 만나는 지점, 디지털 붕괴의 순간에서 완벽한 균형이 발견됩니다.",
+    "en": "Where architecture meets the error, a perfect balance is found in the moment of digital collapse."
+  },
+  "prompt": "An impossible Escher-esque staircase composed of hyper-reflective black obsidian and matte white marble, suspended in a sterile grey void. The geometry is violently interrupted by horizontal digital slicing and glitch artifacts that offset sections of the architecture. 8k, raytracing, sharp angles. High-contrast cinematic lighting creates deep, dramatic shadows and razor-sharp highlights on the monochromatic surfaces. Detailed textures of digital noise and fragmented scanlines are etched into the stone, rendered with global illumination to emphasize the balance between order and chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-25T13:53:13.870Z"
+}

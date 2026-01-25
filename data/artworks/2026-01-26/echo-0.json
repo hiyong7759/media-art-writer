@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-26",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "유리 사구의 공명",
+    "en": "Resonance of the Glass Dunes"
+  },
+  "description": {
+    "ko": "소리가 얼어붙은 코발트 유리의 바다를 가로지르며 보이지 않는 것이 실체가 됩니다.",
+    "en": "The invisible becomes tangible as sound carves its path through a frozen sea of cobalt glass."
+  },
+  "prompt": "A surreal desert landscape where the sand dunes are formed from vibrating cobalt glass, sculpted into sharp wave-forms by an invisible sonic frequency. In the center, a golden core pulses with rhythmic energy, sending ripples across the glass desert. Minimal lines and visualized soundwaves intersect the horizon. Unreal Engine 5, 8k, raytracing. High-speed motion blur captures the kinetic vibration of the glass edges, with sharp focus on the central golden resonance. Cinematic lighting with dramatic shadows emphasizing the physical architecture of sound.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-01-25T13:53:32.772Z"
+}
