@@ -5,14 +5,14 @@ require('dotenv').config();
 
 // Configuration
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL_NAME = "gemini-pro"; // Or "gemini-1.5-flash" depending on availability
+const MODEL_NAME = "gemini-pro";
 
-if (!API_KEY) {
-    console.error("Error: GEMINI_API_KEY is not set in environment variables.");
-    process.exit(1);
+let genAI = null;
+if (API_KEY) {
+    genAI = new GoogleGenerativeAI(API_KEY);
+} else {
+    console.warn("Warning: GEMINI_API_KEY is not set. Using fallback prompts.");
 }
-
-const genAI = new GoogleGenerativeAI(API_KEY);
 
 const { validateContent } = require('./safety-check');
 const { analyzeAndGenerateStyle } = require('./style-analyzer');
@@ -20,25 +20,39 @@ const { analyzeAndGenerateStyle } = require('./style-analyzer');
 async function generateArtworkForArtist(artist, date) {
     console.log(`[${artist.name}] Generating artwork...`);
 
-    // 1. Generate detailed prompt
-    const model = genAI.getGenerativeModel({ model: MODEL_NAME });
-    const promptReq = `
-      Artist: ${artist.name} (${artist.theme})
-      Description: ${artist.description}
-      Style: ${artist.promptBase}
-      
-      Create a prompt for a generative, non-representational abstract artwork.
-      Focus on colors, shapes, movement, and feelings.
-    `;
+    let generatedPrompt = "";
 
-    const result = await model.generateContent(promptReq);
-    const generatedPrompt = result.response.text().trim();
-    console.log(`[${artist.name}] Generated Prompt: ${generatedPrompt}`);
+    if (genAI) {
+        try {
+            // 1. Generate detailed prompt with AI
+            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+            const promptReq = `
+              Artist: ${artist.name} (${artist.theme})
+              Description: ${artist.description}
+              Style: ${artist.promptBase}
+              
+              Create a prompt for a generative, non-representational abstract artwork.
+              Focus on colors, shapes, movement, and feelings.
+            `;
 
-    // 2. Safety Check
-    const isSafe = await validateContent(generatedPrompt);
-    if (!isSafe) {
-        throw new Error(`[${artist.name}] Safety check failed.`);
+            const result = await model.generateContent(promptReq);
+            generatedPrompt = result.response.text().trim();
+            console.log(`[${artist.name}] Generated Prompt (AI): ${generatedPrompt}`);
+
+            // 2. Safety Check (Only if AI was used)
+            const isSafe = await validateContent(generatedPrompt);
+            if (!isSafe) {
+                console.warn(`[${artist.name}] Safety check failed for AI prompt. Using fallback.`);
+                generatedPrompt = artist.promptBase;
+            }
+        } catch (err) {
+            console.error(`[${artist.name}] AI Generation failed: ${err.message}. Using fallback.`);
+            generatedPrompt = artist.promptBase;
+        }
+    } else {
+        // Fallback if no API key
+        console.log(`[${artist.name}] Using fallback prompt (No API Key).`);
+        generatedPrompt = artist.promptBase;
     }
 
     // 3. Style Analysis
@@ -80,12 +94,22 @@ async function main() {
 
         // Parse arguments for manual regeneration
         // Usage: node generate.js [artistId] [date]
-        const targetArtistId = process.argv[2];
-        const targetDate = process.argv[3] || new Date().toISOString().split('T')[0];
+        // Handle empty string arguments from GH Actions
+        const arg2 = process.argv[2];
+        const arg3 = process.argv[3];
+
+        const targetArtistId = (arg2 && arg2.trim() !== '') ? arg2 : 'all';
+
+        // Calculate KST Date (UTC+9)
+        const kstOffset = 9 * 60 * 60 * 1000;
+        const kstDate = new Date(Date.now() + kstOffset);
+        const todayKST = kstDate.toISOString().split('T')[0];
+
+        const targetDate = (arg3 && arg3.trim() !== '') ? arg3 : todayKST;
 
         let targetArtists = artistsData.artists;
 
-        if (targetArtistId && targetArtistId !== 'all') {
+        if (targetArtistId !== 'all') {
             targetArtists = targetArtists.filter(a => a.id === targetArtistId);
             if (targetArtists.length === 0) {
                 console.error(`Artist ID '${targetArtistId}' not found.`);
