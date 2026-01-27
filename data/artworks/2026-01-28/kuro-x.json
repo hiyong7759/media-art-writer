@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "단색의 균열",
+    "en": "Monochrome Fracture"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 구조가 혼돈의 파편화를 통해 균형을 찾아가는 디지털 엔트로피의 표현입니다.",
+    "en": "A representation of digital entropy, where perfect geometric structures find balance through chaotic fragmentation."
+  },
+  "prompt": "A shattered hyper-cube of liquid obsidian suspended in a pure white vacuum, frozen mid-explosion with cascading vertical digital scanlines and sharp geometric abstraction. Glitch art aesthetics with monochrome complexity. 8k resolution, raytracing, sharp angles. High-contrast cinematic lighting creates razor-sharp shadows, emphasizing the deep textures of digital noise and the fragmented complexity of the collapsing geometric order. Global illumination highlights the glitch art aesthetics where order dissolves into chaotic fragments.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-28T00:25:26.952+09:00"
+}

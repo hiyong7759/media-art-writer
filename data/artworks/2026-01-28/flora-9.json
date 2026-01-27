@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘의 꽃",
+    "en": "The Silicon Blossom"
+  },
+  "description": {
+    "ko": "컴퓨팅의 경직성과 디지털 정원의 부드럽고 영원한 성장이 만나는 평화로운 교차점입니다.",
+    "en": "A peaceful intersection where the rigidity of computing meets the soft, eternal growth of a digital garden."
+  },
+  "prompt": "A delicate orchid blooming from a circuit-etched obsidian plate, its petals composed of shifting iridescent fractal code and translucent glass veins, glowing with a soft pastel peach light. Nature reclaiming technology through blooming digital petals and mossy circuitry. 8k resolution, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage, cinematic lighting, and a soft bokeh background that emphasizes the delicate intersection of organic life and silicon.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-01-28T00:25:39.422+09:00"
+}

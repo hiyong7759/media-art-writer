@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "사이매틱 고독",
+    "en": "Cymatic Solitude"
+  },
+  "description": {
+    "ko": "침묵에 대한 소리의 물리적 충격을 시각화하여, 보이지 않는 주파수를 유형의 기하학적 풍경으로 바꿉니다.",
+    "en": "Visualizing the physical impact of sound on silence, turning invisible frequencies into tangible geometric landscapes."
+  },
+  "prompt": "A minimalist desert landscape where the sand is sculpted into complex 3D acoustic patterns by a giant floating tuning fork made of polished sapphire and vibrating golden light. Minimalist lines react to an invisible, powerful resonance, creating vibrating frequencies in the air. 8k, Octane Render, raytracing. Cinematic lighting captures the sharp focus of individual sand grains suspended in mid-air by the force of the sound. Global illumination reflects the visual consonance of the vibrating forms.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "rhythmic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-01-28T00:25:45.649+09:00"
+}

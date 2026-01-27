@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해의 호흡기",
+    "en": "Vessel of the Deep Breath"
+  },
+  "description": {
+    "ko": "심해의 극한 환경 속에서 빛과 생명체가 하나의 호흡하는 유기체로 융합되는 과정을 탐구합니다.",
+    "en": "An exploration of organic life in extreme environments, where light and biology merge into a single breathing entity."
+  },
+  "prompt": "A biological heart-lung hybrid made of glowing amber resin and bioluminescent neural filaments, suspended in a dark, oxygenated oceanic trench. Bioluminescent organic shapes and flowing liquid light tendrils wrap around the pulsating core. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features heavy subsurface scattering on the mossy fibers, volumetric light shafts piercing through dark green water, and global illumination reflecting off floating spores. Cinematic lighting, sharp focus on the microscopic texture of the breathing light.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-01-28T00:25:20.699+09:00"
+}
