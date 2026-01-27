@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "천상의 네온 강",
+    "en": "Neon River in the Sky"
+  },
+  "description": {
+    "ko": "네온과 금속으로 건설된 도시의 활기찬 고독을 포착한 고도로 발달된 미래에 대한 로맨틱한 비전입니다.",
+    "en": "A romanticized vision of a high-tech future, capturing the vibrant loneliness of a city built on neon and metal."
+  },
+  "prompt": "A dense vertical market street in a rain-slicked megacity at night, viewed from a high-altitude drone perspective. Neon-saturated steam rises between rusted metal catwalks and massive floating holographic koi fish. Cyberpunk cityscape colors of neon pink and cyan. 8k, Unreal Engine 5, raytracing. Cinematic volumetric fog and global illumination capture the digital romance of the city, with a sharp focus on the interplay between the metallic architecture and the neon-drenched exterior.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-01-28T00:25:33.189+09:00"
+}

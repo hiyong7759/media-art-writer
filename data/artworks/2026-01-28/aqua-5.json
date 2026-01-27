@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "유리 레비아탄",
+    "en": "Glass Leviathan"
+  },
+  "description": {
+    "ko": "심해의 고압 심연 속에서 투명한 생명체들이 추는 평화로운 춤을 포착합니다.",
+    "en": "Capturing the peaceful dance of transparent life forms in the high-pressure depths of the midnight ocean."
+  },
+  "prompt": "A spectral, translucent leviathan composed of bioluminescent glass-like membranes drifting through a deep sea trench illuminated by dancing caustic light and floating azure spores. Detailed fluid simulation with rising bubbles and intricate caustic patterns projected onto the sea floor. Focus on deep-sea translucency and membrane textures. 8k, Octane Render. Raytraced caustics and volumetric underwater lighting create a mysterious, serene atmosphere in the high-pressure abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-01-28T00:26:04.323+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-28",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고대 비늘의 지층",
+    "en": "Strata of the Ancient Scale"
+  },
+  "description": {
+    "ko": "행성 변형의 가공되지 않은 굴하지 않는 힘을 보여주는, 돌과 흙으로 쓰여진 시간의 서사입니다.",
+    "en": "A narrative of time written in stone and soil, showcasing the raw, unyielding power of planetary transformation."
+  },
+  "prompt": "A macro-topographic scan of a fossilized dragon scale fused with layers of obsidian, red clay, and crystalline quartz veins, revealing eons of geological pressure. Detailed textures of parched soil, rough rock surfaces, and raw mineral veins in earthy ochre and deep teal. 8k resolution, hyper-realistic. Global illumination mimics a low-angled sun, casting long, dramatic shadows that emphasize the geological complexity and the raw organic textures of the earth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-28T00:25:58.103+09:00"
+}
