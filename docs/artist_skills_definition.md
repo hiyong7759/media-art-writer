@@ -361,7 +361,7 @@
 
 | 모드 | 설명 | Variant 1 | Variant 2 | Variant 3 |
 |------|------|-----------|-----------|-----------|
-| **PETAL** | 꽃잎 | Rose (장미) | Lily (백합) | Sakura (벚꽃) |
+| **PETAL** | 꽃잎 (기본) | Rose (장미) | Lily (백합) | Sakura (벚꽃, 기본) |
 | **BLOOM** | 개화 | Time-lapse (고속) | Explosion (폭발) | Unfold (종이접기) |
 | **BOUQUET** | 조합 | Pastel (파스텔) | Vivid (원색) | White (순백) |
 | **VINE** | 덩굴 | Ivy (담쟁이) | Thorn (가시) | Wreath (화관) |

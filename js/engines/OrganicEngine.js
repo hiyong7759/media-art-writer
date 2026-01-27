@@ -1,40 +1,57 @@
 import { ArtEngine } from './ArtEngine.js';
 
 /**
- * Organic Engine (AURA-7, FLORA-9)
+ * Organic Engine (AURA-7)
  * 부드러운 입자와 연결선, 자연스러운 움직임
  */
 export class OrganicEngine extends ArtEngine {
+    // AURA-7 스킬 정의 (확장 가능)
+    static SKILLS = [
+        { name: 'Seed', nameKo: '씨앗', variants: ['Cell', 'Sprout', 'Egg'] },
+        { name: 'Wind', nameKo: '바람', variants: ['Breeze', 'Gale', 'Pollen'] },
+        { name: 'Bloom', nameKo: '개화', variants: ['Heart', 'Lotus', 'Orbital'] },
+        { name: 'Flow', nameKo: '흐름', variants: ['DNA', 'Stream', 'Network'] },
+        { name: 'Root', nameKo: '뿌리', variants: ['Taproot', 'Fibrous', 'Rhizome'] },
+        { name: 'Pulse', nameKo: '맥동', variants: ['Breath', 'Shockwave', 'Magnetic'] },
+        { name: 'Life', nameKo: '생명', variants: ['Firefly', 'Butterfly', 'Spirit'] }
+    ];
+
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
-        this.mode = 'data'; // Default: FLOW (Matches index preview)
         this.particles = [];
         this.roots = [];
-        this.initFlow(2); // Style 2: Network (Connected dots) for default AURA-7
+        this.setMode(0, 0);  // Seed mode, variant 0
     }
 
     resize(width, height) {
-        // If dimensions were 0 or small (first setup), re-initialize particles to distribute them correctly
-        const wasEmpty = (this.width <= 310 && this.height <= 160); // Default canvas size check
+        const wasEmpty = (this.width <= 310 && this.height <= 160);
         super.resize(width, height);
-        if (wasEmpty && this.mode) {
-            this.setMode(this.mode);
+        if (wasEmpty) {
+            this.setMode(this.currentMode, this.currentVariant);
         }
     }
 
-    setMode(mode) {
-        this.mode = mode;
+    // 새 표준 인터페이스: 인덱스 기반
+    setMode(modeIndex, variantIndex = 0) {
+        super.setMode(modeIndex, variantIndex);
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        if (mode === 'rain') this.initSeed();      // SEED
-        else if (mode === 'scanner') this.initWind();   // WIND
-        else if (mode === 'hud') this.initBloom();      // BLOOM
-        else if (mode === 'data') this.initFlow();      // FLOW (DNA)
-        else if (mode === 'circuit') this.initRoot();   // ROOT
-        else if (mode === 'sign') this.initPulse();     // PULSE
-        else if (mode === 'net') this.initLife();       // LIFE (Original Particles)
-        else this.initLife();
+        // 레거시 코드와의 호환을 위해 mode 문자열도 유지
+        const modeNames = ['rain', 'scanner', 'hud', 'data', 'circuit', 'sign', 'net'];
+        this.mode = modeNames[modeIndex] || 'rain';
+
+        console.log(`[OrganicEngine] Mode: ${modeIndex}, Variant: ${variantIndex}`);
+
+        if (modeIndex === 0) this.initSeed(variantIndex);
+        else if (modeIndex === 1) this.initWind(variantIndex);
+        else if (modeIndex === 2) this.initBloom(variantIndex);
+        else if (modeIndex === 3) this.initFlow(variantIndex);
+        else if (modeIndex === 4) this.initRoot(variantIndex);
+        else if (modeIndex === 5) this.initPulse(variantIndex);
+        else if (modeIndex === 6) this.initLife(variantIndex);
+        else this.initSeed(0);
     }
+
 
     draw() {
         // Organic trails - Adjusted for background visibility
@@ -75,7 +92,7 @@ export class OrganicEngine extends ArtEngine {
         }
     }
 
-    // Helper: Determine Style from Data
+    // Helper: Determine Style from Data (Legacy fallback)
     getStyle(salt = 0) {
         if (!this.data || !this.data.prompt) return 0;
         const sum = this.data.prompt.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) + salt;
@@ -83,8 +100,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 1. SEED (Rain Mapping) - Distinct Shapes
-    initSeed() {
-        this.seedStyle = this.getStyle(1);
+    initSeed(variant = 0) {
+        this.seedStyle = variant;
         this.particles = Array.from({ length: 50 }, () => ({
             x: Math.random() * this.width,
             y: Math.random() * -this.height,
@@ -146,13 +163,14 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 2. WIND (Scanner Mapping) - Sweeping Sunlight/Breeze/Pollen
-    initWind() {
-        this.windStyle = this.getStyle(2);
+    initWind(variant = 0) {
+        this.windStyle = variant;
         this.particles = [];
         this.windOffset = 0;
 
-        // Pollen (Variant 3)
-        if (this.windStyle === 2) {
+        // Pollen (Variant 2 in old logic, now depends on variant index)
+        // Adjust logic: Breeze(0), Gale(1), Pollen(2)
+        if (this.windStyle === 2 || this.windStyle === 'Pollen') {
             this.particles = Array.from({ length: 150 }, () => ({
                 x: Math.random() * this.width,
                 y: Math.random() * this.height,
@@ -214,8 +232,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 3. BLOOM (HUD Mapping) - Pulse Shapes
-    initBloom() {
-        this.bloomStyle = this.getStyle(3);
+    initBloom(variant = 0) {
+        this.bloomStyle = variant;
     }
     drawBloom() {
         const cx = this.width / 2;
@@ -283,9 +301,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 4. FLOW (Data Mapping) - DNA / Stream / Network
-    initFlow(style = null) {
-        if (style !== null) this.flowStyle = style;
-        else if (this.flowStyle === undefined) this.flowStyle = this.getStyle(4);
+    initFlow(variant = 0) {
+        this.flowStyle = variant;
 
         if (this.flowStyle === 0) { // DNA
             this.particles = Array.from({ length: 40 }, (_, i) => ({
@@ -383,8 +400,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 5. ROOT (Circuit Mapping) - Looping & Vis improvements
-    initRoot() {
-        this.rootStyle = this.getStyle(5);
+    initRoot(variant = 0) {
+        this.rootStyle = variant;
         this.roots = [];
         this.startRoot(); // Initial spawn
     }
@@ -507,8 +524,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 6. PULSE (Sign Mapping) - Breath / Shockwave / Magnetic Field
-    initPulse() {
-        this.pulseStyle = this.getStyle(6);
+    initPulse(variant = 0) {
+        this.pulseStyle = variant;
         this.magneticLines = Array.from({ length: 20 }, () => Math.random() * Math.PI * 2);
     }
     drawPulse() {
@@ -568,9 +585,8 @@ export class OrganicEngine extends ArtEngine {
     }
 
     // 7. LIFE (Net Mapping) - Firefly / Butterfly / Spirit
-    initLife(style = null) {
-        if (style !== null) this.lifeStyle = style;
-        else if (this.lifeStyle === undefined) this.lifeStyle = this.getStyle(7) % 3;
+    initLife(variant = 0) {
+        this.lifeStyle = variant;
         this.particles = Array.from({ length: 30 }, () => this.createLifeParticle());
     }
 

@@ -5,18 +5,26 @@ import { ArtEngine } from './ArtEngine.js';
  * 디지털 비, 글리치, 네온 + 7 Modes
  */
 export class CyberpunkEngine extends ArtEngine {
+    // NEON-V 스킬 정의 (확장 가능)
+    static SKILLS = [
+        { name: 'Rain', nameKo: '디지털 비', variants: ['Modern', 'Binary', 'Storm'] },
+        { name: 'Scanner', nameKo: '스캔', variants: ['Horizontal', 'Vertical', 'Quantum'] },
+        { name: 'HUD', nameKo: '인터페이스', variants: ['Brackets', 'Circle', 'Box'] },
+        { name: 'Data', nameKo: '데이터', variants: ['Vertical', 'Horizontal', 'Scattered'] },
+        { name: 'Circuit', nameKo: '회로', variants: ['Logic', 'Overload', 'Organic'] },
+        { name: 'Sign', nameKo: '신호', variants: ['Sine', 'Noise', 'Pulse'] },
+        { name: 'Net', nameKo: '네트워크', variants: ['Grid', 'Terrain', 'Warp'] }
+    ];
+
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
-        super(canvas, ctx, colors);
-        this.transparentMode = transparentMode;
-        this.data = data;
-        this.mode = 'rain'; // Default mode
+        super(canvas, ctx, colors, transparentMode, data);
 
         // Resources
         this.drops = [];
         this.scanY = 0;
 
         // HUD State
-        this.hudState = 0; // 0: SEARCH, 1: LOCKING, 2: LOCKED
+        this.hudState = 0;
         this.hudX = canvas.width / 2;
         this.hudY = canvas.height / 2;
         this.targetX = canvas.width / 2;
@@ -27,10 +35,13 @@ export class CyberpunkEngine extends ArtEngine {
         this.streamLines = [];
         this.circuitNodes = [];
 
-        // Initialize with fixed 'rain' mode for NEON-V
-        this.mode = 'rain';
-        this.setMode('rain', 0); // Always start with Style 0: Modern (Falling rain)
+        // 기본 모드 초기화
+        this.setMode(0, 0);
     }
+
+    // 레거시 모드명을 인덱스로 변환하는 매핑
+    static MODE_MAP = { rain: 0, scanner: 1, hud: 2, data: 3, circuit: 4, sign: 5, net: 6 };
+
 
     determineModeFromData() {
         const text = ((this.data.prompt || "") + " " + (this.data.description || "")).toLowerCase();
@@ -78,35 +89,42 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     getCurrentStyleName() {
-        if (this.mode === 'rain') return ['Modern', 'Binary', 'Storm'][this.rainStyle] || 'Matrix';
-        if (this.mode === 'scanner') return ['Horizontal', 'Vertical', 'Quantum'][this.scanStyle] || 'Standard';
-        if (this.mode === 'hud') return 'Sniper';
-        if (this.mode === 'data') return ['Vertical', 'Horizontal', 'Scattered'][this.dataStyle] || 'Stream';
-        if (this.mode === 'circuit') return ['Logic', 'Overload', 'Organic'][this.circuitStyle] || 'Neural';
-        if (this.mode === 'sign') return ['Sine', 'Noise', 'Pulse'][this.signStyle] || 'Wave';
-        if (this.mode === 'net') return ['Grid', 'Terrain', 'Warp'][this.netStyle] || 'Cyber';
+        const skills = CyberpunkEngine.SKILLS;
+        if (this.currentMode < skills.length) {
+            const variants = skills[this.currentMode].variants;
+            if (this.currentVariant < variants.length) {
+                return variants[this.currentVariant];
+            }
+        }
         return 'Default';
     }
 
-    setMode(mode, forcedStyle = null) {
-        this.mode = mode;
-        console.log(`Switched to mode: ${mode}`);
+    // 새 표준 인터페이스: 인덱스 기반
+    setMode(modeIndex, variantIndex = 0) {
+        super.setMode(modeIndex, variantIndex);
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        if (mode === 'rain') this.initRain(forcedStyle);
-        if (mode === 'scanner') this.initScanner();
-        if (mode === 'hud') {
-            this.initHUD();
+        const modeNames = ['rain', 'scanner', 'hud', 'data', 'circuit', 'sign', 'net'];
+        const modeName = modeNames[modeIndex] || 'rain';
+        this.mode = modeName;
+
+        console.log(`[CyberpunkEngine] Mode: ${modeIndex} (${modeName}), Variant: ${variantIndex}`);
+
+        if (modeName === 'rain') this.initRain(variantIndex);
+        else if (modeName === 'scanner') this.initScanner(variantIndex);
+        else if (modeName === 'hud') {
+            this.initHUD(variantIndex);
             this.hudState = 0;
             this.hudScale = 1.5;
             this.lockTimer = 0;
             this.pickNewTarget();
         }
-        if (mode === 'data') this.initDataStream();
-        if (mode === 'circuit') this.initCircuit();
-        if (mode === 'sign') this.initSign();
-        if (mode === 'net') this.initNet();
+        else if (modeName === 'data') this.initDataStream(variantIndex);
+        else if (modeName === 'circuit') this.initCircuit(variantIndex);
+        else if (modeName === 'sign') this.initSign(variantIndex);
+        else if (modeName === 'net') this.initNet(variantIndex);
     }
+
 
     pickNewTarget() {
         const margin = 100;
@@ -117,7 +135,7 @@ export class CyberpunkEngine extends ArtEngine {
 
     resize(width, height) {
         super.resize(width, height);
-        this.setMode(this.mode);
+        this.setMode(this.currentMode, this.currentVariant);
     }
 
     draw() {
@@ -171,13 +189,8 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 1. Rain Mode ---
-    initRain(forcedStyle = null) {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-
-        if (forcedStyle !== null) this.rainStyle = forcedStyle;
-        else this.rainStyle = seedValue % 3;
-
+    initRain(variant = 0) {
+        this.rainStyle = variant;
         console.log(`[RAIN Mode] Style: ${['Modern', 'Binary', 'Storm'][this.rainStyle]}`);
 
         const columns = Math.floor(this.width / 15); // Sync with 15px in gallery.js
@@ -215,10 +228,8 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 2. Scanner Mode ---
-    initScanner() {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char, idx) => acc + (char.charCodeAt(0) * (idx + 13)), 0);
-        this.scanStyle = seedValue % 3;
+    initScanner(variant = 0) {
+        this.scanStyle = variant;
         console.log(`[SCAN Mode] Style: ${['Horizontal', 'Vertical', 'Quantum'][this.scanStyle]}`);
 
         this.scanY = 0;
@@ -283,14 +294,12 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 3. HUD Mode ---
-    initHUD() {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char, idx) => acc + (char.charCodeAt(0) * (idx + 17)), 0);
-
+    initHUD(variant = 0) {
+        // Variants: Brackets(0), Circle(1), Box(2)
         this.hudConfig = {
-            shape: seedValue % 3,
-            colorShift: seedValue % 2 === 0,
-            spinSpeed: ((seedValue % 5) + 1) * 0.01
+            shape: variant,
+            colorShift: variant % 2 === 0,
+            spinSpeed: ((variant % 5) + 1) * 0.01
         };
         console.log(`[HUD Mode] Sniper Var: ${this.hudConfig.shape}`);
     }
@@ -456,10 +465,9 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 4. Data Stream Mode ---
-    initDataStream() {
+    initDataStream(variant = 0) {
+        this.dataStyle = variant;
         const text = (this.data && this.data.prompt) ? this.data.prompt : "NO DATA SYSTEM OFFLINE";
-        const seedValue = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-        this.dataStyle = seedValue % 3;
 
         console.log(`[DATA Mode] Style: ${['Vertical', 'Horizontal', 'Scattered'][this.dataStyle]}`);
 
@@ -525,16 +533,14 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 5. Circuit Mode ---
-    initCircuit() {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-        this.circuitStyle = seedValue % 3;
+    initCircuit(variant = 0) {
+        this.circuitStyle = variant;
         console.log(`[CIRC Mode] Style: ${['Logic', 'Overload', 'Organic'][this.circuitStyle]}`);
 
         let gridSize = 60;
         if (this.circuitStyle === 2) gridSize = 40;
 
-        const count = seedValue % 2 === 0 ? 20 : 40;
+        const count = 30;
 
         this.circuitNodes = Array.from({ length: count }, () => ({
             x: Math.floor(Math.random() * (this.width / gridSize)) * gridSize,
@@ -609,10 +615,8 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 6. SIGN Mode ---
-    initSign() {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char, idx) => acc + (char.charCodeAt(0) * (idx + 7)), 0);
-        this.signStyle = seedValue % 3;
+    initSign(variant = 0) {
+        this.signStyle = variant;
         console.log(`[SIGN Mode] Style: ${['Sine', 'Noise', 'Pulse'][this.signStyle]}`);
 
         this.signPoints = [];
@@ -691,12 +695,9 @@ export class CyberpunkEngine extends ArtEngine {
     }
 
     // --- 7. NET Mode ---
-    initNet() {
-        const text = (this.data && this.data.prompt) ? this.data.prompt : "";
-        const seedValue = text.split('').reduce((acc, char, idx) => acc + (char.charCodeAt(0) * (idx + 11)), 0);
-        this.netStyle = seedValue % 3;
+    initNet(variant = 0) {
+        this.netStyle = variant;
         console.log(`[NET Mode] Style: ${['Grid', 'Terrain', 'Warp'][this.netStyle]}`);
-
         this.netOffset = 0;
     }
 

@@ -5,59 +5,57 @@ import { ArtEngine } from './ArtEngine.js';
  * 기하학적 형태, 선, 회전 + 7 Modes (POINT, LINE, POLY, SOLID, FRACTAL, DIM, CHAOS)
  */
 export class GeometricEngine extends ArtEngine {
+    // KURO-X 스킬 정의
+    static SKILLS = [
+        { name: 'Point', nameKo: '점', variants: ['Star', 'Dust', 'Grid'] },
+        { name: 'Line', nameKo: '선', variants: ['String', 'Connect', 'Ray'] },
+        { name: 'Poly', nameKo: '다각형', variants: ['Shape', 'Voronoi', 'Hex'] },
+        { name: 'Solid', nameKo: '입체', variants: ['Cube', 'Crystal', 'Platonic'] },
+        { name: 'Fractal', nameKo: '프랙탈', variants: ['Tree', 'Fern', 'Snow'] },
+        { name: 'Dim', nameKo: '차원', variants: ['Tesseract', 'Mirror', 'Wormhole'] },
+        { name: 'Chaos', nameKo: '혼돈', variants: ['Attractor', 'Glitch', 'Entropy'] }
+    ];
+
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
-        this.mode = 'hud'; // Default: POLY (Shape) matches HUD in viewer.js mapping
-        this.variant = 0;
         this.shapes = [];
         this.points = [];
         this.lines = [];
         this.cubes = [];
         this.chaosP = { x: 0.1, y: 0.1, z: 0.1 };
+        this.variant = 0; // 호환성 유지
 
-        this.initShapes(); // Initialize index-style shapes
-        this.setMode('hud');
+        this.setMode(2, 0); // Default: Poly (Shape) matches HUD in viewer.js mapping (index 2)
     }
 
-    determineVariantFromData() {
-        if (!this.data || !this.data.prompt) return 0;
-        const text = (this.data.prompt || "").toLowerCase();
 
-        // Keyword Mapping for Variants (0: Shape, 1: Voronoi, 2: Hex)
-        const keywords = {
-            1: ['voronoi', 'cell', 'organic', 'nerve', 'network', 'biological'],
-            2: ['hex', 'honeycomb', 'bee', 'hive', 'six', 'hexagon']
-        };
-
-        for (let v in keywords) {
-            if (keywords[v].some(word => text.includes(word))) return parseInt(v);
-        }
-
-        // Default to Variant 0 (Shape) for consistency with index
-        return 0;
-    }
-
-    setMode(mode, forcedVariant = null) {
-        this.mode = mode;
-        this.variant = forcedVariant !== null ? forcedVariant : this.determineVariantFromData();
-        console.log(`[GeometricEngine] Mode: ${mode}, Variant: ${this.variant}`);
-
+    // 새 표준 인터페이스
+    setMode(modeIndex, variantIndex = 0) {
+        super.setMode(modeIndex, variantIndex);
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        // Reset/Init for specific modes (Using common keys)
-        if (mode === 'rain') this.initPoint();
-        if (mode === 'scanner') this.initLine();
-        if (mode === 'hud') this.initShapes();
-        if (mode === 'data') this.initSolid();
-        if (mode === 'circuit') this.initFractal();
-        if (mode === 'sign') this.initDim();
-        if (mode === 'net') this.initNet(); // NET is CHAOS
+        // 레거시 호환성
+        const modeNames = ['point', 'line', 'poly', 'solid', 'fractal', 'dim', 'chaos'];
+        this.mode = modeNames[modeIndex] || 'poly';
+        this.variant = variantIndex;
+
+        console.log(`[GeometricEngine] Mode: ${modeIndex} (${this.mode}), Variant: ${this.variant}`);
+
+        if (modeIndex === 0) this.initPoint();
+        else if (modeIndex === 1) this.initLine();
+        else if (modeIndex === 2) this.initShapes();
+        else if (modeIndex === 3) this.initSolid();
+        else if (modeIndex === 4) this.initFractal();
+        else if (modeIndex === 5) this.initDim();
+        else if (modeIndex === 6) this.initChaos();
+        else this.initShapes();
     }
 
     resize(width, height) {
         super.resize(width, height);
-        this.setMode(this.mode);
+        this.setMode(this.currentMode, this.currentVariant);
     }
+
 
     draw() {
         // Deep background for Kuro-X
@@ -73,13 +71,13 @@ export class GeometricEngine extends ArtEngine {
         }
 
         switch (this.mode) {
-            case 'rain': this.drawPoint(); break;
-            case 'scanner': this.drawLine(); break;
-            case 'hud': this.drawPoly(); break;
-            case 'data': this.drawSolid(); break;
-            case 'circuit': this.drawFractal(); break;
-            case 'sign': this.drawDim(); break;
-            case 'net': this.drawChaos(); break;
+            case 'point': this.drawPoint(); break;
+            case 'line': this.drawLine(); break;
+            case 'poly': this.drawPoly(); break;
+            case 'solid': this.drawSolid(); break;
+            case 'fractal': this.drawFractal(); break;
+            case 'dim': this.drawDim(); break;
+            case 'chaos': this.drawChaos(); break;
             default: this.drawPoly();
         }
     }
@@ -376,7 +374,7 @@ export class GeometricEngine extends ArtEngine {
     }
 
     // --- 7. CHAOS (Attractor, Glitch, Entropy) ---
-    initNet() {
+    initChaos() {
         this.chaosP = { x: 0.1, y: 0.1, z: 0.1 };
     }
     drawChaos() {

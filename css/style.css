@@ -818,15 +818,16 @@ a:hover {
   pointer-events: auto;
 }
 
-/* Animation Controls (Top Center) */
+/* Animation Controls (Top Center - 2 Row Layout) */
 .animation-controls {
   position: absolute;
   top: 32px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 8px;
-  padding: 6px;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
   background: rgba(20, 20, 30, 0.6);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -835,6 +836,18 @@ a:hover {
   opacity: 0;
   transition: opacity 0.5s ease;
   pointer-events: none;
+}
+
+.mode-buttons,
+.variant-buttons {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.variant-buttons {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 6px;
 }
 
 .viewer-container.show-controls .animation-controls {
@@ -869,6 +882,31 @@ a:hover {
   background: var(--color-accent);
   color: white;
   box-shadow: 0 0 15px var(--color-accent-glow);
+}
+
+.variant-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 40px;
+}
+
+.variant-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.variant-btn.active {
+  background: rgba(139, 92, 246, 0.3);
+  color: white;
+  border: 1px solid var(--color-accent);
 }
 
 .control-btn {

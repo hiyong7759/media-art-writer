@@ -2,8 +2,8 @@ name: Daily Art Generation
 
 on:
   schedule:
-    # 매일 한국 시간 오후 6시 (UTC 09:00) 실행
-    - cron: '0 9 * * *'
+    # 매일 한국 시간 00:00 (UTC 15:00) 실행
+    - cron: '0 15 * * *'
   workflow_dispatch:
     inputs:
       artist_id:
@@ -37,6 +37,10 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate.js "${{ inputs.artist_id || 'all' }}" "${{ inputs.date }}"
+
+      - name: Get KST Date
+        id: date
+        run: echo "date=$(TZ='Asia/Seoul' date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5

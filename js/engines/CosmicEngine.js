@@ -5,26 +5,47 @@ import { ArtEngine } from './ArtEngine.js';
  * 별, 깊이감, 회전
  */
 export class CosmicEngine extends ArtEngine {
+    // VOID-3 스킬 정의
+    static SKILLS = [
+        { name: 'Dust', nameKo: '성운', variants: ['Nebula', 'Stardust', 'Cluster'] },
+        { name: 'Orbit', nameKo: '궤도', variants: ['Planetary', 'Ring', 'Satellite'] },
+        { name: 'Nova', nameKo: '초신성', variants: ['Burst', 'Collapse', 'Remnant'] },
+        { name: 'Void', nameKo: '공허', variants: ['Blackhole', 'Horizon', 'Singularity'] },
+        { name: 'Galaxy', nameKo: '은하', variants: ['Spiral', 'Elliptical', 'Irregular'] },
+        { name: 'Quasar', nameKo: '퀘이사', variants: ['Jet', 'Beam', 'Active'] },
+        { name: 'Multi', nameKo: '다중우주', variants: ['Bubble', 'Foam', 'String'] }
+    ];
+
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
-        this.mode = 'rain'; // Dust
         this.stars = [];
-        this.initDust();
+        this.voidParticles = [];
+        this.setMode(0, 0); // Default: Dust
     }
 
-    setMode(mode) {
-        this.mode = mode;
+
+    // 새 표준 인터페이스
+    setMode(modeIndex, variantIndex = 0) {
+        super.setMode(modeIndex, variantIndex);
         this.ctx.clearRect(0, 0, this.width, this.height);
 
-        if (mode === 'rain') this.initDust();
-        else if (mode === 'scanner') this.initOrbit();
-        else if (mode === 'hud') this.initNova();
-        else if (mode === 'data') this.initVoid();
-        else if (mode === 'circuit') this.initGalaxy();
-        else if (mode === 'sign') this.initQuasar();
-        else if (mode === 'net') this.initMulti();
+        // 레거시 호환성
+        const modeNames = ['rain', 'scanner', 'hud', 'data', 'circuit', 'sign', 'net'];
+        this.mode = modeNames[modeIndex] || 'rain';
+        this.variant = variantIndex;
+
+        console.log(`[CosmicEngine] Mode: ${modeIndex} (${this.mode}), Variant: ${this.variant}`);
+
+        if (modeIndex === 0) this.initDust();
+        else if (modeIndex === 1) this.initOrbit();
+        else if (modeIndex === 2) this.initNova();
+        else if (modeIndex === 3) this.initVoid();
+        else if (modeIndex === 4) this.initGalaxy();
+        else if (modeIndex === 5) this.initQuasar();
+        else if (modeIndex === 6) this.initMulti();
         else this.initDust();
     }
+
 
     draw() {
         if (this.transparentMode) {
@@ -48,12 +69,23 @@ export class CosmicEngine extends ArtEngine {
 
     getStyle(salt) { return (this.data?.prompt?.length + salt) % 3 || 0; }
 
-    // 1. DUST (Rain) - Nebula/Stardust
+    // 1. DUST (Rain)
     initDust() {
-        this.stars = Array.from({ length: 100 }, () => ({
+        let count = 100;
+        let depthSpread = 2;
+        if (this.variant === 1) { // Stardust (Many small)
+            count = 300;
+            depthSpread = 1;
+        } else if (this.variant === 2) { // Cluster (Dense, low depth)
+            count = 150;
+            depthSpread = 0.5;
+        }
+
+        this.stars = Array.from({ length: count }, () => ({
             x: Math.random() * this.width,
             y: Math.random() * this.height,
-            z: Math.random() * 2
+            z: Math.random() * depthSpread + 0.1,
+            size: Math.random() * 2 + 0.5
         }));
     }
     drawDust() {
@@ -62,26 +94,28 @@ export class CosmicEngine extends ArtEngine {
             if (s.y > this.height) s.y = 0;
             this.ctx.fillStyle = this.colors[0];
             this.ctx.beginPath();
-            this.ctx.arc(s.x, s.y, s.z, 0, Math.PI * 2);
+            this.ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
             this.ctx.fill();
         });
     }
 
-    // 2. ORBIT (Scanner) - Planetary Rings
+    // 2. ORBIT (Scanner)
     initOrbit() { }
     drawOrbit() {
         const cx = this.width / 2;
         const cy = this.height / 2;
 
         this.ctx.lineWidth = 1;
-        for (let i = 1; i <= 10; i++) {
-            const r = i * 40;
+        const count = (this.variant === 1) ? 5 : ((this.variant === 2) ? 15 : 10);
+
+        for (let i = 1; i <= count; i++) {
+            const r = i * (this.variant === 2 ? 20 : 40);
             this.ctx.beginPath();
             this.ctx.arc(cx, cy, r, 0, Math.PI * 2);
             this.ctx.strokeStyle = "rgba(255,255,255,0.1)";
             this.ctx.stroke();
 
-            const angle = this.frame * (0.05 / i);
+            const angle = this.frame * (0.05 / i) * (this.variant === 1 ? -1 : 1);
             const px = cx + Math.cos(angle) * r;
             const py = cy + Math.sin(angle) * r;
 
@@ -92,7 +126,7 @@ export class CosmicEngine extends ArtEngine {
         }
     }
 
-    // 3. NOVA (HUD) - Supernova Burst
+    // 3. NOVA (HUD)
     initNova() {
         this.novaR = 0;
     }
@@ -100,7 +134,8 @@ export class CosmicEngine extends ArtEngine {
         const cx = this.width / 2;
         const cy = this.height / 2;
 
-        this.novaR += 2;
+        const speed = (this.variant === 0) ? 2 : ((this.variant === 1) ? 5 : 1);
+        this.novaR += speed;
         if (this.novaR > this.width) this.novaR = 0;
 
         const grad = this.ctx.createRadialGradient(cx, cy, 0, cx, cy, this.novaR);
@@ -113,17 +148,20 @@ export class CosmicEngine extends ArtEngine {
         this.ctx.fillStyle = grad;
         this.ctx.fill();
 
-        this.ctx.strokeStyle = this.colors[0];
-        this.ctx.lineWidth = 2;
-        this.ctx.beginPath();
-        this.ctx.moveTo(cx - 50, cy); this.ctx.lineTo(cx + 50, cy);
-        this.ctx.moveTo(cx, cy - 50); this.ctx.lineTo(cx, cy + 50);
-        this.ctx.stroke();
+        if (this.variant !== 2) { // Not Remnant (Simple)
+            this.ctx.strokeStyle = this.colors[0];
+            this.ctx.lineWidth = 2;
+            this.ctx.beginPath();
+            this.ctx.moveTo(cx - 50, cy); this.ctx.lineTo(cx + 50, cy);
+            this.ctx.moveTo(cx, cy - 50); this.ctx.lineTo(cx, cy + 50);
+            this.ctx.stroke();
+        }
     }
 
-    // 4. VOID (Data) - Blackhole
+    // 4. VOID (Data)
     initVoid() {
-        this.voidParticles = Array.from({ length: 100 }, () => ({
+        const count = (this.variant === 0) ? 100 : 200;
+        this.voidParticles = Array.from({ length: count }, () => ({
             angle: Math.random() * Math.PI * 2,
             dist: Math.random() * 300 + 50,
             speed: Math.random() * 0.05 + 0.01
@@ -133,8 +171,10 @@ export class CosmicEngine extends ArtEngine {
         const cx = this.width / 2;
         const cy = this.height / 2;
 
+        const coreSize = (this.variant === 2) ? 10 : 40; // Singularity is small
+
         this.ctx.beginPath();
-        this.ctx.arc(cx, cy, 40, 0, Math.PI * 2);
+        this.ctx.arc(cx, cy, coreSize, 0, Math.PI * 2);
         this.ctx.fillStyle = '#000';
         this.ctx.fill();
         this.ctx.strokeStyle = '#fff';
@@ -143,17 +183,17 @@ export class CosmicEngine extends ArtEngine {
         this.voidParticles.forEach(p => {
             p.angle += p.speed * (100 / p.dist);
             p.dist -= 0.5;
-            if (p.dist < 40) p.dist = 350;
+            if (p.dist < coreSize) p.dist = 350;
 
             const x = cx + Math.cos(p.angle) * p.dist;
-            const y = cy + Math.sin(p.angle) * p.dist * 0.3;
+            const y = cy + Math.sin(p.angle) * p.dist * ((this.variant === 1) ? 0.8 : 0.3); // Horizon is wider
 
             this.ctx.fillStyle = this.hexToRgba(this.colors[2], 0.8);
             this.ctx.fillRect(x, y, 2, 2);
         });
     }
 
-    // 5. GALAXY (Circuit) - Spiral Arms
+    // 5. GALAXY (Circuit)
     initGalaxy() { }
     drawGalaxy() {
         const cx = this.width / 2;
@@ -163,15 +203,18 @@ export class CosmicEngine extends ArtEngine {
         this.ctx.translate(cx, cy);
         this.ctx.rotate(this.frame * 0.005);
 
-        for (let j = 0; j < 2; j++) {
-            const armOffset = j * Math.PI;
+        const arms = (this.variant === 0) ? 2 : ((this.variant === 1) ? 1 : 4); // Spiral(2), Elliptical(1 blob approx), Irregular(4)
+
+        for (let j = 0; j < arms; j++) {
+            const armOffset = j * (Math.PI * 2 / arms);
             for (let i = 0; i < 200; i += 2) {
                 const angle = i * 0.1 + armOffset;
                 const r = i * 2;
-                const x = Math.cos(angle) * r;
-                const y = Math.sin(angle) * r;
+                const spread = (Math.random() - 0.5) * (this.variant === 2 ? 50 : 20);
+                const x = Math.cos(angle) * r + spread;
+                const y = Math.sin(angle) * r + spread;
 
-                this.ctx.fillStyle = this.hexToRgba(this.colors[j], 0.6);
+                this.ctx.fillStyle = this.hexToRgba(this.colors[j % this.colors.length], 0.6);
                 this.ctx.beginPath();
                 this.ctx.arc(x, y, Math.random() * 2 + 1, 0, Math.PI * 2);
                 this.ctx.fill();
@@ -180,7 +223,7 @@ export class CosmicEngine extends ArtEngine {
         this.ctx.restore();
     }
 
-    // 6. QUASAR (Sign) - Jet Stream
+    // 6. QUASAR (Sign)
     initQuasar() { }
     drawQuasar() {
         const cx = this.width / 2;
@@ -195,16 +238,18 @@ export class CosmicEngine extends ArtEngine {
         this.ctx.lineWidth = 4;
 
         const flicker = Math.random() * 50;
+        const active = (this.variant === 2); // Active quasar
+        const len = active ? 400 : 200;
 
         this.ctx.beginPath();
         this.ctx.moveTo(cx, cy);
-        this.ctx.lineTo(cx + 200 + flicker, cy - 200 - flicker);
+        this.ctx.lineTo(cx + len + flicker, cy - len - flicker);
         this.ctx.moveTo(cx, cy);
-        this.ctx.lineTo(cx - 200 - flicker, cy + 200 + flicker);
+        this.ctx.lineTo(cx - len - flicker, cy + len + flicker);
         this.ctx.stroke();
     }
 
-    // 7. MULTI (Net) - Bubble Universe
+    // 7. MULTI (Net)
     initMulti() {
         this.bubbles = Array.from({ length: 20 }, () => ({
             x: Math.random() * this.width,
@@ -214,7 +259,10 @@ export class CosmicEngine extends ArtEngine {
     }
     drawMulti() {
         this.bubbles.forEach(b => {
-            b.y -= 0.5;
+            // String variant -> Linear movement
+            if (this.variant === 2) b.y -= 2;
+            else b.y -= 0.5;
+
             if (b.y < -100) b.y = this.height + 100;
 
             this.ctx.strokeStyle = this.hexToRgba(this.colors[3] || '#fff', 0.3);
@@ -223,10 +271,16 @@ export class CosmicEngine extends ArtEngine {
             this.ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
             this.ctx.stroke();
 
-            this.ctx.beginPath();
-            this.ctx.arc(b.x + b.r * 0.3, b.y - b.r * 0.3, b.r * 0.2, 0, Math.PI * 2);
-            this.ctx.fillStyle = 'rgba(255,255,255,0.1)';
-            this.ctx.fill();
+            // Foam variant -> Solid fill
+            if (this.variant === 1) {
+                this.ctx.fillStyle = 'rgba(255,255,255,0.2)';
+                this.ctx.fill();
+            } else {
+                this.ctx.beginPath();
+                this.ctx.arc(b.x + b.r * 0.3, b.y - b.r * 0.3, b.r * 0.2, 0, Math.PI * 2);
+                this.ctx.fillStyle = 'rgba(255,255,255,0.1)';
+                this.ctx.fill();
+            }
         });
     }
 }

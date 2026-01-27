@@ -3,6 +3,11 @@
  */
 
 export class ArtEngine {
+    // 각 엔진에서 오버라이드 - 확장 가능한 배열 구조
+    static SKILLS = [
+        // { name: 'Mode1', variants: ['Var1', 'Var2', 'Var3'] },
+    ];
+
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         this.canvas = canvas;
         this.ctx = ctx;
@@ -12,6 +17,8 @@ export class ArtEngine {
         this.frame = 0;
         this.transparentMode = transparentMode;
         this.data = data;
+        this.currentMode = 0;
+        this.currentVariant = 0;
     }
 
     resize(width, height) {
@@ -21,6 +28,25 @@ export class ArtEngine {
 
     update() {
         this.frame++;
+    }
+
+    // 표준 인터페이스: 모드와 variant 인덱스로 설정
+    setMode(modeIndex, variantIndex = 0) {
+        this.currentMode = modeIndex;
+        this.currentVariant = variantIndex;
+        // 각 엔진에서 오버라이드하여 실제 초기화 수행
+    }
+
+    getSkills() {
+        return this.constructor.SKILLS;
+    }
+
+    getCurrentMode() {
+        return this.currentMode;
+    }
+
+    getCurrentVariant() {
+        return this.currentVariant;
     }
 
     draw() {
@@ -44,3 +70,4 @@ export class ArtEngine {
         return `rgba(${r}, ${g}, ${b}, ${alpha})`;
     }
 }
+

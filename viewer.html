@@ -53,15 +53,14 @@
             </button>
         </div>
 
-        <!-- Animation Controls (NEON-V Only) -->
+        <!-- Animation Controls (동적 생성) -->
         <div class="animation-controls hidden" id="animationControls">
-            <button class="mode-btn" data-mode="rain" title="Digital Rain">RAIN</button>
-            <button class="mode-btn" data-mode="scanner" title="Glitch Scanner">SCAN</button>
-            <button class="mode-btn" data-mode="hud" title="Tactical Sniper">SNIPER</button>
-            <button class="mode-btn active" data-mode="data" title="Data Stream">DATA</button>
-            <button class="mode-btn" data-mode="circuit" title="Neural Circuit">CIRC</button>
-            <button class="mode-btn" data-mode="sign" title="Signal Wave">SIGN</button>
-            <button class="mode-btn" data-mode="net" title="Cyber Net">NET</button>
+            <div class="mode-buttons" id="modeButtons">
+                <!-- JS에서 SKILLS 기반으로 동적 생성 -->
+            </div>
+            <div class="variant-buttons" id="variantButtons">
+                <!-- 선택된 모드의 variants 동적 생성 -->
+            </div>
         </div>
 
         <!-- Viewer Info Overlay (Split Layout) -->
