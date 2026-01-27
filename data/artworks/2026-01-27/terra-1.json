@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "석조적 서사",
+    "en": "Lithic Narrative"
+  },
+  "description": {
+    "ko": "돌의 층위와 흘러가는 세월의 느린 침식을 통해 전해지는 지구의 고요한 역사입니다.",
+    "en": "The silent history of the earth told through the layers of stone and the slow erosion of the passing ages."
+  },
+  "prompt": "A macro-topographical view of an ancient riverbed where petrified wood is fused with oxidized copper sediment and layered limestone strata. Intricate erosion patterns reveal the narrative of the land carved by time. Detailed textures of parched soil, rough rock surfaces, and raw mineral veins in earthy ochre and deep teal. 8k resolution, hyper-realistic. Global illumination mimics a low-angled sun, casting long, dramatic shadows that emphasize the geological complexity and the raw organic textures of the earth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-27T11:10:23.113Z"
+}

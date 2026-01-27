@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드빛 호흡",
+    "en": "The Emerald Respiration"
+  },
+  "description": {
+    "ko": "자연의 숨결이 유기적 에너지의 섬세하고 고동치는 고치 속에 담겨 있는 빛의 성소입니다.",
+    "en": "A living sanctuary of light, where the breath of nature is captured in a delicate, pulsing cocoon of organic energy."
+  },
+  "prompt": "A suspended, celestial cocoon woven from bioluminescent emerald silk and translucent vascular moss, pulsing with a rhythmic inner light. The structure floats within a vertical forest of glowing kelp-like tendrils in a deep underwater atmosphere. Detailed textures of breathing light fibers and organic membranes exhibiting heavy subsurface scattering. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic volumetric lighting shafts pierce through the dark green water, creating dramatic shadows and highlighting the fluid flow of liquid light through the organic architecture.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-01-27T11:09:45.622Z"
+}

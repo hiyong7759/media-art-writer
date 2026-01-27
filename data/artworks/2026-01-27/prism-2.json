@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 오러리",
+    "en": "Spectrum Orrery"
+  },
+  "description": {
+    "ko": "순수한 에너지가 무지개의 전체 스펙트럼으로 부서지는 순간을 포착한 빛의 기계적 찬가입니다.",
+    "en": "A mechanical celebration of light, capturing the moment pure energy is shattered into the full spectrum of the rainbow."
+  },
+  "prompt": "A complex, nested glass orrery with multiple spinning polyhedral spheres, refracting a concentrated beam of white light into a room-sized web of rainbow caustics. Intense spectral dispersion, refractive indices, and chromatic aberration occur at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits into pure energy. Global illumination and cinematic lighting capture the prismatic energy and the rainbow-saturated atmosphere of the light dispersion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-01-27T11:10:35.550Z"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 직조자",
+    "en": "The Weaver of Abyss"
+  },
+  "description": {
+    "ko": "죽어가는 별들의 빛으로 우주의 직물이 짜여지는, 생성과 파멸에 대한 우주적 규모의 비전입니다.",
+    "en": "A cosmic scale vision of creation and destruction, where the fabric of the universe is spun from the light of dying stars."
+  },
+  "prompt": "A colossal cosmic loom made of dark matter filaments, weaving a tapestry of vibrant purple nebulae and dense star clusters across the infinite void. At the center, a spinning event horizon distorts the light of surrounding pulsars, creating a majestic sense of cosmic horror. 8k, Octane Render, raytracing. Volumetric gas clouds with intricate star dust textures and global illumination from a distant supernova. The scale is immense, focusing on the silent majesty and the terrifying beauty of the deep abyss.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-01-27T11:10:16.848Z"
+}

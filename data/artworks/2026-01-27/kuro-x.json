@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "부서진 균형",
+    "en": "Fractured Equilibrium"
+  },
+  "description": {
+    "ko": "완벽한 기하학이 디지털 파편의 리드미컬한 춤으로 녹아드는 단색의 혼돈에 대한 탐구입니다.",
+    "en": "A study in monochromatic chaos, where perfect geometry dissolves into a rhythmic dance of digital fragments."
+  },
+  "prompt": "An infinite architectural landscape of obsidian monoliths fracturing into a cascade of vertical digital scanlines and sharp geometric debris against a stark white void. The composition features a complex balance of monochrome order and chaotic glitch aesthetics. 8k resolution, Octane Render, raytraced reflections on the polished black glass surfaces. High-contrast cinematic lighting creates razor-sharp shadows, emphasizing the deep textures of digital noise and the fragmented complexity of the collapsing geometric order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-27T11:09:51.880Z"
+}
