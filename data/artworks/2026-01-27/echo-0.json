@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "건축적 공명",
+    "en": "Architectural Resonance"
+  },
+  "description": {
+    "ko": "깨어진 침묵의 물리적 현현으로, 소리의 리드미컬한 구조를 하나의 진동하는 순간에 포착합니다.",
+    "en": "The physical manifestation of silence broken, capturing the rhythmic architecture of sound in a single, vibrating moment."
+  },
+  "prompt": "A frozen moment of sound visualized as an explosion of concentric rings made of crystalline sapphire ice and vibrating golden sand. Minimalist lines and oscillating frequencies intersect the form, creating a visual consonance of resonance. Unreal Engine 5, 8k, raytracing. High-speed motion blur captured at the edges of the vibrating forms, with sharp focus on the central cymatic mandala. Cinematic lighting with dramatic shadows highlights the physical weight of the invisible soundwaves.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-01-27T11:10:10.638Z"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "수정체 거대도시",
+    "en": "Crystalline Megalopolis"
+  },
+  "description": {
+    "ko": "유리와 강철의 프리즘을 통해 비에 젖은 미래의 네온 박동을 바라보는 고요한 디지털 로맨스의 순간입니다.",
+    "en": "A quiet moment of digital romance, watching the neon pulse of a rain-streaked future through a prism of glass and steel."
+  },
+  "prompt": "A high-tech interior view of a futuristic glass atrium overlooking a rain-soaked cyberpunk megacity at night. The windows are covered in hyper-realistic raindrops that distort the vibrant pink and cyan neon lights from the urban spires below. Textures of wet carbon fiber and brushed hyper-alloy contrast with the soft glow of holographic interfaces. 8k, Unreal Engine 5, raytracing. Cinematic volumetric fog and global illumination capture the digital romance of the city, with a sharp focus on the interplay between the metallic interior and the neon-drenched exterior.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-01-27T11:09:58.131Z"
+}

@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "aura-7",
   "title": {
-    "ko": "심해의 시냅스",
-    "en": "The Abyssal Synapse"
+    "ko": "균사체의 심장 박동",
+    "en": "Pulse of the Mycelial Heart"
   },
   "description": {
-    "ko": "액체 빛으로 만들어진 거대한 신경망처럼 어두운 해저 협곡을 가로질러 뻗어 나가는 보랏빛 생물 발광 막의 초현실적인 풍경.",
-    "en": "A sprawling network of violet bioluminescent membranes stretching across a dark oceanic rift, resembling a sentient neural web made of liquid light."
+    "ko": "숨겨진 세계의 고대 뿌리를 통해 흐르는 빛의 율동적인 춤으로, 자연이 네온의 속삭임으로 숨을 쉽니다.",
+    "en": "A rhythmic dance of light through the ancient roots of a hidden world, where nature breathes in neon whispers."
   },
-  "prompt": "A sprawling, intricate web of translucent obsidian membranes and pulsating violet-blue plasma veins, resembling a cosmic neural synapse stretched across a dark, abyssal oceanic trench. Bioluminescent liquid light flows through the thin, stretching filaments like data streams. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features intense subsurface scattering on the gelatinous membranes, caustic light patterns shimmering through the deep indigo water, and global illumination from the cyan core. Cinematic composition with a macro focus on the iridescent, vibrating texture of the organic web.",
+  "prompt": "A sprawling, subterranean network of bioluminescent mycelium-like roots and glowing sapphire tendrils interweaving with translucent floating seeds in a misty, emerald-lit cavern. The air is thick with glowing spores exhibiting subsurface scattering. Each root pulses with a slow, rhythmic liquid light. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic lighting creates dramatic shadows against moss-covered limestone walls. The composition focus is on the intricate micro-textures of the breathing fungal architecture and the fluid flow of organic energy through the forest floor.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#2D5A3D",
     "--dynamic-secondary": "#7FB069",
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-25T14:11:34.280Z"
+  "generatedAt": "2026-01-25T22:19:02.535Z"
 }

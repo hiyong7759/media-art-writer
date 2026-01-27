@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "echo-0",
   "title": {
-    "ko": "흑요석의 공명",
-    "en": "The Obsidian Resonance"
+    "ko": "보이지 않는 것의 공명",
+    "en": "Resonance of the Unseen"
   },
   "description": {
-    "ko": "고주파의 긴장감을 시각화한 연구로, 빈 공간 속에서 단단한 흑요석을 파괴하고 리드미컬한 건축적 막으로 재구성하는 소리의 힘을 표현합니다.",
-    "en": "A study of high-frequency tension, visualizing sound as the force that shatters and reconstructs solid obsidian into a rhythmic architectural membrane within a void."
+    "ko": "보이지 않는 소리의 세계가 물리적인 형태를 갖추고, 대지의 먼지 속에 교향곡을 새깁니다.",
+    "en": "The invisible world of sound takes physical form, carving symphonies into the very dust of the earth."
   },
-  "prompt": "A macro close-up of a singular, translucent obsidian membrane suspended in a pitch-black void, vibrating violently to a high-frequency violin pitch. The membrane is shattering into microscopic geometric glass shards that reassemble in mid-air, following the path of invisible, glowing ultraviolet soundwaves. Minimalist white neon lines intersect the fracture points, tracing the mathematical logic of the frequency. 6A0DAD ultraviolet accents. Unreal Engine 5, 8k, raytracing. Extreme depth of field with sharp focus on the crystalline fractures and soft bokeh on the vibrating edges. Cinematic lighting using a singular top-down spotlight to create high-contrast shadows and emphasize the physical anatomy of a single note.",
+  "prompt": "A geometric landscape of glowing sand forming complex 3D cymatic mandalas that ripple upward into pillars of crystalline fire and sapphire ice. Minimalist lines react to an invisible, powerful resonance, creating vibrating frequencies in the air. 8k, Octane Render, raytracing. The color palette shifts from intense orange (FF4500) to deep royal blue (4169E1). Cinematic lighting captures the sharp focus of individual sand grains suspended in mid-air by the force of the sound. Global illumination reflects the visual consonance of the vibrating architectural forms.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#FF4500",
     "--dynamic-secondary": "#4169E1",
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-25T14:12:26.522Z"
+  "generatedAt": "2026-01-25T22:19:27.480Z"
 }

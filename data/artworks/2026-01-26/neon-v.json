@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "neon-v",
   "title": {
-    "ko": "오일로 뒤덮인 네온 부두",
-    "en": "The Oil-Slicked Neon Wharf"
+    "ko": "스모그 위의 모놀리스",
+    "en": "Monolith Above the Smog"
   },
   "description": {
-    "ko": "밀폐된 골목에서 벗어나 거대한 산업용 해안가로 시선을 돌렸습니다. 이 작품은 육중한 해양 기계 장치와 시그니처 네온 미학의 조화에 집중하며, 움직이는 물결과 산업용 금속에 반사되는 복잡한 빛을 강조합니다.",
-    "en": "A shift from claustrophobic alleys to a vast, industrial waterfront. This piece focuses on the intersection of heavy maritime machinery and the signature neon aesthetics, highlighting complex reflections on moving water and industrial metal."
+    "ko": "강철의 거인이 더 이상 보이지 않는 하늘을 향해 손을 뻗으며, 디지털 시대의 합성 광채에 젖어듭니다.",
+    "en": "A steel giant reaches for a sky it can no longer see, bathed in the synthetic glow of a digital era."
   },
-  "prompt": "A wide-angle panoramic view of a massive, automated cyberpunk harbor during a heavy downpour. Enormous, rusted robotic cargo cranes tower over stacks of shipping containers glowing with flickering pink and cyan identification codes. The harbor water is a dark, oily expanse, churning with realistic fluid simulations that reflect the city's neon skyline through a thick layer of industrial smog. Bioluminescent chemicals leak into the waves, creating swirling patterns of glowing turquoise against the dark water. Rendered in 8k using Octane Render, featuring cinematic volumetric lighting, ray-traced reflections on both metal surfaces and churning water, and sharp focus on the spray of waves hitting the concrete pier.",
+  "prompt": "A high-altitude perspective of a massive cyberpunk data-monolith tower piercing through a layer of thick, toxic neon-pink smog. Delivery drones leave long, glowing cyan light trails that cut through the volumetric fog. Textures of wet carbon fiber and rusted hyper-alloy surfaces are illuminated by massive holographic advertisements. Rendered in 8k, raytracing, featuring realistic light spill and global illumination. The atmosphere is heavy with futuristic urban texture, focusing on the contrast between the cold metal architecture and the vibrant digital romance of the city lights.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-25T14:12:00.217Z"
+  "generatedAt": "2026-01-25T22:19:15.035Z"
 }

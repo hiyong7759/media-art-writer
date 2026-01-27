@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "prism-2",
   "title": {
-    "ko": "프리즘 그로토",
-    "en": "The Prismatic Grotto"
+    "ko": "프리즘의 프랙탈",
+    "en": "The Prismatic Fractal"
   },
   "description": {
-    "ko": "고립된 정물에서 벗어나 거대한 몰입형 환경으로 확장한 작품으로, 유기적인 크리스탈 생명체들이 단일 광원을 복잡한 굴절과 스펙트럼 산란의 교향곡으로 변화시키는 신비로운 동굴의 모습을 묘사합니다.",
-    "en": "A departure from isolated objects into a vast, immersive environment where organic crystal lifeforms transform a single light source into a complex symphony of refraction and spectral scattering."
+    "ko": "수정의 정교함에 사로잡힌 채, 한 줄기 빛이 수천 개의 꿈으로 산산조각 납니다.",
+    "en": "A single beam of light shattered into a thousand dreams, held captive by the precision of crystal."
   },
-  "prompt": "An expansive subterranean cavern filled with giant, organic crystalline flora resembling ferns and weeping willows. Each leaf is a thin, razor-sharp prism of high-index glass. A singular, intense beam of moonlight pierces through a crevice in the ceiling, striking the prismatic canopy and exploding into a chaotic, psychedelic display of spectral dispersion. The cave walls are draped in vibrant, swirling rainbow caustics. Intense chromatic aberration blurs the edges of the furthest crystals. Deep shadows contrast with the blindingly bright spectral threads. 8k, hyper-detailed, raytracing, cinematic macro photography of light hitting a crystal leaf edge, volumetric lighting.",
+  "prompt": "A macro view of a giant crystalline snowflake made of high-index diamond-glass, suspended in a dark void where concentrated light rays intersect to create a hyper-complex web of rainbows. Intense spectral dispersion, refractive indices, and chromatic aberration at the crystal facets. 8k, hyper-realistic, raytracing. Sharp focus on the points where light splits into pure energy. Detailed rainbow caustics dance across the glass surfaces. Cinematic lighting captures the prismatic energy trapped within the intricate fractal geometry of the glass structure.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-25T14:14:03.109Z"
+  "generatedAt": "2026-01-25T22:19:52.342Z"
 }

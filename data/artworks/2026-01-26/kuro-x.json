@@ -2,21 +2,21 @@
   "date": "2026-01-26",
   "artistId": "kuro-x",
   "title": {
-    "ko": "신경 글리치 매트릭스",
-    "en": "The Neural Glitch Matrix"
+    "ko": "흑백의 회귀적 붕괴",
+    "en": "Monochrome Recursive Decay"
   },
   "description": {
-    "ko": "건축적 형태에서 벗어나 생물학적 형상을 탐구한 이 작품은, 극단적인 기하학적 붕괴와 고속 데이터 용해 미학을 통해 인간의 실루엣이 해체되는 과정을 보여줍니다.",
-    "en": "A departure from architectural forms into the biological, this piece explores the deconstruction of a human silhouette through extreme geometric corruption and high-speed data-melt aesthetics."
+    "ko": "완벽한 질서가 필연적인 오류를 만나는 곳, 디지털 공허 속 기하학의 침묵하는 투쟁.",
+    "en": "Where perfect order meets the inevitable glitch, a silent struggle of geometry in a digital void."
   },
-  "prompt": "A hyper-detailed profile of a human bust composed entirely of razor-sharp, interlocking black obsidian polygons and crystalline white structures. The form is experiencing a violent 'data-melt,' with massive horizontal displacement glitches and pixel-sorting artifacts tearing the facial features into a chaotic stream of monochrome geometric fragments. High-contrast 8k rendering with intense raytraced reflections and harsh shadows. The background is a dense field of digital scanlines and rhythmic geometric noise. Sharp angles, global illumination, and textured digital corruption define the volumetric form in a sterile, high-bitrate void.",
+  "prompt": "An infinite architectural staircase of liquid-chrome geometric cubes melting into a vast sea of monochrome digital static and horizontal scanline ripples. The composition uses high-contrast monochrome complexity with sharp obsidian angles clashing against soft white digital noise. 8k, Octane Render, raytraced reflections on shifting mirror surfaces. Global illumination highlights the glitch art aesthetics where order dissolves into chaotic fragments. Dramatic shadows emphasize the depth of the recursive geometric structure, with a focus on the razor-sharp edges of the fracturing monoliths.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#1A1A1A",
     "--dynamic-secondary": "#FFFFFF",
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-25T14:11:46.309Z"
+  "generatedAt": "2026-01-25T22:19:08.807Z"
 }

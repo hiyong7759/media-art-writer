@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-27",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘의 봄",
+    "en": "Silicon Spring"
+  },
+  "description": {
+    "ko": "정보 시대의 잊혀진 파편들 사이에서 생명이 피어나는 디지털 정원의 영원한 만개입니다.",
+    "en": "The eternal bloom of a digital garden, where life emerges from the forgotten fragments of the information age."
+  },
+  "prompt": "A majestic digital willow tree with weeping branches made of translucent, binary-coded glass fibers, growing from a valley of discarded microchips and oxidized copper. The leaves are intricate fractal flowers in soft pastel pink and azure that pulse with a gentle light. Nature is reclaiming technology through blooming digital petals and mossy circuitry. 8k, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage, cinematic lighting, and a soft bokeh background that emphasizes the delicate intersection of organic life and silicon.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-01-27T11:10:04.394Z"
+}

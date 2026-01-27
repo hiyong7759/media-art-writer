@@ -2,14 +2,14 @@
   "date": "2026-01-26",
   "artistId": "flora-9",
   "title": {
-    "ko": "메아리치는 개화",
-    "en": "The Echoing Bloom"
+    "ko": "실리콘의 봄",
+    "en": "The Silicon Spring"
   },
   "description": {
-    "ko": "구식 통신 기술 장치가 고도의 디지털 식생을 위한 양육장으로 재탄생하는 광활한 풍경화로, 차갑고 부식된 금속과 활기차고 분형(fractal)적인 생명체 사이의 대조를 강조합니다.",
-    "en": "A vast landscape piece showing an obsolete piece of communication technology being repurposed as a nursery for advanced digital vegetation, emphasizing the contrast between cold, decaying metal and vibrant, fractal life."
+    "ko": "유리 꽃잎과 논리 회로가 시대를 초월한 꽃 피는 안식처로 합쳐지는 디지털의 재탄생.",
+    "en": "A digital rebirth where glass petals and logic boards merge into a timeless, blooming sanctuary."
   },
-  "prompt": "An abandoned, decaying satellite dish deep in a misty valley, its rusted metal surface being overtaken by a thick layer of luminescent fractal moss and giant, translucent mushrooms with geometric gill structures. From the center of the dish, a massive orchid-like flower blooms, its petals made of shimmering, soft-pastel glass layers that pulse with faint data-streams. The surrounding air is filled with floating spores that resemble tiny, glowing polyhedral shapes. Soft lavender, mint, and pale peach color palette. 8k resolution, wide-angle cinematic shot, hyper-realistic textures of weathered metal against delicate digital flora, volumetric lighting filtering through a thick morning fog.",
+  "prompt": "A cascading waterfall of liquid cherry blossom petals made of iridescent glass, pouring over a mossy microchip cliffside where nature is reclaiming technology. The waterfall flows into a pool of soft pastel liquid light. Fractal flower patterns emerge from the silicon rock faces, featuring delicate translucent petals with binary-coded veins. 8k resolution, macro photography style, Unreal Engine 5. Intricate subsurface scattering on the glass petals and cinematic lighting that emphasizes the soft spring atmosphere. Focus on the interplay between organic growth and rigid circuitry.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-25T14:12:12.895Z"
+  "generatedAt": "2026-01-25T22:19:21.258Z"
 }
