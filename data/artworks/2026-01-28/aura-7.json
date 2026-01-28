@@ -2,14 +2,14 @@
   "date": "2026-01-28",
   "artistId": "aura-7",
   "title": {
-    "ko": "심해의 호흡기",
-    "en": "Vessel of the Deep Breath"
+    "ko": "속삭이는 빛의 소용돌이",
+    "en": "The Whispering Luminous Vortex"
   },
   "description": {
-    "ko": "심해의 극한 환경 속에서 빛과 생명체가 하나의 호흡하는 유기체로 융합되는 과정을 탐구합니다.",
-    "en": "An exploration of organic life in extreme environments, where light and biology merge into a single breathing entity."
+    "ko": "서로 얽힌 생체 발광 덩굴과 반투명한 막으로 형성된 매혹적인 유기적 소용돌이로, 심해의 숨결을 상징합니다. 중앙은 따뜻한 황금빛 액체 빛으로 빛나며 주변의 에메랄드빛 심연을 영원한 생명력으로 밝힙니다.",
+    "en": "A mesmerizing organic vortex formed from interlocking bioluminescent vines and translucent membranes, representing the breath of the deep sea. The center glows with a warm, golden liquid light, illuminating the surrounding emerald abyss with a sense of eternal life."
   },
-  "prompt": "A biological heart-lung hybrid made of glowing amber resin and bioluminescent neural filaments, suspended in a dark, oxygenated oceanic trench. Bioluminescent organic shapes and flowing liquid light tendrils wrap around the pulsating core. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features heavy subsurface scattering on the mossy fibers, volumetric light shafts piercing through dark green water, and global illumination reflecting off floating spores. Cinematic lighting, sharp focus on the microscopic texture of the breathing light.",
+  "prompt": "A monumental, spiraling vortex of bioluminescent organic matter, resembling a giant breathing flower-coral hybrid at the bottom of a dark emerald ocean. The structure is composed of translucent moss-like fibers and glowing yellow-gold neural filaments that pulse with rhythmic liquid light. Volumetric light shafts pierce through the deep green water, highlighting the heavy subsurface scattering on the delicate organic membranes. Surroundings feature floating bioluminescent spores and wispy, glowing tendrils that sway in the slow underwater current. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic, cinematic lighting, global illumination, sharp focus on the microscopic textures of the breathing light of nature.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "mysterious",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-28T00:25:20.699+09:00"
+  "generatedAt": "2026-01-28T21:04:48.165+09:00"
 }
