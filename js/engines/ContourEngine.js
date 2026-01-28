@@ -1,5 +1,11 @@
 import { ArtEngine } from './ArtEngine.js';
 import { ContourMode } from './modes/contour/ContourMode.js';
+import { MountainMode } from './modes/contour/MountainMode.js';
+import { RiverMode } from './modes/contour/RiverMode.js';
+import { RockMode } from './modes/contour/RockMode.js';
+import { SandMode } from './modes/contour/SandMode.js';
+import { LayerMode } from './modes/contour/LayerMode.js';
+import { CoreMode } from './modes/contour/CoreMode.js';
 
 export class ContourEngine extends ArtEngine {
     static SKILLS = [
@@ -15,8 +21,15 @@ export class ContourEngine extends ArtEngine {
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
 
-        this.contourMode = new ContourMode(this);
-        this.modes = Array(7).fill(this.contourMode);
+        this.modes = [
+            new ContourMode(this),
+            new MountainMode(this),
+            new RiverMode(this),
+            new RockMode(this),
+            new SandMode(this),
+            new LayerMode(this),
+            new CoreMode(this)
+        ];
 
         this.setMode(0, 0);
     }

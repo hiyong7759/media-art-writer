@@ -1,5 +1,11 @@
 import { ArtEngine } from './ArtEngine.js';
 import { BeamMode } from './modes/refraction/BeamMode.js';
+import { SpectrumMode } from './modes/refraction/SpectrumMode.js';
+import { GlassMode } from './modes/refraction/GlassMode.js';
+import { BokehMode } from './modes/refraction/BokehMode.js';
+import { NeonMode } from './modes/refraction/NeonMode.js';
+import { MirrorMode } from './modes/refraction/MirrorMode.js';
+import { FlashMode } from './modes/refraction/FlashMode.js';
 
 export class RefractionEngine extends ArtEngine {
     static SKILLS = [
@@ -15,8 +21,15 @@ export class RefractionEngine extends ArtEngine {
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
 
-        this.beamMode = new BeamMode(this);
-        this.modes = Array(7).fill(this.beamMode);
+        this.modes = [
+            new BeamMode(this),
+            new SpectrumMode(this),
+            new GlassMode(this),
+            new BokehMode(this),
+            new NeonMode(this),
+            new MirrorMode(this),
+            new FlashMode(this)
+        ];
 
         this.setMode(0, 0);
     }

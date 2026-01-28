@@ -102,7 +102,7 @@ const CURRENT_GENERATOR = 'gemini';
 
 ### 1. 프로젝트 구조
 
-#### [NEW] [디렉토리 구조](file:///c:/Users/hiyon/Documents/media-art-writer)
+#### [NEW] [디렉토리 구조](file:///c:/Users/hiyon/Documents/media-art-writer) (v3.1 Refactored)
 
 ```
 media-art-writer/
@@ -113,9 +113,17 @@ media-art-writer/
 │   └── animations.css      # 미디어 아트 애니메이션
 ├── js/
 │   ├── gallery.js          # 갤러리 로직
-│   ├── viewer.js           # 뷰어 로직
-│   └── engines/            # เจ너러티브 아트 엔진 (Strategy Pattern)
-│       ├── ArtEngine.js    # Base Class
+│   ├── viewer.js           # 뷰어 컨트롤러 (EngineFactory 사용)
+│   ├── core/               # [NEW] 핵심 추상화 모듈
+│   │   ├── index.js        # Core exports
+│   │   ├── BaseMode.js     # Mode 기본 클래스 (추상)
+│   │   └── EngineFactory.js # Engine Factory (Registry Pattern)
+│   ├── utils/              # [NEW] 유틸리티 함수
+│   │   ├── index.js        # Utils exports
+│   │   ├── colors.js       # 색상 변환 유틸리티
+│   │   └── math.js         # 수학 유틸리티
+│   └── engines/            # 제너러티브 아트 엔진 (Strategy Pattern)
+│       ├── ArtEngine.js    # Engine Base Class
 │       ├── CyberpunkEngine.js
 │       ├── OrganicEngine.js
 │       ├── GeometricEngine.js
@@ -125,7 +133,7 @@ media-art-writer/
 │       ├── WaveEngine.js
 │       ├── ContourEngine.js
 │       ├── RefractionEngine.js
-│       └── modes/          # 엔진별 모드 구현체 (독립 파일)
+│       └── modes/          # 엔진별 모드 구현체 (BaseMode 상속)
 │           ├── cyberpunk/
 │           ├── organic/
 │           ├── geometric/
@@ -149,70 +157,129 @@ media-art-writer/
 ### 2. 작가 시스템
 <...중략...>
 
-### 3.2 엔진 아키텍처 개선 (Completed)
+### 3.2 엔진 아키텍처 개선 (v3.1 Refactored)
 
-> **전략 패턴 (Strategy Pattern) 도입 완료**: 
-> 모든 엔진은 이제 거대한 `switch` 문 대신, 개별 모드를 독립된 클래스 파일로 관리합니다.
+> **전략 패턴 (Strategy Pattern) + Factory Pattern + BaseMode 추상 클래스 도입**:
+> 모든 엔진은 이제 EngineFactory를 통해 생성되고, 모든 모드는 BaseMode를 상속합니다.
 
 #### 아키텍처 다이어그램
 ```mermaid
 classDiagram
+    class EngineFactory {
+        +create(artistId, canvas, ctx, colors, transparent, data)$
+        +register(artistId, EngineClass)$
+        +has(artistId)$ bool
+        +getRegisteredArtists()$ string[]
+    }
+
     class ArtEngine {
         +ctx: CanvasRenderingContext2D
         +setMode(modeIndex, variantIndex)
         +resize(width, height)
         +draw()
+        +hexToRgba(hex, alpha)
     }
+
+    class BaseMode {
+        <<abstract>>
+        +engine: ArtEngine
+        +style: number
+        +init(variant)
+        +draw()*
+        +resize()
+        +ctx getter
+        +width getter
+        +height getter
+        +colors getter
+        +createParticle(props)
+        +randomColor()
+    }
+
     class CyberpunkEngine {
         +modes: Array
-        +currentModeInstance: Object
+        +currentModeInstance: BaseMode
     }
+
     class RainMode {
         +init(variant)
         +draw()
     }
-    class ScannerMode {
-        +init(variant)
-        +draw()
-    }
 
+    EngineFactory ..> ArtEngine : creates
     ArtEngine <|-- CyberpunkEngine
-    CyberpunkEngine "1" o-- "Many" Mode : Delegates to
-    Mode <|.. RainMode
-    Mode <|.. ScannerMode
+    BaseMode <|-- RainMode
+    CyberpunkEngine "1" o-- "Many" BaseMode : Delegates to
 ```
 
-#### 리팩토링 효과
-1. **모듈화 (Modularity)**: `RainMode.js`, `ScannerMode.js` 등 각 모드가 별도 파일로 분리되어 코드가 깔끔해짐.
-2. **확장성 (Extensibility)**: 새로운 모드를 추가할 때 메인 엔진 코드를 거의 수정하지 않아도 됨.
-3. **재사용성 (Reusability)**: `PointMode`나 `BubbleMode` 처럼, 특정 모드 로직을 다른 엔진에서 쉽게 재사용하거나 조합 가능.
+#### 주요 개선 사항 (v3.1)
 
-#### 표준 모드 인터페이스
-모든 모드 클래스는 아래 인터페이스를 준수해야 합니다:
+| 개선 항목 | 설명 |
+|----------|------|
+| **EngineFactory** | 작가 ID 기반 엔진 자동 생성 (Registry Pattern) |
+| **BaseMode** | 모든 Mode의 추상 기본 클래스 (인터페이스 강제) |
+| **Utils 모듈** | `hexToRgba`, `random`, `lerp` 등 공통 유틸리티 분리 |
+| **Getter 속성** | Mode에서 `this.ctx`, `this.width` 등 간결한 접근 |
+
+#### 리팩토링 효과
+1. **모듈화 (Modularity)**: `RainMode.js`, `ScannerMode.js` 등 각 모드가 별도 파일로 분리.
+2. **확장성 (Extensibility)**: 새 엔진 추가 시 EngineFactory에 등록만 하면 됨.
+3. **재사용성 (Reusability)**: BaseMode의 헬퍼 메서드 (`createParticle`, `randomColor`) 활용.
+4. **타입 안전성**: 추상 클래스로 인터페이스 강제 (draw 미구현 시 에러).
+
+#### 표준 모드 인터페이스 (BaseMode 상속)
 
 ```javascript
-// Example: js/engines/modes/cyberpunk/RainMode.js
-export class RainMode {
+// Example: js/engines/modes/flow/BubbleMode.js
+import { BaseMode } from '../../../core/BaseMode.js';
+
+export class BubbleMode extends BaseMode {
     constructor(engine) {
-        this.engine = engine; // 엔진 인스턴스(Context) 참조
+        super(engine);  // 필수: 부모 생성자 호출
+        this.bubbles = [];
     }
 
-    // 모드 초기화 (변종 변경 시 호출)
-    init(variant) {
-        this.variant = variant;
-        // ... 리소스 초기화
+    init(variant = 0) {
+        super.init(variant);  // style 설정
+        // BaseMode의 헬퍼 메서드 활용
+        this.bubbles = Array.from({ length: 30 }, () =>
+            this.createParticle({
+                radius: Math.random() * 10 + 2,
+                speed: Math.random() * 1 + 0.5
+            })
+        );
     }
 
-    // 매 프레임 그리기
     draw() {
-        // this.engine.ctx 를 사용하여 렌더링
-    }
-    
-    // (Optional) 상태 업데이트
-    update() {
-        // ... 위치 계산 등
+        // Getter 사용: this.ctx, this.width, this.height, this.frame
+        this.bubbles.forEach(b => {
+            b.y -= b.speed;
+            this.ctx.beginPath();
+            this.ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+            this.ctx.fillStyle = this.hexToRgba(b.color, 0.6);
+            this.ctx.fill();
+        });
     }
 }
+```
+
+#### EngineFactory 사용법
+
+```javascript
+// viewer.js에서 사용
+import { EngineFactory } from './core/EngineFactory.js';
+
+// 작가 ID로 적절한 엔진 자동 생성
+this.engine = EngineFactory.create(
+    artist.id,      // 'aqua-5' → FlowEngine
+    this.canvas,
+    this.ctx,
+    colors,
+    this.hasBackgroundImage,
+    this.dailyArtwork
+);
+
+// 새 엔진 등록 (확장 시)
+EngineFactory.register('new-artist', NewEngine);
 ```
 
 ---

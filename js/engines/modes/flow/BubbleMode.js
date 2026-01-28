@@ -1,40 +1,45 @@
-export class BubbleMode {
+import { BaseMode } from '../../../core/BaseMode.js';
+
+export class BubbleMode extends BaseMode {
     constructor(engine) {
-        this.engine = engine;
-        this.style = 0;
+        super(engine);
+        this.bubbles = [];
     }
 
     init(variant = 0) {
-        this.style = variant;
+        super.init(variant);
+        this.bubbles = Array.from({ length: 30 }, () => this.createParticle({
+            radius: Math.random() * 10 + 2,
+            speed: Math.random() * 1 + 0.5,
+            wobble: Math.random() * Math.PI * 2
+        }));
     }
 
-    draw(bubbles) {
-        const ctx = this.engine.ctx;
-        bubbles.forEach(b => {
+    draw() {
+        this.bubbles.forEach(b => {
+            // Rising logic
             b.y -= b.speed;
-            b.x += Math.sin(this.engine.frame * 0.05 + b.wobble) * 0.5;
+            b.x += Math.sin(this.frame * 0.05 + b.wobble) * 1.0;
 
-            if (b.y < -50) b.y = this.engine.height + 50;
-
-            ctx.beginPath();
-            ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
-
-            let color = b.color;
-            if (this.style === 2) { // Storm/Impact (Fast/Dynamic)
-                ctx.globalCompositeOperation = 'screen';
-            } else {
-                ctx.globalCompositeOperation = 'source-over';
+            // Reset when off screen
+            if (b.y < 0) {
+                b.y = this.height + 20;
+                b.x = Math.random() * this.width;
             }
 
-            ctx.fillStyle = this.engine.hexToRgba(color, 0.6);
-            ctx.fill();
+            // Draw bubble
+            this.ctx.beginPath();
+            this.ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+            this.ctx.fillStyle = this.hexToRgba(b.color, 0.6);
+            this.ctx.strokeStyle = this.hexToRgba(b.color, 0.8);
+            this.ctx.fill();
+            this.ctx.stroke();
 
             // Highlight
-            ctx.beginPath();
-            ctx.arc(b.x - b.radius * 0.3, b.y - b.radius * 0.3, b.radius * 0.2, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
-            ctx.fill();
+            this.ctx.beginPath();
+            this.ctx.arc(b.x - b.radius * 0.3, b.y - b.radius * 0.3, b.radius * 0.2, 0, Math.PI * 2);
+            this.ctx.fillStyle = 'rgba(255,255,255,0.4)';
+            this.ctx.fill();
         });
-        ctx.globalCompositeOperation = 'source-over';
     }
 }

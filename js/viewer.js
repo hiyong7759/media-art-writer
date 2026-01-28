@@ -1,16 +1,8 @@
 /**
- * Media Art Viewer - Main Controller (v3.0 - Reconstruction)
+ * Media Art Viewer - Main Controller (v3.1 - Refactored)
  */
 
-import { OrganicEngine } from './engines/OrganicEngine.js';
-import { GeometricEngine } from './engines/GeometricEngine.js';
-import { CyberpunkEngine } from './engines/CyberpunkEngine.js';
-import { WaveEngine } from './engines/WaveEngine.js';
-import { CosmicEngine } from './engines/CosmicEngine.js';
-import { FlowEngine } from './engines/FlowEngine.js';
-import { ContourEngine } from './engines/ContourEngine.js';
-import { RefractionEngine } from './engines/RefractionEngine.js';
-import { BloomEngine } from './engines/BloomEngine.js';
+import { EngineFactory } from './core/EngineFactory.js';
 
 class MediaArtViewer {
   constructor() {
@@ -100,7 +92,11 @@ class MediaArtViewer {
   async loadArtist() {
     const params = new URLSearchParams(window.location.search);
     const artistId = params.get('artist') || 'flora-9';
-    const today = new Intl.DateTimeFormat('fr-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+    // KST 기준으로 YYYY-MM-DD 포맷 생성
+    const now = new Date();
+    const kstOffset = 9 * 60 * 60 * 1000;
+    const kstDate = new Date(now.getTime() + kstOffset);
+    const today = kstDate.toISOString().split('T')[0]; // "2026-01-28"
     this.targetDate = params.get('date') || today;
 
     try {
@@ -114,10 +110,21 @@ class MediaArtViewer {
       } catch (e) { this.dailyArtwork = { title: "DUMMY" }; }
 
       await this.loadBackgroundImage(artistId, this.targetDate);
+    } catch (error) {
+      console.error('Load Error:', error);
+      // Fallback data if load fails
+      if (!this.currentArtist) {
+        this.currentArtist = {
+          id: 'aura-7', name: 'AURA-7', theme: 'Organic Flow',
+          styleHints: { colorPalette: ['#ffffff', '#88ff88', '#00ff00', '#ffff00'] }
+        };
+      }
+      this.dailyArtwork = { title: { ko: "데이터 로딩 오류", en: "Data Load Error" } };
+    } finally {
       this.updateUI();
       this.initEngine();
       this.animate();
-    } catch (error) { console.error('Load Error:', error); }
+    }
   }
 
   loadBackgroundImage(artistId, targetDate) {
@@ -184,15 +191,34 @@ class MediaArtViewer {
 
   updateUI() {
     const artist = this.currentArtist;
-    document.getElementById('artworkTitle').textContent = this.dailyArtwork?.title?.ko || this.dailyArtwork?.title || "만개를 기다리며";
-    document.getElementById('artistName').textContent = artist.name;
+    const artwork = this.dailyArtwork;
 
-    const controls = document.getElementById('animationControls');
-    if (controls) {
-      controls.classList.remove('hidden');
+    // 1. Text Info
+    document.getElementById('artworkTitle').textContent = artwork?.title?.ko || artwork?.title || "제목 없음";
+
+    const desc = typeof artwork?.description === 'object' ? artwork.description.ko : artwork?.description;
+    document.getElementById('artworkDescription').textContent = desc || "작품 설명이 없습니다.";
+
+    document.getElementById('artistName').textContent = artist.name;
+    const artistDesc = typeof artist.description === 'object' ? artist.description.ko : artist.description;
+    document.getElementById('artistDescription').textContent = artistDesc;
+
+    document.getElementById('generatedDate').textContent = this.targetDate;
+    document.getElementById('modelInfo').textContent = `MODEL: ${artist.id.toUpperCase()}-V3`;
+    document.getElementById('promptText').textContent = artwork?.prompt || "No prompt data.";
+
+    // 2. Artist Colors
+    const colorContainer = document.getElementById('artistColors');
+    if (colorContainer && artist.styleHints?.colorPalette) {
+      colorContainer.innerHTML = artist.styleHints.colorPalette.map(color =>
+        `<span class="color-dot" style="background: ${color};" title="${color}"></span>`
+      ).join('');
     }
 
-    // UI 표시: 컨테이너에 show-controls 추가하여 투명도 해제
+    // 3. Show Controls
+    const controls = document.getElementById('animationControls');
+    if (controls) controls.classList.remove('hidden');
+
     const viewerContainer = document.querySelector('.viewer-container');
     if (viewerContainer) viewerContainer.classList.add('show-controls');
   }
@@ -204,38 +230,15 @@ class MediaArtViewer {
     // Completely Reset Context
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
-    // 각 작가별 올바른 엔진 연결 (artist_skills_definition.md 참조)
-    switch (artist.id) {
-      case 'aura-7':   // Nature Engine (유기적 자연)
-        this.engine = new OrganicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'kuro-x':   // Geometric Engine (기하학적 형태)
-        this.engine = new GeometricEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'neon-v':   // Cyberpunk Engine (사이버펑크)
-        this.engine = new CyberpunkEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'void-3':   // Cosmic Engine (우주)
-        this.engine = new CosmicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'aqua-5':   // Flow Engine (물/유동)
-        this.engine = new FlowEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'prism-2':  // Refraction Engine (빛 굴절)
-        this.engine = new RefractionEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'echo-0':   // Wave Engine (소리 시각화)
-        this.engine = new WaveEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'terra-1':  // Contour Engine (지형)
-        this.engine = new ContourEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      case 'flora-9':  // Bloom Engine (꽃)
-        this.engine = new BloomEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-        break;
-      default:
-        this.engine = new OrganicEngine(this.canvas, this.ctx, colors, this.hasBackgroundImage, this.dailyArtwork);
-    }
+    // Factory Pattern: 작가 ID로 적절한 엔진 생성
+    this.engine = EngineFactory.create(
+      artist.id,
+      this.canvas,
+      this.ctx,
+      colors,
+      this.hasBackgroundImage,
+      this.dailyArtwork
+    );
 
     this.engine.resize(this.canvas.width, this.canvas.height);
     this.renderModeButtons();

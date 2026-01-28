@@ -50,7 +50,11 @@ export class SeedMode {
             if (p.y < -50) p.y = this.engine.height + 50;
             if (p.y > this.engine.height + 50) p.y = -50;
 
-            ctx.fillStyle = this.engine.hexToRgba(p.color, 0.7);
+            // Mix with white for better visibility
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = p.color;
+            ctx.fillStyle = this.engine.hexToRgba(p.color, 0.9);
+            ctx.strokeStyle = 'rgba(255,255,255,0.5)';
 
             if (this.style === 0) { // Cell (Metaball-ish / Dividing)
                 const wobble = Math.sin(p.phase) * 2;
