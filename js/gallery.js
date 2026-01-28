@@ -363,10 +363,10 @@ class MiniPreviewEngine {
     this.ctx.clip();
 
     // Background handling based on type
-    if (['cyberpunk', 'cosmic', 'geometric', 'bloom', 'refraction'].includes(this.type)) {
+    if (['cyberpunk', 'cosmic', 'geometric', 'refraction'].includes(this.type)) {
       // Trails effect: Draw semi-transparent background
       if (this.type === 'refraction') {
-        this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)'; // Match generative.js exactly for refraction
+        this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
       } else {
         this.ctx.fillStyle = 'rgba(10, 10, 15, 0.1)';
       }
@@ -616,15 +616,16 @@ class MiniPreviewEngine {
       this.ctx.translate(p.x, p.y);
       this.ctx.rotate(p.angle);
 
+      // 이전 버전 꽃잎 모양
       this.ctx.beginPath();
-      // Draw petal shape using bezier curves
+      const s = p.size;
       this.ctx.moveTo(0, 0);
-      // Left curve
-      this.ctx.quadraticCurveTo(-p.size, -p.size, 0, -p.size * 3);
-      // Right curve
-      this.ctx.quadraticCurveTo(p.size, -p.size, 0, 0);
+      this.ctx.quadraticCurveTo(-s, -s, 0, -s * 3);
+      this.ctx.quadraticCurveTo(s * 0.5, -s * 1.5, 0, -s * 2.2);
+      this.ctx.quadraticCurveTo(-s * 0.5, -s * 1.5, 0, -s * 3);
+      this.ctx.quadraticCurveTo(s, -s, 0, 0);
 
-      this.ctx.fillStyle = this.hexToRgba(p.color, 0.9); // Brighter
+      this.ctx.fillStyle = this.hexToRgba(p.color, 0.9);
       this.ctx.fill();
 
       this.ctx.restore();
