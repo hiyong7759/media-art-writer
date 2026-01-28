@@ -34,18 +34,21 @@ export class CyberpunkEngine extends ArtEngine {
 
     drawBackground() {
         if (this.transparentMode) {
-            // Simplified custom flash logic
-            let bgOverlayColor = 'rgba(0, 0, 0, 0.2)';
+            // 배경 이미지가 있을 때: 검정색 대신 기존 그림만 페이드 아웃
+            this.ctx.save();
+            this.ctx.globalCompositeOperation = 'destination-out';
+            this.ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
+            this.ctx.fillRect(0, 0, this.width, this.height);
+            this.ctx.restore();
+
+            // 번쩍이는 효과 (색상 플래시) - 유지
             if (Math.random() > 0.99 && ['rain', 'scanner', 'data'].includes(this.getSkills()[this.currentMode]?.name.toLowerCase())) {
                 const flashColor = this.colors[0];
-                bgOverlayColor = this.hexToRgba(flashColor, 0.15);
-            } else {
-                bgOverlayColor = 'rgba(0, 0, 0, 0.05)';
+                this.ctx.fillStyle = this.hexToRgba(flashColor, 0.12);
+                this.ctx.fillRect(0, 0, this.width, this.height);
             }
-            this.ctx.fillStyle = bgOverlayColor;
-            this.ctx.fillRect(0, 0, this.width, this.height);
         } else {
-            // Specific opaque bg
+            // 배경 이미지 없을 때: 기존 로직
             this.ctx.fillStyle = (this.currentMode === 4) ? 'rgba(10, 10, 15, 0.02)' : 'rgba(10, 10, 15, 0.2)';
             this.ctx.fillRect(0, 0, this.width, this.height);
         }

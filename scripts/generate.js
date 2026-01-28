@@ -220,6 +220,10 @@ async function main() {
         }).format(new Date());
         let targetArtists = targetArtistId === 'all' ? artistsData.artists : artistsData.artists.filter(a => a.id === targetArtistId);
 
+        // TODO: 테스트용 - 첫 번째 작가만 생성 (나중에 제거)
+        targetArtists = targetArtists.slice(0, 1);
+        console.log(`[TEST MODE] Only processing: ${targetArtists[0]?.name || 'none'}`);
+
         if (genAI) {
             const history = loadOrBuildHistory();
             await generateBatchArtworks(targetArtists, targetDate, history);

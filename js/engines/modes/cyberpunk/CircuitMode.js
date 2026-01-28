@@ -32,6 +32,11 @@ export class CircuitMode {
 
     draw() {
         const ctx = this.engine.ctx;
+
+        // 배경색: 애니메이션 색상과 비슷하게, 투명하게 (배경 이미지가 보이도록)
+        ctx.fillStyle = this.engine.hexToRgba(this.color, 0.08);
+        ctx.fillRect(0, 0, this.engine.width, this.engine.height);
+
         ctx.lineWidth = this.style === 2 ? 3 : 6;
         ctx.shadowBlur = 20;
         ctx.shadowColor = this.color;

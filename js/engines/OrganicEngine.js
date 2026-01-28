@@ -9,10 +9,10 @@ import { LifeMode } from './modes/organic/LifeMode.js';
 
 export class OrganicEngine extends ArtEngine {
     static SKILLS = [
+        { name: 'Flow', nameKo: '흐름', variants: ['DNA', 'Stream', 'Network'] },
         { name: 'Seed', nameKo: '씨앗', variants: ['Cell', 'Sprout', 'Egg'] },
         { name: 'Wind', nameKo: '바람', variants: ['Breeze', 'Gale', 'Pollen'] },
         { name: 'Bloom', nameKo: '개화', variants: ['Heart', 'Lotus', 'Orbital'] },
-        { name: 'Flow', nameKo: '흐름', variants: ['DNA', 'Stream', 'Network'] },
         { name: 'Root', nameKo: '뿌리', variants: ['Taproot', 'Fibrous', 'Rhizome'] },
         { name: 'Pulse', nameKo: '맥동', variants: ['Breath', 'Shockwave', 'Magnetic'] },
         { name: 'Life', nameKo: '생명', variants: ['Firefly', 'Butterfly', 'Spirit'] }
@@ -21,15 +21,15 @@ export class OrganicEngine extends ArtEngine {
     constructor(canvas, ctx, colors, transparentMode = false, data = null) {
         super(canvas, ctx, colors, transparentMode, data);
         this.modes = [
+            new FlowMode(this),
             new SeedMode(this),
             new WindMode(this),
             new BloomMode(this),
-            new FlowMode(this),
             new RootMode(this),
             new PulseMode(this),
             new LifeMode(this)
         ];
-        this.setMode(0, 0);
+        this.setMode(0, 2); // Network variant (index와 동일)
     }
 
     // Custom Background for Organic Theme
