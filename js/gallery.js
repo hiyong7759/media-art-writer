@@ -22,6 +22,7 @@ async function loadArtists() {
     window.artistsData = data.artists; // Store globally for re-rendering
     renderArtists(window.artistsData);
     updateLanguageUI();
+    updateStaticText(); // Apply saved language to static text on page load
   } catch (error) {
     console.error('Failed to load artists:', error);
     document.getElementById('artistsGrid').innerHTML = `

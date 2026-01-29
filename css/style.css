@@ -646,16 +646,16 @@ a:hover {
   z-index: 10;
   transition: opacity 0.5s ease;
   pointer-events: none;
-  /* Let clicks pass through transparent top if needed, but contents need pointer-events auto */
+  opacity: 0;
+}
+
+.viewer-container.show-controls .info-overlay {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .info-overlay>* {
   pointer-events: auto;
-}
-
-.info-overlay.hidden {
-  opacity: 0;
-  pointer-events: none;
 }
 
 .artwork-header {
@@ -677,7 +677,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 40px;
+  gap: 20px;
 }
 
 .info-left {
@@ -730,11 +730,19 @@ a:hover {
 }
 
 .artwork-description.daily {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+  white-space: pre-wrap;
+  line-height: 1.4;
   margin-bottom: 8px;
-  max-width: 600px;
+  width: 100%;
+  transition: color 0.2s;
+}
+
+.artwork-description.daily:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .artwork-description.static {
@@ -870,12 +878,136 @@ a:hover {
   pointer-events: auto;
 }
 
-/* Animation Controls (Top Center - 2 Row Layout) */
-.animation-controls {
+/* Top Controls Container (Date + Animation) */
+.top-controls {
   position: absolute;
   top: 32px;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  z-index: 20;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.viewer-container.show-controls .top-controls {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.top-controls.hidden {
+  display: none !important;
+}
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+  0%, 100% { background: rgba(255, 255, 255, 0.1); }
+  15% { background: rgba(255, 255, 255, 0.25); }
+  30% { background: rgba(255, 255, 255, 0.1); }
+  45% { background: rgba(255, 255, 255, 0.2); }
+  60% { background: rgba(255, 255, 255, 0.1); }
+}
+
+/* Date Controls */
+.date-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  background: rgba(20, 20, 30, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.date-nav-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.date-nav-btn:hover:not(:disabled) {
+  color: white;
+  animation: heartbeat 0.8s ease-in-out infinite;
+}
+
+.date-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.date-nav-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+}
+
+.date-picker-wrapper {
+  position: static;
+}
+
+.date-picker-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.date-picker-btn:hover {
+  animation: heartbeat 0.8s ease-in-out infinite;
+}
+
+.date-picker-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: var(--color-text-secondary);
+  stroke-width: 2;
+  fill: none;
+}
+
+/* Date input positioned at center of date controls area */
+#datePicker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  border: none;
+  padding: 0;
+}
+
+/* Ensure date-controls is the positioning context */
+.date-controls {
+  position: relative;
+}
+
+/* Animation Controls (2 Row Layout) */
+.animation-controls {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -884,10 +1016,6 @@ a:hover {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  z-index: 20;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none;
 }
 
 .mode-buttons,
@@ -902,14 +1030,6 @@ a:hover {
   padding-top: 6px;
 }
 
-.viewer-container.show-controls .animation-controls {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.animation-controls.hidden {
-  display: none !important;
-}
 
 .mode-btn {
   background: transparent;
@@ -925,15 +1045,20 @@ a:hover {
   min-width: 50px;
 }
 
-.mode-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+.mode-btn:hover,
+.mode-btn.active:hover {
   color: white;
+  animation: heartbeat 0.8s ease-in-out infinite;
 }
 
 .mode-btn.active {
   background: var(--color-accent);
   color: white;
   box-shadow: 0 0 15px var(--color-accent-glow);
+}
+
+.mode-btn.active:hover {
+  background: var(--color-accent);
 }
 
 .variant-btn {
@@ -950,15 +1075,20 @@ a:hover {
   min-width: 40px;
 }
 
-.variant-btn:hover {
-  background: rgba(255, 255, 255, 0.08);
+.variant-btn:hover,
+.variant-btn.active:hover {
   color: white;
+  animation: heartbeat 0.8s ease-in-out infinite;
 }
 
 .variant-btn.active {
   background: rgba(139, 92, 246, 0.3);
   color: white;
   border: 1px solid var(--color-accent);
+}
+
+.variant-btn.active:hover {
+  background: rgba(139, 92, 246, 0.3);
 }
 
 .control-btn {
@@ -976,7 +1106,7 @@ a:hover {
 }
 
 .control-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  animation: heartbeat 0.8s ease-in-out infinite;
 }
 
 .control-btn svg {
@@ -1184,9 +1314,42 @@ a:hover {
     left: 16px;
   }
 
+  /* Top Controls */
+  .top-controls {
+    top: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .date-controls {
+    padding: 5px;
+    border-radius: 8px;
+  }
+
+  .date-nav-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .date-nav-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .date-picker-btn {
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    gap: 6px;
+  }
+
+  .date-picker-btn svg {
+    width: 12px;
+    height: 12px;
+  }
+
   /* Animation Controls */
   .animation-controls {
-    top: 16px;
     padding: 6px;
     border-radius: 10px;
     max-width: calc(100vw - 140px);
@@ -1219,7 +1382,7 @@ a:hover {
   .info-split {
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 12px;
   }
 
   .info-left {
@@ -1251,7 +1414,7 @@ a:hover {
   }
 
   .artwork-description.daily {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .meta-info {
@@ -1385,6 +1548,7 @@ a:hover {
     top: 12px;
     right: 12px;
     gap: 5px;
+    flex-direction: column;
   }
 
   .control-btn {
@@ -1403,11 +1567,51 @@ a:hover {
     left: 12px;
   }
 
+  /* Sound Controls - Mobile vertical layout */
+  .sound-controls {
+    top: auto;
+    bottom: 100px;
+    right: 12px;
+    flex-direction: column;
+    padding: 6px;
+  }
+
+  .volume-control {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .volume-slider {
+    width: 60px;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    margin: 25px 0;
+  }
+
+  /* Top Controls - Compact mobile layout */
+  .top-controls {
+    top: 12px;
+    gap: 6px;
+  }
+
+  .date-controls {
+    padding: 4px;
+    gap: 2px;
+  }
+
+  .date-nav-btn {
+    width: 26px;
+    height: 26px;
+  }
+
+  .date-picker-btn {
+    font-size: 0.65rem;
+    padding: 4px 8px;
+    gap: 4px;
+  }
+
   /* Animation Controls - Compact mobile layout */
   .animation-controls {
-    top: 12px;
-    left: 50%;
-    transform: translateX(-50%);
     max-width: calc(100vw - 120px);
     padding: 5px;
     border-radius: 8px;
@@ -1442,7 +1646,7 @@ a:hover {
   }
 
   .info-split {
-    gap: 16px;
+    gap: 10px;
   }
 
   .artwork-title {
@@ -1450,7 +1654,7 @@ a:hover {
   }
 
   .artwork-description.daily {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     margin-bottom: 6px;
   }
 
@@ -1590,5 +1794,135 @@ a:hover {
 
   .artwork-description.static {
     text-align: right;
+  }
+}
+
+/* ============================================
+   Sound Controls
+   ============================================ */
+
+/* Sound Toggle Button Active State */
+.control-btn#soundToggleBtn.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 15px var(--color-accent-glow);
+}
+
+.control-btn#soundToggleBtn.active svg {
+  stroke: white;
+}
+
+/* Sound Controls Container - Only visible when sound is enabled */
+.sound-controls {
+  position: absolute;
+  top: 88px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(20, 20, 30, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  z-index: 20;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+  transform: translateY(-10px);
+}
+
+/* Show volume controls only when sound is enabled */
+.viewer-container.sound-enabled.show-controls .sound-controls {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Volume Control */
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Volume Slider */
+.volume-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: var(--color-accent);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Volume Value Display */
+.volume-value {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  min-width: 35px;
+  text-align: right;
+}
+
+/* Responsive: Tablet */
+@media (max-width: 768px) {
+  .sound-controls {
+    top: 68px;
+    right: 16px;
+    padding: 6px 10px;
+  }
+
+  .volume-slider {
+    width: 60px;
+  }
+
+  .volume-value {
+    font-size: 0.65rem;
+    min-width: 30px;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 480px) {
+  .sound-controls {
+    top: 58px;
+    right: 12px;
+    padding: 5px 8px;
+  }
+
+  .volume-slider {
+    width: 50px;
+  }
+
+  .volume-value {
+    font-size: 0.6rem;
+    min-width: 25px;
   }
 }
