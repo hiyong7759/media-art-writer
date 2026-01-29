@@ -2,21 +2,21 @@
   "date": "2026-01-30",
   "artistId": "void-3",
   "title": {
-    "ko": "심연의 천체 지평선",
-    "en": "Abyssal Celestial Horizon"
+    "ko": "무한한 공허의 관문",
+    "en": "Gateway of the Infinite Void"
   },
   "description": {
-    "ko": "고대 블랙홀 주위로 빛이 굴절되고 성운의 먼지가 절대 침묵의 공허 속에서 기묘한 구조를 형성하는, 우주의 가장 먼 심연으로의 하강.",
-    "en": "A descent into the furthest reaches of the cosmos, where light bends around ancient black holes and nebular dust forms haunting structures in the absolute silence of the void."
+    "ko": "중력과 빛이 불가능한 천체 건축을 만들어내는 우주 깊은 곳에 대한 웅장하고도 경외감을 주는 시선입니다.",
+    "en": "A grand, terrifying look into the depths of space, where gravity and light create impossible celestial architecture."
   },
-  "prompt": "VOID-3 theme, cosmic deep, cinematic wide shot, swirling dark nebula, gravitational lensing, supermassive black hole silhouette, photorealistic, 8k resolution, eerie blue and violet hues, stardust particles, deep space exploration, hyper-detailed, ethereal lighting, obsidian void environment.",
+  "prompt": "A colossal cosmic gate formed by gravitational lensing, pillars made of compressed #3D1A78 starlight and #0D0221 dark matter filaments. Surrounded by a massive event horizon and swirling #7B68EE nebulous gas. Cosmic horror majesty on an infinite scale. 8k, hyper-realistic, volumetric gas simulations, global illumination from a distant #E6E6FA pulsar. Detailed textures of stardust and the silent majesty of the abyss.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-mood": "mysterious",
     "--dynamic-primary": "#0D0221",
     "--dynamic-secondary": "#3D1A78",
     "--dynamic-tertiary": "#7B68EE",
     "--dynamic-quaternary": "#E6E6FA"
   },
-  "generatedAt": "2026-01-29T23:25:55.415+09:00"
+  "generatedAt": "2026-01-30T00:30:36.743+09:00"
 }

@@ -2,14 +2,14 @@
   "date": "2026-01-30",
   "artistId": "neon-v",
   "title": {
-    "ko": "네온-V: 미드나잇 서킷",
-    "en": "NEON-V: Midnight Circuit"
+    "ko": "거대 도시의 네온 혈관",
+    "en": "Neon Veins of the Megacity"
   },
   "description": {
-    "ko": "첨단 기술과 도시 지하 세계의 거친 현실이 공존하는 미래형 대도시의 전율적인 박동에 몰입해 보세요. 크롬의 반사광, 네온의 광채, 그리고 무한한 디지털 그림자로 정의되는 세계입니다.",
-    "en": "Immerse yourself in the electric pulse of a futuristic metropolis where high-tech advancements meet the gritty reality of the urban underground. A world defined by chrome reflections, neon glows, and infinite digital shadows."
+    "ko": "금속과 네온사인이 비 내리는 밤 아래서 상호작용하는 미래 도시 풍경의 낭만적인 비전입니다.",
+    "en": "A romanticized vision of a futuristic urban landscape where metal and neon light interact under the cover of rain."
   },
-  "prompt": "Cinematic wide shot of a sprawling cyberpunk megacity at night, rain-slicked asphalt reflecting vibrant neon signs in cyan and magenta, towering skyscrapers with massive holographic advertisements, flying vehicles leaving light trails through the dense fog, hyper-detailed architecture, 8k resolution, futuristic noir aesthetic, high contrast lighting.",
+  "prompt": "A high-angle cinematic view of a rain-slicked cyberpunk alleyway, saturated with #FF00FF and #00FFFF neon signage reflecting in hyper-realistic #1A0033 asphalt puddles. Futuristic urban textures of rusted #FF6B35 metal and wet carbon fiber. Massive holographic fish swim between high-density spires. 8k, Unreal Engine 5, raytracing, cinematic volumetric fog, sharp focus on raindrops falling through neon beams, capturing a digital romance.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-29T23:25:23.265+09:00"
+  "generatedAt": "2026-01-30T00:30:18.276+09:00"
 }

@@ -2,14 +2,14 @@
   "date": "2026-01-30",
   "artistId": "kuro-x",
   "title": {
-    "ko": "단색의 파편화",
-    "en": "Monochrome Fragmentation"
+    "ko": "파편화된 모놀리스",
+    "en": "Monolith in Fragmentation"
   },
   "description": {
-    "ko": "계산과 혼돈 사이에 갇힌 세계를 묘사하며, 기하학적 완벽함이 디지털 카오스로 해체되는 과정을 흑백의 글리치 환경으로 담아냈습니다.",
-    "en": "A study of geometric perfection dissolving into digital chaos, captured in a stark black and white glitch environment."
+    "ko": "구조적 질서와 디지털 혼돈 사이의 섬세한 균형을 날카로운 흑백 기하학적 형태로 표현했습니다.",
+    "en": "A representation of the delicate balance between structural order and digital chaos, rendered in sharp monochrome geometric forms."
   },
-  "prompt": "An infinite architectural cityscape of obsidian geometric cubes perpetually shattering into a torrent of #FFFFFF digital scanlines and #1A1A1A sharp shards. The composition features a complex balance of monochrome order and chaotic glitch art aesthetics against a stark #808080 void. 8k resolution, Octane Render, raytraced reflections on shifting mirror surfaces. High-contrast cinematic lighting creates razor-sharp shadows, emphasizing the deep textures of digital noise and the fragmented complexity of a world caught between calculation and chaos.",
+  "prompt": "A minimalist, brutalist obsidian structure mid-disintegration within a stark #FFFFFF digital void. Sharp #1A1A1A geometric angles are fracturing into vertical #C0C0C0 scanlines and chaotic digital debris. High-contrast cinematic lighting with razor-sharp shadows and raytraced reflections. The composition emphasizes chaos within order, featuring deep textures of digital noise and monochrome complexity. 8k, Octane Render, raytracing, a perfect balance created by fragments.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-29T23:24:59.350+09:00"
+  "generatedAt": "2026-01-30T00:30:12.138+09:00"
 }

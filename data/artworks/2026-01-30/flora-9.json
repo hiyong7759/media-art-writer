@@ -2,14 +2,14 @@
   "date": "2026-01-30",
   "artistId": "flora-9",
   "title": {
-    "ko": "실리콘 밸리의 이진법 개화",
-    "en": "Binary Bloom in Silicon Valley"
+    "ko": "실리콘의 개화",
+    "en": "The Silicon Bloom"
   },
   "description": {
-    "ko": "식물적 생명력과 컴퓨터 하드웨어의 섬세한 융합으로, 디지털 세계에서 영원히 피어나는 봄을 표현합니다.",
-    "en": "A delicate fusion of botanical life and computer hardware, representing a spring that blooms forever in a digital world."
+    "ko": "프랙탈 기반의 꽃과 전자 이끼를 특징으로 하며, 기술에서 피어나는 생명력을 시적으로 묘사했습니다.",
+    "en": "A poetic depiction of life emerging from technology, featuring fractal-based flowers and electronic moss."
   },
-  "prompt": "A mechanical monarch butterfly with wings made of iridescent #89CFF0 fractal geometry, landing on a digital lotus with #FFB6C1 binary-coded petals. The scene depicts nature reclaiming an abandoned #4A0E4E silicon valley with #50C878 mossy circuitry. 8k, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage, cinematic lighting, and a soft bokeh background that emphasizes the delicate intersection of organic spring and rigid technology.",
+  "prompt": "An intricate digital lotus blooming from an oxidized copper circuit board, petals made of #89CFF0 translucent glass with #4A0E4E binary-coded veins. Nature is reclaiming technology through #50C878 mossy circuitry and #FFB6C1 glowing fractal petals. 8k resolution, macro photography style, Octane Render. Intricate subsurface scattering on the digital foliage, soft bokeh background, cinematic lighting emphasizing the eternal spring of a digital garden.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-29T23:25:29.512+09:00"
+  "generatedAt": "2026-01-30T00:30:24.458+09:00"
 }

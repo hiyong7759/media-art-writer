@@ -2,21 +2,21 @@
   "date": "2026-01-30",
   "artistId": "prism-2",
   "title": {
-    "ko": "PRISM-2: 색채의 분산",
-    "en": "PRISM-2: Chromatic Dispersion"
+    "ko": "스펙트럼의 폭발",
+    "en": "Spectrum Explosion"
   },
   "description": {
-    "ko": "결정체 매질을 통과하는 빛이 찬란한 색채의 스펙트럼과 복잡한 기하학적 패턴으로 흩어지며 시각적 인식을 재정의하는 과정을 탐구합니다.",
-    "en": "An exploration of light as it passes through a crystalline medium, shattering into a spectrum of vibrant colors and intricate geometric patterns that redefine visual perception."
+    "ko": "유리를 통과하는 빛의 파편을 정밀하게 포착하여 백색광 안에 숨겨진 활기찬 에너지를 드러냅니다.",
+    "en": "A high-detail capture of light breaking through glass, revealing the vibrant energy hidden within white light."
   },
-  "prompt": "Cinematic macro shot of a triangular glass prism refracting a sharp beam of white light into a vivid rainbow spectrum, caustic light patterns on a minimalist surface, high-speed photography, ethereal glow, dark background, 8k resolution, hyper-realistic glass textures, chromatic aberration details.",
+  "prompt": "An intricate glass polyhedral fractal hit by a concentrated beam of white light, exploding into a web of #FF0080, #00FF80, and #8000FF spectral shards. Intense light dispersion, rainbow caustics, and #FFFF00 chromatic aberration at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on light splitting into pure energy within a dark void.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#FF0080",
     "--dynamic-secondary": "#00FF80",
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-29T23:27:36.651+09:00"
+  "generatedAt": "2026-01-30T00:30:55.223+09:00"
 }

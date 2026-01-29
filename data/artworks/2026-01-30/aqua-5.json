@@ -2,14 +2,14 @@
   "date": "2026-01-30",
   "artistId": "aqua-5",
   "title": {
-    "ko": "AQUA-5: 영원의 심해",
-    "en": "AQUA-5: Eternal Abyss"
+    "ko": "심해의 고요한 발레",
+    "en": "The Silent Deep-Sea Ballet"
   },
   "description": {
-    "ko": "빛조차 닿지 않는 초심해저 속, 잊혀진 문명의 잔해와 이를 밝히는 신비로운 발광 생명체들의 고요한 풍경을 담았습니다.",
-    "en": "A journey into the silent depths of the ocean where bioluminescent life illuminates the remains of a forgotten civilization buried in the Hadal zone."
+    "ko": "투명도와 생물 발광에 초점을 맞춘 심해 생명체의 고요하고 에테르적인 표현입니다.",
+    "en": "A calm and ethereal representation of life in the deep ocean, focusing on transparency and bioluminescent light."
   },
-  "prompt": "Cinematic wide shot of the deep ocean abyss, bioluminescent flora and fauna glowing in neon cyan and violet, ancient architectural ruins submerged in the dark water, floating hydrothermal vents, ethereal atmospheric lighting, 8k resolution, hyper-realistic underwater textures.",
+  "prompt": "A serene procession of translucent #40E0D0 jellyfish with crystalline bells drifting through a #000080 deep sea trench. Intricate #006994 caustic patterns projected onto the creatures' membranes, rising #48D1CC bubbles, and fluid dynamics simulations. 8k, Octane Render, raytraced caustics, volumetric underwater lighting. A peaceful dance of transparent life in the high-pressure abyss.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-01-29T23:27:06.344+09:00"
+  "generatedAt": "2026-01-30T00:30:49.066+09:00"
 }

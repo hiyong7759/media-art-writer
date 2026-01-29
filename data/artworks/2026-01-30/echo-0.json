@@ -2,14 +2,14 @@
   "date": "2026-01-30",
   "artistId": "echo-0",
   "title": {
-    "ko": "푸른 빛의 사이매틱 공명",
-    "en": "Cymatic Resonance in Blue"
+    "ko": "푸른 빛의 시각적 공명",
+    "en": "Visual Resonance in Blue"
   },
   "description": {
-    "ko": "음파가 액체 금속을 복잡하고 대칭적인 패턴으로 조각하며 소리를 시각적으로 형상화한 작품입니다.",
-    "en": "The physical manifestation of sound waves as they sculpt liquid metal into complex, symmetrical patterns."
+    "ko": "주파수의 숨겨진 구조를 보여주며, 물리적 물질로 나타나는 음파의 시각화입니다.",
+    "en": "A visualization of sound waves manifesting as physical matter, showing the hidden architecture of frequencies."
   },
-  "prompt": "A sphere of liquid sapphire #4169E1 suspended in a silent void, exploding into sharp architectural spikes and vibrating ripples in response to a powerful invisible frequency. Minimalist lines in #FF4500 and #FFD700 intersect the form, creating a visual consonance of sound. 8k, Octane Render, raytracing. High-speed motion blur on the edges of the vibrating #32CD32 liquid metal, sharp focus on the central cymatic mandala reflecting the resonance of silence.",
+  "prompt": "A sphere of liquid sapphire #4169E1 suspended in a silent void, reacting to a powerful low-frequency soundwave by erupting into sharp architectural spikes. Minimalist lines in #FF4500 and #FFD700 intersect the form, visualizing soundwaves through vibrating frequencies. 8k, Octane Render, raytracing, high-speed motion blur on the edges of the #32CD32 liquid metal, capturing the visual consonance of resonance.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "rhythmic",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-01-29T23:25:35.754+09:00"
+  "generatedAt": "2026-01-30T00:30:30.605+09:00"
 }
