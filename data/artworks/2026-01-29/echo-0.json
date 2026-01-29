@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "사이매틱 공명 구체",
+    "en": "Cymatic Resonance Sphere"
+  },
+  "description": {
+    "ko": "액체 금속 기하학과 진동하는 에너지로 번역된 음향 주파수의 시각적 탐구입니다.",
+    "en": "A visual exploration of sound frequencies translated into liquid metal geometry and vibrating energy."
+  },
+  "prompt": "A sphere of liquid sapphire suspended in mid-air, exploding into sharp architectural spikes and vibrating ripples in response to a powerful invisible resonance. Minimalist lines in #FF4500 and #FFD700 intersect the form, creating a visual consonance of sound. 8k, Octane Render, raytracing. High-speed motion blur on the edges of the #4169E1 liquid metal, sharp focus on the central cymatic mandala. Global illumination reflects the physical weight of visualized soundwaves in a silent, #32CD32 accented void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "rhythmic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-01-29T21:31:00.389+09:00"
+}

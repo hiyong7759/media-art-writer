@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "노틸러스 스펙트럼",
+    "en": "The Nautilus Spectrum"
+  },
+  "description": {
+    "ko": "복잡한 프랙탈 유리 기하학 안에 담긴 빛의 굴절과 순수 에너지에 대한 연구입니다.",
+    "en": "A study of light refraction and pure energy contained within complex fractal glass geometry."
+  },
+  "prompt": "A hyper-complex glass nautilus shell being pierced by a concentrated beam of white light, exploding into a web of #FF0080, #00FF80, and #8000FF spectral shards. Intense light dispersion, refractive indices, and chromatic aberration at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits into pure energy. Detailed rainbow caustics dance across a dark void, capturing the prismatic energy and the #FFFF00 saturated atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-01-29T21:31:25.161+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "개화하는 실리콘 버드나무",
+    "en": "Silicon Willow in Bloom"
+  },
+  "description": {
+    "ko": "프랙탈 자연이 산업 기술을 되찾는 디지털 정원의 예술적 표현입니다.",
+    "en": "An artistic representation of a digital garden where fractal nature reclaims industrial technology."
+  },
+  "prompt": "A majestic digital weeping willow with branches made of translucent #89CFF0 glass fibers, growing from a base of oxidized copper microchips. The leaves are intricate fractal flowers in #FFB6C1 and #4A0E4E that bloom with soft light. Nature reclaiming technology through mossy circuitry and binary-coded petals. 8k, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage, cinematic lighting, and a soft bokeh background emphasizing the delicate intersection of organic life and silicon.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-01-29T21:30:54.192+09:00"
+}

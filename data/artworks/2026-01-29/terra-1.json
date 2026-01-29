@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지각의 연대기",
+    "en": "Chronicles of the Tectonic Crust"
+  },
+  "description": {
+    "ko": "대지의 역사를 나타내는 지구의 질감과 지질층에 대한 상세한 연구입니다.",
+    "en": "A detailed study of earth textures and geological strata, representing the history of the land."
+  },
+  "prompt": "A macro-topographic cross-section of a tectonic fault line, revealing jagged layers of #8B4513 obsidian, #D2691E red clay, and crystalline quartz veins glowing with internal heat. Detailed textures of parched soil and sediment layers carved by eons of geological pressure. 8k resolution, hyper-realistic. Lighting mimics the golden hour, casting long, dramatic shadows across the rough rock surfaces of #2F4F4F and #F4A460. Global illumination highlights the narrative of the land carved by time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-29T21:31:12.776+09:00"
+}

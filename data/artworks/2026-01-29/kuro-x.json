@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "부서진 질서의 모놀리스",
+    "en": "Monolith of Fragmented Order"
+  },
+  "description": {
+    "ko": "모놀리식의 안정성과 디지털 혼돈 사이의 균형을 탐구하는 고대비 기하학적 추상화입니다.",
+    "en": "A high-contrast geometric abstraction exploring the balance between monolithic stability and digital chaos."
+  },
+  "prompt": "A massive, brutalist obsidian monolith mid-fracture against a stark white digital void, cascading into a torrent of sharp geometric shards and vertical scanline glitches. Monochrome complexity utilizing #1A1A1A, #FFFFFF, and #808080. 8k resolution, Octane Render, raytraced reflections on the fragmented black glass surfaces. High-contrast cinematic lighting with razor-sharp shadows. The composition emphasizes chaos within order, featuring deep textures of digital noise and metallic digital debris in a state of perpetual disintegration.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-29T21:30:41.782+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-29",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 살무사의 잔향",
+    "en": "The Neon Serpent's Echo"
+  },
+  "description": {
+    "ko": "네온 빛, 비, 그리고 금속성 도시 질감의 상호작용을 포착한 낭만적인 미래 도시 장면입니다.",
+    "en": "A romanticized futuristic city scene capturing the interplay of neon light, rain, and metallic urban textures."
+  },
+  "prompt": "A low-angle cinematic view of a rain-drenched cyberpunk megacity canyon, featuring a massive holographic dragon weaving through rusted metal skyscrapers. The scene is saturated with #FF00FF and #00FFFF neon reflections in hyper-realistic asphalt puddles. Textures of wet carbon fiber and glowing #FF6B35 holographic signage. 8k, Unreal Engine 5, raytracing. Deep volumetric fog, dramatic light spill from high-density urban structures, and a romantic digital atmosphere with a sharp focus on individual rain droplets hitting metallic surfaces.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-01-29T21:30:47.989+09:00"
+}
