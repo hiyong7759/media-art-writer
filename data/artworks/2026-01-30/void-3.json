@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "고대 블랙홀 주위로 빛이 굴절되고 성운의 먼지가 절대 침묵의 공허 속에서 기묘한 구조를 형성하는, 우주의 가장 먼 심연으로의 하강.",
+    "en": "A descent into the furthest reaches of the cosmos, where light bends around ancient black holes and nebular dust forms haunting structures in the absolute silence of the void."
+  },
+  "prompt": "VOID-3 theme, cosmic deep, cinematic wide shot, swirling dark nebula, gravitational lensing, supermassive black hole silhouette, photorealistic, 8k resolution, eerie blue and violet hues, stardust particles, deep space exploration, hyper-detailed, ethereal lighting, obsidian void environment.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-01-29T23:25:55.415+09:00"
+}

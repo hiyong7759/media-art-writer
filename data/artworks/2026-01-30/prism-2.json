@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 분산",
+    "en": "PRISM-2: Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "결정체 매질을 통과하는 빛이 찬란한 색채의 스펙트럼과 복잡한 기하학적 패턴으로 흩어지며 시각적 인식을 재정의하는 과정을 탐구합니다.",
+    "en": "An exploration of light as it passes through a crystalline medium, shattering into a spectrum of vibrant colors and intricate geometric patterns that redefine visual perception."
+  },
+  "prompt": "Cinematic macro shot of a triangular glass prism refracting a sharp beam of white light into a vivid rainbow spectrum, caustic light patterns on a minimalist surface, high-speed photography, ethereal glow, dark background, 8k resolution, hyper-realistic glass textures, chromatic aberration details.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-01-29T23:27:36.651+09:00"
+}

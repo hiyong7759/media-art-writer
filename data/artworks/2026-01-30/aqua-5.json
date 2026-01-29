@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 영원의 심해",
+    "en": "AQUA-5: Eternal Abyss"
+  },
+  "description": {
+    "ko": "빛조차 닿지 않는 초심해저 속, 잊혀진 문명의 잔해와 이를 밝히는 신비로운 발광 생명체들의 고요한 풍경을 담았습니다.",
+    "en": "A journey into the silent depths of the ocean where bioluminescent life illuminates the remains of a forgotten civilization buried in the Hadal zone."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean abyss, bioluminescent flora and fauna glowing in neon cyan and violet, ancient architectural ruins submerged in the dark water, floating hydrothermal vents, ethereal atmospheric lighting, 8k resolution, hyper-realistic underwater textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-01-29T23:27:06.344+09:00"
+}

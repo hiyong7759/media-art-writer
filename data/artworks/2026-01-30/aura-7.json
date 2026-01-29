@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "맥동하는 에메랄드 대성당",
+    "en": "The Pulsing Emerald Cathedral"
+  },
+  "description": {
+    "ko": "심해의 유기적 구조물이 대성당처럼 웅장하게 서 있으며, 이끼와 빛이 살아있는 건축물 사이를 호흡하듯 흐릅니다.",
+    "en": "A deep-sea organic structure resembling a cathedral, where moss and light flow like breath through a living architecture."
+  },
+  "prompt": "A majestic, breathing cathedral-grove composed of translucent emerald-moss pillars and flowing amber sap waterfalls in a deep underwater atmosphere. At the center, a monumental #FFE66D glowing heart-structure pulses rhythmically with liquid light, surrounded by a swirling vortex of #7FB069 bioluminescent tendrils and floating #E6F2E1 spores. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Heavy subsurface scattering on organic membranes, volumetric light shafts piercing the #2D5A3D dark green water, and sharp focus on the microscopic flow of nature's breath.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-01-29T23:24:53.091+09:00"
+}

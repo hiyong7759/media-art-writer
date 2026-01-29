@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "단색의 파편화",
+    "en": "Monochrome Fragmentation"
+  },
+  "description": {
+    "ko": "계산과 혼돈 사이에 갇힌 세계를 묘사하며, 기하학적 완벽함이 디지털 카오스로 해체되는 과정을 흑백의 글리치 환경으로 담아냈습니다.",
+    "en": "A study of geometric perfection dissolving into digital chaos, captured in a stark black and white glitch environment."
+  },
+  "prompt": "An infinite architectural cityscape of obsidian geometric cubes perpetually shattering into a torrent of #FFFFFF digital scanlines and #1A1A1A sharp shards. The composition features a complex balance of monochrome order and chaotic glitch art aesthetics against a stark #808080 void. 8k resolution, Octane Render, raytraced reflections on shifting mirror surfaces. High-contrast cinematic lighting creates razor-sharp shadows, emphasizing the deep textures of digital noise and the fragmented complexity of a world caught between calculation and chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-29T23:24:59.350+09:00"
+}
