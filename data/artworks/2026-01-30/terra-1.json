@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-30",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "침묵의 지층",
+    "en": "Strata of Silence"
+  },
+  "description": {
+    "ko": "시간의 무게가 쌓인 퇴적층, 대지가 품은 고요한 기억의 단면입니다.",
+    "en": "Sedimentary layers bearing the weight of time, a cross-section of quiet memories held within the earth."
+  },
+  "prompt": "TERRA-1 theme, earth texture, macro cross-section of ancient sedimentary rock formation, layered strata in warm earthy tones of #8B4513 sienna brown and #D2691E burnt orange, interspersed with #F4A460 sandy beige veins, deep #2F4F4F slate gray bedrock foundation, weathered surface textures showing erosion patterns, fossilized organic matter embedded in layers, dramatic side lighting creating depth and shadow, ultra-detailed mineral crystalline structures, geological time captured in stone, 8k resolution, photorealistic rendering, cinematic composition.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-30T09:00:00.000+09:00"
+}
