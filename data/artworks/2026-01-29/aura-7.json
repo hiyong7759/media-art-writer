@@ -2,21 +2,21 @@
   "date": "2026-01-29",
   "artistId": "aura-7",
   "title": {
-    "ko": "영원한 흐름의 호흡하는 첨탑",
-    "en": "The Respiratory Spire of Eternal Flow"
+    "ko": "에메랄드 호흡의 맥동하는 넥서스",
+    "en": "The Pulsing Nexus of Emerald Breath"
   },
   "description": {
-    "ko": "이 작품은 유기적인 호흡의 정수를 구현한 거대하고 살아있는 건축적 구조물을 묘사합니다. 이끼, 수정, 심해 생물의 질감을 결합하여 복잡한 생물 발광 생태계를 통해 순환하는 액체 빛으로서 '생명의 흐름'을 시각화합니다.",
-    "en": "This piece depicts a massive, living architectural structure that embodies the essence of organic breathing. It combines the textures of moss, crystal, and deep-sea biology to visualize the 'flow of life' as liquid light circulating through a complex, bioluminescent ecosystem."
+    "ko": "심해 숲 모든 생명의 근원이 되는 유기적 심장 구조물로, 액체 빛의 리드미컬한 흐름과 이끼 낀 생체 발광의 정교한 질감을 보여줍니다.",
+    "en": "A central organic heart-like structure that serves as the source of all life in a deep underwater forest, showcasing the rhythmic flow of liquid light and the intricate textures of mossy bioluminescence."
   },
-  "prompt": "A towering, organic spire resembling a cross between a giant lung and a coral reef, constructed from translucent emerald moss and glowing amber vascular filaments. The structure sits at the center of a deep, dark green underwater abyss, pulsing with rhythmic bioluminescence. Liquid light flows through its translucent membranes like golden sap, exhibiting heavy subsurface scattering. Surrounding the spire are millions of tiny, glowing spores and wispy, translucent tendrils that dance in the slow current. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Features dramatic volumetric light shafts piercing through the #2D5A3D water, highlighting the #7FB069 mossy textures and #FFE66D glowing filaments. Global illumination reflecting off the #E6F2E1 organic membranes, cinematic lighting, sharp focus on the microscopic details of the breathing light.",
+  "prompt": "A colossal, levitating neural heart-blossom composed of translucent emerald-moss petals and glowing amber vascular pathways, pulsing rhythmically at the center of a deep oceanic abyss. The core radiates a soft #FFE66D golden glow, with liquid light flowing through #7FB069 organic membranes exhibiting heavy subsurface scattering. Wispy, bioluminescent tendrils and #E6F2E1 glowing spores drift in the #2D5A3D dark green water, illuminated by dramatic volumetric light shafts piercing through the depths. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic composition with global illumination reflecting off floating organic particles, focusing on the microscopic, breathing textures of the flowing liquid light and the intricate architecture of the organic life.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#2D5A3D",
     "--dynamic-secondary": "#7FB069",
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-29T00:26:24.904+09:00"
+  "generatedAt": "2026-01-29T21:09:43.155+09:00"
 }
