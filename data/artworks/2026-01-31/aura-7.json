@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "숨쉬는 에메랄드 대성당",
+    "en": "The Emerald Cathedral of Breath"
+  },
+  "description": {
+    "ko": "이끼와 빛이 숨쉬는 수중 구조물로 융합되어 생명의 흐름을 상징하는 유기적 건축의 경이로움.",
+    "en": "An organic architectural marvel where moss and light merge into a breathing underwater structure, symbolizing the flow of life."
+  },
+  "prompt": "A sprawling, pulsating neural network of bioluminescent #7FB069 emerald moss and #FFE66D glowing liquid sap, manifesting as a living cathedral in a deep #2D5A3D underwater trench. The structure is composed of translucent organic membranes and flowing liquid light tendrils that rhythmically breathe with nature. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Heavy subsurface scattering on the mossy fibers, volumetric light shafts piercing through dark water, and #E6F2E1 floating spores creating a sense of organic flow. Cinematic lighting highlights the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-01-31T00:28:22.574+09:00"
+}

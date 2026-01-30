@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 근원의 층",
+    "en": "TERRA-1: Elemental Strata"
+  },
+  "description": {
+    "ko": "강바닥의 갈라진 틈, 광물의 맥, 그리고 유기적인 침식 패턴을 고화질로 포착하여 지구 표면의 복잡한 아름다움을 탐구하는 시각적 여정입니다.",
+    "en": "A breathtaking exploration of the Earth's surface, capturing the intricate patterns of dried riverbeds, mineral veins, and organic erosion in high-definition detail."
+  },
+  "prompt": "Ultra-detailed aerial photography of earth textures, macro view of geological formations, cracked salt flats, layered sedimentary rock, vibrant mineral deposits, 8k resolution, cinematic natural lighting, topographical abstract, earthy tones of ochre, sienna, and deep emerald.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-01-31T00:29:16.307+09:00"
+}

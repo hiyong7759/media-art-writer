@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "void-3",
+  "title": {
+    "ko": "사건의 지평선 대성당",
+    "en": "Cathedral of the Event Horizon"
+  },
+  "description": {
+    "ko": "빛과 중력이 우주적 규모의 구조를 엮어내는, 무한한 우주에 대한 장엄하고도 경외심을 불러일으키는 탐구.",
+    "en": "A majestic and terrifying look into the infinite universe, where light and gravity weave structures of cosmic scale."
+  },
+  "prompt": "An impossible celestial cathedral formed by the gravitational lensing of a supermassive black hole, with pillars of compressed #3D1A78 starlight and swirling #0D0221 dark matter filaments. Surrounded by a massive event horizon and gas clouds of #7B68EE and #E6E6FA. Cosmic horror majesty on an infinite scale. 8k, hyper-realistic, volumetric gas simulations. Detailed textures of stardust and the silent majesty of the abyss, featuring global illumination from a distant pulsar and raytraced light scattering through the nebula.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-01-31T00:29:01.867+09:00"
+}

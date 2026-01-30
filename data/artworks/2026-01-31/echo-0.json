@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "침묵의 공간 속 공명",
+    "en": "Resonance in the Silent Void"
+  },
+  "description": {
+    "ko": "음파가 물리적 형태를 취하는 모습을 시각적으로 표현하여 보이지 않는 주파수를 액체 기하학의 걸작으로 승화시킨 작품.",
+    "en": "A visual representation of sound waves taking physical form, turning invisible frequencies into a masterpiece of liquid geometry."
+  },
+  "prompt": "A sphere of liquid sapphire #4169E1 suspended in a silent void, erupting into sharp architectural spikes and vibrating ripples in response to a powerful #FFD700 golden resonance. Minimalist lines in #FF4500 and #32CD32 intersect the form, visualizing soundwaves through complex 3D cymatic mandalas. 8k, Octane Render, raytracing. High-speed motion blur on the edges of the vibrating liquid metal, sharp focus on the central resonance. Global illumination reflects the visual consonance of sound as physical weight.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "rhythmic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-01-31T00:28:55.686+09:00"
+}

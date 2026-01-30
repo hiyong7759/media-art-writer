@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 에너지: 무지개 핵",
+    "en": "Prismatic Energy: The Rainbow Core"
+  },
+  "description": {
+    "ko": "빛이 유리에서 굴절되어 스펙트럼의 숨겨진 색상을 드러내는 가장 역동적인 순간을 포착한 작품.",
+    "en": "A capture of light at its most dynamic moment, refracting through glass to reveal the hidden colors of the spectrum."
+  },
+  "prompt": "An intricate glass polyhedral fractal hit by a concentrated beam of white light, exploding into a web of #FF0080, #00FF80, and #8000FF spectral shards. Intense light dispersion, rainbow caustics, and #FFFF00 chromatic aberration at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits into pure energy within a dark void. Global illumination and cinematic lighting capture the prismatic energy and the rainbow-saturated atmosphere contained within the glass.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-01-31T00:29:28.672+09:00"
+}

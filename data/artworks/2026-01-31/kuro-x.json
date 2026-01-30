@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "균열된 질서: 흑요석 미궁",
+    "en": "Fractured Order: Obsidian Labyrinth"
+  },
+  "description": {
+    "ko": "기하학적 완벽함이 디지털 글리치와 단색 파편으로 부서지는, 질서 속의 혼돈을 표현한 작품.",
+    "en": "A representation of chaos within order, where geometric perfection is shattered by digital glitches and monochrome fragments."
+  },
+  "prompt": "A recursive, brutalist labyrinth of liquid obsidian #1A1A1A fracturing into a cascade of #FFFFFF white digital noise and vertical #C0C0C0 scanline glitches. The composition is a masterclass in monochrome complexity, featuring sharp geometric abstraction where order dissolves into chaotic fragments. 8k resolution, Octane Render, raytraced reflections on shifting black glass surfaces. High-contrast cinematic lighting creates razor-sharp shadows against a stark white void, emphasizing the perfect balance of a shattering monolith. Detailed textures of digital debris and #808080 grey static.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-01-31T00:28:28.766+09:00"
+}

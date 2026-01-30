@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-31",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: Digital Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적인 식물 생명체와 합성 지능 사이의 경계를 탐구합니다. 이 작품은 자연이 세포 구조 내에 데이터를 저장하도록 적응하여 빛나고 상호 연결된 디지털 숲을 형성하는 근미래의 생태계를 시각화합니다.",
+    "en": "FLORA-9 explores the boundary between organic botanical life and synthetic intelligence. This piece visualizes a near-future ecosystem where nature has adapted to store data within its cellular structure, creating a glowing, interconnected digital forest."
+  },
+  "prompt": "A macro cinematic shot of a futuristic FLORA-9 flower, translucent crystalline petals pulsing with soft cyan fiber-optic light, intricate gold circuit board patterns etched onto dark emerald leaves, floating holographic pollen particles, deep bokeh forest background with digital rain, hyper-realistic textures, 8k resolution, ray tracing.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-01-31T00:28:49.498+09:00"
+}
