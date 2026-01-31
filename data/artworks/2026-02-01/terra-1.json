@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 혈관",
+    "en": "TERRA-1: Terrestrial Veins"
+  },
+  "description": {
+    "ko": "지구 표면에 대한 거시적 탐구로, 우리 행성의 가공되지 않은 정교한 질감을 포착합니다. 메마른 사막의 균열부터 미네랄이 풍부한 삼각주의 유동적인 아름다움까지, 자연의 리듬미컬한 패턴을 시각화합니다.",
+    "en": "A macroscopic exploration of the Earth's surface, capturing the raw and intricate textures of our planet. This piece visualizes the rhythmic patterns of nature, from arid desert cracks to the fluid beauty of mineral-rich deltas."
+  },
+  "prompt": "High-resolution satellite photography of abstract earth textures, top-down aerial view, intricate patterns of dried riverbeds, swirling salt flats, deep canyons, lush forest moss, vibrant mineral deposits in oxidized soil, hyper-detailed geological formations, cinematic lighting, 8k resolution, organic textures",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-01T00:19:52.193+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 스펙트럼: 굴절의 춤",
+    "en": "Prism Spectrums: The Dance of Refraction"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 백색광이 화려한 무지개 스펙트럼으로 갈라지는 놀라운 시각화입니다. 이 장면은 광학의 물리적 아름다움과 분산된 빛의 천상적인 광채를 담아냅니다.",
+    "en": "A stunning visualization of white light passing through a glass prism, breaking into a vibrant rainbow spectrum. The scene captures the physical beauty of optics and the ethereal glow of dispersed light."
+  },
+  "prompt": "A macro cinematic shot of a triangular glass prism on a dark minimalist surface. A sharp beam of white light enters from the left, refracting through the glass and exiting as a wide, vivid rainbow spectrum. High-end optics, caustic light effects, 8k resolution, photorealistic, chromatic aberration, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-01T00:20:56.552+09:00"
+}

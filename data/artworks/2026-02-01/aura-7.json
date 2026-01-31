@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해의 초록 허파",
+    "en": "The Lung of the Verdant Abyss"
+  },
+  "description": {
+    "ko": "어두운 수중 숲에서 생물 발광 에너지를 내뿜으며 호흡하는 이끼 기반 유기체의 정교한 탐구.",
+    "en": "A highly detailed exploration of a living, breathing moss-based organ pulsing with bioluminescent energy in a dark underwater forest."
+  },
+  "prompt": "A microscopic cinematic view of a breathing respiratory-like organ made of translucent #7FB069 emerald moss and #2D5A3D dark-green vascular networks, pulsing with rhythmic #FFE66D liquid light. The structure is suspended in a deep underwater atmosphere with #E6F2E1 floating bioluminescent spores. Heavy subsurface scattering on the organic membranes creates a soft, living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic volumetric light shafts pierce through the water, highlighting the fluid flow of organic energy through the mossy fibers and the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-01T00:17:32.406+09:00"
+}

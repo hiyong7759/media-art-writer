@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코즈믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛과 절대적 어둠의 경계가 고요한 천체의 심연 속으로 사라지는, 우주에서 가장 먼 곳에 대한 몰입형 탐구입니다.",
+    "en": "An immersive exploration of the universe's furthest reaches, where the boundary between light and absolute darkness dissolves into a silent, celestial abyss."
+  },
+  "prompt": "A hyper-realistic cinematic rendering of the cosmic deep, VOID-3 aesthetic, swirling abyssal nebulae in shades of midnight blue and obsidian, scattered glowing stardust like bioluminescent particles, a distant dying star casting long shadows through dark matter, infinite depth perception, 8k resolution, photorealistic textures of space-time ripples.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-01T00:19:16.863+09:00"
+}

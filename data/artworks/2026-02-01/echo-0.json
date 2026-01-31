@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0의 공명 주파수",
+    "en": "Resonant Frequencies of ECHO-0"
+  },
+  "description": {
+    "ko": "가상 공간에서 생동감 넘치는 빛의 입자와 기하학적 추상을 통해 음파를 시각화하여 음향 공명의 본질을 포착한 매혹적인 디지털 아트 작품입니다.",
+    "en": "A mesmerizing digital art piece visualizing sound waves through vibrant, flowing light particles and geometric abstractions, capturing the essence of acoustic resonance in a virtual space."
+  },
+  "prompt": "High-resolution digital visualization of sound waves, ECHO-0 aesthetic, kinetic light particles, oscillating geometric patterns, deep blue and neon violet color palette, fluid motion, 8k resolution, cinematic lighting, synthwave influence, abstract representation of acoustic resonance.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-01T00:18:42.898+09:00"
+}

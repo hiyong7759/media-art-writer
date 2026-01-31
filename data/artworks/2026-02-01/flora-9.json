@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 네온 블룸",
+    "en": "FLORA-9: The Neon Bloom"
+  },
+  "description": {
+    "ko": "유기적 식물과 사이버네틱 구조의 매혹적인 융합으로, 디지털 숲 속에서 광섬유 빛으로 맥동하는 수정 꽃잎을 보여줍니다.",
+    "en": "A mesmerizing fusion of organic flora and cybernetic architecture, where crystalline petals pulse with fiber-optic light amidst a digital forest."
+  },
+  "prompt": "A cinematic close-up of FLORA-9, a high-tech synthetic plant with translucent glass leaves, glowing internal circuitry, iridescent pollen particles floating in the air, digital glitch aesthetics, 8k resolution, Unreal Engine 5 render, synthwave lighting, macro photography.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-01T00:18:13.768+09:00"
+}

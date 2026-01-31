@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-01",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 신전의 반사",
+    "en": "Reflections of the Neon Shrine"
+  },
+  "description": {
+    "ko": "금속, 물, 그리고 활기찬 네온 조명 사이의 낭만적인 상호작용에 초점을 맞춘 비 내리는 고밀도 사이버펑크 거리 풍경.",
+    "en": "A rainy, high-density cyberpunk street scene focusing on the romantic interplay between metal, water, and vibrant neon light."
+  },
+  "prompt": "A low-angle cinematic view of a rain-drenched #1A0033 cyberpunk alleyway, saturated with #FF00FF and #00FFFF neon reflections in hyper-realistic asphalt puddles. A massive holographic shrine glows with #FF6B35 light, reflecting off rusted metal catwalks and wet carbon fiber textures. 8k, Unreal Engine 5, raytracing. Deep volumetric fog and realistic light spill from high-density urban structures capture the digital romance of a futuristic city, with a sharp focus on individual rain droplets hitting metallic surfaces.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-01T00:17:44.935+09:00"
+}
