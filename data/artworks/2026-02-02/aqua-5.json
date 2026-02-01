@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광: AQUA-5의 핵심",
+    "en": "Abyssal Luminescence: The Core of AQUA-5"
+  },
+  "description": {
+    "ko": "생물 발광 생물들이 번성하는 신비로운 바다 깊은 곳을 탐험하세요. AQUA-5는 미드나이트 존의 천상적인 빛과 압도적인 아름다움을 포착하여 숨겨진 생태계와 고대 지형을 드러냅니다.",
+    "en": "Explore the mysterious depths of the ocean where bioluminescent creatures thrive. AQUA-5 captures the ethereal glow and pressurized beauty of the midnight zone, revealing hidden ecosystems and ancient formations."
+  },
+  "prompt": "Cinematic underwater photography of the deep ocean's midnight zone, bioluminescent jellyfish and glowing coral reefs, deep navy and electric blue color palette, high pressure atmosphere, ethereal lighting, ultra-detailed textures, 8k resolution, AQUA-5 aesthetic style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-02T00:20:02.426+09:00"
+}

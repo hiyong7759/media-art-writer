@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 해구의 고동치는 핵",
+    "en": "The Pulsing Core of the Emerald Trench"
+  },
+  "description": {
+    "ko": "빛과 자연이 동기화된 수중 흐름 속에서 호흡하는 가장 원초적인 수준의 유기적 생명을 표현했습니다.",
+    "en": "A representation of organic life at its most primal level, where light and nature breathe in a synchronized underwater flow."
+  },
+  "prompt": "A massive, breathing biological engine made of translucent #7FB069 moss and #FFE66D glowing neural filaments, suspended in a deep #2D5A3D underwater trench. The structure pulses with rhythmic liquid light, featuring heavy subsurface scattering on organic membranes. Surrounding the core are #E6F2E1 floating spores and wispy, glowing tendrils swaying in a slow current. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, cinematic volumetric lighting piercing through the dark green water, highlighting the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-02T00:19:05.640+09:00"
+}

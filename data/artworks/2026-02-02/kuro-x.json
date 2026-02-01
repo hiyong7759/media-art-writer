@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모노크롬 보이드의 부서진 균형",
+    "en": "Shattered Equilibrium in the Monochrome Void"
+  },
+  "description": {
+    "ko": "경직된 기하학적 구조와 디지털 엔트로피의 교차점을 탐구하며, 파편의 혼돈 속에서 완벽한 균형을 찾아냅니다.",
+    "en": "A study on the intersection of rigid geometry and digital entropy, finding a perfect balance within the chaos of fragments."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tower disintegrating into a torrent of sharp geometric shards and #C0C0C0 vertical scanline glitches against a stark #FFFFFF void. The composition features high-contrast monochrome complexity with #808080 digital noise textures and raytraced reflections on the fragmented black glass surfaces. 8k resolution, Octane Render. Razor-sharp shadows emphasize the chaos within order, capturing the perfect balance created by fragments of a collapsing digital reality.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-02T00:19:11.880+09:00"
+}

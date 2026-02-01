@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "디지털 빗줄기의 한밤중 성소",
+    "en": "Midnight Sanctuary of the Digital Rain"
+  },
+  "description": {
+    "ko": "차가운 금속과 디지털 시대의 활기찬 네온 광채가 만나는 미래 대도시의 낭만적인 영혼을 담았습니다.",
+    "en": "The romantic soul of a futuristic metropolis, where cold metal meets the vibrant, neon glow of a digital era."
+  },
+  "prompt": "A low-angle cinematic view of a rain-drenched #1A0033 cyberpunk alleyway, featuring a massive #FF00FF neon shrine reflected in hyper-realistic asphalt puddles. The scene is saturated with #00FFFF light trails and futuristic urban textures of rusted #FF6B35 metal and wet carbon fiber. 8k, Unreal Engine 5, raytracing. Deep volumetric fog and realistic light spill from high-density urban structures capture the digital romance of a futuristic city, with a sharp focus on individual rain droplets hitting metallic surfaces.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-02T00:19:18.108+09:00"
+}

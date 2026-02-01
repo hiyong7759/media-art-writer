@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 지형학",
+    "en": "TERRA-1: Earthly Topographies"
+  },
+  "description": {
+    "ko": "자연 침식, 화산 활동, 유기적 성장에 의해 형성된 복잡하고 촉각적인 질감을 강조하며 지구 표면을 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the planet's surface, highlighting the complex and tactile textures formed by natural erosion, volcanic activity, and organic growth."
+  },
+  "prompt": "Ultra-detailed aerial photography of diverse earth textures, macro view of swirling salt pans, deep volcanic basalt cracks, and lush mossy patterns, cinematic lighting to highlight topographical relief, rich earthy tones, 8k resolution, photorealistic geological survey style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-02T00:19:50.082+09:00"
+}

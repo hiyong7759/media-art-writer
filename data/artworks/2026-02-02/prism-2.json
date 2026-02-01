@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "찬란한 스펙트럼: 프리즘 효과",
+    "en": "Radiant Spectrum: The Prism Effect"
+  },
+  "description": {
+    "ko": "빛이 유리를 통과하며 굴절의 원리를 통해 선명한 무지개색으로 갈라지는 매혹적인 탐구입니다.",
+    "en": "A mesmerizing exploration of light passing through glass, splitting into a vivid rainbow of colors through the physics of refraction."
+  },
+  "prompt": "A high-quality cinematic shot of a triangular glass prism on a dark surface, a single beam of white light hitting the edge and refracting into a brilliant, sharp rainbow spectrum, caustic light patterns, hyper-realistic, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-02T00:20:20.404+09:00"
+}

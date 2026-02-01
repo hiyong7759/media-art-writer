@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-02",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무한한 밤의 눈",
+    "en": "The Eye of Infinite Night"
+  },
+  "description": {
+    "ko": "우주의 고요한 장엄함으로의 여정으로, 거대한 우주 구조물의 규모가 공포스러운 아름다움을 불러일으킵니다.",
+    "en": "A journey into the silent majesty of the universe, where the scale of cosmic structures evokes a sense of terrifying beauty."
+  },
+  "prompt": "An impossible celestial gate at the edge of a #0D0221 supermassive black hole, with pillars made of #3D1A78 compressed starlight and swirling dark matter filaments. Surrounded by gas clouds of #7B68EE and #E6E6FA. Cosmic horror majesty on an infinite scale. 8k, hyper-realistic, volumetric gas simulations. Detailed textures of stardust and the silent majesty of the abyss, featuring global illumination from a distant pulsar and raytraced light scattering through the nebula.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-02T00:19:36.782+09:00"
+}
