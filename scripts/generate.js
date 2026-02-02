@@ -5,24 +5,31 @@ require('dotenv').config();
 
 // Configuration
 const API_KEY = process.env.GEMINI_API_KEY;
-const IMAGE_API_KEY = process.env.GEMINI_IMAGE_API_KEY || API_KEY;
 const MODEL_NAME = "gemini-3-flash-preview";
 const IMAGE_MODEL_NAME = "gemini-2.5-flash-image";
 
+// Multiple image API keys support (comma-separated)
+const IMAGE_API_KEYS = (process.env.GEMINI_IMAGE_API_KEYS || process.env.GEMINI_IMAGE_API_KEY || API_KEY || '')
+    .split(',')
+    .map(k => k.trim())
+    .filter(k => k.length > 0);
+
 let genAI = null;
-let imageGenAI = null;
+const imageGenAIs = [];
 
 if (API_KEY) {
     genAI = new GoogleGenAI(API_KEY);
     console.log("Text API initialized.");
 }
 
-if (IMAGE_API_KEY) {
-    imageGenAI = new GoogleGenAI(IMAGE_API_KEY);
-    console.log(`Image API initialized${IMAGE_API_KEY !== API_KEY ? " with separate key" : ""}.`);
+if (IMAGE_API_KEYS.length > 0) {
+    for (const key of IMAGE_API_KEYS) {
+        imageGenAIs.push(new GoogleGenAI(key));
+    }
+    console.log(`Image API initialized with ${imageGenAIs.length} key(s).`);
 }
 
-if (!API_KEY && !IMAGE_API_KEY) {
+if (!API_KEY && IMAGE_API_KEYS.length === 0) {
     console.warn("Warning: No API keys set. Using fallback mode.");
 }
 
@@ -130,12 +137,13 @@ async function generateBatchArtworks(artists, date, history) {
             const generatedPrompts = JSON.parse(cleanJsonString(responseText));
             console.log("Batch successful.");
 
-            for (const artist of artists) {
+            for (let i = 0; i < artists.length; i++) {
+                const artist = artists[i];
                 let data = generatedPrompts[artist.id];
                 if (!data || isDuplicate(data.prompt, history[artist.id])) {
-                    await generateArtworkForArtist(artist, date, history);
+                    await generateArtworkForArtist(artist, date, history, 0, i);
                 } else {
-                    const imageBuffer = await generateImage(artist, data.prompt);
+                    const imageBuffer = await generateImage(artist, data.prompt, i);
                     saveArtworkData(artist, date, data.prompt, data, imageBuffer);
                     updateHistory(artist.id, date, data.prompt);
                 }
@@ -149,13 +157,17 @@ async function generateBatchArtworks(artists, date, history) {
     }
 }
 
-async function generateImage(artist, imagePrompt) {
-    if (!imageGenAI) return null;
-    let retryCount = 0;
-    while (retryCount <= 2) {
+async function generateImage(artist, imagePrompt, artistIndex = 0) {
+    if (imageGenAIs.length === 0) return null;
+
+    const maxRetries = imageGenAIs.length * 2;
+    let keyIndex = artistIndex % imageGenAIs.length;
+
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
+        const currentGenAI = imageGenAIs[keyIndex];
         try {
-            console.log(`[${artist.name}] Generating image...`);
-            const result = await imageGenAI.models.generateContent({
+            console.log(`[${artist.name}] Generating image (key ${keyIndex + 1}/${imageGenAIs.length})...`);
+            const result = await currentGenAI.models.generateContent({
                 model: IMAGE_MODEL_NAME,
                 contents: imagePrompt,
             });
@@ -166,9 +178,9 @@ async function generateImage(artist, imagePrompt) {
             }
             throw new Error("No image data");
         } catch (error) {
-            console.error(`[${artist.name}] Image fail (Attempt ${retryCount + 1}): ${error.message}`);
+            console.error(`[${artist.name}] Image fail (key ${keyIndex + 1}, attempt ${attempt + 1}): ${error.message}`);
+            keyIndex = (keyIndex + 1) % imageGenAIs.length;
             await sleep(2000);
-            retryCount++;
         }
     }
     return null;
@@ -190,7 +202,7 @@ function saveArtworkData(artist, date, prompt, data, imageBuffer = null) {
     console.log(`[${artist.name}] Saved.`);
 }
 
-async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
+async function generateArtworkForArtist(artist, date, history, retryCount = 0, artistIndex = 0) {
     if (retryCount > 2) return;
     console.log(`[${artist.name}] Individual generation...`);
     try {
@@ -201,8 +213,8 @@ async function generateArtworkForArtist(artist, date, history, retryCount = 0) {
         });
         let responseText = result.candidates[0].content.parts[0].text;
         const data = JSON.parse(cleanJsonString(responseText));
-        if (isDuplicate(data.prompt, history[artist.id])) return generateArtworkForArtist(artist, date, history, retryCount + 1);
-        const imageBuffer = await generateImage(artist, data.prompt);
+        if (isDuplicate(data.prompt, history[artist.id])) return generateArtworkForArtist(artist, date, history, retryCount + 1, artistIndex);
+        const imageBuffer = await generateImage(artist, data.prompt, artistIndex);
         saveArtworkData(artist, date, data.prompt, data, imageBuffer);
         updateHistory(artist.id, date, data.prompt);
     } catch (err) {
