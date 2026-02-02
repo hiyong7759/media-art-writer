@@ -36,6 +36,7 @@ jobs:
       - name: Generate Artwork
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY }}
         run: node scripts/generate.js "${{ inputs.artist_id || 'all' }}" "${{ inputs.date }}"
 
       - name: Get KST Date
