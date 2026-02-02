@@ -2,21 +2,21 @@
   "date": "2026-01-31",
   "artistId": "prism-2",
   "title": {
-    "ko": "프리즘 에너지: 무지개 핵",
-    "en": "Prismatic Energy: The Rainbow Core"
+    "ko": "프리즘의 분산",
+    "en": "Prismatic Dispersion"
   },
   "description": {
-    "ko": "빛이 유리에서 굴절되어 스펙트럼의 숨겨진 색상을 드러내는 가장 역동적인 순간을 포착한 작품.",
-    "en": "A capture of light at its most dynamic moment, refracting through glass to reveal the hidden colors of the spectrum."
+    "ko": "백색광이 유리 매질을 통해 고유한 색상으로 분리되는 순간을 포착한 빛의 과학을 아름답게 표현한 작품입니다. 이 이미지는 광학 물리학의 명료함, 정밀함, 그리고 자연스러운 아름다움을 강조합니다.",
+    "en": "A beautiful representation of light science, capturing the exact moment white light splits into its constituent colors through a glass medium. The image emphasizes clarity, precision, and the natural beauty of optical physics."
   },
-  "prompt": "An intricate glass polyhedral fractal hit by a concentrated beam of white light, exploding into a web of #FF0080, #00FF80, and #8000FF spectral shards. Intense light dispersion, rainbow caustics, and #FFFF00 chromatic aberration at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits into pure energy within a dark void. Global illumination and cinematic lighting capture the prismatic energy and the rainbow-saturated atmosphere contained within the glass.",
+  "prompt": "A high-resolution macro photography shot of a triangular crystal prism refracting a single beam of pure white light into a vivid, scattered rainbow spectrum. The background is a clean, minimalist soft-grey studio setting. Intricate caustic light patterns on the surface, sharp focus on the glass edges, ethereal glow, hyper-realistic textures, 8k resolution, cinematic lighting.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#FF0080",
     "--dynamic-secondary": "#00FF80",
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-01-31T00:29:28.672+09:00"
+  "generatedAt": "2026-02-02T23:18:58.174+09:00"
 }

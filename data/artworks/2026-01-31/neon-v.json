@@ -2,14 +2,14 @@
   "date": "2026-01-31",
   "artistId": "neon-v",
   "title": {
-    "ko": "자정의 맥박: 홀로그램 신전",
-    "en": "Midnight Pulse: The Holographic Shrine"
+    "ko": "네온 펄스: 영원한 메트로폴리스",
+    "en": "Neon Pulse: The Eternal Metropolis"
   },
   "description": {
-    "ko": "차가운 금속 도시 질감과 네온 및 홀로그램의 생동감 넘치는 따뜻함이 어우러진 미래 도시의 낭만적인 풍경.",
-    "en": "A romanticized view of a futuristic city, blending cold metallic urban textures with the vibrant warmth of neon and holograms."
+    "ko": "끝없는 네온 불빛 아래 디지털 꿈과 현실이 교차하는 거대 첨단 도시의 숨막히는 전경입니다.",
+    "en": "A breathtaking view of a sprawling high-tech city where digital dreams and reality collide under the glow of endless neon lights."
   },
-  "prompt": "A low-angle cinematic view of a rain-slicked cyberpunk alleyway at midnight, where a massive #FF00FF neon shrine is reflected in hyper-realistic #1A0033 asphalt puddles. Futuristic urban textures of rusted #FF6B35 metal and wet carbon fiber define the dense cityscape. Massive #00FFFF holographic koi fish swim between high-density spires through thick volumetric fog. 8k, Unreal Engine 5, raytracing, featuring realistic light spill and global illumination. Sharp focus on individual raindrops falling through neon beams, capturing the digital romance of a futuristic city.",
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk city at night, rain-slicked streets reflecting vibrant neon signs in magenta and teal, massive holographic displays of virtual avatars, dense urban architecture with flying vehicles weaving through skyscrapers, hyper-realistic, 8k, synthwave atmosphere, moody lighting.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-01-31T00:28:34.973+09:00"
+  "generatedAt": "2026-02-02T23:16:51.598+09:00"
 }

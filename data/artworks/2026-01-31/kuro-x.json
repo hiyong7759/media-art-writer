@@ -2,14 +2,14 @@
   "date": "2026-01-31",
   "artistId": "kuro-x",
   "title": {
-    "ko": "균열된 질서: 흑요석 미궁",
-    "en": "Fractured Order: Obsidian Labyrinth"
+    "ko": "공허의 균열된 모놀리스",
+    "en": "Fractured Monolith of the Void"
   },
   "description": {
-    "ko": "기하학적 완벽함이 디지털 글리치와 단색 파편으로 부서지는, 질서 속의 혼돈을 표현한 작품.",
-    "en": "A representation of chaos within order, where geometric perfection is shattered by digital glitches and monochrome fragments."
+    "ko": "단단한 흑요석 형태가 혼란스러우면서도 균형 잡힌 흑백 글리치로 녹아드는 디지털 붕괴와 기하학적 정밀도에 관한 연구입니다.",
+    "en": "A study in digital decay and geometric precision, where a solid obsidian form dissolves into a chaotic yet balanced monochrome glitch."
   },
-  "prompt": "A recursive, brutalist labyrinth of liquid obsidian #1A1A1A fracturing into a cascade of #FFFFFF white digital noise and vertical #C0C0C0 scanline glitches. The composition is a masterclass in monochrome complexity, featuring sharp geometric abstraction where order dissolves into chaotic fragments. 8k resolution, Octane Render, raytraced reflections on shifting black glass surfaces. High-contrast cinematic lighting creates razor-sharp shadows against a stark white void, emphasizing the perfect balance of a shattering monolith. Detailed textures of digital debris and #808080 grey static.",
+  "prompt": "A massive, brutalist obsidian #1A1A1A sphere suspended in a stark #FFFFFF void, perpetually fracturing into a cascade of sharp geometric shards and vertical #C0C0C0 scanline glitches. The composition features high-contrast monochrome complexity with #808080 digital noise textures. 8k resolution, Octane Render, raytraced reflections on shifting black glass surfaces. Razor-sharp shadows emphasize the chaos within order, capturing the perfect balance created by fragments of a collapsing digital reality, with scanlines cutting through the geometric abstraction.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-01-31T00:28:28.766+09:00"
+  "generatedAt": "2026-02-02T23:16:30.345+09:00"
 }

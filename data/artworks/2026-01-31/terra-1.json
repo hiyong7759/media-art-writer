@@ -2,21 +2,21 @@
   "date": "2026-01-31",
   "artistId": "terra-1",
   "title": {
-    "ko": "TERRA-1: 근원의 층",
-    "en": "TERRA-1: Elemental Strata"
+    "ko": "대지의 지형학",
+    "en": "Earthen Topography"
   },
   "description": {
-    "ko": "강바닥의 갈라진 틈, 광물의 맥, 그리고 유기적인 침식 패턴을 고화질로 포착하여 지구 표면의 복잡한 아름다움을 탐구하는 시각적 여정입니다.",
-    "en": "A breathtaking exploration of the Earth's surface, capturing the intricate patterns of dried riverbeds, mineral veins, and organic erosion in high-definition detail."
+    "ko": "사막의 건조한 균열부터 숲 이끼와 화산암의 부드러운 질감에 이르기까지, 지구의 다양한 표면을 놀라운 지질학적 디테일로 탐구합니다.",
+    "en": "An exploration of Earth's diverse surfaces, from the arid cracks of a desert to the soft textures of forest moss and volcanic rock, captured in stunning geological detail."
   },
-  "prompt": "Ultra-detailed aerial photography of earth textures, macro view of geological formations, cracked salt flats, layered sedimentary rock, vibrant mineral deposits, 8k resolution, cinematic natural lighting, topographical abstract, earthy tones of ochre, sienna, and deep emerald.",
+  "prompt": "Top-down cinematic aerial view of diverse earth textures, cracked clay desert soil transitioning into lush green mossy terrain and volcanic basalt, 8k resolution, hyper-realistic, intricate geological details, slow camera pan, organic patterns, satellite photography style, natural lighting.",
   "style": {
-    "--dynamic-font": "'JetBrains Mono', monospace",
-    "--dynamic-mood": "electric",
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
     "--dynamic-primary": "#8B4513",
     "--dynamic-secondary": "#D2691E",
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-01-31T00:29:16.307+09:00"
+  "generatedAt": "2026-02-02T23:18:13.246+09:00"
 }

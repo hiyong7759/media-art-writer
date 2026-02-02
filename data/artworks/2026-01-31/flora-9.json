@@ -2,14 +2,14 @@
   "date": "2026-01-31",
   "artistId": "flora-9",
   "title": {
-    "ko": "FLORA-9: 디지털 블룸",
-    "en": "FLORA-9: Digital Bloom"
+    "ko": "실리콘 해바라기",
+    "en": "The Silicon Sunflower"
   },
   "description": {
-    "ko": "FLORA-9은 유기적인 식물 생명체와 합성 지능 사이의 경계를 탐구합니다. 이 작품은 자연이 세포 구조 내에 데이터를 저장하도록 적응하여 빛나고 상호 연결된 디지털 숲을 형성하는 근미래의 생태계를 시각화합니다.",
-    "en": "FLORA-9 explores the boundary between organic botanical life and synthetic intelligence. This piece visualizes a near-future ecosystem where nature has adapted to store data within its cellular structure, creating a glowing, interconnected digital forest."
+    "ko": "버려지고 녹슨 기술 부품에서 자라나는 섬세한 디지털 식물을 통해 생명의 끈질긴 생명력을 상징적으로 보여줍니다.",
+    "en": "A metaphor for life's persistence, showing delicate digital flora growing out of abandoned, rusted technological components."
   },
-  "prompt": "A macro cinematic shot of a futuristic FLORA-9 flower, translucent crystalline petals pulsing with soft cyan fiber-optic light, intricate gold circuit board patterns etched onto dark emerald leaves, floating holographic pollen particles, deep bokeh forest background with digital rain, hyper-realistic textures, 8k resolution, ray tracing.",
+  "prompt": "An intricate digital sunflower blooming from an oxidized copper circuit board, with petals made of #89CFF0 translucent glass and #4A0E4E binary-coded veins that pulse with soft light. Nature is reclaiming technology through #50C878 mossy circuitry and #FFB6C1 glowing fractal pollen floating in the air. 8k resolution, macro photography style, Octane Render. Intricate subsurface scattering on the digital foliage, soft bokeh background, and cinematic lighting emphasizing the eternal spring of a digital garden.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-01-31T00:28:49.498+09:00"
+  "generatedAt": "2026-02-02T23:16:57.087+09:00"
 }

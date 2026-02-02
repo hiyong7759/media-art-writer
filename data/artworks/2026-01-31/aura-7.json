@@ -2,21 +2,21 @@
   "date": "2026-01-31",
   "artistId": "aura-7",
   "title": {
-    "ko": "숨쉬는 에메랄드 대성당",
-    "en": "The Emerald Cathedral of Breath"
+    "ko": "에메랄드 심연의 박동하는 심장",
+    "en": "The Pulsing Heart of the Emerald Abyss"
   },
   "description": {
-    "ko": "이끼와 빛이 숨쉬는 수중 구조물로 융합되어 생명의 흐름을 상징하는 유기적 건축의 경이로움.",
-    "en": "An organic architectural marvel where moss and light merge into a breathing underwater structure, symbolizing the flow of life."
+    "ko": "이끼 같은 생물학적 구조를 통해 흐르는 빛의 리드미컬한 박동에 초점을 맞춘, 수중 유기 생명체에 대한 매우 상세한 탐구입니다.",
+    "en": "A highly detailed exploration of organic life underwater, focusing on the rhythmic pulse of light through moss-like biological structures."
   },
-  "prompt": "A sprawling, pulsating neural network of bioluminescent #7FB069 emerald moss and #FFE66D glowing liquid sap, manifesting as a living cathedral in a deep #2D5A3D underwater trench. The structure is composed of translucent organic membranes and flowing liquid light tendrils that rhythmically breathe with nature. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Heavy subsurface scattering on the mossy fibers, volumetric light shafts piercing through dark water, and #E6F2E1 floating spores creating a sense of organic flow. Cinematic lighting highlights the microscopic texture of the breathing light of nature.",
+  "prompt": "A microscopic, cinematic view of a breathing heart-chamber formed from translucent #7FB069 emerald moss and #2D5A3D vascular vines, pulsing with rhythmic #FFE66D liquid sap. The organ is suspended in a deep #2D5A3D underwater trench, surrounded by drifting #E6F2E1 bioluminescent spores and wispy glowing tendrils. Intense subsurface scattering on the mossy membranes creates a soft, living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic volumetric light shafts pierce through the dark green water, highlighting the fluid flow of organic energy and the microscopic texture of the breathing light of nature.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-mood": "serene",
     "--dynamic-primary": "#2D5A3D",
     "--dynamic-secondary": "#7FB069",
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-01-31T00:28:22.574+09:00"
+  "generatedAt": "2026-02-02T23:16:22.970+09:00"
 }
