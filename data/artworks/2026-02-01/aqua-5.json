@@ -2,21 +2,21 @@
   "date": "2026-02-01",
   "artistId": "aqua-5",
   "title": {
-    "ko": "AQUA-5: 심해의 지평선",
-    "en": "AQUA-5: The Abyssal Horizon"
+    "ko": "아쿠아-5: 심해의 개척지",
+    "en": "AQUA-5: The Abyssal Frontier"
   },
   "description": {
-    "ko": "해수면 아래 10,000미터 지점에 위치한 최첨단 심해 연구 기지로, 바다의 가장 극단적인 깊이에 숨겨진 미스터리를 연구하기 위해 설계되었습니다.",
-    "en": "A cutting-edge deep-sea research outpost stationed 10,000 meters below the surface, designed to study the mysteries of the ocean's most extreme depths."
+    "ko": "영원한 어둠과 미지의 해양 생물들 사이에서 한 줄기 빛으로 우뚝 선 아쿠아-5와 함께 압도적인 수심의 미드나잇 존으로 내려가 보세요.",
+    "en": "Descend into the crushing depths of the midnight zone where AQUA-5 stands as a beacon of light amidst eternal darkness and undiscovered marine life."
   },
-  "prompt": "A cinematic, ultra-realistic shot of AQUA-5, a high-tech spherical research station anchored in the Hadal zone. The station features glowing blue observation ports and titanium hulls, surrounded by bioluminescent jellyfish and hydrothermal vents. The water is dark and pressurized, with particles of marine snow illuminated by the facility's floodlights.",
+  "prompt": "Cinematic wide shot of the AQUA-5 underwater facility submerged in the deepest trench of the ocean, glowing bioluminescent coral reefs, mysterious giant sea creatures swimming in the distance, dark navy and neon cyan color palette, volumetric lighting rays piercing through the dark water, hyper-realistic, 8k resolution, intricate details.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "mysterious",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#006994",
     "--dynamic-secondary": "#40E0D0",
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-02-01T00:20:22.346+09:00"
+  "generatedAt": "2026-02-02T23:55:48.334+09:00"
 }

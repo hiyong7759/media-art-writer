@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "aura-7",
   "title": {
-    "ko": "심해의 초록 허파",
-    "en": "The Lung of the Verdant Abyss"
+    "ko": "에메랄드의 숨쉬는 심연",
+    "en": "Breathing Depths of Emerald"
   },
   "description": {
-    "ko": "어두운 수중 숲에서 생물 발광 에너지를 내뿜으며 호흡하는 이끼 기반 유기체의 정교한 탐구.",
-    "en": "A highly detailed exploration of a living, breathing moss-based organ pulsing with bioluminescent energy in a dark underwater forest."
+    "ko": "유기적 에너지와 생물 발광 빛으로 고동치는 심해의 생물학적 엔진으로, 유기적 흐름의 정수를 담고 있습니다.",
+    "en": "A deep-sea biological engine pulsing with organic energy and bioluminescent light, capturing the essence of organic flow."
   },
-  "prompt": "A microscopic cinematic view of a breathing respiratory-like organ made of translucent #7FB069 emerald moss and #2D5A3D dark-green vascular networks, pulsing with rhythmic #FFE66D liquid light. The structure is suspended in a deep underwater atmosphere with #E6F2E1 floating bioluminescent spores. Heavy subsurface scattering on the organic membranes creates a soft, living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic volumetric light shafts pierce through the water, highlighting the fluid flow of organic energy through the mossy fibers and the microscopic texture of the breathing light of nature.",
+  "prompt": "A microscopic, cinematic view of a celestial respiratory engine made of translucent #7FB069 emerald moss and #2D5A3D vascular networks, pulsing with rhythmic #FFE66D liquid light. The structure is suspended in a deep #2D5A3D underwater trench with #E6F2E1 floating bioluminescent spores. Intense subsurface scattering on the mossy membranes creates a soft, living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic. Cinematic volumetric light shafts pierce through the dark water, highlighting the fluid flow of organic energy through the breathing light of nature.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#E6F2E1",
     "--dynamic-quaternary": "#FFE66D"
   },
-  "generatedAt": "2026-02-01T00:17:32.406+09:00"
+  "generatedAt": "2026-02-02T23:53:41.338+09:00"
 }

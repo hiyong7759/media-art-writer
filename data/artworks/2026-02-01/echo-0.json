@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "echo-0",
   "title": {
-    "ko": "ECHO-0의 공명 주파수",
-    "en": "Resonant Frequencies of ECHO-0"
+    "ko": "ECHO-0: 공명하는 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
   },
   "description": {
-    "ko": "가상 공간에서 생동감 넘치는 빛의 입자와 기하학적 추상을 통해 음파를 시각화하여 음향 공명의 본질을 포착한 매혹적인 디지털 아트 작품입니다.",
-    "en": "A mesmerizing digital art piece visualizing sound waves through vibrant, flowing light particles and geometric abstractions, capturing the essence of acoustic resonance in a virtual space."
+    "ko": "음파와 음향적 메아리를 시각적으로 탐구하며, 소리의 패턴을 빛과 기하학의 역동적인 건축적 풍경으로 변환합니다.",
+    "en": "A visual exploration of sonic waves and acoustic echoes, translating sound patterns into a dynamic architectural landscape of light and geometry."
   },
-  "prompt": "High-resolution digital visualization of sound waves, ECHO-0 aesthetic, kinetic light particles, oscillating geometric patterns, deep blue and neon violet color palette, fluid motion, 8k resolution, cinematic lighting, synthwave influence, abstract representation of acoustic resonance.",
+  "prompt": "Cinematic 3D visualization of sound waves, ECHO-0 aesthetic, intricate geometric patterns of glowing light, holographic frequencies rippling through a dark void, minimalist architecture, cyan and amber neon pulses, 8k resolution, mathematical beauty, crystalline structure of audio data.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-02-01T00:18:42.898+09:00"
+  "generatedAt": "2026-02-02T23:55:02.203+09:00"
 }

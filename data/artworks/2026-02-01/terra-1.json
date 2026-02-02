@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "terra-1",
   "title": {
-    "ko": "TERRA-1: 대지의 혈관",
-    "en": "TERRA-1: Terrestrial Veins"
+    "ko": "대지의 근원적 질감",
+    "en": "Primal Earth Textures"
   },
   "description": {
-    "ko": "지구 표면에 대한 거시적 탐구로, 우리 행성의 가공되지 않은 정교한 질감을 포착합니다. 메마른 사막의 균열부터 미네랄이 풍부한 삼각주의 유동적인 아름다움까지, 자연의 리듬미컬한 패턴을 시각화합니다.",
-    "en": "A macroscopic exploration of the Earth's surface, capturing the raw and intricate textures of our planet. This piece visualizes the rhythmic patterns of nature, from arid desert cracks to the fluid beauty of mineral-rich deltas."
+    "ko": "지구 표면의 시각적 탐구로, 조감도 시점에서 바라본 지질학적 형성물의 가공되지 않은 복합적인 아름다움을 포착합니다.",
+    "en": "A stunning visual exploration of the Earth's surface, capturing the raw and complex beauty of geological formations from a bird's-eye perspective."
   },
-  "prompt": "High-resolution satellite photography of abstract earth textures, top-down aerial view, intricate patterns of dried riverbeds, swirling salt flats, deep canyons, lush forest moss, vibrant mineral deposits in oxidized soil, hyper-detailed geological formations, cinematic lighting, 8k resolution, organic textures",
+  "prompt": "High-resolution satellite view of diverse Earth textures, aerial macro photography of cracked salt flats, deep orange Saharan sand dunes, and vibrant turquoise mineral veins, intricate geological patterns, hyper-realistic details, cinematic natural lighting, 8k resolution.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#F4A460",
     "--dynamic-quaternary": "#2F4F4F"
   },
-  "generatedAt": "2026-02-01T00:19:52.193+09:00"
+  "generatedAt": "2026-02-02T23:55:35.508+09:00"
 }

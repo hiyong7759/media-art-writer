@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "flora-9",
   "title": {
-    "ko": "FLORA-9: 네온 블룸",
-    "en": "FLORA-9: The Neon Bloom"
+    "ko": "FLORA-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
   },
   "description": {
-    "ko": "유기적 식물과 사이버네틱 구조의 매혹적인 융합으로, 디지털 숲 속에서 광섬유 빛으로 맥동하는 수정 꽃잎을 보여줍니다.",
-    "en": "A mesmerizing fusion of organic flora and cybernetic architecture, where crystalline petals pulse with fiber-optic light amidst a digital forest."
+    "ko": "유기적 생명과 디지털 구조의 교차점을 탐구하며, DNA와 코드가 생물 발광의 활기찬 디스플레이로 수렴되는 미래형 표본을 보여줍니다.",
+    "en": "An exploration of the intersection between organic life and digital architecture, featuring a futuristic specimen where DNA and code converge in a vibrant display of bioluminescence."
   },
-  "prompt": "A cinematic close-up of FLORA-9, a high-tech synthetic plant with translucent glass leaves, glowing internal circuitry, iridescent pollen particles floating in the air, digital glitch aesthetics, 8k resolution, Unreal Engine 5 render, synthwave lighting, macro photography.",
+  "prompt": "Hyper-realistic cinematic close-up of 'FLORA-9', a synthetic bioluminescent orchid with translucent petals displaying moving digital data streams, fiber-optic glowing stamen, microchip patterns etched into organic leaves, floating holographic pollen particles, deep forest background with neon teal and violet atmospheric lighting, 8k resolution, photorealistic botanical cyberpunk.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-02-01T00:18:13.768+09:00"
+  "generatedAt": "2026-02-02T23:54:41.451+09:00"
 }

@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "neon-v",
   "title": {
-    "ko": "네온 신전의 반사",
-    "en": "Reflections of the Neon Shrine"
+    "ko": "네온 펄스: 수직의 개척지",
+    "en": "Neon Pulse: The Vertical Frontier"
   },
   "description": {
-    "ko": "금속, 물, 그리고 활기찬 네온 조명 사이의 낭만적인 상호작용에 초점을 맞춘 비 내리는 고밀도 사이버펑크 거리 풍경.",
-    "en": "A rainy, high-density cyberpunk street scene focusing on the romantic interplay between metal, water, and vibrant neon light."
+    "ko": "거대한 유리 구조물과 빛나는 광고판이 지평선을 장식하는 거대한 사이버펑크 대도시의 숨막히는 전경입니다. NEON-V 미학은 짙은 그림자와 선명하고 포화된 빛 사이의 날카로운 대비를 강조합니다.",
+    "en": "A breathtaking view of a sprawling cyberpunk metropolis, where towering glass structures and glowing advertisements define the horizon. The NEON-V aesthetic emphasizes the sharp contrast between deep shadows and brilliant, saturated light."
   },
-  "prompt": "A low-angle cinematic view of a rain-drenched #1A0033 cyberpunk alleyway, saturated with #FF00FF and #00FFFF neon reflections in hyper-realistic asphalt puddles. A massive holographic shrine glows with #FF6B35 light, reflecting off rusted metal catwalks and wet carbon fiber textures. 8k, Unreal Engine 5, raytracing. Deep volumetric fog and realistic light spill from high-density urban structures capture the digital romance of a futuristic city, with a sharp focus on individual rain droplets hitting metallic surfaces.",
+  "prompt": "Futuristic cyberpunk cityscape, NEON-V style, vibrant neon glows in electric blue and magenta, hyper-detailed skyscrapers with holographic advertisements, flying vehicles weaving through vertical canyons, rain-slicked streets with high-contrast reflections, synthwave aesthetic, 8k resolution, cinematic lighting, dense atmosphere",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#1A0033",
     "--dynamic-quaternary": "#FF6B35"
   },
-  "generatedAt": "2026-02-01T00:17:44.935+09:00"
+  "generatedAt": "2026-02-02T23:54:18.458+09:00"
 }

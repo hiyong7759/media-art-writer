@@ -2,14 +2,14 @@
   "date": "2026-02-01",
   "artistId": "kuro-x",
   "title": {
-    "ko": "부서진 질서의 모놀리스",
-    "en": "Monolith of Shattered Order"
+    "ko": "재귀적 균열",
+    "en": "Recursive Rupture"
   },
   "description": {
-    "ko": "디지털 붕괴의 영속적인 상태에 갇힌 거대한 구조물을 묘사한 흑백 기하학적 추상화.",
-    "en": "A black and white geometric abstraction depicting a monumental structure caught in a perpetual state of digital disintegration."
+    "ko": "단단한 모놀리스가 디지털 카오스와 스캔라인 파편으로 부서지는 기하학적 붕괴에 대한 극명한 탐구입니다.",
+    "en": "A stark exploration of geometric disintegration, where a solid monolith breaks into digital chaos and scanline fragments."
   },
-  "prompt": "A massive, brutalist obsidian #1A1A1A monument frozen in the middle of a recursive glitch, fracturing into a cascade of sharp geometric shards and vertical #C0C0C0 scanlines against a stark #FFFFFF void. The composition features high-contrast monochrome complexity with #808080 digital noise textures. 8k resolution, Octane Render, raytraced reflections on shifting black glass surfaces. Razor-sharp shadows emphasize the chaos within order, capturing the perfect balance created by fragments of a collapsing digital reality.",
+  "prompt": "A massive, brutalist obsidian #1A1A1A monument suspended in a stark #FFFFFF void, mid-collapse and fracturing into a recursive torrent of sharp #808080 geometric shards and vertical #C0C0C0 scanline glitches. The composition features high-contrast monochrome complexity with deep digital noise textures and raytraced reflections on the fragmented black glass surfaces. 8k resolution, Octane Render. Razor-sharp shadows emphasize the chaos within order, capturing the perfect balance of a disintegrating digital reality.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-02-01T00:17:38.674+09:00"
+  "generatedAt": "2026-02-02T23:53:46.786+09:00"
 }
