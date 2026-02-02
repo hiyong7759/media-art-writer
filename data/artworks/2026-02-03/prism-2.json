@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 굴절: 숨겨진 스펙트럼",
+    "en": "Prism Refraction: The Hidden Spectrum"
+  },
+  "description": {
+    "ko": "백색광이 유리 프리즘을 통해 선명한 무지개색으로 분산되는 찰나의 순간을 포착한 빛의 물리 현상의 우아한 시각화입니다.",
+    "en": "An elegant visualization of light physics, capturing the precise moment white light breaks into a vibrant array of colors through a glass prism."
+  },
+  "prompt": "A macro shot of a sleek, triangular crystal prism resting on a dark reflective surface. A single sharp beam of white light enters the glass and disperses into a brilliant, wide-angled rainbow spectrum. The scene features soft caustic patterns, elegant lens flares, and hyper-realistic glass textures. 8k resolution, cinematic lighting, sharp focus on the refraction point.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-03T00:34:44.994+09:00"
+}

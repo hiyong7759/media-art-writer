@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 지평선",
+    "en": "VOID-3: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "고대 특이점 주위로 빛이 휘어지고 우주의 정적이 미지의 세계에 대해 많은 것을 이야기하는, 우주의 가장 어두운 곳으로 떠나는 몰입형 여정입니다.",
+    "en": "An immersive journey into the darkest reaches of the universe, where light bends around ancient singularities and the cosmic silence speaks volumes of the unknown."
+  },
+  "prompt": "Cinematic wide shot of VOID-3 in the cosmic deep, swirling gravitational anomalies, obsidian nebulae with bioluminescent violet dust, massive black hole event horizon, distorted starlight, hyper-realistic cosmic textures, 8k resolution, ethereal and lonely atmosphere, deep space exploration aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-03T00:34:11.498+09:00"
+}

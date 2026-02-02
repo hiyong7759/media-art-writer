@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 광채",
+    "en": "AQUA-5: Abyssal Glow"
+  },
+  "description": {
+    "ko": "영원한 어둠이 깔린 심해 속에서 생체 발광 생물들이 신비로운 네온 빛으로 어둠을 밝히는 고요하고 경이로운 심연의 세계를 탐험해보세요.",
+    "en": "Explore the silent mysteries of the deep ocean, where bioluminescent organisms illuminate the eternal darkness of the abyss with ethereal neon light."
+  },
+  "prompt": "Cinematic shot of a bioluminescent underwater world in the Hadal zone, glowing neon aquatic life, mysterious deep-sea trenches, ethereal atmosphere, high detail, 8k, dark blue and violet tones, photorealistic texture.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-03T00:34:32.583+09:00"
+}

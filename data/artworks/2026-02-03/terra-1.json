@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "대지의 단층",
+    "en": "Earthen Strata"
+  },
+  "description": {
+    "ko": "흙, 바위, 광물 형성의 가공되지 않은 아름다움을 매크로 렌즈를 통해 보여주는 지구의 복잡한 질감에 대한 추상적 표현입니다.",
+    "en": "An abstract representation of Earth's complex textures, showcasing the raw beauty of soil, rock, and mineral formations through a macro lens."
+  },
+  "prompt": "Macro photography of layered earth textures, cracked clay, mineral veins, earthy tones of sienna and ochre, high detail, cinematic lighting, 8k resolution, geological patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-03T00:34:21.106+09:00"
+}

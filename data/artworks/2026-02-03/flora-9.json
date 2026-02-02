@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 합성의 조화",
+    "en": "FLORA-9: The Synthetic Synthesis"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 데이터의 경계를 시각적으로 탐구한 작품으로, 햇빛 대신 전자기 주파수를 먹고 자라는 플로라-9 표본을 묘사합니다.",
+    "en": "A visual exploration of the boundary between organic life and digital data, where the FLORA-9 specimen thrives on electromagnetic frequencies instead of sunlight."
+  },
+  "prompt": "A high-tech bioluminescent flower named FLORA-9, featuring translucent crystalline petals with integrated fiber-optic veins, growing from a dark metallic motherboard landscape, holographic particles floating around the bloom, neon cyan and violet lighting, 8k resolution, hyper-realistic, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-03T00:33:47.473+09:00"
+}

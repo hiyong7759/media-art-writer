@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-03",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 제1구역",
+    "en": "Neon Pulse: District 01"
+  },
+  "description": {
+    "ko": "한밤중의 빗줄기를 뚫고 선명한 네온 불빛이 빛나는 거대한 미래 메트로폴리스로, 첨단 기술의 건축물과 도시의 신비로움이 공존하는 세계를 보여줍니다.",
+    "en": "A sprawling futuristic metropolis where vibrant neon lights pierce through the midnight rain, showcasing a world of high-tech architecture and urban mystery."
+  },
+  "prompt": "Cyberpunk city at night, heavy rain, glowing neon signs in cyan and magenta, futuristic flying cars between skyscrapers, cinematic lighting, hyper-realistic, 8k resolution, intricate details, dark synthwave atmosphere, wet asphalt reflections",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-03T00:33:35.053+09:00"
+}
