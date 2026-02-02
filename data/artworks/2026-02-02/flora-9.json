@@ -2,21 +2,21 @@
   "date": "2026-02-02",
   "artistId": "flora-9",
   "title": {
-    "ko": "실리콘 꽃의 영원한 봄",
-    "en": "The Silicon Blossom's Eternal Spring"
+    "ko": "플로라-9: 회로의 개화",
+    "en": "FLORA-9: The Circuit Bloom"
   },
   "description": {
-    "ko": "자연과 기술이 빛과 코드의 단일하고 불멸인 정원으로 병합되는 미래에 대한 탐구입니다.",
-    "en": "An exploration of a future where nature and technology merge into a single, immortal garden of light and code."
+    "ko": "유기적 생명체와 첨단 기술이 융합된 세계로의 숨막히는 시각적 여정입니다. 이 시리즈는 디지털 아티팩트, 맥동하는 데이터, 합성 발광을 통해 재해석된 자연의 아름다움을 탐구합니다.",
+    "en": "A breathtaking visual journey into a world where organic life and advanced technology merge. This series explores the beauty of nature reinterpreted through digital artifacts, pulsing data, and synthetic luminescence."
   },
-  "prompt": "A macro shot of a digital cherry blossom tree with branches made of #89CFF0 translucent glass fibers and petals of #FFB6C1 fractal code blooming with soft light. Growing from a base of #4A0E4E oxidized copper microchips and #50C878 mossy circuitry. Nature reclaiming technology through binary-coded petals. 8k resolution, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage and a soft bokeh background emphasize the delicate intersection of organic life and silicon.",
+  "prompt": "A high-tech digital forest where translucent flowers are woven from glowing fiber-optic cables and liquid data streams, circuit board textures on broad leaves, bioluminescent spores floating in the air, glitch aesthetics, volumetric neon lighting, 8k resolution, cinematic atmosphere, synthwave color palette.",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "serene",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#4A0E4E",
     "--dynamic-secondary": "#89CFF0",
     "--dynamic-tertiary": "#50C878",
     "--dynamic-quaternary": "#FFB6C1"
   },
-  "generatedAt": "2026-02-02T00:19:24.330+09:00"
+  "generatedAt": "2026-02-02T23:58:11.496+09:00"
 }

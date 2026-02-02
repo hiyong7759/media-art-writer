@@ -2,21 +2,21 @@
   "date": "2026-02-02",
   "artistId": "echo-0",
   "title": {
-    "ko": "사파이어 구체의 공명",
-    "en": "Resonance of the Sapphire Sphere"
+    "ko": "ECHO-0: 조화로운 진동",
+    "en": "ECHO-0: Harmonic Vibrations"
   },
   "description": {
-    "ko": "침묵의 빈 공간에서 액체 물질을 통해 물결치는 소리의 물리적 무게와 시각적 아름다움을 포착했습니다.",
-    "en": "Capturing the physical weight and visual beauty of sound as it ripples through liquid matter in a silent void."
+    "ko": "복잡한 오디오 주파수를 유동적이고 빛나는 건축적 형태로 번역하여 움직이는 소리의 순수한 본질을 포착하는 몰입형 시각적 여정입니다.",
+    "en": "An immersive visual journey that translates complex audio frequencies into fluid, glowing architectural forms, capturing the raw essence of sound in motion."
   },
-  "prompt": "A sphere of liquid #4169E1 sapphire suspended in a silent void, reacting to a powerful low-frequency soundwave by forming #FFD700 golden cymatic mandalas. Minimalist lines in #FF4500 and #32CD32 intersect the form, visualizing soundwaves through vibrating frequencies. 8k, Octane Render, raytracing. High-speed motion blur on the edges of the vibrating liquid metal, sharp focus on the central resonance. Global illumination reflects the visual consonance of sound as physical weight.",
+  "prompt": "Cinematic macro shot of fluid 3D sound waves, iridescent glowing particles reacting to deep bass frequencies, rhythmic geometric displacements in a dark obsidian void, neon cyan and electric violet lighting, 8k resolution, abstract motion graphics, high-speed shutter effect",
   "style": {
-    "--dynamic-font": "'Outfit', sans-serif",
-    "--dynamic-mood": "rhythmic",
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
     "--dynamic-primary": "#FF4500",
     "--dynamic-secondary": "#4169E1",
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-02-02T00:19:30.570+09:00"
+  "generatedAt": "2026-02-02T23:58:24.650+09:00"
 }

@@ -2,14 +2,14 @@
   "date": "2026-02-02",
   "artistId": "aqua-5",
   "title": {
-    "ko": "심해의 발광: AQUA-5의 핵심",
-    "en": "Abyssal Luminescence: The Core of AQUA-5"
+    "ko": "심해의 광휘: AQUA-5",
+    "en": "Abyssal Luminescence: AQUA-5"
   },
   "description": {
-    "ko": "생물 발광 생물들이 번성하는 신비로운 바다 깊은 곳을 탐험하세요. AQUA-5는 미드나이트 존의 천상적인 빛과 압도적인 아름다움을 포착하여 숨겨진 생태계와 고대 지형을 드러냅니다.",
-    "en": "Explore the mysterious depths of the ocean where bioluminescent creatures thrive. AQUA-5 captures the ethereal glow and pressurized beauty of the midnight zone, revealing hidden ecosystems and ancient formations."
+    "ko": "햇빛이 전혀 닿지 않는 바다의 가장 깊은 곳으로 여행을 떠나세요. AQUA-5는 거대한 수압과 발견되지 않은 심해 생물들의 마법 같은 불빛 사이에서 인류 지혜의 등불로 서 있습니다.",
+    "en": "Journey to the furthest reaches of the ocean floor, where sunlight never touches. AQUA-5 stands as a beacon of human ingenuity amidst the crushing pressure and the magical glow of undiscovered deep-sea life."
   },
-  "prompt": "Cinematic underwater photography of the deep ocean's midnight zone, bioluminescent jellyfish and glowing coral reefs, deep navy and electric blue color palette, high pressure atmosphere, ethereal lighting, ultra-detailed textures, 8k resolution, AQUA-5 aesthetic style.",
+  "prompt": "Cinematic wide shot of the deep ocean's abyssal zone featuring the AQUA-5 underwater base, illuminated by ethereal neon blue and violet bioluminescent flora. Giant glowing jellyfish float silently past metallic structures. Volumetric lighting, floating marine snow particles, high detail, 8k resolution, photorealistic, serene yet mysterious atmosphere.",
   "style": {
     "--dynamic-font": "'Outfit', sans-serif",
     "--dynamic-mood": "serene",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#000080",
     "--dynamic-quaternary": "#48D1CC"
   },
-  "generatedAt": "2026-02-02T00:20:02.426+09:00"
+  "generatedAt": "2026-02-02T23:59:03.012+09:00"
 }

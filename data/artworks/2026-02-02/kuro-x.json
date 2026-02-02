@@ -2,14 +2,14 @@
   "date": "2026-02-02",
   "artistId": "kuro-x",
   "title": {
-    "ko": "모노크롬 보이드의 부서진 균형",
-    "en": "Shattered Equilibrium in the Monochrome Void"
+    "ko": "KURO-X: 기하학적 글리치",
+    "en": "KURO-X: Geometric Glitch"
   },
   "description": {
-    "ko": "경직된 기하학적 구조와 디지털 엔트로피의 교차점을 탐구하며, 파편의 혼돈 속에서 완벽한 균형을 찾아냅니다.",
-    "en": "A study on the intersection of rigid geometry and digital entropy, finding a perfect balance within the chaos of fragments."
+    "ko": "KURO-X가 날카로운 기하학적 형상과 강렬한 시각적 왜곡을 통해 나타나는 디지털 불안정성에 대한 탐구로, 정교한 구조와 혼돈스러운 데이터 오류를 결합한 비주얼입니다.",
+    "en": "An exploration of digital instability where KURO-X manifests through sharp geometric shapes and vibrant visual distortions, blending structured design with chaotic data errors."
   },
-  "prompt": "A brutalist #1A1A1A obsidian tower disintegrating into a torrent of sharp geometric shards and #C0C0C0 vertical scanline glitches against a stark #FFFFFF void. The composition features high-contrast monochrome complexity with #808080 digital noise textures and raytraced reflections on the fragmented black glass surfaces. 8k resolution, Octane Render. Razor-sharp shadows emphasize the chaos within order, capturing the perfect balance created by fragments of a collapsing digital reality.",
+  "prompt": "KURO-X cinematic mecha silhouette, geometric glitch art style, fragmented polygonal shards, digital artifacting, chromatic aberration, neon cyan and deep violet accents, sharp edges, data corruption aesthetic, high-tech abstract background, 8k resolution, hyper-detailed, sharp focus.",
   "style": {
     "--dynamic-font": "'JetBrains Mono', monospace",
     "--dynamic-mood": "electric",
@@ -18,5 +18,5 @@
     "--dynamic-tertiary": "#808080",
     "--dynamic-quaternary": "#C0C0C0"
   },
-  "generatedAt": "2026-02-02T00:19:11.880+09:00"
+  "generatedAt": "2026-02-02T23:57:50.262+09:00"
 }
