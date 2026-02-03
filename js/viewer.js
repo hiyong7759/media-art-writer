@@ -36,17 +36,58 @@ class MediaArtViewer {
     this.soundEnabled = false;
     this.soundInitialized = false;
 
+    // Artist navigation
+    this.artistList = [];
+
     this.init();
   }
 
   async init() {
     await this.loadAvailableDates();
+    await this.loadArtistList();
     await this.loadArtist();
     this.setupCanvas();
     this.setupEventListeners();
     this.setupDateControls();
     this.setupSoundControls();
+    this.setupSwipeNavigation();
     this.hideLoading();
+    this.showSwipeHintIfNeeded();
+  }
+
+  // 모바일에서 첫 방문시 스와이프 힌트 표시
+  showSwipeHintIfNeeded() {
+    // 모바일 기기 확인
+    const isMobile = window.matchMedia('(max-width: 768px)').matches ||
+                     ('ontouchstart' in window);
+
+    if (!isMobile) return;
+
+    // 이미 힌트를 본 적이 있는지 확인
+    const hasSeenHint = localStorage.getItem('viewerSwipeHintSeen');
+    if (hasSeenHint) return;
+
+    const swipeHint = document.getElementById('swipeHint');
+    if (!swipeHint) return;
+
+    // 힌트 표시
+    setTimeout(() => {
+      swipeHint.classList.add('show');
+
+      // 3초 후 자동 숨김
+      setTimeout(() => {
+        swipeHint.classList.remove('show');
+        localStorage.setItem('viewerSwipeHintSeen', 'true');
+      }, 3000);
+    }, 1000);
+
+    // 터치 시 즉시 숨김
+    document.addEventListener('touchstart', () => {
+      if (swipeHint.classList.contains('show')) {
+        swipeHint.classList.remove('show');
+        localStorage.setItem('viewerSwipeHintSeen', 'true');
+      }
+    }, { once: true });
   }
 
   setupCanvas() {
@@ -348,6 +389,19 @@ class MediaArtViewer {
     }
   }
 
+  async loadArtistList() {
+    try {
+      const resp = await fetch(`data/artists.json?v=${Date.now()}`);
+      if (resp.ok) {
+        const data = await resp.json();
+        this.artistList = data.artists.map(a => a.id);
+      }
+    } catch (e) {
+      console.warn('Failed to load artist list:', e);
+      this.artistList = [];
+    }
+  }
+
   setupDateControls() {
     const prevBtn = document.getElementById('prevDateBtn');
     const nextBtn = document.getElementById('nextDateBtn');
@@ -430,6 +484,132 @@ class MediaArtViewer {
     window.location.search = params.toString();
   }
 
+  navigateToNextDate() {
+    const currentIndex = this.availableDates.indexOf(this.targetDate);
+    if (currentIndex < this.availableDates.length - 1) {
+      this.navigateToDate(this.availableDates[currentIndex + 1]);
+    }
+  }
+
+  navigateToPrevDate() {
+    const currentIndex = this.availableDates.indexOf(this.targetDate);
+    if (currentIndex > 0) {
+      this.navigateToDate(this.availableDates[currentIndex - 1]);
+    }
+  }
+
+  navigateToArtist(artistId) {
+    const params = new URLSearchParams(window.location.search);
+    params.set('artist', artistId);
+    // 현재 날짜와 모드 유지
+    if (this.engine) {
+      params.set('mode', this.engine.getCurrentMode());
+      params.set('variant', this.engine.getCurrentVariant());
+    }
+    window.location.search = params.toString();
+  }
+
+  navigateToNextArtist() {
+    const currentIndex = this.artistList.indexOf(this.artistId);
+    if (currentIndex < this.artistList.length - 1) {
+      this.navigateToArtist(this.artistList[currentIndex + 1]);
+    }
+  }
+
+  navigateToPrevArtist() {
+    const currentIndex = this.artistList.indexOf(this.artistId);
+    if (currentIndex > 0) {
+      this.navigateToArtist(this.artistList[currentIndex - 1]);
+    }
+  }
+
+  setupSwipeNavigation() {
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
+    const minSwipeDistance = 50;
+    const maxSwipeTime = 300;
+
+    document.addEventListener('touchstart', (e) => {
+      // 버튼/컨트롤 영역만 제외, info-overlay에서는 스와이프 허용
+      if (e.target.closest('.controls, .top-controls, .sound-controls, .back-btn')) {
+        return;
+      }
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchStartTime = Date.now();
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+      // 버튼/컨트롤 영역만 제외, info-overlay에서는 스와이프 허용
+      if (e.target.closest('.controls, .top-controls, .sound-controls, .back-btn')) {
+        return;
+      }
+
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+      const deltaX = touchEndX - touchStartX;
+      const deltaY = touchEndY - touchStartY;
+      const swipeTime = Date.now() - touchStartTime;
+
+      if (swipeTime > maxSwipeTime) return;
+
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+        // 좌우 스와이프 → 날짜 변경
+        if (deltaX > 0) {
+          this.navigateWithTransition(() => this.navigateToPrevDate(), 'right');
+        } else {
+          this.navigateWithTransition(() => this.navigateToNextDate(), 'left');
+        }
+      } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > minSwipeDistance) {
+        // 상하 스와이프 → 작가 변경
+        if (deltaY > 0) {
+          this.navigateWithTransition(() => this.navigateToPrevArtist(), 'down');
+        } else {
+          this.navigateWithTransition(() => this.navigateToNextArtist(), 'up');
+        }
+      }
+    }, { passive: true });
+  }
+
+  // 전환 애니메이션과 함께 네비게이션
+  navigateWithTransition(navigateCallback, direction) {
+    const overlay = document.getElementById('transitionOverlay');
+    const wrapper = document.querySelector('.artwork-wrapper');
+
+    if (!overlay || !wrapper) {
+      navigateCallback();
+      return;
+    }
+
+    // 슬라이드 아웃 애니메이션 적용
+    wrapper.style.transition = 'transform 0.25s ease-out, opacity 0.25s ease-out';
+    wrapper.style.opacity = '0';
+
+    const slideDistance = '30px';
+    switch (direction) {
+      case 'left':
+        wrapper.style.transform = `translateX(-${slideDistance})`;
+        break;
+      case 'right':
+        wrapper.style.transform = `translateX(${slideDistance})`;
+        break;
+      case 'up':
+        wrapper.style.transform = `translateY(-${slideDistance})`;
+        break;
+      case 'down':
+        wrapper.style.transform = `translateY(${slideDistance})`;
+        break;
+    }
+
+    // 페이드 아웃 후 네비게이션
+    overlay.classList.add('active');
+
+    setTimeout(() => {
+      navigateCallback();
+    }, 250);
+  }
+
   updateUrlParams(updates) {
     const params = new URLSearchParams(window.location.search);
     for (const [key, value] of Object.entries(updates)) {
@@ -506,13 +686,14 @@ class MediaArtViewer {
       return;
     }
 
+    const currentMode = this.engine.getCurrentMode();
     const skills = this.engine.getSkills();
     container.innerHTML = skills.map((skill, i) =>
-      `<button class="mode-btn${i === 0 ? ' active' : ''}" data-mode="${i}" title="${skill.nameKo || skill.name}">${skill.name}</button>`
+      `<button class="mode-btn${i === currentMode ? ' active' : ''}" data-mode="${i}" title="${skill.nameKo || skill.name}">${skill.name}</button>`
     ).join('');
 
-    // 첫번째 모드의 variants 표시
-    this.renderVariantButtons(0);
+    // 현재 모드의 variants 표시
+    this.renderVariantButtons(currentMode);
   }
 
   // 동적 Variant 버튼 렌더링
@@ -595,16 +776,23 @@ class MediaArtViewer {
 
     this.engine.resize(this.canvas.width, this.canvas.height);
 
-    // URL에서 모드/variant 복원
+    // URL에서 모드/variant 복원 (명시적으로 지정된 경우에만)
     const params = new URLSearchParams(window.location.search);
-    const savedMode = parseInt(params.get('mode')) || 0;
-    const savedVariant = parseInt(params.get('variant')) || 0;
+    const hasModeParam = params.has('mode');
+    const hasVariantParam = params.has('variant');
 
-    this.engine.setMode(savedMode, savedVariant);
+    // URL에 파라미터가 있으면 적용, 없으면 엔진 기본값 유지
+    const currentMode = hasModeParam ? parseInt(params.get('mode')) : this.engine.getCurrentMode();
+    const currentVariant = hasVariantParam ? parseInt(params.get('variant')) : this.engine.getCurrentVariant();
+
+    if (hasModeParam || hasVariantParam) {
+      this.engine.setMode(currentMode, currentVariant);
+    }
+
     this.renderModeButtons();
-    this.renderVariantButtons(savedMode);
-    this.updateModeButtonsUI(savedMode);
-    this.updateVariantButtonsUI(savedVariant);
+    this.renderVariantButtons(currentMode);
+    this.updateModeButtonsUI(currentMode);
+    this.updateVariantButtonsUI(currentVariant);
   }
 
   animate() {

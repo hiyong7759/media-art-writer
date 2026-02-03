@@ -866,6 +866,8 @@ a:hover {
   top: 32px;
   right: 32px;
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   gap: 8px;
   z-index: 20;
   opacity: 0;
@@ -1549,6 +1551,7 @@ a:hover {
     right: 12px;
     gap: 5px;
     flex-direction: column;
+    align-items: flex-end;
   }
 
   .control-btn {
@@ -1567,25 +1570,20 @@ a:hover {
     left: 12px;
   }
 
-  /* Sound Controls - Mobile vertical layout */
+  /* Sound Controls */
   .sound-controls {
-    top: auto;
-    bottom: 100px;
-    right: 12px;
-    flex-direction: column;
-    padding: 6px;
-  }
-
-  .volume-control {
-    flex-direction: column;
-    gap: 4px;
+    padding: 4px 6px;
+    border-radius: 6px;
   }
 
   .volume-slider {
-    width: 60px;
-    transform: rotate(-90deg);
-    transform-origin: center;
-    margin: 25px 0;
+    width: 45px;
+    height: 3px;
+  }
+
+  .volume-value {
+    font-size: 0.55rem;
+    min-width: 22px;
   }
 
   /* Top Controls - Compact mobile layout */
@@ -1640,13 +1638,14 @@ a:hover {
     border-radius: 4px;
   }
 
-  /* Info Overlay */
   .info-overlay {
-    padding: 30px 16px 20px;
+    padding: 60px 16px 20px;
+    background: linear-gradient(to top, rgba(5, 5, 10, 0.98) 40%, rgba(10, 10, 15, 0.9) 80%, transparent 100%);
   }
 
   .info-split {
-    gap: 10px;
+    flex-direction: column-reverse;
+    gap: 12px;
   }
 
   .artwork-title {
@@ -1677,15 +1676,19 @@ a:hover {
   }
 
   .info-right {
-    padding-top: 12px;
+    padding-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .artist-section-title {
     font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.8);
   }
 
   .artist-name-label {
     font-size: 0.85rem;
+    color: #fff;
   }
 
   .artist-colors-inline .color-dot {
@@ -1798,6 +1801,153 @@ a:hover {
 }
 
 /* ============================================
+   Swipe Hint & Transition
+   ============================================ */
+
+.swipe-hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 30;
+}
+
+.swipe-hint.show {
+  opacity: 1;
+}
+
+.swipe-arrows {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.swipe-arrows .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0.6;
+}
+
+.swipe-arrows .arrow.up {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid var(--color-text-primary);
+  animation: pulseUp 1.5s ease-in-out infinite;
+}
+
+.swipe-arrows .arrow.down {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid var(--color-text-primary);
+  animation: pulseDown 1.5s ease-in-out infinite;
+}
+
+.swipe-arrows .arrow.left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid var(--color-text-primary);
+  animation: pulseLeft 1.5s ease-in-out infinite;
+}
+
+.swipe-arrows .arrow.right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid var(--color-text-primary);
+  animation: pulseRight 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseUp {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
+  50% { transform: translateX(-50%) translateY(-5px); opacity: 1; }
+}
+
+@keyframes pulseDown {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
+  50% { transform: translateX(-50%) translateY(5px); opacity: 1; }
+}
+
+@keyframes pulseLeft {
+  0%, 100% { transform: translateY(-50%) translateX(0); opacity: 0.6; }
+  50% { transform: translateY(-50%) translateX(-5px); opacity: 1; }
+}
+
+@keyframes pulseRight {
+  0%, 100% { transform: translateY(-50%) translateX(0); opacity: 0.6; }
+  50% { transform: translateY(-50%) translateX(5px); opacity: 1; }
+}
+
+.swipe-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--color-text-secondary);
+}
+
+/* Transition Overlay */
+.transition-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--color-bg-primary);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity 0.3s ease;
+}
+
+.transition-overlay.active {
+  opacity: 1;
+}
+
+/* Slide Animations */
+@keyframes slideOutLeft {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(-30px); opacity: 0; }
+}
+
+@keyframes slideOutRight {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(30px); opacity: 0; }
+}
+
+@keyframes slideOutUp {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-30px); opacity: 0; }
+}
+
+@keyframes slideOutDown {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(30px); opacity: 0; }
+}
+
+.slide-out-left { animation: slideOutLeft 0.3s ease forwards; }
+.slide-out-right { animation: slideOutRight 0.3s ease forwards; }
+.slide-out-up { animation: slideOutUp 0.3s ease forwards; }
+.slide-out-down { animation: slideOutDown 0.3s ease forwards; }
+
+/* ============================================
    Sound Controls
    ============================================ */
 
@@ -1812,12 +1962,10 @@ a:hover {
   stroke: white;
 }
 
-/* Sound Controls Container - Only visible when sound is enabled */
+/* Sound Controls Container - .controls 자식으로 배치 */
 .sound-controls {
-  position: absolute;
-  top: 88px;
-  right: 32px;
-  display: flex;
+  position: relative;
+  display: none;
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
@@ -1825,18 +1973,11 @@ a:hover {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  z-index: 20;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
-  transform: translateY(-10px);
 }
 
 /* Show volume controls only when sound is enabled */
-.viewer-container.sound-enabled.show-controls .sound-controls {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0);
+.viewer-container.sound-enabled .sound-controls {
+  display: flex;
 }
 
 /* Volume Control */
@@ -1894,8 +2035,6 @@ a:hover {
 /* Responsive: Tablet */
 @media (max-width: 768px) {
   .sound-controls {
-    top: 68px;
-    right: 16px;
     padding: 6px 10px;
   }
 
@@ -1909,20 +2048,3 @@ a:hover {
   }
 }
 
-/* Responsive: Mobile */
-@media (max-width: 480px) {
-  .sound-controls {
-    top: 58px;
-    right: 12px;
-    padding: 5px 8px;
-  }
-
-  .volume-slider {
-    width: 50px;
-  }
-
-  .volume-value {
-    font-size: 0.6rem;
-    min-width: 25px;
-  }
-}

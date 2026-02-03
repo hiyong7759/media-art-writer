@@ -32,12 +32,15 @@
             </svg>
         </a>
         <div class="controls">
-            <!-- Sound Toggle Button -->
-            <button class="control-btn" id="soundToggleBtn" aria-label="사운드 토글">
-                <svg id="soundIcon" viewBox="0 0 24 24">
-                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
-                    <line x1="23" y1="9" x2="17" y2="15"/>
-                    <line x1="17" y1="9" x2="23" y2="15"/>
+            <button class="control-btn" id="fullscreenBtn" aria-label="전체화면">
+                <svg viewBox="0 0 24 24">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+                </svg>
+            </button>
+            <button class="control-btn" id="toggleInfoBtn" aria-label="정보">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16v-4M12 8h.01" />
                 </svg>
             </button>
             <button class="control-btn" id="saveBtn" aria-label="이미지 저장">
@@ -47,27 +50,39 @@
                     <line x1="12" y1="15" x2="12" y2="3" />
                 </svg>
             </button>
-            <button class="control-btn" id="toggleInfoBtn" aria-label="정보">
-                <svg viewBox="0 0 24 24">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 16v-4M12 8h.01" />
+            <!-- Sound Toggle Button (맨 아래) -->
+            <button class="control-btn" id="soundToggleBtn" aria-label="사운드 토글">
+                <svg id="soundIcon" viewBox="0 0 24 24">
+                    <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+                    <line x1="23" y1="9" x2="17" y2="15"/>
+                    <line x1="17" y1="9" x2="23" y2="15"/>
                 </svg>
             </button>
-            <button class="control-btn" id="fullscreenBtn" aria-label="전체화면">
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
-                </svg>
-            </button>
-        </div>
-
-        <!-- Sound Controls (Volume Slider) -->
-        <div class="sound-controls" id="soundControls">
-            <div class="volume-control">
-                <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5" class="volume-slider">
-                <span id="volumeValue" class="volume-value">50%</span>
+            <!-- Sound Controls (Volume Slider) -->
+            <div class="sound-controls" id="soundControls">
+                <div class="volume-control">
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5" class="volume-slider">
+                    <span id="volumeValue" class="volume-value">50%</span>
+                </div>
             </div>
         </div>
+
+        <!-- Swipe Hint -->
+        <div class="swipe-hint" id="swipeHint">
+            <div class="swipe-arrows">
+                <span class="arrow up"></span>
+                <span class="arrow down"></span>
+                <span class="arrow left"></span>
+                <span class="arrow right"></span>
+            </div>
+            <div class="swipe-labels">
+                <span class="label-vertical">작가</span>
+                <span class="label-horizontal">날짜</span>
+            </div>
+        </div>
+
+        <!-- Transition Overlay -->
+        <div class="transition-overlay" id="transitionOverlay"></div>
 
         <!-- Date & Animation Controls -->
         <div class="top-controls hidden" id="topControls">
