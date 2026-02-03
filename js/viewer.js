@@ -53,6 +53,21 @@ class MediaArtViewer {
     this.setupSwipeNavigation();
     this.hideLoading();
     this.showSwipeHintIfNeeded();
+    this.restoreFullscreenState();
+  }
+
+  // URL 파라미터에서 fullscreen 상태 복원
+  restoreFullscreenState() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('fullscreen') === '1') {
+      // UI 숨김 상태로 복원
+      const viewerContainer = document.querySelector('.viewer-container');
+      if (viewerContainer) {
+        viewerContainer.classList.remove('show-controls');
+        this.controlsVisible = false;
+        clearTimeout(this.hideControlsTimeout);
+      }
+    }
   }
 
   // 모바일에서 첫 방문시 스와이프 힌트 표시
@@ -481,6 +496,12 @@ class MediaArtViewer {
       params.set('mode', this.engine.getCurrentMode());
       params.set('variant', this.engine.getCurrentVariant());
     }
+    // UI 숨김 상태 유지
+    if (!this.controlsVisible) {
+      params.set('fullscreen', '1');
+    } else {
+      params.delete('fullscreen');
+    }
     window.location.search = params.toString();
   }
 
@@ -506,6 +527,12 @@ class MediaArtViewer {
       params.set('mode', this.engine.getCurrentMode());
       params.set('variant', this.engine.getCurrentVariant());
     }
+    // UI 숨김 상태 유지
+    if (!this.controlsVisible) {
+      params.set('fullscreen', '1');
+    } else {
+      params.delete('fullscreen');
+    }
     window.location.search = params.toString();
   }
 
@@ -521,6 +548,27 @@ class MediaArtViewer {
     if (currentIndex > 0) {
       this.navigateToArtist(this.artistList[currentIndex - 1]);
     }
+  }
+
+  // 경계 체크 메소드
+  canNavigateNextArtist() {
+    const currentIndex = this.artistList.indexOf(this.artistId);
+    return currentIndex < this.artistList.length - 1;
+  }
+
+  canNavigatePrevArtist() {
+    const currentIndex = this.artistList.indexOf(this.artistId);
+    return currentIndex > 0;
+  }
+
+  canNavigateNextDate() {
+    const currentIndex = this.availableDates.indexOf(this.targetDate);
+    return currentIndex < this.availableDates.length - 1;
+  }
+
+  canNavigatePrevDate() {
+    const currentIndex = this.availableDates.indexOf(this.targetDate);
+    return currentIndex > 0;
   }
 
   setupSwipeNavigation() {
@@ -555,17 +603,17 @@ class MediaArtViewer {
       if (swipeTime > maxSwipeTime) return;
 
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
-        // 좌우 스와이프 → 날짜 변경
-        if (deltaX > 0) {
+        // 좌우 스와이프 → 날짜 변경 (경계 체크)
+        if (deltaX > 0 && this.canNavigatePrevDate()) {
           this.navigateWithTransition(() => this.navigateToPrevDate(), 'right');
-        } else {
+        } else if (deltaX < 0 && this.canNavigateNextDate()) {
           this.navigateWithTransition(() => this.navigateToNextDate(), 'left');
         }
       } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > minSwipeDistance) {
-        // 상하 스와이프 → 작가 변경
-        if (deltaY > 0) {
+        // 상하 스와이프 → 작가 변경 (경계 체크)
+        if (deltaY > 0 && this.canNavigatePrevArtist()) {
           this.navigateWithTransition(() => this.navigateToPrevArtist(), 'down');
-        } else {
+        } else if (deltaY < 0 && this.canNavigateNextArtist()) {
           this.navigateWithTransition(() => this.navigateToNextArtist(), 'up');
         }
       }
