@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "크로마틱 디스퍼전",
+    "en": "Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "빛이 유리를 통과하며 하얀 광선이 선명한 색의 스펙트럼과 기하학적 그림자로 갈라지는 찰나의 순간을 포착한 시네마틱한 탐구입니다.",
+    "en": "A cinematic study of light's journey through glass, capturing the precise moment white light fractures into a vivid spectrum of color and geometric shadows."
+  },
+  "prompt": "Macro photography of a high-clarity crystal prism positioned on a matte black surface. A singular, intense beam of white light strikes the edge, refracting into a brilliant, wide-angle spectrum of rainbow colors. Intricate light patterns, sharp geometric caustics, and ethereal lens flares dancing across the shadows. Hyper-realistic, 8k resolution, cinematic lighting, shallow depth of field, focused on the point of chromatic dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-04T00:44:02.173+09:00"
+}

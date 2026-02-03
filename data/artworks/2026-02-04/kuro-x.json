@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "흑요석 모놀리스의 엔트로피",
+    "en": "Entropy of the Obsidian Monolith"
+  },
+  "description": {
+    "ko": "경직된 기하학적 질서가 혼돈스러운 글리치 미학에 의해 산산조각 나는 디지털 붕괴의 시각적 표현입니다.",
+    "en": "A visual representation of digital collapse, where rigid geometric order is shattered by chaotic glitch aesthetics."
+  },
+  "prompt": "A massive, brutalist #1A1A1A obsidian monolith suspended in a stark #FFFFFF digital void, caught in a perpetual state of geometric disintegration. The structure fractures into a torrent of sharp #808080 shards and vertical #C0C0C0 scanline glitches. High-contrast cinematic lighting with razor-sharp shadows and raytraced reflections on the fragmented black glass. 8k, Octane Render, emphasizing chaos within order and the monochrome complexity of a collapsing digital reality.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-04T00:43:07.518+09:00"
+}

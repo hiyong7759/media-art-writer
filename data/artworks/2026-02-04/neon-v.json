@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 빗속의 홀로그램 강림",
+    "en": "Holographic Descent in Neon Rain"
+  },
+  "description": {
+    "ko": "비에 젖은 미래 도시를 배경으로 거친 도시의 쇠퇴와 활기찬 디지털 로맨스의 교차점을 담아냈습니다.",
+    "en": "The intersection of gritty urban decay and vibrant digital romance, captured in a rain-slicked future city."
+  },
+  "prompt": "A low-angle cinematic view of a rain-drenched cyberpunk megacity canyon at night. Saturated #FF00FF and #00FFFF neon reflections ripple in hyper-realistic #1A0033 asphalt puddles. A massive #FF6B35 holographic dragon weaves through rusted metal skyscrapers. 8k, Unreal Engine 5, raytracing. Deep volumetric fog, dramatic light spill from urban structures, and a romantic digital atmosphere focusing on individual rain droplets hitting metallic surfaces.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-04T00:43:16.999+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 심해의 호흡핵",
+    "en": "Respiratory Core of the Emerald Abyss"
+  },
+  "description": {
+    "ko": "이끼와 빛이 하나의 생명 기계로 융합되는 생물 발광 호흡의 관점에서 유기적 생명체를 탐구합니다.",
+    "en": "An exploration of organic life through the lens of bioluminescent respiration, where moss and light merge into a living machine."
+  },
+  "prompt": "A cinematic, macro shot of a bioluminescent organic heart-lung hybrid made of translucent #7FB069 emerald moss and pulsing #FFE66D amber sap veins. The entity breathes in a deep #2D5A3D underwater forest of glowing kelp. Heavy subsurface scattering on the mossy membranes, with #E6F2E1 spores drifting like stardust. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic fluid dynamics of liquid light, volumetric light shafts piercing the dark water, focusing on the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-04T00:43:00.525+09:00"
+}

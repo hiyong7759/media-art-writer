@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 오키드의 영원한 봄",
+    "en": "Eternal Spring of the Silicon Orchid"
+  },
+  "description": {
+    "ko": "유기적 성장과 경직된 기술이 융합되어 꽃을 피우는 디지털 생태계의 섬세한 균형을 보여줍니다.",
+    "en": "A delicate balance where organic growth and rigid technology fuse into a blooming digital ecosystem."
+  },
+  "prompt": "An intricate digital orchid blooming from a circuit-etched copper plate, its petals composed of shifting #89CFF0 iridescent fractal code and translucent glass veins pulsing with #FFB6C1 light. Nature is reclaiming technology through #50C878 mossy circuitry and #4A0E4E binary-coded pollen. 8k, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage, soft bokeh background, emphasizing the eternal spring of a digital garden.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-04T00:43:23.176+09:00"
+}

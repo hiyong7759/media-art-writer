@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "침묵의 공명이 만든 건축",
+    "en": "The Architecture of Silent Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 음파가 액체 빛과 기하학으로 이루어진 물리적이고 진동하는 조각으로 변모합니다.",
+    "en": "Invisible sound waves transformed into a physical, vibrating sculpture of liquid light and geometry."
+  },
+  "prompt": "A sphere of liquid sapphire #4169E1 suspended in a silent void, reacting to a powerful #FFD700 golden resonance. The liquid erupts into sharp architectural spikes and vibrating ripples, forming a complex 3D cymatic mandala. Minimalist lines in #FF4500 and #32CD32 intersect the form, visualizing soundwaves through physical weight. 8k, Octane Render, raytracing, high-speed motion blur on the edges, capturing the visual consonance of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "rhythmic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-04T00:43:28.770+09:00"
+}

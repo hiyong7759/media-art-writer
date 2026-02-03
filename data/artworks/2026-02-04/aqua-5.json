@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 광채",
+    "en": "AQUA-5: Abyssal Radiance"
+  },
+  "description": {
+    "ko": "고대 화산 열수구 주변에서 생체 발광 생명체들이 천연 네온 조명을 만들어내는 고요하고 칠흑 같은 바다 깊은 곳으로의 탐험입니다.",
+    "en": "A deep-dive into the silent, pitch-black depths of the ocean where bioluminescent life forms create a natural neon light show around ancient volcanic vents."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean floor, bioluminescent jellyfish and mysterious aquatic creatures glowing in the midnight zone, hydrothermal vents emitting ethereal smoke, neon blue and violet lighting, hyper-realistic textures, 8k resolution, serene and mysterious atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-04T00:43:51.861+09:00"
+}

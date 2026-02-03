@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-04",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "단층선이 들려주는 지질학적 서사",
+    "en": "Geological Narrative of the Fault Line"
+  },
+  "description": {
+    "ko": "시간과 압력의 원초적인 힘이 지구 지각의 상세한 단면 속에 얼어붙어 있습니다.",
+    "en": "The raw power of time and pressure frozen in a detailed cross-section of the Earth's crust."
+  },
+  "prompt": "A macro-topographic cross-section of an ancient fault line, revealing jagged layers of #8B4513 obsidian, #D2691E red clay, and #F4A460 crystalline quartz veins glowing with internal heat. Detailed textures of parched soil and sediment layers carved by eons of geological pressure. 8k, hyper-realistic. Side lighting from the golden hour creating deep shadows across #2F4F4F bedrock, telling the narrative of the land carved by time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-04T00:43:40.098+09:00"
+}
