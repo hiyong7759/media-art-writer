@@ -181,9 +181,12 @@ class MediaArtViewer {
       link.click();
     });
 
-    // 정보 토글 버튼 - 상단 컨트롤도 함께 토글
-    document.getElementById('toggleInfoBtn')?.addEventListener('click', () => {
-      this.toggleControls();
+    // 화면 탭으로 UI 토글 (컨트롤 영역 제외)
+    document.getElementById('viewerContainer')?.addEventListener('click', (e) => {
+      const isControl = e.target.closest('.controls, .back-btn, .top-controls, .sound-controls, .info-overlay a, button');
+      if (!isControl) {
+        this.toggleControls();
+      }
     });
 
     // 전체화면 버튼
@@ -340,7 +343,7 @@ class MediaArtViewer {
 
   resetHideTimer() {
     clearTimeout(this.hideControlsTimeout);
-    this.hideControlsTimeout = setTimeout(() => this.hideControls(), 3000);
+    this.hideControlsTimeout = setTimeout(() => this.hideControls(), 5000);
   }
 
   hideControls() {
@@ -365,7 +368,7 @@ class MediaArtViewer {
     } else {
       viewerContainer.classList.add('show-controls');
       this.controlsVisible = true;
-      this.hideControlsTimeout = setTimeout(() => this.hideControls(), 3000);
+      this.hideControlsTimeout = setTimeout(() => this.hideControls(), 5000);
     }
   }
 
