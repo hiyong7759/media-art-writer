@@ -170,7 +170,7 @@ export class RockMode {
             ctx.lineTo(0, el.y + el.thickness + wave);
             ctx.closePath();
 
-            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.3);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.08);
             ctx.fill();
 
             ctx.strokeStyle = this.engine.hexToRgba(el.color, 0.6);
@@ -184,7 +184,7 @@ export class RockMode {
         this.elements.filter(el => el.type === 'sediment_grain').forEach(el => {
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
-            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.5);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.15);
             ctx.fill();
         });
     }
@@ -232,10 +232,10 @@ export class RockMode {
             ctx.shadowColor = '#ff4400';
 
             const gradient = ctx.createRadialGradient(el.x, el.y, 0, el.x, el.y, pulse);
-            gradient.addColorStop(0, 'rgba(255, 200, 50, 0.9)');
-            gradient.addColorStop(0.4, 'rgba(255, 100, 0, 0.7)');
-            gradient.addColorStop(0.7, 'rgba(200, 50, 0, 0.5)');
-            gradient.addColorStop(1, 'rgba(100, 20, 0, 0.2)');
+            gradient.addColorStop(0, 'rgba(255, 200, 50, 0.3)');
+            gradient.addColorStop(0.4, 'rgba(255, 100, 0, 0.2)');
+            gradient.addColorStop(0.7, 'rgba(200, 50, 0, 0.15)');
+            gradient.addColorStop(1, 'rgba(100, 20, 0, 0.05)');
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, pulse, 0, Math.PI * 2);
@@ -261,7 +261,7 @@ export class RockMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size * pulse, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(255, 150, 50, 0.4)';
+            ctx.fillStyle = 'rgba(255, 150, 50, 0.12)';
             ctx.fill();
 
             ctx.restore();
@@ -281,7 +281,7 @@ export class RockMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(100, 100, 100, 0.5)';
+            ctx.fillStyle = 'rgba(100, 100, 100, 0.15)';
             ctx.fill();
         });
     }
@@ -302,7 +302,7 @@ export class RockMode {
             ctx.lineTo(-el.size * 0.5, 0);
             ctx.closePath();
 
-            ctx.fillStyle = this.engine.hexToRgba(el.color, sparkle * 0.5);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, sparkle * 0.15);
             ctx.fill();
 
             ctx.restore();
@@ -335,9 +335,9 @@ export class RockMode {
 
             // 그라데이션 채우기
             const gradient = ctx.createLinearGradient(-el.size, -el.size, el.size, el.size);
-            gradient.addColorStop(0, this.engine.hexToRgba(el.color, sparkle * 0.6));
-            gradient.addColorStop(0.5, this.engine.hexToRgba('#ffffff', sparkle * 0.3));
-            gradient.addColorStop(1, this.engine.hexToRgba(el.color, sparkle * 0.4));
+            gradient.addColorStop(0, this.engine.hexToRgba(el.color, sparkle * 0.15));
+            gradient.addColorStop(0.5, this.engine.hexToRgba('#ffffff', sparkle * 0.08));
+            gradient.addColorStop(1, this.engine.hexToRgba(el.color, sparkle * 0.1));
             ctx.fillStyle = gradient;
             ctx.fill();
 

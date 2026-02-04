@@ -198,7 +198,7 @@ export class RiverMode {
                 ctx.shadowColor = '#ffffff';
                 ctx.beginPath();
                 ctx.arc(el.x, baseY + yOffset, el.size, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(255, 255, 255, ${0.3 + Math.sin(t + el.phase) * 0.2})`;
+                ctx.fillStyle = `rgba(255, 255, 255, ${0.1 + Math.sin(t + el.phase) * 0.05})`;
                 ctx.fill();
                 ctx.restore();
 
@@ -211,7 +211,7 @@ export class RiverMode {
                 ctx.shadowColor = color;
                 ctx.beginPath();
                 ctx.arc(el.x, splashY, el.size * (0.5 + Math.sin(t * 3 + el.phase) * 0.3), 0, Math.PI * 2);
-                ctx.fillStyle = this.engine.hexToRgba(color, 0.2);
+                ctx.fillStyle = this.engine.hexToRgba(color, 0.05);
                 ctx.fill();
                 ctx.restore();
             }
@@ -261,7 +261,7 @@ export class RiverMode {
                 const drift = Math.sin(t * 0.5 + el.x * 0.01) * 2;
                 ctx.beginPath();
                 ctx.arc(el.x + drift, el.y, el.size, 0, Math.PI * 2);
-                ctx.fillStyle = this.engine.hexToRgba(el.color, 0.4);
+                ctx.fillStyle = this.engine.hexToRgba(el.color, 0.1);
                 ctx.fill();
             }
         });
@@ -271,7 +271,7 @@ export class RiverMode {
         ctx.beginPath();
         ctx.moveTo(cx - 200, this.engine.height);
         ctx.quadraticCurveTo(cx, this.engine.height * 0.7, cx + 200, this.engine.height);
-        ctx.fillStyle = this.engine.hexToRgba(this.engine.colors[2], 0.2);
+        ctx.fillStyle = this.engine.hexToRgba(this.engine.colors[2], 0.05);
         ctx.fill();
         ctx.restore();
     }
@@ -280,7 +280,7 @@ export class RiverMode {
         this.elements.forEach(el => {
             if (el.type === 'floodplain') {
                 // 범람원 (연한 배경)
-                const alpha = Math.sin(t * 0.3 + el.x * 0.01) * 0.05 + 0.08;
+                const alpha = Math.sin(t * 0.3 + el.x * 0.01) * 0.01 + 0.02;
                 ctx.beginPath();
                 ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
                 ctx.fillStyle = this.engine.hexToRgba(this.engine.colors[2], alpha);
@@ -330,7 +330,7 @@ export class RiverMode {
 
                 ctx.beginPath();
                 ctx.ellipse(el.x, el.y, el.rx * pulse, el.ry * pulse, 0, 0, Math.PI * 2);
-                ctx.fillStyle = this.engine.hexToRgba(this.engine.colors[1], 0.4);
+                ctx.fillStyle = this.engine.hexToRgba(this.engine.colors[1], 0.1);
                 ctx.fill();
                 ctx.strokeStyle = this.engine.hexToRgba(this.engine.colors[1], 0.7);
                 ctx.lineWidth = 3;

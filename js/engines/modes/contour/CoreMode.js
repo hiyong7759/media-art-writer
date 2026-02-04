@@ -173,9 +173,9 @@ export class CoreMode {
                 layer.cx, layer.cy, 0,
                 layer.cx, layer.cy, r
             );
-            gradient.addColorStop(0, this.engine.hexToRgba(layer.color, 0.1));
-            gradient.addColorStop(0.7, this.engine.hexToRgba(layer.color, 0.3));
-            gradient.addColorStop(1, this.engine.hexToRgba(layer.color, 0.6));
+            gradient.addColorStop(0, this.engine.hexToRgba(layer.color, 0.03));
+            gradient.addColorStop(0.7, this.engine.hexToRgba(layer.color, 0.08));
+            gradient.addColorStop(1, this.engine.hexToRgba(layer.color, 0.15));
             ctx.fillStyle = gradient;
             ctx.fill();
 
@@ -214,7 +214,7 @@ export class CoreMode {
                     ctx.lineTo(-5, -rPos + 10);
                     ctx.lineTo(5, -rPos + 10);
                     ctx.closePath();
-                    ctx.fillStyle = `rgba(255, 150, 50, ${alpha * 0.5})`;
+                    ctx.fillStyle = `rgba(255, 150, 50, ${alpha * 0.15})`;
                     ctx.fill();
                 }
             }
@@ -230,9 +230,9 @@ export class CoreMode {
         // 배경 원
         ctx.save();
         const bgGradient = ctx.createRadialGradient(cx, cy, 0, cx, cy, 200);
-        bgGradient.addColorStop(0, 'rgba(255, 100, 0, 0.3)');
-        bgGradient.addColorStop(0.5, 'rgba(200, 50, 0, 0.2)');
-        bgGradient.addColorStop(1, 'rgba(100, 20, 0, 0.1)');
+        bgGradient.addColorStop(0, 'rgba(255, 100, 0, 0.08)');
+        bgGradient.addColorStop(0.5, 'rgba(200, 50, 0, 0.05)');
+        bgGradient.addColorStop(1, 'rgba(100, 20, 0, 0.02)');
         ctx.beginPath();
         ctx.arc(cx, cy, 200, 0, Math.PI * 2);
         ctx.fillStyle = bgGradient;
@@ -291,7 +291,7 @@ export class CoreMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size * pulse, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, ${100 + Math.floor(pulse * 50)}, 0, ${alpha})`;
+            ctx.fillStyle = `rgba(255, ${100 + Math.floor(pulse * 50)}, 0, ${alpha * 0.3})`;
             ctx.fill();
 
             ctx.restore();
@@ -306,10 +306,10 @@ export class CoreMode {
             ctx.shadowColor = '#ffaa00';
 
             const gradient = ctx.createRadialGradient(el.cx, el.cy, 0, el.cx, el.cy, pulse);
-            gradient.addColorStop(0, 'rgba(255, 255, 200, 0.9)');
-            gradient.addColorStop(0.3, 'rgba(255, 200, 50, 0.7)');
-            gradient.addColorStop(0.6, 'rgba(255, 100, 0, 0.5)');
-            gradient.addColorStop(1, 'rgba(200, 50, 0, 0.2)');
+            gradient.addColorStop(0, 'rgba(255, 255, 200, 0.25)');
+            gradient.addColorStop(0.3, 'rgba(255, 200, 50, 0.18)');
+            gradient.addColorStop(0.6, 'rgba(255, 100, 0, 0.12)');
+            gradient.addColorStop(1, 'rgba(200, 50, 0, 0.05)');
 
             ctx.beginPath();
             ctx.arc(el.cx, el.cy, pulse, 0, Math.PI * 2);
@@ -393,9 +393,9 @@ export class CoreMode {
                 el.x + vibration, el.y + vibration * 0.5, 0,
                 el.x + vibration, el.y + vibration * 0.5, el.size * pulse
             );
-            gradient.addColorStop(0, this.engine.hexToRgba('#ffffff', 0.8));
-            gradient.addColorStop(0.5, this.engine.hexToRgba(el.color, 0.6));
-            gradient.addColorStop(1, this.engine.hexToRgba(el.color, 0.3));
+            gradient.addColorStop(0, this.engine.hexToRgba('#ffffff', 0.25));
+            gradient.addColorStop(0.5, this.engine.hexToRgba(el.color, 0.15));
+            gradient.addColorStop(1, this.engine.hexToRgba(el.color, 0.08));
             ctx.fillStyle = gradient;
             ctx.fill();
 

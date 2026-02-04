@@ -166,9 +166,9 @@ export class SandMode {
 
             // 그라데이션
             const gradient = ctx.createLinearGradient(0, dune.baseY - 80, 0, h);
-            gradient.addColorStop(0, this.engine.hexToRgba(dune.color, 0.6));
-            gradient.addColorStop(0.5, this.engine.hexToRgba(dune.color, 0.4));
-            gradient.addColorStop(1, this.engine.hexToRgba(dune.color, 0.2));
+            gradient.addColorStop(0, this.engine.hexToRgba(dune.color, 0.15));
+            gradient.addColorStop(0.5, this.engine.hexToRgba(dune.color, 0.1));
+            gradient.addColorStop(1, this.engine.hexToRgba(dune.color, 0.05));
             ctx.fillStyle = gradient;
             ctx.fill();
 
@@ -192,7 +192,7 @@ export class SandMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 220, 180, ${0.3 + Math.sin(t + el.phase) * 0.2})`;
+            ctx.fillStyle = `rgba(255, 220, 180, ${0.1 + Math.sin(t + el.phase) * 0.05})`;
             ctx.fill();
         });
     }
@@ -230,9 +230,9 @@ export class SandMode {
             // 발자국 모양 (타원)
             ctx.beginPath();
             ctx.ellipse(0, 0, el.size * pulse, el.size * 1.5 * pulse, 0, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(100, 80, 60, 0.3)';
+            ctx.fillStyle = 'rgba(100, 80, 60, 0.08)';
             ctx.fill();
-            ctx.strokeStyle = 'rgba(150, 120, 80, 0.5)';
+            ctx.strokeStyle = 'rgba(150, 120, 80, 0.4)';
             ctx.lineWidth = 2;
             ctx.stroke();
 
@@ -283,7 +283,7 @@ export class SandMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
-            ctx.fillStyle = this.engine.hexToRgba(el.color, sparkle);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, sparkle * 0.3);
             ctx.fill();
 
             ctx.restore();

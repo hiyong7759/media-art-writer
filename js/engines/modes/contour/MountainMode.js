@@ -143,9 +143,9 @@ export class MountainMode {
             ctx.closePath();
 
             const gradient = ctx.createLinearGradient(m.x, m.y - m.height, m.x, m.y);
-            gradient.addColorStop(0, this.engine.hexToRgba('#ffffff', 0.8));
-            gradient.addColorStop(m.snowLine, this.engine.hexToRgba(m.color, 0.7));
-            gradient.addColorStop(1, this.engine.hexToRgba(m.color, 0.3));
+            gradient.addColorStop(0, this.engine.hexToRgba('#ffffff', 0.15));
+            gradient.addColorStop(m.snowLine, this.engine.hexToRgba(m.color, 0.1));
+            gradient.addColorStop(1, this.engine.hexToRgba(m.color, 0.05));
             ctx.fillStyle = gradient;
             ctx.fill();
 
@@ -193,8 +193,8 @@ export class MountainMode {
             ctx.lineTo(this.engine.width, this.engine.height);
             ctx.closePath();
 
-            // 레이어별 투명도
-            const alpha = 0.3 + (2 - m.layer) * 0.2;
+            // 레이어별 투명도 (선 위주)
+            const alpha = 0.05 + (2 - m.layer) * 0.03;
             ctx.fillStyle = this.engine.hexToRgba(m.color, alpha);
             ctx.fill();
 
@@ -224,7 +224,7 @@ export class MountainMode {
                 ctx.lineTo(cx - 50, h);
                 ctx.closePath();
 
-                ctx.fillStyle = this.engine.hexToRgba(m.color, 0.5);
+                ctx.fillStyle = this.engine.hexToRgba(m.color, 0.1);
                 ctx.fill();
                 ctx.strokeStyle = this.engine.hexToRgba(m.color, 0.8);
                 ctx.lineWidth = 2;
@@ -243,7 +243,7 @@ export class MountainMode {
                 ctx.lineTo(cx + 50, h);
                 ctx.closePath();
 
-                ctx.fillStyle = this.engine.hexToRgba(m.color, 0.5);
+                ctx.fillStyle = this.engine.hexToRgba(m.color, 0.1);
                 ctx.fill();
                 ctx.strokeStyle = this.engine.hexToRgba(m.color, 0.8);
                 ctx.lineWidth = 2;
@@ -274,7 +274,7 @@ export class MountainMode {
                 if (m.x < -m.size) m.x = w + m.size;
                 if (m.x > w + m.size) m.x = -m.size;
 
-                const alpha = Math.sin(t * 0.5 + m.phase) * 0.1 + 0.15;
+                const alpha = Math.sin(t * 0.5 + m.phase) * 0.02 + 0.04;
                 ctx.beginPath();
                 ctx.arc(m.x, m.y, m.size, 0, Math.PI * 2);
                 ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;

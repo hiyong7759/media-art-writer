@@ -98,11 +98,13 @@ const CURRENT_GENERATOR = 'gemini';
 
 ---
 
-## Proposed Changes
+## 현재 구현 (Current Implementation)
+
+> **현행화 일자**: 2026-02-04
 
 ### 1. 프로젝트 구조
 
-#### [NEW] [디렉토리 구조](file:///c:/Users/hiyon/Documents/media-art-writer) (v3.1 Refactored)
+#### 디렉토리 구조 (v3.2)
 
 ```
 media-art-writer/
@@ -157,7 +159,7 @@ media-art-writer/
 ### 2. 작가 시스템
 <...중략...>
 
-### 3.2 엔진 아키텍처 개선 (v3.1 Refactored)
+### 3.2 엔진 아키텍처 (v3.2 Current)
 
 > **전략 패턴 (Strategy Pattern) + Factory Pattern + BaseMode 추상 클래스 도입**:
 > 모든 엔진은 이제 EngineFactory를 통해 생성되고, 모든 모드는 BaseMode를 상속합니다.
@@ -211,16 +213,17 @@ classDiagram
     CyberpunkEngine "1" o-- "Many" BaseMode : Delegates to
 ```
 
-#### 주요 개선 사항 (v3.1)
+#### 주요 구현 사항 (v3.2)
 
-| 개선 항목 | 설명 |
+| 항목 | 설명 |
 |----------|------|
 | **EngineFactory** | 작가 ID 기반 엔진 자동 생성 (Registry Pattern) |
 | **BaseMode** | 모든 Mode의 추상 기본 클래스 (인터페이스 강제) |
-| **Utils 모듈** | `hexToRgba`, `random`, `lerp` 등 공통 유틸리티 분리 |
-| **Getter 속성** | Mode에서 `this.ctx`, `this.width` 등 간결한 접근 |
+| **Variant 시스템** | 각 모드당 3가지 변형 (style 0, 1, 2) |
+| **미니프리뷰 일관성** | gallery.js와 뷰어 모드의 시각적 동기화 |
+| **선 위주 렌더링** | fill alpha 최소화 (0.05~0.15), stroke 우선 |
 
-#### 리팩토링 효과
+#### 아키텍처 특징
 1. **모듈화 (Modularity)**: `RainMode.js`, `ScannerMode.js` 등 각 모드가 별도 파일로 분리.
 2. **확장성 (Extensibility)**: 새 엔진 추가 시 EngineFactory에 등록만 하면 됨.
 3. **재사용성 (Reusability)**: BaseMode의 헬퍼 메서드 (`createParticle`, `randomColor`) 활용.
@@ -234,29 +237,60 @@ import { BaseMode } from '../../../core/BaseMode.js';
 
 export class BubbleMode extends BaseMode {
     constructor(engine) {
-        super(engine);  // 필수: 부모 생성자 호출
+        super(engine);
         this.bubbles = [];
+        this.style = 0;
     }
 
     init(variant = 0) {
-        super.init(variant);  // style 설정
-        // BaseMode의 헬퍼 메서드 활용
-        this.bubbles = Array.from({ length: 30 }, () =>
-            this.createParticle({
-                radius: Math.random() * 10 + 2,
-                speed: Math.random() * 1 + 0.5
-            })
-        );
+        super.init(variant);
+        this.style = variant;
+        this.bubbles = [];
+
+        if (this.style === 0) {
+            this.createRising();      // 심플한 상승 버블 (꼬리 없음)
+        } else if (this.style === 1) {
+            this.createPopping();     // 꼬리/잔상 + 터지는 버블
+        } else {
+            this.createFoam();        // 거품 클러스터
+        }
+    }
+
+    createRising() {
+        // 미니프리뷰와 동일한 설정
+        for (let i = 0; i < 15; i++) {
+            this.bubbles.push({
+                type: 'rising',
+                x: Math.random() * this.width,
+                y: Math.random() * this.height,
+                radius: Math.random() * 4 + 2,
+                speed: Math.random() * 0.5 + 0.2,
+                wobble: Math.random() * Math.PI * 2,
+                color: this.colors[i % this.colors.length]
+            });
+        }
     }
 
     draw() {
-        // Getter 사용: this.ctx, this.width, this.height, this.frame
+        if (this.style === 0) this.drawRising();
+        else if (this.style === 1) this.drawPopping();
+        else this.drawFoam();
+    }
+
+    drawRising() {
         this.bubbles.forEach(b => {
             b.y -= b.speed;
+            b.x += Math.sin(this.frame * 0.05 + b.wobble) * 0.5;
+            if (b.y < 0) {
+                b.y = this.height + 20;
+                b.x = Math.random() * this.width;
+            }
             this.ctx.beginPath();
             this.ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
             this.ctx.fillStyle = this.hexToRgba(b.color, 0.6);
+            this.ctx.strokeStyle = this.hexToRgba(b.color, 0.8);
             this.ctx.fill();
+            this.ctx.stroke();
         });
     }
 }
@@ -310,21 +344,31 @@ EngineFactory.register('new-artist', NewEngine);
 
 ---
 
-## MVP 구현 순서
+## MVP 구현 현황
 
 1. ✅ 계획 수정 완료
-2. ⏳ 기본 뷰어 구현 (정적)
-3. 작가 프로필 시스템
-4. 제너러티브 아트 (코드 기반) - **완료**
-   - [x] `js/generative.js` 엔진 코어 구현
-   - [x] `ParticleEngine` (Aura, Flora)
-   - [x] `GeometricEngine` (Kuro)
-   - [x] `CyberpunkEngine` (Neon)
-   - [x] `WaveEngine` (Echo, Aqua, Terra)
-   - [x] `CosmicEngine` (Void)
-5. Gemini API 연동
-6. 자동화 설정
-7. 배포 및 테스트
+2. ✅ 기본 뷰어 구현 (정적)
+3. ✅ 작가 프로필 시스템 (9명 AI 작가)
+4. ✅ 제너러티브 아트 (코드 기반)
+   - [x] ArtEngine 베이스 클래스
+   - [x] BaseMode 추상 클래스
+   - [x] EngineFactory (Registry Pattern)
+   - [x] OrganicEngine (aura-7) - 7 modes
+   - [x] GeometricEngine (kuro-x) - 7 modes
+   - [x] CyberpunkEngine (neon-v) - 7 modes
+   - [x] CosmicEngine (void-3) - 7 modes
+   - [x] FlowEngine (aqua-5) - 7 modes
+   - [x] RefractionEngine (prism-2) - 7 modes
+   - [x] WaveEngine (echo-0) - 7 modes
+   - [x] ContourEngine (terra-1) - 7 modes
+   - [x] BloomEngine (flora-9) - 7 modes
+5. ✅ Gemini API 연동 (작품 생성 자동화)
+6. ✅ GitHub Actions 자동화
+7. ✅ GitHub Pages 배포
+8. ✅ 뷰어 기능 구현
+   - [x] 스와이프 네비게이션 (날짜/작가)
+   - [x] 경계 체크 (유효 범위 내만 이동)
+   - [x] 미니프리뷰-뷰어 일관성 유지
 
 ---
 

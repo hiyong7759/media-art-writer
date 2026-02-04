@@ -192,7 +192,7 @@ export class LayerMode {
             ctx.lineTo(0, el.y + el.thickness + wave - tiltOffset);
             ctx.closePath();
 
-            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.4);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.1);
             ctx.fill();
 
             // 패턴
@@ -202,7 +202,7 @@ export class LayerMode {
                     for (let y = el.y + 10; y < el.y + el.thickness - 10; y += 15) {
                         ctx.beginPath();
                         ctx.arc(x, y + wave, 2, 0, Math.PI * 2);
-                        ctx.fillStyle = this.engine.hexToRgba(el.color, 0.3);
+                        ctx.fillStyle = this.engine.hexToRgba(el.color, 0.08);
                         ctx.fill();
                     }
                 }
@@ -300,7 +300,7 @@ export class LayerMode {
                 ctx.closePath();
             }
 
-            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.4);
+            ctx.fillStyle = this.engine.hexToRgba(el.color, 0.1);
             ctx.fill();
             ctx.strokeStyle = this.engine.hexToRgba(el.color, 0.7);
             ctx.lineWidth = 2;
@@ -345,7 +345,7 @@ export class LayerMode {
 
             ctx.beginPath();
             ctx.arc(el.x, el.y, el.size, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(150, 100, 80, 0.5)';
+            ctx.fillStyle = 'rgba(150, 100, 80, 0.15)';
             ctx.fill();
         });
     }
@@ -377,9 +377,9 @@ export class LayerMode {
             ctx.closePath();
 
             const gradient = ctx.createLinearGradient(-el.width / 2, -el.height / 2, el.width / 2, el.height / 2);
-            gradient.addColorStop(0, this.engine.hexToRgba(el.color, 0.5));
-            gradient.addColorStop(0.5, this.engine.hexToRgba(el.color, 0.3));
-            gradient.addColorStop(1, this.engine.hexToRgba(el.color, 0.4));
+            gradient.addColorStop(0, this.engine.hexToRgba(el.color, 0.12));
+            gradient.addColorStop(0.5, this.engine.hexToRgba(el.color, 0.08));
+            gradient.addColorStop(1, this.engine.hexToRgba(el.color, 0.1));
             ctx.fillStyle = gradient;
             ctx.fill();
 
@@ -419,7 +419,7 @@ export class LayerMode {
             // 반짝이는 점
             ctx.beginPath();
             ctx.arc(el.startX, el.startY, 8 * sparkle, 0, Math.PI * 2);
-            ctx.fillStyle = this.engine.hexToRgba('#ffffff', sparkle * 0.5);
+            ctx.fillStyle = this.engine.hexToRgba('#ffffff', sparkle * 0.15);
             ctx.fill();
 
             ctx.restore();
