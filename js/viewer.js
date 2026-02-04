@@ -555,18 +555,32 @@ class MediaArtViewer {
       if (swipeTime > maxSwipeTime) return;
 
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
-        // 좌우 스와이프 → 날짜 변경
+        // 좌우 스와이프 → 날짜 변경 (범위 체크)
+        const currentDateIndex = this.availableDates.indexOf(this.targetDate);
         if (deltaX > 0) {
-          this.navigateWithTransition(() => this.navigateToPrevDate(), 'right');
+          // 이전 날짜로 가려면 현재 인덱스가 0보다 커야 함
+          if (currentDateIndex > 0) {
+            this.navigateWithTransition(() => this.navigateToPrevDate(), 'right');
+          }
         } else {
-          this.navigateWithTransition(() => this.navigateToNextDate(), 'left');
+          // 다음 날짜로 가려면 현재 인덱스가 마지막보다 작아야 함
+          if (currentDateIndex < this.availableDates.length - 1 && currentDateIndex !== -1) {
+            this.navigateWithTransition(() => this.navigateToNextDate(), 'left');
+          }
         }
       } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > minSwipeDistance) {
-        // 상하 스와이프 → 작가 변경
+        // 상하 스와이프 → 작가 변경 (9명 범위 체크)
+        const currentArtistIndex = this.artistList.indexOf(this.artistId);
         if (deltaY > 0) {
-          this.navigateWithTransition(() => this.navigateToPrevArtist(), 'down');
+          // 이전 작가로 가려면 현재 인덱스가 0보다 커야 함
+          if (currentArtistIndex > 0) {
+            this.navigateWithTransition(() => this.navigateToPrevArtist(), 'down');
+          }
         } else {
-          this.navigateWithTransition(() => this.navigateToNextArtist(), 'up');
+          // 다음 작가로 가려면 현재 인덱스가 마지막보다 작아야 함
+          if (currentArtistIndex < this.artistList.length - 1 && currentArtistIndex !== -1) {
+            this.navigateWithTransition(() => this.navigateToNextArtist(), 'up');
+          }
         }
       }
     }, { passive: true });
@@ -621,12 +635,11 @@ class MediaArtViewer {
   async loadArtist() {
     const params = new URLSearchParams(window.location.search);
     const artistId = params.get('artist') || 'flora-9';
-    // KST 기준으로 YYYY-MM-DD 포맷 생성
-    const now = new Date();
-    const kstOffset = 9 * 60 * 60 * 1000;
-    const kstDate = new Date(now.getTime() + kstOffset);
-    const today = kstDate.toISOString().split('T')[0]; // "2026-01-28"
-    this.targetDate = params.get('date') || today;
+    // URL에 date가 없으면 데이터가 있는 가장 최근 날짜 사용
+    const latestAvailableDate = this.availableDates.length > 0
+      ? this.availableDates[this.availableDates.length - 1]
+      : new Date().toISOString().split('T')[0];
+    this.targetDate = params.get('date') || latestAvailableDate;
 
     try {
       const resp = await fetch(`data/artists.json?v=${Date.now()}`);
