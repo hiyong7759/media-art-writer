@@ -26,30 +26,22 @@ export class ContourMode {
     }
 
     createTopoLines() {
-        const cx = this.engine.width / 2;
-        const cy = this.engine.height / 2;
+        const h = this.engine.height;
+        const lineCount = 12;
 
-        // 동심원 형태의 등고선
-        for (let i = 0; i < 12; i++) {
-            const baseRadius = 50 + i * 30;
-            const points = [];
-            const segments = 60;
-
-            for (let j = 0; j <= segments; j++) {
-                const angle = (j / segments) * Math.PI * 2;
-                const noise = Math.sin(angle * 3 + i) * 20 + Math.sin(angle * 7) * 10;
-                const r = baseRadius + noise;
-                points.push({
-                    x: cx + Math.cos(angle) * r,
-                    y: cy + Math.sin(angle) * r
-                });
-            }
+        // 수평 방향 등고선 (미니 프리뷰와 동일)
+        for (let i = 0; i < lineCount; i++) {
+            const baseY = (h / lineCount) * i + h / (lineCount * 2);
+            // 각 라인의 노이즈 포인트들
+            const noisePoints = Array.from({ length: 10 }, () => Math.random() * 20 - 10);
 
             this.lines.push({
-                points,
+                baseY,
+                noisePoints,
                 color: this.engine.colors[i % this.engine.colors.length],
-                phase: i * 0.2,
-                elevation: i * 100 // 고도 표시용
+                speed: Math.random() * 0.02 + 0.01,
+                phase: i * 0.3,
+                elevation: (lineCount - i) * 100
             });
         }
     }
@@ -102,6 +94,8 @@ export class ContourMode {
     }
 
     drawTopo(ctx, t) {
+        const w = this.engine.width;
+
         this.lines.forEach((line, idx) => {
             ctx.save();
             ctx.shadowBlur = 15;
@@ -111,25 +105,35 @@ export class ContourMode {
             ctx.strokeStyle = this.engine.hexToRgba(line.color, 0.7);
             ctx.lineWidth = 2;
 
-            line.points.forEach((p, i) => {
-                // 부드러운 움직임
-                const wave = Math.sin(t + line.phase + i * 0.1) * 3;
-                const x = p.x + wave;
-                const y = p.y + wave * 0.5;
+            // 수평 방향 등고선 (미니 프리뷰와 동일한 로직)
+            const step = 20;
+            for (let x = 0; x <= w; x += step) {
+                const segmentWidth = w / 10;
+                const noiseIdx = Math.floor(x / segmentWidth);
+                const offset = line.noisePoints[noiseIdx] || 0;
+                const nextOffset = line.noisePoints[noiseIdx + 1] || 0;
+                const lerp = (x % segmentWidth) / segmentWidth;
+                const smoothOffset = offset * (1 - lerp) + nextOffset * lerp;
 
-                if (i === 0) ctx.moveTo(x, y);
+                const waveOffset = Math.sin(t + line.phase + idx) * 8;
+                const y = line.baseY + smoothOffset * 3 + waveOffset;
+
+                if (x === 0) ctx.moveTo(x, y);
                 else ctx.lineTo(x, y);
-            });
+            }
 
-            ctx.closePath();
             ctx.stroke();
 
             // 고도 표시 (숫자)
             if (idx % 3 === 0) {
-                const labelPoint = line.points[Math.floor(line.points.length / 4)];
+                const labelX = w * 0.75;
+                const segmentWidth = w / 10;
+                const noiseIdx = Math.floor(labelX / segmentWidth);
+                const offset = line.noisePoints[noiseIdx] || 0;
+                const labelY = line.baseY + offset * 3;
                 ctx.fillStyle = this.engine.hexToRgba(line.color, 0.8);
-                ctx.font = '10px monospace';
-                ctx.fillText(`${line.elevation}m`, labelPoint.x, labelPoint.y);
+                ctx.font = '11px monospace';
+                ctx.fillText(`${line.elevation}m`, labelX, labelY - 5);
             }
 
             ctx.restore();
