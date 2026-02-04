@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "우아한 유기적 흐름",
+    "en": "Ethereal Organic Flow"
+  },
+  "description": {
+    "ko": "자연의 유동적인 아름다움에 대한 시각적 명상으로, 부드럽고 반투명한 층과 은은한 빛을 통해 생명의 끊김 없고 리듬감 있는 움직임을 포착합니다.",
+    "en": "A visual meditation on the fluid beauty of nature, capturing the seamless and rhythmic movement of life through soft, translucent layers and gentle light."
+  },
+  "prompt": "Macro photography of liquid silk ribbons flowing through a void, organic soft curves, iridescent pearlescent textures, bioluminescent pastel gradients, fluid dynamics simulation, ethereal and serene atmosphere, 8k resolution, cinematic lighting, minimalist composition, high-detail rendering",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-05T00:36:59.661+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 바이오-디지털 합성",
+    "en": "FLORA-9: Bio-Digital Synthesis"
+  },
+  "description": {
+    "ko": "유기 생명체와 디지털 건축 사이의 가교 역할을 하는 첨단 식물 안드로이드로, 빛나는 광섬유 꽃잎과 데이터로 맥동하는 수정질 뿌리 시스템이 특징입니다.",
+    "en": "An advanced botanical android that bridges the gap between organic life and digital architecture, featuring luminous fiber-optic petals and a crystalline root system that pulses with data."
+  },
+  "prompt": "A cinematic close-up of FLORA-9, a futuristic hybrid plant made of translucent glass and glowing neon circuits, surrounded by a dark digital rainforest, bioluminescent floating particles, intricate wire-veined leaves, soft teal and magenta lighting, 8k resolution, hyper-realistic, cybernetic botany.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-05T00:37:37.619+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 촉각적 지형",
+    "en": "TERRA-1: Tactile Topography"
+  },
+  "description": {
+    "ko": "지표면을 추상적으로 시각화한 연구로, 지질학적 형성물의 원초적이고 촉각적인 아름다움과 자연적인 침식 및 시간이 만들어낸 복잡한 패턴에 집중합니다.",
+    "en": "An abstract visual study of the Earth's surface, focusing on the raw, tactile beauty of geological formations and the intricate patterns created by natural erosion and time."
+  },
+  "prompt": "A cinematic high-resolution macro photography shot of complex Earth textures, showcasing deep fissures in sun-baked clay, swirling patterns of multicolored sedimentary rock, and the rough grain of volcanic basalt. The lighting creates dramatic shadows across the topographical ridges. Earthy color palette of deep terracotta, burnt umber, and slate gray. Hyper-realistic, 8k, detailed mineral crystalline structures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-05T00:38:12.869+09:00"
+}

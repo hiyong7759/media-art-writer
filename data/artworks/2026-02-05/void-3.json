@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 메아리",
+    "en": "VOID-3: Echoes of the Deep"
+  },
+  "description": {
+    "ko": "우주의 빛이 우주 심연의 원시적 침묵 속으로 사라지는 VOID-3의 심장부로의 여정입니다. 이 구역은 존재와 절대 진공 사이의 경계를 나타내며, 시간과 공간이 아름답고도 공포스러운 어둠 속으로 붕괴하는 장소입니다.",
+    "en": "A journey into the heart of VOID-3, where the universe's light fades into the primordial silence of the cosmic deep. This sector represents the boundary between existence and the absolute vacuum, where time and space collapse into a beautiful, terrifying darkness."
+  },
+  "prompt": "Cinematic wide shot of VOID-3, the ultimate cosmic deep. A vast, silent abyss where dark matter swirls like ink in water. Faint, ghostly nebulae in deep indigo and violet illuminate the edges of an infinite gravitational well. Tiny, distant pulsars flicker like dying embers. Ultra-realistic, 8k resolution, cosmic horror aesthetic, ethereal lighting, sense of overwhelming scale, intricate cosmic dust textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-05T00:38:01.469+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심연의 오디세이",
+    "en": "AQUA-5: The Abyssal Odyssey"
+  },
+  "description": {
+    "ko": "초고압의 초심해저를 위해 설계된 AQUA-5는 생물 발광의 하이라이트와 최첨단 해양 탐사 기술을 통해 심해의 숨막히는 아름다움을 담아냅니다.",
+    "en": "Designed for the extreme pressures of the Hadal zone, AQUA-5 captures the breathtaking beauty of the deep ocean, featuring bioluminescent highlights and cutting-edge marine exploration technology."
+  },
+  "prompt": "A futuristic deep-sea submersible AQUA-5 navigating through the midnight zone of the ocean, surrounded by bioluminescent flora and mysterious glowing marine life, intense cinematic lighting, deep navy and electric blue color palette, 8k resolution, photorealistic, atmospheric pressure effects",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-05T00:38:29.267+09:00"
+}

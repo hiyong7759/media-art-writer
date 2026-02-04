@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명하는 주파수",
+    "en": "Resonant Frequencies"
+  },
+  "description": {
+    "ko": "음파가 기하학적 패턴으로 구현되는 과정을 시각적으로 탐구하며, 빛과 유동적인 움직임을 통해 음악의 보이지 않는 에너지를 포착합니다.",
+    "en": "A visual exploration of how sound waves manifest into geometric patterns, capturing the invisible energy of music through light and fluid motion."
+  },
+  "prompt": "Abstract visualization of sound waves, cymatics patterns, fluid motion of frequencies, luminous neon particles, deep indigo and electric cyan color palette, cinematic lighting, 8k resolution, mathematical beauty of audio, hyper-detailed digital art.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-05T00:37:48.581+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-05",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채 굴절의 교향곡",
+    "en": "Chromatic Refraction Symphony"
+  },
+  "description": {
+    "ko": "기하학적 유리 프리즘을 통해 빛이 생생한 스펙트럼으로 분산되는 찰나의 순간을 포착하여 광학적 아름다움을 극대화한 시각 자료입니다.",
+    "en": "A mesmerizing display of optical physics, capturing the precise moment light splits into a vivid spectral array through a geometric glass prism."
+  },
+  "prompt": "A macro close-up of a high-clarity triangular crystal prism refracting a single beam of pure white light into a vibrant, detailed rainbow spectrum. Sharp caustic patterns on a minimalist white surface, ethereal lighting, soft bokeh background, 8k resolution, cinematic composition, hyper-realistic glass textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-05T00:38:40.246+09:00"
+}
