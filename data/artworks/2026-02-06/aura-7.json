@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "유기적 유동성",
+    "en": "Organic Flow"
+  },
+  "description": {
+    "ko": "유동적인 형태와 부드러운 전이가 생명과 에너지의 끊임없는 움직임을 떠올리게 하는 자연스러운 리듬의 매혹적인 시각화입니다.",
+    "en": "A mesmerizing visualization of natural rhythm, where fluid forms and soft transitions evoke the seamless movement of life and energy."
+  },
+  "prompt": "Macro photography of iridescent liquid swirls, organic flowing shapes, soft curves, pearlescent textures, bioluminescent glow, smooth color gradients, 8k resolution, cinematic lighting, abstract nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-06T00:36:33.056+09:00"
+}

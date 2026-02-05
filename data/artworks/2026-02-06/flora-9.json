@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 합성체",
+    "en": "FLORA-9: The Digital Synthesis"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 생명체와 수정체 데이터 구조가 공생하는 빛나는 정원 속에서 공존하는 미래를 구상하는 '디지털 네이처'의 개념적 탐구입니다.",
+    "en": "FLORA-9 is a conceptual exploration of 'Digital Nature,' envisioning a future where organic life and crystalline data structures coexist in a symbiotic luminous garden."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, a futuristic digital ecosystem where bioluminescent flora is integrated with fiber-optic networks. Glowing translucent leaves with data-stream veins, iridescent petals pulsing with neon light, holographic pollen floating in the air, high-tech cybernetic garden, 8k resolution, octane render, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-06T00:37:04.090+09:00"
+}

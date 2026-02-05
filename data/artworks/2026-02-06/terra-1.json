@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원초적 지각",
+    "en": "TERRA-1: Primal Crust"
+  },
+  "description": {
+    "ko": "지구 표면에 대한 고고도 추상적 탐구로, 말라붙은 대지와 고대 지질학적 형성물이 만들어내는 복잡하고 풍화된 패턴을 포착합니다.",
+    "en": "A high-altitude abstract exploration of the Earth's surface, capturing the intricate and weathered patterns of dried earth and ancient geological formations."
+  },
+  "prompt": "Aerial view of complex earth textures, cracked clay desert, swirling sediment patterns, satellite perspective, high resolution, organic shapes, earthy tones, brown, beige, ochre, deep cracks, tectonic aesthetic, macro geological details",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-06T00:37:26.649+09:00"
+}

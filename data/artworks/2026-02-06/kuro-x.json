@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 파편화",
+    "en": "KURO-X: Geometric Fragmentation"
+  },
+  "description": {
+    "ko": "통제된 혼돈의 관점에서 바라본 KURO-X의 정체성 탐구로, 엄격한 수학적 형태와 디지털 왜곡의 예측 불가능한 아름다움을 결합했습니다.",
+    "en": "A visual exploration of the KURO-X identity through the lens of controlled chaos, blending rigid mathematical shapes with the unpredictable beauty of digital distortion."
+  },
+  "prompt": "KURO-X aesthetic, sharp geometric polygons and crystalline structures, digital glitch effects, chromatic aberration, fragmented shapes, neon violet and electric cyan accents on a deep obsidian black background, high-tech data corruption, futuristic vector art, 8k resolution, sleek cybernetic texture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-06T00:36:46.879+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "ECHO-0 시스템의 실시간 음파 분석을 묘사하는 정교한 디지털 인터페이스입니다. 주변의 음향 데이터에 반응하는 무지갯빛 3D 파형과 맥동하는 빛 입자가 특징이며, 기술과 예술적인 유체 역학이 조화를 이룹니다.",
+    "en": "A sophisticated digital interface depicting the ECHO-0 system's real-time sound wave analysis. It features iridescent 3D waveforms and pulsing light particles that react to ambient acoustic data, blending technology with artistic fluid dynamics."
+  },
+  "prompt": "Futuristic holographic sound visualization interface titled ECHO-0, intricate 3D iridescent waveforms, glowing neon particles, fluid motion, dark technical background, UI/UX design elements, high-resolution, cinematic lighting, 8k, cyberpunk aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-06T00:37:15.001+09:00"
+}

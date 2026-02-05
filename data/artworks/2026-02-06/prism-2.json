@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 노틸러스",
+    "en": "Spectral Nautilus"
+  },
+  "description": {
+    "ko": "빛과 유리에 대한 연구로, 복잡한 기하학적 형태가 강렬한 굴절을 통해 빛을 근본적인 무지개 성분으로 분산시키는 모습을 담았습니다.",
+    "en": "A study of light and glass, where a complex geometric form shatters light into its fundamental rainbow components through intense refraction."
+  },
+  "prompt": "A macro photography shot of a hyper-complex glass nautilus shell hit by a concentrated beam of white light, exploding into a web of #FF0080, #00FF80, and #8000FF spectral shards. Intense light dispersion, rainbow caustics, and #FFFF00 chromatic aberration at every crystal facet. 8k, hyper-realistic, raytracing. Sharp macro focus on the points where light splits into pure energy within a dark void, capturing the chaotic beauty of refraction.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-06T00:37:43.134+09:00"
+}

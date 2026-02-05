@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-06",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 정적",
+    "en": "AQUA-5: The Abyssal Silence"
+  },
+  "description": {
+    "ko": "영원한 어둠 속에서 발광 생명체들이 빛을 발하고, 엄청난 수압 아래 고대의 비밀이 잠들어 있는 미지의 하달존 깊은 곳으로 여행을 떠나보세요.",
+    "en": "Journey into the uncharted depths of the Hadal zone, where bioluminescent creatures illuminate the eternal darkness and ancient secrets lie buried beneath the crushing pressure of the deep sea."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean floor, abyssal zone, glowing bioluminescent flora and fauna, neon blue and violet jellyfish, ancient ship remains covered in coral, hydrothermal vents emitting smoke, dark navy water, realistic textures, volumetric lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-06T00:37:37.617+09:00"
+}
