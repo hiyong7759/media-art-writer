@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 영원한 우주의 심연",
+    "en": "VOID-3: Eternal Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛이 우주의 깊은 공허 속으로 사라지며 미지의 거대한 규모를 드러내는, 침묵하고 무한한 우주의 깊은 곳으로의 여정입니다.",
+    "en": "A journey into the silent, infinite depths of the universe where light fades into the profound void of the cosmic deep, revealing the majestic scale of the unknown."
+  },
+  "prompt": "Cinematic wide shot of a massive black hole event horizon, surrounded by swirling violet and deep blue nebulae, cosmic dust particles floating in the foreground, hyper-realistic, 8k resolution, ethereal lighting, void of space, infinite darkness, silent atmosphere, volumetric lighting, surreal cosmic scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-07T00:35:07.878+09:00"
+}

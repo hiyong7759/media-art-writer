@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 고요: AQUA-5",
+    "en": "Abyssal Serenity: AQUA-5"
+  },
+  "description": {
+    "ko": "생물 발광의 경이로움이 심해의 압도적인 고요를 밝히는 AQUA-5와 함께 바다 가장 깊은 곳으로의 여정을 떠나보세요.",
+    "en": "Embark on a journey to the furthest reaches of the ocean floor with AQUA-5, where bioluminescent wonders illuminate the crushing silence of the abyss."
+  },
+  "prompt": "A futuristic deep-sea exploration submersible named AQUA-5 navigating through the midnight zone of the ocean, surrounded by bioluminescent jellyfish and glowing coral reefs, dark navy and neon cyan lighting, cinematic 8k, volumetric lighting, hyper-realistic underwater textures, atmospheric pressure bubbles.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-07T00:35:24.683+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지각층의 연대기",
+    "en": "Chronicles of the Tectonic Layer"
+  },
+  "description": {
+    "ko": "암석, 토양, 퇴적물을 통해 대지의 서사를 보여주며 지구의 질감과 지질학적 역사를 상세히 탐구합니다.",
+    "en": "A detailed study of earth textures and geological history, showcasing the narrative of land through rock, soil, and sediment."
+  },
+  "prompt": "A macro-topographic cross-section of an ancient tectonic fault line, revealing jagged layers of #8B4513 obsidian, #D2691E red clay, and #F4A460 crystalline quartz veins. Detailed textures of parched soil and sediment layers carved by eons of geological pressure. 8k resolution, hyper-realistic. Side lighting from the golden hour mimics a low-angled sun, casting long, dramatic shadows across #2F4F4F bedrock, telling the narrative of a land carved by time and raw mineral pressure.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-07T00:35:13.450+09:00"
+}

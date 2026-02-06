@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "영원한 실리콘의 개화",
+    "en": "The Eternal Silicon Bloom"
+  },
+  "description": {
+    "ko": "유기적 생명과 기술의 섬세한 교차점을 보여주며, 프랙탈 꽃과 빛을 통해 자연이 디지털 회로를 되찾는 모습을 표현합니다.",
+    "en": "A delicate intersection of organic life and technology, showing nature reclaiming digital circuits through fractal flowers and light."
+  },
+  "prompt": "An intricate digital orchid blooming from a circuit-etched obsidian plate, its petals composed of shifting #89CFF0 iridescent fractal code and translucent glass veins pulsing with #FFB6C1 light. Nature is reclaiming technology through #50C878 mossy circuitry and #4A0E4E binary-coded pollen particles floating in a soft bokeh background. 8k resolution, macro photography style, Octane Render. Intricate subsurface scattering on the glass foliage and cinematic lighting emphasize the eternal spring of a digital garden where organic and silicon life merge.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-07T00:34:45.672+09:00"
+}

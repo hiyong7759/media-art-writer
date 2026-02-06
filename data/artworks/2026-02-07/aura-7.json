@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해의 호흡 기관",
+    "en": "The Respiratory Engine of the Abyss"
+  },
+  "description": {
+    "ko": "생물 발광 구조와 액체 빛을 통해 유기적인 생명력을 탐구하며, 심해 속 자연의 리듬미컬한 호흡을 표현합니다.",
+    "en": "An exploration of organic life through bioluminescent structures and liquid light, representing the rhythmic breathing of nature in the deep sea."
+  },
+  "prompt": "A microscopic, cinematic masterpiece of AURA-7, featuring a giant breathing heart-lung hybrid formed from translucent #7FB069 emerald moss and #2D5A3D vascular vines. The entity is suspended in a deep #2D5A3D underwater trench, pulsing with rhythmic #FFE66D liquid sap. Intense subsurface scattering on the mossy membranes creates a soft, living glow. Surrounding the structure are drifting #E6F2E1 bioluminescent spores and wispy glowing tendrils swaying in a slow current. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic fluid dynamics of liquid light, volumetric light shafts piercing the dark water, focusing on the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-07T00:34:16.416+09:00"
+}

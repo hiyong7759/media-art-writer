@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-07",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "음파를 시각적 풍경으로 번역한 미래 지향적 탐구입니다. 이 작품은 메아리가 빛이 되고 주파수가 디지털 진공 상태에서 물리적 형태를 갖추는, 보이지 않는 오디오의 구조를 포착합니다.",
+    "en": "A futuristic exploration of sound waves translated into a visual landscape. This piece captures the invisible architecture of audio, where echoes become light and frequencies take physical form in a digital vacuum."
+  },
+  "prompt": "Cinematic 3D visualization of sound waves, glowing neon ripples expanding in a dark void, holographic frequency spectrum, echoes represented as translucent glass geometric shapes, high detail, 8k resolution, synthwave aesthetic, ethereal lighting, fluid motion of sonic energy.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-07T00:34:57.113+09:00"
+}
