@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "사이버네틱 블룸",
+    "en": "Cybernetic Bloom"
+  },
+  "description": {
+    "ko": "유기적 생명체와 합성 기술의 교차점을 시각적으로 탐구하며, 식물들이 전기 에너지와 데이터 스트림으로 맥동하는 활기찬 생태계를 보여줍니다.",
+    "en": "A visual exploration of the intersection between organic life and synthetic technology, showcasing a vibrant ecosystem where flora pulses with electric energy and data streams."
+  },
+  "prompt": "A high-resolution macro shot of a bioluminescent flower with translucent petals revealing intricate glowing circuit patterns, surrounded by floating digital particles and neon fiber-optic vines in a dark void, cinematic lighting, futuristic aesthetic, 8k, hyper-detailed.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-08T00:19:20.602+09:00"
+}

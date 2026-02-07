@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 대지의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "고공에서 바라본 마른 강바닥, 갈라진 토양, 거친 지질학적 형성물의 복잡한 패턴을 포착하여 지구의 자연 표면을 상세하게 탐구합니다.",
+    "en": "A detailed exploration of Earth's natural surfaces, capturing the intricate patterns of dried riverbeds, cracked soil, and rugged geological formations from a high-altitude perspective."
+  },
+  "prompt": "Hyper-realistic high-resolution satellite photography of earth textures, cracked dry ground, intricate geological patterns, aerial view, cinematic lighting, earthy tones, detailed topography, 8k resolution, macro-texture of soil and rock formations.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-08T00:19:52.897+09:00"
+}

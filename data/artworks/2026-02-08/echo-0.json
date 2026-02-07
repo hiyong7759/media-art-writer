@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "음향 주파수와 디지털 기하학의 교차점을 탐구하는 실험적 시각화 프로젝트로, 보이지 않는 소리의 본질을 고정밀 시각적 형태로 포착합니다.",
+    "en": "An experimental visualization project exploring the intersection of sonic frequencies and digital geometry, capturing the invisible essence of sound in a high-fidelity visual form."
+  },
+  "prompt": "Cinematic 3D sound visualization, ECHO-0 project, abstract geometric waveforms pulsing in a void, neon cyan and deep violet light trails, concentric ripples of sound data, high-tech aesthetic, 8k resolution, hyper-detailed, futuristic interface design, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-08T00:19:32.075+09:00"
+}

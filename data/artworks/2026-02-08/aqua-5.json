@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyssal Sentinel"
+  },
+  "description": {
+    "ko": "압도적인 수압을 견디고 해저 깊은 곳의 숨겨진 미스테리를 밝히기 위해 설계된 최첨단 심해 탐사 유닛입니다.",
+    "en": "A state-of-the-art deep-sea exploration unit engineered to withstand crushing pressures and illuminate the darkest mysteries of the ocean floor."
+  },
+  "prompt": "Cinematic high-detail shot of a futuristic submersible robot named AQUA-5 with glowing cyan bioluminescent lights, navigating through a dark underwater canyon in the deep ocean, surrounded by giant tube worms and volcanic thermal vents, 8k resolution, volumetric lighting, photorealistic, intricate mechanical plating, deep navy and chrome finish.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-08T00:20:03.498+09:00"
+}

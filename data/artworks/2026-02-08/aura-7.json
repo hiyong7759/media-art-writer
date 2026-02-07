@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 심해의 호흡 엔진",
+    "en": "Respiratory Engine of the Emerald Deep"
+  },
+  "description": {
+    "ko": "유기적 생물 발광을 정교하게 탐구한 작품으로, 수중의 빈 공간에서 호흡기 생물학과 액체 빛이 융합된 살아있는 구조를 묘사합니다.",
+    "en": "A highly detailed exploration of organic bioluminescence, depicting a living structure that merges respiratory biology with liquid light in an underwater void."
+  },
+  "prompt": "A cinematic, ultra-macro masterpiece of AURA-7, featuring a colossal, breathing respiratory engine formed from translucent #7FB069 moss and #2D5A3D vascular networks, pulsing with rhythmic #FFE66D liquid light. The structure is suspended in a deep-sea #2D5A3D trench, surrounded by drifting #E6F2E1 bioluminescent spores. Intense subsurface scattering on the emerald membranes creates a soft, living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic fluid dynamics of liquid light, volumetric light shafts piercing the dark green water, focusing on the microscopic texture of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-08T00:18:51.256+09:00"
+}

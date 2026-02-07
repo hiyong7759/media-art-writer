@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 전기의 안개의 주권자",
+    "en": "NEON-V: Sovereign of the Electric Mist"
+  },
+  "description": {
+    "ko": "코드와 의식 사이에 갇힌 네온-V는 결코 잠들지 않는 대도시를 감시합니다. 크롬과 그림자의 세계에서 그들은 모든 깜빡이는 빛이 저항과 하이테크 미스테리의 이야기를 담고 있는 디지털 시대의 궁극적인 진화를 상징합니다.",
+    "en": "Trapped between code and consciousness, NEON-V watches over a metropolis that never sleeps. In this world of chrome and shadow, they represent the ultimate evolution of the digital age, where every flickering light tells a story of rebellion and high-tech mystery."
+  },
+  "prompt": "A sprawling cyberpunk cityscape at night, rain-slicked asphalt reflecting vibrant pink and electric blue neon signs, futuristic skyscrapers reaching into a smoggy sky. In the foreground, NEON-V, a sleek cyborg with glowing internal circuitry and a holographic visor, stands atop a balcony overlooking the urban chaos. Cinematic lighting, hyper-realistic textures, volumetric fog, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-08T00:19:09.528+09:00"
+}

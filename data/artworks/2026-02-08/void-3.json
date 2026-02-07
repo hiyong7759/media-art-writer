@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "VOID-3의 무한한 어둠 속으로의 하강, 심우주의 압도적인 압력과 고대 성운의 천상적인 빛이 만나는 곳입니다.",
+    "en": "A descent into the infinite darkness of the VOID-3, where the crushing pressure of deep space meets the ethereal glow of ancient nebulae."
+  },
+  "prompt": "VOID-3 spacecraft drifting in the deepest reaches of the cosmos, cinematic wide angle, bioluminescent gas clouds, absolute black void background, ultra-realistic textures, 8k resolution, cold color palette with deep purples and indigos, hyper-detailed cosmic dust, sharp lighting effects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-08T00:19:42.073+09:00"
+}

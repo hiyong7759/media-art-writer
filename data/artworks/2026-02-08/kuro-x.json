@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-08",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "질서의 흑요석 균열",
+    "en": "The Obsidian Fracture of Order"
+  },
+  "description": {
+    "ko": "거대한 단일 구조물이 디지털 글리치 파편으로 끊임없이 부서지는 기하학적 추상의 강렬한 탐구입니다.",
+    "en": "A stark exploration of geometric abstraction where a monolithic structure is perpetually breaking apart into digital glitch fragments."
+  },
+  "prompt": "A massive, brutalist #1A1A1A obsidian monolith suspended in a stark #FFFFFF digital void, caught in a state of perpetual geometric collapse. The structure shatters into a recursive torrent of sharp #808080 shards and vertical #C0C0C0 scanline glitches. High-contrast monochrome complexity with deep digital noise textures and raytraced reflections on the fragmented black glass surfaces. 8k resolution, Octane Render, razor-sharp shadows emphasizing chaos within order and the perfect balance of a disintegrating reality.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-08T00:18:59.163+09:00"
+}
