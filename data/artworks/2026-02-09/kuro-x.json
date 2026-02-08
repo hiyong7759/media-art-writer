@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 왜곡",
+    "en": "KURO-X: Geometric Disruption"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 대칭과 디지털 엔트로피가 만나는 KURO-X 코어의 시각적 구현입니다. 파편화된 다각형과 빛의 잔상은 구조화된 데이터와 혼돈스러운 처리 과정 사이의 유동적인 경계를 상징합니다.",
+    "en": "A visual manifestation of the KURO-X core, where perfect geometric symmetry meets digital entropy. Fragmented polygons and light artifacts represent the fluid boundary between structured data and chaotic processing."
+  },
+  "prompt": "KURO-X minimalist logo centered, geometric glitch aesthetic, shattered polygonal shapes, digital data corruption effects, chromatic aberration on sharp edges, deep obsidian background, electric cyan and neon violet highlights, high contrast, vector style, 8k resolution, technical interface elements",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-09T00:20:28.096+09:00"
+}

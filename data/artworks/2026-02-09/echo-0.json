@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "음향 진동을 역동적이고 유체 같은 시각적 패턴으로 변환하여, 고대비 흑백 공간에서 소리의 보이지 않는 본질을 포착하는 몰입형 디지털 아트 설치물입니다.",
+    "en": "An immersive digital art installation exploring the conversion of acoustic vibrations into dynamic, fluid-like visual patterns, capturing the invisible essence of sound in a high-contrast monochromatic space."
+  },
+  "prompt": "A cinematic, high-detail macro shot of sound visualization in a dark void. Fluid simulation of sonic waves rippling through liquid ferrofluid, glowing particles tracing frequency paths, 8k resolution, ethereal lighting, minimalist aesthetic, iridescent accents on deep black background, volumetric lighting effects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-09T00:21:01.470+09:00"
+}

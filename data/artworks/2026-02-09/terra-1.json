@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원시의 대지",
+    "en": "TERRA-1: Primordial Earth"
+  },
+  "description": {
+    "ko": "갈라진 진흙, 이끼 낀 바위, 흐르는 화산 흑요석 등 지구 표면의 복잡한 질감을 탐구하는 매크로 시네마틱 영상입니다.",
+    "en": "A macro cinematic shot exploring the intricate textures of the Earth's surface, featuring cracked dry mud, moss-covered rocks, and flowing volcanic obsidian."
+  },
+  "prompt": "High-detail macro cinematography of Earth textures, cracked arid soil transitioning into lush green moss and dark crystalline obsidian, 8k resolution, cinematic lighting, organic movement, geological patterns, hyper-realistic, top-down perspective.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-09T00:21:28.470+09:00"
+}

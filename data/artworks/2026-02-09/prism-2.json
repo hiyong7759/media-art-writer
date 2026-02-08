@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 공명: PRISM-2 시리즈",
+    "en": "Spectral Resonance: The PRISM-2 Series"
+  },
+  "description": {
+    "ko": "빛의 굴절 물리학을 깊이 있게 탐구한 작품으로, 차가운 수정 구조가 단일 광선을 색과 에너지의 다채로운 폭발로 변환하는 과정을 시각화했습니다.",
+    "en": "A deep dive into the physics of light refraction, where cold crystalline structures transform singular rays into a diverse explosion of color and energy."
+  },
+  "prompt": "Hyper-realistic macro photography of a geometric glass prism capturing a single beam of pure white light, dispersing it into a vibrant, sharp rainbow spectrum. Soft caustic light patterns dancing on a clean, minimalist obsidian surface. Cinematic lighting, optical physics accuracy, chromatic aberration, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-09T00:21:54.027+09:00"
+}

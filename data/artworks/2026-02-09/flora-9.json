@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "플로라-9는 유기적 생물학과 고속 데이터 아키텍처의 획기적인 합성을 보여줍니다. 이 디지털 자연 표본은 꽃잎 내부에 생체 발광 신경망을 갖추고 있으며, 포스트 바이오 생태계에서 생명체의 진화를 반영합니다.",
+    "en": "FLORA-9 represents a groundbreaking synthesis of organic biology and high-speed data architecture. This digital nature specimen features bioluminescent neural networks within its petals, reflecting the evolution of life in a post-biological ecosystem."
+  },
+  "prompt": "Hyper-realistic macro photography of FLORA-9, a futuristic cybernetic plant species, translucent iridescent petals embedded with glowing fiber-optic veins, neon liquid nutrients flowing through crystalline stems, digital pollen particles shimmering in a dark techno-organic environment, soft bokeh background of a data-forest, 8k resolution, cinematic lighting, intricate mechanical botanical details, ethereal digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-09T00:20:49.318+09:00"
+}

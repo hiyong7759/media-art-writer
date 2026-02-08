@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-09",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성운",
+    "en": "Abyssal Nebula"
+  },
+  "description": {
+    "ko": "빛이 무한한 우주의 공허 속으로 사라지고 숨겨진 천체 구조가 드러나는 우주의 가장 먼 곳으로의 여정입니다.",
+    "en": "A journey into the furthest reaches of the universe where light fades into the infinite cosmic void, revealing hidden celestial structures."
+  },
+  "prompt": "Cinematic shot of a deep cosmic void, swirling dark violet and obsidian nebulae, distant dying stars, hyper-realistic, 8k resolution, ethereal lighting, sense of infinite scale, VOID-3 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-09T00:21:14.500+09:00"
+}
