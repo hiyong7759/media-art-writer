@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-10",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 굴절",
+    "en": "PRISM-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "빛이 수정을 통과하며 본연의 색으로 분산되는 과정을 시각적으로 탐구합니다. 이는 PRISM-2 프로젝트가 지닌 다각적인 면모와 변화의 가치를 상징합니다.",
+    "en": "A visual exploration of light's transformation as it passes through a crystalline medium, breaking into its fundamental colors to represent the multi-faceted nature of the PRISM-2 project."
+  },
+  "prompt": "Hyper-realistic 3D rendering of a glass prism positioned on a dark reflective surface, a single beam of pure white light hitting the edge and dispersing into a brilliant, wide-angle rainbow spectrum. Ethereal light refraction, soft caustics, cinematic bokeh background, sharp geometric lines, 8k resolution, minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-10T00:51:03.350+09:00"
+}

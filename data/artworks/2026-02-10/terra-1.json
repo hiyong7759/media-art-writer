@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-10",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원시의 지층",
+    "en": "TERRA-1: Primordial Strata"
+  },
+  "description": {
+    "ko": "수천 년에 걸쳐 형성된 풍화된 토양과 미네랄 퇴적물의 복잡한 패턴을 포착하여 지구 지각을 심도 있게 탐구합니다.",
+    "en": "A profound exploration of the Earth's crust, capturing the intricate patterns of weathered soil and mineral deposits formed over millennia."
+  },
+  "prompt": "Ultra-detailed macro photography of Earth's surface texture, showing deep fissures in dried clay, layered sedimentary rock, mineral veins in bronze and ochre, high-contrast shadows, 8k resolution, cinematic lighting, geological survey aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-10T00:50:40.328+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-10",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성 바이오스피어",
+    "en": "FLORA-9: The Synthetic Biosphere"
+  },
+  "description": {
+    "ko": "디지털 영역 내 식물 진화에 대한 선구적인 시각을 제시합니다. FLORA-9은 유기적인 아름다움과 알고리즘의 복잡성이 결합된 데이터 기반 유기체로 번성합니다.",
+    "en": "A visionary look into the evolution of botany within a digital realm, where FLORA-9 thrives as a data-driven organism blending organic beauty with algorithmic complexity."
+  },
+  "prompt": "Cinematic close-up of FLORA-9, a futuristic digital plant with translucent crystalline leaves and glowing neon fiber-optic veins. The petals are composed of shifting geometric voxels that pulse with cyan and violet light. Floating data particles drift around the stem like pollen. Set in a dark, ethereal virtual greenhouse, hyper-realistic, 8k resolution, ray-tracing reflections, Unreal Engine 5 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-10T00:50:06.544+09:00"
+}

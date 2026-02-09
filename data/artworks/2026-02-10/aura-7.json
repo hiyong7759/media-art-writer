@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-10",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "조화로운 유동성",
+    "en": "Harmonic Fluidity"
+  },
+  "description": {
+    "ko": "부드럽게 넘실거리는 파동과 자연스러운 그라데이션을 통해 살아 숨 쉬는 리듬감을 표현하며, 끊김 없이 이어지는 유기적인 움직임을 시각화합니다.",
+    "en": "A visual representation of seamless movement, featuring soft undulating waves and natural gradients that evoke a sense of living, breathing rhythm."
+  },
+  "prompt": "AURA-7 aesthetic, organic flow, fluid dynamics, soft undulating curves, liquid motion, ethereal pastel gradients, seamless natural transitions, high resolution, 8k, abstract biological forms, silk-like textures, soft ambient lighting",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-10T00:49:31.598+09:00"
+}
