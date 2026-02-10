@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명의 기하학",
+    "en": "The Geometry of Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 오디오 파형을 복잡한 건축적 조각으로 변환하여 소리의 주파수를 물리적으로 형상화한 작품입니다.",
+    "en": "A physical manifestation of sound frequencies, transforming invisible audio waves into complex architectural sculptures."
+  },
+  "prompt": "A 3D cymatic visualization of a liquid sapphire #4169E1 sphere reacting to a high-frequency #FFD700 golden resonance. The liquid surface erupts into sharp architectural spikes and vibrating ripples in a dark obsidian void. Minimalist #FF4500 and #32CD32 light trails track the invisible soundwaves. High-speed motion blur, 8k, raytracing, visual consonance of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-11T01:01:51.897+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "크롬 드래곤의 비 내리는 잔향",
+    "en": "Rainy Echoes of the Chrome Dragon"
+  },
+  "description": {
+    "ko": "사이버네틱한 스케일과 습한 네온 빛이 교차하는 미래 도시 협곡의 낭만적인 비전을 담았습니다.",
+    "en": "A romanticized vision of a futuristic urban canyon where cybernetic scale and humid neon light intersect."
+  },
+  "prompt": "Low-angle cinematic wide shot of a rain-slicked #1A0033 cyberpunk alleyway. Saturated #FF00FF and #00FFFF neon signs reflect in deep asphalt puddles. A colossal #FF6B35 holographic dragon weaves between rusted metal skyscrapers, its scales casting volumetric orange light through the heavy fog. Hyper-detailed textures of wet carbon fiber and rainy glass, 8k, Unreal Engine 5 raytracing.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-11T01:01:37.392+09:00"
+}

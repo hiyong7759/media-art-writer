@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "메인보드의 영원한 봄",
+    "en": "Eternal Spring of the Motherboard"
+  },
+  "description": {
+    "ko": "가상 생태계에서 영원히 피어나는 디지털 정원을 묘사하며 기술과 생물학의 시적인 융합을 보여줍니다.",
+    "en": "A poetic fusion of technology and biology, depicting a digital garden that blooms forever in a virtual ecosystem."
+  },
+  "prompt": "A macro cinematic shot of 'FLORA-9', a hybrid orchid with petals made of #89CFF0 iridescent fractal code and translucent glass veins. The flower blooms from a #50C878 mossy motherboard, releasing #4A0E4E binary-coded pollen that glows with #FFB6C1 light. Intricate subsurface scattering on the glass foliage, soft bokeh background, eternal spring of a digital garden, 8k, Octane Render.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-11T01:01:45.372+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "void-3",
+  "title": {
+    "ko": "고요한 심연의 대성당",
+    "en": "Cathedral of the Silent Abyss"
+  },
+  "description": {
+    "ko": "우주의 거대한 규모와 침묵하는 힘을 포착하여 무한한 우주에 대한 기념비적인 비전을 제시합니다.",
+    "en": "A monumental vision of the infinite universe, capturing the awe-inspiring scale and silent power of the cosmic void."
+  },
+  "prompt": "An impossible celestial cathedral formed from gravitational lensing of a supermassive black hole. Pillars of #3D1A78 starlight and #0D0221 dark matter filaments define the infinite hall. Gas clouds of #7B68EE and #E6E6FA swirl in the background. Cinematic 8k scale, volumetric gas simulations, the silent majesty of the cosmic abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-11T01:01:57.891+09:00"
+}

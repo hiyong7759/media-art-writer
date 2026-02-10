@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 심해의 호흡 기관",
+    "en": "Respiratory Engine of the Emerald Deep"
+  },
+  "description": {
+    "ko": "자연의 건축미와 생물 발광 에너지를 결합하여 천상의 호흡기 시스템을 통해 유기적 생명체를 탐구한 작품입니다.",
+    "en": "An exploration of organic life through the lens of a celestial respiratory system, blending nature's architecture with bioluminescent energy."
+  },
+  "prompt": "A microscopic cinematic exploration of a pulsating organic lung-engine, built from translucent #7FB069 emerald membranes and thick #2D5A3D vascular roots. The structure inhales #E6F2E1 bioluminescent spores and exhales rhythmic #FFE66D liquid light. Suspended in a deep-sea atmospheric void, soft subsurface scattering creates a living internal glow. 8k, Unreal Engine 5, Octane Render, hyper-realistic fluid dynamics of the breathing light of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-11T01:01:25.640+09:00"
+}

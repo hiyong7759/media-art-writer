@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "해구의 발광 댄스",
+    "en": "Luminescent Dance of the Trench"
+  },
+  "description": {
+    "ko": "압도적인 어둠 속에서 번성하는 발광 생물들에 초점을 맞추어 심해의 평온함을 표현한 작품입니다.",
+    "en": "A serene immersion into the deep ocean, focusing on the light-emitting organisms that thrive in the crushing darkness."
+  },
+  "prompt": "Cinematic wide shot of the AQUA-5 abyssal zone. Giant #48D1CC translucent jellyfish drift past #000080 hydrothermal vents emitting silver bubbles. Volumetric #006994 and #40E0D0 light rays pierce the dark water, illuminating marine snow and bioluminescent plankton. 8k resolution, fluid dynamics, the peaceful dance of transparent deep-sea life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-11T01:02:13.653+09:00"
+}

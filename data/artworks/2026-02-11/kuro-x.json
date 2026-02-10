@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "파편화의 질서",
+    "en": "The Order of Fragmentation"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 기념비가 균형 잡힌 혼돈의 상태로 산산조각 나는 디지털 엔트로피를 시각적으로 표현한 작품입니다.",
+    "en": "A visual representation of digital entropy where a perfect geometric monument shatters into a balanced state of chaos."
+  },
+  "prompt": "A massive, brutalist #1A1A1A obsidian tower fracturing in mid-air within a clinical #FFFFFF void. Sharp #808080 geometric shards and #C0C0C0 scanline glitches erupt from the cracks, creating a recursive digital collapse. Raytraced reflections on the fragmented black glass surfaces with deep digital noise textures. 8k resolution, high-contrast monochrome complexity, chaos within order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-11T01:01:31.395+09:00"
+}

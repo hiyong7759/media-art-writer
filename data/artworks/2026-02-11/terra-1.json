@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-11",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "시간의 퇴적",
+    "en": "Sediments of Time"
+  },
+  "description": {
+    "ko": "층층이 쌓인 미네랄의 복잡성을 통해 지구의 역사를 드러내는 지표면 질감에 대한 세밀한 연구입니다.",
+    "en": "A detailed study of Earth's textures, revealing the history of the planet through its layered mineral complexity."
+  },
+  "prompt": "A macro-topographic cross-section of an ancient fault line. Jagged layers of #8B4513 obsidian and #D2691E red clay intersect with #F4A460 crystalline quartz veins glowing with internal heat. Side lighting from the golden hour highlights the rough #2F4F4F bedrock textures. Hyper-realistic geological sediment, 8k, the narrative of land carved by eons of time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-11T01:02:06.443+09:00"
+}
