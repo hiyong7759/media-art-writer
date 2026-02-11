@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고대 단층의 연대기",
+    "en": "Chronicles of the Ancient Fault"
+  },
+  "description": {
+    "ko": "수겁의 지질학적 압력에 의해 깎여 나간 지층과 광물 맥에 대한 세밀한 지형학적 연구입니다.",
+    "en": "A detailed topographical study of earth layers and mineral veins carved by geological pressure over eons."
+  },
+  "prompt": "A macro-topographic cross-section of an ancient fault line, revealing jagged layers of #8B4513 obsidian, #D2691E red clay, and #F4A460 crystalline quartz veins glowing with internal heat. Side lighting from the golden hour creates deep shadows across the #2F4F4F bedrock, highlighting the rough textures of parched soil and sediment. 8k resolution, hyper-realistic geological textures, telling the narrative of a land carved by eons of time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-12T00:56:45.402+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 비에 젖은 구역",
+    "en": "Neon Pulse: The Rain-Slicked District"
+  },
+  "description": {
+    "ko": "끊임없이 내리는 비에 젖은 거대한 사이버펑크 대도시의 숨막히는 전경입니다. 우뚝 솟은 고층 빌딩이 스모그 가득한 하늘로 뻗어 있고, 화려한 네온 광고가 어둡고 복잡한 거리를 비춥니다.",
+    "en": "A breathtaking view of a sprawling cyberpunk metropolis drenched in perpetual rain, where towering skyscrapers reach into the smoggy sky and neon advertisements illuminate the dark, busy streets below."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk city at night, heavy rain reflecting vibrant neon signs in puddles, towering skyscrapers with massive holographic advertisements, flying vehicles weaving through dense urban architecture, futuristic aesthetic, hyper-realistic, 8k, blue and magenta lighting, cinematic fog.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-12T00:55:59.094+09:00"
+}

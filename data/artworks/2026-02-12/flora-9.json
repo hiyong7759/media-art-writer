@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 네온 바이오스피어",
+    "en": "FLORA-9: The Neon Biosphere"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 기술이 교차하는 지점에 대한 선구적인 탐구로, 신비로운 플로라-9 구역에서 코드와 빛을 통해 자연이 진화하는 모습을 담고 있습니다.",
+    "en": "A visionary exploration of the intersection between organic life and digital technology, where nature evolves through code and light in the mysterious FLORA-9 sector."
+  },
+  "prompt": "Ultra-detailed 3D render of FLORA-9, a digital ecosystem featuring bioluminescent alien plants with fiber-optic stems and holographic translucent petals. Integrated circuit patterns visible on the leaves, neon energy pulses flowing like sap through crystalline structures, set in a dark surreal landscape with floating data particles and soft bokeh, 8k resolution, ray-tracing, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-12T00:56:13.727+09:00"
+}

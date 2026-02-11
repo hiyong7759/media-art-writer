@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 영원한 심연의 손길",
+    "en": "VOID-3: The Eternal Abyssal Reach"
+  },
+  "description": {
+    "ko": "중력이 빛을 굴절시키고 무한한 공허 앞에서 시간이 모든 의미를 잃는 심우주의 절대적인 정적과 압도적인 규모를 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the absolute silence and overwhelming scale of the deep cosmos, where gravity bends light and time loses all meaning in the face of the infinite void."
+  },
+  "prompt": "Cinematic wide shot of a massive, swirling black hole at the center of a deep indigo galaxy, glowing accretion disk with particles of starlight being pulled into the dark center, nebulae of deep purple and teal gas clouds, ultra-high resolution, ethereal lighting, photorealistic space photography, 8k, vast emptiness of the cosmic void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-12T00:56:38.535+09:00"
+}

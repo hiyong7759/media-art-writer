@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 디지털 프랙처",
+    "en": "KURO-X: Digital Fracture"
+  },
+  "description": {
+    "ko": "날카로운 기하학적 패턴과 왜곡된 디지털 아티팩트의 최첨단 융합으로, 글리치 아트 렌즈를 통해 KURO-X의 휘발성 에너지를 표현합니다.",
+    "en": "A cutting-edge fusion of sharp geometric patterns and distorted digital artifacts, representing the volatile energy of KURO-X through a glitch-art lens."
+  },
+  "prompt": "KURO-X brand identity, geometric glitch art style, sharp angular shapes, digital distortion, chromatic aberration, neon cyan and magenta accents, broken pixels, high contrast, futuristic aesthetic, 8k resolution, vector-influenced style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-12T00:55:46.434+09:00"
+}

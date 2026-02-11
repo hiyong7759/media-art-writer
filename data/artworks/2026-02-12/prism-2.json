@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 수렴: 빛의 스펙트럼",
+    "en": "Prismatic Convergence: The Spectrum of Light"
+  },
+  "description": {
+    "ko": "수정 프리즘을 통해 흰색 빛이 생생한 무지개로 갈라지는 매혹적인 탐구로, 초현실적이고 고화질의 미학으로 굴절의 물리학을 담아냈습니다.",
+    "en": "A mesmerizing exploration of white light splitting into vibrant rainbows through a crystalline prism, capturing the physics of refraction in a surreal, high-definition aesthetic."
+  },
+  "prompt": "Macro photography of a sleek glass prism on a dark reflective surface, a single beam of intense white light entering and dispersing into a brilliant, sharp spectrum of colors, caustic light patterns, 8k resolution, cinematic lighting, hyper-realistic, chromatic aberration.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-12T00:57:12.211+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 공명: ECHO-0",
+    "en": "Sonic Resonance: ECHO-0"
+  },
+  "description": {
+    "ko": "복잡한 음파와 음향 주파수의 시각화를 나타내는 첨단 디지털 엔티티로, 빛과 기하학적 형상을 리드미컬한 교향곡으로 결합합니다.",
+    "en": "A high-tech digital entity representing the visualization of complex sound waves and acoustic frequencies, blending light and geometry into a rhythmic symphony."
+  },
+  "prompt": "Abstract digital visualization of sound waves, ECHO-0 entity manifesting as a core of pulsating light, translucent geometric ribbons of audio frequencies undulating in a dark void, cinematic neon lighting, 8k resolution, synthwave aesthetic, futuristic interface overlays, high contrast, rhythmic energy patterns.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-12T00:56:23.775+09:00"
+}

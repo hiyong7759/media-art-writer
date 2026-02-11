@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐험가",
+    "en": "AQUA-5: Abyssal Explorer"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 미지의 세계로 여정을 떠나세요. 심해의 압도적인 수압을 견디도록 설계된 이 기체는 첨단 생물 발광 기술과 강화 티타늄 프레임을 결합하여 마리아나 해구의 숨겨진 경이로움을 밝혀냅니다.",
+    "en": "Journey into the unknown with AQUA-5. Engineered to withstand the crushing pressures of the deep ocean, this vessel combines advanced bioluminescent technology with a reinforced titanium frame, revealing the hidden wonders of the Mariana Trench."
+  },
+  "prompt": "Cinematic shot of a futuristic underwater vessel named AQUA-5 navigating the dark, abyssal zone of the ocean. The craft features glowing cyan neon accents and a sleek titanium hull. Surrounding the vessel are bioluminescent deep-sea creatures and shimmering particles in the dark water. High-pressure atmosphere, hyper-realistic textures, 8k resolution, dramatic lighting, deep navy and turquoise color grade.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-12T00:56:58.133+09:00"
+}

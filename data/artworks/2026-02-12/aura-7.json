@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-12",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "생명의 고동과 무중력 상태에서 실크처럼 부드러운 움직임을 모방한 유동적인 형태를 통해 자연스러운 리듬을 매혹적으로 탐구합니다.",
+    "en": "A captivating exploration of natural rhythm, featuring fluid shapes that mimic the pulse of life and the graceful movement of silken elements in a weightless environment."
+  },
+  "prompt": "Cinematic macro shot of fluid, organic ribbons weaving through a luminous void, translucent silk textures, soft iridescent glow, rhythmic waves, bioluminescent particles, soft pastel gradients, liquid motion, high detail, 8k resolution, ethereal and calming atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-12T00:55:35.816+09:00"
+}
