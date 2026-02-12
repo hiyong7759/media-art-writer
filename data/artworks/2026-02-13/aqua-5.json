@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 탐사자",
+    "en": "AQUA-5: Abyss Explorer"
+  },
+  "description": {
+    "ko": "미개척된 심해저의 숨겨진 신비를 포착하는 동시에 극한의 압력을 견디도록 설계된 최첨단 심해 탐사 유닛입니다.",
+    "en": "A cutting-edge deep-sea exploration unit designed to withstand extreme pressure while capturing the hidden mysteries of the uncharted ocean floor."
+  },
+  "prompt": "A futuristic high-tech research submersible named AQUA-5 navigating the midnight zone of the deep ocean, surrounded by glowing bioluminescent jellyfish and strange crystalline structures, hydrothermal vents emitting smoke in the background, cinematic lighting, ultra-detailed, 8k resolution, dark teal and obsidian color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-13T00:45:50.884+09:00"
+}

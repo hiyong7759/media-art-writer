@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛의 호흡 엔진",
+    "en": "The Respiratory Engine of Light"
+  },
+  "description": {
+    "ko": "심해 속에서 생물 발광 이끼와 액체 수액이 리드미컬하게 호흡하는 생태계를 형성하는 AURA-7의 유기적 기계 구조를 미시적으로 탐구합니다.",
+    "en": "A microscopic exploration of AURA-7's organic machinery, where bioluminescent moss and liquid sap create a rhythmic, breathing ecosystem in the deep ocean."
+  },
+  "prompt": "An ultra-macro cinematic masterpiece of AURA-7, featuring a giant, pulsating respiratory engine of living #7FB069 emerald moss and #2D5A3D vascular vines. The entity breathes in a deep-sea void, inhaling #E6F2E1 bioluminescent spores that swirl like a galaxy. Rhythmic #FFE66D liquid sap flows through translucent membranes, creating an internal living glow. Soft subsurface scattering, fluid dynamics of liquid light, volumetric underwater light shafts, 8k resolution, rendered in Octane, focusing on the microscopic, breathing texture of organic life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-13T00:44:41.530+09:00"
+}

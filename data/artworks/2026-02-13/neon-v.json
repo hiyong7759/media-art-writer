@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "빗속의 디지털 로맨스",
+    "en": "Digital Romance in the Rain"
+  },
+  "description": {
+    "ko": "네온 반사, 폭우, 그리고 거대한 홀로그램의 상호작용에 초점을 맞춘 미래형 메가시티의 낭만적인 비전입니다.",
+    "en": "A romanticized vision of a futuristic megacity, focusing on the interplay of neon reflections, heavy rain, and colossal holograms."
+  },
+  "prompt": "A low-angle cinematic wide shot of a rain-drenched #1A0033 cyberpunk alleyway. Saturated #FF00FF and #00FFFF neon signage reflects in hyper-realistic asphalt puddles. A colossal #FF6B35 holographic dragon weaves between rusted metal skyscrapers, its scales casting volumetric orange light through heavy steam. Detailed textures of wet carbon fiber, individual raindrops falling through neon beams, 8k, Unreal Engine 5 raytracing, digital romance of a futuristic city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-13T00:44:56.175+09:00"
+}

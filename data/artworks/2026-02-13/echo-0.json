@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 빛의 공명",
+    "en": "ECHO-0: Resonance of Light"
+  },
+  "description": {
+    "ko": "음파의 주파수를 역동적이고 맥동하는 빛의 파동과 기하학적 패턴으로 변환하여, 소리의 물리적 실현을 탐구하는 몰입형 디지털 아트 설치물입니다.",
+    "en": "An immersive digital art installation that transforms sonic frequencies into dynamic, pulsating light waves and geometric patterns, exploring the physical manifestation of sound."
+  },
+  "prompt": "A cinematic, high-detail visualization of sound waves as glowing neon threads, parametric architectural structures reacting to audio frequencies, dark minimalist background, 8k resolution, ethereal atmosphere, cybernetic aesthetics, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-13T00:45:14.951+09:00"
+}

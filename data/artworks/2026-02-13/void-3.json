@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 천체 지평선",
+    "en": "VOID-3: Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "빛이 존재하지 않고 심우주의 압도적인 고요함이 천체 구조를 정의하는, VOID-3 프로토콜의 가장 먼 도달점에 대한 탐구입니다.",
+    "en": "An exploration into the furthest reaches of the VOID-3 protocol, where light ceases to exist and cosmic structures are defined by the crushing silence of the deep universe."
+  },
+  "prompt": "Hyper-realistic wide shot of the VOID-3 cosmic station hovering in an absolute dark nebula, faint bioluminescent nebular gas drifting through obsidian structures, cosmic dust particles glowing like distant stars, cinematic lighting, ultra-detailed textures, 8k resolution, cold and silent atmosphere, sci-fi aesthetic, deep space abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-13T00:45:28.364+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "혼돈의 파편화된 모놀리스",
+    "en": "Fractured Monolith of Chaos"
+  },
+  "description": {
+    "ko": "순백의 공간 속에서 기하학적 파편으로 부서지는 흑요석 모놀리스를 통해 디지털 붕괴와 구조적 균형을 연구합니다.",
+    "en": "A study of digital decay and structural balance, featuring an obsidian monolith shattering into geometric shards within a stark white void."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith suspended in a clinical #FFFFFF void, undergoing a violent geometric metamorphosis. The structure fractures into a cascade of sharp #808080 shards and #C0C0C0 digital scanline glitches. High-contrast cinematic lighting with razor-sharp raytraced reflections on fragmented glass. Chaos within order, pixel sorting effects, monochrome complexity, 8k resolution, capturing the perfect balance of a collapsing digital reality.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-13T00:44:49.568+09:00"
+}

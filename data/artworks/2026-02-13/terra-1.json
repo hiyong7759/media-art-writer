@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-13",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 대지의 원초적 질감",
+    "en": "TERRA-1: Primal Earth Textures"
+  },
+  "description": {
+    "ko": "메마른 찰흙, 고대의 암석, 선명한 광물 줄기 사이의 대비를 포착하여 우리 행성의 가공되지 않은 복잡한 표면을 깊이 있게 탐구합니다.",
+    "en": "A deep dive into the raw and intricate surfaces of our planet, capturing the contrast between parched clay, ancient stone, and vibrant mineral veins."
+  },
+  "prompt": "Macro photography of diverse Earth textures, TERRA-1 style, high-detail cracked desert soil, moss-covered volcanic basalt, layered sedimentary rock formations, crystalline mineral deposits, cinematic natural lighting, earthy ochre and deep slate color palette, 8k resolution, hyper-realistic, intricate geological patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-13T00:45:40.158+09:00"
+}
