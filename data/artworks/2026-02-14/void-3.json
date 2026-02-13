@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코스믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "공간과 무(無)의 경계가 사라지고, 어둠의 에너지가 고요하게 일렁이는 VOID-3 섹터의 가장 깊은 곳으로 향하는 몰입형 여정입니다.",
+    "en": "An immersive journey into the furthest reaches of the VOID-3 sector, where the boundary between space and nothingness dissolves into a silent, shimmering expanse of dark energy."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 dimension, a vast cosmic abyss filled with swirling dark matter and bioluminescent nebulae in deep indigo and obsidian black. Intricate geometric structures floating in the vacuum, reflecting faint starlight. Hyper-realistic, 8k resolution, minimalist sci-fi aesthetic, ethereal atmosphere, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-14T00:37:16.381+09:00"
+}

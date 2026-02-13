@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 진화와 합성 기술의 교차점을 탐구하며, 빛나는 회로와 수정처럼 맑은 데이터 스트림을 통해 식물의 아름다움을 묘사한 미래형 생태계입니다.",
+    "en": "FLORA-9 explores the intersection of organic evolution and synthetic technology, depicting a futuristic ecosystem where botanical beauty is rendered through glowing circuits and crystalline data streams."
+  },
+  "prompt": "A hyper-realistic digital flora landscape featuring neon-pulsing translucent flowers growing from integrated circuit-board soil, bioluminescent fiber-optic vines climbing geometric metallic structures, 8k resolution, cinematic lighting, synthwave aesthetic, intricate electronic petals with liquid data textures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-14T00:36:55.456+09:00"
+}

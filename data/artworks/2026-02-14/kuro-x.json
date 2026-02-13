@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 글리치",
+    "en": "KURO-X: Geometric Glitch"
+  },
+  "description": {
+    "ko": "정밀한 기하학적 구조와 의도적인 신호 왜곡이 만나는 디지털 엔트로피의 시각적 탐구입니다. 이 컬렉션은 날카로운 선과 파편화된 데이터 미학을 통해 미래지향적 가상 공간 속의 질서와 혼돈 사이의 긴장감을 구현합니다.",
+    "en": "A visual exploration of digital entropy where precise geometric structures meet intentional signal distortion. This collection embodies the tension between order and chaos in a futuristic virtual space, featuring razor-sharp lines and fragmented data aesthetics."
+  },
+  "prompt": "KURO-X branding identity, geometric glitch art style, sharp vector shapes colliding with digital noise, pixel sorting effects, chromatic aberration, deep blacks and neon cyan accents, high contrast, 8k resolution, futuristic tech aesthetic, distorted typography, hyper-detailed grid patterns, abstract digital distortion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-14T00:36:26.048+09:00"
+}

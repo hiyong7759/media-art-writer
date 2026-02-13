@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 사이버네틱 심연",
+    "en": "NEON-V: The Cybernetic Abyss"
+  },
+  "description": {
+    "ko": "끊임없이 빛나는 네온 광고판 아래 인간과 기계의 경계가 희미해진 거대 도시, 네온-V의 전율 넘치는 중심부로 뛰어드세요.",
+    "en": "Step into the electrified heart of NEON-V, a sprawling metropolis where the line between humanity and machine is blurred under the perpetual glow of neon advertisements."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk city at night, heavy rain reflecting vibrant neon signs in puddles, towering skyscrapers with massive 3D holograms of koi fish and tech logos, flying vehicles weaving through dense urban architecture, cybernetic citizens walking through dark alleys, high contrast, cyan and magenta lighting, photorealistic, highly detailed, 8k resolution, Unreal Engine 5 style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-14T00:36:40.457+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광",
+    "en": "Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "빛이 전혀 들지 않는 심해의 미드나이트 존으로 여행을 떠나보세요. 영원한 어둠 속에서 생명체들이 스스로 뿜어내는 신비로운 생체 발광 생태계의 경이로운 아름다움을 확인하실 수 있습니다.",
+    "en": "Journey into the silent depths of the midnight zone, where light is born from life itself. Witness the breathtaking beauty of bioluminescent ecosystems thriving in the eternal darkness of the deep ocean."
+  },
+  "prompt": "Hyper-realistic cinematic wide shot of the deep ocean abyss, bioluminescent jellyfish and rare deep-sea creatures glowing in neon cyan and violet, glowing coral reefs on the dark seabed, hydrothermal vents with shimmering heat waves, volumetric lighting, particles of marine snow, 8k resolution, mysterious and serene atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-14T00:37:40.930+09:00"
+}

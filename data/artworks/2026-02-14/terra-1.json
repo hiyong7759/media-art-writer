@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원시의 지각",
+    "en": "TERRA-1: Primal Crust"
+  },
+  "description": {
+    "ko": "지구의 피부에 대한 심도 있는 시각적 연구로, 행성의 세월과 회복력을 드러내는 마른 진흙과 지각 변동과 같은 정교한 균열 패턴을 포착합니다.",
+    "en": "A profound visual study of the Earth's skin, capturing the intricate patterns of dried mud and tectonic-like cracks that reveal the planet's age and resilience."
+  },
+  "prompt": "Ultra-detailed macro photography of raw Earth textures, focusing on cracked desert clay and ancient sedimentary rock layers, rich earthy tones of terracotta, ochre, and slate gray, cinematic lighting casting deep shadows in the fissures, 8k resolution, hyper-realistic geological details, tactile surface quality.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-14T00:37:29.471+09:00"
+}

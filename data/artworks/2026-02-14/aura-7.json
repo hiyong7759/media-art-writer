@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 빛의 맥동하는 호흡",
+    "en": "The Pulsing Breath of Emerald Light"
+  },
+  "description": {
+    "ko": "식물적 질감과 생물 발광 유체 역학을 결합하여 빛을 호흡하는 유기적 하이브리드 구조를 심해에서 탐사하는 장면입니다.",
+    "en": "A deep-sea exploration of an organic hybrid structure that breathes light, blending botanical textures with bioluminescent fluid dynamics."
+  },
+  "prompt": "An ultra-macro cinematic masterpiece of AURA-7, featuring a colossal, pulsating lung-flower hybrid composed of translucent #7FB069 emerald moss and #2D5A3D vascular networks. The entity is suspended in a deep-sea atmospheric void, inhaling swirling #E6F2E1 bioluminescent spores that resemble a miniature galaxy. Rhythmic #FFE66D liquid sap flows through the mossy membranes, creating an internal living glow. Rendered in Unreal Engine 5 with Octane Render, 8k resolution, hyper-realistic fluid dynamics of liquid light, volumetric light shafts, and microscopic texture of organic breathing.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-14T00:36:11.883+09:00"
+}

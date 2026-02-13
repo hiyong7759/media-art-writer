@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-14",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 하모닉 레조넌스",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 음파를 몰입형 디지털 풍경으로 변환하는 실험적인 시청각 시스템으로, 실시간 생성 예술을 통해 주파수와 형태 사이의 관계를 탐구합니다.",
+    "en": "ECHO-0 is an experimental audiovisual system that translates complex sound waves into immersive digital landscapes, exploring the relationship between frequency and form through real-time generative art."
+  },
+  "prompt": "A futuristic sound visualization interface named ECHO-0, featuring glowing neon wave patterns, 3D parametric oscillations, deep blue and violet color palette, high-tech HUD elements, cinematic lighting, 8k resolution, abstract digital art style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-14T00:37:06.190+09:00"
+}
