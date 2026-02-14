@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 제9구역",
+    "en": "Neon Pulse: District 9"
+  },
+  "description": {
+    "ko": "거대한 강철 건물과 빛나는 광고가 비에 젖은 도시의 지평선을 장식하는, 첨단 기술과 거친 삶이 공존하는 미래의 모습을 담고 있습니다.",
+    "en": "A deep dive into a high-tech, low-life future where towering steel giants and glowing advertisements define the horizon of a rain-soaked city."
+  },
+  "prompt": "A sprawling cyberpunk metropolis at night during a heavy rainfall, neon signs in vibrant pink and cyan reflecting on wet asphalt streets, towering skyscrapers with massive holographic advertisements, flying vehicles weaving through urban canyons, cinematic lighting, hyper-realistic, 8k resolution, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-15T00:20:19.412+09:00"
+}

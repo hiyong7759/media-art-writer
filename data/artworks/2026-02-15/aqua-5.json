@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연",
+    "en": "AQUA-5: The Deep Abyss"
+  },
+  "description": {
+    "ko": "최첨단 내압 기술과 생물 발광 내비게이션 시스템을 탑재한 AQUA-5와 함께 탐험되지 않은 심해의 신비를 경험하세요. 극한의 해저 탐험을 위한 완벽한 솔루션입니다.",
+    "en": "Experience the mystery of the unexplored ocean floor with AQUA-5, featuring advanced pressure-resistant technology and bioluminescent navigation systems for the ultimate deep-sea journey."
+  },
+  "prompt": "Hyper-realistic cinematic shot of the AQUA-5 deep-sea research vessel navigating through the midnight zone of the ocean, bioluminescent flora and glowing jellyfish illuminating the dark blue abyss, bubbles rising, high-tech metallic finish with glowing cyan accents, 8k resolution, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-15T00:21:34.771+09:00"
+}

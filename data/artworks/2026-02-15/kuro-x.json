@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 공명",
+    "en": "KURO-X: Geometric Resonance"
+  },
+  "description": {
+    "ko": "세련된 블랙 기하학적 구조와 공격적인 디지털 왜곡이 만난 실험적 비주얼 시리즈입니다. KURO-X는 공허한 블랙 배경을 바탕으로 날카로운 각도, 레이어드 폴리곤, 선명한 글리치 효과를 통해 시스템 붕괴의 미학을 포착합니다.",
+    "en": "An experimental visual series where sleek black geometry meets aggressive digital distortion. KURO-X captures the beauty of systematic breakdown through sharp angles, layered polygons, and vibrant glitch effects set against a void-black backdrop."
+  },
+  "prompt": "Cinematic digital art of KURO-X abstract forms, geometric glitch style, fragmented polygons, shattered glass effect, chromatic aberration, dark obsidian textures, neon cyan and magenta streaks, high-tech minimalism, 8k resolution, distorted digital grid, sharp vector lines, high contrast black background.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-15T00:20:07.714+09:00"
+}

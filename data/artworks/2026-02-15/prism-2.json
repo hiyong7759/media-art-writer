@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 스펙트럼의 굴절",
+    "en": "PRISM-2: Spectral Refraction"
+  },
+  "description": {
+    "ko": "빛의 물리학을 시각적으로 탐구하며, 백색광이 유리 매질을 통해 매혹적인 스펙트럼으로 분산되는 찰나의 순간을 포착합니다.",
+    "en": "A visual exploration of the physics of light, capturing the precise moment white light splits into a mesmerizing spectrum through a glass medium."
+  },
+  "prompt": "A high-end cinematic macro shot of a triangular glass prism refracting a single beam of white light into a vibrant rainbow spectrum. Soft caustic light patterns on a minimal dark gray background, sharp focus, 8k resolution, realistic chromatic aberration, ethereal atmosphere, ray tracing.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-15T00:21:46.400+09:00"
+}

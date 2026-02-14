@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 건조한 지형",
+    "en": "TERRA-1: Arid Topography"
+  },
+  "description": {
+    "ko": "지구 지각에 대한 고해상도 탐사로, 천체적 관점에서 바라본 지각 변동과 풍화된 토양의 거칠고 원초적인 질감에 집중합니다.",
+    "en": "A high-resolution exploration of Earth's crust, focusing on the raw and rugged textures of tectonic shifts and weathered soil from a celestial perspective."
+  },
+  "prompt": "Ultra-detailed satellite photography of Earth's surface, intricate rocky texture, deep ravines and geological layers, cinematic lighting, 8k resolution, earthy tones, hyper-realistic terrain, desert landscape top-down view.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-15T00:21:20.785+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "복잡한 오디오 주파수를 생동감 넘치고 맥동하는 빛의 구조와 유동적인 기하학적 패턴으로 합성하고 시각화하도록 설계된 최첨단 디지털 엔티티입니다.",
+    "en": "A cutting-edge digital entity designed to synthesize and visualize complex audio frequencies into vibrant, pulsating light structures and fluid geometric patterns."
+  },
+  "prompt": "Cinematic 8k render of ECHO-0, a high-tech spherical core floating in a void, radiating complex holographic sound waves and frequency patterns. Glowing neon equalizer ribbons wrap around the entity, shifting between cyan, deep violet, and electric gold. Particles of light dance to an invisible beat, creating a fluid architecture of sound made visible. Cybernetic aesthetic, motion blur, macro photography, hyper-detailed, depth of field.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-15T00:20:59.498+09:00"
+}

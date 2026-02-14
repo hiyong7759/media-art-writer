@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성운",
+    "en": "Abyssal Nebula"
+  },
+  "description": {
+    "ko": "고대 성간 먼지와 우주의 깊은 정적이 만나는 VOID-3 구역의 무한한 어둠 속으로의 하강.",
+    "en": "A descent into the infinite darkness of the VOID-3 sector, where ancient stardust meets the crushing silence of the cosmic deep."
+  },
+  "prompt": "cinematic shot of an infinite cosmic abyss, VOID-3 theme, dark navy and obsidian color palette, ethereal nebulae glowing faintly in the distance, cosmic dust particles floating in zero gravity, hyper-realistic, 8k, volumetric lighting, silent void atmosphere, deep space exploration aesthetic",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-15T00:21:08.553+09:00"
+}
