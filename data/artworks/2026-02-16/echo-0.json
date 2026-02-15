@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0의 공명 주파수",
+    "en": "Resonant Frequencies of ECHO-0"
+  },
+  "description": {
+    "ko": "음파가 유동적이고 빛나는 기하학적 패턴으로 변환되어 ECHO-0의 핵심 의식을 표현하는 매혹적인 시각화입니다.",
+    "en": "A mesmerizing display where auditory waves are translated into fluid, glowing geometric patterns, representing the core consciousness of ECHO-0."
+  },
+  "prompt": "A cinematic high-tech sound visualization, holographic glowing liquid waves, pulsating geometric patterns, deep blue and neon violet color palette, obsidian background, macro lens, 8k resolution, ethereal digital art style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-16T00:20:17.132+09:00"
+}

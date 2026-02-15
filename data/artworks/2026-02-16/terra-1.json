@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "퇴적의 서사",
+    "en": "Sedimentary Narrative"
+  },
+  "description": {
+    "ko": "지구의 층을 정교하게 관찰하며, 암석과 광물의 질감을 통해 시간과 압력의 이야기를 들려줍니다.",
+    "en": "A detailed look at the layers of the earth, focusing on the textures of rock and mineral to tell a story of time and pressure."
+  },
+  "prompt": "A macro-topographic cross-section of an ancient tectonic fault line. Jagged layers of #8B4513 obsidian and #D2691E red clay intersect with #F4A460 crystalline quartz veins glowing with internal heat. Side lighting from the golden hour creates deep shadows across the rough #2F4F4F bedrock textures. 8k resolution, hyper-realistic geological sediment, showing the narrative of a land carved by eons of geological pressure and mineral evolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-16T00:20:28.818+09:00"
+}

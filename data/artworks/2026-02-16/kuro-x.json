@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모노리스 엔트로피",
+    "en": "Monolith Entropy"
+  },
+  "description": {
+    "ko": "구조적 질서와 디지털 혼돈 사이의 섬세한 경계를 상징하며, 디지털 아티팩트로 분해되는 어두운 기하학적 구조를 묘사합니다.",
+    "en": "A depiction of a dark, geometric structure disintegrating into digital artifacts, representing the delicate boundary between structural order and digital chaos."
+  },
+  "prompt": "A massive, brutalist #1A1A1A obsidian monolith suspended in a clinical #FFFFFF void, undergoing a violent geometric metamorphosis. The structure fractures into a recursive torrent of sharp #808080 shards and #C0C0C0 digital scanline glitches. High-contrast cinematic lighting with razor-sharp raytraced reflections on fragmented glass surfaces. Chaos within order, pixel sorting effects, and deep digital noise textures. 8k resolution, Octane Render, capturing the perfect balance of a collapsing digital reality through sharp angles and monochrome complexity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-16T00:19:42.570+09:00"
+}

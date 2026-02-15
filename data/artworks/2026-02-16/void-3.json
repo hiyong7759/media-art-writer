@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 대성당",
+    "en": "Cathedral of the Singularity"
+  },
+  "description": {
+    "ko": "빛과 중력으로 구성된 거대한 우주 내부 공간으로, 심우주의 압도적인 규모와 침묵을 전달합니다.",
+    "en": "A vast, cosmic interior space constructed from light and gravity, conveying the overwhelming scale and silence of the deep universe."
+  },
+  "prompt": "An impossible celestial cathedral formed from the gravitational lensing of a supermassive black hole. Pillars of #3D1A78 starlight and #0D0221 dark matter filaments define the infinite hall. Gas clouds of #7B68EE and #E6E6FA swirl in the background like cosmic incense. Cinematic 8k scale, volumetric gas simulations, capturing the silent majesty and cosmic horror of the infinite abyss where light bends at the event horizon.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-16T00:20:23.170+09:00"
+}

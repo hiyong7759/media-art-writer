@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 제77구역",
+    "en": "Neon Pulse: Sector 77"
+  },
+  "description": {
+    "ko": "끊임없이 빛나는 네온사인 아래 첨단 기술과 도시의 거친 매력이 공존하는 하이테크 대도시의 숨막히는 전경입니다.",
+    "en": "A breathtaking view of a high-tech metropolis where advanced technology and urban grit collide under a perpetual neon glow."
+  },
+  "prompt": "Hyper-realistic cyberpunk city at night, heavy rain, glowing neon advertisements in electric blue and magenta, towering futuristic skyscrapers with holographic displays, flying vehicles navigating between buildings, wet asphalt reflecting city lights, cinematic atmosphere, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-16T00:19:54.879+09:00"
+}

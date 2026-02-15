@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 춤",
+    "en": "Spectrum Dance"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛이 미니멀한 흰색 표면 위에서 춤추는 선명한 무지개 빛깔의 스펙트럼으로 분리되는 매혹적인 모습입니다.",
+    "en": "A mesmerizing display of light passing through a glass prism, splitting into a vibrant spectrum of colors that dance across a minimalist white surface."
+  },
+  "prompt": "Cinematic macro shot of a geometric glass prism on a plain white background, a single beam of intense white light entering, refracting into a sharp, brilliant rainbow spectrum with chromatic aberration, 8k resolution, ray tracing, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-16T00:20:49.842+09:00"
+}

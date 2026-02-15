@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-16",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 생체 발광 회로 꽃",
+    "en": "FLORA-9: The Bioluminescent Circuit Blossom"
+  },
+  "description": {
+    "ko": "유기적인 꽃잎이 반투명한 광섬유 인맥과 융합되어, 디지털 숲 속에서 리듬감 있는 네온 에너지를 뿜어내는 미래 지향적 식물 표본입니다.",
+    "en": "A futuristic botanical specimen where organic petals merge with translucent fiber-optic veins, pulsating with rhythmic neon energy in a digital forest."
+  },
+  "prompt": "A close-up cinematic shot of FLORA-9, a hybrid digital flower with translucent petals containing glowing circuit patterns, iridescent textures, deep forest background with floating data particles, 8k resolution, photorealistic, neon cyan and violet lighting, macro photography.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-16T00:20:05.678+09:00"
+}
