@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광: AQUA-5",
+    "en": "Abyssal Luminescence: AQUA-5"
+  },
+  "description": {
+    "ko": "생물 발광 유기체들이 압도적인 어둠을 밝히며 AQUA-5 기지의 숨겨진 기술을 드러내는 신비로운 심해층을 탐험하세요.",
+    "en": "Explore the mysterious depths of the midnight zone, where bioluminescent organisms illuminate the crushing darkness, revealing the hidden technology of the AQUA-5 station."
+  },
+  "prompt": "cinematic wide shot, deep ocean floor, bioluminescent flora and fauna, futuristic underwater research station AQUA-5, glowing blue and teal accents, high pressure environment, volumetric lighting, hyper-realistic, 8k resolution, Unreal Engine 5 render",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-17T00:37:22.915+09:00"
+}

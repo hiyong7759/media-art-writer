@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 일렉트릭 섀도우",
+    "en": "NEON-V: Electric Shadows"
+  },
+  "description": {
+    "ko": "인간과 기계의 경계가 흐려지는 첨단 디스토피아의 심장부로 뛰어드세요. 네온-V는 데이터와 네온 빛 꿈으로 세워진 도시의 비에 젖은 거리를 비춥니다.",
+    "en": "Dive into the heart of a high-tech dystopia where the line between humanity and machine blurs. NEON-V illuminates the rain-slicked streets of a city built on data and neon dreams."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk metropolis at night, towering skyscrapers with glowing neon-V holograms, rainy streets reflecting vibrant purple and cyan lights, flying vehicles navigating through dense urban canyons, hyper-detailed futuristic architecture, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-17T00:36:16.239+09:00"
+}

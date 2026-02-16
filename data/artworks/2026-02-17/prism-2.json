@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 스펙트럼 굴절",
+    "en": "PRISM-2: Spectral Refraction"
+  },
+  "description": {
+    "ko": "PRISM-2 코어를 통과하는 빛을 시각적으로 탐구하여, 광학적 분산의 물리적 아름다움과 빛이 고유한 색상들로 분리되는 과정을 보여줍니다.",
+    "en": "A visual exploration of light passing through the PRISM-2 core, demonstrating the physical beauty of optical dispersion and the separation of light into its constituent colors."
+  },
+  "prompt": "A futuristic PRISM-2 crystalline prism suspended in a dark void, a single sharp beam of white light hitting its surface and exploding into a complex, multi-layered spectrum of colors. Hyper-realistic glass textures, volumetric lighting, caustic light patterns, 8k resolution, cinematic optical refraction.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-17T00:37:39.986+09:00"
+}

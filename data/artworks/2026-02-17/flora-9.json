@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털의 진화",
+    "en": "FLORA-9: Digital Evolution"
+  },
+  "description": {
+    "ko": "플로라-9은 유기적 식물학과 합성 지능 사이의 경계를 탐구합니다. 이 디지털 종은 데이터 스트림을 먹고 자라며, 가상 생태계 속에서 빛과 코드를 통해 물리적인 아름다움을 구현합니다.",
+    "en": "FLORA-9 explores the boundary between organic botany and synthetic intelligence. This digital species thrives on data streams, manifesting physical beauty through light and code in a virtual ecosystem."
+  },
+  "prompt": "A hyper-realistic macro shot of FLORA-9, a biomechanical flower existing in a digital vacuum. The petals are made of semi-transparent crystalline layers with glowing turquoise circuit patterns embedded within. Fiber-optic cables serve as the stamen, emitting soft pulses of light. Surroundings feature floating data fragments, holographic pollen, and a soft bokeh of neon binary code. High-contrast lighting, 8k resolution, synthwave color palette, cinematic rendering.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-17T00:36:29.125+09:00"
+}

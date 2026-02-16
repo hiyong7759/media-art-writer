@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 빛의 공명",
+    "en": "ECHO-0: Resonance in Light"
+  },
+  "description": {
+    "ko": "소리를 물리적 형태로 번역하는 ECHO-0 시스템의 시각적 탐구입니다. 이 시각화는 주파수가 기하학적 구조로 변하는 순간을 포착하여, 보이지 않는 오디오 펄스를 빛과 수학적 정밀함이 어우러진 숨막히는 풍경으로 바꿉니다.",
+    "en": "A visual exploration of the ECHO-0 system translating sound into physical form. This visualization captures the moment frequency becomes geometry, turning invisible audio pulses into a breathtaking landscape of light and mathematical precision."
+  },
+  "prompt": "Cinematic high-tech visualization of ECHO-0, a futuristic spherical core floating in a dark void. The core emits vibrant, glowing sound waves that transform into intricate 3D geometric patterns and crystalline structures. Ripples of neon blue, violet, and gold light pulse rhythmically. HUD data elements and frequency spectrums float around the sphere. Macro shot, high detail, 8k resolution, photorealistic rendering with soft bokeh background.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-17T00:36:42.123+09:00"
+}

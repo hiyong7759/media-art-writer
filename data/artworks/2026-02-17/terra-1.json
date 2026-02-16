@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 원초적 질감",
+    "en": "TERRA-1: Earth's Primal Texture"
+  },
+  "description": {
+    "ko": "지구 표면을 정의하는 복잡하고 거친 질감에 대한 시각적 탐구입니다. 가뭄에 마른 평원의 비늘 같은 균열부터 고대 산 이끼의 무성하고 습한 벨벳 느낌까지, TERRA-1은 우리 행성의 가공되지 않은 촉각적 본질을 담아냅니다.",
+    "en": "A visual exploration of the intricate and rugged textures that define the Earth's surface. From the parched scales of a drought-stricken plain to the lush, damp velvet of ancient mountain moss, TERRA-1 captures the raw, tactile essence of our planet."
+  },
+  "prompt": "Ultra-high-resolution macro photography of diverse Earth textures, featuring cracked desert clay, deep-seated mossy forest layers, jagged volcanic basalt, and crystalline glacial ice veins. Cinematic lighting, extreme detail, 8k, organic patterns, tactile sensations, earthy color palette, hyper-realistic geological survey style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-17T00:37:08.438+09:00"
+}

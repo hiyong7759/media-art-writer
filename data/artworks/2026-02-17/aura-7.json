@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-17",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 유동성",
+    "en": "AURA-7: Organic Fluidity"
+  },
+  "description": {
+    "ko": "AURA-7에 대한 이 시각적 탐구는 자연적 성장과 유체 역학의 본질을 포착합니다. 이는 에너지와 생물학의 조화로운 융합을 나타내며, 빛이 살아 숨 쉬는 형태를 통해 물처럼 흐르는 모습을 보여줍니다.",
+    "en": "This visual exploration of AURA-7 captures the essence of natural growth and fluid dynamics. It represents a harmonious fusion of energy and biology, where light flows like water through living, breathing forms."
+  },
+  "prompt": "A cinematic and ethereal 3D render of AURA-7 embodying Organic Flow. The visual features flowing bioluminescent liquid silk, translucent membranes, and soft undulating curves reminiscent of deep-sea organisms. Iridescent gradients of pearlescent white, soft teal, and violet blend seamlessly. Macro photography style, soft focus background, hyper-detailed textures, elegant natural movement, 8k resolution, serene atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-17T00:35:52.396+09:00"
+}
