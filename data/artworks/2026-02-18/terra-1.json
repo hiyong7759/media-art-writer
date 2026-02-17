@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 원시적 질감",
+    "en": "TERRA-1: Earth's Raw Canvas"
+  },
+  "description": {
+    "ko": "햇빛에 그을린 사막의 거친 기하학적 구조부터 산맥의 부드럽고 복잡한 층에 이르기까지, 우리 행성의 다양한 지형적 질감을 몰입감 있게 시각적으로 탐구하여 지구의 촉각적 아름다움을 강조합니다.",
+    "en": "An immersive visual study of the planet's diverse topographical textures, ranging from the rugged geometry of sun-baked deserts to the soft, intricate layers of mountain ranges, highlighting the tactile beauty of our world."
+  },
+  "prompt": "Hyper-realistic macro photography of Earth's surface textures, satellite perspective blending into tactile close-ups, deep fissures in parched clay, soft undulations of mossy forest floors, crystalline structures of arctic ice, rich earthy color palette, cinematic lighting, 8k resolution, intricate organic details, TERRA-1 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-18T00:47:05.031+09:00"
+}

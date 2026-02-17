@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "빛의 물리학을 시각적으로 탐구하여, 백색광이 크리스털 프리즘을 통과하며 선명한 무지개 빛깔로 분산되는 찰나의 순간을 담았습니다.",
+    "en": "A stunning visual exploration of light physics, capturing the moment white light splits into a vibrant spectrum through a crystal prism."
+  },
+  "prompt": "Hyper-realistic macro photography of a clear triangular glass prism resting on a sleek white surface. A sharp beam of white light enters the prism and disperses into a vivid, glowing rainbow spectrum across the frame. Chromatic aberration, caustic light patterns, soft ethereal atmosphere, 8k resolution, cinematic lighting, minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-18T00:47:28.966+09:00"
+}

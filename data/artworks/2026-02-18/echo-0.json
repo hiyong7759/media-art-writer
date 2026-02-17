@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공감각적 공명",
+    "en": "ECHO-0: Synesthetic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 소리와 시각 사이의 간극을 메우는 몰입형 디지털 경험입니다. 음향 주파수를 역동적인 3차원 빛의 구조로 변환하여, 관람객이 실시간으로 소리의 질감을 눈으로 확인할 수 있게 합니다.",
+    "en": "ECHO-0 is an immersive digital experience that bridges the gap between sound and sight. It transforms acoustic frequencies into dynamic, three-dimensional light structures, allowing viewers to see the texture of sound in real-time."
+  },
+  "prompt": "A cinematic shot of a futuristic digital art installation called ECHO-0, featuring complex sound waves visualized as iridescent glowing ribbons of light and geometric particles, flowing through a dark minimalist architectural space, sharp focus, 8k resolution, volumetric lighting, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-18T00:46:34.710+09:00"
+}

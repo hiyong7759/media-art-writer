@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 특이점",
+    "en": "The Abyssal Singularity"
+  },
+  "description": {
+    "ko": "무한한 우주의 심연 속에서 빛과 어둠의 경계가 거대한 특이점 근처에서 흐릿해지는 먼 성운의 심장부로 떠나는 몰입형 여정입니다.",
+    "en": "An immersive journey into the heart of a distant nebula, where the boundaries of light and darkness blur near a massive singularity amidst the infinite cosmic deep."
+  },
+  "prompt": "VOID-3, cosmic deep space, swirling nebula of violet and charcoal, a massive black hole pulling light into an event horizon, cinematic lighting, hyper-realistic, 8k, celestial dust, infinite dark void, ethereal atmosphere, volumetric lighting, stars twinkling in the distance.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-18T00:46:49.866+09:00"
+}

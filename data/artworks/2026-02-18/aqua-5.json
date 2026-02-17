@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐험가",
+    "en": "AQUA-5: Abyss Explorer"
+  },
+  "description": {
+    "ko": "극한의 압력과 완전한 어둠을 위해 설계된 고성능 심해 탐사선 AQUA-5와 함께 미지의 심해 속 신비로운 비밀을 밝혀보세요.",
+    "en": "Unveil the mysteries of the midnight zone with AQUA-5, a high-performance deep-sea probe designed to withstand extreme pressure and navigate the total darkness of the ocean floor."
+  },
+  "prompt": "Cinematic underwater shot of a futuristic AQUA-5 submersible drone exploring the dark, deep ocean abyss, glowing blue bioluminescent flora and fauna in the background, high-tech sensors, 8k resolution, photorealistic, moody lighting, particles in the water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-18T00:47:18.133+09:00"
+}

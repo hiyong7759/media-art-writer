@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 섹터 07",
+    "en": "Neon Pulse: Sector 07"
+  },
+  "description": {
+    "ko": "인공 조명의 불빛이 결코 꺼지지 않고 모든 골목마다 디지털 비밀이 숨겨져 있는 고도의 기술과 거친 삶이 공존하는 대도시를 경험해 보세요.",
+    "en": "Immerse yourself in a high-tech, low-life metropolis where the glow of artificial lights never fades and every alleyway hides a digital secret."
+  },
+  "prompt": "A sprawling cyberpunk megacity at night, cinematic lighting, rain-slicked asphalt reflecting vibrant neon signs in magenta and cyan, towering skyscrapers with holographic advertisements, flying vehicles weaving through dense urban canyons, hyper-realistic, 8k resolution, futuristic noir aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-18T00:46:09.737+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-18",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 블룸: 생명의 회로",
+    "en": "Neon Bloom: The Circuitry of Life"
+  },
+  "description": {
+    "ko": "꽃잎은 액정 디스플레이로, 뿌리는 광섬유 케이블로 이루어진 매혹적인 꽃의 시각화로, 생체 발광 디지털 숲 속에서 빛납니다.",
+    "en": "A mesmerizing visualization of a flower where petals are made of liquid crystal displays and roots are fiber-optic cables, glowing in a bioluminescent digital forest."
+  },
+  "prompt": "High-resolution digital nature photography, a hybrid orchid with holographic petals and glowing circuit board patterns, fiber-optic roots pulsing with blue data light, set in a dark cybernetic forest, 8k, photorealistic, intricate tech details, neon bioluminescence, FLORA-9 style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-18T00:46:21.933+09:00"
+}
