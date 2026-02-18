@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광: AQUA-5 탐사",
+    "en": "Abyssal Luminescence: The AQUA-5 Expedition"
+  },
+  "description": {
+    "ko": "침묵이 지배하고 기이한 생명체들이 어둠 속에서 빛을 발하는 자정 구역의 압도적인 심해로 내려가보세요. AQUA-5는 당신을 한 번도 탐험되지 않은 심해저의 경계로 안내합니다.",
+    "en": "Descend into the crushing depths of the midnight zone where silence reigns and strange life forms glow in the dark. AQUA-5 takes you on a journey to the unexplored frontiers of the deep ocean floor."
+  },
+  "prompt": "Cinematic shot of a futuristic submersible AQUA-5 descending into the dark deep ocean, surrounded by bioluminescent jellyfish and glowing abyssal flora, ethereal neon blue and purple light piercing the darkness, high pressure underwater atmosphere, highly detailed textures, 8k resolution, photorealistic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-19T00:46:21.982+09:00"
+}

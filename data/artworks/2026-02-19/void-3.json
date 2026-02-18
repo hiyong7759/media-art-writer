@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 메아리",
+    "en": "VOID-3: Abyssal Echoes"
+  },
+  "description": {
+    "ko": "현실의 경계가 희미해지고 고대 은하의 잔해들이 고요한 흑색 바다를 표류하는 VOID-3의 가장 깊은 구역에 대한 몰입형 탐사입니다.",
+    "en": "An immersive exploration of the deepest sectors of VOID-3, where the fabric of reality thins and the remnants of ancient galaxies drift in a silent, obsidian sea."
+  },
+  "prompt": "A cinematic ultra-high-definition capture of VOID-3, showcasing the 'Cosmic Deep' theme. Swirling gravitational eddies of midnight blue and deep violet gas clouds, distant dying stars emitting a faint spectral glow, ripples in space-time manifesting as shimmering translucent waves, hyper-realistic textures of cosmic dust, 8k resolution, volumetric lighting, silent and expansive atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-19T00:45:53.938+09:00"
+}

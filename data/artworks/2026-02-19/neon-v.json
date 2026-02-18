@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 호라이즌: 사이버펑크 시티",
+    "en": "Neon Horizon: Cyberpunk City"
+  },
+  "description": {
+    "ko": "끊임없이 내리는 빗줄기 사이로 네온 사인이 빛나는 거대한 미래 도시의 전경으로, 첨단 기술과 거친 삶이 공존하는 사이버펑크 세상을 압도적인 디테일로 보여줍니다.",
+    "en": "A breathtaking view of a sprawling futuristic city where neon lights pierce through the constant rain, showcasing a high-tech, low-life society in stunning detail."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk metropolis at night, rain-slicked streets reflecting vibrant neon signs in purple, cyan, and hot pink, flying vehicles weaving between massive skyscrapers with holographic advertisements, dense atmospheric fog, high-detail textures, hyper-realistic, 8k resolution, synthwave aesthetic, bustling street life with glowing tech-wear.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-19T00:45:13.629+09:00"
+}

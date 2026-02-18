@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "순수 에너지의 부서진 스펙트럼",
+    "en": "Shattered Spectrum of Pure Energy"
+  },
+  "description": {
+    "ko": "백색광이 유리를 통해 선명한 색상과 에너지의 배열로 부서지는 광학 물리학의 탐구입니다.",
+    "en": "An exploration of optical physics where white light is shattered into a vibrant array of colors and energy through glass."
+  },
+  "prompt": "Hyper-realistic macro photography of a complex geometric glass prism hit by a concentrated beam of white light. The prism explodes into a web of #FF0080 magenta, #00FF80 mint, and #8000FF violet spectral shards. Intense light dispersion, #FFFF00 yellow chromatic aberration, and rainbow caustics dancing on a dark reflective surface. 8k, raytracing, the chaotic beauty of pure light refraction and energy.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-19T00:46:27.637+09:00"
+}

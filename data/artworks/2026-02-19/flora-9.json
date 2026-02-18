@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "사이버네틱 블룸",
+    "en": "Cybernetic Bloom"
+  },
+  "description": {
+    "ko": "유기적인 생명과 디지털 구조의 매혹적인 교차점, 데이터와 빛의 세계에서 피어나는 꽃들을 형상화했습니다.",
+    "en": "A mesmerizing intersection of organic life and digital structure, where flowers bloom in a world of data and light."
+  },
+  "prompt": "A futuristic flower composed of glowing fiber optic filaments and crystalline petals, iridescent liquid mercury droplets on the leaves, surrounded by floating digital code fragments and holographic bokeh, neon cyan and violet lighting, 8k resolution, photorealistic, cinematic lighting, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-19T00:45:22.635+09:00"
+}

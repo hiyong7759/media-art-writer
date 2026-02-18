@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "우아한 유기적 흐름",
+    "en": "Ethereal Organic Flow"
+  },
+  "description": {
+    "ko": "부드러운 빛으로 맥동하며 흐르는 유기적인 형태의 매혹적인 디스플레이로, AURA-7의 자연스러운 조화와 끊임없는 에너지 전이를 표현합니다.",
+    "en": "A mesmerizing display of fluid, organic shapes that pulse with soft luminescence, representing the natural harmony and seamless energy transitions of AURA-7."
+  },
+  "prompt": "Cinematic shot of AURA-7, organic flowing energy ribbons, liquid silk texture, soft glowing bioluminescence, iridescent pastel colors, smooth transitions, macro photography, high resolution, 8k, surreal atmosphere, dreamlike movement",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-19T00:44:49.476+09:00"
+}

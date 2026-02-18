@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 음향 에너지를 시각적으로 탐구하며, 음파를 유동적이고 무지갯빛의 기하학적 형태로 변환합니다. 이는 리듬과 주파수의 물리적 충격을 포착하여 보이지 않는 진동을 빛과 움직임의 생생한 풍경으로 재탄생시킵니다.",
+    "en": "ECHO-0 is a visual exploration of acoustic energy, where sound waves are translated into fluid, iridescent geometries. It captures the physical impact of rhythm and frequency, transforming invisible vibrations into a vivid landscape of light and motion."
+  },
+  "prompt": "abstract 3D sound visualization, iridescent fluid waves reacting to bass frequencies, neon crystalline structures emerging from sound vibrations, rhythmic geometric patterns, deep blue and violet color palette, cinematic lighting, high resolution, 8k, digital art style, volumetric light rays",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-19T00:45:40.772+09:00"
+}

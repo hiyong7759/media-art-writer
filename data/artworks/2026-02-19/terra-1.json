@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-19",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 대지의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "지구의 표면을 영화적으로 탐구하며, 지질학적 형성의 추상적인 아름다움과 수억 년의 환경적 힘이 만들어낸 복잡한 패턴을 포착합니다.",
+    "en": "A cinematic exploration of the Earth's skin, capturing the raw, abstract beauty of geological formations and the complex patterns created by eons of environmental forces."
+  },
+  "prompt": "Extreme close-up satellite photography of Earth's surface, focusing on the intricate textures of the Danakil Depression and Saharan dunes, swirling patterns of mineral deposits, deep oxidized reds and sulfur yellows, cracked clay pans, topographical relief, cinematic lighting, 8k resolution, hyper-detailed geological formations.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-19T00:46:07.635+09:00"
+}
