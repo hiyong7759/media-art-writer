@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-20",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 시각적 공명",
+    "en": "ECHO-0: Visual Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 보이지 않는 음향 주파수를 유형의 기하학적 풍경으로 변환하여, 빛과 형태를 통해 리듬의 순수한 에너지를 포착하는 개념적 시각화 프로젝트입니다.",
+    "en": "ECHO-0 is a conceptual visualization project that translates invisible sound frequencies into tangible geometric landscapes, capturing the raw energy of rhythm through light and form."
+  },
+  "prompt": "A futuristic digital representation of sound waves as 3D architectural structures, glowing neon data streams, liquid metal oscillations, dark minimalist background with vibrant cyan and magenta light pulses, macro cinematic photography, high-resolution rendering, hyper-detailed textures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-20T00:43:10.128+09:00"
+}

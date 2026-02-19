@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-20",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 맥박",
+    "en": "FLORA-9: The Digital Pulse"
+  },
+  "description": {
+    "ko": "유기적 생명체와 고속 데이터가 하나로 만나는 희귀한 식물 표본입니다. 플로라-9은 메인보드처럼 정보를 처리하고 스스로 빛나는 꽃잎을 통해 가상 풍경 속에서 진화하는 자연을 상징합니다.",
+    "en": "A rare botanical specimen where organic life and high-speed data converge. FLORA-9 represents the evolution of nature within a virtual landscape, featuring self-illuminating petals that process information like a motherboard."
+  },
+  "prompt": "Macro shot of FLORA-9, a futuristic cybernetic flower with translucent crystalline petals, glowing neon circuit veins pulsing with cyan and magenta light, digital data particles floating around the stamen, dark holographic background with floating binary code fragments, hyper-realistic, 8k resolution, cinematic lighting, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-20T00:42:58.795+09:00"
+}

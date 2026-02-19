@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-20",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성운",
+    "en": "Abyssal Nebula"
+  },
+  "description": {
+    "ko": "무한한 공허에 빛의 마지막 잔재가 삼켜지는, 고요하고 압도적인 우주 심연으로의 여정입니다.",
+    "en": "A journey through the silent, crushing depths of outer space where the last remnants of light are swallowed by the infinite void."
+  },
+  "prompt": "Cinematic wide shot of a massive black hole event horizon, surrounded by swirling dark violet and deep indigo gas clouds, ethereal cosmic dust, hyper-realistic, 8k resolution, photorealistic, ominous lighting, intense gravitational lensing, deep space atmosphere, VOID-3 aesthetic",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-20T00:43:20.600+09:00"
+}

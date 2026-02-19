@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-20",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연",
+    "en": "AQUA-5: Abyssal Depths"
+  },
+  "description": {
+    "ko": "AQUA-5 시리즈는 지구에서 가장 깊은 미개척 심해를 탐험하며, 빛이 전혀 닿지 않는 미드나이트 존의 고요한 장엄함과 신비롭게 빛나는 생명체들을 담색합니다.",
+    "en": "The AQUA-5 series explores the uncharted territories of the Earth's deepest oceans, capturing the silent majesty and glowing mysteries of the midnight zone where light never reaches."
+  },
+  "prompt": "Cinematic wide-angle shot of the deep ocean floor at the midnight zone, featuring mysterious bioluminescent marine life, hydrothermal vents releasing shimmering minerals, high-contrast lighting with deep teal and navy hues, ultra-realistic textures, 8k resolution, ethereal atmosphere, particles of sea snow floating in the water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-20T00:43:43.924+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-20",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "태초의 지각",
+    "en": "Primordial Crust"
+  },
+  "description": {
+    "ko": "수백만 년의 지질학적 역사를 보여주는 갈라진 토양, 화산 파편, 그리고 풍부한 광물 퇴적물이 뒤섞인 지구 표면의 세밀한 탐구입니다.",
+    "en": "A detailed exploration of the Earth's surface, featuring a mix of parched soil, volcanic fragments, and rich mineral deposits showcasing millions of years of geological history."
+  },
+  "prompt": "High-resolution macro photography of cracked dry earth and volcanic rock, intricate mineral veins in gold and obsidian, hyper-realistic textures, 8k resolution, cinematic lighting, top-down perspective, organic patterns of erosion and sediment, tactile surface details.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-20T00:43:32.058+09:00"
+}
