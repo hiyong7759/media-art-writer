@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 침묵의 공명",
+    "en": "ECHO-0: Resonance of Silence"
+  },
+  "description": {
+    "ko": "디지털 음향과 추상적 기하학적 형태의 교차점을 탐구하며, 음파가 복잡한 3D 건축적 풍경으로 구현되는 실험적인 시청각 여정입니다.",
+    "en": "An experimental audiovisual journey exploring the intersection of digital acoustics and abstract geometric forms, where sound waves manifest as intricate 3D architectural landscapes."
+  },
+  "prompt": "High-definition digital art, sound visualization of ECHO-0, pulsing sonic waves transforming into crystalline architectural structures, neon blue and deep obsidian color palette, cinematic lighting, 8k resolution, mathematical wave patterns, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-21T00:34:06.828+09:00"
+}

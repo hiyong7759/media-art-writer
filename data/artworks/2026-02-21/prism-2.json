@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "찬란한 굴절: PRISM-2 스펙트럼",
+    "en": "Radiant Refraction: The PRISM-2 Spectrum"
+  },
+  "description": {
+    "ko": "순수한 빛이 기하학적 유리와 만나 색의 분리와 수정처럼 맑은 투명함을 보여주는 광학 물리학의 경이로운 순간을 탐구합니다.",
+    "en": "An exploration of optical physics where pure light meets geometric glass, resulting in a breathtaking display of color separation and crystalline clarity."
+  },
+  "prompt": "A high-precision triangular glass prism capturing a single beam of intense white light, refracting it into a vivid and expanded rainbow spectrum. The background is a dark, minimalist studio setting with subtle dust particles dancing in the light. Hyper-realistic textures, volumetric lighting, 8k resolution, macro photography style, sharp edges, and chromatic aberration effects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-21T00:34:56.663+09:00"
+}

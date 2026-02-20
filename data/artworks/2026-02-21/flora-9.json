@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 회로 오키드",
+    "en": "FLORA-9: The Circuitry Orchid"
+  },
+  "description": {
+    "ko": "FLORA-9는 생물학적 우아함과 계산적 복잡성의 융합을 나타냅니다. '디지털 네이처' 시리즈의 초석인 이 합성 유기체는 빛 데이터를 기반으로 번성하며, 기술과 식물학을 구별할 수 없는 공생의 미래를 보여줍니다.",
+    "en": "FLORA-9 represents the convergence of biological elegance and computational complexity. As a cornerstone of the Digital Nature series, this synthetic organism thrives on light-data, showcasing a symbiotic future where technology and botany become indistinguishable."
+  },
+  "prompt": "Hyper-realistic macro shot of FLORA-9, a cybernetic orchid with translucent crystalline petals infused with glowing cyan circuits and bioluminescent nectar droplets, set against a dark background of falling binary code rain and bokeh digital particles, cinematic lighting, 8k resolution, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-21T00:33:55.611+09:00"
+}

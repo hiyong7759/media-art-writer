@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 디스트릭트 제로",
+    "en": "Neon Pulse: District Zero"
+  },
+  "description": {
+    "ko": "최첨단 기술과 네온으로 물든 도시 지하세계의 거친 분위기가 어우러진 미래형 대도시를 가로지르는 숨막히는 시네마틱 여정입니다.",
+    "en": "A breathtaking cinematic journey through a futuristic metropolis where high-tech living meets the gritty atmosphere of a neon-drenched urban underworld."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk city, heavy rain, glowing neon signs in magenta and cyan, towering skyscrapers with holographic advertisements, flying vehicles weaving through dense urban architecture, hyper-detailed, 8k, Ray tracing, synthwave aesthetic, cinematic lighting",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-21T00:33:42.987+09:00"
+}

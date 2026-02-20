@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 공허의 폐",
+    "en": "The Lung of the Emerald Void"
+  },
+  "description": {
+    "ko": "생물학적 엔진이 빛을 호흡하는 거시적 시각화로, 생물 발광 질감을 통해 자연의 유기적 흐름을 표현합니다.",
+    "en": "A macroscopic visualization of a biological engine that breathes light, representing the organic flow of nature through bioluminescent textures."
+  },
+  "prompt": "An ultra-macro cinematic masterpiece of AURA-7, featuring a pulsating lung-shaped organism made of translucent #7FB069 emerald moss and deep #2D5A3D vascular vines. The entity is suspended in a pitch-black underwater atmospheric void, inhaling swirling #E6F2E1 bioluminescent spores. Rhythmic #FFE66D liquid sap pulses through the mossy membranes, creating a living internal glow. 8k resolution, Unreal Engine 5, Octane Render, hyper-realistic fluid dynamics of liquid light, volumetric light shafts, breathing organic texture.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-21T00:33:17.225+09:00"
+}

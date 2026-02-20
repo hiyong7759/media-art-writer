@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코스믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "고대의 에너지가 요동치는 심우주의 숭고한 아름다움과 경외심을 불러일으키는 거대한 규모를 담아낸, 천상의 공허 중심부로 향하는 여정입니다.",
+    "en": "A journey into the heart of the celestial void, capturing the sublime beauty and terrifying scale of the deep universe where ancient energies stir."
+  },
+  "prompt": "A cinematic shot of VOID-3, deep cosmic space, swirling dark nebulae with vibrant pulses of indigo and violet light, infinite star fields, gravitational distortions, ultra-detailed, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-21T00:34:18.840+09:00"
+}

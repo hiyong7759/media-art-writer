@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-21",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 질감",
+    "en": "TERRA-1: Earth's Textures"
+  },
+  "description": {
+    "ko": "험준한 산맥의 지형부터 바다와 구름의 유동적인 움직임까지, 지구의 다양한 표면 패턴을 상세하게 탐구합니다.",
+    "en": "A detailed exploration of the planet's diverse surface patterns, from the rugged terrain of mountain peaks to the fluid movements of the oceans and clouds."
+  },
+  "prompt": "Cinematic satellite photography of Earth's surface, high-resolution topographical details, vast mountain ranges, deep ocean trenches, swirling atmospheric cloud patterns, hyper-realistic textures, 8k resolution, realistic lighting and shadows, intricate natural formations",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-21T00:34:30.172+09:00"
+}
