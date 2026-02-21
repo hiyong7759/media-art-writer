@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 네온 바이오스피어",
+    "en": "FLORA-9: Neon Biosphere"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 생명체와 디지털 건축의 융합을 나타내며, 데이터가 수액처럼 흐르는 가상 생태계 내에서 진화한 지능형 식물 종을 보여줍니다.",
+    "en": "FLORA-9 represents the fusion of organic life and digital architecture, showcasing a sentient plant species evolved within a virtual ecosystem where data flows like sap."
+  },
+  "prompt": "A high-tech cybernetic flower with translucent petals glowing in bioluminescent cyan and magenta, intricate fiber-optic veins, set in a dark digital forest with floating data particles and glitch effects, ultra-realistic, 8k, cinematic lighting, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-22T00:20:02.698+09:00"
+}

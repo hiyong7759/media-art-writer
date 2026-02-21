@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 코스믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주의 무한한 심연 속으로의 탐험, 빛이 사라지고 우주의 깊은 침묵과 미지의 영역이 시작되는 곳입니다.",
+    "en": "An exploration into the infinite abyss of the universe, where light fades into the profound silence of the cosmic void and the unknown begins."
+  },
+  "prompt": "Cinematic shot of a massive celestial rift in deep space, swirling nebula of dark matter and violet stardust, hyper-realistic, 8k resolution, sense of overwhelming scale and cold silence, VOID-3 aesthetic, ethereal lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-22T00:20:24.757+09:00"
+}

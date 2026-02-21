@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 잔광",
+    "en": "The Abyssal Glow"
+  },
+  "description": {
+    "ko": "영원한 어둠 속에서 기묘한 생명체들이 매혹적인 생물 발광으로 빛을 밝히는, 고요하고 신비로운 심해의 세계를 탐험해보세요.",
+    "en": "Explore the silent and mysterious depths of the ocean, where strange creatures illuminate the eternal darkness with mesmerizing bioluminescent light."
+  },
+  "prompt": "Hyper-realistic 8k cinematic shot of the deepest parts of the ocean, glowing bioluminescent jellyfish and strange deep-sea fish, hydrothermal vents, dark abyss background with faint particles, ethereal blue and purple lighting, intricate details of underwater rock formations, volumetric lighting, silent atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-22T00:20:48.103+09:00"
+}

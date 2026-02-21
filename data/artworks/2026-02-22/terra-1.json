@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지질학적 본질",
+    "en": "TERRA-1: Geological Essence"
+  },
+  "description": {
+    "ko": "광물 매장지, 침식 패턴, 그리고 암석에 새겨진 고대의 서사 사이의 복잡한 상호작용을 포착하여 지구의 가공되지 않은 표면을 몰입감 있게 시각적으로 연구한 결과물입니다.",
+    "en": "An immersive visual study of the Earth's raw surfaces, capturing the complex interplay between mineral deposits, erosion patterns, and the ancient narrative written in stone."
+  },
+  "prompt": "Cinematic macro photography of diverse Earth textures, layered sedimentary rock formations, intricate crystalline mineral veins, cracked arid clay patterns, rich earthy tones of terracotta and deep umber, atmospheric lighting casting long shadows across geological fissures, ultra-realistic 8k resolution, hyper-detailed natural topography.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-22T00:20:34.491+09:00"
+}

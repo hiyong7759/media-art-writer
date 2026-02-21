@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 빛의 스펙트럼",
+    "en": "PRISM-2: The Spectrum of Light"
+  },
+  "description": {
+    "ko": "정교한 PRISM-2 렌즈를 통과하며 굴절의 원리를 통해 찬란한 무지갯빛 스펙트럼으로 분산되는 빛의 경이로운 시각적 여정을 경험해 보세요.",
+    "en": "Experience the stunning visual journey of light as it passes through the advanced PRISM-2 lens, breaking into a vibrant spectrum of colors through the physics of refraction."
+  },
+  "prompt": "Cinematic macro shot of a sleek, minimalist triangular prism labeled PRISM-2. A brilliant beam of white light enters from the left, refracting into a vivid, glowing rainbow spectrum of colors that illuminates a dark, smoky studio background. Shimmering glass textures, hyper-realistic, 8k resolution, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-22T00:20:57.989+09:00"
+}

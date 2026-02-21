@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 역동성",
+    "en": "ECHO-0: Resonant Dynamics"
+  },
+  "description": {
+    "ko": "시각과 청각의 시너지를 정교하게 탐구하는 ECHO-0는 보이지 않는 소리의 주파수를 실시간으로 체감할 수 있는 기하학적 풍경과 리드미컬한 빛의 건축물로 변환합니다.",
+    "en": "A sophisticated exploration of audio-visual synergy, ECHO-0 transforms invisible sound frequencies into tangible geometric landscapes and rhythmic light architectures in real-time."
+  },
+  "prompt": "Cinematic visualization of abstract sound waves, 3D kinetic typography, holographic frequency pulses, neon rhythmic patterns, flowing geometric liquid metal, dark background with vibrant spectral colors, 8k resolution, sleek UI design elements, procedural motion graphics.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-22T00:20:14.609+09:00"
+}
