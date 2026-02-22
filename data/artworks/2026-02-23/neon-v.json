@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 섹터 7",
+    "en": "Neon Pulse: Sector 7"
+  },
+  "description": {
+    "ko": "거대한 고층 빌딩들이 깜빡이는 홀로그램 광고에 휩싸여 있고, 비에 젖은 거리가 미래 도시 지하 세계의 활기찬 혼돈을 반사하는 광활한 대도시 풍경입니다.",
+    "en": "A sprawling metropolitan landscape where towering skyscrapers are bathed in flickering holographic advertisements and rain-slicked streets reflect the vibrant chaos of a futuristic underworld."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk city at night, heavy monsoon rain, neon lights in electric blue and hot pink reflecting on wet pavement, towering skyscrapers with massive holographic advertisements, flying vehicles weaving through dense urban canyons, hyper-realistic, 8k resolution, volumetric fog, moody atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-23T00:20:09.442+09:00"
+}

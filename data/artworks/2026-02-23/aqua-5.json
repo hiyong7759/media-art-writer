@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광",
+    "en": "Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "기술이 생체 발광 생물의 고요한 아름다움을 관찰하는 바다 가장 깊은 곳에서의 빛과 물의 평화로운 춤입니다.",
+    "en": "A peaceful dance of light and water in the deepest parts of the ocean, where technology observes the serene beauty of bioluminescent life."
+  },
+  "prompt": "Hyper-realistic cinematic shot of the AQUA-5 deep-sea research vessel navigating through the midnight zone. Bioluminescent flora of #40E0D0 turquoise and #48D1CC cyan illuminate the dark #000080 abyss. Translucent jellyfish with pulsing #006994 membranes drift past, their trails creating fluid dynamics of light. Bubbles rising, high-tech metallic finish on the vessel with glowing accents, 8k resolution, photorealistic textures, and a mysterious, serene underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-23T00:21:05.802+09:00"
+}

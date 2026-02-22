@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 수평선",
+    "en": "VOID-3: Abyssal Horizon"
+  },
+  "description": {
+    "ko": "VOID-3는 빛조차 굴절되기 시작하는 우주의 심연, 그 고요하고 압도적인 압력 속을 유영하며 관측 가능한 우주의 가장 먼 곳을 탐사합니다.",
+    "en": "VOID-3 explores the furthest reaches of the observable universe, drifting through the silent, crushing pressure of the cosmic deep where light itself begins to bend."
+  },
+  "prompt": "Cinematic shot of VOID-3, a monolithic obsidian spacecraft floating in the center of a swirling multi-colored nebula, cosmic dust particles, deep space abyss, event horizon distortion, high contrast, bioluminescent highlights, 8k resolution, photorealistic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-23T00:20:44.517+09:00"
+}

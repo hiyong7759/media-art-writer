@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "뉴럴 블룸: 플로라-9 시퀀스",
+    "en": "Neural Bloom: The FLORA-9 Sequence"
+  },
+  "description": {
+    "ko": "FLORA-9은 실리콘과 토양의 경계를 탐구하며, 투명한 수정 구조를 통해 데이터가 수액처럼 흐르는 생물 발광 숲을 묘사합니다.",
+    "en": "FLORA-9 explores the boundary between silicon and soil, depicting a bioluminescent forest where data flows like sap through translucent crystalline structures."
+  },
+  "prompt": "A hyper-realistic digital nature landscape of FLORA-9, featuring translucent bioluminescent flowers with integrated fiber-optic veins, holographic spores floating in the air, complex geometric fractals emerging from organic roots, neon cyan and deep violet color palette, 8k resolution, cinematic lighting, surreal atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-23T00:20:20.692+09:00"
+}

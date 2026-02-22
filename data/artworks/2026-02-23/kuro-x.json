@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 지오메트릭 글리치",
+    "en": "KURO-X: Geometric Glitch"
+  },
+  "description": {
+    "ko": "수학적 정밀함과 디지털 혼돈의 정교한 융합. KURO-X 지오메트릭 글리치는 날카로운 건축적 라인과 생동감 넘치는 파편화된 빛의 패턴을 통해 시스템 오류의 미학을 탐구합니다.",
+    "en": "A sophisticated fusion of mathematical precision and digital chaos. KURO-X Geometric Glitch explores the beauty of system errors through sharp architectural lines and vibrant, fragmented light patterns."
+  },
+  "prompt": "Cinematic 8k close-up of KURO-X branding integrated into a complex geometric glitch environment. Sharp vector polygons, digital artifacts, and chromatic aberration. Deep onyx surfaces with electric cyan and magenta neon accents. High-tech futuristic aesthetic, fragmented shapes, volumetric lighting, hyper-realistic textures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-23T00:19:59.218+09:00"
+}

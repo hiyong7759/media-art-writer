@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 굴절",
+    "en": "PRISM-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "단일 광선이 PRISM-2의 렌즈를 통해 다채로운 스펙트럼으로 변화하는 과정을 보여주는 광학 물리학의 시각적 탐구입니다.",
+    "en": "A visual exploration of optical physics, showcasing the transformation of singular light into a diverse spectrum through the lens of PRISM-2."
+  },
+  "prompt": "Cinematic macro shot of a triangular glass prism engraved with 'PRISM-2', a sharp beam of white light entering and dispersing into a brilliant, wide rainbow spectrum, hyper-realistic refraction, intricate caustics on a dark surface, bokeh background, 8k resolution, optical physics aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-23T00:21:17.788+09:00"
+}

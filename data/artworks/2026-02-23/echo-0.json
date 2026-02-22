@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "주파수가 빛나는 기하학적 구조와 유동적인 에너지 파동으로 나타나는, 소리의 숨겨진 구조에 대한 시각적 탐구입니다.",
+    "en": "A visual exploration of the hidden architecture of sound, where frequencies manifest as glowing geometric structures and fluid energy waves."
+  },
+  "prompt": "ECHO-0, cinematic sound visualization, abstract 3D waveforms pulsating in a dark void, neon cyan and violet light streaks, kinetic digital sculpture, high-speed photography of sonic ripples, 8k resolution, futuristic aesthetic",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-23T00:20:33.040+09:00"
+}
