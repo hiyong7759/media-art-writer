@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "액체 주파수",
+    "en": "Liquid Frequency"
+  },
+  "description": {
+    "ko": "소리의 물리적 발현으로, 단일 베이스 주파수의 운동 에너지를 고도로 정밀하게 포착했습니다.",
+    "en": "The physical manifestation of sound, capturing the kinetic energy of a single bass frequency in high detail."
+  },
+  "prompt": "A cinematic visualization of ECHO-0, featuring a frozen pulse of #FFD700 golden liquid metal waves colliding in a dark minimalist void. The soundwaves manifest as 3D parametric oscillations with #4169E1 royal blue frequency ribbons. Microscopic particles of #32CD32 lime light dance to an invisible beat, creating a fluid architecture of sound. High-speed photography style, motion blur, macro lens, 8k resolution, hyper-detailed textures of vibrating liquid mercury.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-24T00:55:04.851+09:00"
+}

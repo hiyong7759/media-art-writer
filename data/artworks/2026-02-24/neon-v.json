@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 몬순",
+    "en": "The Neon Monsoon"
+  },
+  "description": {
+    "ko": "빛과 물이 디지털 꿈의 풍경으로 어우러지는 미래 대도시의 낭만적인 모습입니다.",
+    "en": "A romanticized view of a futuristic metropolis, where light and water blend into a digital dreamscape."
+  },
+  "prompt": "A vertical cinematic low-angle shot of a rainy cyberpunk alleyway in NEON-V. Towering skyscrapers are adorned with massive 3D holograms of koi fish in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant reflections on wet asphalt and rusty metal textures. Flying vehicles leave #FF6B35 orange light trails across the #1A0033 indigo sky. Volumetric fog, hyper-detailed textures, 8k resolution, ray-traced reflections, and a moody, romantic tech-noir atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-24T00:54:49.150+09:00"
+}

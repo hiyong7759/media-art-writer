@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "흑요석의 파편화",
+    "en": "Obsidian Fragmentation"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 형태가 시스템적 글리치에 의해 산산조각 나는 붕괴하는 디지털 현실의 시각적 연구입니다.",
+    "en": "A visual study of a collapsing digital reality, where perfect geometric forms are shattered by systemic glitches."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian sphere suspended in a clinical #FFFFFF digital vacuum, undergoing a violent geometric deconstruction. The surface fractures into a recursive storm of sharp #808080 shards and #C0C0C0 pixel-sorted glitches. High-contrast cinematic lighting reveals razor-sharp raytraced reflections on fragmented glass-like surfaces. The composition emphasizes chaos within order through digital noise, scanlines, and intense chromatic aberration. 8k resolution, Unreal Engine 5 aesthetic, sharp vector precision.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-24T00:54:42.531+09:00"
+}

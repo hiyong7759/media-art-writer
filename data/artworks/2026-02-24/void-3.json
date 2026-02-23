@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "void-3",
+  "title": {
+    "ko": "침묵의 특이점",
+    "en": "The Silent Singularity"
+  },
+  "description": {
+    "ko": "빛과 시간이 공허의 무한한 중력에 삼켜지는 우주의 끝으로의 여정입니다.",
+    "en": "A journey to the edge of the universe, where light and time are consumed by the infinite gravity of the void."
+  },
+  "prompt": "A cinematic wide shot of the event horizon in VOID-3, where a supermassive black hole pulls #3D1A78 violet starlight into a #0D0221 obsidian vacuum. Swirling dark matter filaments and gas clouds of #7B68EE and #E6E6FA lavender create an infinite celestial cathedral. Intricate gravitational lensing effects bend light into shimmering rings. Celestial scale, volumetric gas simulations, 8k resolution, capturing the silent majesty and cosmic horror of the deep abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-24T00:55:11.548+09:00"
+}

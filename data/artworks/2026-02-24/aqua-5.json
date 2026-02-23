@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생물 발광 발레",
+    "en": "The Bioluminescent Ballet"
+  },
+  "description": {
+    "ko": "자체적인 내부 빛으로 밝혀진 심해의 투명한 생명체들을 평온하게 바라본 모습입니다.",
+    "en": "A serene look at the transparent life forms of the deep sea, illuminated by their own internal light."
+  },
+  "prompt": "A hyper-realistic cinematic shot of the AQUA-5 environment, featuring translucent jellyfish forms with #40E0D0 turquoise bioluminescent pulses. The creatures drift through a dark #000080 midnight zone, trailing #48D1CC cyan fluid dynamics. Tiny bubbles and 'marine snow' particles reflect the #006994 deep sea glow. The composition focuses on the peaceful, weightless dance of transparent life in a high-pressure abyss. 8k resolution, Unreal Engine 5 render, ethereal underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-24T00:55:24.046+09:00"
+}

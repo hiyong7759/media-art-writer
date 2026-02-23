@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "호흡하는 노틸러스",
+    "en": "The Respiratory Nautilus"
+  },
+  "description": {
+    "ko": "유기적이고 생물 발광을 하는 존재의 고동치는 호흡에 집중하여, 생명의 리듬에 대한 심해의 명상을 담아냈습니다.",
+    "en": "A deep-sea meditation on the rhythm of life, focusing on the pulsating breath of an organic, bioluminescent entity."
+  },
+  "prompt": "An ultra-macro cinematic masterpiece of AURA-7, depicting a spiraling, nautilus-like organ made of translucent #7FB069 emerald moss and #2D5A3D vascular membranes. The entity is suspended in a silent, pitch-black liquid void, rhythmically pulsating as it inhales #E6F2E1 bioluminescent spores that glow like microscopic stars. Golden #FFE66D liquid sap flows through internal capillary networks, creating a warm, living glow beneath the skin. 8k resolution, rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-24T00:54:36.787+09:00"
+}

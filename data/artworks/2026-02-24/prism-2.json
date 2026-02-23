@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 조각",
+    "en": "Spectral Shards"
+  },
+  "description": {
+    "ko": "백색광을 핵심 구성 요소로 분해하여 컬러 스펙트럼의 활기찬 에너지를 찬양합니다.",
+    "en": "The deconstruction of white light into its core components, celebrating the vibrant energy of the color spectrum."
+  },
+  "prompt": "A high-precision cinematic macro shot of a complex geometric PRISM-2 hyper-cube. A sharp beam of intense white light explodes into a web of #FF0080 magenta, #00FF80 mint, and #8000FF violet spectral shards. Intense light dispersion and #FFFF00 yellow chromatic aberration create rainbow caustics that dance across a dark reflective surface. Hyper-realistic glass textures, raytracing, 8k resolution, capturing the chaotic beauty of pure energy refraction.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-24T00:55:29.485+09:00"
+}

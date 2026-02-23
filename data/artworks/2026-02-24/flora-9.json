@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "데이터 씨앗의 개화",
+    "en": "Data-Seed Bloom"
+  },
+  "description": {
+    "ko": "자연이 빛과 코드라는 매체를 통해 피어나는, 생물학과 정보의 교차점입니다.",
+    "en": "The intersection of biology and information, where nature blooms through the medium of light and code."
+  },
+  "prompt": "A hyper-realistic macro shot of FLORA-9, a dandelion where each seed is a glowing #89CFF0 fiber-optic packet. The stem is composed of translucent #50C878 emerald circuit boards pulsing with liquid data. As the seeds detach, they transform into #FFB6C1 fractal petals floating in a soft-focus bokeh of binary code. Set against a dark #4A0E4E velvet background, featuring iridescent liquid mercury droplets on leaves. 8k resolution, cinematic lighting, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-24T00:54:57.709+09:00"
+}

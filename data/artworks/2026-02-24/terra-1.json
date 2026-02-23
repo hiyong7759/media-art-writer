@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-24",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "대지의 서사",
+    "en": "Earthen Narrative"
+  },
+  "description": {
+    "ko": "수천 년에 걸쳐 암석과 퇴적물에 새겨진 이야기를 드러내는 지각의 촉각적 탐구입니다.",
+    "en": "A tactile exploration of the earth's crust, revealing the stories written in rock and sediment over millennia."
+  },
+  "prompt": "Ultra-detailed macro-topographic photography of TERRA-1, featuring a cross-section of ancient sedimentary layers. Jagged #8B4513 terracotta rock and #D2691E burnt orange clay are infused with glowing #F4A460 crystalline quartz veins. Side lighting from a low sun creates deep, dramatic shadows across the rough #2F4F4F slate textures. 8k resolution, hyper-realistic geological details, showing the narrative of a land carved by eons of pressure and mineral evolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-24T00:55:18.203+09:00"
+}
