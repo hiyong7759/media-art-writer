@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-25",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 우주적 깊이",
+    "en": "VOID-3: Abyssal Cosmic Depth"
+  },
+  "description": {
+    "ko": "VOID-3의 절대적인 어둠 속에서 천체 구조가 서서히 드러나는 심해 우주의 깊은 침묵과 무한한 규모를 경험해 보세요.",
+    "en": "Experience the profound silence and infinite scale of the deep cosmos, where celestial structures emerge from the absolute darkness of VOID-3."
+  },
+  "prompt": "Cinematic wide shot of the deep cosmic void, VOID-3 aesthetic, swirling dark nebulae, distant cold stars, gravitational lensing around a central black hole, ultra-detailed textures, volumetric lighting, deep blues and obsidian blacks, 8k resolution, photorealistic, cosmic deep theme.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-25T00:53:34.645+09:00"
+}

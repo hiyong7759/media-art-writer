@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-25",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 지평선",
+    "en": "AQUA-5: Abyssal Horizon"
+  },
+  "description": {
+    "ko": "심해 탐사의 궁극적인 개척지를 경험하세요. AQUA-5 미션은 심해의 극한 수압 아래 숨겨진 생물 발광의 비밀과 고대 지질 구조를 밝혀내기 위해 미드나잇 존으로 잠항합니다.",
+    "en": "Experience the ultimate frontier in deep-sea exploration. The AQUA-5 mission dives into the midnight zone to uncover the bioluminescent secrets and ancient geological formations hidden beneath the crushing pressure of the abyss."
+  },
+  "prompt": "Cinematic shot of a high-tech modular research station submerged in the deep ocean trenches, glowing bioluminescent flora, a sleek futuristic submarine named AQUA-5 docking at the bay, dark navy and cyan lighting, scattering light rays, bubbles, hyper-realistic, 8k resolution, volumetric lighting, epic scale",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-25T00:53:55.654+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-25",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원시의 질감",
+    "en": "TERRA-1: Primal Textures"
+  },
+  "description": {
+    "ko": "지질학적 변화, 풍화 작용, 유기적 성장이 만들어낸 복잡한 패턴을 조명하며 지구의 다양한 지각 표면을 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the Earth's diverse crust, highlighting the intricate patterns formed by geological shifts, weathering, and organic growth."
+  },
+  "prompt": "Ultra-realistic macro photography of various Earth textures, transitioning from cracked desert clay to mossy forest floor and dark volcanic basalt, intricate geological details, cinematic lighting, 8k resolution, top-down perspective, high contrast, earthy color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-25T00:53:45.647+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-25",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 예술: PRISM-2 스펙트럼",
+    "en": "The Art of Refraction: PRISM-2 Spectrum"
+  },
+  "description": {
+    "ko": "PRISM-2 렌즈를 통해 빛이 생생한 무지개로 변하는 순간을 포착하여 광학 물리학의 아름다움과 수정 같은 투명함을 강조합니다.",
+    "en": "Capturing the moment light transforms into a vibrant rainbow through the PRISM-2 lens, highlighting the beauty of optical physics and crystalline clarity."
+  },
+  "prompt": "A hyper-realistic 8k render of a PRISM-2 crystal structure showing complex light refraction, sharp rainbow spectrum beams cutting through a dark void, caustic light patterns on a surface, translucent glass material, cinematic lighting, high contrast, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-25T00:54:07.456+09:00"
+}

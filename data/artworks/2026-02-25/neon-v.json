@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-25",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 미드나잇 서킷",
+    "en": "NEON-V: Midnight Circuits"
+  },
+  "description": {
+    "ko": "네온 조명으로 가득 찬 고층 빌딩이 하늘을 가리고, 수천 개의 전기적 꿈이 거리마다 요동치는 첨단 대도시로 초대합니다. 기술과 도시의 거친 질감이 충돌하는 미래를 경험해 보세요.",
+    "en": "Step into a high-tech metropolis where the sky is obscured by neon-lit towers and the streets pulse with the energy of a thousand electric dreams. A vision of a future where technology and urban grit collide."
+  },
+  "prompt": "A sprawling cyberpunk city at night under heavy rain, towering skyscrapers with massive holographic advertisements, flying futuristic cars weaving through narrow alleys, glowing neon signs in vibrant cyan and magenta reflecting on wet pavement, hyper-detailed, cinematic lighting, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-25T00:53:00.621+09:00"
+}
