@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "선명함의 스펙트럼",
+    "en": "Spectrum of Clarity"
+  },
+  "description": {
+    "ko": "이 영상은 하나의 흰색 광선이 수정 프리즘을 통해 다채로운 색채의 폭발로 변하는 빛의 우아한 물리학을 포착합니다.",
+    "en": "This visual captures the elegant physics of light as it transforms from a single white ray into a diverse explosion of colors through a crystal prism."
+  },
+  "prompt": "A macro cinematic shot of a triangular glass prism on a dark minimalist surface. A single beam of brilliant white light enters the prism, refracting into a vibrant, sharp rainbow spectrum on the other side. Hyper-realistic, 8k resolution, ray tracing, soft bokeh background, prismatic light dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-26T00:59:19.859+09:00"
+}

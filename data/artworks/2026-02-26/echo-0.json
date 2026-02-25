@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 건축",
+    "en": "ECHO-0: Sonic Architecture"
+  },
+  "description": {
+    "ko": "청각 데이터를 시각적으로 표현한 ECHO-0는 보이지 않는 음파를 빛과 기하학의 구조적 걸작으로 변환합니다.",
+    "en": "A visual representation of auditory data, ECHO-0 transforms invisible sound waves into a structural masterpiece of light and geometry."
+  },
+  "prompt": "A futuristic digital landscape showing ECHO-0 sound visualization, cascading holographic frequency waves, concentric glowing rings pulsating to a beat, deep obsidian background with neon cyan and electric violet accents, 8k resolution, cinematic lighting, macro lens focus on digital particles.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-26T00:58:34.660+09:00"
+}

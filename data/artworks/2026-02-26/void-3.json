@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "VOID-3가 중력이 빛을 왜곡하고 멀리 있는 별들이 유령처럼 아름다운 보라색 심연 속으로 사라지는 '우주의 심해' 속 고요한 공간을 떠다닙니다.",
+    "en": "VOID-3 drifts through the silent expanse of the Cosmic Deep, where gravity warps light and the distant stars fade into a hauntingly beautiful violet abyss."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 spacecraft floating near the event horizon of a supermassive black hole, surrounded by a swirling violet and gold accretion disk, nebular dust clouds, photorealistic, 8k resolution, dark atmosphere, deep space aesthetics, high contrast lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-26T00:58:46.119+09:00"
+}

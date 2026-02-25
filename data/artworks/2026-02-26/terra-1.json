@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 살아있는 지각",
+    "en": "TERRA-1: The Living Crust"
+  },
+  "description": {
+    "ko": "위성 관점에서 포착한 지구 표면의 복잡하고 다양한 질감을 고해상도로 탐구하며, 자연적인 지질학적 예술성을 강조합니다.",
+    "en": "A high-resolution visual exploration of the intricate and diverse textures that define the Earth's surface, captured from a satellite perspective to highlight natural geological artistry."
+  },
+  "prompt": "Ultra-detailed satellite photography of diverse Earth terrain textures, featuring cracked desert salt flats transitioning into lush river deltas, deep oceanic ridges, and jagged snowy mountain peaks, top-down macro perspective, high resolution, 8k, realistic geological patterns, vibrant natural colors, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-26T00:58:58.231+09:00"
+}

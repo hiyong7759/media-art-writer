@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광",
+    "en": "Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "영원한 어둠이 깔린 심해 속에서 생체 발광 생물들이 빚어내는 신비로운 빛의 향연을 탐험해보세요.",
+    "en": "Explore the mysterious depths of the ocean where bioluminescent creatures light up the eternal darkness of the abyss."
+  },
+  "prompt": "cinematic shot of a deep sea abyss, glowing bioluminescent jellyfish and strange aquatic plants, dark navy and neon blue color palette, high detail, 8k resolution, ethereal atmosphere, underwater photography style",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-26T00:59:08.887+09:00"
+}

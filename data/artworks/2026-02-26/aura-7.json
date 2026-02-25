@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-26",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "유체 역학과 자연스러운 우아함을 시각적으로 탐구한 이 작품은 AURA-7을 부드러운 빛과 끊김 없는 전환으로 이루어진 살아있는 생명체로 변모시켜 자연의 리드미컬한 박동을 재현합니다.",
+    "en": "A visual exploration of fluid dynamics and natural elegance, where AURA-7 transforms into a living, breathing entity composed of soft light and seamless transitions, mimicking the rhythmic pulse of nature."
+  },
+  "prompt": "Abstract cinematic visual of AURA-7 featuring fluid, iridescent ribbons weaving through a dark void, organic liquid metal textures, bioluminescent pulses, soft Gaussian blur in the background, 8k resolution, elegant curves, biomimetic movement, ethereal lighting, hyper-realistic silk textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-26T00:57:49.196+09:00"
+}
