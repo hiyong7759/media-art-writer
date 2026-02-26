@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "이진법의 개화",
+    "en": "Binary Blossom"
+  },
+  "description": {
+    "ko": "엽록소의 맥을 통해 데이터가 흐르고 광섬유가 꽃처럼 피어나는 디지털 정원을 표현했습니다.",
+    "en": "A representation of a digital garden where data flows through veins of chlorophyll and fiber optics bloom like flowers."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, a digital orchid where #89CFF0 fiber-optic petals pulse with liquid data. The stem is composed of #50C878 emerald circuit boards, set against a dark #4A0E4E velvet void. Glowing #FFB6C1 fractal pollen floats in a soft-focus bokeh of falling binary code. Iridescent liquid mercury droplets cling to the leaves. 8k resolution, cinematic lighting, nature reclaiming technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-27T00:49:00.757+09:00"
+}

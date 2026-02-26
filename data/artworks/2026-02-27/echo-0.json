@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "황금 맥동의 공명",
+    "en": "Resonance of the Golden Pulse"
+  },
+  "description": {
+    "ko": "보이지 않는 주파수가 장엄한 액체 구조로 결정화되는 소리의 물리적 충격을 시각화했습니다.",
+    "en": "Visualizing the physical impact of sound, where invisible frequencies crystallize into magnificent liquid structures."
+  },
+  "prompt": "A cinematic visualization of ECHO-0, featuring a frozen pulse of #FFD700 golden liquid metal waves colliding in a dark #4169E1 royal blue void. The soundwaves manifest as 3D parametric oscillations with vibrating frequency ribbons. Microscopic particles of #32CD32 lime light dance to an invisible beat, while #FF4500 orange sparks ignite at the wave peaks. High-speed photography style, macro lens, 8k resolution, hyper-detailed fluid architecture of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-27T00:49:07.749+09:00"
+}

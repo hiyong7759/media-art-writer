@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "시간의 지층",
+    "en": "Strata of Time"
+  },
+  "description": {
+    "ko": "수 세기에 걸친 지질학적 압력과 광물의 진화를 기록한 지구 표면의 촉각적 이야기입니다.",
+    "en": "The tactile story of the earth's surface, chronicling centuries of geological pressure and mineral evolution."
+  },
+  "prompt": "An ultra-detailed macro-topographic photography of TERRA-1. A cross-section of ancient sedimentary layers reveals jagged #8B4513 terracotta rock and #D2691E burnt orange clay infused with glowing #F4A460 crystalline quartz veins. Side lighting creates dramatic shadows across rough #2F4F4F slate textures. 8k resolution, hyper-realistic geological details, showing the narrative of a land carved by eons of pressure.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-27T00:49:28.931+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "에테르 스펙트럼: 프리즘 효과",
+    "en": "Ethereal Spectrum: The Prism Effect"
+  },
+  "description": {
+    "ko": "흰색 빛이 수정 프리즘을 통해 찬란한 색의 배열로 변하는 빛의 물리학을 시각화한 매혹적인 장면입니다.",
+    "en": "A mesmerizing visualization of light physics, showcasing the transformation of white light into a brilliant array of colors through a crystal prism."
+  },
+  "prompt": "A hyper-realistic 3D rendering of a geometric glass prism refracting a beam of white light into a vibrant rainbow spectrum. Soft bokeh background, iridescent reflections, caustic light patterns on a minimalist surface, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-27T00:49:46.802+09:00"
+}

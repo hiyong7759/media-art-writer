@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 회로의 장마",
+    "en": "Monsoon in the Neon Circuit"
+  },
+  "description": {
+    "ko": "비에 젖은 도시의 쇠락과 미래 지향적 디지털 대도시의 고주파 발광이 낭만적으로 충돌하는 순간입니다.",
+    "en": "The romantic collision of rain-slicked urban decay and the high-frequency glow of a futuristic digital metropolis."
+  },
+  "prompt": "A cinematic vertical low-angle shot of a rainy cyberpunk alley in NEON-V. Towering skyscrapers are adorned with massive 3D holograms in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant reflections on the #1A0033 indigo asphalt. Flying vehicles leave #FF6B35 orange light trails across the foggy urban canyon. Volumetric lighting, 8k resolution, ray-traced reflections, moody and romantic tech-noir atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-27T00:48:54.309+09:00"
+}

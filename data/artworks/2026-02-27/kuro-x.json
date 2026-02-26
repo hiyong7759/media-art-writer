@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "균열된 질서",
+    "en": "Fractured Order"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 형태가 디지털 파편의 복잡한 폭풍으로 산산조각 나는 모습을 통해 질서 속의 혼돈을 탐구합니다.",
+    "en": "A study of chaos within order, depicting a perfect geometric form shattered into a complex storm of digital fragments."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith undergoing a violent geometric deconstruction. Sharp, recursive #808080 and #C0C0C0 polygonal shards are frozen in mid-explosion against a clinical #FFFFFF vacuum. Intense digital glitch artifacts, scanlines, and chromatic aberration cut through the composition. High-contrast cinematic lighting reveals razor-sharp raytraced reflections on fragmented glass-like surfaces. 8k resolution, Unreal Engine 5 aesthetic, precise chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-02-27T00:48:48.668+09:00"
+}

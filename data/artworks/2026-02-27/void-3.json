@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 특이점",
+    "en": "VOID-3: Abyssal Singularity"
+  },
+  "description": {
+    "ko": "빛조차 고대의 중력 이상 현상에 흡수되는 우주 깊은 곳의 절대적인 침묵을 탐구하는 VOID-3는 성간 심연의 잊히지 않는 아름다움을 담아냅니다.",
+    "en": "Exploring the absolute silence of the deep cosmos where light is consumed by ancient gravitational anomalies, VOID-3 captures the haunting beauty of the interstellar abyss."
+  },
+  "prompt": "A cinematic high-resolution shot of a deep cosmic void, swirling dark matter nebulae in shades of obsidian and midnight blue, distant glowing pulsar light reflecting off crystalline space debris, hyper-realistic, 8k, ethereal atmosphere, sense of infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-27T00:49:21.285+09:00"
+}

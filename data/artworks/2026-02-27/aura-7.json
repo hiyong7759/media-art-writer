@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-27",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "신록의 빛의 숨결",
+    "en": "The Breath of Verdant Light"
+  },
+  "description": {
+    "ko": "유기적 생명과 빛이 생물 발광 막을 통해 조화롭게 호흡하는 자연의 내부 리듬을 시각화한 작품입니다.",
+    "en": "A visualization of nature's internal rhythm, where organic life and light breathe in unison through bioluminescent membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7 embodying Organic Flow. A pulsating respiratory organ formed from layers of translucent #7FB069 emerald moss and deep #2D5A3D vascular vines drifts in a silent #E6F2E1 pearlescent haze. The entity exhales bioluminescent #FFE66D golden spores that move like liquid light. Macro focus on the organic membranes, soft undulating movement, hyper-realistic fluid dynamics, 8k resolution, Octane render, serene and divine natural atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-02-27T00:48:41.680+09:00"
+}
