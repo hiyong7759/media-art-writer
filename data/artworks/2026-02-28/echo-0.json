@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 공감각에 관한 개념적 연구로, 복잡한 청각 주파수를 유동적인 3차원 시각적 풍경으로 변환합니다. 소리 파동이 충돌하여 빛으로 결정화되는 순간을 포착합니다.",
+    "en": "ECHO-0 is a conceptual study in synesthesia, transforming complex auditory frequencies into fluid, three-dimensional visual landscapes. It captures the moment sound waves collide and crystallize into light."
+  },
+  "prompt": "Abstract sound visualization, digital audio waves morphing into 3D crystalline structures, glowing neon frequency peaks, dark minimalist background, cinematic lighting, hyper-realistic particles, 8k resolution, ethereal synthwave aesthetic, blue and magenta color grading.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-02-28T00:34:46.411+09:00"
+}

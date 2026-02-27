@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 조각",
+    "en": "Spectral Shards"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛을 매혹적으로 탐구하며 무지개와 기하학적 굴절의 춤을 만들어냅니다.",
+    "en": "A mesmerizing exploration of light passing through glass prisms, creating a dance of rainbows and geometric refraction."
+  },
+  "prompt": "High-resolution macro photography of light refraction through a triangular glass prism, vibrant rainbow spectrum, chromatic aberration, geometric glass edges, soft bokeh background, ethereal lighting, 8k resolution, cinematic composition.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-02-28T00:35:29.415+09:00"
+}

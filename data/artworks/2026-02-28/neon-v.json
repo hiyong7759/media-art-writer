@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 제9구역",
+    "en": "Neon Pulse: District 9"
+  },
+  "description": {
+    "ko": "인공 조명의 잔상이 결코 사라지지 않는 첨단 도시의 풍경을 탐험해 보세요. 고도의 기술력이 도시 거리의 거친 이면을 감싸고 있습니다.",
+    "en": "Explore a high-tech urban landscape where the glow of artificial lights never fades and advanced technology masks the grit of the city streets."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk megacity at night, rain-slicked asphalt streets reflecting vibrant neon signs in cyan and magenta, futuristic flying vehicles weaving between towering skyscrapers, dense fog at the ground level, highly detailed cybernetic architecture, hyper-realistic 8k, volumetric lighting, moody atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-02-28T00:34:22.198+09:00"
+}

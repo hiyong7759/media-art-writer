@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 원소의 질감",
+    "en": "TERRA-1: Elemental Textures"
+  },
+  "description": {
+    "ko": "행성의 원초적이고 거친 질감을 가로지르는 몰입형 시각적 여정으로, 천상의 관점에서 본 침식과 성장 사이의 섬세한 균형을 강조합니다.",
+    "en": "An immersive visual journey across the raw and rugged textures of the planet, highlighting the delicate balance between erosion and growth as seen from a celestial perspective."
+  },
+  "prompt": "Cinematic overhead macro shot of Earth's diverse terrains, transitioning from cracked salt flats to deep emerald rainforest canopies and jagged volcanic basalt, TERRA-1 satellite style, hyper-realistic textures, intricate geological patterns, flowing tectonic aesthetic, 8k resolution, natural lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-02-28T00:35:08.243+09:00"
+}

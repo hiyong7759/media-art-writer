@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 특이점",
+    "en": "VOID-3: Abyssal Singularity"
+  },
+  "description": {
+    "ko": "중력이 빛을 굴절시키고 시간이 멈추는 미지의 심장부로 여행을 떠나보세요. VOID-3: Cosmic Deep은 우주에서 가장 신비로운 심연의 고요하고 압도적인 힘을 포착합니다.",
+    "en": "Journey into the heart of the unknown where gravity bends light and time stands still. VOID-3: Cosmic Deep captures the silent, overwhelming power of the universe's most mysterious depths."
+  },
+  "prompt": "Cinematic wide shot of the deep cosmic void, a central supermassive black hole with a glowing violet accretion disk, swirling dark matter tendrils, distant fading galaxies, extreme detail, gravitational lensing effects, 8k resolution, photorealistic, haunting space atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-02-28T00:34:57.485+09:00"
+}

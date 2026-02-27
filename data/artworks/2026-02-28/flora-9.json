@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: Digital Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 생명체와 디지털 구조 사이의 경계를 탐구합니다. 이 작품은 자연이 생물학적 형태와 수정 같은 데이터의 첨단 합성체로 진화하여, 내부의 빛과 사이버네틱 에너지로 진동하는 세상을 묘사합니다.",
+    "en": "FLORA-9 explores the boundary between organic life and digital constructs. It depicts a world where nature has evolved into a high-tech synthesis of biological forms and crystalline data, vibrating with internal light and cybernetic energy."
+  },
+  "prompt": "A hyper-realistic macro shot of FLORA-9, a futuristic cybernetic flower. The petals are made of translucent frosted glass with embedded glowing fiber-optic veins that pulse with neon cyan and magenta light. The center of the flower features a floating geometric core of crystalline data shards. The stem is constructed from sleek matte-black titanium with visible micro-circuitry. The background is a dark, ethereal void filled with floating digital dust particles and soft bokeh, 8k resolution, cinematic lighting, unreal engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-02-28T00:34:34.486+09:00"
+}

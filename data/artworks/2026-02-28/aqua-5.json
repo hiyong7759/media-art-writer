@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-28",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척지",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "AQUA-5 기지가 압도적인 어둠을 밝히는 미드나이트 존의 심장부로 여정을 떠나보세요. 이 영상은 첨단 기술과 심해의 신비로운 발광 생명체들 사이의 조화를 탐구합니다.",
+    "en": "Journey into the heart of the midnight zone where the AQUA-5 station illuminates the crushing darkness. This visual explores the harmony between advanced technology and the mysterious, glowing organisms of the deep sea."
+  },
+  "prompt": "Cinematic wide shot of the futuristic AQUA-5 underwater research station situated in the deep ocean abyss, surrounding by bioluminescent flora and glowing neon marine life, dark navy and electric blue lighting, high pressure atmosphere, hyper-realistic textures, 8k resolution, volumetric lighting, ethereal bubbles.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-02-28T00:35:19.307+09:00"
+}
