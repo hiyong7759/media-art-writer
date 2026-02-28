@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 알고리즘의 개화",
+    "en": "FLORA-9: The Algorithmic Blossom"
+  },
+  "description": {
+    "ko": "FLORA-9는 생물학적 진화와 합성 지능의 합성을 나타내며, DNA가 빛나는 코드로, 탄소가 수정 같은 데이터 구조로 대체된 식물 표본을 보여줍니다.",
+    "en": "FLORA-9 represents the synthesis of biological evolution and synthetic intelligence, showcasing a botanical specimen where DNA has been replaced by luminous code and carbon by crystalline data structures."
+  },
+  "prompt": "A hyper-realistic macro photograph of a bioluminescent cyber-flower, petals made of translucent liquid glass with integrated glowing microchips and gold circuitry, fiber-optic pollen strands emitting a soft blue aura, surrounded by floating holographic particles and geometric fractals, dark futuristic forest background, cinematic lighting, 8k resolution, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-01T00:17:11.129+09:00"
+}

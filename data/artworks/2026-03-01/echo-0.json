@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 사운드 시각화",
+    "en": "ECHO-0: Sound Visualization"
+  },
+  "description": {
+    "ko": "에코-0는 청각과 시각의 경계를 탐구합니다. 보이지 않는 음파를 역동적이고 건축적인 빛의 풍경으로 변환하여, 관찰자가 3차원 공간에서 디지털 오디오의 리듬감 있는 맥동을 직접 목격할 수 있게 합니다.",
+    "en": "ECHO-0 explores the boundary between the auditory and the visual. It transforms invisible sound waves into dynamic, architectural landscapes of light, allowing viewers to witness the rhythmic pulse of digital audio in a three-dimensional space."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0 sound visualization, abstract fluid waves of light reacting to audio frequencies, iridescent neon pulses, intricate geometric particles suspended in a void, futuristic data aesthetics, high-speed photography style, vibrant indigo and electric cyan lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-01T00:17:21.921+09:00"
+}

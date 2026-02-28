@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지질학적 맥락",
+    "en": "TERRA-1: Geological Veins"
+  },
+  "description": {
+    "ko": "지구의 자연스러운 질감에 대한 고해상도 매크로 탐사로, 복잡한 광물 맥락, 침식된 사암 패턴, 그리고 지질학적 형성의 가공되지 않은 유기적 복잡성을 특징으로 합니다.",
+    "en": "A high-resolution macro exploration of Earth's natural textures, featuring intricate mineral veins, eroded sandstone patterns, and the raw organic complexity of geological formations."
+  },
+  "prompt": "Hyper-realistic macro photography of earth texture, intricate mineral veins, cracked desert clay, swirling sandstone layers, geological strata, 8k resolution, cinematic lighting, earthy tones, highly detailed organic patterns, topographic relief.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-01T00:17:43.417+09:00"
+}

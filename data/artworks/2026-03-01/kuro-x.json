@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "공허의 산산조각 난 모놀리스",
+    "en": "Shattered Monolith of the Void"
+  },
+  "description": {
+    "ko": "기하학적 혼돈에 대한 미니멀하면서도 공격적인 탐구로, 완벽한 고체가 데이터 파편의 디지털 폭풍으로 부서지는 모습입니다.",
+    "en": "A minimalist yet aggressive study of geometric chaos, where a perfect solid fractures into a digital storm of data shards."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian sphere suspended in a sterile #FFFFFF digital void, caught in the middle of a violent geometric deconstruction. The surface is fracturing into a recursive explosion of sharp #808080 shards and #C0C0C0 pixel-sorted glitches. High-contrast cinematic lighting reveals razor-sharp raytraced reflections on fragmented glass-like surfaces. The composition features heavy digital noise, scanlines, and intense chromatic aberration to emphasize chaos within order. 8k resolution, Unreal Engine 5 aesthetic, precise vector shards.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-01T00:16:54.283+09:00"
+}

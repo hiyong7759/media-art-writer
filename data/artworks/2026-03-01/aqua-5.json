@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 광채: AQUA-5",
+    "en": "Abyssal Luminescence: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5는 심해의 미답의 영역으로 내려가 생물 발광 생명체들의 몽환적인 아름다움과 미드나이트 존의 정적이고 장엄한 풍경을 포착합니다.",
+    "en": "AQUA-5 dives into the uncharted territory of the deep ocean, capturing the haunting beauty of bioluminescent life forms and the silent majesty of the midnight zone."
+  },
+  "prompt": "Ultra-realistic cinematic shot of the deep ocean floor at midnight, bioluminescent flora and fauna glowing in neon cyan and deep violet, high-pressure hydrothermal vents, crystalline formations, drifting organic particles, 8k resolution, ethereal lighting, mysterious and serene atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-01T00:17:53.889+09:00"
+}

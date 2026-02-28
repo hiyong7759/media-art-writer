@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "인디고 비와 홀로그램 잉어",
+    "en": "Indigo Rain and Holographic Koi"
+  },
+  "description": {
+    "ko": "빛과 물이 테크 누아르의 꿈결 같은 풍경으로 합쳐지는 미래 도시 중심부의 낭만적인 비전입니다.",
+    "en": "A romanticized vision of a futuristic urban core where light and water merge into a tech-noir dreamscape."
+  },
+  "prompt": "A cinematic low-angle shot of a rain-drenched cyberpunk alleyway in NEON-V. Towering metallic skyscrapers are adorned with massive 3D holograms of bioluminescent koi fish in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant, distorted reflections on the #1A0033 indigo wet asphalt. Flying vehicles leave sharp #FF6B35 orange light trails across the foggy urban canyon. Volumetric fog, ray-traced reflections, and hyper-detailed tech-noir textures. 8k resolution, moody and romantic futuristic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-01T00:17:00.360+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 흐름의 호흡하는 박동",
+    "en": "Respiratory Pulse of the Emerald Flow"
+  },
+  "description": {
+    "ko": "고요한 호흡 상태에 있는 살아있는 유기체로, 생물학적 질감과 액체 빛이 조화롭게 어우러진 모습입니다.",
+    "en": "A living, breathing organic entity captured in a state of tranquil respiration, blending biological textures with liquid light."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, representing the theme of Organic Flow. A complex, breathing respiratory structure formed from interwoven #7FB069 emerald moss and #2D5A3D vascular vines suspended in a weightless #E6F2E1 pearlescent mist. The entity rhythmically exhales #FFE66D golden bioluminescent spores that move like liquid silk. Macro focus on translucent organic membranes, showcasing hyper-realistic fluid dynamics and undulating movement. 8k resolution, rendered in Octane with volumetric light shafts and soft bokeh, capturing a divine and serene natural atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-01T00:16:49.163+09:00"
+}

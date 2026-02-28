@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-01",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "빛과 물질이 우주의 깊은 정적 속으로 사라지는 우주 끝자락에 대한 탐구입니다.",
+    "en": "An exploration into the furthest reaches of the universe where light and matter dissolve into the eternal silence of the cosmic deep."
+  },
+  "prompt": "A hyper-realistic cinematic shot of a massive black hole at the center of a dark nebula, shimmering iridescent event horizon, swirling cosmic dust, deep indigo and obsidian color palette, volumetric lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-01T00:17:31.284+09:00"
+}
