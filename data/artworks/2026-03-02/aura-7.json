@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 보이드의 호흡하는 박동",
+    "en": "Respiratory Pulse of the Emerald Void"
+  },
+  "description": {
+    "ko": "식물적 생명과 천상의 에너지 사이의 간극을 메우는 살아있는 유기체의 생물학적 메커니즘을 심층적으로 탐구합니다.",
+    "en": "A deep-dive into the biological mechanics of AURA-7, showcasing a living organ that bridges the gap between plant life and celestial energy."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, depicting a complex respiratory lung-like organism woven from translucent #7FB069 emerald moss and deep #2D5A3D vascular vines. The entity floats in a silent, pitch-black liquid void, rhythmically inhaling #E6F2E1 bioluminescent spores that shimmer like microscopic stars. Pulsating #FFE66D liquid sap flows through internal capillary networks, creating a warm, living internal glow beneath a membrane of liquid silk. 8k resolution, rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-02T00:18:30.603+09:00"
+}

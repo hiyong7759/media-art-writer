@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "파편화된 모노리스의 해체",
+    "en": "Fragmented Monolith Deconstruction"
+  },
+  "description": {
+    "ko": "완벽한 질서가 아름답고 파편화된 혼돈으로 붕괴하는 전이의 순간을 KURO-X의 철학으로 시각화했습니다.",
+    "en": "A visual representation of KURO-X's philosophy: the moment of transition where perfect order collapses into beautiful, fragmented chaos."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith undergoing a violent geometric deconstruction in a sterile #FFFFFF digital vacuum. Sharp, recursive #808080 and #C0C0C0 polygonal shards are frozen in mid-explosion, creating a chaotic storm of data corruption. Intense digital glitch artifacts, scanlines, and heavy chromatic aberration cut through the composition. High-contrast cinematic lighting reveals razor-sharp raytraced reflections on fragmented glass-like surfaces. 8k resolution, Unreal Engine 5 aesthetic, precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-02T00:18:36.094+09:00"
+}

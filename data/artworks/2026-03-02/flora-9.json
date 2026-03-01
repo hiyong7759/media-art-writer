@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 생태계",
+    "en": "FLORA-9: The Digital Ecosystem"
+  },
+  "description": {
+    "ko": "플로라-9은 유기적 생명과 디지털 코드 사이의 경계가 모호해진 미래 지향적인 비전을 나타냅니다. 이 작품은 식물학과 사이버네틱스가 공존하며 데이터 중심의 식물들이 살아있는 네트워크를 형성하는 세계를 보여줍니다.",
+    "en": "FLORA-9 represents a futuristic vision where the boundary between organic life and digital code is blurred. This installation showcases a world where botany and cybernetics coexist, creating a living network of data-driven flora."
+  },
+  "prompt": "A cinematic, hyper-realistic depiction of FLORA-9, a digital nature sanctuary. The scene features translucent, bio-luminescent flowers with glowing fiber-optic veins, holographic leaves shimmering with scrolling binary data, and crystalline trees that pulse with a soft cyan light. Interconnected neon roots spread across a metallic soil surface, while floating data particles mimic pollen in the air. High-definition, surreal atmosphere, synth-wave aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-02T00:18:58.969+09:00"
+}

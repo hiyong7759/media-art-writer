@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "명료함의 스펙트럼: PRISM-2 굴절",
+    "en": "Spectrum of Clarity: The PRISM-2 Refraction"
+  },
+  "description": {
+    "ko": "고정밀 PRISM-2 유리를 통과하는 순수한 백색광이 미니멀한 배경 위에서 생생하고 다층적인 무지개 스펙트럼으로 분산되는 매혹적인 시각화입니다.",
+    "en": "A mesmerizing visualization of pure white light passing through a high-precision PRISM-2 glass, dispersing into a vibrant, multi-layered rainbow spectrum against a minimalist background."
+  },
+  "prompt": "A high-precision triangular glass prism labeled PRISM-2, positioned on a sleek dark surface, a single beam of intense white light hitting the surface and refracting into a brilliant, wide rainbow spectrum, chromatic aberration, sharp focus, cinematic lighting, 8k resolution, minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-02T00:19:57.876+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 원초적 지각",
+    "en": "TERRA-1: Primal Crust"
+  },
+  "description": {
+    "ko": "지구의 거친 표면을 고해상도로 탐구하며, 메마른 토양과 고대 광물 퇴적물의 복잡한 유기적 질감을 정교한 디테일로 포착합니다.",
+    "en": "A high-definition exploration of the Earth's raw surface, capturing the complex organic textures of parched soil and ancient mineral deposits in exquisite detail."
+  },
+  "prompt": "Top-down satellite view of hyper-realistic earth texture, intricate patterns of cracked dry clay mixed with rich volcanic soil and crystalline mineral veins, macro photography of geological layers, earthy tones of burnt sienna, deep ochre, and charcoal grey, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-02T00:19:35.360+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심연의 개척지",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "바다의 미드나이트 존으로 내려가는 매혹적인 여정으로, 심해의 거대한 압력 속에서도 생물 발광 생명체가 번성하는 숨겨진 생태계를 보여줍니다.",
+    "en": "A mesmerizing descent into the midnight zone of the ocean, revealing a hidden ecosystem where bioluminescent life thrives in the crushing pressure of the deep."
+  },
+  "prompt": "Cinematic wide-angle shot of the deep ocean abyss, bioluminescent flora and fauna glowing in neon blues and purples, hydrothermal vents casting golden light, high-tech research submersible in the distance, photorealistic, 8k, volumetric lighting, particles of sea snow.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-02T00:19:48.729+09:00"
+}

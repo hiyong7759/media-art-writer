@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 건축",
+    "en": "ECHO-0: Sonic Architecture"
+  },
+  "description": {
+    "ko": "소리의 기하학을 탐구하는 시각적 여정으로, 보이지 않는 주파수를 역동적이고 흐르는 구조와 리드미컬한 빛의 패턴으로 구현하여 청각과 시각적 지각 사이의 간극을 메웁니다.",
+    "en": "A visual journey into the geometry of sound, where invisible frequencies manifest as dynamic, flowing structures and rhythmic light patterns, bridging the gap between auditory and visual perception."
+  },
+  "prompt": "Cinematic abstract sound visualization, 3D fluid waveforms oscillating in a dark void, pulsating concentric circles of light, neon cyan and deep magenta gradients, kinetic particle systems reacting to bass frequencies, high-speed motion blur, futuristic digital interface aesthetic, 8k resolution, hyper-realistic lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-02T00:19:10.757+09:00"
+}

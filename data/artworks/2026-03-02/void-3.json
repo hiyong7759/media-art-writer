@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코즈믹 딥 (우주의 심연)",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "심우주의 깊은 공허 속으로 빠져보세요. VOID-3는 절대적인 어둠 속을 표류하는 천체들의 고요한 웅장함을 탐구하며, 우주의 경이로움과 실존적 고립이 교차하는 지점을 포착합니다.",
+    "en": "Dive into the profound emptiness of the deep universe. VOID-3 explores the silent grandeur of celestial bodies drifting through the absolute dark, capturing the intersection of cosmic wonder and existential isolation."
+  },
+  "prompt": "Cinematic shot of a massive black hole at the center of a dying galaxy, swirling cosmic dust in deep violet and indigo, ethereal light particles, hyper-realistic, 8k resolution, minimalist VOID-3 interface elements, digital glitch aesthetic, infinite event horizon, profound sense of scale and isolation, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-02T00:19:23.881+09:00"
+}

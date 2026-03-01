@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-02",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 확장",
+    "en": "Neon Pulse: The Eternal Sprawl"
+  },
+  "description": {
+    "ko": "첨단 기술과 도시의 쇠락이 네온사인과 디지털 광고의 끊임없는 불빛 아래 공존하는 미래 대도시의 숨막히는 전경입니다.",
+    "en": "A breathtaking look into a futuristic metropolis where advanced technology and urban decay coexist under the constant glow of neon lights and digital advertisements."
+  },
+  "prompt": "A hyper-detailed cyberpunk cityscape at night, towering skyscrapers with massive holographic advertisements, rain-slicked streets reflecting neon signs in electric blue and magenta, flying vehicles weaving through dense urban canyons, cinematic lighting, synthwave aesthetic, 8k resolution, volumetric fog, futuristic architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-02T00:18:47.290+09:00"
+}
