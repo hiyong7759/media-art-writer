@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 블룸",
+    "en": "FLORA-9: Digital Bloom"
+  },
+  "description": {
+    "ko": "플로라-9은 디지털 자연의 정점을 상징합니다. 식물 본연의 아름다움과 고속 데이터 구조가 결합된 합성 유기체로, 가상 황야의 중심에서 피어납니다.",
+    "en": "FLORA-9 represents the pinnacle of digital nature, a synthetic organism where botanical beauty meets high-speed data architecture, blooming in the heart of the virtual wilderness."
+  },
+  "prompt": "Hyper-realistic close-up of FLORA-9, a futuristic cybernetic flower with translucent glass-like petals containing glowing neon fiber-optic veins, floating in a void of digital particles and liquid data, bioluminescent pollen suspended in mid-air, soft blue and violet ambient lighting, 8k resolution, cinematic composition, techno-organic aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-03T00:37:08.106+09:00"
+}

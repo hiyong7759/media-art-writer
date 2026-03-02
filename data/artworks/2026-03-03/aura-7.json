@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "생명의 유동성에 대한 시각적 명상으로, 생물학적 구조와 리드미컬한 움직임 사이의 완벽한 조화를 포착합니다. 부드러운 그라데이션과 맥동하는 빛을 통해 자연의 보이지 않는 패턴의 섬세한 균형을 탐구합니다.",
+    "en": "A visual meditation on the fluidity of life, capturing the seamless transition between biological structures and rhythmic motion. This piece explores the delicate balance of nature's unseen patterns through soft gradients and pulsating light."
+  },
+  "prompt": "Cinematic abstract 3D render of organic fluid forms, soft iridescent silk textures intertwining with liquid bioluminescent veins, flowing curves resembling cellular growth and natural wind patterns, a harmonious palette of deep emerald, soft violet, and shimmering gold, macro photography style, ethereal lighting, high-resolution 8k, hyper-detailed",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-03T00:36:32.167+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 도시의 고동",
+    "en": "NEON-V: Urban Pulse"
+  },
+  "description": {
+    "ko": "첨단 기술과 거리의 거친 매력이 공존하는 거대 미래 도시로 초대합니다. 영원히 꺼지지 않는 네온 사인의 빛이 가득한 풍경을 경험해 보세요.",
+    "en": "Step into a sprawling futuristic megalopolis where high-tech innovation meets the gritty streets of the underground, illuminated by the eternal glow of neon lights."
+  },
+  "prompt": "A hyper-realistic cyberpunk cityscape at night, rain-slicked asphalt streets reflecting vibrant neon signs in electric blue and hot pink, towering skyscrapers with massive holographic advertisements, flying transit vehicles weaving between buildings, dense urban atmosphere, high contrast, cinematic lighting, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-03T00:36:55.771+09:00"
+}

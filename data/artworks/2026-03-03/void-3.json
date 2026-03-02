@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심해의 우주",
+    "en": "VOID-3: The Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛조차 심연의 영원한 중력에 삼켜지는 우주 가장 먼 곳의 고요하고도 경이로운 아름다움을 탐험합니다.",
+    "en": "A journey into the silent, terrifying beauty of the universe's furthest reaches, where light is consumed by the eternal gravity of the abyss."
+  },
+  "prompt": "Hyper-realistic cinematic shot of a vast cosmic abyss, swirling dark matter nebulae in obsidian and deep violet hues, glowing ethereal particles drifting into a central gravitational singularity, infinite depth, stars flickering in the far distance, ultra-detailed 8k resolution, cosmic horror aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-03T00:37:29.074+09:00"
+}

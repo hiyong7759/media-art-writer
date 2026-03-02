@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원초적 대지의 질감",
+    "en": "TERRA-1: Primal Earthen Textures"
+  },
+  "description": {
+    "ko": "테라-1은 지구 표면의 거칠고 복잡한 질감을 탐구합니다. 건조한 사막의 갈라진 패턴부터 퇴적암의 유려한 곡선에 이르기까지, 이 컬렉션은 우리 행성의 지질학적 진화가 담긴 촉각적 본질을 포착합니다.",
+    "en": "TERRA-1 explores the raw and intricate textures of the Earth's surface. From the cracked patterns of arid deserts to the fluid curves of sedimentary rock, this collection captures the tactile essence of our planet's geological evolution."
+  },
+  "prompt": "High-resolution satellite view of Earth's crust, focusing on intricate geological textures, dried riverbeds, cracked desert clay, swirling sedimentary layers, natural earthy tones, hyper-realistic, 8k resolution, cinematic lighting, macro details of soil and rock formations.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-03T00:37:40.833+09:00"
+}

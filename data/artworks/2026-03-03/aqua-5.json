@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐험가",
+    "en": "AQUA-5: The Deep Abyss Explorer"
+  },
+  "description": {
+    "ko": "극한의 수압을 견디고 해저의 고요한 아름다움을 포착하도록 설계된 최첨단 잠수정 AQUA-5와 함께 가장 깊은 해구의 알려지지 않은 비밀을 발견해 보세요.",
+    "en": "Discover the unknown secrets of the deepest trenches with AQUA-5, a state-of-the-art submersible designed to withstand extreme pressure and capture the silent beauty of the ocean floor."
+  },
+  "prompt": "A cinematic high-tech underwater vessel named AQUA-5, sleek metallic design with bioluminescent cyan accents, navigating the dark midnight zone of the deep ocean, surrounded by glowing jellyfish and hydrothermal vents, hyper-realistic, 8k resolution, atmospheric lighting, bubbles and particles floating in the deep sea abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-03T00:37:51.764+09:00"
+}

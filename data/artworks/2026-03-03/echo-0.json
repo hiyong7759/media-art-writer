@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "ECHO-0는 음파를 복잡한 기하학적 패턴과 빛의 펄스로 변환하는 첨단 시청각 설치물입니다. 실시간 모션 그래픽을 통해 보이지 않는 음향 데이터의 물리적 구현을 탐구합니다.",
+    "en": "ECHO-0 is an advanced audio-visual installation that translates sound waves into complex geometric patterns and light pulses. It explores the physical manifestation of invisible acoustic data through real-time motion graphics."
+  },
+  "prompt": "Cinematic 8k rendering of ECHO-0, a futuristic sound visualization sculpture, vibrating holographic wave patterns, glowing neon light particles reacting to bass frequencies, sleek metallic structure, dark ambient studio lighting, volumetric lighting, abstract data art, cybernetic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-03T00:37:19.324+09:00"
+}

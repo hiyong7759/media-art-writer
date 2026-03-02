@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-03",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 분산",
+    "en": "Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "기하학적 유리 프리즘을 통해 빛이 근본적인 스펙트럼 요소로 분해되는 과정을 시각적으로 탐구하며, 명확함과 변화를 상징합니다.",
+    "en": "A visual exploration of light being broken down into its fundamental spectral components through a geometric glass prism, symbolizing clarity and transformation."
+  },
+  "prompt": "A macro photograph of a sharp-edged crystal prism resting on a sleek, matte black surface. A singular, intense beam of white light enters from the left, refracting through the glass to cast a vivid, ultra-defined rainbow spectrum across the scene. Ethereal light leaks, chromatic aberration, 8k resolution, cinematic lighting, sharp focus, minimalist composition.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-03T00:38:03.358+09:00"
+}
