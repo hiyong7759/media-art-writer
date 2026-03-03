@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 우주",
+    "en": "VOID-3: The Abyssal Deep"
+  },
+  "description": {
+    "ko": "우주의 가장 먼 곳, 빛조차 심연의 무게에 짓눌려 사라지는 곳을 탐험합니다. VOID-3는 무한한 진공이 지닌 고요한 장엄함과 공포스러운 규모를 담아냅니다.",
+    "en": "An exploration of the farthest reaches of the universe, where light is consumed by the crushing weight of the cosmic deep. VOID-3 captures the silent majesty and terrifying scale of the infinite vacuum."
+  },
+  "prompt": "Cinematic wide shot of a colossal, iridescent crystalline monolith floating in the center of a swirling dark nebula. Deep indigo and midnight blue color palette with bioluminescent light trails. Shards of ancient celestial matter drifting in the absolute vacuum. High-fidelity textures, ethereal atmosphere, 8k resolution, photorealistic cosmic horror aesthetics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-04T00:43:41.000+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 공명: ECHO-0",
+    "en": "Sonic Resonances: ECHO-0"
+  },
+  "description": {
+    "ko": "복잡한 음향 주파수를 빛과 기하학적 형상의 매혹적인 춤으로 번역하여 소리의 보이지 않는 구조를 탐구하는 몰입형 디지털 여정입니다.",
+    "en": "A captivating digital journey that translates complex acoustic frequencies into a mesmerizing dance of light and geometry, exploring the invisible architecture of sound."
+  },
+  "prompt": "Abstract 3D sound visualization of ECHO-0, rhythmic pulse waves, glowing neon particles, fluid harmonic oscillations, deep midnight blue and iridescent violet color palette, cinematic lighting, ultra-detailed digital art style, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-04T00:43:25.668+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyssal Sentinel"
+  },
+  "description": {
+    "ko": "AQUA-5는 바다에서 가장 깊은 해구의 극한 압력을 견디도록 설계된 최첨단 심해 탐사선입니다. 고성능 생체 발광 내비게이션 시스템을 통해 햇빛이 전혀 닿지 않는 미지의 심해를 정밀하게 탐사합니다.",
+    "en": "The AQUA-5 is a high-tech deep-sea probe engineered for the extreme pressures of the ocean's deepest trenches. Its advanced bioluminescent navigation system allows it to map the uncharted abyss where sunlight never reaches."
+  },
+  "prompt": "A futuristic deep-sea exploration submersible labeled AQUA-5, navigating the dark midnight zone of the ocean. The vessel features glowing cyan LED accents and bioluminescent exterior sensors. It is surrounded by glowing jellyfish and jagged underwater thermal vents. The atmosphere is mysterious and high-tech, with cinematic lighting and a deep indigo color palette, 8k resolution, photorealistic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-04T00:44:08.547+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "지표면을 덮고 있는 복잡하고 유기적인 패턴을 시각적으로 탐구하며, 건조한 대지와 유동적인 해수 사이의 대비를 강조하는 작품입니다.",
+    "en": "A comprehensive visual study of the intricate and organic patterns covering the Earth's surface, highlighting the contrast between arid lands and fluid waters."
+  },
+  "prompt": "Macro photography of diverse Earth textures, split screen showing cracked desert mud, swirling deep blue ocean currents, lush green rainforest canopy from above, and jagged volcanic rock, cinematic lighting, ultra-detailed geological patterns, 8k resolution, photorealistic, natural earth tones.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-04T00:43:54.909+09:00"
+}

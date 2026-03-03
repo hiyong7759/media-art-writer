@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "반음계 분산",
+    "en": "Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 백색광이 화려한 무지개 스펙트럼으로 분해되며 복잡한 가성(caustic) 패턴을 만들어내는 경이로운 시각적 표현입니다.",
+    "en": "A stunning visual representation of white light passing through a glass prism, breaking into a vibrant rainbow spectrum with intricate caustic patterns."
+  },
+  "prompt": "PRISM-2 style, close-up of a triangular crystal prism on a minimalist white surface, a single beam of intense white light entering, refracted into a wide, vivid rainbow spectrum on the background, hyper-realistic, 8k resolution, soft shadows, caustic light effects, cinematic lighting, sharp focus, ray tracing.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-04T00:44:19.778+09:00"
+}

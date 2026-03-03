@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "유기적 식물학과 첨단 기술 사이의 공생 관계를 탐구하며, 가상 생태계 내에서 데이터와 빛으로 고동치는 식물의 모습을 보여줍니다.",
+    "en": "An exploration of the symbiotic relationship between organic botany and advanced technology, where flora pulsates with data and light within a virtual ecosystem."
+  },
+  "prompt": "A macro cinematic shot of FLORA-9, a futuristic digital plant with translucent crystalline petals and glowing fiber-optic veins. Soft pulses of neon cyan and ultraviolet light flow through the stems. The background is a fusion of organic moss and floating data fragments. Hyper-realistic, 8k resolution, volumetric lighting, digital nature aesthetic, intricate circuit patterns on leaves.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-04T00:43:12.770+09:00"
+}

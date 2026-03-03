@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-04",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 박동: AURA-7의 유기적 흐름",
+    "en": "Ethereal Pulse: The Organic Flow of AURA-7"
+  },
+  "description": {
+    "ko": "AURA-7은 디지털 본질이 자연의 리드미컬한 패턴과 융합되어 끊임없이 변화하는 상태로 나타납니다. 부드럽고 유동적인 선과 생체 발광 그라데이션이 숨 쉬는 빛과 영원한 움직임의 감각을 만들어냅니다.",
+    "en": "AURA-7 manifests in a state of continuous transformation, where digital essence merges with the rhythmic patterns of nature. Soft, fluid lines and bioluminescent gradients create a sense of breathing light and perpetual motion."
+  },
+  "prompt": "AURA-7 entity embodied in fluid organic shapes, flowing liquid silk textures, iridescent bioluminescence, soft curves inspired by cellular structures and deep-sea life, ethereal lighting, smooth gradients, macro photography style, dreamlike atmosphere, abstract nature, hyper-realistic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-04T00:42:28.051+09:00"
+}
