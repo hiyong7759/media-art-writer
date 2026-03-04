@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "이끼 공허의 호흡 리듬",
+    "en": "Respiratory Rhythm of the Moss Void"
+  },
+  "description": {
+    "ko": "생명을 불어넣는 이끼와 혈관 망이 고요하고 진주빛이 감도는 심연 속에서 빛을 내뿜는 유기적 호흡에 대한 영적 탐구입니다.",
+    "en": "A spiritual exploration of organic respiration, where life-giving moss and vascular networks breathe light into a silent pearlescent abyss."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, representing the 'Organic Flow' theme. A pulsating, translucent respiratory lung structure woven from #7FB069 emerald moss and #2D5A3D vascular vines, floating in a weightless #E6F2E1 pearlescent haze. It rhythmically exhales #FFE66D golden bioluminescent spores that swirl like liquid silk. Macro focus on the semi-permeable membranes, high-speed fluid dynamics, Octane render, 8k, divine natural atmosphere.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-05T00:34:15.137+09:00"
+}

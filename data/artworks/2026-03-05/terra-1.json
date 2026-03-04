@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "지구의 피부에 대한 시각적 연구인 '테라-1'은 고공에서 바라본 지질학적 형성과 생태계의 원시적이고 촉각적인 아름다움을 포착하며, 우리 행성의 자연적인 기하학적 구조를 강조합니다.",
+    "en": "A visual study of the Earth's skin, TERRA-1 captures the raw, tactile beauty of geological formations and ecosystems from a high-altitude perspective, emphasizing the natural geometry of our planet."
+  },
+  "prompt": "Hyper-realistic satellite imagery focusing on the diverse textures of Earth's surface, featuring cracked clay of the Sahara, the intricate fractal patterns of the Amazon river delta, jagged snow-capped Himalayan peaks, and the swirling turquoise patterns of Great Barrier Reef shallow waters, cinematic lighting, 8k resolution, macro-geological details, high contrast.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-05T00:35:27.069+09:00"
+}

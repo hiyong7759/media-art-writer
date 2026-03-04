@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해 탐사선",
+    "en": "AQUA-5: Abyssal Explorer"
+  },
+  "description": {
+    "ko": "초고압을 견디도록 설계된 최첨단 잠수정으로, 생물 발광 센서와 강화 티타늄 외장을 갖추고 초심해대의 신비로운 심연을 탐사합니다.",
+    "en": "A high-tech submersible designed to withstand extreme pressure while navigating the mysterious depths of the Hadal zone, featuring bioluminescent sensors and reinforced titanium plating."
+  },
+  "prompt": "A futuristic deep-sea submersible named AQUA-5 navigating a dark ocean trench, bioluminescent flora and fauna glowing in the background, high-tech sensors emitting soft blue light, reinforced titanium hull, underwater particles, volumetric lighting, epic scale, 8k resolution, cinematic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-05T00:35:40.150+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 네온 라이좀",
+    "en": "FLORA-9: Neon Rhizome"
+  },
+  "description": {
+    "ko": "유기적 식물학과 디지털 건축의 숨막히는 합성으로, 내부 데이터 스트림과 함께 빛나는 맥동하는 광섬유 수술과 반투명한 크리스털 잎을 가진 꽃들이 특징입니다.",
+    "en": "A breathtaking synthesis of organic botany and digital architecture, featuring flowers with pulsing fiber-optic stamens and translucent crystalline leaves that glow with internal data streams."
+  },
+  "prompt": "A high-tech digital botanical garden, bioluminescent flowers with integrated circuit board patterns on petals, glowing fiber-optic vines, holographic pollen particles, deep velvet blue and neon cyan lighting, 8k resolution, photorealistic, surreal fusion of nature and technology.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-05T00:34:52.519+09:00"
+}

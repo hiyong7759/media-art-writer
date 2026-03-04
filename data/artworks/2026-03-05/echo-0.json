@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공감각적 파동",
+    "en": "ECHO-0: Synesthetic Waves"
+  },
+  "description": {
+    "ko": "복잡한 오디오 주파수를 빛과 디지털 입자의 매혹적인 춤으로 번역하는 고정밀 사운드 시각화 프로젝트, ECHO-0를 통해 보이지 않는 소리를 경험해 보세요.",
+    "en": "Experience the invisible through ECHO-0, a high-fidelity sound visualization project that translates complex auditory frequencies into a mesmerizing dance of light and digital particles."
+  },
+  "prompt": "Cinematic 3D sound visualization of ECHO-0, holographic frequency waves interacting with architectural geometry, glowing neon cyan and deep violet particles, fluid motion graphics, futuristic data aesthetic, 8k resolution, photorealistic lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-05T00:35:03.780+09:00"
+}

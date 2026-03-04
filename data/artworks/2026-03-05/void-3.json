@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-05",
+  "artistId": "void-3",
+  "title": {
+    "ko": "영원한 침묵: VOID-3의 심연",
+    "en": "Eternal Silence: The VOID-3 Abyss"
+  },
+  "description": {
+    "ko": "VOID-3 구역의 가장 먼 곳을 탐사하며, 시간과 빛이 우주 심연의 절대적인 밀도 속으로 삼켜지는 과정을 담았습니다. 우주에서 가장 고립된 지역이 가진 잊히지 않는 아름다움을 묘사합니다.",
+    "en": "An exploration of the farthest reaches of the VOID-3 sector, where time and light are swallowed by the absolute density of the cosmic deep. It captures the haunting beauty of the universe's most isolated regions."
+  },
+  "prompt": "VOID-3: A cinematic and hyper-realistic depiction of the cosmic deep, featuring an immense obsidian-colored nebula swirling with faint bioluminescent violet energy. In the center, a massive gravitational well bends the light of distant, ancient stars. The atmosphere is cold, silent, and infinite, with particles of cosmic dust shimmering like frozen diamonds in the dark. 8k resolution, high contrast, deep space photography style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-05T00:35:16.491+09:00"
+}
