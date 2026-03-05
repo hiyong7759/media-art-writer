@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-06",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 에테르: 스펙트럼의 변화",
+    "en": "Prism Ethereal: The Spectrum Shift"
+  },
+  "description": {
+    "ko": "투명한 크리스탈 구조를 통과하며 미니멀한 배경 위로 춤추듯 펼쳐지는 생생한 무지개 빛의 향연을 매혹적으로 탐구합니다.",
+    "en": "A mesmerizing exploration of light passing through crystalline structures, dispersing into a vibrant rainbow spectrum that dances across a minimalist backdrop."
+  },
+  "prompt": "A macro cinematic shot of a triangular glass prism on a clean white surface, a single beam of sharp white light entering from the side, refracting into a vivid, highly detailed rainbow spectrum on the other side, soft caustic patterns, 8k resolution, ray tracing, ethereal atmosphere, minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-06T00:45:54.264+09:00"
+}

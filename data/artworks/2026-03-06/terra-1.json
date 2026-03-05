@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-06",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구 테라포밍 - 지각 변동",
+    "en": "Terraforming Earth - Tectonic Shifts"
+  },
+  "description": {
+    "ko": "갈라진 사막의 토양, 이끼 낀 바위, 얼어붙은 빙하 능선 등 다양한 지구의 질감이 서로 어우러져 복잡한 행성 표면을 형성하는 고해상도 매크로 샷입니다.",
+    "en": "A high-resolution macro shot of various Earth textures, including cracked desert soil, lush mossy rocks, and frozen glacial ridges, blending together to form a complex planetary surface."
+  },
+  "prompt": "A cinematic top-down satellite view of Earth's diverse textures, showcasing a hyper-realistic transition between cracked clay, emerald green forest floor, and crystalline blue ice patterns, 8k resolution, intricate details, organic patterns, TERRA-1 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-06T00:45:31.657+09:00"
+}

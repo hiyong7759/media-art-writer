@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-06",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 블룸: 실리콘 숲",
+    "en": "Neon Bloom: The Silicon Forest"
+  },
+  "description": {
+    "ko": "유기적인 식물과 디지털 건축이 만나는 숨막히는 시각화로, 빛나는 광섬유 꽃잎과 맥동하는 데이터 스트림 뿌리를 가진 생물 발광 꽃이 특징입니다.",
+    "en": "A breathtaking visualization where organic flora meets digital architecture, featuring bioluminescent flowers with glowing fiber-optic petals and pulsating data-stream roots."
+  },
+  "prompt": "Hyper-realistic macro photography of a digital orchid, petals made of semi-transparent holographic glass, glowing circuitry patterns inside the leaves, neon cyan and magenta bioluminescence, fiber-optic stamens, dark futuristic background, 8k resolution, cinematic lighting, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-06T00:44:52.414+09:00"
+}

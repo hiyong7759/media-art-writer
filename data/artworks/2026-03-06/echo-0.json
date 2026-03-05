@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-06",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 보이지 않는 것의 시각화",
+    "en": "ECHO-0: Visualizing the Unseen"
+  },
+  "description": {
+    "ko": "ECHO-0는 음향 주파수를 역동적인 실시간 시각적 구조로 변환하여 소리와 시각 사이의 간극을 좁히는 최첨단 디지털 설치 예술 프로젝트입니다.",
+    "en": "ECHO-0 is a cutting-edge digital installation that translates acoustic frequencies into dynamic, real-time visual architectures, bridging the gap between sound and sight."
+  },
+  "prompt": "Cinematic 3D render of abstract sound waves, holographic frequency spectrum patterns morphing in a deep obsidian void, iridescent neon cyan and magenta pulses, mathematical geometric structures vibrating to rhythmic pulses, high fidelity, 8k resolution, ray-traced lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-06T00:45:04.227+09:00"
+}

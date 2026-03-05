@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-06",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 협곡의 몬순 드림",
+    "en": "Monsoon Dreams in the Neon Canyon"
+  },
+  "description": {
+    "ko": "디지털 빛과 빗줄기가 뒤엉킨 미래 도시의 낭만적이고도 우울한 묘사.",
+    "en": "A romantic yet moody depiction of a futuristic city where digital light and rain intertwine."
+  },
+  "prompt": "A vertical cinematic low-angle shot of a rainy cyberpunk alleyway in NEON-V. Towering #1A0033 skyscrapers are adorned with massive 3D holograms in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant reflections on wet asphalt, while flying vehicles leave #FF6B35 orange light trails across the foggy urban canyon. Volumetric fog, ray-traced reflections, hyper-detailed tech-noir textures, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-06T00:44:41.690+09:00"
+}
