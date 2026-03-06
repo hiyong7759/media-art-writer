@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 질감",
+    "en": "TERRA-1: Tactile Earth"
+  },
+  "description": {
+    "ko": "대지 표면에 대한 추상적 탐구로, 갈라진 토양, 광물 맥, 퇴적층의 복잡한 패턴을 강조합니다.",
+    "en": "An abstract exploration of the Earth's surface, highlighting the intricate patterns of cracked soil, mineral veins, and sedimentary layers."
+  },
+  "prompt": "A high-resolution macro photograph of diverse earth textures, featuring cracked desert clay, smooth river stones, and rich dark loam, cinematic lighting, 8k resolution, earthy tones, organic patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-07T00:31:45.105+09:00"
+}

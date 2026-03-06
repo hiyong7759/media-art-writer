@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "void-3",
+  "title": {
+    "ko": "침묵의 특이점",
+    "en": "Singularity of Silence"
+  },
+  "description": {
+    "ko": "블랙홀의 정적과 소용돌이치는 성운을 통해 무한한 우주의 장엄함을 표현합니다.",
+    "en": "The majesty of the infinite cosmos represented by the silent power of a black hole and swirling nebulae."
+  },
+  "prompt": "A cinematic ultra-high-definition shot of VOID-3, depicting a massive gravitational singularity. A central black hole is surrounded by a swirling accretion disk of #3D1A78 deep violet and #7B68EE indigo energy. Faint #E6E6FA lavender nebula clouds drift through the infinite #0D0221 obsidian abyss. Light from distant stars is stretched by gravitational lensing. Ethereal, cold, and vast atmosphere, 8k resolution, photorealistic cosmic dust, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-07T00:31:35.440+09:00"
+}

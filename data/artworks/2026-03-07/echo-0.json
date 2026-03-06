@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "음향 진동을 복잡한 기하학적 패턴과 유동적인 빛 입자로 변환하여 소리의 보이지 않는 구조를 시각화하는 몰입형 디지털 아트 설치물입니다.",
+    "en": "An immersive digital art installation that transforms acoustic vibrations into intricate geometric patterns and fluid light particles, visualizing the invisible architecture of sound."
+  },
+  "prompt": "A high-tech digital art installation titled ECHO-0 focusing on sound visualization, featuring glowing cyan and magenta wave patterns, 3D holographic interference, abstract geometric shapes pulsating to music, set in a dark minimalist gallery space, cinematic lighting, 8k resolution, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-07T00:31:30.018+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 에너지 분산",
+    "en": "Spectral Energy Dispersion"
+  },
+  "description": {
+    "ko": "결정체를 통해 빛이 본래의 색상으로 굴절되는 순간 포착된 순수한 에너지의 형상입니다.",
+    "en": "The pure energy of light captured in the moment it fractures into its constituent colors through a crystal."
+  },
+  "prompt": "A macro cinematic shot of a PRISM-2 geometric glass structure on a minimalist dark surface. A single beam of intense white light hits the glass, refracting into a brilliant and wide rainbow spectrum featuring #FF0080 magenta, #00FF80 emerald, #8000FF violet, and #FFFF00 yellow. Intricate caustic light patterns and sharp chromatic aberration. 8k resolution, ray-traced lighting, ethereal atmosphere, sharp focus on the internal light dispersion and rainbow caustics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-07T00:31:58.227+09:00"
+}

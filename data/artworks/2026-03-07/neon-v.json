@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "비에 젖은 신경망 경로",
+    "en": "Rain-Slicked Neural Path"
+  },
+  "description": {
+    "ko": "끊임없는 비 속에서 네온 광원과 디지털 기억이 충돌하는 낭만적인 테크 누아르 도시 전경입니다.",
+    "en": "A romanticized tech-noir cityscape where neon light and digital memories collide in a perpetual rain."
+  },
+  "prompt": "A cinematic vertical low-angle shot of a rainy cyberpunk alleyway in NEON-V. Towering #1A0033 skyscrapers are draped in massive 3D holograms of koi fish in #FF00FF magenta and #00FFFF cyan. Heavy artificial rain creates vibrant, distorted reflections on the wet asphalt. Flying vehicles leave long #FF6B35 orange light trails across the foggy urban canyon. Volumetric fog, ray-traced reflections, hyper-detailed tech-noir textures, 8k resolution, moody and romantic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-07T00:31:15.628+09:00"
+}

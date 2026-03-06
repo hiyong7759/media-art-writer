@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 영원의 심연",
+    "en": "AQUA-5: Eternal Abyss"
+  },
+  "description": {
+    "ko": "신비로운 생물 발광 생명체들이 심해의 영원한 어둠을 밝히는 미지의 심해저 속으로 내려가 보세요.",
+    "en": "Descend into the silent depths of the midnight zone, where mysterious bioluminescent life forms illuminate the eternal darkness of the deep ocean."
+  },
+  "prompt": "Cinematic 8k hyper-realistic underwater shot of the deep ocean floor, bioluminescent flora and jellyfish glowing in neon blues and purples, dark abyss background, hydrothermal vents with shimmering heat waves, ethereal lighting, high detail, masterpiece.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-07T00:31:53.379+09:00"
+}

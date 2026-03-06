@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모노리스의 불협화음",
+    "en": "Monolithic Dissonance"
+  },
+  "description": {
+    "ko": "질서 속의 혼돈을 표현하며, 정교한 디지털 데이터 파편의 폭풍으로 부서지는 모노리스를 보여줍니다.",
+    "en": "A representation of chaos within order, showcasing a monolith fracturing into a storm of precise digital data shards."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith by KURO-X undergoing recursive geometric deconstruction. Sharp, fractured #808080 and #C0C0C0 polygonal shards are suspended in mid-air against a stark #FFFFFF digital vacuum. Heavy digital glitch artifacts, scanlines, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp raytraced reflections on fragmented glass-like surfaces. 8k resolution, Unreal Engine 5 aesthetic, precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-07T00:31:09.235+09:00"
+}

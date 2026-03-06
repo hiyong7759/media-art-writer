@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-07",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "이진법의 식물학적 개화",
+    "en": "Binary Botanical Bloom"
+  },
+  "description": {
+    "ko": "광섬유와 빛나는 데이터 패턴으로 생물학적 생명을 초월한 미래형 꽃을 묘사합니다.",
+    "en": "A futuristic flower where biological life is transcended by fiber optics and glowing data patterns."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, a digital orchid with #89CFF0 fiber-optic petals that pulse with liquid data. The stem is constructed from #50C878 emerald circuit boards, set against a dark #4A0E4E velvet void. Glowing #FFB6C1 fractal pollen particles drift in a soft-focus bokeh effect of falling binary code. Iridescent liquid droplets cling to the leaves. 8k resolution, cinematic lighting, a perfect fusion of organic nature and advanced technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-07T00:31:21.056+09:00"
+}
