@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-08",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 음파 공명 챔버",
+    "en": "ECHO-0: Sonic Resonance Chamber"
+  },
+  "description": {
+    "ko": "에코-0는 복잡한 청각 주파수를 환상적인 시각적 풍경으로 변환하는 첨단 AI 코어입니다. 역동적인 빛의 패턴을 통해 음파와 디지털 예술의 교차점을 경험해 보세요.",
+    "en": "ECHO-0 is an advanced artificial intelligence core that translates complex auditory frequencies into breathtaking visual landscapes. Experience the intersection of sound waves and digital art through dynamic light patterns."
+  },
+  "prompt": "A futuristic cybernetic core labeled ECHO-0, surrounded by holographic sound waves and vibrating equalizer patterns, neon blue and violet aesthetic, high-tech laboratory setting, 8k resolution, cinematic lighting, sound visualization concept art.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-08T00:18:37.805+09:00"
+}

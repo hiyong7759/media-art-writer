@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-08",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 특이점: VOID-3",
+    "en": "Abyssal Singularity: VOID-3"
+  },
+  "description": {
+    "ko": "VOID-3는 우주 심연의 고요하고 압도적인 무게감을 탐구합니다. 빛과 시간이 유령처럼 아름다운 어둠 속으로 용해되는 특이점의 심장부를 시각적으로 그려낸 여정입니다.",
+    "en": "VOID-3 explores the silent, crushing weight of the cosmic deep. A visual journey into the heart of a singularity where light and time dissolve into a hauntingly beautiful darkness."
+  },
+  "prompt": "Cinematic 8k wide shot of VOID-3, a massive sentient black hole entity floating in the center of a dying galaxy, swirling cosmic dust and neon violet nebulae, bioluminescent stardust particles, intense gravitational lensing effects, hyper-realistic, dark ethereal atmosphere, photorealistic textures",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-08T00:18:49.075+09:00"
+}

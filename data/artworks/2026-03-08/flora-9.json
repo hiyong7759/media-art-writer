@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-08",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 열대우림: FLORA-9 바이오스피어",
+    "en": "Neon Rainforest: The FLORA-9 Biosphere"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 생명과 합성 기술의 접점을 탐구하며, 자연이 빛과 코드의 디지털 생태계로 진화한 세계를 묘사합니다.",
+    "en": "FLORA-9 explores the intersection of organic life and synthetic technology, depicting a world where nature has evolved into a digital ecosystem of light and code."
+  },
+  "prompt": "A hyper-realistic digital forest where trees are made of glowing fiber-optic cables and leaves are translucent holographic shards. Bioluminescent flora pulsing with data streams. Macro shot of a digital orchid with circuit board patterns on its petals. High resolution, 8k, synthwave aesthetic, cinematic lighting, ethereal atmosphere, deep blues and vibrant cyans.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-08T00:18:26.442+09:00"
+}

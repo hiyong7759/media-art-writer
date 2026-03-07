@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-08",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 탐험가",
+    "en": "AQUA-5: Abyssal Explorer"
+  },
+  "description": {
+    "ko": "침묵의 세계 속 숨겨진 비밀을 밝히기 위해 설계된 차세대 심해 탐사 장치, 아쿠아-5를 만나보세요. 심해의 강력한 수압을 견디며 미지의 영역을 선명하게 비춥니다.",
+    "en": "Experience the ultimate frontier with AQUA-5, a next-generation deep-sea exploration unit designed to withstand the crushing pressures of the abyss while illuminating the mysteries of the silent world."
+  },
+  "prompt": "A highly detailed, cinematic 8k render of the AQUA-5 submersible drone navigating the dark, abyssal zone of the deep ocean. The drone features sleek metallic surfaces with glowing neon cyan bioluminescent accents. Surrounding it are mysterious deep-sea vents, floating marine snow, and silhouettes of giant squids. The lighting is moody with high contrast, highlighting the textured pressure-resistant hull of the AQUA-5. Ultra-realistic, volumetric lighting, Ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-08T00:19:10.587+09:00"
+}
