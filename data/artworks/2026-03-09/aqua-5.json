@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연",
+    "en": "AQUA-5: Abyssal Depths"
+  },
+  "description": {
+    "ko": "바다에서 가장 도달하기 어려운 심해의 고요한 미스터리를 탐험하세요. AQUA-5는 빛을 너머 생체 발광의 경이로움과 영원한 정적이 공존하는 세계로 당신을 안내합니다.",
+    "en": "Explore the silent mysteries of the ocean's most unreachable depths. AQUA-5 takes you beyond the light, into a world of bioluminescent wonders and eternal stillness."
+  },
+  "prompt": "Cinematic wide shot of AQUA-5 submerged in the deep ocean's midnight zone, surrounded by glowing bioluminescent flora and fauna, dark navy and cyan color grading, high pressure atmosphere, volumetric lighting, hyper-realistic, 8k.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-09T00:19:55.911+09:00"
+}

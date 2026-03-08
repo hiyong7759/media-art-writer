@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 굴절과 분산",
+    "en": "Chromatic Refraction"
+  },
+  "description": {
+    "ko": "유리를 통과하는 빛의 여정을 시각적으로 탐구하며, 백색광이 프리즘을 통해 고유의 색상들로 분리되는 정교한 순간을 포착하여 투명함과 생생한 스펙트럼 색조의 조화를 보여줍니다.",
+    "en": "A visual study of light's journey through glass, capturing the precise moment white light splits into its constituent colors through a prism, creating a harmonious blend of clarity and vibrant spectral hues."
+  },
+  "prompt": "A macro cinematic shot of a high-clarity triangular crystal prism placed on a minimalist matte surface. A sharp, focused beam of white light enters the prism and disperses into a vivid, brilliant rainbow spectrum. The scene features soft chromatic aberration, elegant caustic light patterns reflecting on the background, 8k resolution, hyper-realistic glass textures, and clean laboratory-style lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-09T00:20:07.233+09:00"
+}

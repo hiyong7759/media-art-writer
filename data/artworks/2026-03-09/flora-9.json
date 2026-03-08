@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9은 생물학적 진화와 컴퓨팅 디자인이 만나는 가상의 식물 종으로, 디지털 네이처의 정점을 상징합니다. 실리콘과 토양의 교차점에 존재하며, 물 대신 빛 데이터를 먹고 자라며 인공물과 유기물 사이의 조화를 나타냅니다.",
+    "en": "FLORA-9 represents the pinnacle of digital nature, a hypothetical botanical species where biological evolution meets computational design. It exists in the intersection of silicon and soil, thriving on light data rather than water, symbolizing the harmony between the artificial and the organic."
+  },
+  "prompt": "Hyper-realistic cinematic shot of FLORA-9, a sentient digital plant with translucent crystalline petals pulsing with cyan fiber-optic veins. The core of the flower is a glowing holographic orb emitting data streams and binary particles. The background is a dark, ethereal landscape where organic roots merge with glowing circuit boards, 8k resolution, bioluminescent lighting, futuristic nature-tech fusion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-09T00:19:06.217+09:00"
+}

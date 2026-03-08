@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 촉각적 층위",
+    "en": "TERRA-1: Earth's Tactile Layers"
+  },
+  "description": {
+    "ko": "지질학적 진화의 렌즈를 통해 본 흙, 바위, 얼음의 가공되지 않은 아름다움을 보여주며, 우리 행성의 미시적 및 거시적 질감을 시각적으로 탐구합니다.",
+    "en": "A visual journey into the microscopic and macroscopic textures of our planet, showcasing the raw beauty of soil, rock, and ice as seen through the lens of geological evolution."
+  },
+  "prompt": "Hyper-realistic macro photography of Earth's diverse surface textures, featuring cracked arid earth, lush green moss, volcanic basalt, and crystalline glacial ice blending seamlessly. Soft natural lighting, 8k resolution, intricate geological details, cinematic composition.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-09T00:19:43.641+09:00"
+}

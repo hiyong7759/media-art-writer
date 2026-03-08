@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 풍경",
+    "en": "ECHO-0: Sonic Landscapes"
+  },
+  "description": {
+    "ko": "ECHO-0는 청각 데이터를 시각적 오디세이로 변환하는 실험적 프로젝트입니다. 음향 주파수를 역동적인 빛의 입자와 유동적인 기하학적 구조로 매핑하여, 우리가 듣는 것과 보는 것 사이의 다리를 놓으며 소리의 물리적 움직임을 목격할 수 있게 합니다.",
+    "en": "ECHO-0 is an experimental project that transforms auditory data into a visual odyssey. By mapping sound frequencies to dynamic light particles and fluid geometry, it creates a bridge between what we hear and what we see, allowing the viewer to witness the physical movement of sound."
+  },
+  "prompt": "A futuristic digital art installation titled ECHO-0, showcasing sound visualization through flowing neon particles and 3D waveform structures. The scene features vibrant pulses of electric blue, magenta, and gold light reacting to an invisible rhythm. High-tech aesthetic, cinematic lighting, sharp focus on parametric geometric patterns, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-09T00:19:18.281+09:00"
+}

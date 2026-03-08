@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-09",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름의 정수",
+    "en": "AURA-7: The Essence of Organic Flow"
+  },
+  "description": {
+    "ko": "AURA-7은 자연과 기술 사이의 매끄러운 전환을 구현하며, 지속적인 조화와 자연스러운 진화의 감각을 일깨우는 리듬감 있는 유체 역학과 부드럽고 생동감 넘치는 곡선을 선보입니다.",
+    "en": "AURA-7 embodies the seamless transition between nature and technology, showcasing rhythmic fluid dynamics and soft, living curves that evoke a sense of continuous harmony and natural evolution."
+  },
+  "prompt": "Cinematic close-up of AURA-7, featuring fluid organic shapes and translucent pearlescent textures, swirling liquid patterns, soft rhythmic curves, bioluminescent accents, high-end product photography, 8k resolution, ethereal atmosphere, iridescent lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-09T00:18:32.046+09:00"
+}
