@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "2099년의 비에 젖은 잔향",
+    "en": "Rain-Slicked Echoes of 2099"
+  },
+  "description": {
+    "ko": "네온 불빛과 폭우가 도시의 디지털 영혼을 정의하는 미래지향적 도시 심연에 대한 낭만적인 시선입니다.",
+    "en": "A romanticized look at a futuristic urban abyss, where neon light and heavy rain define the digital soul of the city."
+  },
+  "prompt": "A cinematic vertical shot of a rain-drenched cyberpunk megacity canyon in NEON-V. Towering #1A0033 indigo skyscrapers are draped in massive 3D holographic advertisements pulsing in #FF00FF magenta and #00FFFF cyan. Heavy artificial monsoon rain creates vibrant, distorted reflections on the wet asphalt streets below. Flying maglev vehicles leave long #FF6B35 orange light trails cutting through the thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-10T00:53:28.145+09:00"
+}

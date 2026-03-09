@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "유기적 리듬의 심장",
+    "en": "The Heart of Organic Rhythm"
+  },
+  "description": {
+    "ko": "생물학적 구조와 액체 빛이 고요하고 무중력인 공간에서 하나로 어우러지는 대자연의 호흡을 표현합니다.",
+    "en": "A representation of nature's breath, where biological structures and liquid light merge in a serene, weightless void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, depicting a 'Living Pulse of the Forest.' A central heart-like core composed of translucent #7FB069 emerald moss and #2D5A3D vascular membranes, suspended in a weightless #E6F2E1 pearlescent atmosphere. The organism is intricately woven with flowing liquid light tendrils that rhythmically exhale #FFE66D golden bioluminescent spores. Macro focus on the semi-permeable membranes revealing internal capillary networks of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh, capturing a divine, serene organic flow. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-10T00:53:16.452+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "데이터 버드나무의 비가",
+    "en": "The Data Willow's Lament"
+  },
+  "description": {
+    "ko": "광섬유와 이진 코드를 통해 자연이 재구성되어 빛의 영원한 봄을 만들어내는 디지털 정원입니다.",
+    "en": "A digital garden where nature is reconstructed through fiber optics and binary code, creating an eternal spring of light."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, a sentient digital willow tree. The weeping branches are made of #89CFF0 fiber-optic cables that pulse with liquid data, dripping iridescent droplets into a pool of liquid mercury. The leaves are translucent #50C878 emerald circuit boards shimmering with scrolling binary code. Glowing #FFB6C1 fractal pollen particles drift in a soft-focus bokeh effect against a dark #4A0E4E velvet void. 8k resolution, photorealistic fusion of organic nature and advanced cybernetic technology, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-10T00:53:35.757+09:00"
+}

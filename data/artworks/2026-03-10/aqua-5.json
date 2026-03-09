@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생물 발광의 성소",
+    "en": "The Bioluminescent Sanctuary"
+  },
+  "description": {
+    "ko": "빛이 유일한 언어인 깊은 바다 속, 투명한 생명체들이 펼치는 평화로운 춤입니다.",
+    "en": "The peaceful dance of transparent life in the deep ocean, where light is the only language."
+  },
+  "prompt": "A highly detailed, cinematic 8k render of the 'Abyssal Cathedral' in the AQUA-5 zone. Giant, transparent, bioluminescent organ-pipe corals pulse with #40E0D0 turquoise and #48D1CC teal light in the dark #000080 midnight zone. Schools of translucent glass fish swim through drifting marine snow and fluid #006994 ocean currents. Volumetric lighting captures the serene, high-pressure atmosphere of the deep ocean. Hyper-realistic fluid dynamics, Ray-traced reflections, mysterious and peaceful deep-sea life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-10T00:54:04.726+09:00"
+}

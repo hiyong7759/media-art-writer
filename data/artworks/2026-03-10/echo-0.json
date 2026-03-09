@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "음파 공명 9번",
+    "en": "Sonic Resonance No. 9"
+  },
+  "description": {
+    "ko": "고요한 보이드 속에서 진동하는 빛과 기하학적 조화를 통해 드러나는 보이지 않는 소리의 세계입니다.",
+    "en": "The invisible world of sound made manifest through vibrating light and geometric harmony in a silent void."
+  },
+  "prompt": "An abstract 3D sound visualization of ECHO-0, representing the 'Silence of a Supernova.' Rhythmic pulse waves of #4169E1 royal blue and #FF4500 orange morph into crystalline geometric structures that vibrate in a dark obsidian void. Intricate #FFD700 golden particles and #32CD32 lime green frequency peaks react to invisible audio oscillations. High-speed motion blur, cinematic lighting, 8k resolution, capturing the visual consonance of a powerful sound wave frozen in time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-10T00:53:41.194+09:00"
+}

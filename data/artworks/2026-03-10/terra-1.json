@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지각 판의 연대기",
+    "en": "Chronicles of the Tectonic Plate"
+  },
+  "description": {
+    "ko": "암석과 토양을 통해 세계의 역사를 드러내는 지구 표면에 대한 정밀한 지형학적 탐구입니다.",
+    "en": "A highly detailed topographic study of Earth's surface, revealing the history of the world through rock and soil."
+  },
+  "prompt": "A cinematic top-down satellite view of TERRA-1, showcasing a hyper-realistic geological transition. The scene moves from cracked #8B4513 burnt sienna desert clay into jagged #2F4F4F volcanic basalt ridges with glowing #D2691E magma veins visible through the fissures. Intricate sediment layers and #F4A460 sandy topographic patterns create a narrative of time carved into the land. Macro-geological details, 8k resolution, natural lighting, capturing the raw, textured power of the Earth's crust.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-10T00:53:57.008+09:00"
+}

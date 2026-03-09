@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "파편화된 모놀리스 알파",
+    "en": "Fragmented Monolith Alpha"
+  },
+  "description": {
+    "ko": "완벽한 흑요석 구조가 데이터와 기하학의 회귀적 폭풍으로 산산조각 나는 디지털 혼돈에 대한 탐구입니다.",
+    "en": "A study of digital chaos where a perfect obsidian structure shatters into a recursive storm of data and geometry."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith of KURO-X undergoing a violent yet mathematically perfect geometric deconstruction. The structure is fracturing into thousands of sharp #808080 polygonal shards and #C0C0C0 pixel-sorted glitch fragments, suspended in a clinical #FFFFFF digital vacuum. Heavy digital noise, scanlines, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on fragmented glass-like surfaces. 8k resolution, Unreal Engine 5 aesthetic, capturing chaos within absolute order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-10T00:53:22.128+09:00"
+}
