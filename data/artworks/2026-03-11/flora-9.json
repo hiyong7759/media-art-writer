@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 블룸: 플로라-9 합성체",
+    "en": "Neon Bloom: The Flora-9 Synthesis"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 구조의 교차점을 탐구하는 플로라-9은 식물학이 사이버네틱 통합을 통해 진화한 미래를 보여줍니다.",
+    "en": "An exploration of the intersection between organic life and digital architecture, Flora-9 represents a future where botany is enhanced by cybernetic integration."
+  },
+  "prompt": "A hyper-realistic digital nature scene featuring 'FLORA-9', a bioluminescent plant with glowing fiber-optic petals and integrated circuitry veins. Set in a dark, high-tech greenhouse with floating holographic pollen and soft cyan ambient lighting. 8k resolution, cinematic lighting, macro photography, intricate details of synthetic growth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-11T00:55:44.864+09:00"
+}

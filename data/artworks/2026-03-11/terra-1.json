@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 태초의 질감",
+    "en": "TERRA-1: Primal Textures"
+  },
+  "description": {
+    "ko": "지구의 가공되지 않은 표면에 대한 깊이 있는 시각적 탐구로, 다양한 바이옴에서 나타나는 지질학적 침식과 생물학적 성장 사이의 복잡한 조화를 포착합니다.",
+    "en": "A profound visual exploration of the Earth's raw surfaces, capturing the intricate harmony between geological erosion and biological growth across various biomes."
+  },
+  "prompt": "Hyper-realistic top-down aerial photography of Earth's diverse surface textures, featuring a seamless blend of cracked salt flats, lush green moss patterns, swirling turquoise river deltas, and jagged black volcanic basalt. Cinematic lighting to emphasize tactile depth, macro-style detail, 8k resolution, geological aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-11T00:56:14.905+09:00"
+}

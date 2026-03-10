@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 수렴: 프리즘의 경계",
+    "en": "Chromatic Convergence: The Prism's Edge"
+  },
+  "description": {
+    "ko": "빛이 분산되는 순간을 시각적으로 탐구하며, 수정 매질을 통해 기본 색상으로 갈라지는 광학 물리학의 숨겨진 아름다움을 드러냅니다.",
+    "en": "A visual study of the moment light undergoes dispersion, breaking into its fundamental colors through a crystalline medium to reveal the hidden beauty of optical physics."
+  },
+  "prompt": "Cinematic macro shot of a precision-cut glass prism refracting a singular beam of pure white light into a brilliant, wide rainbow spectrum. Visible light paths inside the glass, caustic light patterns dancing on a dark matte surface, ethereal atmosphere, hyper-realistic textures, 8k resolution, ray-traced lighting, sharp focus on the point of spectral separation.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-11T00:56:35.621+09:00"
+}

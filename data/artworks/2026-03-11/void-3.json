@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 손길",
+    "en": "VOID-3: The Abyssal Reach"
+  },
+  "description": {
+    "ko": "우주의 거대한 심연 속에서 보초병처럼 존재하는 VOID-3를 탐험하며, 현실과 영원한 진공 사이의 경계를 모호하게 만드는 고요하고 무한한 공간을 묘사합니다.",
+    "en": "An exploration of the silent, infinite depths of space where VOID-3 exists as a sentinel of the cosmic deep, blurring the lines between reality and the eternal vacuum."
+  },
+  "prompt": "A cinematic wide shot of VOID-3, a colossal celestial structure floating in the deepest part of the cosmos, surrounded by nebulous clouds of indigo and charcoal, faint bioluminescent particles drifting in the zero-gravity vacuum, light from a distant dying star refracting through crystalline structures, hyper-realistic, 8k, volumetric lighting, surreal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-11T00:56:04.298+09:00"
+}

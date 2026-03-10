@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 넥서스: 사이버펑크 메트로폴리스",
+    "en": "Neon Nexus: Cyberpunk Metropolis"
+  },
+  "description": {
+    "ko": "끊임없는 네온 불빛과 영원히 내리는 비 아래에서 첨단 기술과 거친 거리 문화가 충돌하는 미래 지향적인 도시 풍경의 압도적인 비전입니다.",
+    "en": "A breathtaking vision of a futuristic urban landscape where advanced technology and gritty street culture collide beneath a canopy of endless neon lights and perpetual rain."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk megacity at night under a heavy downpour, vibrant neon signs in electric blue and hot pink reflecting on wet asphalt, towering skyscrapers with holographic advertisements, flying vehicles weaving through dense urban layers, high-tech low-life aesthetic, hyper-realistic, 8k resolution, volumetric lighting, synthwave atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-11T00:55:35.432+09:00"
+}

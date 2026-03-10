@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "원시림의 숨결",
+    "en": "The Breath of the Primordial Forest"
+  },
+  "description": {
+    "ko": "생명과 빛이 하나가 되어 숨 쉬는 유기적 흐름을 표현하며, 살아있는 호흡 구조의 섬세한 균형을 보여줍니다.",
+    "en": "A representation of organic flow where life and light breathe in unison, showcasing the delicate balance of a living respiratory structure."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Breath of the Primordial Forest.' A massive, semi-transparent respiratory organism woven from #7FB069 emerald moss and #2D5A3D vascular membranes, suspended in a weightless #E6F2E1 pearlescent mist. The entity rhythmically exhales #FFE66D golden bioluminescent spores that swirl like liquid silk in a zero-gravity environment. Macro focus on the semi-permeable membranes revealing intricate internal capillary networks of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing a divine and serene natural atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-11T00:55:17.294+09:00"
+}

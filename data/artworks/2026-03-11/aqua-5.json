@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-11",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척자",
+    "en": "AQUA-5: Abyssal Frontiers"
+  },
+  "description": {
+    "ko": "심해의 가장 깊은 곳을 탐험하는 비전 있는 프로젝트로, 미지의 구역에서 생물 발광의 기적을 발견하는 AQUA-5 잠수정의 여정을 담고 있습니다.",
+    "en": "A visionary exploration into the deepest parts of the ocean, featuring the AQUA-5 submersible as it discovers bioluminescent wonders in the midnight zone."
+  },
+  "prompt": "A futuristic deep-sea exploration vessel named AQUA-5 navigating through a dark, abyssal trench. The scene features glowing bioluminescent jellyfish and coral, intense blue and teal lighting, high-tech submarine hull with portholes, floating particles in the water, cinematic composition, photorealistic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-11T00:56:25.179+09:00"
+}
