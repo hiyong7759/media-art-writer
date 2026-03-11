@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 공허의 호흡",
+    "en": "The Respiration of the Emerald Void"
+  },
+  "description": {
+    "ko": "생물 발광 이끼와 혈관 네트워크를 통해 자연의 호흡이 리듬감 있게 흐르는 모습을 심해에서 영감을 받은 유기적 구조로 표현했습니다.",
+    "en": "A deep-sea inspired organic structure representing the rhythmic flow of nature's breath through bioluminescent moss and vascular networks."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, depicting a complex respiratory lung-like organism woven from translucent #7FB069 emerald moss and deep #2D5A3D vascular vines. The entity floats in a silent, #E6F2E1 pearlescent liquid void, rhythmically inhaling #FFE66D bioluminescent spores that shimmer like liquid silk. Macro focus on the semi-permeable membranes revealing internal capillary networks of glowing sap. 8k resolution, rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-12T00:42:21.478+09:00"
+}

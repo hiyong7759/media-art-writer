@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 코스믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "고대 특이점 주위로 빛이 굴절되고, 공허의 침묵이 중력파로 속삭이는 우주의 가장 깊고 어두운 곳으로 떠나는 몰입형 여정입니다.",
+    "en": "An immersive journey into the darkest reaches of the universe, where light bends around ancient singularities and the silence of the void speaks in gravitational waves."
+  },
+  "prompt": "A cinematic, hyper-realistic depiction of a vast cosmic void, swirling dark matter, distant nebulae in deep indigo and violet, a massive black hole at the center with a glowing accretion disk, stars being pulled into the gravity well, 8k resolution, ethereal lighting, sense of infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-12T00:43:15.230+09:00"
+}

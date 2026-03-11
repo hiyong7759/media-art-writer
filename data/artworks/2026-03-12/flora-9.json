@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 글리치 블룸",
+    "en": "FLORA-9: The Glitch Bloom"
+  },
+  "description": {
+    "ko": "유기적 식물학과 첨단 회로의 공생을 시각적으로 탐구한 작품으로, 데이터가 주입된 광합성을 통해 디지털 생태계에 적응한 생명체의 모습을 보여줍니다.",
+    "en": "A visionary exploration of the symbiosis between organic botany and high-tech circuitry, where life-forms adapt to a digital ecosystem through data-infused photosynthesis."
+  },
+  "prompt": "Macro photography of a translucent bioluminescent flower with fiber-optic veins, glowing neon circuits pulsing through its petals, floating holographic pollen particles, deep obsidian background with digital matrix rainfall, hyper-realistic, 8k resolution, cinematic lighting, synthwave color palette of cyan and magenta.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-12T00:42:53.313+09:00"
+}

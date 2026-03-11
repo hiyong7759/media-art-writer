@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "천체적 관점에서 포착한 건조한 지질학적 균열부터 바다의 유동적인 움직임에 이르기까지, 지구 표면을 정의하는 복잡하고 다양한 질감을 시각적으로 탐구합니다.",
+    "en": "A visual study of the intricate and diverse textures that define the Earth's surface, from arid geological cracks to the fluid movements of the sea, captured from a celestial perspective."
+  },
+  "prompt": "Ultra-high-resolution satellite view focusing on the diverse textures of Earth's surface, featuring cracked desert mud, swirling oceanic sediment, lush forest canopies, and jagged mountain ridges, cinematic lighting, topographic detail, 8k, hyper-realistic, abstract natural patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-12T00:43:27.826+09:00"
+}

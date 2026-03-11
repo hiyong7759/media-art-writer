@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "V 구역의 자정 몬순",
+    "en": "Midnight Monsoon in District V"
+  },
+  "description": {
+    "ko": "차가운 금속과 빗속 네온사인의 따뜻하고 활기찬 빛의 대비를 강조한 미래지향적 메가시티의 로맨틱한 비전입니다.",
+    "en": "A romanticized vision of a futuristic megacity, emphasizing the contrast between cold metal and the warm, vibrant glow of neon lights in the rain."
+  },
+  "prompt": "A cinematic vertical low-angle shot of a rainy cyberpunk alleyway in NEON-V. Towering #1A0033 skyscrapers are draped in massive 3D holograms pulsing in #FF00FF magenta and #00FFFF cyan. Heavy artificial rain creates vibrant, distorted reflections on the wet asphalt. Flying maglev vehicles leave long #FF6B35 orange light trails cutting through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-12T00:42:40.111+09:00"
+}

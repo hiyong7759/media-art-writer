@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "반사의 미학: 빛의 굴절",
+    "en": "Chromatic Splendor: The Art of Refraction"
+  },
+  "description": {
+    "ko": "단일한 백색광이 유리 프리즘을 통해 다채로운 무지개 빛깔로 분산되는 물리적 현상을 시각화하여, 명확함과 변화의 상징을 아름답게 표현했습니다.",
+    "en": "A stunning visualization of light physics where a single white beam transforms into a spectrum of colors through a glass prism, symbolizing clarity and transformation."
+  },
+  "prompt": "A cinematic close-up of a high-clarity triangular glass prism resting on a dark reflective surface. A singular beam of brilliant white light enters the prism and exits as a vibrant, perfectly defined spectrum of rainbow colors. Ray tracing, volumetric lighting, 8k resolution, sharp focus on the internal light path, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-12T00:43:53.106+09:00"
+}

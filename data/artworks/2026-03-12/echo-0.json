@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-12",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 침묵의 공명",
+    "en": "Echo-0: Resonance of Silence"
+  },
+  "description": {
+    "ko": "음파를 시각적 건축물로 번역한 개념적 탐구입니다. 에코-0는 주파수의 보이지 않는 움직임을 포착하여 리듬을 빛과 기하학적 형상으로 변화시킵니다.",
+    "en": "A conceptual exploration of sound waves translated into visual architecture. Echo-0 captures the invisible movement of frequency, turning rhythm into light and geometry."
+  },
+  "prompt": "Cinematic visualization of abstract sound waves, Echo-0 project, 3D parametric architecture made of glowing sound frequencies, dark minimalist background, cyan and magenta neon pulses, high-tech data aesthetic, 8k resolution, ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-12T00:43:04.744+09:00"
+}
