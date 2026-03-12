@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-13",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 빛을 품은 프리즘",
+    "en": "Prism of Spectral Light"
+  },
+  "description": {
+    "ko": "단일 백색광이 크리스탈 프리즘을 통해 생동감 넘치는 무지개 스펙트럼으로 변하는 빛의 굴절 현상을 시각적으로 구현하여, 과학과 예술의 교차점을 강조합니다.",
+    "en": "A stunning visual representation of light refraction, where a single white beam transforms into a vibrant spectrum through a crystal prism, highlighting the intersection of science and art."
+  },
+  "prompt": "A macro cinematic shot of a triangular glass prism on a dark reflective surface, a single beam of pure white light hitting the edge and refracting into a brilliant, wide spectrum of rainbow colors. High-detail glass textures, caustic lighting effects, volumetric dust particles, 8k resolution, ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-13T00:56:00.738+09:00"
+}

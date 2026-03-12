@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-13",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyss Sentinel"
+  },
+  "description": {
+    "ko": "AQUA-5는 극한의 대기압을 견디도록 설계된 최첨단 심해 잠수정으로, 미지의 심해 지역을 탐사하기 위한 고급 생체 발광 센서와 강화 티타늄 외피를 갖추고 있습니다.",
+    "en": "The AQUA-5 is a state-of-the-art deep-sea submersible designed for extreme atmospheric pressure, equipped with advanced bioluminescent sensors and a reinforced titanium shell for exploring the uncharted depths of the midnight zone."
+  },
+  "prompt": "A futuristic deep-sea exploration vessel named AQUA-5, featuring a sleek aerodynamic titanium hull with glowing neon cyan bioluminescent lights, navigating through a dark underwater abyss filled with hydrothermal vents and bioluminescent jellyfish, cinematic lighting, hyper-realistic, 8k resolution, shot with a macro lens",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-13T00:55:48.116+09:00"
+}

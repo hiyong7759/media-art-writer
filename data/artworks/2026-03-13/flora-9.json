@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-13",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 바이오-디지털 합성",
+    "en": "FLORA-9: Bio-Digital Synthesis"
+  },
+  "description": {
+    "ko": "생물 발광 식물이 리드미컬한 빛으로 맥동하고 투명한 잎사귀가 복잡한 회로 같은 잎맥을 드러내는 FLORA-9 생태계의 숨막히는 시각화입니다. 빛나는 픽셀처럼 공중에 떠다니는 디지털 포자는 활기찬 네온 숲에서 유기적 생명체와 합성 지능 사이의 경계를 허뭅니다.",
+    "en": "A breathtaking visualization of the FLORA-9 ecosystem, where bioluminescent plants pulse with rhythmic light and translucent leaves reveal intricate circuit-like veins. Digital spores float through the air like glowing pixels, blurring the line between organic life and synthetic intelligence in a vibrant, neon-infused forest."
+  },
+  "prompt": "A high-tech digital nature scene featuring the FLORA-9 species, bioluminescent exotic plants with neon glowing veins, holographic petals, floating data particles, futuristic botanical garden, cybernetic jungle, hyper-realistic, 8k, cinematic lighting, vibrant teal and magenta color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-13T00:55:03.732+09:00"
+}

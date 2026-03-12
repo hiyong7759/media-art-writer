@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-13",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 핵",
+    "en": "VOID-3: The Abyssal Core"
+  },
+  "description": {
+    "ko": "코스믹 딥의 압도적인 정적과 무한한 어둠 속에 존재하는 보이드-3 변칙점을 향한 우주 끝자락으로의 여정입니다.",
+    "en": "A journey into the furthest reaches of the universe where the VOID-3 anomaly exists within the crushing silence and infinite darkness of the cosmic deep."
+  },
+  "prompt": "A cinematic, hyper-realistic depiction of the VOID-3 anomaly, a massive obsidian geometric monolith floating in the center of an ultra-deep space nebula. The scene features swirling dark matter, distant violet quasars, and cold blue starlight. Subtle bioluminescent circuitry glows on the surface of the monolith. High contrast, 8k resolution, cosmic horror aesthetic, ethereal atmosphere, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-13T00:55:24.318+09:00"
+}

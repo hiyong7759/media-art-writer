@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-13",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 그리드의 영원한 맥박",
+    "en": "Eternal Pulse of the Neon Grid"
+  },
+  "description": {
+    "ko": "디지털 꿈과 크롬의 현실이 충돌하는 잠들지 않는 도시의 심장부로 뛰어드세요. NEON-V는 빛과 그림자로 세워진 수직 문명의 짜릿한 영혼을 포착합니다.",
+    "en": "Dive into the heart of a sleepless city where digital dreams and chrome realities collide. NEON-V captures the electric soul of a vertical civilization built on light and shadow."
+  },
+  "prompt": "A sprawling futuristic cyberpunk metropolis at night, glowing neon signs in pink and cyan, rainy asphalt reflecting city lights, flying vehicles soaring between massive skyscrapers, dense urban atmosphere, high-tech low-life aesthetic, cinematic lighting, 8k resolution, hyper-realistic, NEON-V style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-13T00:54:50.888+09:00"
+}
