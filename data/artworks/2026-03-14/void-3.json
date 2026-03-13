@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무한의 눈",
+    "en": "The Eye of the Infinite"
+  },
+  "description": {
+    "ko": "우주의 깊은 곳에서 지켜보는 거대한 눈을 닮은 천체 형상의 장엄하고도 공포스러운 모습입니다.",
+    "en": "A majestic and terrifying view of a celestial formation that resembles a giant eye watching from the depths of space."
+  },
+  "prompt": "A cinematic ultra-high-definition shot of VOID-3, depicting a 'Cosmic Eye' nebula. A central black hole iris is surrounded by a swirling accretion disk of #3D1A78 deep violet and #7B68EE indigo energy. Faint #E6E6FA lavender nebula clouds form the eyelid, drifting through the infinite #0D0221 obsidian abyss. Light from distant stars is stretched by gravitational lensing. 8k resolution, photorealistic cosmic dust, volumetric lighting, silent majesty.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-14T00:37:57.771+09:00"
+}

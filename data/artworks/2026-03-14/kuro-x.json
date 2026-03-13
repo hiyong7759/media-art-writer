@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "파편화된 절대자",
+    "en": "Fragmented Absolute"
+  },
+  "description": {
+    "ko": "엄격한 질서와 시스템 오류의 혼란스러운 아름다움 사이의 긴장을 나타내는 디지털 초상화입니다.",
+    "en": "A digital portrait representing the tension between rigid order and the chaotic beauty of a system failure."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian mask of KURO-X undergoing a violent, mathematically perfect geometric deconstruction. The structure fractures into thousands of sharp #808080 and #C0C0C0 polygonal shards and pixel-sorted fragments, suspended in a clinical #FFFFFF digital vacuum. Heavy digital glitch artifacts, scanlines, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections. 8k resolution, Unreal Engine 5 aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-14T00:37:35.862+09:00"
+}

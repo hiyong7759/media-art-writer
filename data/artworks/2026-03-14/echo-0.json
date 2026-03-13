@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공허의 공명",
+    "en": "Resonance of the Void"
+  },
+  "description": {
+    "ko": "시간 속에 얼어붙은 오디오 주파수의 시각적 표현으로, 액체 매체에 미치는 소리의 물리적 영향을 보여줍니다.",
+    "en": "A visual representation of audio frequencies frozen in time, showing the physical impact of sound on a liquid medium."
+  },
+  "prompt": "An abstract 3D sound visualization of ECHO-0, depicting a liquid mercury surface rippling into geometric peaks. Rhythmic pulse waves of #4169E1 royal blue and #FF4500 orange morph into crystalline frequency structures. Intricate #FFD700 golden particles and #32CD32 lime green peaks react to invisible audio oscillations in a dark obsidian void. High-speed motion blur, cinematic lighting, 8k resolution, capturing the visual consonance of a powerful sound wave.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-14T00:37:52.399+09:00"
+}

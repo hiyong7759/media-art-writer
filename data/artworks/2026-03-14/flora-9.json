@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "데이터 민들레",
+    "en": "The Data Dandelion"
+  },
+  "description": {
+    "ko": "사이버네틱 정원에서 씨앗처럼 정보를 퍼뜨리는 디지털 식물의 미세한 모습입니다.",
+    "en": "A microscopic view of a digital plant that disperses information like seeds in a cybernetic garden."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, a sentient digital dandelion. The seeds are made of #89CFF0 fiber-optic cables that pulse with liquid data, swaying in a digital breeze. The stem is constructed from #50C878 emerald circuit boards, set against a dark #4A0E4E velvet void. Glowing #FFB6C1 fractal pollen particles drift in a soft-focus bokeh effect of falling binary code. 8k resolution, cinematic lighting, a perfect fusion of organic nature and advanced technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-14T00:37:47.658+09:00"
+}

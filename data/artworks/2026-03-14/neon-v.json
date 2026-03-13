@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "심연의 네온 하강",
+    "en": "Abyssal Neon Descent"
+  },
+  "description": {
+    "ko": "사이버펑크 대도시를 수직으로 탐험하며 미래 도시 협곡의 낭만적이고 어두운 분위기를 포착합니다.",
+    "en": "A vertical exploration of a cyberpunk metropolis, capturing the romantic and dark atmosphere of a futuristic urban canyon."
+  },
+  "prompt": "A cinematic bird's-eye view looking down a rain-drenched megacity canyon in NEON-V. Towering #1A0033 skyscrapers are connected by massive 3D holographic bridges pulsing in #FF00FF magenta and #00FFFF cyan. Heavy artificial rain creates distorted reflections on the wet metallic surfaces below. Flying maglev vehicles leave long #FF6B35 orange light trails cutting through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-14T00:37:41.202+09:00"
+}

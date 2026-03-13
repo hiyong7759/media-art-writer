@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "빛의 레비아탄",
+    "en": "Leviathan of Light"
+  },
+  "description": {
+    "ko": "바다의 가장 깊고 어두운 곳을 밝히는 거대하고 투명한 생명체와의 평화로운 만남입니다.",
+    "en": "A peaceful encounter with a giant, transparent lifeform that illuminates the darkest depths of the ocean."
+  },
+  "prompt": "A highly detailed, cinematic 8k render of a massive translucent whale-like entity in the AQUA-5 zone. The creature's body is composed of glowing #40E0D0 turquoise bubbles and #48D1CC teal bioluminescent membranes, drifting through the dark #000080 midnight zone. Schools of translucent glass fish swim through fluid #006994 ocean currents and marine snow. Volumetric lighting captures the serene, high-pressure atmosphere of the deep sea. Ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-14T00:38:08.020+09:00"
+}

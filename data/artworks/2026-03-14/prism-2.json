@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "무지개 만다라",
+    "en": "The Rainbow Mandala"
+  },
+  "description": {
+    "ko": "단일 에너지원이 복잡한 기하학적 스펙트럼으로 부서지는 빛의 물리학의 정교한 전시입니다.",
+    "en": "An intricate display of light physics where a single source of energy is shattered into a complex geometric spectrum."
+  },
+  "prompt": "A macro cinematic shot of a PRISM-2 complex polyhedron structure titled 'The Rainbow Mandala.' A single beam of intense white light hits the glass, refracting into a brilliant web of #FF0080 magenta, #00FF80 emerald, #8000FF violet, and #FFFF00 yellow laser-like paths. Intricate caustic light patterns and sharp chromatic aberration dance across a minimalist matte black surface. 8k resolution, ray-traced lighting, ethereal atmosphere, sharp focus on internal light dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-14T00:38:13.291+09:00"
+}

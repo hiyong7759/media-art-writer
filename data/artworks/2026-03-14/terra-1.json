@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "퇴적된 기억",
+    "en": "Sedimentary Memory"
+  },
+  "description": {
+    "ko": "고대 지질학과 잊혀진 디지털 시대의 잔해를 혼합하여 지구의 층을 지형학적으로 탐구합니다.",
+    "en": "A topographic exploration of the Earth's layers, blending ancient geology with the remnants of a forgotten digital age."
+  },
+  "prompt": "A cinematic top-down satellite view of TERRA-1, showcasing a hyper-realistic geological cross-section. The scene features cracked #8B4513 burnt sienna desert clay merging into jagged #2F4F4F volcanic basalt ridges with glowing #D2691E magma veins. Intricate sediment layers and #F4A460 sandy topographic patterns reveal fossilized digital circuits embedded in the rock. Macro-geological details, 8k resolution, natural lighting, capturing the raw power of the Earth's crust.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-14T00:38:03.105+09:00"
+}
