@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생체 발광 리바이어던",
+    "en": "The Bioluminescent Leviathan"
+  },
+  "description": {
+    "ko": "바다의 가장 깊고 어두운 곳에서 거대하고 투명한 존재가 추는 평화로운 춤을 묘사합니다.",
+    "en": "A peaceful dance of a colossal, transparent entity in the deepest, darkest reaches of the ocean."
+  },
+  "prompt": "A highly detailed, cinematic 8k render of a 'Bioluminescent Leviathan' in the AQUA-5 zone. A massive, translucent sea creature composed of glowing #40E0D0 turquoise bubbles and #48D1CC teal membranes, drifting through the dark #000080 midnight zone. Schools of glass fish swim through fluid #006994 ocean currents and marine snow. Volumetric lighting captures the serene, high-pressure atmosphere. Ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-15T00:22:56.782+09:00"
+}

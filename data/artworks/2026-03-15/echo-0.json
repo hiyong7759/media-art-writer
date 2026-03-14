@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공허의 공명",
+    "en": "The Resonance of the Void"
+  },
+  "description": {
+    "ko": "소리의 물리적 충격을 시각화하여 보이지 않는 주파수를 견고하고 진동하는 수정 형태로 바꿉니다.",
+    "en": "Visualizing the physical impact of sound, turning invisible frequencies into solid, vibrating crystalline forms."
+  },
+  "prompt": "An abstract 3D sound visualization of ECHO-0, titled 'The Resonance of the Void.' A swirling vortex of #4169E1 royal blue and #FF4500 orange frequency waves morphing into crystalline geometric structures. Intricate #FFD700 golden particles and #32CD32 lime green peaks react to invisible audio oscillations in a dark obsidian void. High-speed motion blur, cinematic lighting, 8k resolution, capturing the visual consonance of a powerful sound wave.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-15T00:22:34.000+09:00"
+}

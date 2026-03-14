@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "대지의 시간적 서사",
+    "en": "Geological Narrative of Time"
+  },
+  "description": {
+    "ko": "지표면에 대한 고고도 지형 탐구로, 건조한 대지와 화산 열기 사이의 투쟁을 보여줍니다.",
+    "en": "A high-altitude topographic exploration of the Earth's surface, showing the struggle between arid earth and volcanic heat."
+  },
+  "prompt": "A cinematic top-down satellite view of TERRA-1, showcasing a 'Geological Narrative of Time.' The scene features cracked #8B4513 burnt sienna clay merging into jagged #2F4F4F volcanic basalt ridges with glowing #D2691E magma veins. Intricate sediment layers and #F4A460 sandy topographic patterns reveal the ancient scars of the land. Macro-geological details, 8k resolution, natural lighting, capturing the raw, textured power of the Earth's crust.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-15T00:22:51.050+09:00"
+}

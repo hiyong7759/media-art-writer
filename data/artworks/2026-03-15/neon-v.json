@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "몬순의 하늘 다리",
+    "en": "The Monsoon Sky-Bridge"
+  },
+  "description": {
+    "ko": "비 내리는 사이버펑크 메트로폴리스를 낭만적으로 바라보며, 첨단 도시의 선명한 반사와 빛의 궤적에 집중합니다.",
+    "en": "A romanticized look at a rainy cyberpunk metropolis, focusing on the vibrant reflections and light trails of the high-tech city."
+  },
+  "prompt": "A cinematic vertical bird's-eye view of a neon-drenched sky-bridge in NEON-V. Towering #1A0033 skyscrapers are draped in massive 3D holograms pulsing in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant, distorted reflections on the glass and metallic surfaces. Flying vehicles leave long #FF6B35 orange light trails cutting through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-15T00:22:18.234+09:00"
+}

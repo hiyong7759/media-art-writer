@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 굴절",
+    "en": "Prism-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "단일 백색광이 삼각형 유리 매질을 통해 찬란한 무지개 빛깔로 변하는 빛의 굴절을 예술적으로 시각화한 작품입니다.",
+    "en": "An artistic visualization of light refraction where a single beam of white light is transformed into a vibrant spectrum through a triangular glass medium."
+  },
+  "prompt": "A high-quality 8k resolution 3D render of a geometric glass prism centered on a dark, minimalist surface. A sharp beam of intense white light enters the prism from the left, undergoing refraction to emerge as a vivid, spreading rainbow spectrum on the right side. Soft caustic light patterns on the ground, cinematic depth of field, sharp focus on the glass edges, scientific and elegant aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-15T00:23:08.749+09:00"
+}

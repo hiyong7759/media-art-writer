@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "부서진 단색의 대칭",
+    "en": "Shattered Monochrome Symmetry"
+  },
+  "description": {
+    "ko": "질서와 혼돈이 만나는 극명한 탐구로, 경직된 기하학이 디지털 불안정성에 의해 파편화되는 모습을 담았습니다.",
+    "en": "A stark exploration of order meeting chaos, where rigid geometry is fractured by digital instability."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian sculpture of a fragmented digital mask by KURO-X, undergoing a violent geometric deconstruction. Sharp, recursive #808080 shards and #C0C0C0 pixel-sorted glitches are frozen in mid-explosion against a clinical #FFFFFF vacuum. High-contrast cinematic lighting, razor-sharp raytraced reflections, intense chromatic aberration, and digital scanlines. 8k resolution, Unreal Engine 5 aesthetic, precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-15T00:22:10.053+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-15",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 네온 오아시스",
+    "en": "FLORA-9: The Neon Oasis"
+  },
+  "description": {
+    "ko": "유기적 구조와 디지털 코드가 결합하여 데이터와 빛으로 맥동하는 생체 발광 식물들이 가득한 합성 생태계에 대한 매혹적인 탐구.",
+    "en": "A mesmerizing exploration of a synthetic ecosystem where organic structures merge with digital code, creating bioluminescent flora that pulse with data and light."
+  },
+  "prompt": "A high-resolution cinematic shot of a futuristic digital forest named FLORA-9, glowing bioluminescent fiber-optic plants, translucent holographic flowers with circuit patterns, soft neon particles floating in the air, 8k, unreal engine 5 style, vibrant colors, macro photography of synthetic leaves.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-15T00:22:28.556+09:00"
+}
