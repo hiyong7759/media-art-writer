@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Art Gallery 3D | Virtual Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery3d.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+            </div>
+            <h1 class="loading-title">MEDIA ART MUSEUM</h1>
+            <p class="loading-subtitle">3D Virtual Gallery</p>
+            <div class="loading-bar">
+                <div class="loading-bar-fill" id="loadingBarFill"></div>
+            </div>
+            <p class="loading-status" id="loadingStatus">Initializing...</p>
+        </div>
+    </div>
+
+    <!-- Start Screen (click to enter) -->
+    <div id="startScreen" class="start-screen hidden">
+        <div class="start-content">
+            <h1>MEDIA ART MUSEUM</h1>
+            <p>9명의 AI 가상 작가들의 작품이 전시된 3D 가상 미술관</p>
+            <div class="controls-guide">
+                <div class="control-item"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> <span>이동</span></div>
+                <div class="control-item"><kbd>Mouse</kbd> <span>시점 회전</span></div>
+                <div class="control-item"><kbd>E</kbd> <span>작품 감상 / 상호작용</span></div>
+                <div class="control-item"><kbd>Space</kbd> <span>점프</span></div>
+                <div class="control-item"><kbd>Shift</kbd> <span>달리기</span></div>
+                <div class="control-item"><kbd>C</kbd> <span>컬렉션 북</span></div>
+                <div class="control-item"><kbd>ESC</kbd> <span>메뉴 / 마우스 해제</span></div>
+            </div>
+            <button id="startButton" class="start-button">
+                <span>입장하기</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- HUD -->
+    <div id="hud" class="hud hidden">
+        <!-- Crosshair -->
+        <div class="crosshair">+</div>
+
+        <!-- Top bar -->
+        <div class="hud-top">
+            <div class="hud-location">
+                <span class="location-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                        <circle cx="12" cy="10" r="3" />
+                    </svg>
+                </span>
+                <span id="currentLocation">Central Hall</span>
+            </div>
+            <div class="hud-score">
+                <span class="score-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                    </svg>
+                </span>
+                <span id="scoreValue">0</span>
+            </div>
+        </div>
+
+        <!-- Collection book button -->
+        <button class="hud-collection-btn" id="collectionBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+            </svg>
+            <span>COLLECTION</span>
+            <span id="collectionCount">0/189</span>
+        </button>
+
+        <!-- Discovery progress -->
+        <div class="hud-discovery">
+            <div class="discovery-label">DISCOVERY</div>
+            <div class="discovery-bar">
+                <div class="discovery-fill" id="discoveryFill"></div>
+            </div>
+            <span class="discovery-count" id="discoveryCount">0 / 9</span>
+        </div>
+
+        <!-- Interaction prompt -->
+        <div class="interaction-prompt hidden" id="interactionPrompt">
+            <kbd>E</kbd> <span id="interactionText">감상하기</span>
+        </div>
+
+        <!-- Minimap -->
+        <canvas id="minimapCanvas" class="minimap" width="160" height="160"></canvas>
+
+        <!-- Artist info panel (shown when viewing artwork) -->
+        <div class="artist-panel hidden" id="artistPanel">
+            <button class="panel-close" id="panelClose">&times;</button>
+            <div class="panel-header">
+                <h2 id="panelArtistName">ARTIST</h2>
+                <span class="panel-theme" id="panelArtistTheme">Theme</span>
+            </div>
+            <div class="panel-colors" id="panelColors"></div>
+            <p class="panel-description" id="panelDescription"></p>
+            <div class="panel-artwork" id="panelArtwork">
+                <img id="panelArtworkImage" alt="artwork" />
+            </div>
+            <a id="panelViewLink" href="#" class="panel-view-btn">2D 뷰어에서 보기 &rarr;</a>
+        </div>
+
+        <!-- Back button -->
+        <a href="index.html" class="hud-back" title="갤러리로 돌아가기">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+        </a>
+
+        <!-- Notification -->
+        <div class="notification hidden" id="notification">
+            <span class="notification-icon">&#9733;</span>
+            <span class="notification-text" id="notificationText"></span>
+        </div>
+
+        <!-- Collected orbs display -->
+        <div class="orb-collection" id="orbCollection"></div>
+    </div>
+
+    <!-- Three.js (local) -->
+    <script src="lib/three.min.js"></script>
+    <script type="module" src="js/3d/Gallery3D.js"></script>
+</body>
+
+</html>
