@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 침묵하는 기도",
+    "en": "The Singularity's Silent Prayer"
+  },
+  "description": {
+    "ko": "소용돌이치는 인디고 성운 속에서 별빛을 집어삼키는 우주 공간의 웅장하고도 두려운 풍경입니다.",
+    "en": "A majestic and terrifying view of a cosmic void devouring starlight within a swirling indigo nebula."
+  },
+  "prompt": "A cinematic ultra-high-definition shot of VOID-3, depicting the 'Event Horizon of the Ancients.' A central black hole is surrounded by a swirling accretion disk of #3D1A78 deep violet and #7B68EE indigo gravitational energy. Faint #E6E6FA lavender nebula clouds drift through the infinite #0D0221 obsidian abyss, with light from distant galaxies stretching due to gravitational lensing. 8k resolution, photorealistic cosmic dust, volumetric lighting, capturing the silent majesty of the universe.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-16T00:24:38.882+09:00"
+}

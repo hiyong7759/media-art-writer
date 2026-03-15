@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "원시 지구의 지층",
+    "en": "Strata of the Primordial Earth"
+  },
+  "description": {
+    "ko": "지구 표면에 대한 매우 상세한 지질학적 연구로, 판 구조 운동과 침식의 가공할 힘을 보여줍니다.",
+    "en": "A highly detailed geological study of the Earth's surface, showing the raw power of tectonic movement and erosion."
+  },
+  "prompt": "A cinematic top-down satellite view of TERRA-1, titled 'Lithic Memory.' The scene features cracked #8B4513 burnt sienna desert clay merging into jagged #2F4F4F volcanic basalt ridges with glowing #D2691E magma veins. Intricate #F4A460 sandy topographic patterns reveal the ancient narrative of time carved into the land. Macro-geological details, 8k resolution, natural lighting, capturing the raw, textured power of the Earth's crust as it shifts over eons.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-16T00:24:44.623+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "건축가의 엔트로피",
+    "en": "The Architect's Entropy"
+  },
+  "description": {
+    "ko": "대칭과 수학적 파괴가 만나는 완벽한 디지털 카오스 상태에 갇힌 단일 구조체입니다.",
+    "en": "A monolithic structure caught in a state of perfect digital chaos, where symmetry meets mathematical destruction."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian deity mask by KURO-X, undergoing a violent yet mathematically precise geometric deconstruction. The structure is shattering into a vortex of sharp #808080 polygonal shards and #C0C0C0 pixel-sorted fragments against a stark #FFFFFF digital vacuum. Heavy digital glitch artifacts, scanlines, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on the fragmented surfaces. Unreal Engine 5 aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-16T00:24:09.674+09:00"
+}

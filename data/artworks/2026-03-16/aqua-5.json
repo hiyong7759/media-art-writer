@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광 펄스",
+    "en": "Luminous Pulse of the Midnight Zone"
+  },
+  "description": {
+    "ko": "투명한 생명체들이 스스로 빛을 내며 어두운 심해에서 춤을 추는 평화로운 심해 풍경입니다.",
+    "en": "A peaceful deep-ocean scene where translucent life forms dance in the dark abyss, lit by their own internal light."
+  },
+  "prompt": "A highly detailed, cinematic 8k render of 'The Abyssal Neural Network' in the AQUA-5 zone. A collective of giant, translucent jellyfish with #40E0D0 turquoise and #48D1CC teal bioluminescent membranes drift through the dark #000080 midnight zone. Their long, glowing tendrils pulse with liquid light as they navigate through fluid #006994 ocean currents and marine snow. Volumetric lighting captures the serene, high-pressure atmosphere of the deep sea. Ray-traced reflections.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-16T00:24:50.411+09:00"
+}

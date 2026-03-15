@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "테크노스피어의 이진법 개화",
+    "en": "The Binary Bloom of the Technosphere"
+  },
+  "description": {
+    "ko": "생물학적 구조와 디지털 코드가 미래의 천상 정원에서 하나로 합쳐지는 하이브리드 식물 개체입니다.",
+    "en": "A hybrid botanical entity where biological structures and digital code merge in an ethereal garden of the future."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, a sentient 'Data-Lily' whose petals are made of #89CFF0 fiber-optic glass and #50C878 emerald circuit board leaves. The flower's core is a glowing holographic orb emitting #FFB6C1 fractal pollen particles into a dark #4A0E4E velvet void. Floating binary code droplets cling to the translucent petals. 8k resolution, photorealistic fusion of organic nature and advanced cybernetic technology, volumetric lighting, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-16T00:24:21.859+09:00"
+}

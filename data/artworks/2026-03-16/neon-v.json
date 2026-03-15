@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 몬순의 정점",
+    "en": "Zenith of the Neon Monsoon"
+  },
+  "description": {
+    "ko": "거대한 홀로그램과 고속 광운이 일렁이는 비에 젖은 사이버펑크 메가시티 협곡입니다.",
+    "en": "A rain-drenched cyberpunk megacity canyon shimmering with massive holograms and high-speed light trails."
+  },
+  "prompt": "A cinematic vertical low-angle shot of NEON-V, featuring a massive #FF00FF magenta and #00FFFF cyan holographic dragon winding through towering #1A0033 indigo skyscrapers. Heavy monsoon rain creates vibrant, distorted reflections on the wet metallic structures. Flying maglev vehicles leave long #FF6B35 orange light trails that cut through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-16T00:24:16.032+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛의 균사체 넥서스",
+    "en": "The Mycelial Nexus of Light"
+  },
+  "description": {
+    "ko": "고요한 보이드 속에서 리드미컬한 생체 발광 호흡과 함께 맥동하는 유기적 생명체의 신성한 연결망입니다.",
+    "en": "A divine interconnected web of organic life, pulsating with rhythmic bioluminescent breath in a silent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Mycelial Nexus of Light.' A central respiratory heart composed of translucent #7FB069 emerald moss and #2D5A3D vascular membranes, intricately connected to a sprawling web of bioluminescent #E6F2E1 pearlescent filaments. The organism rhythmically exhales #FFE66D golden sap that drifts like liquid silk. Macro focus on the microscopic breathing pores and pulsating internal sap channels. Rendered in Octane, 8k, volumetric light shafts, extreme soft focus bokeh, capturing a divine organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-16T00:24:03.097+09:00"
+}

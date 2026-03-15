@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 스펙트럼",
+    "en": "ECHO-0: Resonant Spectrum"
+  },
+  "description": {
+    "ko": "소리의 보이지 않는 구조를 시각화하여 청각 데이터를 빛과 움직임의 몰입형 풍경으로 변환하는 정교한 디지털 경험입니다.",
+    "en": "A sophisticated digital experience that visualizes the invisible architecture of sound, transforming auditory data into an immersive landscape of light and movement."
+  },
+  "prompt": "High-tech sound visualization of ECHO-0, abstract 3D audio waves flowing through a dark void, glowing neon blue and magenta frequency lines, cinematic lighting, hyper-detailed particles, mathematical symmetry, 8k resolution, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-16T00:24:31.031+09:00"
+}

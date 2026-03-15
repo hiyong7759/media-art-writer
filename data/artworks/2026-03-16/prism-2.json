@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-16",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 굴절",
+    "en": "PRISM-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "유리를 통과하는 빛의 굴절을 정교하게 시각화하여, 단일 광선이 광학 물리학의 원리에 따라 찬란한 색의 스펙트럼으로 변하는 순간을 포착했습니다.",
+    "en": "An intricate visual study of light bending through glass, capturing the moment a single beam transforms into a brilliant spectrum of color through the laws of optical physics."
+  },
+  "prompt": "Cinematic close-up of a triangular glass prism refracting a sharp beam of white light into a vivid, multi-colored rainbow spectrum. Caustic light patterns on a minimalist dark grey surface, sharp focus, hyper-realistic, 8k resolution, ray tracing, soft bokeh background, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-16T00:25:00.952+09:00"
+}
