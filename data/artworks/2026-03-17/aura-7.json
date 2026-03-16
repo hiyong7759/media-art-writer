@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에메랄드 산호초의 조수 호흡",
+    "en": "The Tidal Breath of the Emerald Reef"
+  },
+  "description": {
+    "ko": "진주빛 공간 속에서 생명력과 황금빛으로 맥동하는 심해 유기체 엔티티.",
+    "en": "A deep-sea organic entity pulsing with life and golden light within a pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Tidal Breath of the Emerald Reef.' A massive, translucent respiratory organism composed of #7FB069 emerald moss filaments and #2D5A3D vascular membranes, floating in a dense #E6F2E1 pearlescent underwater atmosphere. The entity rhythmically exhales #FFE66D golden bioluminescent sap that flows like liquid silk through the currents. Macro focus on the microscopic breathing pores and pulsating internal sap channels. Rendered in Octane with hyper-realistic fluid dynamics, 8k resolution, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-17T01:00:42.823+09:00"
+}

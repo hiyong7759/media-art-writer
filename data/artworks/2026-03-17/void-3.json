@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 우주",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛과 물질이 사라지기 시작하는 깊은 우주의 고요하고 무한한 어둠을 항해하는 VOID-3 탐사선의 시각적 묘사입니다.",
+    "en": "A visual representation of the VOID-3 exploration vessel navigating the silent, infinite darkness of the deep cosmos where light and matter begin to fade."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 spacecraft drifting through a vast, dark cosmic abyss, faint bioluminescent nebulae in deep indigo and obsidian, sparkling stardust particles, cold metallic textures reflecting distant dying stars, hyper-realistic, 8k resolution, volumetric lighting, silent atmosphere",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-17T01:01:38.854+09:00"
+}

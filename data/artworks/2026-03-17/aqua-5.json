@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyssal Sentinels"
+  },
+  "description": {
+    "ko": "칠흑 같은 어둠과 압도적인 수압이 지배하는 심해저, AQUA-5 부대는 인류의 마지막 방어선으로 서 있습니다. 첨단 생체 발광 기술과 고압 크롬 도금을 갖춘 그들은 지구의 마지막 미개척지인 깊은 바다의 정적 속을 항해하며 임무를 수행합니다.",
+    "en": "Deep beneath the crushing pressure of the midnight zone, the AQUA-5 unit stands as the final line of defense. Featuring advanced bioluminescent technology and pressurized chrome plating, they navigate the silent darkness of the deep ocean to protect Earth's last frontier."
+  },
+  "prompt": "A group of five futuristic cybernetic guardians known as AQUA-5, submerged in the deepest trench of the ocean, glowing bioluminescent neon blue and cyan armor, sleek hydrodynamic designs, surrounded by ancient underwater ruins and mysterious sea creatures, cinematic lighting, high-speed bubbles, ultra-detailed, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-17T01:02:00.431+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 글리치 합성",
+    "en": "KURO-X: Geometric Glitch Synthesis"
+  },
+  "description": {
+    "ko": "기하학적 도형의 엄격한 정밀함과 디지털 왜곡의 혼란스러운 미학을 결합하여 KURO-X의 미래지향적인 정체성을 구현한 최첨단 비주얼 컨셉입니다.",
+    "en": "A cutting-edge visual concept that blends the rigid precision of geometric shapes with the chaotic beauty of digital distortion, embodying the futuristic identity of KURO-X."
+  },
+  "prompt": "A high-tech digital art piece titled KURO-X featuring sharp geometric polygons and fragmented square patterns. The aesthetic is defined by heavy glitch effects, chromatic aberration in cyan and magenta, and pixel sorting. A central sleek black futuristic emblem is surrounded by exploding triangular shards and digital noise. Deep obsidian background, high contrast, cinematic lighting, 8k resolution, hyper-detailed cyberpunk aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-17T01:00:55.733+09:00"
+}

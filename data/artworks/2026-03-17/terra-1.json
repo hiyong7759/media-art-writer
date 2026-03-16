@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "메마른 대지의 혈관: 테라-1 텍스처",
+    "en": "Arid Veins: Terra-1 Texture"
+  },
+  "description": {
+    "ko": "갈라진 사막 토양과 천연 광물 퇴적층이 조화를 이루어 자연 예술과 같은 복잡한 패턴을 보여주는 지구 표면의 고해상도 매크로 시각입니다.",
+    "en": "A high-resolution macro perspective of Earth's surface, showcasing intricate patterns of cracked desert soil and mineral deposits that resemble natural art."
+  },
+  "prompt": "Ultra-high-resolution satellite photography of Earth's crust, abstract patterns of dry cracked riverbeds in the Sahara, gold and turquoise mineral veins, cinematic lighting, top-down view, 8k, hyper-detailed textures, organic flow, geological masterpiece.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-17T01:01:48.829+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 빛의 굴절",
+    "en": "PRISM-2: Light Refraction"
+  },
+  "description": {
+    "ko": "빛의 변형적인 힘을 시각적으로 연구한 결과물로, 기하학적 크리스탈 구조를 통해 백색광이 구성 색상으로 섬세하게 분할되는 모습을 보여줍니다.",
+    "en": "A visual study of light's transformative power, showcasing the delicate split of white light into its constituent colors through geometric crystal structures."
+  },
+  "prompt": "Hyper-realistic macro photography of a multi-faceted glass prism on a neutral background, capturing the precise moment white light hits the edge and disperses into a vivid rainbow spectrum. Ethereal light rays, sharp chromatic aberration, soft caustic patterns on the surface, 8k resolution, cinematic lighting, prismatic distortion, clean minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-17T01:02:10.768+09:00"
+}

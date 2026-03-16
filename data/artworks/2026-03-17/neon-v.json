@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스 메트로폴리스",
+    "en": "Neon Pulse Metropolis"
+  },
+  "description": {
+    "ko": "화려한 네온 불빛과 첨단 기술이 도시의 리듬을 정의하는 하이테크 미래의 심장부로 떠나는 숨 막히는 여정입니다.",
+    "en": "A breathtaking journey into the heart of a high-tech future, where vibrant neon lights and advanced technology define the rhythm of the city."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk metropolis at night, glowing neon signs in magenta, electric blue, and gold reflecting on wet pavement, flying vehicles navigating between massive skyscrapers, holographic advertisements flickering in the smog, high detail, 8k resolution, futuristic vaporwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-17T01:01:06.578+09:00"
+}

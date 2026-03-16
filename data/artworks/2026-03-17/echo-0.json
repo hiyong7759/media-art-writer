@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "음파가 가상 공간 내에서 복잡한 빛의 패턴과 건축학적인 유체 형태로 나타나는 정교한 디지털 음향 주파수 해석입니다.",
+    "en": "A sophisticated digital interpretation of acoustic frequencies, where sound waves manifest as intricate light patterns and architectural fluid forms within a virtual space."
+  },
+  "prompt": "ECHO-0 style, abstract sound visualization, pulsating audio waves transformed into 3D geometric structures, cymatic patterns, glowing neon fluid dynamics, iridescent light particles suspended in a dark void, cinematic motion blur, high-tech aesthetic, 8k resolution, vibrant frequency spectrum.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-17T01:01:28.765+09:00"
+}
