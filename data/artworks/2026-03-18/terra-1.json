@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원시 지구의 질감",
+    "en": "TERRA-1: Primordial Earth Texture"
+  },
+  "description": {
+    "ko": "수백만 년 동안의 지질 활동과 침식으로 형성된 거칠고 강력한 질감을 강조하며 지구 지각의 상세한 모습을 탐구합니다.",
+    "en": "A detailed exploration of the Earth's crust, highlighting the raw and powerful textures formed by millions of years of geological activity and erosion."
+  },
+  "prompt": "Hyper-realistic satellite photography of Earth's surface, focusing on complex geological textures, deep tectonic fissures, layered sedimentary rocks, and oxidized mineral deposits, top-down perspective, 8k resolution, cinematic lighting, natural earthy color palette featuring sienna, ochre, and slate.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-18T01:01:06.510+09:00"
+}

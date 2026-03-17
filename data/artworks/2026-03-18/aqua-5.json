@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 순수함: AQUA-5 딥 오션 에디션",
+    "en": "Abyssal Purity: AQUA-5 Deep Ocean Edition"
+  },
+  "description": {
+    "ko": "심해의 깊은 고요함을 경험해 보세요. AQUA-5 딥 오션은 심연의 압도적인 수압과 투명함을 담아내어, 바다처럼 광대하고 영원한 수분감을 선사합니다.",
+    "en": "Experience the profound stillness of the midnight zone. AQUA-5 Deep Ocean captures the crushing pressure and absolute clarity of the abyss, delivering hydration that feels as vast and eternal as the sea itself."
+  },
+  "prompt": "Cinematic shot of a sleek, transparent AQUA-5 bottle submerged in deep indigo ocean water, bioluminescent plankton glowing in soft neon blues and cyans around the base, ethereal light rays filtering from the distant surface, ultra-realistic textures, 8k resolution, serene and mysterious underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-18T01:01:19.241+09:00"
+}

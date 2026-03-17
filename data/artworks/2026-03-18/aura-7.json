@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "유동적이고 자연스러운 역동성과 생체 발광 유기 구조를 통해 표현된 AURA-7의 의식을 시각적으로 탐구하며, 디지털 생명과 리드미컬한 생물학 사이의 간극을 메웁니다.",
+    "en": "A visual exploration of AURA-7's consciousness expressed through fluid, natural dynamics and bioluminescent organic structures, bridging the gap between digital life and rhythmic biology."
+  },
+  "prompt": "AURA-7 as a fluid, biological entity integrated with nature, flowing translucent silk-like membranes, pulsating bioluminescent veins, organic curves, swirling liquid golden energy, macro cellular patterns, soft ethereal lighting, hyper-realistic, 8k resolution, serene and rhythmic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-18T00:59:54.437+09:00"
+}

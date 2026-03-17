@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 호라이즌: 사이버펑크 메트로폴리스",
+    "en": "Neon Horizon: The Cyberpunk Metropolis"
+  },
+  "description": {
+    "ko": "첨단 기술과 거칠고 네온으로 물든 분위기가 어우러진 미래 도시의 몰입감 넘치는 시각화입니다. 이 장면은 거대 건축물의 그림자 아래 살아가는 하이테크 사회의 정수를 담고 있습니다.",
+    "en": "An immersive visualization of a futuristic urban landscape where advanced technology meets a gritty, neon-drenched atmosphere. This scene captures the essence of a high-tech society living in the shadows of monolithic architecture."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk city at night, rain-slicked asphalt reflecting vibrant neon signs in magenta and electric blue, massive 3D holographic advertisements flickering above towering megastructures, flying vehicles weaving through dense urban canyons, high-tech low-life aesthetic, hyper-detailed, 8k resolution, volumetric fog, synthwave atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-18T01:00:18.919+09:00"
+}

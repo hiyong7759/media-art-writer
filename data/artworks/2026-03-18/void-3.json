@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 지평선",
+    "en": "VOID-3: Abyssal Horizon"
+  },
+  "description": {
+    "ko": "우주의 가장 먼 곳, 빛조차 삼켜버리는 거대한 심연 속을 표류하는 VOID-3입니다. 고대 에너지가 맥동하며 미지의 차원으로 향하는 관문 역할을 하는 고요한 거대 구조물입니다.",
+    "en": "VOID-3 drifts in the furthest reaches of the universe, where light is consumed by the crushing weight of the cosmic deep. A silent monolith serving as a gateway to unknown dimensions, pulsing with ancient energy."
+  },
+  "prompt": "A hyper-realistic cinematic shot of VOID-3, a massive monolithic obsidian structure floating in the deepest reaches of the cosmic void. Intricate glowing azure circuitry patterns etched into its surface. Surrounding the structure are swirling nebulae in shades of midnight blue and deep violet, with gravitational light-bending effects and micro-asteroid belts. Volumetric lighting, 8k resolution, sci-fi atmosphere, unreal engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-18T01:00:54.848+09:00"
+}

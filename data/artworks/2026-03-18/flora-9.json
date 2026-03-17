@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 네이처",
+    "en": "FLORA-9: Digital Nature"
+  },
+  "description": {
+    "ko": "유기적 생물학과 첨단 기술의 합성을 시각적으로 탐구하며, 식물 생명체가 실리콘과 빛을 통해 진화하는 표본을 묘사합니다.",
+    "en": "A visual exploration of the synthesis between organic biology and advanced technology, depicting a specimen where botanical life evolves through silicon and light."
+  },
+  "prompt": "Hyper-realistic close-up of FLORA-9, a futuristic cybernetic flower with translucent glass-like petals and glowing fiber-optic veins. The center of the flower pulses with a soft blue LED light, surrounded by intricate copper circuit patterns. It is growing from a bed of moss integrated with microchips. The background is a dreamy, bokeh-filled digital forest with floating data particles and neon-lit vines. 8k resolution, cinematic lighting, synthwave aesthetic, high contrast.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-18T01:00:32.222+09:00"
+}

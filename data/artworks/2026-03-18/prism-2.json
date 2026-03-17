@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-18",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 분산",
+    "en": "Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "백색광이 투명한 매질을 통해 본연의 색상으로 분리되는 순간을 포착하여, 복잡한 광학 현상을 구현하는 PRISM-2의 성능을 매혹적으로 탐구한 작품입니다.",
+    "en": "A mesmerizing exploration of PRISM-2's ability to render complex optical phenomena, showcasing the moment white light splits into its fundamental colors through a crystal-clear medium."
+  },
+  "prompt": "Cinematic macro shot of a geometric glass prism refracting a single beam of pure white light into a vivid, multi-layered spectrum of colors, sharp edges, caustic light patterns dancing on a dark matte surface, high contrast, 8k resolution, photorealistic optical physics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-18T01:01:30.646+09:00"
+}
