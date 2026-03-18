@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 그리드",
+    "en": "Neon Pulse: The Eternal Grid"
+  },
+  "description": {
+    "ko": "잠들지 않는 도시의 네온 광채를 반사하는 빗물에 젖은 거리와 고도로 발달한 디스토피아의 숨막히는 전경입니다. 첨단 기술과 거친 도시 분위기의 융합을 경험해 보세요.",
+    "en": "A breathtaking view into a high-tech dystopia where rain-soaked streets mirror the neon glow of a city that never sleeps. Experience the fusion of advanced technology and gritty urban atmosphere."
+  },
+  "prompt": "Hyper-realistic cinematic wide shot of a sprawling cyberpunk metropolis at night, heavy rain creating reflections on asphalt, vibrant pink and cyan neon signs, towering skyscrapers with massive holographic advertisements, flying vehicles navigating through dense urban canyons, cinematic lighting, 8k resolution, high contrast, synthwave aesthetic, intricate futuristic details.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-19T01:04:47.888+09:00"
+}

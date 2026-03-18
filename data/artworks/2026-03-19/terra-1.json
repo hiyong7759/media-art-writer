@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 혈맥",
+    "en": "Veins of the Earth"
+  },
+  "description": {
+    "ko": "말라버린 강바닥, 갈라진 점토, 생명체처럼 보이는 광물 퇴적물의 복잡한 패턴을 보여주는 지구 표면의 근접 탐구입니다.",
+    "en": "A close-up exploration of the Earth's surface, showcasing the intricate patterns of dried riverbeds, cracked clay, and mineral deposits that resemble a living organism."
+  },
+  "prompt": "Ultra-high-resolution macro photography of earth texture, top-down view of intricate geological patterns, cracked dry mud mixed with vibrant copper and azure mineral veins, cinematic lighting, 8k resolution, photorealistic, earthy tones with metallic highlights, detailed topography.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-19T01:05:27.941+09:00"
+}

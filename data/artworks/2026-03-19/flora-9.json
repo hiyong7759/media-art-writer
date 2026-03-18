@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 사이버네틱 에덴",
+    "en": "FLORA-9: Cybernetic Eden"
+  },
+  "description": {
+    "ko": "유기적 생물학과 디지털 코드가 완벽한 조화를 이루며 공존하는 미래를 시각적으로 탐구하며, 빛과 데이터가 어우러진 생생한 생태계를 보여줍니다.",
+    "en": "A visual exploration of a future where organic biology and digital code exist in perfect harmony, creating a vibrant ecosystem of light and data."
+  },
+  "prompt": "A high-tech botanical garden where plants are composed of glowing fiber-optic cables, translucent holographic leaves, and shifting geometric petals. Streams of data flow through the roots like liquid light. Iridescent particles floating in the air, deep forest background with neon accents, 8k resolution, photorealistic cinematic lighting, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-19T01:04:57.159+09:00"
+}

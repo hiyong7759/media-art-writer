@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 지평선",
+    "en": "VOID-3: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "거대한 공허의 중심부로 떠나는 여정입니다. 신비로운 존재 보이드-3가 끝없는 우주 심연의 어둠 속을 표류하며 별들의 탄생과 죽음을 관조합니다.",
+    "en": "A journey into the heart of the great void, where the mysterious entity VOID-3 drifts through the infinite darkness of the deep cosmos, observing the birth and death of stars."
+  },
+  "prompt": "Cinematic shot of VOID-3, a massive obsidian monolith floating in the deepest reaches of the cosmos, surrounded by swirling dark matter and bioluminescent indigo nebulae, distant quasars flickering in the dark, hyper-realistic, 8k resolution, ethereal and haunting atmosphere, cosmic horror aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-19T01:05:18.440+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐험가",
+    "en": "AQUA-5: The Abyssal Explorer"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 빛이 닿지 않는 심해저의 암흑 속으로 여행을 떠나보세요. 신비로운 생물 발광과 고대 지질의 비밀이 숨겨진 미지의 세계를 발견할 수 있습니다.",
+    "en": "Journey into the crushing depths of the midnight zone with AQUA-5. Discover a world of hidden bioluminescence and ancient geological secrets where light never reaches."
+  },
+  "prompt": "A high-tech, futuristic deep-sea research vessel named AQUA-5 submerged in the dark midnight zone of the ocean. Bioluminescent flora and translucent jellyfish illuminate the surroundings with ethereal cyan and purple glows. Detailed metallic textures, hydrothermal vents emitting smoke in the background, cinematic lighting, 8k resolution, photorealistic underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-19T01:05:39.393+09:00"
+}

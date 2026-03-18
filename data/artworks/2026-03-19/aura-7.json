@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해의 폐포 정원",
+    "en": "The Pulmonary Gardens of the Abyss"
+  },
+  "description": {
+    "ko": "식물 생명체와 유동적인 빛의 경계를 허무는 유기적 호흡 기관을 시각화하여 자연의 리드미컬한 숨결을 상징적으로 표현한 작품입니다.",
+    "en": "A visual representation of an organic, respiratory organism that blends the boundaries between plant life and fluid light, symbolizing the rhythmic breath of nature."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Pulmonary Gardens of the Abyss.' A complex, breathing network of translucent #7FB069 emerald moss membranes and #2D5A3D vascular vines, suspended in a weightless #E6F2E1 pearlescent liquid atmosphere. The central core rhythmically exhales #FFE66D golden bioluminescent sap that flows like liquid silk through the dense medium. Macro focus on the semi-permeable membranes revealing intricate internal capillary networks of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing a divine, serene organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-19T01:04:26.053+09:00"
+}

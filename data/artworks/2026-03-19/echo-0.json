@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화 주파수 반응로",
+    "en": "ECHO-0: Harmonic Frequency Reactor"
+  },
+  "description": {
+    "ko": "주변 음파를 복잡한 빛의 패턴과 물리적 진동으로 변환하여 청각과 시각의 영역을 잇는 가시적인 다리를 만드는 최첨단 키네틱 조각입니다.",
+    "en": "A cutting-edge kinetic sculpture that translates ambient sound waves into complex light patterns and physical vibrations, creating a tangible bridge between the auditory and visual realms."
+  },
+  "prompt": "A futuristic, sleek metallic orb known as ECHO-0 suspended in a dark laboratory. Vibrant neon lines of cyan and magenta radiate from its core, visualizing sound waves as 3D holographic geometric shapes. Hyper-realistic, 8k resolution, cinematic lighting, synthwave aesthetic, intricate mechanical details.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-19T01:05:07.733+09:00"
+}

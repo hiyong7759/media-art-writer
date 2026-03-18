@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-19",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "백색광이 투명한 결정을 통과하며 고유의 색상들로 분리되는 빛의 물리적 현상을 고해상도로 시각화한 작품입니다.",
+    "en": "A high-fidelity visualization of light physics, showcasing the moment white light splits into its constituent colors through a crystalline medium."
+  },
+  "prompt": "A hyper-realistic, macro cinematic shot of a sharp-edged glass prism on a clean, dark surface. A single beam of pure white light enters the prism and disperses into a vivid, wide rainbow spectrum. Subtle chromatic aberration, intricate light caustics on the surface, 8k resolution, highly detailed glass texture, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-19T01:05:49.412+09:00"
+}
