@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-20",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "디지털 네이처: FLORA-9 인터페이스",
+    "en": "Digital Nature: The FLORA-9 Interface"
+  },
+  "description": {
+    "ko": "FLORA-9은 생물학적 진화와 디지털 아키텍처의 융합을 나타내며, 빛나는 뿌리와 수정 같은 잎을 통해 데이터가 흐르는 합성 생태계의 핵심 요소입니다.",
+    "en": "FLORA-9 represents the convergence of biological evolution and digital architecture, a centerpiece of a synthetic ecosystem where data flows through luminous roots and crystalline leaves."
+  },
+  "prompt": "Hyper-realistic macro photography of FLORA-9, a synthetic botanical entity featuring translucent crystalline petals with integrated microcircuitry, glowing fiber-optic pollen, bioluminescent teal and violet veins, set in a dense digital rainforest with holographic spores and soft bokeh lighting, 8k resolution, ethereal atmosphere, cyberpunk nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-20T00:48:21.789+09:00"
+}

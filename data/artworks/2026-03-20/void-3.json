@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-20",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 지평선",
+    "en": "VOID-3: Abyssal Horizon"
+  },
+  "description": {
+    "ko": "물질과 허무의 경계가 별빛과 그림자의 고요하고 잊혀지지 않는 교향곡으로 흐려지는 우주 공허의 가장 깊은 곳을 탐험합니다.",
+    "en": "An exploration into the deepest reaches of the cosmic void, where the boundaries between matter and nothingness blur into a silent, haunting symphony of starlight and shadow."
+  },
+  "prompt": "VOID-3, cosmic deep, vast interstellar abyss, swirling dark nebulae, distant quasars emitting faint light, ethereal shadows, ultra-detailed, cinematic lighting, 8k, surreal atmosphere, void-like entities, abstract geometry of the universe, silent vacuum",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-20T00:48:40.483+09:00"
+}

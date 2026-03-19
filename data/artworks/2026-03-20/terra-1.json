@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-20",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지질학적 태피스트리",
+    "en": "Geological Tapestry"
+  },
+  "description": {
+    "ko": "고고도 시점에서 본 지구 표면의 복잡한 패턴과 자연 지형의 가공되지 않은 아름다움을 몰입감 있게 탐구한 이미지입니다.",
+    "en": "An immersive exploration of the Earth's surface, showcasing the intricate patterns and raw beauty of natural landscapes from a high-altitude perspective."
+  },
+  "prompt": "Cinematic aerial shot of diverse Earth textures, cracked desert salt flats meeting deep turquoise ocean currents, lush emerald rainforest veins, golden hour lighting, hyper-realistic, 8k resolution, intricate geological patterns, TERRA-1 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-20T00:48:50.355+09:00"
+}

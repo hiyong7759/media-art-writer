@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-20",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 굴절: 크로매틱 리프랙션",
+    "en": "Chromatic Refraction"
+  },
+  "description": {
+    "ko": "유리를 통해 굴절되는 빛의 미학을 담아낸 시각적 연구로, 순백의 광선을 선명한 색채 스펙트럼과 기하학적 광채로 변화시킵니다.",
+    "en": "A visual study of light as it bends through glass, transforming pure white rays into a vivid spectrum of color and geometric brilliance."
+  },
+  "prompt": "Cinematic close-up of a high-clarity glass prism refracting a single beam of white light into a vibrant, ethereal rainbow spectrum, sharp focus on the chromatic dispersion, soft bokeh background with pastel light leaks, 8k resolution, minimalist and clean aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-20T00:49:09.749+09:00"
+}

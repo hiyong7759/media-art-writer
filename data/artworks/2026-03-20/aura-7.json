@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-20",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "태초 에테르의 폐",
+    "en": "The Lung of the Primeval Ether"
+  },
+  "description": {
+    "ko": "생물 발광 수액과 섬세한 이끼 같은 막의 리듬감 있는 흐름에 초점을 맞춘, 숨 쉬는 생태계의 영적이고 유기적인 시각화입니다.",
+    "en": "A spiritual and organic visualization of a breathing ecosystem, focusing on the rhythmic flow of bioluminescent sap and delicate moss-like membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Lung of the Primeval Ether.' A colossal, semi-permeable respiratory structure woven from translucent #7FB069 emerald moss and #2D5A3D vascular membranes, floating in a weightless #E6F2E1 pearlescent void. The entity rhythmically exhales #FFE66D golden bioluminescent sap that flows like liquid silk through the darkness. Macro focus on the semi-permeable membranes, high-speed fluid dynamics, Octane render, 8k, volumetric light shafts, capturing a divine organic flow and serene rhythmic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-20T00:47:48.922+09:00"
+}
