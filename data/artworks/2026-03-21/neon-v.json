@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 메트로폴리스 2099",
+    "en": "Neon Pulse: Metropolis 2099"
+  },
+  "description": {
+    "ko": "첨단 건축물과 비에 젖은 도시의 분위기가 어우러진 미래형 대도시의 풍경을 담고 있으며, 화려한 네온 사인이 도시를 밝힙니다.",
+    "en": "A breathtaking vision of a futuristic metropolitan landscape where high-tech architecture meets a rain-soaked urban atmosphere, illuminated by brilliant neon signs."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk megacity at night, towering skyscrapers with massive holographic advertisements, flying cars weaving through neon-lit canyons, heavy rain reflecting vibrant magenta and cyan lights on wet asphalt, intricate mechanical details, hyper-realistic, 8k resolution, synthwave aesthetic, high contrast.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-21T00:38:31.834+09:00"
+}

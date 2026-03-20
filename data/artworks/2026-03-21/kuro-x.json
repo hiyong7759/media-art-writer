@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모놀리스의 재귀적 균열",
+    "en": "Recursive Fracture of the Monolith"
+  },
+  "description": {
+    "ko": "견고한 기하학적 형태가 파편과 글리치의 디지털 풍경으로 격렬하게 해체되는 통제된 카오스에 대한 연구입니다.",
+    "en": "A study in controlled chaos where a solid geometric form is violently dismantled into a digital landscape of fragments and glitches."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian cube by KURO-X, undergoing a violent yet mathematically recursive geometric deconstruction. The structure fractures into thousands of sharp #808080 and #C0C0C0 polygonal shards and pixel-sorted fragments, suspended in a clinical #FFFFFF digital vacuum. Heavy digital glitch artifacts, scanlines, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on the fragmented surfaces. 8k resolution, Unreal Engine 5 aesthetic, capturing precise mathematical chaos and shifting planes of reality.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-21T00:38:21.390+09:00"
+}

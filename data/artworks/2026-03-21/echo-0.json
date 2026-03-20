@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "생동감 넘치는 파형 패턴과 리듬감 있는 빛의 파동을 통해 보이지 않는 소리의 구조를 시각화한 하이테크 디지털 아트 시리즈입니다.",
+    "en": "A high-tech digital art series capturing the invisible architecture of sound through vibrant wave patterns and rhythmic light pulses."
+  },
+  "prompt": "Abstract digital visualization of complex sound waves, oscillating neon frequencies, 3D ripple effects in a dark void, synthwave aesthetic, cinematic lighting, 8k resolution, mathematical beauty of audio harmonics.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-21T00:38:51.149+09:00"
+}

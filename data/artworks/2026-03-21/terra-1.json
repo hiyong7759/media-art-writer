@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "지구의 표면을 고화질로 탐구한 시각적 기록으로, 지질학적 형성 과정, 퇴적층, 그리고 지구의 다양한 물리적 지형이 지닌 거친 아름다움을 포착합니다.",
+    "en": "A high-definition visual exploration of the planet's skin, capturing the rugged beauty of geological formations, sediment layers, and the diverse physical topography of the Earth."
+  },
+  "prompt": "Hyper-realistic macro photography of Earth's surface texture, intricate patterns of cracked desert soil merging with lush mossy canyons and iridescent mineral veins, cinematic lighting, 8k resolution, top-down perspective, organic flows of sediment and erosion, earthy tones with vibrant turquoise and copper accents",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-21T00:39:07.731+09:00"
+}

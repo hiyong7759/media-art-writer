@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 바이오 디지털 합성",
+    "en": "FLORA-9: The Bio-Digital Synthesis"
+  },
+  "description": {
+    "ko": "디지털 시대 자연의 진화를 시각화한 FLORA-9은 유기적인 꽃잎 구조와 수정체 회로, 박동하는 데이터 스트림을 결합하여 생명과 코드의 교차점을 상징합니다.",
+    "en": "A visionary representation of nature's evolution in the digital age, FLORA-9 blends organic petal structures with crystalline circuitry and pulsing data streams, symbolizing the intersection of life and code."
+  },
+  "prompt": "A high-tech digital flower named FLORA-9, translucent bioluminescent petals with glowing neon blue and violet veins resembling complex circuit boards, metallic silver stem with fiber-optic roots, floating in a dark void surrounded by shimmering data particles and holographic prisms, macro photography, ultra-realistic, 8k resolution, cinematic lighting, futuristic cyber-garden aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-21T00:38:41.829+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천상 성물함",
+    "en": "The Celestial Reliquary of the Abyss"
+  },
+  "description": {
+    "ko": "성운 속 특이점의 공포스러우면서도 아름다운 규모에 초점을 맞춘 깊은 우주에 대한 장엄한 시선입니다.",
+    "en": "A majestic look at the deep cosmos, focusing on the terrifying yet beautiful scale of a singularity within a nebula."
+  },
+  "prompt": "A cinematic ultra-high-definition shot of VOID-3, depicting 'The Celestial Reliquary of the Abyss.' A central black hole singularity is surrounded by a swirling accretion disk of #3D1A78 deep violet and #7B68EE indigo gravitational energy. Faint #E6E6FA lavender nebula clouds form ghostly silhouettes drifting through the infinite #0D0221 obsidian abyss. Light from distant galaxies is stretched by gravitational lensing. 8k resolution, photorealistic cosmic dust, volumetric lighting, capturing the silent majesty of the infinite universe.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-21T00:38:56.412+09:00"
+}

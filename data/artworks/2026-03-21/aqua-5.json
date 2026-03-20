@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 연결고리",
+    "en": "AQUA-5: The Abyssal Nexus"
+  },
+  "description": {
+    "ko": "AQUA-5 장치가 숨겨진 생체 발광 생태계와 고대 지질 구조를 탐사하는 바다의 가장 깊고 어두운 곳으로 떠나는 몰입형 여정입니다.",
+    "en": "An immersive journey into the darkest depths of the ocean, where the AQUA-5 unit explores hidden bioluminescent ecosystems and ancient geological formations."
+  },
+  "prompt": "Cinematic wide shot of the AQUA-5 deep-sea research vessel navigating through a dark abyssal trench, illuminated by brilliant bioluminescent flora and glowing jellyfish, high-tech exterior with sapphire LED highlights, hydrothermal vents emitting volcanic smoke in the background, ultra-realistic textures, 8k resolution, volumetric lighting, deep navy and neon teal color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-21T00:39:19.023+09:00"
+}

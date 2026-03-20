@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-21",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "무한한 스펙트럼의 프리즘",
+    "en": "Prism of Infinite Spectra"
+  },
+  "description": {
+    "ko": "투명한 유리 결정을 통과하며 찬란한 무지개와 정교한 기하학적 패턴으로 흩어져 미니멀한 공간을 수놓는 빛의 경이로운 탐험.",
+    "en": "A breathtaking exploration of light as it passes through crystalline glass, splitting into vibrant rainbows and intricate geometric patterns that dance across a minimalist landscape."
+  },
+  "prompt": "Macro photography of light refracting through a series of geometric crystal prisms, sharp angular glass shards, brilliant rainbow spectrum dispersal, caustic light patterns dancing on a minimalist silk background, ethereal iridescent glow, high-speed photography, 8k resolution, cinematic depth of field.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-21T00:39:27.940+09:00"
+}
