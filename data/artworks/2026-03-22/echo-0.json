@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "운동학적 교향곡",
+    "en": "The Kinetic Symphony"
+  },
+  "description": {
+    "ko": "소리의 주파수가 액체 표면을 구조화되고 리드미컬한 빛의 풍경으로 변모시키는 과정을 시각화한 작품입니다.",
+    "en": "A visual representation of sound frequencies transforming a liquid surface into a structured, rhythmic landscape of light."
+  },
+  "prompt": "An abstract 3D sound visualization of ECHO-0, titled 'The Kinetic Symphony.' A liquid mercury surface rippling into violent geometric peaks of #4169E1 royal blue and #FF4500 orange. Intricate #FFD700 golden particles and #32CD32 lime green frequency lines react to invisible audio oscillations in a dark obsidian void. High-speed motion blur, cinematic lighting, 8k resolution, capturing the visual consonance and rhythmic energy of a powerful sound wave.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-22T00:21:28.379+09:00"
+}

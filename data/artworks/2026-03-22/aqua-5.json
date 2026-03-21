@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심연의 경계",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "빛이 존재하지 않는 심해의 고요한 장엄함을 탐험하세요. AQUA-5 시리즈의 생물 발광만이 해구의 비밀을 밝혀줍니다.",
+    "en": "Explore the silent majesty of the deep ocean where light ceases to exist, and only the bioluminescent glow of the AQUA-5 series illuminates the mysteries of the trench."
+  },
+  "prompt": "Cinematic deep ocean abyss, AQUA-5 research station glowing in the dark pressure, bioluminescent flora and fauna, ethereal blue and violet light trails, hyper-realistic water particles, mysterious trench landscape, 8k resolution, futuristic underwater aesthetic",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-22T00:22:00.233+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "비에 젖은 안식처",
+    "en": "The Rain-Slicked Sanctuary"
+  },
+  "description": {
+    "ko": "네온 불빛과 거센 비가 낭만적인 테크 누아르 도시 경관을 만들어내는 미래 대도시의 고공 조감도입니다.",
+    "en": "A high-altitude look at a futuristic metropolis where neon light and heavy rain create a romantic, tech-noir cityscape."
+  },
+  "prompt": "A cinematic vertical bird's-eye view of NEON-V, titled 'The Rain-Slicked Sanctuary.' Towering #1A0033 indigo skyscrapers are draped in massive 3D holograms of koi fish pulsing in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant, distorted reflections on the wet metallic surfaces below. Flying maglev vehicles leave long #FF6B35 orange light trails that cut through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-22T00:21:11.043+09:00"
+}

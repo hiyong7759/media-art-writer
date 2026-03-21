@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 스펙트럼",
+    "en": "Spectrum of Refraction"
+  },
+  "description": {
+    "ko": "빛이 유리를 통과할 때의 거동을 시각적으로 탐구한 작품으로, 백색광이 굴절의 물리적 원리를 통해 숨겨진 본연의 무지개색으로 분해되는 정밀한 순간을 보여줍니다.",
+    "en": "A stunning visual exploration of light's behavior as it passes through glass, showcasing the precise moment white light breaks into its hidden primary colors through the physics of refraction."
+  },
+  "prompt": "Hyper-realistic macro photography of a sophisticated glass prism set against a minimalist dark background, a single concentrated beam of white light piercing through the crystal and dispersing into a brilliant, wide-angled rainbow spectrum, sharp caustic light patterns, chromatic aberration, high-speed photography style, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-22T00:22:10.914+09:00"
+}

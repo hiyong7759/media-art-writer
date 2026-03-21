@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성운",
+    "en": "The Abyssal Nebula"
+  },
+  "description": {
+    "ko": "천체들이 심해의 절대적 어둠과 하나가 되는 우주의 고요한 영역을 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the silent reaches of the universe, where celestial structures merge with the absolute darkness of the deep void."
+  },
+  "prompt": "A cinematic wide shot of the deep cosmic void, swirling dark matter nebulae with faint bioluminescent pulses, distant cold stars flickering in the distance, ethereal atmospheric dust, high-contrast lighting, 8k resolution, surrealist space exploration, VOID-3 style",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-22T00:21:39.455+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "재귀적 균열",
+    "en": "Recursive Fracture"
+  },
+  "description": {
+    "ko": "단단한 흑요석 구조가 디지털 간섭 속에서 완벽한 기하학적 파편으로 부서지는 수학적 혼돈을 묘사한 작품입니다.",
+    "en": "A depiction of mathematical chaos where a solid obsidian structure breaks into perfect geometric shards amidst digital interference."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith by KURO-X, titled 'Recursive Fracture.' The structure is undergoing a violent yet mathematically perfect geometric deconstruction, shattering into a vortex of sharp #808080 and #C0C0C0 polygonal shards against a clinical #FFFFFF digital vacuum. Intense digital glitch artifacts, scanlines, and heavy chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting planes. Unreal Engine 5 aesthetic, 8k resolution, capturing precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-22T00:21:04.253+09:00"
+}

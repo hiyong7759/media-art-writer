@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "천상의 폐포",
+    "en": "The Celestial Alveoli"
+  },
+  "description": {
+    "ko": "식물적 생명과 천상의 유체 역학이 결합된 우주적 호흡 기관을 매크로 시점으로 탐구한 작품입니다.",
+    "en": "A macro exploration of a cosmic respiratory organelle that merges botanical life with celestial fluid dynamics."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Celestial Alveoli.' A sprawling, rhythmic architecture of translucent #7FB069 emerald moss membranes and deep #2D5A3D vascular vines, suspended in a weightless #E6F2E1 pearlescent liquid void. The entity functions as a cosmic lung, inhaling #FFE66D golden bioluminescent gas that swirls like liquid silk. Macro focus on the semi-permeable textures and pulsating internal sap channels. Rendered in Octane with hyper-realistic fluid dynamics, 8k resolution, volumetric light shafts, and extreme soft focus bokeh to capture a divine organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-22T00:20:58.253+09:00"
+}

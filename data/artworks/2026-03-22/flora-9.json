@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성의 박동",
+    "en": "FLORA-9: The Synthetic Pulse"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적인 꽃의 기하학적 구조와 고속 데이터 전송 기술을 결합한 생명공학적 하이브리드로, 디지털 자연의 선구자입니다. 이는 자연과 코드가 매끄럽고 빛나는 조화 속에서 공존하는 미래를 상징합니다.",
+    "en": "FLORA-9 is a pioneer in digital nature, a biotechnological hybrid that merges organic floral geometry with high-speed data transmission. It represents a future where nature and code coexist in a seamless, glowing harmony."
+  },
+  "prompt": "A hyper-realistic, macro cinematic shot of FLORA-9, a sentient digital plant. Its petals are made of iridescent liquid crystal displays showing shifting aurora patterns, with glowing neon fiber-optic veins pulsing with golden data light. The stem is a sleek chrome-carbon composite. The background is a blurred dark void filled with floating binary particles and holographic spores. 8k resolution, ray-tracing, cyberpunk nature aesthetic, soft bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-22T00:21:22.673+09:00"
+}

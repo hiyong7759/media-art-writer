@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-22",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 원초적 질감",
+    "en": "TERRA-1: Earth's Primal Textures"
+  },
+  "description": {
+    "ko": "메마른 대지부터 흐르는 수로까지, 지구 지형의 복잡하고 다양한 패턴을 포착한 컬렉션입니다.",
+    "en": "A collection capturing the intricate and diverse patterns of Earth's topography, from parched landscapes to flowing waterscapes."
+  },
+  "prompt": "A high-resolution satellite-style macro shot of Earth's surface, featuring a transition between cracked desert mud, swirling turquoise river deltas, and deep volcanic basalt ridges, intricate geological details, cinematic lighting, hyper-realistic textures, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-22T00:21:50.061+09:00"
+}
