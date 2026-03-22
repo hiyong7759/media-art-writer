@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 주파수가 빛과 기하학의 활기찬 춤으로 변모하는 소리의 물리적 현상에 대한 깊은 탐구입니다.",
+    "en": "A deep dive into the physical manifestation of sound, where invisible frequencies are transformed into a vibrant dance of light and geometry."
+  },
+  "prompt": "Hyper-realistic 3D sound visualization, kinetic typography of sound waves, glowing neon particles reacting to bass frequencies, concentric ripple effects in a dark liquid void, spectral frequency mapping, cinematic lighting, intricate geometric patterns, 8k resolution, ethereal synth-wave aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-23T00:21:52.547+09:00"
+}

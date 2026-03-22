@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 생체 발광 회로",
+    "en": "FLORA-9: The Bioluminescent Circuitry"
+  },
+  "description": {
+    "ko": "유기적 식물학과 첨단 디지털 건축의 하이테크 융합으로, 광섬유 케이블을 통해 식물이 자라나고 꽃들이 네온 빛으로 피어납니다.",
+    "en": "A high-tech fusion of organic botany and advanced digital architecture, where plants grow through fiber-optic cables and flowers bloom with neon light."
+  },
+  "prompt": "A hyper-realistic digital art piece of FLORA-9, featuring translucent crystalline flowers with glowing neural networks as veins, integrated into a futuristic motherboard forest, soft bokeh of floating data particles, 8k resolution, cinematic lighting, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-23T00:21:41.635+09:00"
+}

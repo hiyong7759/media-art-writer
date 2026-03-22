@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고대 암반과 이끼 낀 맥락",
+    "en": "Ancient Bedrock and Mossy Veins"
+  },
+  "description": {
+    "ko": "풍화된 암석 표면의 복잡한 광물 맥락과 선명한 녹색 이끼의 성장을 담은 고해상도 매크로 샷으로, 자연 지질학의 가공되지 않은 정수를 포착합니다.",
+    "en": "A high-resolution macro shot of weathered stone surfaces featuring intricate mineral veins and vibrant green moss growth, capturing the raw essence of natural geology."
+  },
+  "prompt": "Extreme close-up, macro photography of earth texture, weathered granite surface with crystalline quartz veins and patches of emerald green moss, soft natural sunlight, cinematic lighting, 8k resolution, highly detailed texture, organic patterns, earthy tones.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-23T00:22:12.488+09:00"
+}

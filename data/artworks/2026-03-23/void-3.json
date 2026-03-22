@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 지평선",
+    "en": "VOID-3: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "빛이 희미해지고 현실이 VOID-3의 고요하고 거대한 엔진 주위로 굴절되는 우주 최고의 심연을 향한 탐사.",
+    "en": "An exploration into the deepest reaches of the cosmos where light begins to fade and reality bends around the silent, ancient engine of VOID-3."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 vessel drifting through a colossal cosmic abyss, surrounded by swirling dark matter and faint bioluminescent nebulae, ethereal starlight filtering through a deep violet void, hyper-detailed textures, futuristic sci-fi aesthetic, 8k resolution, unreal engine 5 render, sense of overwhelming scale and silence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-23T00:22:01.456+09:00"
+}

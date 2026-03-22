@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "아우라-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "기술과 자연의 액체 역학이 융합된 AURA-7의 미래지향적 시각화입니다. 빛나는 필라멘트와 부드러운 반투명 레이어가 생명체를 모방한 조화롭고 리드미컬한 박동으로 움직입니다.",
+    "en": "A futuristic visualization of AURA-7 where technology merges with natural liquid dynamics. Glowing filaments and soft, translucent layers move in a harmonious, rhythmic pulse that mimics living organisms."
+  },
+  "prompt": "Cinematic 3D render of AURA-7, organic flow theme, flowing iridescent liquid silk, ethereal bioluminescent pulses, soft curved structures, macro shot of fluid motion, pastel gradients, high-tech minimalism, 8k resolution, serene atmosphere, volumetric lighting, hyper-realistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-23T00:21:11.583+09:00"
+}

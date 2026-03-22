@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 왜곡",
+    "en": "KURO-X: Geometric Distortion"
+  },
+  "description": {
+    "ko": "KURO-X 인터페이스의 강력한 성능과 기술적 정밀함을 상징하는, 날카로운 기하학적 구조와 디지털 글리치 아티팩트의 정교한 융합입니다.",
+    "en": "A sophisticated fusion of sharp geometric structures and digital glitch artifacts, representing the raw power and technical precision of the KURO-X interface."
+  },
+  "prompt": "KURO-X thematic background, geometric glitch art, fragmented 3D polygons, digital distortion, chromatic aberration, scanlines, deep black matte finish with neon cyan and magenta accents, sharp edges, high contrast, 8k resolution, futuristic tech aesthetic, volumetric lighting effects",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-23T00:21:20.893+09:00"
+}

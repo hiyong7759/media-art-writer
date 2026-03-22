@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-23",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심연의 항해자",
+    "en": "AQUA-5: Abyss Voyager"
+  },
+  "description": {
+    "ko": "햇빛이 닿지 않는 바다 가장 깊은 곳을 탐험하며, 생물 발광 생명체들이 지배하는 세계를 조사하는 최첨단 심해 탐사선입니다.",
+    "en": "A high-tech underwater vessel venturing into the deepest parts of the ocean, where sunlight never reaches and bioluminescent life reigns supreme."
+  },
+  "prompt": "Cinematic shot of the AQUA-5 advanced submersible navigating the dark midnight zone of the deep ocean, vibrant bioluminescent coral and alien-like fish, glowing neon blue hull lights, hyper-realistic water effects, deep sea trench background, 8k resolution, futuristic technology.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-23T00:22:23.226+09:00"
+}
