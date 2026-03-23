@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 글리치 넥서스",
+    "en": "KURO-X: Geometric Glitch Nexus"
+  },
+  "description": {
+    "ko": "디지털 간섭과 선명한 색상 변화로 분해된 날카로운 기하학적 평면을 특징으로 하며, 미래 지향적인 디지털 경계를 정의하는 KURO-X의 하이테크 비주얼 아이덴티티입니다.",
+    "en": "A high-tech visual identity for KURO-X, featuring sharp geometric planes disrupted by digital interference and vibrant chromatic shifts that define a futuristic digital frontier."
+  },
+  "prompt": "KURO-X branding concept, geometric glitch art style, sharp vector polygons, digital distortion artifacts, chromatic aberration, neon purple and electric cyan accents, minimalist black background, high-tech aesthetic, fragmented typography, 8k resolution, futuristic cybernetic design.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-24T00:56:16.838+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 박동",
+    "en": "Ethereal Pulse"
+  },
+  "description": {
+    "ko": "빛과 형태가 유체 역학의 매끄럽고 리드미컬한 춤으로 어우러지는 유기적 움직임을 시각화한 매혹적인 작품입니다.",
+    "en": "A mesmerizing visualization of organic movement where light and form merge into a seamless, rhythmic dance of fluid dynamics."
+  },
+  "prompt": "Macro cinematic shot of fluid iridescent liquid merging with soft bioluminescent fibers, organic curves, smooth transitions, pastel gradients, 8k resolution, ethereal atmosphere, sense of continuous motion, soft bokeh background",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-24T00:56:05.075+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네오 서울의 전기 혈관",
+    "en": "Electric Veins of Neo-Seoul"
+  },
+  "description": {
+    "ko": "네온의 불빛이 결코 꺼지지 않고 비에 젖은 거리가 디지털 미래의 이야기를 전하는 첨단 기술의 도시 미로 속으로 깊이 들어가 봅니다.",
+    "en": "A deep dive into a high-tech urban labyrinth where the glow of neon never fades and the rain-slicked streets tell stories of a digital future."
+  },
+  "prompt": "A sprawling cyberpunk metropolis at night, heavy monsoon rain reflecting vibrant neon signs in magenta, cyan, and electric yellow, futuristic skyscrapers with holographic advertisements, flying vehicles weaving through dense fog, cinematic lighting, 8k resolution, hyper-detailed urban landscape.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-24T00:56:27.878+09:00"
+}

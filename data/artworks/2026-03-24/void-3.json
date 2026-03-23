@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코즈믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주 심연의 어두운 품 속에서 천체 구조물들이 영원히 떠다니는 고요하고 장엄한 외부 공간을 탐험하세요.",
+    "en": "Explore the silent majesty of the outer void, where celestial structures drift eternally in the dark embrace of the deep universe."
+  },
+  "prompt": "Cinematic wide shot of a massive obsidian monolith drifting through a swirling violet and deep black nebula, cosmic dust reflecting faint starlight, bioluminescent veins glowing on the structure, extreme depth of field, 8k resolution, photorealistic, ethereal atmosphere, sense of infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-24T00:57:01.305+09:00"
+}

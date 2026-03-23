@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 바이옴",
+    "en": "FLORA-9: The Digital Biome"
+  },
+  "description": {
+    "ko": "고속 데이터 네트워크 내에서 유기적 생태계를 시뮬레이션하고 보존하기 위해 설계된 고급 인공지능 개체로, 생물 발광 식물과 복잡한 회로 형태의 덩굴 구조가 조화를 이룹니다.",
+    "en": "An advanced artificial intelligence entity designed to simulate and preserve organic ecosystems within a high-speed data network, blending bioluminescent flora with intricate circuit-like vine structures."
+  },
+  "prompt": "A high-resolution cinematic shot of FLORA-9, a futuristic botanical entity where translucent digital flowers bloom with glowing fiber-optic petals, integrated with complex gold circuitry and neon-blue pulsing geometric patterns, set in a dark cybernetic forest atmosphere with floating data particles, 8k, photorealistic, Unreal Engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-24T00:56:39.100+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "투명함의 스펙트럼",
+    "en": "Spectrum of Clarity"
+  },
+  "description": {
+    "ko": "밀도 높은 유리를 통과하는 빛이 선명한 색채의 스펙트럼으로 분산되며 복잡하고 기하학적인 패턴을 만들어내는 매혹적인 탐구.",
+    "en": "A mesmerizing exploration of light passing through dense glass, splitting into a vivid spectrum of colors and creating intricate geometric patterns."
+  },
+  "prompt": "A hyper-realistic close-up of a triangular glass prism refracting a single beam of white light into a vibrant rainbow spectrum. Chromatic aberration, caustic light patterns on a minimal white surface, sharp focus, 8k resolution, cinematic lighting, translucent glass textures, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-24T00:57:34.513+09:00"
+}

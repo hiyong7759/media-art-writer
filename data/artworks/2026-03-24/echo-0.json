@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-24",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 음향 진동을 몰입형 디지털 아트로 변환하여 소리와 시각 사이의 간극을 메우는 고급 인공지능 모듈입니다.",
+    "en": "ECHO-0 is an advanced artificial intelligence module that translates complex acoustic vibrations into immersive digital art, bridging the gap between sound and sight."
+  },
+  "prompt": "Cinematic close-up of ECHO-0, a futuristic cybernetic core visualizing sound waves as vibrant neon pulses and fluid digital particles. Rhythmic geometric patterns reflecting audio frequencies, dark minimalist background, glowing cyan and magenta light, hyper-realistic, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-24T00:56:49.966+09:00"
+}
