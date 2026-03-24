@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명의 파동",
+    "en": "Resonant Waves"
+  },
+  "description": {
+    "ko": "소리의 주파수가 만들어내는 유연한 움직임을 포착한 매혹적인 디지털 아트워크로, 어두운 공간 속에서 퍼져나가는 선명한 색채의 물결을 통해 보이지 않는 오디오 에너지를 상징합니다.",
+    "en": "A mesmerizing digital artwork capturing the fluid motion of sound frequencies, where vibrant colors ripple through a dark void, symbolizing the invisible energy of audio."
+  },
+  "prompt": "A cinematic high-resolution visualization of sound waves, iridescent liquid metal ripples, glowing neon particles suspended in zero gravity, deep blue and magenta lighting, abstract kinetic art, 8k resolution, ethereal atmosphere, ECHO-0 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-25T01:02:15.392+09:00"
+}

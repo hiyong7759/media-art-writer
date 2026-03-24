@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 녹턴: 사이버펑크 메트로폴리스",
+    "en": "Neon Nocturne: The Cyberpunk Metropolis"
+  },
+  "description": {
+    "ko": "네온 조명과 끊이지 않는 비에 젖은 미래 도시의 숨막히는 전경입니다. 거대한 마천루가 스모그 가득한 하늘로 솟아 있고, 비행 차량들이 홀로그램 광고와 북적이는 거리 사이를 가로지릅니다.",
+    "en": "A breathtaking view of a futuristic city drenched in neon lights and perpetual rain. Towering skyscrapers reach into the smoggy sky while flying vehicles navigate through a maze of holographic advertisements and bustling streets."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk city at night, rain-slicked streets reflecting vibrant neon signs in cyan and magenta, towering futuristic skyscrapers with holographic billboards, flying cars with light trails, dense urban atmosphere, high detail, 8k, photorealistic, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-25T01:01:58.053+09:00"
+}

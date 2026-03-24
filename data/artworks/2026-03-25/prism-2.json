@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "무한한 색채의 굴절",
+    "en": "The Infinite Chromatic Fracture"
+  },
+  "description": {
+    "ko": "순수한 빛과 광학의 탐구로, 에너지가 기하학적 광채의 무지개로 갈라지는 순간을 포착합니다.",
+    "en": "An exploration of pure light and optics, capturing the moment energy is split into a rainbow of geometric brilliance."
+  },
+  "prompt": "A hyper-realistic macro photography shot of PRISM-2, titled 'The Infinite Chromatic Fracture.' A sophisticated, multi-faceted glass crystal set against a minimalist dark background. A single concentrated beam of white light pierces through the crystal, refracting into a brilliant, wide-angled spectrum of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. Sharp caustic light patterns and intense chromatic aberration dance on the surface. High-speed photography style, 8k resolution, cinematic lighting, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-25T01:02:56.132+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 수호자: AQUA-5",
+    "en": "Abyssal Guardian: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5는 심해의 막대한 압력을 견디도록 설계된 첨단 탐사 유닛으로, 내부의 생물 발광 코어에서 나오는 에너지를 통해 미지의 해저를 탐험합니다.",
+    "en": "AQUA-5 is an advanced deep-sea exploration unit designed to withstand the crushing pressures of the midnight zone, powered by an internal bioluminescent core."
+  },
+  "prompt": "A highly detailed cinematic shot of a futuristic submersible robot named AQUA-5, sleek metallic navy blue plating, glowing neon cyan bioluminescent accents, navigating through a dark abyssal trench, surrounded by glowing deep-sea flora and hydrothermal vents, 8k resolution, photorealistic, volumetric lighting, underwater particles.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-25T01:02:50.013+09:00"
+}

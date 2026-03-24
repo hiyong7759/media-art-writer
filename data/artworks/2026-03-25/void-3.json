@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "다크 마터와 고대 별빛의 경계가 무한한 침묵 속으로 녹아드는 VOID-3 구역의 가장 먼 곳으로의 여정.",
+    "en": "A journey into the furthest reaches of the VOID-3 sector, where the boundary between dark matter and ancient starlight dissolves into infinite silence."
+  },
+  "prompt": "Cinematic wide shot of VOID-3 cosmic deep, swirling dark nebulae with iridescent violet and deep navy edges, ancient pulsars emitting rhythmic golden light, microscopic crystalline structures floating in the vacuum, hyper-realistic, 8k resolution, ethereal atmosphere, volumetric lighting, deep space exploration aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-25T01:02:25.114+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 호흡하는 균사체",
+    "en": "The Respiratory Mycelium of Aether"
+  },
+  "description": {
+    "ko": "유기적이고 생물 발광적인 구조를 통해 빛과 생명의 리드미컬한 교환을 묘사한 AURA-7 호흡계의 매크로 탐구입니다.",
+    "en": "A macro exploration of AURA-7's respiratory system, depicting the rhythmic exchange of light and life through organic, bioluminescent structures."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Respiratory Mycelium of Aether.' A sprawling, pulsating network of #7FB069 emerald moss fibers and #2D5A3D vascular membranes, suspended in a weightless #E6F2E1 pearlescent mist. The central core functions as a biological bellows, rhythmically exhaling clouds of #FFE66D golden bioluminescent spores that swirl like liquid silk. Macro focus on the translucent, semi-permeable textures revealing internal capillary networks of glowing sap. Rendered in Octane, 8k resolution, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-25T01:01:33.783+09:00"
+}

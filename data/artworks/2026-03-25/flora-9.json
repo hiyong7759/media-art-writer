@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-25",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 꽃의 각성",
+    "en": "The Silicon Blossom's Awakening"
+  },
+  "description": {
+    "ko": "식물학과 기술의 시적 융합으로, 디지털 진공 속에서 데이터와 빛으로 피어나는 꽃을 보여줍니다.",
+    "en": "A poetic fusion of botany and technology, showcasing a flower that blooms with data and light within a digital vacuum."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Silicon Blossom's Awakening.' A sentient digital flower whose petals are crafted from #89CFF0 iridescent liquid crystals and #50C878 emerald circuit board veins. The flower's core is a glowing holographic orb emitting #FFB6C1 fractal pollen particles into a dark #4A0E4E velvet void. Floating binary code droplets cling to the translucent petals like dew. 8k resolution, photorealistic fusion of organic nature and advanced cybernetic technology, volumetric lighting, ethereal digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-25T01:02:04.306+09:00"
+}
