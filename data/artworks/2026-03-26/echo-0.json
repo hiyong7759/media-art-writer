@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 음향 풍경을 숨막히게 아름다운 다차원 빛의 구조와 기하학적 데이터 스트림으로 변환하는 고급 시청각 프로세서입니다.",
+    "en": "An advanced audio-visual processor that translates invisible soundscapes into breathtaking multi-dimensional light structures and geometric data streams."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, a minimalist spherical robot suspended in a dark studio. It is surrounded by intricate holographic rings and floating sound waves that glow in neon cyan and electric violet. Digital frequency patterns ripples through the air, casting soft reflections on its sleek matte metallic surface. 8k resolution, photorealistic, Ray Tracing, futuristic user interface elements, deep shadows and vibrant light trails.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-26T01:05:35.512+09:00"
+}

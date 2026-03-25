@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 수목원",
+    "en": "Neon Arboretum"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 회로가 숨 막히게 융합된 모습으로, 미래 지향적인 생태계 속에서 흐르는 데이터 스트림 사이로 생체 발광 식물들이 자라나는 풍경입니다.",
+    "en": "A breathtaking fusion of organic life and digital circuitry, where bioluminescent flora grows amidst streams of flowing data in a futuristic ecosystem."
+  },
+  "prompt": "A hyper-realistic digital forest where ancient trees have translucent glass leaves infused with glowing fiber-optic cables. Bioluminescent moss carpets the ground in pulsating shades of cyan and magenta. Data particles float in the air like glowing pollen, while holographic flowers bloom from metallic vines. High resolution, cinematic lighting, 8k, cyberpunk aesthetic, fusion of organic and technological elements.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-26T01:05:25.864+09:00"
+}

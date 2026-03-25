@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "기술과 자연의 완벽한 결합인 AURA-7은 금속성 표면과 부드러운 빛이 지속적이고 리드미컬하게 상호작용하는 유동적 실체로 나타나며, 이는 생물학적 성장의 조화를 상징합니다.",
+    "en": "A seamless synthesis of technology and nature, AURA-7 manifests as a fluid entity where metallic surfaces and soft light interact in a continuous, rhythmic dance, symbolizing the harmony of biological growth."
+  },
+  "prompt": "Hyper-realistic 3D abstract visualization of AURA-7, organic fluid dynamics, liquid chrome and iridescent glass ribbons intertwining, soft pulsating bioluminescent core, macro photography, cinematic lighting, ethereal atmosphere, 8k resolution, depth of field, minimalist background.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-26T01:04:50.057+09:00"
+}

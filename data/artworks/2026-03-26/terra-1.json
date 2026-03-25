@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 지질학적 질감",
+    "en": "TERRA-1: Geological Textures of Earth"
+  },
+  "description": {
+    "ko": "궤도에서 본 다양한 지형, 토양 구성 및 천연 생태계 사이의 복잡한 상호작용을 강조하며, 거시적 관점에서 지구 표면을 시각적으로 탐구한 놀라운 기록입니다.",
+    "en": "A stunning visual exploration of the Earth's surface from a macro perspective, highlighting the complex interplay between different terrains, soil compositions, and natural ecosystems as seen from orbit."
+  },
+  "prompt": "High-resolution satellite photography of diverse Earth textures, abstract geological patterns, top-down view of cracked arid desert soil transitioning into lush emerald rainforest canopies and winding turquoise river deltas, intricate natural veins, hyper-detailed organic surfaces, cinematic lighting, 8k resolution, photorealistic atmospheric perspective.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-26T01:05:59.958+09:00"
+}

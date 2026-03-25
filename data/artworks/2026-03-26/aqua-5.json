@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 정수",
+    "en": "AQUA-5: The Abyssal Essence"
+  },
+  "description": {
+    "ko": "AQUA-5는 심해의 손닿지 않은 순수함을 선사합니다. 극한의 수분 공급을 위해 설계된 이 제품은 생명이 스스로 빛을 내는 고요한 심해의 미네랄을 담았습니다.",
+    "en": "AQUA-5 brings the untouched purity of the deepest ocean layers to your fingertips. Engineered for extreme hydration, its minerals are sourced from the silent, pressurized depths where life glows in the dark."
+  },
+  "prompt": "Cinematic high-angle shot of a sleek, minimalist translucent bottle labeled 'AQUA-5' submerged in the deep dark blue ocean. Bioluminescent flora and glowing jellyfish float in the background, subtle sunbeams piercing through the deep water from above, micro-bubbles rising, 8k resolution, hyper-realistic, cool blue and cyan color grading.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-26T01:06:09.455+09:00"
+}

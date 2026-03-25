@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 우주",
+    "en": "VOID-3: The Abyssal Deep"
+  },
+  "description": {
+    "ko": "물질과 우주의 심연 사이의 경계가 영원한 침묵 속으로 흐려지는 VOID-3 이상 현상의 중심부로 떠나는 여정입니다.",
+    "en": "A journey into the heart of the VOID-3 anomaly, where the boundaries between matter and the cosmic deep blur into an eternal silence."
+  },
+  "prompt": "Cinematic wide shot of VOID-3, a monolithic space station suspended at the edge of a massive, swirling violet and black nebula, cosmic deep abyss, glowing crystalline structures, stars being pulled into a central singularity, hyper-realistic, 8k, ethereal lighting, dark sci-fi aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-26T01:05:47.183+09:00"
+}

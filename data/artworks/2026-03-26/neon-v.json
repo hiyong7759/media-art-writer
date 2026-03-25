@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-26",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "NEON-V: 사이버펑크 넥서스",
+    "en": "NEON-V: The Cyberpunk Nexus"
+  },
+  "description": {
+    "ko": "네온 불빛과 빗줄기에 젖은 거대한 메트로폴리스의 숨막히는 전경으로, 첨단 기술과 거친 도시의 삶이 어우러진 미래의 정수를 담아냈습니다.",
+    "en": "A breathtaking view of a sprawling metropolis drenched in neon lights and rain, capturing the essence of a high-tech, low-life future."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk city at night, heavy rain, glowing neon signs in magenta and electric blue, wet asphalt with colorful reflections, towering skyscrapers with massive holographic advertisements, flying vehicles traversing between megastructures, dense urban atmosphere, highly detailed, photorealistic, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-26T01:05:14.113+09:00"
+}
