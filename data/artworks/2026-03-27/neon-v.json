@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 메가시티",
+    "en": "Neon Pulse: The Eternal Megacity"
+  },
+  "description": {
+    "ko": "첨단 기술의 경이로움과 거친 도시의 질감이 만나는 거대한 대도시의 숨막히는 전경입니다. 잠들지 않는 도시의 비에 젖은 거리에 수천 개의 네온 사인이 반사되며 도시 전체가 생동감 있게 빛납니다.",
+    "en": "A breathtaking view of a sprawling metropolis where high-tech wonder meets urban grit. The city is alive with the glow of a thousand neon signs, reflecting off the rain-slicked streets of a world that never sleeps."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk megacity at night, heavy rain creating reflections on metallic surfaces and asphalt, towering skyscrapers adorned with massive 3D holographic advertisements, flying vehicles weaving through dense neon-lit canyons, vibrant cyan and magenta color palette, highly detailed urban architecture, synthwave aesthetic, 8k resolution, hyper-realistic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-27T01:08:29.917+09:00"
+}

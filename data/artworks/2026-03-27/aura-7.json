@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "오가닉 플로우: AURA-7",
+    "en": "Organic Flow: AURA-7"
+  },
+  "description": {
+    "ko": "인공지능과 생물학적 시스템의 리드미컬하고 유연한 우아함이 매끄럽게 통합된 AURA-7 시리즈의 시각적 탐구입니다. 이는 끊임없고 우아한 변이의 상태를 상징합니다.",
+    "en": "A visual exploration of the AURA-7 series, focusing on the seamless integration of synthetic intelligence and the rhythmic, fluid grace of biological systems. It represents a state of constant, elegant metamorphosis."
+  },
+  "prompt": "Cinematic 8k hyper-realistic shot of AURA-7 entity, manifesting as a fluid, bio-metallic structure, organic flow theme, undulating translucent membranes, swirling liquid gold and deep teal gradients, soft bioluminescent pulse, intricate natural fractals, ethereal atmosphere, macro photography, depth of field, high-end digital art style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-27T01:08:06.514+09:00"
+}

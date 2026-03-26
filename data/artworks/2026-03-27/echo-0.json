@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공감각적 공명",
+    "en": "ECHO-0: Synesthetic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 실시간 주파수 분석을 활용하여 청각과 시각 사이의 간극을 메우는 첨단 소리 시각화 시스템입니다. 리듬의 패턴을 건축학적 빛의 형태로 변환함으로써 사용자가 소리의 구조적 아름다움을 직접 경험할 수 있도록 합니다.",
+    "en": "ECHO-0 is an advanced sound visualization system that utilizes real-time frequency analysis to bridge the gap between the audible and the visible. By translating rhythmic patterns into architectural light forms, it allows users to experience the structural beauty of sound."
+  },
+  "prompt": "A futuristic, minimalist installation titled ECHO-0, featuring a floating holographic core that transforms ambient sound into complex, 3D geometric light structures and fluid wave ripples. Dark studio background with vibrant neon cyan and deep violet light trails, hyper-realistic, 8k resolution, cinematic atmosphere, technical data overlays.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-27T01:08:55.063+09:00"
+}

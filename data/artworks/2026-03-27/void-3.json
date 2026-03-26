@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 심장",
+    "en": "VOID-3: The Abyssal Heart"
+  },
+  "description": {
+    "ko": "물질이 공허로 용해되는 우주의 가장 먼 곳으로의 여정입니다. VOID-3는 존재의 가장자리에서 소리 없는 관찰자를 상징하며, 우주의 빛과 절대적인 어둠이 만나는 장소입니다.",
+    "en": "A journey into the furthest reaches of the universe where matter dissolves into the void. VOID-3 represents the silent observer at the edge of existence, a place where cosmic light meets absolute darkness."
+  },
+  "prompt": "Cinematic wide shot of VOID-3, a colossal monolithic gateway floating in the deep cosmic abyss, surrounded by swirling dark matter and ethereal violet nebulae, gravitational lensing effects around the center, pulsating bioluminescent energy veins, 8k resolution, photorealistic, intricate textures, space exploration theme.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-27T01:09:05.459+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "다양한 기후와 지형에 걸쳐 자연적인 지질학적 과정으로 형성된 복잡하고 예술적인 패턴을 포착하여 지구 지각을 거시적으로 탐구합니다.",
+    "en": "A macroscopic exploration of the Earth's crust, capturing the intricate and artistic patterns formed by natural geological processes across different climates and terrains."
+  },
+  "prompt": "Hyper-realistic satellite photography of Earth's diverse surface textures, featuring cracked salt flats, swirling Saharan sand dunes, intricate river deltas resembling organic veins, and jagged volcanic basalt formations, top-down perspective, 8k resolution, cinematic lighting, high contrast, detailed geological patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-27T01:09:16.150+09:00"
+}

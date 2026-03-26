@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 지평선",
+    "en": "AQUA-5: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "인류 지혜의 상징인 AQUA-5 기지가 세워진 바다 가장 깊은 곳으로 여정을 떠나보세요. 생물 발광의 경이로움과 심해의 고요한 미스터리가 만들어내는 영원한 어둠의 세계를 경험할 수 있습니다.",
+    "en": "Journey to the furthest depths of the ocean where the AQUA-5 station stands as a beacon of human ingenuity. Experience a world of eternal darkness brought to life by bioluminescent wonders and the silent mystery of the deep abyss."
+  },
+  "prompt": "A cinematic, ultra-detailed shot of the AQUA-5 deep-sea research station located at the bottom of the Mariana Trench. The station is a series of glowing modular spheres connected by reinforced glass tunnels. Surrounding the base are massive bioluminescent jellyfish and glowing coral. The water is dark and pressurized with floating marine snow. High-tech lighting from the station illuminates the rugged ocean floor. 8k resolution, photorealistic, moody lighting, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-27T01:09:27.526+09:00"
+}

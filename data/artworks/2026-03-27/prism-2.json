@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-27",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "찬란한 굴절",
+    "en": "Refraction of Brilliance"
+  },
+  "description": {
+    "ko": "백색광이 크리스탈 프리즘을 통해 선명한 스펙트럼으로 변하는 굴절의 원리를 시각화하여 빛의 숨겨진 층을 매혹적으로 보여줍니다.",
+    "en": "A captivating visualization of light's hidden layers, showcasing the physics of refraction as white light transforms into a vivid spectrum through a crystal prism."
+  },
+  "prompt": "Cinematic macro shot of a geometric glass prism resting on a minimalist dark surface. A single, concentrated beam of brilliant white light pierces through the glass, bending and dispersing into a sharp, vibrant rainbow spectrum on the other side. High contrast, focus on caustic light patterns and chromatic aberration, ethereal atmosphere, 8k resolution, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-27T01:09:37.639+09:00"
+}
