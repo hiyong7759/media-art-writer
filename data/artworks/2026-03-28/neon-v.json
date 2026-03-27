@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 비",
+    "en": "Neon Pulse: The Eternal Rain"
+  },
+  "description": {
+    "ko": "화려한 네온 불빛과 끊임없이 내리는 비에 젖은 미래 지향적 거대 도시의 풍경으로, 첨단 기술과 도시의 쇠락이 공존하는 시네마틱한 분위기를 담고 있습니다.",
+    "en": "A sprawling futuristic metropolis bathed in vibrant neon lights and constant rain, capturing the essence of high-tech urban decay and cinematic atmosphere."
+  },
+  "prompt": "Hyper-realistic cyberpunk megacity, aerial view of rain-slicked skyscrapers, massive holographic advertisements flickering in blue and magenta, dense fog between buildings, flying vehicles with glowing trails, intricate futuristic architecture, wet asphalt reflections, cinematic lighting, 8k resolution, highly detailed textures, NEON-V aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-28T00:47:05.397+09:00"
+}

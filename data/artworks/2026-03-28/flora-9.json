@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 합성체",
+    "en": "FLORA-9: The Digital Synthesis"
+  },
+  "description": {
+    "ko": "유기적 생물학과 디지털 건축이 공존하는 이론적 식물체인 FLORA-9의 예술적 표현입니다. 코드와 회로를 통해 흐르는 생명의 맥동을 시각화하여 자연과 인공 사이의 경계를 허뭅니다.",
+    "en": "An artistic representation of FLORA-9, a theoretical botanical entity where organic biology and digital architecture coexist. It visualizes the pulse of life through code and circuitry, blending the boundaries between the natural and the artificial."
+  },
+  "prompt": "A hyper-realistic macro shot of FLORA-9, a biomechanical organism exhibiting digital nature features. The flower has translucent, crystalline petals with integrated circuit patterns and glowing fiber-optic stamens. Bioluminescent blue pulses through its veins like data streams. The background is a dark, soft-focus digital nebula with floating code fragments and particles of light, cinematic lighting, 8k resolution, intricate detail.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-28T00:47:17.474+09:00"
+}

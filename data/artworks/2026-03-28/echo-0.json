@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 패턴",
+    "en": "ECHO-0: Resonant Patterns"
+  },
+  "description": {
+    "ko": "음향 주파수를 역동적이고 고동치는 기하학적 풍경으로 변환하는 몰입형 디지털 아트 경험입니다.",
+    "en": "An immersive digital art experience that translates acoustic frequencies into dynamic, pulsating geometric landscapes."
+  },
+  "prompt": "Cinematic sound visualization of ECHO-0, glowing sound waves turning into 3D geometric structures, neon blue and deep violet color palette, high-tech aesthetic, futuristic digital audio interface, 8k resolution, volumetric lighting, abstract data representation.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-28T00:47:26.952+09:00"
+}

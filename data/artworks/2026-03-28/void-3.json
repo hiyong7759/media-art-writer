@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 우주",
+    "en": "VOID-3: The Abyssal Deep"
+  },
+  "description": {
+    "ko": "알려진 우주의 끝자락에서 빛을 집어삼키고 현실을 왜곡하는 구조적 변칙체인 보이드-3가 존재하는 우주 심연의 심장부로 향하는 여정입니다.",
+    "en": "Journey into the heart of the cosmic void where VOID-3 exists as a structural anomaly, consuming light and warping reality at the very edge of the known universe."
+  },
+  "prompt": "A cinematic ultra-realistic depiction of VOID-3 in the deepest reaches of space. A massive, pulsating gravity well surrounded by iridescent dark matter and fractured star systems. Swirling violet and obsidian nebulae, volumetric lighting, 8k resolution, ethereal cosmic horror atmosphere, bioluminescent particles floating in the vacuum.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-28T00:47:37.138+09:00"
+}

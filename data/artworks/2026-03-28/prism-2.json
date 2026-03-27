@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 미학: 빛의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛이 찬란한 색의 스펙트럼으로 갈라지며, 부드러운 색수차와 몽환적인 빛의 잔상을 만들어내는 매혹적인 시각적 경험을 선사합니다.",
+    "en": "A mesmerizing display of light passing through a glass prism, splitting into a vibrant spectrum of colors with soft chromatic aberration and ethereal glows."
+  },
+  "prompt": "Macro photography of a triangular crystal prism, a single beam of pure white light hitting the edge and dispersing into a brilliant, wide rainbow spectrum across a clean white surface, sharp caustic light effects, hyper-realistic glass textures, soft volumetric lighting, 8k resolution, cinematic bokeh, subtle chromatic aberration.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-28T00:48:02.570+09:00"
+}

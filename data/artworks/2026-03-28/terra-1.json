@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지각의 두루마리",
+    "en": "The Tectonic Scroll"
+  },
+  "description": {
+    "ko": "시간이 새겨놓은 흙과 바위의 거칠고 층층이 쌓인 질감을 보여주는 대지의 지형학적 서사.",
+    "en": "A topographic narrative of the land, showcasing the rough, layered textures of earth and rock carved by time."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Tectonic Scroll.' Focusing on complex geological textures, abstract patterns of dry cracked riverbeds in #8B4513 sienna and #D2691E ochre. Vibrant #F4A460 sand dunes merge with deep #2F4F4F slate mineral veins. Top-down perspective, 8k resolution, cinematic lighting, emphasizing the organic flows of sediment and erosion. Sharp focus on surface erosion patterns and layered sedimentary rock formations.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-28T00:47:43.541+09:00"
+}

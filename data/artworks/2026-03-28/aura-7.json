@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "AURA-7은 첨단 기술과 자연스러운 생물학적 형태 사이의 매끄러운 교차점을 탐구하며, 데이터를 살아 숨 쉬는 에너지의 흐름으로 시각화합니다.",
+    "en": "AURA-7 explores the seamless intersection between advanced technology and natural biological forms, visualizing data as a living, breathing stream of energy."
+  },
+  "prompt": "Cinematic macro shot of fluid iridescent liquid merging with bioluminescent neural fibers, elegant organic curves, rhythmic motion blur, soft glowing ethereal light, high-tech organic hybrid aesthetic, 8k resolution, hyper-realistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-28T00:46:41.301+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-28",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 레퀴엠",
+    "en": "The Abyssal Requiem"
+  },
+  "description": {
+    "ko": "고압 환경에서 생물 발광과 유체 역학이 어우러진, 심해 속 투명한 생명체들의 평화로운 춤.",
+    "en": "A peaceful dance of transparent life in the deep sea, featuring bioluminescence and fluid dynamics in a high-pressure environment."
+  },
+  "prompt": "A cinematic, ultra-detailed shot of AQUA-5, titled 'The Abyssal Requiem.' A series of glowing modular spheres connected by reinforced glass tunnels submerged in the dark #000080 midnight zone. Surrounding the station are massive #40E0D0 bioluminescent jellyfish and glowing #48D1CC coral. The #006994 water is dark and pressurized with floating marine snow. High-tech lighting from the station illuminates the rugged ocean floor. 8k resolution, photorealistic, moody lighting, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-28T00:47:49.992+09:00"
+}
