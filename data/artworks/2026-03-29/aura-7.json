@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "생체 발광 균사체 핵심",
+    "en": "The Bioluminescent Mycelium Core"
+  },
+  "description": {
+    "ko": "AURA-7의 호흡하는 중심부를 거시적 관점에서 탐구하며, 진주빛 공간 속에서 에메랄드 이끼와 혈관 덩굴이 황금빛으로 박동하는 모습을 묘사합니다.",
+    "en": "A macro-scale exploration of AURA-7's respiratory heart, where organic moss and vascular vines pulse with golden light within a pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Bioluminescent Mycelium Core.' A macro focus on a central pulsing organ composed of #7FB069 emerald moss membranes and #2D5A3D vascular vines. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere, exhaling #FFE66D golden bioluminescent spores that drift like liquid silk. Internal capillary networks of glowing sap are visible through semi-permeable textures. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-29T00:26:12.843+09:00"
+}

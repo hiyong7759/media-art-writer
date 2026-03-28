@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "void-3",
+  "title": {
+    "ko": "사건의 지평선 모놀리스",
+    "en": "The Event Horizon Monolith"
+  },
+  "description": {
+    "ko": "블랙홀 가장자리에 위치한 모놀리스 구조물을 묘사하며, 인디고색 중력파와 연보라색 성운으로 둘러싸인 신비로운 우주를 표현합니다.",
+    "en": "A hauntingly beautiful depiction of a monolithic structure at the edge of a black hole, surrounded by indigo gravitational waves and lavender nebulae."
+  },
+  "prompt": "A cinematic ultra-high-definition shot of VOID-3, titled 'The Event Horizon Monolith.' A massive obsidian structure floats at the edge of a swirling accretion disk of #3D1A78 deep violet and #7B68EE indigo gravitational energy. Faint #E6E6FA lavender nebula clouds form ghostly silhouettes drifting through the infinite #0D0221 obsidian abyss. Light from distant stars is stretched by gravitational lensing. 8k resolution, photorealistic cosmic dust, volumetric lighting, capturing the silent majesty of the infinite universe.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-29T00:27:01.007+09:00"
+}

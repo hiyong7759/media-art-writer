@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 파수꾼",
+    "en": "AQUA-5: The Abyssal Sentinels"
+  },
+  "description": {
+    "ko": "극한의 수압 환경을 위해 설계된 5인의 첨단 수중 수색팀으로, 파도 아래 숨겨진 고대의 비밀을 회수하기 위해 미지의 심해 구역을 탐사합니다.",
+    "en": "A specialized squad of five advanced aquatic units designed for extreme pressure environments, navigating the uncharted midnight zones of the ocean to recover ancient secrets hidden beneath the waves."
+  },
+  "prompt": "AQUA-5 underwater exploration team, five futuristic cyborgs with glowing neon cyan accents, submerged in the deep dark abyss, bioluminescent sea creatures and jellyfish floating around, hydrothermal vents casting golden light, cinematic volumetric lighting, 8k resolution, ultra-detailed marine technology, ethereal deep-sea atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-29T00:27:27.607+09:00"
+}

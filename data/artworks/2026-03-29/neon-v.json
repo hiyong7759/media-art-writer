@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 도시",
+    "en": "Neon Pulse: The Eternal City"
+  },
+  "description": {
+    "ko": "끊임없는 네온사인의 불빛으로 물든 거대한 대도시. 비에 젖은 아스팔트가 거대한 홀로그램 광고와 높이 솟은 하늘 다리의 선명한 색상을 반사합니다.",
+    "en": "A sprawling metropolis bathed in the glow of endless neon signs. Rainy asphalt reflects the vibrant colors of massive holographic advertisements and soaring sky-bridges."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk megacity at night, heavy rain, glowing neon signs in pink and cyan, massive holographic advertisements, flying cars traversing between futuristic skyscrapers, wet reflective streets, hyper-detailed, 8k resolution, blade runner aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-29T00:26:31.077+09:00"
+}

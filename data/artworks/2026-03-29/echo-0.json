@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 시각화",
+    "en": "ECHO-0: Visualizing Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0가 보이지 않는 음파를 빛과 움직임의 숨막히는 풍경으로 변환하는 음향 기하학의 심장부로의 여정입니다.",
+    "en": "A journey into the heart of sonic geometry, where ECHO-0 transforms invisible audio waves into a breathtaking landscape of light and movement."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0 robot center frame, emanating concentric holographic rings and vibrant waveform patterns, visualizing complex audio frequencies in a dark futuristic laboratory, bioluminescent pulses of blue and cyan, intricate glass textures, 8k resolution, octane render, synthwave lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-29T00:26:52.463+09:00"
+}

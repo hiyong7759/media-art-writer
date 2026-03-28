@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 굴절의 스펙트럼",
+    "en": "PRISM-2: Refractive Spectrum"
+  },
+  "description": {
+    "ko": "유리 매질을 통해 빛이 굴절되고 고유의 색상으로 분산되는 물리적 현상을 예술적으로 시각화하여 명확함과 변화를 상징적으로 표현했습니다.",
+    "en": "An artistic visualization of the physical phenomenon of refraction, where light bends and disperses into its component colors through a glass medium, symbolizing clarity and transformation."
+  },
+  "prompt": "A macro shot of a triangular crystal prism resting on a minimalist matte black surface, a focused beam of pure white light entering through one side and refracting into a vivid, sharp rainbow spectrum on the other, caustic light patterns, hyper-realistic texture, 8k resolution, cinematic lighting, soft bokeh background.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-29T00:27:37.091+09:00"
+}

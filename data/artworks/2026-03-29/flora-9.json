@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 네이처",
+    "en": "FLORA-9: Digital Nature"
+  },
+  "description": {
+    "ko": "플로라-9은 자연과 디지털 기술이 완벽한 조화를 이루며 공존하는 미래를 보여줍니다. 데이터 스트림과 빛으로 번성하는 식물들의 모습을 담아낸 비전적인 탐구입니다.",
+    "en": "FLORA-9 represents a visionary look at a future where nature and digital technology coexist in perfect harmony, showcasing flora that thrives on data streams and light."
+  },
+  "prompt": "A futuristic bioluminescent forest where organic plants merge with fiber-optic structures, translucent petals emitting soft neon data pulses, holographic spores floating in the air, cinematic lighting, hyper-realistic textures, 8k resolution, intersection of biology and technology, digital photosynthesis.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-29T00:26:41.525+09:00"
+}

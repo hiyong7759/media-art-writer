@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지형의 질감: 테라-1",
+    "en": "Terraform Textures: Terra-1"
+  },
+  "description": {
+    "ko": "지구의 표면을 예술적으로 탐구하여 지질학적 형성 과정의 거칠고 원초적인 아름다움을 포착했습니다. 테라-1은 메마른 땅과 광물 퇴적층의 교차점에 주목하며, 우리 행성이 지닌 천연의 기하학적 예술성을 강조합니다.",
+    "en": "An artistic study of the Earth's skin, capturing the raw and rugged beauty of geological formations. Terra-1 focuses on the intersection of parched earth and mineral deposits, highlighting the planet's natural geometric artistry."
+  },
+  "prompt": "Aerial cinematic macro photography of diverse earth textures, cracked dry desert soil merging with rich volcanic basalt and shimmering mineral veins, high contrast, 8k resolution, hyper-realistic, intricate geological details, earthy tones of sienna, ochre, and charcoal grey.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-29T00:27:15.810+09:00"
+}

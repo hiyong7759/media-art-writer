@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-29",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "기하학적 특이점",
+    "en": "The Geometric Singularity"
+  },
+  "description": {
+    "ko": "검은 흑요석 구체가 수천 개의 날카로운 다각형 파편으로 파괴되는 고속 시각화를 통해 디지털 카오스의 미학을 표현합니다.",
+    "en": "A high-velocity visualization of a black obsidian sphere fracturing into thousands of sharp polygonal fragments, representing the beauty of digital chaos."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian sphere by KURO-X, titled 'The Geometric Singularity.' The structure is undergoing a high-velocity mathematical deconstruction, shattering into a vortex of sharp #808080 and #C0C0C0 polygonal shards against a clinical #FFFFFF digital vacuum. Heavy digital glitch artifacts, pixel-sorting textures, and intense chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting planes. Unreal Engine 5 aesthetic, 8k resolution, capturing precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-29T00:26:18.332+09:00"
+}
