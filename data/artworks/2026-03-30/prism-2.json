@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 빛의 굴절",
+    "en": "PRISM-2: Light Refraction"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통해 한 줄기의 빛이 환상적인 무지개 빛깔로 변하는 광학의 미학을 탐구합니다.",
+    "en": "Explore the scientific beauty of optics as a single ray of light transforms into a breathtaking spectrum of colors through a glass prism."
+  },
+  "prompt": "A cinematic close-up of a geometric crystal prism positioned on a minimalist black surface. A sharp, intense beam of white light enters the prism and exits as a vivid, hyper-realistic rainbow spectrum. The scene features intricate caustic light patterns, soft chromatic aberration, 8k resolution, and professional studio lighting to emphasize the clarity of the glass and the brilliance of the refracted colors.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-30T00:27:28.573+09:00"
+}

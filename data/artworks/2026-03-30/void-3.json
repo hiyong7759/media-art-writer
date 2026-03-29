@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 우주 심연의 메아리",
+    "en": "VOID-3: Echoes of the Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛조차 영원한 어둠에 삼켜지고 고대의 신비가 발견을 기다리는 우주의 가장 먼 곳에서, 보이드-3 유닛이 붕괴하는 별들 사이로 고요하고도 공포스러운 아름다움을 항해합니다.",
+    "en": "The VOID-3 unit navigates the silent, terrifying beauty of the furthest reaches of space, where light is consumed by the eternal dark and ancient mysteries await discovery amidst the collapsing stars."
+  },
+  "prompt": "VOID-3 mechanical core floating in the center of a dying nebula, cosmic deep aesthetic, dark matter tendrils, bioluminescent circuitry, ultra-detailed, cinematic lighting, 8k resolution, ethereal void, star-forming regions, dark purple and cold blue color palette, intricate futuristic design, sense of immense scale",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-30T00:26:53.631+09:00"
+}

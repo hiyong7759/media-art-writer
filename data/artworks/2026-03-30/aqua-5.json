@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 중심",
+    "en": "AQUA-5: The Abyssal Nexus"
+  },
+  "description": {
+    "ko": "AQUA-5는 바다의 가장 깊고 어두운 곳에 위치한 최첨단 심해 연구 기지입니다. 영원한 자정의 심연 속에서 등대처럼 빛나며, 미지의 해양 생물과 지열 에너지를 탐사하는 허브 역할을 합니다.",
+    "en": "AQUA-5 is a state-of-the-art deep-sea research station situated in the darkest depths of the ocean. It serves as a hub for exploring unknown marine life and geothermal energy, glowing like a beacon in the eternal midnight of the abyss."
+  },
+  "prompt": "High-tech underwater research station AQUA-5, located at the bottom of the Mariana Trench, glowing blue bioluminescent lights, massive pressurized glass domes, hydrothermal vents nearby, schools of translucent deep-sea fish, cinematic lighting, ultra-realistic, 8k resolution, dark and mysterious atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-30T00:27:16.863+09:00"
+}

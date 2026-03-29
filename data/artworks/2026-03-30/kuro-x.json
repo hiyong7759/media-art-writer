@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모놀리식 붕괴",
+    "en": "The Monolithic Disruption"
+  },
+  "description": {
+    "ko": "검은 흑요석 구조가 디지털 파편으로 산산조각 나는 모습을 통해 질서에서 나타나는 혼돈을 기하학적으로 탐구합니다.",
+    "en": "A sharp, geometric exploration of chaos emerging from order, featuring a black obsidian structure shattering into digital fragments."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian prism by KURO-X, titled 'The Monolithic Disruption.' The structure undergoes a violent mathematical deconstruction, fracturing into a vortex of sharp #808080 and #C0C0C0 polygonal shards against a clinical #FFFFFF digital vacuum. Intense pixel-sorting artifacts, digital scanlines, and heavy chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting planes. Unreal Engine 5 style, 8k resolution, capturing precise mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-03-30T00:26:17.997+09:00"
+}

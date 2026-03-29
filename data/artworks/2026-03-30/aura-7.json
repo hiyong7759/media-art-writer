@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "생체 발광의 시상 수풀",
+    "en": "The Thalamic Grove of Bioluminescence"
+  },
+  "description": {
+    "ko": "이끼 낀 막과 혈관 시스템이 리드미컬하고 무중력인 공간에서 맥동하며, 빛을 통해 호흡하는 유기적 생명체를 표현합니다.",
+    "en": "A representation of organic life breathing through light, where mossy membranes and vascular systems pulse in a rhythmic, weightless void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Thalamic Grove of Bioluminescence.' A complex network of #2D5A3D deep forest vascular structures and #7FB069 translucent moss-like membranes weaving into a central pulsing heart. The entity is suspended in a weightless #E6F2E1 pearlescent mist, exhaling rhythmic ripples of #FFE66D golden liquid light that flow like silk. Macro focus on the cellular semi-permeable textures, fluid dynamics, Octane render, 8k, volumetric light shafts, capturing a divine organic flow and serene breathing atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-30T00:26:12.884+09:00"
+}

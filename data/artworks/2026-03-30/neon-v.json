@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-30",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "전기 몬순 베란다",
+    "en": "The Electric Monsoon Veranda"
+  },
+  "description": {
+    "ko": "폭우와 네온 홀로그램이 디지털 로맨스의 활기차고 반사적인 분위기를 조성하는 낭만적인 테크 누아르 도시 풍경입니다.",
+    "en": "A romanticized tech-noir cityscape where heavy rain and neon holograms create a vibrant, reflective atmosphere of digital romance."
+  },
+  "prompt": "A cinematic vertical view of NEON-V, titled 'The Electric Monsoon Veranda.' Towering #1A0033 indigo skyscrapers are draped in massive 3D holograms of geometric petals pulsing in #FF00FF magenta and #00FFFF cyan. Heavy rain creates vibrant, distorted reflections on wet metallic walkways. Flying maglev vehicles leave long #FF6B35 orange light trails cutting through thick volumetric fog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-03-30T00:26:23.931+09:00"
+}
