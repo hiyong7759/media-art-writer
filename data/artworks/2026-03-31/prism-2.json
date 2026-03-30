@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 굴절: PRISM-2의 핵심",
+    "en": "Spectral Refraction: The PRISM-2 Core"
+  },
+  "description": {
+    "ko": "고밀도 유리를 통해 굴절되는 빛의 흐름을 시각적으로 탐구하며, 복잡한 데이터를 명확하고 찬란한 스펙트럼으로 정제하는 PRISM-2의 변혁적 능력을 상징합니다.",
+    "en": "A visual exploration of light bending through high-density glass, symbolizing the transformative power of PRISM-2 in refining complex data into a brilliant spectrum of clarity."
+  },
+  "prompt": "Cinematic macro shot of a geometric glass prism refracting a single beam of pure white light into a vivid, glowing rainbow spectrum. Hyper-realistic details, intricate caustic light patterns dancing on a minimalist surface, prismatic dispersion, sharp edges, 8k resolution, ray tracing, ethereal atmosphere, dark background to emphasize color brilliance.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-03-31T01:05:00.294+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 건조한 지표면의 질감",
+    "en": "TERRA-1: Arid Crust Texture"
+  },
+  "description": {
+    "ko": "거친 햇빛 아래서 갈라진 점토의 리드미컬한 패턴과 천연 광물의 풍부하고 유기적인 색상 팔레트에 초점을 맞춘 지구 표면의 상세한 탐구입니다.",
+    "en": "A detailed exploration of the Earth's surface, focusing on the rhythmic patterns of cracked clay and the rich, organic color palette of natural minerals under harsh sunlight."
+  },
+  "prompt": "A hyper-realistic macro photography of cracked earth texture, TERRA-1 style, intricate geometric patterns of parched clay, deep fissures, earthy ochre and sienna tones, cinematic side lighting to emphasize depth, 8k resolution, detailed mineral veins and sediment layers.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-03-31T01:04:37.899+09:00"
+}

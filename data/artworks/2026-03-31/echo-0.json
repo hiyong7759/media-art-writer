@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 스펙트럼",
+    "en": "ECHO-0: Resonance Spectrum"
+  },
+  "description": {
+    "ko": "음파를 유형의 시각 예술로 변환하는 몰입형 디지털 경험입니다. ECHO-0는 환경의 보이지 않는 주파수를 시각화하여, 정적과 소음을 빛과 기하학적 형상의 매혹적인 춤으로 바꿉니다.",
+    "en": "An immersive digital experience where sound waves are transformed into tangible visual art. ECHO-0 visualizes the unseen frequencies of the environment, turning silence and noise into a mesmerizing dance of light and geometry."
+  },
+  "prompt": "A futuristic, minimalist terminal displaying 'ECHO-0' as a series of complex 3D holographic sound waves and kinetic typography. Prismatic light refraction, pulsing neon blue and silver frequencies, data visualization of sonic vibrations, cinematic lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-03-31T01:04:16.296+09:00"
+}

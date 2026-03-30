@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "디지털 플로라: 실리콘의 개화",
+    "en": "Digital Flora: The Silicon Bloom"
+  },
+  "description": {
+    "ko": "유기적인 생물학적 구조와 디지털 정보의 교차점을 탐구하며, 코드와 빛으로 피어나는 꽃을 묘사합니다.",
+    "en": "An exploration of the intersection between organic biological structures and digital information, where flowers bloom from code and light."
+  },
+  "prompt": "Hyper-realistic macro photography of a digital orchid with translucent petals made of flowing data streams, glowing fiber-optic stamens, pulsing circuit-board veins, set in a dark holographic forest, ethereal bokeh, 8k resolution, cinematic lighting, neon cyan and soft violet color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-03-31T01:04:04.344+09:00"
+}

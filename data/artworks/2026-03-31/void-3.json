@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: The Cosmic Deep"
+  },
+  "description": {
+    "ko": "소용돌이치는 성운과 죽은 별들의 메아리에 둘러싸인 채, 어둠의 파수꾼으로서 존재하는 VOID-3가 우주의 고요하고 무한한 영역을 탐험합니다.",
+    "en": "An exploration of the silent, infinite reaches of the universe where VOID-3 exists as a sentinel of the dark, surrounded by swirling nebulae and the echoes of dead stars."
+  },
+  "prompt": "Cinematic shot of VOID-3, a crystalline futuristic entity floating in the center of a dark cosmic nebula, bioluminescent deep blue and purple gases, swirling stardust, hyper-realistic, 8k resolution, ethereal lighting, depth of field, cosmic solitude, intricate geometric textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-03-31T01:04:26.910+09:00"
+}

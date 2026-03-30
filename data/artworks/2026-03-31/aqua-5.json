@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 메아리",
+    "en": "AQUA-5: Echoes of the Abyss"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 해저 가장 깊은 곳으로 여행을 떠나보세요. 심해의 거대한 압력을 견디도록 설계된 이 기술은 비할 데 없는 선명함으로 고요하고 빛나는 심해의 아름다움을 밝혀줍니다.",
+    "en": "Journey to the furthest reaches of the ocean floor with AQUA-5. Designed to withstand the crushing pressures of the abyss, this technology brings the silent, glowing beauty of the deep sea to light with unparalleled clarity."
+  },
+  "prompt": "A cinematic, wide-angle shot of the AQUA-5 advanced research module navigating the dark Hadal zone of the deep ocean. The vessel features a sleek, pressure-resistant metallic obsidian hull with glowing neon cyan accents. Bioluminescent deep-sea jellyfish and glowing coral reefs illuminate the pitch-black surroundings. Volumetric lighting, floating underwater particles, ultra-detailed textures, 8k resolution, photorealistic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-03-31T01:04:48.930+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-31",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "유동적인 에너지의 매혹적인 시각화로, 자연스러운 곡선과 빛이 수렴하여 연속적이고 리듬감 있는 움직임과 생물학적 조화를 만들어냅니다.",
+    "en": "A mesmerizing visualization of fluid energy, where natural curves and light converge to create a sense of continuous, rhythmic motion and biological harmony."
+  },
+  "prompt": "Cinematic macro shot of iridescent fluid ribbons, translucent organic shapes weaving in a rhythmic dance, bioluminescent teal and deep violet glows, liquid silk texture, soft atmospheric lighting, ethereal motion blur, 8k resolution, hyper-realistic, organic curves.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-03-31T01:03:32.928+09:00"
+}
