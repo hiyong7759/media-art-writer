@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-02",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "에코-0가 소리의 보이지 않는 구조를 포착하여 시각화하는 몰입형 디지털 경험으로, 복잡한 오디오 신호를 경이로운 빛의 기하학적 형상으로 구현합니다.",
+    "en": "An immersive digital experience where ECHO-0 captures and visualizes the unseen architecture of sound, turning complex audio signals into breathtaking luminous geometry."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0, sound visualization theme, abstract glowing sonic waves and ripples in a dark void, pulsating neon frequencies, fluid metallic particles dancing to invisible rhythms, high-tech digital aesthetic, 8k resolution, ray tracing, deep blue and electric violet color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-02T01:05:23.992+09:00"
+}

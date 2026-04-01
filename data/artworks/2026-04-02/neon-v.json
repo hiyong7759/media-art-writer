@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-02",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 호라이즌: V-디스트릭트",
+    "en": "Neon Horizon: The V-District"
+  },
+  "description": {
+    "ko": "첨단 기술과 거친 지하 세계가 만나는 밀집된 사이버펑크 도시의 숨막히는 전경. V-디스트릭트의 중심에서 뿜어져 나오는 영롱한 네온 불빛이 도시를 밝힙니다.",
+    "en": "A breathtaking view of a dense cyberpunk city where advanced technology meets the gritty underground, illuminated by the perpetual glow of the V-District's neon heart."
+  },
+  "prompt": "A sprawling cyberpunk metropolis at night, high-tech skyscrapers with glowing blue and magenta neon signs, rain-slicked asphalt reflecting vibrant lights, flying transit vehicles weaving through smog-filled alleyways, cinematic lighting, ultra-detailed futuristic architecture, NEON-V aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-02T01:05:04.018+09:00"
+}

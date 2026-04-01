@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-02",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 촉각적 지형",
+    "en": "TERRA-1: Tactile Topography"
+  },
+  "description": {
+    "ko": "위성 시점에서 바라본 지구 표면의 다양한 질감을 고해상도로 탐구하며, 지질학적 형성물과 광물 퇴적층의 추상적인 아름다움을 포착합니다.",
+    "en": "A high-resolution exploration of Earth's diverse surface textures, capturing the abstract beauty of geological formations and mineral deposits from a satellite perspective."
+  },
+  "prompt": "Cinematic satellite photography, extreme close-up of Earth's surface, intricate textures of crystalline salt flats, deep jagged canyons, and swirling desert sands, vibrant natural mineral colors, high resolution, 8k, abstract geological patterns, topographic details, sharp focus, natural lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-02T01:05:33.500+09:00"
+}

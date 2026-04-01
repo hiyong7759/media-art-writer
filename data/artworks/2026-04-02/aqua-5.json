@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-02",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생물 발광 성당",
+    "en": "The Bioluminescent Cathedral"
+  },
+  "description": {
+    "ko": "미래형 연구 모듈과 투명한 생명체들이 어우러진, 깊은 바다의 평화롭고 신비로운 빛을 담았습니다.",
+    "en": "The peaceful and mysterious light of the deep ocean, featuring futuristic research modules and transparent lifeforms."
+  },
+  "prompt": "A cinematic ultra-detailed shot of AQUA-5, titled 'The Bioluminescent Cathedral.' A series of glowing modular spheres submerged in the dark #000080 midnight zone. Surrounding the station are massive #40E0D0 bioluminescent jellyfish and glowing #48D1CC coral. The #006994 water is pressurized with floating marine snow. High-tech lighting from the station illuminates the rugged ocean floor. 8k resolution, photorealistic, capturing the peaceful dance of transparent life in the deep sea.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-02T01:05:37.624+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-02",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "폐의 기능을 하는 산호초",
+    "en": "The Pulmonary Coral Reef"
+  },
+  "description": {
+    "ko": "반투명한 막과 빛나는 수액 통로를 통해 자연의 리드미컬한 호흡을 표현한 생물학적 걸작입니다.",
+    "en": "A biological masterpiece representing the rhythmic breathing of nature through translucent membranes and glowing sap channels."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Pulmonary Coral Reef.' A central breathing organ made of translucent #7FB069 emerald moss membranes and #2D5A3D vascular vines, pulsing slowly in a weightless #E6F2E1 pearlescent liquid void. The entity exhales #FFE66D golden bioluminescent bubbles that flow like liquid silk. Macro focus on the semi-permeable cellular textures and glowing internal sap channels. Rendered in Octane with hyper-realistic fluid dynamics, 8k resolution, volumetric light shafts, and extreme soft focus bokeh to capture a divine organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-02T01:04:51.021+09:00"
+}
