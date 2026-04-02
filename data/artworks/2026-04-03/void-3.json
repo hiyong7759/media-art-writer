@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성운: VOID-3",
+    "en": "Abyssal Nebula: VOID-3"
+  },
+  "description": {
+    "ko": "고대 우주 먼지 속에서 중력 이상 현상으로 나타나는 VOID-3를 통해 우주의 가장 어두운 곳을 탐험합니다.",
+    "en": "An exploration into the darkest reaches of the universe where VOID-3 manifests as a gravitational anomaly amidst ancient stardust."
+  },
+  "prompt": "A cinematic, ultra-realistic wide shot of VOID-3, a monolithic dark structure floating in the deep cosmic void. Glowing indigo and violet nebula clouds swirl around it, light bending near the event horizon, hyper-detailed cosmic dust, 8k resolution, ethereal lighting, sci-fi concept art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-03T00:56:45.241+09:00"
+}

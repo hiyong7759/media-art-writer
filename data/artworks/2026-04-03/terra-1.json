@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지질학적 태피스트리",
+    "en": "The Geologic Tapestry"
+  },
+  "description": {
+    "ko": "지구 표면에 대한 고고도 지형 연구로, 침식과 광물 퇴적에 의해 형성된 예술적 패턴을 강조합니다.",
+    "en": "A high-altitude topographic study of Earth's surface, highlighting the artistic patterns formed by erosion and mineral deposits."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Geologic Tapestry.' A top-down perspective focusing on complex geological textures where #8B4513 sienna cracked desert soil meets #D2691E ochre sedimentary layers. Vibrant #F4A460 sand dunes merge with deep #2F4F4F slate mineral veins that resemble organic circulatory systems. 8k resolution, cinematic natural lighting, emphasizing the raw, tactile patterns of erosion and the narrative of land carved by time. Sharp focus on every grain of sand and crystalline mineral deposit.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-03T00:56:49.406+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "수학적 엔트로피",
+    "en": "Mathematical Entropy"
+  },
+  "description": {
+    "ko": "날카로운 기하학적 파편과 하이테크 글리치 미학을 특징으로 하는, 완벽한 질서가 카오스로 변하는 순간의 표현입니다.",
+    "en": "A representation of perfect order breaking into chaos, featuring sharp geometric fragments and high-tech glitch aesthetics."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tesseract by KURO-X, titled 'Mathematical Entropy.' The structure is undergoing a high-velocity geometric deconstruction, shattering into a vortex of sharp #808080 and #C0C0C0 polygonal shards against a clinical #FFFFFF digital vacuum. Heavy digital glitch artifacts, pixel-sorting textures, and intense RGB chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the precise moment of calculated chaos within perfect order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-03T00:56:13.323+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "천상의 폐포",
+    "en": "The Celestial Alveoli"
+  },
+  "description": {
+    "ko": "부드럽고 빛나는 질감을 통해 식물 같은 균사체와 폐 구조를 결합한 호흡하는 생물학적 실체에 대한 매크로 탐구입니다.",
+    "en": "A macro exploration of a breathing biological entity, blending plant-like mycelium with pulmonary architecture through soft, glowing textures."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Celestial Alveoli.' A sprawling, pulsating organic network of #7FB069 emerald moss-like membranes and #2D5A3D deep vascular vines. The entity functions as a massive biological bellows, rhythmically exhaling clouds of #FFE66D golden bioluminescent spores into a weightless #E6F2E1 pearlescent atmosphere. Macro focus on the translucent, semi-permeable cellular textures revealing internal capillary networks of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-03T00:56:09.162+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 대성당",
+    "en": "The Abyssal Cathedral"
+  },
+  "description": {
+    "ko": "미래 기술과 심해 해구의 생물 발광 생명체가 만나는 고요하면서도 신비로운 수중 장면입니다.",
+    "en": "A serene yet mysterious underwater scene where futuristic technology meets the bioluminescent life of the deepest ocean trenches."
+  },
+  "prompt": "A cinematic ultra-detailed shot of AQUA-5, titled 'The Abyssal Cathedral.' A cluster of glowing modular research spheres submerged in the dark #000080 midnight zone. Surrounding the station are massive #40E0D0 bioluminescent jellyfish and glowing #48D1CC coral that pulse with soft light. The #006994 water is heavy and pressurized, filled with floating marine snow and micro-bubbles. High-tech floodlights from the modules illuminate the rugged, trench-like ocean floor. 8k resolution, photorealistic, capturing the peaceful dance of transparent life in the deep sea.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-03T00:56:53.570+09:00"
+}

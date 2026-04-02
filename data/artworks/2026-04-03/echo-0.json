@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-03",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 공명 코어",
+    "en": "Sonic Resonance Core"
+  },
+  "description": {
+    "ko": "소리를 물리적 빛과 기하학으로 시각화하여, 오디오 주파수가 입자와 고리의 춤으로 변하는 모습을 보여줍니다.",
+    "en": "A visualization of sound as physical light and geometry, where audio frequencies transform into a dance of particles and rings."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, titled 'Sonic Resonance Core.' A minimalist spherical robot suspended in a dark studio void, surrounded by complex 3D holographic rings and fluid wave ripples that glow in #4169E1 royal blue and #FF4500 electric orange. As the core pulses, digital frequency patterns manifest as glowing #32CD32 green particles and #FFD700 gold light trails. 8k resolution, photorealistic ray tracing, featuring intricate UI elements and a sense of visual consonance where light reacts perfectly to invisible bass frequencies.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-03T00:56:37.126+09:00"
+}
