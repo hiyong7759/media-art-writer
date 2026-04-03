@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "수정처럼 빛나는 디지털 블룸",
+    "en": "Crystalline Digital Bloom"
+  },
+  "description": {
+    "ko": "식물이 순수한 빛, 데이터 스트림, 그리고 수정 구조로 이루어진 디지털 풍경 속에서 진화하는 자연에 대한 선구적인 탐구입니다.",
+    "en": "A visionary exploration of nature evolving within a digital landscape, where flora is constructed from pure light, data streams, and crystalline structures."
+  },
+  "prompt": "A hyper-realistic cybernetic forest featuring translucent crystalline leaves with embedded glowing fiber-optic veins, bioluminescent neon pollen floating in a dark digital atmosphere, holographic projections of fractal trees, electric blue and magenta color palette, cinematic lighting, 8k resolution, intricate macro textures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-04T00:37:14.520+09:00"
+}

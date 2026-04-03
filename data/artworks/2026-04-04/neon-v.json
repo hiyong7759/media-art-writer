@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "비 내리는 홀로그램 광장",
+    "en": "The Rainy Holo-Plaza"
+  },
+  "description": {
+    "ko": "네온 불빛과 빗줄기가 어우러져 활기차고 분위기 있는 테크 누아르 풍경을 만들어내는 미래 도시의 낭만적인 우울함을 깊이 있게 탐구합니다.",
+    "en": "A deep dive into the romantic melancholy of a futuristic city, where neon lights and rain merge to create a vibrant, atmospheric tech-noir landscape."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Rainy Holo-Plaza.' Towering #1A0033 indigo skyscrapers are adorned with massive 3D holograms of koi fish swimming in #FF00FF magenta and #00FFFF cyan light. Heavy monsoon rain creates vibrant, distorted reflections on wet metallic asphalt and glass walkways. Flying maglev vehicles leave long #FF6B35 orange light trails cutting through the dense volumetric fog and smog. Hyper-detailed tech-noir textures, ray-traced reflections, 8k resolution, capturing a moody and romantic futuristic urban atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-04T00:36:39.529+09:00"
+}

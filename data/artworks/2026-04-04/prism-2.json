@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "에테르 프리즘: 빛의 춤",
+    "en": "Ethereal Prism: The Dance of Light"
+  },
+  "description": {
+    "ko": "수정 기하학을 통해 빛이 굴절되고 분산되는 매혹적인 탐구로, 생동감 넘치는 색채의 스펙트럼과 복잡한 광학적 패턴을 만들어냅니다.",
+    "en": "A mesmerizing exploration of how light bends and splits through crystal geometries, creating a vibrant spectrum of colors and intricate optical patterns."
+  },
+  "prompt": "Cinematic macro shot of a triangular glass prism refracting a single beam of pure white light into a vivid rainbow spectrum across a dark surface. Soft bokeh background, intricate caustics, prismatic chromatic aberration, hyper-realistic textures, 8k resolution, sharp focus on the internal light paths and color dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-04T00:39:36.392+09:00"
+}

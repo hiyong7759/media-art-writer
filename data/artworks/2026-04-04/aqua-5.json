@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 개척자",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "생물 발광 생명체들이 번성하고 압도적인 수압 속에 고대의 비밀이 숨겨진 바다의 가장 깊은 해구로 여행을 떠나보세요.",
+    "en": "Embark on a journey to the deepest trenches of the ocean where bioluminescent creatures thrive and ancient secrets lie hidden in the crushing pressure."
+  },
+  "prompt": "Ultra-realistic 8k cinematic shot of a futuristic submersible AQUA-5 exploring a glowing underwater trench, bioluminescent jellyfish, dark deep sea environment, particles of marine snow, high contrast, atmospheric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-04T00:38:58.850+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0의 공명",
+    "en": "Resonance of ECHO-0"
+  },
+  "description": {
+    "ko": "음향 진동을 역동적인 빛 패턴과 기하학적 구조로 변환하여 소리의 주파수를 시각적으로 탐구하는 매혹적인 경험입니다.",
+    "en": "A mesmerizing visual exploration of sound frequencies, translating acoustic vibrations into dynamic light patterns and geometric structures."
+  },
+  "prompt": "Abstract 3D visualization of sound waves, pulsating concentric ripples, glowing neon cyan and deep violet gradients, fluid motion, cinematic lighting, high-resolution digital art, reverberating echoes, ECHO-0 theme, futuristic sonic architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-04T00:37:47.478+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-04",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "순환하는 수목의 숨결",
+    "en": "The Circulatory Arbor"
+  },
+  "description": {
+    "ko": "생명의 연결성을 표현하며, 무중력 환경 속에서 유기체의 리드미컬한 박동과 생체 발광 에너지의 흐름에 집중한 작품입니다.",
+    "en": "A representation of the interconnectedness of life, focusing on the rhythmic pulse of organic matter and the flow of bioluminescent energy within a weightless environment."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Circulatory Arbor.' A monumental, breathing organic structure composed of #7FB069 translucent moss membranes and #2D5A3D vascular vines that pulse with rhythmic vitality. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere. Glowing #FFE66D golden sap flows through transparent capillary networks, exhaling a mist of bioluminescent spores. Macro focus on the semi-permeable cellular textures, fluid dynamics, Octane render, 8k resolution, volumetric light shafts, and extreme soft focus bokeh, capturing a divine organic flow and serene breathing atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-04T00:36:35.009+09:00"
+}
