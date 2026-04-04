@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "오케스트라의 특이점",
+    "en": "The Orchestral Singularity"
+  },
+  "description": {
+    "ko": "유체 역학과 기하학적 빛의 구조를 통해 시각화된 소리의 보이지 않는 힘.",
+    "en": "The invisible power of sound made visible through fluid dynamics and geometric light structures."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, titled 'The Orchestral Singularity.' A central floating core of liquid chrome vibrates violently, generating complex 3D holographic rings that manifest as #4169E1 royal blue waves and #FF4500 electric orange ripples. As the sound frequency peaks, the air crystallizes into #32CD32 green geometric particles and #FFD700 gold light trails. Dark studio void background, hyper-realistic ray tracing, capturing the visual consonance of a symphony rendered in physical light and motion. 8k resolution, extreme detail.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-05T00:27:25.149+09:00"
+}

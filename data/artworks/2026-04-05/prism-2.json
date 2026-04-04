@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 분산",
+    "en": "The Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "복잡한 유리 프리즘을 통해 순수한 백색광이 강렬한 색의 폭발로 변하는 과정.",
+    "en": "The transformation of pure white light into a vibrant explosion of color through a complex glass prism."
+  },
+  "prompt": "A hyper-realistic macro photography shot of PRISM-2, titled 'The Chromatic Dispersion.' A complex, multi-faceted crystalline structure captures a single, intense beam of white light, shattering it into an ultra-wide spectrum of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. The background is a minimalist matte black, making the rainbow caustics and sharp chromatic aberration patterns glow with pure energy. 8k resolution, professional studio lighting, emphasizing the internal light paths and the crystalline clarity of the glass. Ray-traced refraction.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-05T00:27:41.676+09:00"
+}

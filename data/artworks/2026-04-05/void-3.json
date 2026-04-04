@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무한의 흑요석 관문",
+    "en": "The Obsidian Gate of Infinity"
+  },
+  "description": {
+    "ko": "중력과 빛이 존재의 끝에서 유희하는, 깊은 우주 공간의 장엄하고도 두려운 모습.",
+    "en": "A majestic and terrifying look into the deep cosmic void, where gravity and light play at the edge of existence."
+  },
+  "prompt": "A cinematic ultra-realistic wide shot of VOID-3, titled 'The Obsidian Gate of Infinity.' A massive, ancient monolithic structure floats at the edge of a swirling black hole accretion disk. Swirling #3D1A78 deep violet and #7B68EE indigo gravitational gases are being pulled into the central #0D0221 obsidian abyss. Faint #E6E6FA lavender nebula clouds form ghostly silhouettes in the background. Light from distant stars is bent and stretched via gravitational lensing. 8k resolution, photorealistic cosmic dust, capturing the terrifying yet silent majesty of the deep universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-05T00:27:29.268+09:00"
+}

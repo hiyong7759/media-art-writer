@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "발광하는 폐의 숲",
+    "en": "The Luminescent Pulmonary Grove"
+  },
+  "description": {
+    "ko": "생물 발광 막을 통해 빛과 생명을 걸러내는, 살아 숨 쉬는 유기적 건축물의 형상.",
+    "en": "A representation of a living, breathing organic architecture that filters light and life through bioluminescent membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Luminescent Pulmonary Grove.' A vast, living architectural system of #7FB069 emerald moss-like membranes and #2D5A3D deep forest vascular vines that pulse rhythmically. The entity functions as a celestial bellows, inhaling #E6F2E1 pearlescent mists and exhaling swirling ribbons of #FFE66D golden bioluminescent nectar. Macro focus on semi-permeable cellular structures with visible internal capillary networks of flowing liquid light. Rendered in Octane, 8k resolution, featuring complex fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-05T00:27:08.539+09:00"
+}

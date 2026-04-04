@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "시냅스 버드나무",
+    "en": "The Synaptic Willow"
+  },
+  "description": {
+    "ko": "유기적 식물학과 디지털 하드웨어의 융합으로, 데이터를 햇빛처럼 처리하는 나무를 형상화.",
+    "en": "A fusion of organic botany and digital hardware, representing a tree that processes data as if it were sunlight."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Synaptic Willow.' A sentient digital tree with weeping branches made of #89CFF0 iridescent fiber-optic cables and #50C878 emerald circuit veins. The leaves are translucent liquid crystal displays flickering with golden data patterns. The tree exhales #FFB6C1 fractal pollen clouds into a deep #4A0E4E velvet void. Floating binary code droplets hang from the branches like crystalline dew. 8k resolution, photorealistic fusion of organic growth and advanced cybernetic technology, ethereal volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-05T00:27:21.006+09:00"
+}

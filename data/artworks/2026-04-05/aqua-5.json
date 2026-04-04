@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생물 발광의 심해",
+    "en": "The Bioluminescent Abyss"
+  },
+  "description": {
+    "ko": "압도적인 수압 속에서 살아남기 위해 스스로 빛을 내는 생명체들이 존재하는, 고요한 심해의 풍경.",
+    "en": "A peaceful look into the dark depths of the ocean, where life creates its own light to survive the crushing pressure."
+  },
+  "prompt": "A cinematic ultra-detailed shot of AQUA-5, titled 'The Bioluminescent Abyss.' A cluster of translucent, organic research pods submerged in the #000080 midnight zone. Massive #40E0D0 turquoise jellyfish with flowing tendrils drift past, pulsing with internal light. The #006994 deep sea water is thick with marine snow and #48D1CC cyan micro-bubbles. High-tech floodlights from the pods illuminate the jagged, mineral-rich ocean floor. 8k resolution, photorealistic fluid dynamics, capturing the peaceful and mysterious dance of life in the high-pressure deep.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-05T00:27:37.562+09:00"
+}

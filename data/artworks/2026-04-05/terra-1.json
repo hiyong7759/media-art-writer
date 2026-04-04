@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-05",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "층을 이룬 이야기",
+    "en": "The Stratified Narrative"
+  },
+  "description": {
+    "ko": "암석과 토양의 층을 통해 전해지는, 시간의 살아있는 기록으로서의 지구 표면에 대한 세밀한 탐구.",
+    "en": "A detailed exploration of the Earth's surface as a living record of time, told through layers of rock and soil."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Stratified Narrative.' A top-down macro perspective of a massive canyon where #8B4513 sienna earth and #D2691E ochre sedimentary layers reveal millions of years of history. Sharp #F4A460 sand dunes creep over #2F4F4F slate mineral deposits that look like frozen lightning. The texture is extremely tactile, showing every grain of sand and crystalline fracture. Cinematic natural lighting emphasizes the raw, rugged beauty of land carved by time and erosion. 8k resolution, hyper-detailed geological mapping.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-05T00:27:33.402+09:00"
+}
