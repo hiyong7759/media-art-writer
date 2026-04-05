@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "void-3",
+  "title": {
+    "ko": "흑요석의 천상 균열",
+    "en": "The Celestial Rift of Obsidian"
+  },
+  "description": {
+    "ko": "중력이 미지의 세계로 향하는 거대 관문 주위의 빛을 굴절시키는, 우주 심연의 장엄하고 신비로운 묘사입니다.",
+    "en": "A majestic and eerie depiction of the cosmic abyss, where gravity bends light around a monolithic gateway into the unknown."
+  },
+  "prompt": "A cinematic ultra-realistic wide shot of VOID-3, titled 'The Celestial Rift of Obsidian.' A massive, ancient monolithic gate floats at the edge of a swirling black hole. Swirling #3D1A78 deep violet and #7B68EE indigo gravitational gases are being pulled into a central #0D0221 obsidian abyss. Faint #E6E6FA lavender nebula clouds form ghostly silhouettes in the background. Light from distant stars is bent via gravitational lensing. 8k resolution, photorealistic cosmic dust, capturing the terrifying and silent majesty of the infinite universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-06T00:28:04.876+09:00"
+}

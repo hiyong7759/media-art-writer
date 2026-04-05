@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "재귀적 기하학적 엔트로피",
+    "en": "Recursive Geometric Entropy"
+  },
+  "description": {
+    "ko": "단단한 흑요석 단일체가 완벽하게 균형 잡힌 디지털 소용돌이로 산산조각 나는 수리적 혼돈을 날카롭고 고대비로 탐구합니다.",
+    "en": "A sharp, high-contrast exploration of mathematical chaos where a solid obsidian monolith shatters into a perfectly balanced digital vortex."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith by KURO-X, titled 'Recursive Geometric Entropy.' The structure is in a state of high-velocity mathematical deconstruction, shattering into a calculated vortex of #808080 and #C0C0C0 razor-sharp polygonal shards. Set against a clinical #FFFFFF digital void, the composition features intentional pixel-sorting artifacts, heavy digital scanlines, and extreme RGB chromatic aberration. High-contrast cinematic lighting with ray-traced reflections on shifting planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the precise moment of chaotic order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-06T00:26:57.177+09:00"
+}

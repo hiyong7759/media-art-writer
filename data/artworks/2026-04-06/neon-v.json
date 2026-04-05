@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "일렉트릭 로터스 메가시티",
+    "en": "The Electric Lotus Megacity"
+  },
+  "description": {
+    "ko": "영원한 네온 비 아래 홀로그램 자연과 산업 거대 구조물이 충돌하는 낭만적인 사이버펑크 도시 풍경입니다.",
+    "en": "A romanticized cyberpunk cityscape where holographic nature and industrial megastructures collide under a perpetual neon rain."
+  },
+  "prompt": "A cinematic wide-angle shot of NEON-V, titled 'The Electric Lotus Megacity.' Towering #1A0033 indigo skyscrapers are overgrown with massive 3D holographic lotuses blooming in #FF00FF magenta and #00FFFF cyan light. Heavy monsoon rain creates a kaleidoscopic distortion on wet metallic asphalt. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing the romantic and melancholic soul of a future urban landscape.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-06T00:27:01.352+09:00"
+}

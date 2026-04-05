@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 합성: 디지털 숲",
+    "en": "Neon Synthesis: The Digital Forest"
+  },
+  "description": {
+    "ko": "유기적인 형태와 사이버네틱 광원이 만나 데이터 기반의 아름다움과 디지털의 경계로 진화하는 자연의 경이로운 시각화.",
+    "en": "A breathtaking visualization of nature evolving into a digital frontier, where organic forms meet cybernetic light and data-driven beauty."
+  },
+  "prompt": "A high-tech botanical garden where plants are made of glowing fiber optics and translucent digital glass. Iridescent holographic leaves with circuit board patterns. Neon pollen floating in the air. Deep purple and cyan lighting, hyper-realistic, 8k resolution, cinematic atmosphere, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-06T00:27:10.274+09:00"
+}

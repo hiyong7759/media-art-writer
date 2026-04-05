@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "미토콘드리아 생체 발광망",
+    "en": "The Mitochondrial Bioluminescent Web"
+  },
+  "description": {
+    "ko": "이끼 같은 섬유질과 액체 생명체처럼 흐르는 황금빛의 복잡한 그물을 통해 자연의 근본적인 호흡을 시각화합니다.",
+    "en": "A visualization of the fundamental breath of nature, showcasing a complex web of mossy fibers and golden light flowing like liquid life."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Mitochondrial Bioluminescent Web.' A sprawling network of #7FB069 emerald moss-like fibers and #2D5A3D deep forest vascular structures pulsing with rhythmic life. The entity is suspended in a weightless #E6F2E1 pearlescent liquid void, exhaling swirling ribbons of #FFE66D golden liquid light. Macro focus on semi-permeable cellular membranes and glowing internal sap channels. Rendered in Octane, 8k resolution, featuring complex fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-06T00:26:52.909+09:00"
+}

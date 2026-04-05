@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "추상적 지형: 지구의 자연 패턴",
+    "en": "Abstract Topography: Earth's Natural Patterns"
+  },
+  "description": {
+    "ko": "사막 분지의 소금 평원과 광물 매장지의 복잡한 질감을 수직 부감 시점으로 보여주는 고해상도 위성 스타일의 지구 표면 이미지입니다.",
+    "en": "A high-resolution satellite-style capture of the Earth's surface, showcasing the intricate textures of salt flats and mineral deposits in a desert basin from a top-down perspective."
+  },
+  "prompt": "Cinematic drone shot, top-down aerial view of Earth's crust, intricate geological textures, abstract natural patterns, crystalline salt flats meeting mineral-rich red earth, vibrant turquoise water veins, hyper-realistic detail, 8k resolution, satellite photography style, high contrast lighting, TERRA-1 aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-06T00:28:48.571+09:00"
+}

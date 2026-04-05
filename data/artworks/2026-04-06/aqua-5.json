@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-06",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 속삭임",
+    "en": "Abyssal Whisper"
+  },
+  "description": {
+    "ko": "영원한 어둠이 깔린 심해의 심연 속에서 생명체의 빛이 신비롭게 피어오르는 미지의 세계를 탐험하세요.",
+    "en": "Explore the untouched mysteries of the deep ocean, where bioluminescent wonders light up the eternal darkness of the abyss."
+  },
+  "prompt": "Cinematic underwater photography, deep ocean floor, glowing bioluminescent jellyfish and ancient coral, dark navy and teal color palette, rays of faint light piercing through the abyss, hydrothermal vents, high detail, 8k resolution, serene and mysterious atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-06T00:29:18.083+09:00"
+}
