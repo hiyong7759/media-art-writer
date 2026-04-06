@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 항해자",
+    "en": "AQUA-5: Deep Ocean Voyager"
+  },
+  "description": {
+    "ko": "심해의 미답지 영역을 항해하며 극한의 압력을 견딜 수 있도록 설계된 최첨단 심해 탐사선입니다.",
+    "en": "A cutting-edge deep-sea exploration vessel designed to withstand extreme pressures while navigating the uncharted territories of the abyss."
+  },
+  "prompt": "Cinematic shot of a high-tech futuristic submersible named AQUA-5 exploring a dark, bioluminescent deep ocean trench, glowing neon flora, mysterious giant sea creatures in the background, underwater bubbles, volumetric lighting, hyper-realistic, 8k resolution, deep blue and turquoise color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-07T00:42:29.011+09:00"
+}

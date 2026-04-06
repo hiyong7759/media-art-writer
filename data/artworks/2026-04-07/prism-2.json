@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "크로매틱 프리즘 댄스",
+    "en": "Chromatic Prism Dance"
+  },
+  "description": {
+    "ko": "삼각형 유리 프리즘을 통과하며 선명한 무지개 빛줄기로 갈라지는 백색광의 매혹적인 모습이 미니멀한 배경 위에 펼쳐집니다.",
+    "en": "A mesmerizing display of white light splitting into a vibrant spectrum as it passes through a triangular glass prism, creating sharp rainbow beams on a minimalist background."
+  },
+  "prompt": "A macro photography shot of a high-quality glass triangular prism placed on a matte black surface. A single beam of intense white light hits the prism at an angle, refracting into a sharp, brilliant spectrum of rainbow colors (red, orange, yellow, green, blue, indigo, violet). Hyper-realistic, cinematic lighting, 8k resolution, ray tracing, sharp focus on the internal refraction patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "bright",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-07T00:42:37.081+09:00"
+}

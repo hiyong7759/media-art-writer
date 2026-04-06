@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명 스펙트럼",
+    "en": "Resonance Spectrum"
+  },
+  "description": {
+    "ko": "디지털 공간을 가로지르는 음파의 유동적인 움직임을 포착하여, 보이지 않는 음향의 에너지를 시각적으로 구현한 매혹적인 작품입니다.",
+    "en": "A mesmerizing visualization of sonic energy, capturing the fluid movement of sound waves as they ripple through a digital void, representing the unseen power of acoustics."
+  },
+  "prompt": "ECHO-0 sound visualization, abstract digital landscape of pulsating audio waves, glowing neon cyan and violet frequencies, 3D parametric oscillations, cinematic lighting, ultra-detailed textures, rhythmic patterns, synthwave aesthetic, 8k resolution, minimalist dark background",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-07T00:42:03.588+09:00"
+}

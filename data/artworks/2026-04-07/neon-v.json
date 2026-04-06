@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "코발트 빗줄기의 동맥",
+    "en": "The Cobalt Rain Arteries"
+  },
+  "description": {
+    "ko": "우뚝 솟은 인디고 빛 마천루, 선명한 마젠타 홀로그램, 그리고 미래형 교통수단의 줄지어 흐르는 빛의 궤적을 특징으로 하는 비 내리는 사이버펑크 메트로폴리스입니다.",
+    "en": "A rainy cyberpunk metropolis featuring towering indigo skyscrapers, vibrant magenta holograms, and the streaking light trails of futuristic transport."
+  },
+  "prompt": "A cinematic wide-angle shot of NEON-V, titled 'The Cobalt Rain Arteries.' Towering #1A0033 indigo skyscrapers are connected by complex tiers of glowing maglev tracks. Massive 3D holograms of geometric koi fish pulse in #FF00FF magenta and #00FFFF cyan light above the crowds. Heavy monsoon rain creates a kaleidoscopic distortion of light on wet metallic pavement. High-speed vehicles leave long #FF6B35 orange light trails that cut through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing the melancholic soul of a futuristic megacity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-07T00:41:51.820+09:00"
+}

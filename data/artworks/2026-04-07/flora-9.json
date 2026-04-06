@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "균사체 데이터 망",
+    "en": "The Mycelial Data-Web"
+  },
+  "description": {
+    "ko": "식물적 성장과 사이버네틱 회로의 융합으로, 데이터가 반투명한 크리스탈 식물을 통해 수액처럼 흐르는 디지털 정원을 묘사합니다.",
+    "en": "A fusion of botanical growth and cybernetic circuitry, depicting a digital garden where data flows like sap through translucent crystal flora."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Mycelial Data-Web.' A sentient digital fungi cluster whose caps are crafted from #89CFF0 iridescent liquid crystals and #50C878 emerald circuit board veins. The stems are glowing fiber-optic bundles emitting #FFB6C1 fractal pollen particles into a dark #4A0E4E velvet void. Floating binary code droplets cling to the translucent surfaces like crystalline dew. 8k resolution, photorealistic fusion of organic growth and advanced cybernetic technology, ethereal volumetric lighting, captured in a state of digital photosynthesis.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-07T00:41:55.963+09:00"
+}

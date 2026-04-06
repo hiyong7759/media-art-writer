@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "연동하는 개화",
+    "en": "The Peristaltic Bloom"
+  },
+  "description": {
+    "ko": "생체 발광 막과 황금빛 수액을 통해 생명의 리듬감 있는 호흡과 유기적인 흐름을 보여주는 심해 생물학적 구조물입니다.",
+    "en": "A deep-sea biological structure showcasing the rhythmic breathing and organic flow of life through bioluminescent membranes and golden sap."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Peristaltic Bloom.' A massive, central respiratory organ made of semi-transparent #7FB069 emerald moss membranes and #2D5A3D deep forest vascular networks. The entity is suspended in a weightless #E6F2E1 pearlescent liquid, rhythmically pulsing with internal bioluminescence. Golden #FFE66D liquid light flows through intricate capillary channels like molten honey. Macro focus on the cellular, semi-permeable textures and the exhaled ribbons of bioluminescent mist that drift like liquid silk. Rendered in Octane with hyper-realistic fluid dynamics, 8k resolution, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-07T00:41:35.033+09:00"
+}
