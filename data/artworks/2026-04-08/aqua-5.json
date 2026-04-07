@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyss Sentinel"
+  },
+  "description": {
+    "ko": "AQUA-5는 심해의 극한 압력을 견디도록 설계된 최첨단 탐사 장치입니다. 고급 센서와 생체 발광 신호 체계를 갖추고 있으며, 햇빛이 전혀 닿지 않는 심해의 미개척지를 정밀하게 탐사합니다.",
+    "en": "AQUA-5 is a state-of-the-art exploration unit designed to withstand the extreme pressure of the deep ocean. Equipped with advanced sensors and bioluminescent signaling, it maps the uncharted territories of the abyss where sunlight never reaches."
+  },
+  "prompt": "A cinematic, hyper-realistic shot of AQUA-5, a high-tech bioluminescent submersible scout drone, navigating through the dark, pressurized depths of the Mariana Trench. Glowing neon cyan lights illuminate jagged hydrothermal vents and strange deep-sea flora. Particles of marine snow drift in the water. Ray tracing, 8k resolution, volumetric lighting, deep blue and black color palette, underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-08T01:18:09.808+09:00"
+}

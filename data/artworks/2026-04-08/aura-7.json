@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "세포질 성운",
+    "en": "The Cytoplasmic Nebula"
+  },
+  "description": {
+    "ko": "심해의 유기 생명체 개념과 우주의 호흡계를 결합하여 천체 규모의 생물학적 폐를 형상화한 작품입니다.",
+    "en": "A representation of a celestial-scale biological lung, merging the concept of deep-sea organic life with a cosmic respiratory system."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Cytoplasmic Nebula.' A vast, pulsating respiratory network of #7FB069 emerald moss-like membranes and #2D5A3D deep forest vascular vines forming a celestial lung. The entity is suspended in a weightless #E6F2E1 pearlescent liquid vacuum, rhythmically inhaling and exhaling clouds of #FFE66D golden bioluminescent spores that move like liquid silk. Macro focus on the translucent, semi-permeable cellular walls revealing internal capillary systems of glowing liquid sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-08T01:15:18.195+09:00"
+}

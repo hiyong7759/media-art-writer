@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "사이버펑크 네온 하이츠",
+    "en": "Cyberpunk Neon Heights"
+  },
+  "description": {
+    "ko": "네온 불빛으로 물든 첨단 도시 경관을 생생하게 묘사하며, 미래적인 건축물과 디지털 미래의 분주한 분위기를 담고 있습니다.",
+    "en": "A vivid depiction of a high-tech urban landscape bathed in neon light, featuring advanced architecture and a bustling atmosphere of a digital future."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk city at night, glowing neon signs in cyan and magenta, wet streets reflecting vibrant lights, flying cars zooming between massive skyscrapers, dense fog, holographic advertisements, high detail, 8k, synthwave style, hyper-realistic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-08T01:16:13.353+09:00"
+}

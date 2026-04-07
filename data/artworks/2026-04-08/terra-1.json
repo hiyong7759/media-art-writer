@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "암석권의 고동",
+    "en": "The Lithospheric Pulse"
+  },
+  "description": {
+    "ko": "퇴적과 침식의 촉각적 질감에 초점을 맞춘 거시적 지질학 연구로, 지구 역사의 서사로 제시됩니다.",
+    "en": "A macro geological study focusing on the tactile textures of sediment and erosion, presented as a narrative of the earth's history."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Lithospheric Pulse.' A top-down macro perspective of a frozen river delta where #8B4513 sienna earth and #D2691E ochre sedimentary layers meet volcanic #2F4F4F slate mineral deposits. Sharp #F4A460 sand dunes creep over the jagged rock formations, creating patterns that look like frozen lightning. The texture is extremely tactile, showing every grain of sand and crystalline fracture. Cinematic natural lighting emphasizes the raw, rugged beauty of land carved by time and erosion. 8k resolution, hyper-detailed geological mapping.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-08T01:17:43.191+09:00"
+}

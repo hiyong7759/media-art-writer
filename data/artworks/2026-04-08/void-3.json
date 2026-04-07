@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: The Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주의 가장 먼 곳에 대한 몰입형 탐험으로, VOID-3가 깊은 우주의 고요한 장엄함과 무지갯빛 그림자 사이를 항해합니다.",
+    "en": "An immersive exploration of the furthest reaches of the universe, where the VOID-3 navigates through the silent majesty and iridescent shadows of the deep cosmos."
+  },
+  "prompt": "Cinematic 8k wide shot of the VOID-3 vessel drifting in the absolute center of a cosmic deep, surrounded by swirling dark matter, vibrant violet and indigo nebulae, distant pulsing quasars, minimalist spacecraft design with obsidian textures, hyper-detailed stellar dust, ethereal lighting, sense of infinite scale and silence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-08T01:17:39.015+09:00"
+}

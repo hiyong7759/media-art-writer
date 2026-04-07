@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 바이오루미네선스 합성",
+    "en": "FLORA-9: The Bioluminescent Synthesis"
+  },
+  "description": {
+    "ko": "디지털 식물학의 획기적인 진전인 FLORA-9은 유기적 성장과 절차적 코드의 완벽한 결합을 나타내며, 빛을 발하는 데이터 정맥과 함께 가상 공간에서 개화하는 식물입니다.",
+    "en": "A breakthrough in digital botany, FLORA-9 represents the perfect marriage between organic growth and procedural code, blooming in virtual spaces with light-emitting data veins."
+  },
+  "prompt": "Macro photography of a futuristic mechanical flower named FLORA-9, translucent crystalline petals with glowing blue fiber-optic veins, floating in a dark digital void, circuit board patterns on the leaves, soft bokeh of floating data particles, 8k resolution, cinematic lighting, neon aesthetics, hyper-detailed textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-08T01:16:50.572+09:00"
+}

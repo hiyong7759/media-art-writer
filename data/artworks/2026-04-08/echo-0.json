@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-08",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 음향 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 추상적인 음파를 빛과 움직임의 가시적인 풍경으로 변환하여 청각적 지각과 디지털 아트 사이의 경계를 허무는 실험적 시각화 프로젝트입니다.",
+    "en": "ECHO-0 is an experimental visualization project that transforms abstract sound waves into a tangible landscape of light and motion, blurring the lines between auditory perception and digital art."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0, sound visualization interface, iridescent liquid metal waves reacting to audio frequencies, neon cyan and deep violet particle trails, ethereal holographic data structures, macro lens, 8k resolution, futuristic aesthetic, deep void background.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-08T01:17:28.971+09:00"
+}
