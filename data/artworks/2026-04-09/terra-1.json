@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 질감: TERRA-1",
+    "en": "Earth's Tapestry: TERRA-1"
+  },
+  "description": {
+    "ko": "균열된 사막 지면부터 울창한 숲의 캐노피, 험준한 산맥의 능선에 이르기까지 지구의 다양한 지질학적 표면을 고해상도로 탐구합니다.",
+    "en": "A high-resolution exploration of Earth's diverse geological surfaces, from cracked desert floors to lush forest canopies and jagged mountain ridges."
+  },
+  "prompt": "Macro aerial photography of diverse Earth textures, featuring cracked salt flats, swirling river deltas, deep canyon strata, and dense emerald moss, hyper-realistic, 8k resolution, satellite perspective, cinematic lighting, intricate geological details.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-09T01:17:09.796+09:00"
+}

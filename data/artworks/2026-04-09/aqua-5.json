@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 개척자",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "심해 정오표 구역의 극한의 수압을 견디며 미지의 신비로운 심해를 기록하기 위해 설계된 첨단 자율 탐사 유닛입니다.",
+    "en": "An advanced autonomous exploration unit engineered to withstand extreme pressures while documenting the untouched mysteries of the deep ocean's midnight zone."
+  },
+  "prompt": "A high-tech, sleek AQUA-5 underwater drone navigating a dark abyssal trench, emitting soft cyan LED lights that reveal glowing bioluminescent flora and strange deep-sea creatures, cinematic lighting, 8k resolution, photorealistic metallic textures, bubbles rising from mechanical vents, wide-angle lens.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-09T01:17:20.804+09:00"
+}

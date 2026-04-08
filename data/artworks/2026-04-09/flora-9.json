@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 레인포레스트: FLORA-9 코어",
+    "en": "Neon Rainforest: The FLORA-9 Core"
+  },
+  "description": {
+    "ko": "유기적 생명체와 수정 같은 데이터 스트림이 숨 막히게 융합된 모습으로, FLORA-9 개체가 관리하는 미래 지향적인 정원을 디지털 생물 발광이 밝혀줍니다.",
+    "en": "A breathtaking convergence of organic life and crystalline data streams, where digital bioluminescence illuminates a futuristic garden maintained by the FLORA-9 entity."
+  },
+  "prompt": "A hyper-realistic digital nature scene featuring FLORA-9, a crystalline robotic entity tending to holographic glowing ferns and translucent glass trees, vibrant neon pulse flowing through roots, cinematic lighting, 8k resolution, surreal cyberpunk botanical aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-09T01:15:06.383+09:00"
+}

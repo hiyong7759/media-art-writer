@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 분산",
+    "en": "Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "백색광이 유리를 통해 스펙트럼 구성 요소로 분리되는 과정을 중심으로, 복잡한 빛의 물리학을 렌더링하는 PRISM-2 엔진의 능력을 보여주는 시각적 연구입니다.",
+    "en": "A visual study of the PRISM-2 engine's ability to render complex light physics, specifically focusing on the separation of white light into its spectral components through glass."
+  },
+  "prompt": "Cinematic macro photography of a triangular crystal prism on a dark velvet surface. A single sharp beam of white light enters the prism and refracts into a brilliant, wide-angled rainbow spectrum. High contrast, caustic light patterns, ethereal glow, 8k resolution, sharp focus on the internal light dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-09T01:18:01.494+09:00"
+}

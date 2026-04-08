@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 성진",
+    "en": "Abyssal Stardust"
+  },
+  "description": {
+    "ko": "빛이 우주의 영원한 침묵 속으로 사라지는 가장 먼 곳을 시각적으로 탐구하며, 공허함 속에 숨겨진 두려울 만큼 아름다운 심연을 드러냅니다.",
+    "en": "A visual exploration into the furthest reaches of the universe where light fades into the eternal silence of the cosmic deep, revealing the terrifying beauty of the void."
+  },
+  "prompt": "Ultra-realistic cinematic shot of a vast cosmic abyss, swirling dark matter nebulae with glowing bioluminescent star-clusters, a singular massive black hole at the center distorting light into a vibrant event horizon, deep indigo and obsidian color palette, ethereal particles, 8k resolution, cosmic horror aesthetic, immense scale and silent atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-09T01:17:01.779+09:00"
+}

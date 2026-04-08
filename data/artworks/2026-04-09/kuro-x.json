@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "파편화된 벡터 특이점",
+    "en": "Fragmented Vector Singularity"
+  },
+  "description": {
+    "ko": "완벽한 흑요석 큐브가 디지털 글리치 소용돌이로 산산조각 나는 수학적 혼돈에 대한 연구입니다.",
+    "en": "A study of mathematical chaos where a perfect obsidian cube shatters into a digital glitch vortex."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tesseract by KURO-X, titled 'Fragmented Vector Singularity.' The structure undergoes a high-velocity mathematical deconstruction, shattering into a calculated vortex of #808080 and #C0C0C0 razor-sharp polygonal shards. Set against a clinical #FFFFFF digital void, the composition features intentional pixel-sorting artifacts, heavy digital scanlines, and extreme RGB chromatic aberration. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the precise moment of chaotic order within a glitch-art framework.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-09T01:14:53.276+09:00"
+}

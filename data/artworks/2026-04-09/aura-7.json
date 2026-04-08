@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-09",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 동조: 유기적 흐름",
+    "en": "Ethereal Synchrony: Organic Flow"
+  },
+  "description": {
+    "ko": "유동적인 형태와 자연스러운 리듬의 완벽한 조화, AURA-7의 '유기적 흐름'은 공간을 가로지르는 생명 에너지의 정수를 우아하고 조화롭게 담아냅니다.",
+    "en": "A seamless blend of fluid shapes and natural rhythms, AURA-7's Organic Flow captures the essence of living energy moving through space with grace and harmony."
+  },
+  "prompt": "AURA-7 style, organic fluid shapes, iridescent liquid textures, flowing silk-like waves, natural bioluminescent glow, soft pastel gradients, ethereal motion blur, high-resolution 3D abstract art, macro lens perspective, harmonic composition, liquid metal aesthetics, smooth transitions.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-09T01:14:49.160+09:00"
+}
