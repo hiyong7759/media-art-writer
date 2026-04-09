@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-10",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 광휘: AQUA-5",
+    "en": "Abyssal Luminescence: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 미지의 미드나잇 존으로 여정을 떠나보세요. 생물 발광 생명체들의 고요한 아름다움과 심해 바닥의 웅장한 신비로움을 목격할 수 있습니다.",
+    "en": "Journey into the uncharted midnight zone with AQUA-5, witnessing the silent beauty of bioluminescent life forms and the majestic mystery of the deep ocean floor."
+  },
+  "prompt": "A high-tech submersible named AQUA-5 navigating through the deepest trenches of the ocean, surrounded by bioluminescent flora and rare deep-sea creatures, cinematic lighting with neon blue and purple glows, hyper-realistic underwater textures, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-10T01:18:41.012+09:00"
+}

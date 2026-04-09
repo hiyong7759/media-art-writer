@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-10",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 광채",
+    "en": "Prismatic Radiance"
+  },
+  "description": {
+    "ko": "유리를 통과하는 빛이 굴절의 원리를 통해 선명한 무지개 스펙트럼으로 갈라지는 매혹적인 탐구.",
+    "en": "A mesmerizing exploration of light passing through glass, splitting into a vibrant spectrum of colors through the physics of refraction."
+  },
+  "prompt": "A hyper-realistic macro shot of a triangular crystal prism sitting on a dark reflective surface. A single beam of pure white light enters from the left, refracting inside the glass and emerging as a vivid, spreading rainbow spectrum. Cinematic lighting, 8k resolution, ethereal bokeh background, sharp focus on the chromatic dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-10T01:22:20.685+09:00"
+}

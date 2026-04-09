@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-10",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "유기적 식물학과 첨단 회로의 매혹적인 융합인 FLORA-9은 실리콘 덩굴이 네온 에너지와 데이터 스트림으로 박동하는 디지털 진화의 정점을 나타냅니다.",
+    "en": "A mesmerizing fusion of organic botany and advanced circuitry, FLORA-9 represents the pinnacle of digital evolution where silicon vines pulse with neon energy and data streams."
+  },
+  "prompt": "A macro cinematic shot of FLORA-9, a futuristic cybernetic flower, translucent crystalline petals with glowing fiber-optic veins, holographic pollen floating in the air, deep forest background with digital glitches, hyper-realistic, 8k, neon bioluminescence, iridescent textures, intricate electronic components integrated into the stem.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-10T01:17:12.565+09:00"
+}
