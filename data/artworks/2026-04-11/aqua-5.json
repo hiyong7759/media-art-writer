@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-11",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 광채",
+    "en": "AQUA-5: Abyssal Radiance"
+  },
+  "description": {
+    "ko": "빛조차 닿지 않는 마리아나 해구의 미답지로 내려가 보세요. 영원한 어둠 속에서 신비롭게 빛나는 생물들과 고대 지질학적 경이로움이 어우러진 풍경이 펼쳐집니다.",
+    "en": "Descend into the uncharted depths of the Mariana Trench, where eternal darkness is broken by the mesmerizing glow of bioluminescent life and ancient geological wonders."
+  },
+  "prompt": "Ultra-realistic cinematic wide shot of the deep ocean floor, bioluminescent jellyfish and crystalline aquatic flora illuminating the dark abyss, ethereal neon blue and violet glowing particles, hydrothermal vents casting golden light, high pressure atmosphere, 8k resolution, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-11T00:46:25.020+09:00"
+}

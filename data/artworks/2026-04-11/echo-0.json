@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-11",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "소리의 보이지 않는 구조를 시각적으로 탐구하며, 음향 주파수가 어둡고 무한한 공간 속에서 빛나는 기하학적 구조와 리드미컬한 빛의 맥동으로 나타납니다.",
+    "en": "A visual journey into the unseen architecture of sound, where acoustic frequencies manifest as luminous geometric structures and rhythmic light pulses within a dark, infinite space."
+  },
+  "prompt": "ECHO-0 concept, abstract sound visualization, glowing neon liquid frequencies vibrating in a void, intricate golden geometric patterns emerging from sonic pulses, deep blue light trails, cinematic lighting, hyper-realistic textures, 8k resolution, macro shot of acoustic resonance, ethereal atmosphere, procedural wave displacement",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-11T00:45:57.833+09:00"
+}

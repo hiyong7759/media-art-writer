@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-11",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 우아한 곡선의 흐름",
+    "en": "AURA-7: Ethereal Sinew"
+  },
+  "description": {
+    "ko": "유기적 흐름의 개념을 시각적 명상으로 풀어내어, 자연 생명체의 우아함을 닮은 유체 형상의 매끄럽고 리드미컬한 변화를 포착했습니다.",
+    "en": "A visual meditation on the concept of organic flow, capturing the seamless and rhythmic transition of fluid shapes that mimic the grace of natural life forms."
+  },
+  "prompt": "A cinematic high-resolution visual of fluid organic forms, resembling translucent silk and liquid bioluminescence intertwining in a zero-gravity environment. Soft iridescent gradients of teal, soft violet, and pearlescent white. Macro photography style with shallow depth of field, hyper-realistic textures, smooth rhythmic curves, 8k resolution, serene and atmospheric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-11T00:45:21.610+09:00"
+}

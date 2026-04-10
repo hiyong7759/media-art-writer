@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-11",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "원시 지표면의 질감",
+    "en": "Primordial Terrestrial Texture"
+  },
+  "description": {
+    "ko": "자연적 침식, 광물 적층, 그리고 지질학적 형성의 가공되지 않은 구조적 미학을 보여주는 지구의 거친 표면을 상세하게 담아낸 시네마틱 영상입니다.",
+    "en": "A detailed cinematic capture of the Earth's rugged skin, showcasing the complex beauty of natural erosion, mineral layering, and the raw structural integrity of geological formations."
+  },
+  "prompt": "Hyper-realistic macro photography of dry, cracked earth texture, intricate vein-like fissures, layered sediment with rich mineral deposits in ochre, burnt sienna, and deep charcoal tones, cinematic side lighting to emphasize depth and relief, 8k resolution, organic planetary surface detail.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-11T00:46:15.535+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-11",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "수정의 개화",
+    "en": "The Crystalline Blossom"
+  },
+  "description": {
+    "ko": "유기적 성장과 첨단 디지털 회로의 공생적 조화로, 데이터가 가득한 빈 공간에서 영원히 피어나는 꽃을 묘사합니다.",
+    "en": "A symbiotic blend of organic growth and advanced digital circuitry, depicting a flower that blooms eternally in a data-rich void."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Crystalline Blossom.' A sentient digital flower with translucent petals made of #89CFF0 iridescent fiber-optic cables and #50C878 emerald circuit veins. The bloom exhales #FFB6C1 fractal pollen clouds into a deep #4A0E4E velvet void. Floating binary code droplets hang from the crystalline stamens like digital dew. 8k resolution, photorealistic fusion of organic growth and advanced cybernetic technology, featuring ethereal volumetric lighting and intricate liquid crystal textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-11T00:45:49.872+09:00"
+}
