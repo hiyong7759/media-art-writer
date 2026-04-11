@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "생체 발광 호흡 시냅스",
+    "en": "The Bioluminescent Respiratory Synapse"
+  },
+  "description": {
+    "ko": "금빛 생체 발광 수액과 액체 실크 질감으로 박동하는 무중력 유기 장기를 통해 자연의 호흡을 영적으로 탐구한 작품입니다.",
+    "en": "A spiritual exploration of nature's breath, visualized through a weightless organic organ that pulses with golden bioluminescent sap and liquid silk textures."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Bioluminescent Respiratory Synapse.' A massive, translucent organic structure resembling a floating heart-lung hybrid made of #7FB069 emerald moss membranes and #2D5A3D vascular vines. The entity rhythmically pulses, exhaling thick, fluid ribbons of #FFE66D golden liquid light that drift like silk in a weightless #E6F2E1 pearlescent void. Macro focus on the semi-permeable cellular walls where glowing sap channels flow like molten gold. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-12T00:29:19.032+09:00"
+}

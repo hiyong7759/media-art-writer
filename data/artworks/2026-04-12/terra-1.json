@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "우주적 관점에서 자연 경관의 가공되지 않은 아름다움을 포착하여, 전 세계에서 발견되는 복잡하고 다양한 지형적 패턴을 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the intricate and diverse topographical patterns found across the globe, capturing the raw beauty of natural landscapes from a celestial perspective."
+  },
+  "prompt": "Ultra-high-resolution satellite view of Earth's surface, macro focus on diverse textures including swirling Sahara sand dunes, jagged Himalayan peaks with snow, turquoise coral reefs in the Pacific, and deep green Amazonian canopy, cinematic lighting, 8k, detailed topography, vibrant natural colors.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-12T00:30:16.673+09:00"
+}

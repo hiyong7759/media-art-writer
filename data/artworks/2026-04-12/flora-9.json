@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 생체 발광 회로",
+    "en": "FLORA-9: The Bioluminescent Circuitry"
+  },
+  "description": {
+    "ko": "식물에서 영감을 받은 구조가 고급 디지털 신경망과 통합되어 광섬유 꽃잎을 통해 부드러운 청록색 빛을 발산하는 인공 식물학의 추상적 탐구입니다.",
+    "en": "A speculative exploration of synthetic botany where flora-inspired structures are integrated with advanced digital neural networks, emitting a soft cyan glow through fiber-optic petals."
+  },
+  "prompt": "Macro photography of FLORA-9, a futuristic digital flower with translucent glass petals containing glowing fiber-optic veins, pulsing with cyan and violet light, intricate circuit board patterns on the stem, bokeh background of a high-tech laboratory, 8k resolution, cinematic lighting, hyper-realistic, digital nature theme.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-12T00:29:35.393+09:00"
+}

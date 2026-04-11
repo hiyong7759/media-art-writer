@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 굴절",
+    "en": "Luminous Refraction"
+  },
+  "description": {
+    "ko": "복합 유리 프리즘을 통과하는 빛이 미니멀한 흰색 표면 위에서 선명한 무지개색으로 부서지는 고정밀 시각화.",
+    "en": "A high-precision visualization of light passing through a complex glass prism, shattering into a vivid rainbow of colors across a minimalist white surface."
+  },
+  "prompt": "A high-detail macro shot of a complex triangular glass prism resting on a minimalist matte white surface. A sharp, singular beam of pure white light enters the side, refracting into a vivid and dispersed rainbow spectrum. The scene features realistic ray-tracing, caustic light patterns, 8k resolution, cinematic lighting, and sharp focus on the internal light dispersion and glass edges.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "bright",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-12T00:30:31.939+09:00"
+}

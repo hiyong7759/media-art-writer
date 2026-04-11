@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 확장",
+    "en": "The Abyssal Expanse"
+  },
+  "description": {
+    "ko": "빛이 무한한 어둠 속으로 사라지고 우주 심연의 고요한 아름다움이 드러나는 우주의 가장 먼 곳으로의 여정입니다.",
+    "en": "A journey into the furthest reaches of the universe where light fades into the infinite dark, revealing the silent beauty of the cosmic deep."
+  },
+  "prompt": "Cinematic wide shot of a vast cosmic abyss, swirling dark nebulae, distant glittering star clusters, deep purple and obsidian tones, VOID-3 aesthetic, hyper-realistic, 8k resolution, ethereal lighting, sense of infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-12T00:29:55.153+09:00"
+}

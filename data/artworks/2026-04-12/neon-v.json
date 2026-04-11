@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "사이버 연꽃 동맥",
+    "en": "The Cyber-Lotus Arteries"
+  },
+  "description": {
+    "ko": "영원한 네온 비 아래 차가운 산업용 강철을 압도하는 유기적 홀로그램 형태가 어우러진 미래형 메트로폴리스의 낭만적인 테크 누아르 비전입니다.",
+    "en": "A romantic tech-noir vision of a futuristic metropolis where organic holographic forms overwhelm cold industrial steel under a perpetual neon rain."
+  },
+  "prompt": "A cinematic vertical shot of NEON-V, titled 'The Cyber-Lotus Arteries.' Towering #1A0033 indigo skyscrapers are entwined with massive 3D holographic lotus vines that bloom in pulsing #FF00FF magenta and #00FFFF cyan light. Intense monsoon rain creates a kaleidoscopic distortion of light on wet metallic walkways and glass bridges. High-speed maglev vehicles leave long #FF6B35 orange light trails that cut through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing the romantic and melancholic soul of a futuristic megacity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-12T00:29:27.357+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "프랙탈 글리치 특이점",
+    "en": "The Fractal Glitch Singularity"
+  },
+  "description": {
+    "ko": "완벽한 흑요석 단일 구조물이 디지털 소용돌이로 산산조각 나는 건축적 엔트로피에 대한 연구로, 브루탈리즘 기하학파 공격적인 글리치 미학을 결합했습니다.",
+    "en": "A study of architectural entropy where a perfect obsidian monolith shatters into a digital vortex, blending brutalist geometry with aggressive glitch aesthetics."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tesseract by KURO-X, titled 'The Fractal Glitch Singularity.' The structure is caught in a violent moment of mathematical deconstruction, shattering into a spiraling vortex of #808080 and #C0C0C0 razor-sharp polygonal shards against a clinical #FFFFFF digital vacuum. Heavy pixel-sorting artifacts, digital scanlines, and extreme RGB chromatic aberration tear through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the precise moment of calculated chaos within perfect geometric order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-12T00:29:23.197+09:00"
+}
