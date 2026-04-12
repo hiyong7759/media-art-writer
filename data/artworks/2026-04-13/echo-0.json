@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화로운 공명구",
+    "en": "The Harmonic Resonance Sphere"
+  },
+  "description": {
+    "ko": "액체 크롬이 진동하여 어두운 공허 속에 홀로그램 링과 기하학적 빛 입자를 생성하는 소리의 시각화입니다.",
+    "en": "A visualization of sound where liquid chrome vibrates to create holographic rings and geometric light particles in a dark void."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, titled 'The Harmonic Resonance Sphere.' A central floating core of liquid chrome vibrates violently, generating complex 3D holographic rings that manifest as #4169E1 royal blue waves and #FF4500 electric orange ripples. As the sound frequency peaks, the air crystallizes into #32CD32 green geometric particles and #FFD700 gold light trails. Set against a dark studio void, featuring hyper-realistic ray tracing and intricate UI elements that react perfectly to invisible bass frequencies. 8k resolution, capturing the visual consonance of sound rendered in physical light.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-13T00:33:36.291+09:00"
+}

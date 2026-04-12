@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 찬란함",
+    "en": "Chromatic Splendor"
+  },
+  "description": {
+    "ko": "단일 백색광 줄기가 유리 프리즘을 통해 생동감 넘치는 무지개 빛깔로 변하는 빛의 물리학적 순간을 포착한 탐구입니다.",
+    "en": "An exploration of the physics of light, capturing the moment a single beam of white light transforms into a vibrant spectrum of colors through a glass prism."
+  },
+  "prompt": "A high-resolution macro shot of a triangular glass prism on a minimalist dark surface. A sharp, concentrated beam of white light enters from the left, undergoing internal refraction before exiting as a wide, vivid spectrum of spectral colors. Cinematic lighting, hyper-realistic texture, 8k resolution, caustic light patterns, sharp focus on the dispersion effect within the glass.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-13T00:34:44.924+09:00"
+}

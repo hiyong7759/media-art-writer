@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척지",
+    "en": "AQUA-5: Abyssal Frontier"
+  },
+  "description": {
+    "ko": "AQUA-5 탐사선이 빛나는 해양 생물과 고대 수중 지형에 둘러싸인 채, 침묵하는 심해의 비밀을 밝혀내는 미지의 바다 깊은 곳으로의 여정입니다.",
+    "en": "Journey into the unknown depths of the ocean where the AQUA-5 probe uncovers the secrets of the silent abyss, surrounded by glowing sea life and ancient underwater formations."
+  },
+  "prompt": "Cinematic shot of the deep ocean floor, bioluminescent organisms glowing in neon blue and violet, mysterious advanced metallic structure labeled AQUA-5 partially buried in the silt, ethereal rays of light filtering from far above through dark obsidian water, hyper-realistic, 8k resolution, volumetric lighting, silent atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-13T00:34:18.185+09:00"
+}

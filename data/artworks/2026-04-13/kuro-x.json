@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "디지털 프랙처: KURO-X",
+    "en": "Digital Fracture: KURO-X"
+  },
+  "description": {
+    "ko": "날카로운 기하학적 구조와 의도적인 디지털 아티팩트가 결합된 정교한 하이테크 미학입니다. 이 테마는 KURO-X 에코시스템 내에서 세련된 미니멀리즘의 완벽함과 혼란스러운 글리치 미학의 교차점을 탐구합니다.",
+    "en": "A sophisticated high-tech aesthetic merging sharp geometric structures with intentional digital artifacts. This theme explores the intersection of sleek minimalist perfection and chaotic glitch aesthetics within the KURO-X ecosystem."
+  },
+  "prompt": "KURO-X brand identity design, geometric glitch art style, sharp abstract polygons, digital distortion layers, chromatic aberration, pixel sorting effects, high-contrast monochrome black and white with neon cyan accents, cybernetic aesthetic, 8k resolution, sleek tech-focused composition, vector-like precision disrupted by chaotic digital noise.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-13T00:32:20.854+09:00"
+}

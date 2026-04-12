@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 태피스트리: 광물 맥",
+    "en": "Tapestry of the Terra: Mineral Veins"
+  },
+  "description": {
+    "ko": "광물 매장지와 침식 패턴의 복잡한 교차를 강조하며 지구의 자연적 예술성을 고도에서 바라본 숨막히는 풍경입니다.",
+    "en": "A breathtaking high-altitude perspective of Earth's natural artistry, highlighting the complex intersection of mineral deposits and erosion patterns."
+  },
+  "prompt": "Top-down satellite view of intricate geological textures, cracked dry lake beds intersecting with turquoise mineral veins and red clay deposits, cinematic lighting, hyper-realistic, 8k resolution, detailed erosion patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-13T00:34:09.469+09:00"
+}

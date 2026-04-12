@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심장박동의 맹그로브",
+    "en": "The Myocardial Mangrove"
+  },
+  "description": {
+    "ko": "진주빛 공허 속에서 숲의 혈관 네트워크와 에메랄드 막이 천상의 폐처럼 작동하는 숨 쉬는 유기적 구조입니다.",
+    "en": "A breathing organic structure where forest vascular networks and emerald membranes function as a celestial lung in a pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Myocardial Mangrove.' A central breathing respiratory system composed of #7FB069 emerald moss-like lungs and #2D5A3D deep forest vascular roots that pulse rhythmically. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere. Glowing #FFE66D golden sap flows through transparent capillary networks, exhaling a swirling mist of bioluminescent spores that move like liquid silk. Macro focus on the semi-permeable cellular textures, fluid dynamics, Octane render, 8k resolution, volumetric light shafts, and extreme soft focus bokeh, capturing a divine organic flow and serene breathing atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-13T00:32:03.302+09:00"
+}

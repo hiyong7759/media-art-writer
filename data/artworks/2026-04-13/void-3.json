@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 영원한 심연의 손길",
+    "en": "VOID-3: Eternal Abyssal Reach"
+  },
+  "description": {
+    "ko": "빛조차 미지의 영역으로 휘어지고 고요한 우주의 심연 속에서 시간이 멈춘 듯한, 우주의 가장 먼 곳으로 떠나는 몰입감 넘치는 여정입니다.",
+    "en": "An immersive journey into the farthest reaches of the universe, where light bends around the unknown and time stands still in the silent, cosmic deep."
+  },
+  "prompt": "Cinematic 8k rendering of a vast cosmic void, swirling dark matter nebulae in shades of deep indigo and violet, distant glowing stars, a central singularity collapsing light, ethereal textures, sci-fi aesthetic, hyper-detailed, volumetric lighting, silent expanse of the universe",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-13T00:33:51.608+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-13",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 사이버네틱 블라썸",
+    "en": "FLORA-9: The Cybernetic Blossom"
+  },
+  "description": {
+    "ko": "생물학적 우아함과 컴퓨팅의 복잡성이 결합된 디지털 네이처 시리즈의 표본, 플로라-9의 형상입니다. 데이터 스트림과 함께 고동치는 빛나는 핵은 기술과 유기적 생명이 구별되지 않는 미래를 투영합니다.",
+    "en": "A representation of FLORA-9, a specimen from the digital nature series where biological elegance meets computational complexity. Its glowing core pulses with data streams, reflecting a future where technology and organic life are indistinguishable."
+  },
+  "prompt": "Hyper-realistic macro shot of FLORA-9, a bioluminescent digital plant with translucent glass-like petals containing glowing fiber-optic veins, circuit board patterns etched onto emerald crystalline leaves, floating in a dark void with floating neon pollen particles, soft volumetric lighting, 8k resolution, cinematic digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-13T00:33:32.086+09:00"
+}
