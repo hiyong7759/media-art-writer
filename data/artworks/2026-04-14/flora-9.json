@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 바이오루미네선스 넥서스",
+    "en": "FLORA-9: The Bioluminescent Nexus"
+  },
+  "description": {
+    "ko": "생물학적 생명과 디지털 코드가 융합된 미래형 생태계를 탐구하며, 빛나는 네온 식물과 고동치는 데이터 스트림을 보여줍니다.",
+    "en": "An immersive exploration of a futuristic ecosystem where biological life and digital code merge, featuring glowing neon flora and pulsating data streams."
+  },
+  "prompt": "Hyper-realistic cinematic shot of FLORA-9, a futuristic digital garden. Intricate glowing fiber-optic flowers, translucent leaves with circuit patterns, floating holographic pollen particles, deep forest background with blue and violet bioluminescence, 8k resolution, ethereal lighting, surreal digital nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-14T01:12:08.806+09:00"
+}

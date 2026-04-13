@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투압의 생명 호흡",
+    "en": "The Osmotic Breath of Life"
+  },
+  "description": {
+    "ko": "액체 빛과 생물학적 막이 무중력 빈 공간에서 상호작용하는 유기적 호흡의 깊은 탐구.",
+    "en": "A deep exploration of organic respiration where liquid light and biological membranes interact in a weightless void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Breath of Life.' A gargantuan, semi-transparent respiratory membrane system composed of #7FB069 emerald moss-like fibers and #2D5A3D deep forest vascular networks pulsing with internal vitality. The entity is suspended in a weightless #E6F2E1 pearlescent liquid vacuum. Thick, viscous ribbons of #FFE66D golden bioluminescent nectar are exhaled from microscopic pores, drifting like liquid silk. Macro focus on the translucent, semi-permeable cellular walls revealing intricate internal capillary systems of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-14T01:11:48.048+09:00"
+}

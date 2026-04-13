@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 손길",
+    "en": "VOID-3: The Abyssal Reach"
+  },
+  "description": {
+    "ko": "빛과 물질을 모두 삼켜버리는 VOID-3 현상이 미지로 향하는 잊히지 않을 만큼 아름다운 관문을 만들어내는 우주의 가장 깊은 곳으로 떠나는 시각적 여정입니다.",
+    "en": "A visual journey into the furthest depths of the universe, where the VOID-3 phenomenon consumes light and matter alike, creating a hauntingly beautiful gateway to the unknown."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 anomaly in the deep cosmos, a massive swirling vortex of obsidian dark matter, edges glowing with faint bioluminescent violet and neon cyan, distant dying stars being pulled into the gravity well, cosmic dust clouds, hyper-realistic, 8k resolution, ethereal and haunting atmosphere, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-14T01:12:24.603+09:00"
+}

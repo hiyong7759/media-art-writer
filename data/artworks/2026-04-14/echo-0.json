@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명하는 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "유체 역학과 기하학적 패턴을 통해 음파를 시각적으로 탐구하며, 디지털 풍경 속에서 보이지 않는 음향 진동의 에너지를 포착합니다.",
+    "en": "A visual exploration of sound waves through fluid dynamics and geometric patterns, capturing the unseen energy of acoustic vibrations in a digital landscape."
+  },
+  "prompt": "Abstract digital art of sound visualization, ECHO-0 aesthetic, intricate cymatic patterns, pulsing neon liquid gold and deep obsidian blue, 3D sound waves ripples in a vacuum, high-speed photography style, cinematic lighting, 8k, hyper-realistic textures",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-14T01:12:16.882+09:00"
+}

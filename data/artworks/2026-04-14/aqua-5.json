@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 수호자",
+    "en": "AQUA-5: Guardian of the Abyss"
+  },
+  "description": {
+    "ko": "아쿠아-5는 해저의 가장 깊고 도달하기 어려운 곳을 탐사하기 위해 제작된 최첨단 자율 탐사 유닛으로, 심해의 생물 발광 현상과 그 신비로움을 밝혀냅니다.",
+    "en": "The AQUA-5 is an advanced autonomous exploration unit built to traverse the most unreachable depths of the ocean floor, revealing the bioluminescent wonders of the abyss."
+  },
+  "prompt": "Futuristic high-tech submersible droid AQUA-5 navigating the midnight zone of the deep ocean, glowing bioluminescent sensors and teal LEDs, surrounded by giant glowing jellyfish and ancient thermal vents, hyper-realistic, cinematic lighting, 8k resolution, deep navy and electric blue color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-14T01:12:40.498+09:00"
+}
