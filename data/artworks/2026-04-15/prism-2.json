@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 프리즘: 스펙트럼의 분할",
+    "en": "Prism of Refraction: Spectrum Split"
+  },
+  "description": {
+    "ko": "순수한 빛이 생동감 넘치는 색상 팔레트로 변하는 순간을 포착한 이 PRISM-2 테마는 굴절의 물리학을 통해 복잡성을 명확하고 아름다운 구성 요소로 분해하는 분석적 능력을 나타냅니다.",
+    "en": "Capturing the moment pure light transforms into a vibrant color palette, this PRISM-2 theme represents the analytical power of breaking down complexity into clear, beautiful components through the physics of refraction."
+  },
+  "prompt": "A cinematic close-up of a triangular crystal prism resting on a minimalist dark surface. A sharp beam of brilliant white light enters the prism at an angle, undergoing internal reflection and emerging as a vivid, fanned-out rainbow spectrum. High-detail glass refraction, realistic light dispersion, subtle lens flares, volumetric lighting, 8k resolution, sharp focus on the emerging colors.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-15T01:05:51.823+09:00"
+}

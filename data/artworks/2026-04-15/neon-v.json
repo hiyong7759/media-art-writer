@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 밤",
+    "en": "Neon Pulse: The Eternal Night"
+  },
+  "description": {
+    "ko": "거대한 도시 정글을 비추는 선명한 네온 사인과 홀로그램 광고, 비에 젖은 미래지향적 디스토피아 거리에 반사된 화려한 빛의 향연.",
+    "en": "A sprawling urban jungle illuminated by vibrant neon signs and holographic advertisements, reflected in the slick, rain-drenched streets of a futuristic dystopia."
+  },
+  "prompt": "Ultra-detailed cyberpunk cityscape at night, heavy rain reflecting vibrant neon signs in electric blue, hot pink, and acid yellow, towering megastructures with flickering holographic advertisements, steam rising from grimy alleyways, cinematic lighting, volumetric fog, futuristic flying vehicles, 8k resolution, NEON-V aesthetic style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-15T01:05:00.209+09:00"
+}

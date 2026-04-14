@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "아우라-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "아우라-7의 자연스러운 조화를 상징하며, 유동적인 생물학적 패턴과 리듬감 있는 에너지 파동을 시각화한 매혹적인 작품입니다.",
+    "en": "A mesmerizing visualization of fluid, biological patterns and rhythmic energy pulses, representing the natural harmony of AURA-7."
+  },
+  "prompt": "AURA-7 cinematic visualization, organic flow theme, liquid silk textures, iridescent bioluminescent veins, pulsating soft golden light, macro photography of fluid dynamics, ethereal atmosphere, 8k resolution, highly detailed, abstract biological forms, smooth transitions, soft bokeh background.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-15T01:04:43.566+09:00"
+}

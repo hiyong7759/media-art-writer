@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리 시각화",
+    "en": "ECHO-0: Sound Visualization"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 오디오 주파수를 몰입형 시각적 풍경으로 변환하여 소리와 시각 사이의 리듬감 있는 가교를 만드는 실험적 프로젝트입니다.",
+    "en": "ECHO-0 is an experimental project that translates complex audio frequencies into immersive visual landscapes, creating a rhythmic bridge between sound and sight."
+  },
+  "prompt": "An abstract 3D visualization of sound waves echoing in a dark void, pulsating concentric rings of cyan and magenta light, digital frequency interference, ECHO-0 aesthetic, minimalist cinematic lighting, high resolution, generative art style",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-15T01:05:17.315+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "글로벌 지형: 지구의 질감",
+    "en": "Global Topography: Earth Textures"
+  },
+  "description": {
+    "ko": "궤도 시점에서 바라본 지구의 다양한 풍경을 추상적으로 탐구하며, 침식, 퇴적 및 광물 퇴적물이 만들어낸 자연의 예술성을 강조합니다.",
+    "en": "An abstract exploration of Earth's diverse landscapes from an orbital perspective, highlighting the natural artistry of erosion, sediment, and mineral deposits."
+  },
+  "prompt": "High-resolution satellite photography of Earth's surface textures, featuring a combination of intricate river deltas, swirling desert sand dunes in ochre and gold, and jagged crystalline salt flats, abstract geological patterns, hyper-detailed, 8k, cinematic lighting, top-down perspective",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-15T01:05:33.506+09:00"
+}

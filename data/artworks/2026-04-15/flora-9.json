@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-15",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 네온 에코시스템",
+    "en": "FLORA-9: The Neon Ecosystem"
+  },
+  "description": {
+    "ko": "생물학적 진화와 디지털 기술이 하나의 생명체로 통합된 미래의 비전으로, 실리콘 기반 생명체의 초현실적인 아름다움을 보여줍니다.",
+    "en": "A vision of a future where biological evolution and digital technology have merged into a single living entity, showcasing the surreal beauty of silicon-based life forms."
+  },
+  "prompt": "FLORA-9 digital nature aesthetic, a hyper-realistic cybernetic forest where trees are composed of glowing fiber-optic cables and translucent crystalline leaves, bioluminescent moss spreading over integrated circuit-board soil, iridescent data particles floating in the atmosphere, 8k resolution, cinematic lighting, vibrant neon teal and violet color palette, intricate organic-mechanical fusion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-15T01:05:09.410+09:00"
+}
