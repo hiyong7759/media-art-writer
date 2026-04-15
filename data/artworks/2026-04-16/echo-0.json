@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "음향의 설계자",
+    "en": "The Sonic Architect"
+  },
+  "description": {
+    "ko": "진동하는 액체 금속과 홀로그램 주파수를 통해 음파를 물리적인 빛으로 시각화한 추상적 표현입니다.",
+    "en": "Abstract visualization of sound waves as physical light, featuring vibrating liquid metal and holographic frequencies."
+  },
+  "prompt": "A cinematic 3D render of ECHO-0, titled 'The Sonic Architect.' A central core of liquid chrome vibrating at high frequency, generating 3D holographic rings of #4169E1 blue waves and #FF4500 orange ripples. Geometric #32CD32 green particles and #FFD700 gold light trails manifest from the acoustic pressure. Set against a dark studio void, featuring hyper-realistic ray tracing and intricate UI elements reacting to invisible frequencies. 8k resolution, capturing the visual consonance of sound rendered as light.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-16T01:02:43.389+09:00"
+}

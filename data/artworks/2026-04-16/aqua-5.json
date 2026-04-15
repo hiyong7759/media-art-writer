@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "열수구 성소",
+    "en": "The Hydrothermal Sanctuary"
+  },
+  "description": {
+    "ko": "심해 가장 깊은 곳의 생체 발광 생명체와 첨단 연구 포드를 묘사한 수중 장면입니다.",
+    "en": "An underwater scene depicting bioluminescent life and high-tech research pods in the deepest part of the ocean."
+  },
+  "prompt": "A cinematic ultra-detailed shot of AQUA-5, titled 'The Hydrothermal Sanctuary.' A cluster of organic research pods in the #000080 midnight zone. Massive #40E0D0 turquoise jellyfish with #48D1CC cyan tendrils drift by, pulsing with light. The #006994 water is thick with marine snow and micro-bubbles. High-tech floodlights illuminate jagged mineral vents on the ocean floor. 8k resolution, photorealistic fluid dynamics, capturing the peaceful and mysterious dance of life in the high-pressure deep.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-16T01:02:55.830+09:00"
+}

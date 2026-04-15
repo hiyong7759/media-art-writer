@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온비의 아치",
+    "en": "The Neon Rain Arches"
+  },
+  "description": {
+    "ko": "로맨틱한 미래 배경에서 거대한 인디고 구조물과 선명한 네온 빛의 궤적이 특징인 비 내리는 테크 누아르 도시 전경입니다.",
+    "en": "A rainy, tech-noir cityscape featuring towering indigo structures and vibrant neon light trails in a romantic futuristic setting."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Neon Rain Arches.' Towering #1A0033 indigo megastructures are linked by bridges pulsing with #FF00FF magenta and #00FFFF cyan light. Intense monsoon rain creates fluid, neon-streaked reflections on wet metallic surfaces and glass walkways. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing the moody and romantic futuristic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-16T01:02:35.054+09:00"
+}

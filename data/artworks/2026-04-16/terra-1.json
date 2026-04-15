@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "퇴적의 연대기",
+    "en": "The Sedimentary Chronicle"
+  },
+  "description": {
+    "ko": "침식과 광맥의 색상과 질감을 강조한 지구 지각에 대한 매우 상세한 지형학적 연구입니다.",
+    "en": "A highly detailed topographic study of Earth's crust, emphasizing the colors and textures of erosion and mineral veins."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Sedimentary Chronicle.' A top-down perspective of a desert canyon where #8B4513 sienna earth and #D2691E ochre sediment layers reveal ancient geological history. Sharp #F4A460 sand dunes drift across #2F4F4F slate mineral veins. The texture is extremely tactile, showing every grain of sand and crystalline fracture. Cinematic natural lighting, 8k resolution, hyper-detailed geological mapping of land carved by time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-16T01:02:51.695+09:00"
+}

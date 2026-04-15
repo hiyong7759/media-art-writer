@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 스펙트럼",
+    "en": "Spectrum of Refraction"
+  },
+  "description": {
+    "ko": "정교하게 가공된 크리스탈을 통과하는 순백의 빛이 선명한 무지개로 변하는 순간을 포착하여, 투명함과 색채 사이의 섬세한 균형을 광학적으로 탐구한 작품입니다.",
+    "en": "An artistic exploration of optics, capturing the moment pure white light transforms into a vivid rainbow as it passes through a precision-cut crystal, illustrating the delicate balance between transparency and color."
+  },
+  "prompt": "A high-end macro shot of a complex geometric glass prism refracting a single beam of intense white light into a brilliant, wide spectrum. Visible light paths through the glass, soft caustic patterns on a clean matte surface, ethereal atmosphere, 8k resolution, ray-tracing, photorealistic, chromatic aberration, vibrant rainbow colors.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-16T01:03:04.268+09:00"
+}

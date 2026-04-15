@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "고차원적 파편화",
+    "en": "The Hyper-Dimensional Fragmentation"
+  },
+  "description": {
+    "ko": "날카로운 기하학적 파편과 글리치 아티팩트가 특징인, 질서가 디지털 혼돈으로 붕괴하는 과정을 담은 단색화 연구입니다.",
+    "en": "A monochromatic study of order collapsing into digital chaos, featuring sharp geometric shards and glitch artifacts."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith by KURO-X, titled 'The Hyper-Dimensional Fragmentation.' The structure is captured mid-shatter into a precision vortex of #808080 and #C0C0C0 geometric shards against a clinical #FFFFFF void. Heavy digital glitch artifacts, datamoshing textures, and extreme RGB chromatic aberration cut through the composition. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical beauty of digital chaos within order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-16T01:02:30.908+09:00"
+}

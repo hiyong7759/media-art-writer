@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "신경망 온실",
+    "en": "The Neural Greenhouse"
+  },
+  "description": {
+    "ko": "광섬유 꽃잎과 이진법 이슬이 맺힌 디지털 꽃을 통해 식물학과 기술의 융합을 보여줍니다.",
+    "en": "A fusion of botany and technology, showcasing a digital flower with fiber-optic petals and binary dew."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Neural Greenhouse.' A sentient fractal flower with #89CFF0 iridescent fiber-optic petals and #50C878 emerald circuit veins. The bloom exhales #FFB6C1 pink digital pollen into a dark #4A0E4E velvet void. Floating binary code droplets cling to the crystalline surface like digital dew. 8k resolution, photorealistic fusion of organic growth and cybernetic technology, featuring ethereal volumetric lighting and intricate liquid crystal textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-16T01:02:39.219+09:00"
+}

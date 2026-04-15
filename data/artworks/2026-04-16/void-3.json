@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 베일",
+    "en": "The Singularity's Veil"
+  },
+  "description": {
+    "ko": "진한 보라색, 중력 렌즈 효과, 그리고 심연의 규모에 초점을 맞춘 블랙홀 가장자리의 우주적 탐사입니다.",
+    "en": "A cosmic exploration of a black hole's edge, focusing on deep purples, gravitational lensing, and the scale of the abyss."
+  },
+  "prompt": "A cinematic ultra-realistic wide shot of VOID-3, titled 'The Singularity's Veil.' A massive, ancient monolithic gate floats near a black hole's event horizon. Swirling #3D1A78 deep violet and #7B68EE indigo gravitational gases spiral into a #0D0221 obsidian abyss. Faint #E6E6FA lavender nebula clouds drift in the background. Gravitational lensing distorts the light of distant stars. 8k resolution, photorealistic cosmic dust, capturing the silent, terrifying majesty of the infinite universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-16T01:02:47.542+09:00"
+}
