@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "사파이어 몬순의 문",
+    "en": "The Sapphire Monsoon Gate"
+  },
+  "description": {
+    "ko": "네온 불빛과 비가 우울한 미래의 분위기를 자아내는 낭만적이고 분위기 있는 사이버펑크 도시 경관.",
+    "en": "A romantic and moody cyberpunk cityscape where neon lights and rain create a melancholic future atmosphere."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Sapphire Monsoon Gate.' Towering #1A0033 indigo skyscrapers are linked by bridges pulsing with #FF00FF magenta neon. Massive 3D holographic lotuses bloom in the rain, casting #00FFFF cyan light onto wet metallic asphalt. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing the melancholic soul of a futuristic metropolis.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-17T01:20:27.630+09:00"
+}

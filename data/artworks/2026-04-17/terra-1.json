@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구의 질감 캔버스",
+    "en": "TERRA-1: Earth's Textural Canvas"
+  },
+  "description": {
+    "ko": "인공위성 시점에서 산맥, 강줄기, 사막의 모래 언덕이 만들어내는 복잡한 패턴을 포착한 지구 표면의 고해상도 항공 탐사 영상입니다.",
+    "en": "A high-resolution aerial exploration of the Earth's surface, capturing the intricate patterns of mountain ranges, river veins, and desert dunes from a satellite perspective."
+  },
+  "prompt": "Ultra-high resolution satellite photography of Earth texture, intricate tectonic plates, deep mountain ridges, winding river deltas resembling veins, golden hour lighting, cinematic aerial view, 8k resolution, hyper-realistic, geological patterns, natural color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-17T01:21:00.200+09:00"
+}

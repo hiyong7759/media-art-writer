@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "빛나는 디지털 개화: FLORA-9 인터페이스",
+    "en": "Luminous Digital Bloom: The FLORA-9 Interface"
+  },
+  "description": {
+    "ko": "유기적인 식물 형태가 복잡한 회로 패턴 및 홀로그램 빛과 결합된 FLORA-9의 시각화입니다. 이는 첨단 인공지능과 자연 세계 사이의 공생을 나타냅니다.",
+    "en": "A breathtaking visualization of FLORA-9, where organic botanical forms merge with intricate circuit patterns and holographic light. It represents the symbiosis between advanced artificial intelligence and the natural world."
+  },
+  "prompt": "FLORA-9, digital nature, bioluminescent flowers with fiber optic stems, translucent petals made of glowing data streams, intricate geometric circuit patterns on leaves, ethereal garden in a cybernetic forest, soft neon colors, 8k resolution, cinematic lighting, hyper-realistic, macro photography",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-17T01:20:35.688+09:00"
+}

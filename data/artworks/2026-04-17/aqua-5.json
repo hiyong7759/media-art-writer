@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연",
+    "en": "AQUA-5: Abyssal Depths"
+  },
+  "description": {
+    "ko": "희귀한 생체 발광 생명체들이 영원한 어둠 속을 밝히는 고압의 고요한 해저 세계를 탐험하는 심해 여정입니다.",
+    "en": "A deep-dive exploration into the silent, high-pressure world of the ocean floor, where rare bioluminescent lifeforms illuminate the eternal darkness of the abyss."
+  },
+  "prompt": "Hyper-realistic underwater photography of the deep ocean abyss, AQUA-5 concept, bioluminescent marine organisms glowing in neon cyan and violet, volcanic hydrothermal vents with rising bubbles, dark obsidian seafloor, cinematic lighting, 8k resolution, ethereal atmosphere, marine snow drifting through the water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-17T01:21:08.416+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 공명 주파수",
+    "en": "ECHO-0: Resonance Frequency"
+  },
+  "description": {
+    "ko": "에코-0가 포착한 음파를 시각적으로 탐구한 작업으로, 음향 데이터가 빛나는 기하학적 건축물과 유동적인 운동 패턴으로 변환되는 과정을 보여줍니다.",
+    "en": "A visual exploration of sound waves captured by ECHO-0, where acoustic data transforms into luminous geometric architecture and fluid kinetic patterns."
+  },
+  "prompt": "Cinematic 3D visualization of sound frequencies, ECHO-0 core emitting pulse waves, iridescent ribbons of light weaving through a dark minimalist void, holographic data streams, 8k resolution, ethereal atmosphere, parametric design, golden ratio proportions, glowing acoustic ripples reflecting on a polished obsidian floor.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-17T01:20:43.684+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "벡터화된 혼돈 이론",
+    "en": "Vectorized Chaos Theory"
+  },
+  "description": {
+    "ko": "수학적 질서가 디지털 글리치와 기하학적 엔트로피로 붕괴되는 과정을 보여주는 날카롭고 고대비적인 탐구.",
+    "en": "A sharp, high-contrast exploration of mathematical order collapsing into digital glitch and geometric entropy."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tesseract by KURO-X, titled 'Vectorized Chaos Theory.' The structure is captured mid-shatter, exploding into a calculated vortex of #808080 and #C0C0C0 razor-sharp polygonal shards against a clinical #FFFFFF void. Heavy digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration cut through the frame. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical beauty of digital collapse.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-17T01:20:23.279+09:00"
+}

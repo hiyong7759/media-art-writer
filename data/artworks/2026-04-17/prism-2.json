@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 광채",
+    "en": "Prismatic Radiance"
+  },
+  "description": {
+    "ko": "순수한 백색광이 크리스탈 프리즘을 통과하며 굴절되어, 미니멀한 배경 위로 선명한 무지개 빛깔 스펙트럼으로 분산되는 환상적인 물리적 현상을 담아냈습니다.",
+    "en": "A breathtaking display of physics where pure white light bends through a crystal prism, dispersing into a vivid spectrum of colors against a minimalist background."
+  },
+  "prompt": "Cinematic close-up of a triangular glass prism on a dark surface, a single beam of white light entering and refracting into a vibrant rainbow spectrum, sharp focus, volumetric lighting, caustic reflections, 8k resolution, photorealistic",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-17T01:21:18.410+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-17",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "발광하는 호흡의 직조",
+    "en": "The Luminescent Respiratory Weave"
+  },
+  "description": {
+    "ko": "빛과 세포 구조가 무중력 환경에서 융합되는 유기적이고 호흡하는 생명체의 시각화.",
+    "en": "A visualization of an organic, breathing life form where light and cellular structure merge in a weightless environment."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Luminescent Respiratory Weave.' A vast network of #7FB069 emerald moss membranes and #2D5A3D vascular filaments forming a giant, breathing lung. The structure is suspended in a weightless #E6F2E1 pearlescent liquid, exhaling thick ribbons of #FFE66D golden liquid light that swirl like silk. Macro focus on the semi-permeable cellular walls revealing glowing internal sap channels. Rendered in Octane, 8k resolution, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-17T01:20:19.068+09:00"
+}
