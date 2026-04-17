@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "디지털 블룸: FLORA-9",
+    "en": "Digital Bloom: FLORA-9"
+  },
+  "description": {
+    "ko": "유기적인 생물학적 구조가 빛나는 광섬유 혈관 및 픽셀화된 데이터 스트림과 결합된 합성 식물 개체인 FLORA-9의 고해상도 시각화입니다.",
+    "en": "A high-resolution visualization of FLORA-9, a synthetic botanical entity where organic biological structures merge with glowing fiber-optic veins and pixelated data streams."
+  },
+  "prompt": "Hyper-realistic macro photography of FLORA-9, a futuristic cybernetic flower, translucent iridescent petals with embedded LED circuitry, digital data streams flowing through the stem like sap, neon bioluminescence, glowing floating pollen particles in a dark forest, 8k resolution, cinematic lighting, synthwave aesthetics, unreal engine 5 render.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-18T00:55:31.207+09:00"
+}

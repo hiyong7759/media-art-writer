@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "해저의 폐",
+    "en": "The Thalassic Lung"
+  },
+  "description": {
+    "ko": "에메랄드 이끼와 황금색 액체 빛으로 이루어진 호흡계를 통해 생명력의 흐름을 표현한 작품.",
+    "en": "A representation of organic vitality, depicting a breathing respiratory system made of emerald moss and golden liquid light in a weightless liquid void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Thalassic Lung.' A central breathing respiratory organ made of #7FB069 emerald moss membranes and #2D5A3D deep forest vascular networks, suspended in a weightless #E6F2E1 pearlescent liquid. Rhythmic pulses exhale #FFE66D golden liquid light ribbons that drift like silk through a deep underwater atmosphere. Macro focus on cellular, semi-permeable textures and bioluminescent mists. Rendered in Octane with hyper-realistic fluid dynamics, 8k resolution, volumetric light shafts, and extreme soft focus bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-18T00:55:09.710+09:00"
+}

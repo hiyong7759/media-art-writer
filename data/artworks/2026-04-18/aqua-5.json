@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 대성당",
+    "en": "The Abyssal Cathedral"
+  },
+  "description": {
+    "ko": "심해의 고압 환경 속에서 생물 발광 생명체들이 펼치는 평화롭고 신비로운 춤.",
+    "en": "A serene look into the deep sea, featuring bioluminescent life and high-tech submersibles in a high-pressure environment."
+  },
+  "prompt": "A cinematic ultra-detailed shot of AQUA-5, titled 'The Abyssal Cathedral.' A cluster of organic research pods in the #000080 midnight zone. Massive #40E0D0 turquoise jellyfish with #48D1CC cyan tendrils drift past, pulsing with internal light. The #006994 deep sea water is thick with marine snow and micro-bubbles. High-tech floodlights illuminate hydrothermal vents. 8k resolution, photorealistic fluid dynamics, capturing the peaceful dance of transparent life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-18T00:55:51.015+09:00"
+}

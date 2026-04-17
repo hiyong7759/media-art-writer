@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 꽃잎의 동맥",
+    "en": "The Neon Petal Arteries"
+  },
+  "description": {
+    "ko": "폭우와 화려한 홀로그램, 미래 도시의 속도감이 어우러진 서정적인 사이버펑크 풍경.",
+    "en": "A moody cyberpunk cityscape blending heavy rain, vibrant holograms, and the motion blur of a futuristic metropolis."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Neon Petal Arteries.' Towering #1A0033 indigo skyscrapers are linked by glowing maglev tracks and massive 3D holograms of koi fish in #FF00FF magenta and #00FFFF cyan. Heavy monsoon rain creates vibrant, distorted reflections on wet metallic asphalt. Flying vehicles leave long #FF6B35 orange light trails cutting through dense volumetric fog. Hyper-detailed tech-noir textures, ray-traced puddle reflections, 8k resolution, capturing a romantic futuristic urban soul.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-18T00:55:23.049+09:00"
+}

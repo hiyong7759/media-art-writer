@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "하모닉 에코",
+    "en": "Harmonic Echoes"
+  },
+  "description": {
+    "ko": "음파가 추상적인 기하학적 패턴으로 변하는 모습을 시각적으로 표현하여, 디지털 공간에서의 주파수와 공명의 본질을 포착합니다.",
+    "en": "A visual representation of sound waves transforming into abstract geometric patterns, capturing the essence of frequency and resonance in a digital space."
+  },
+  "prompt": "Abstract sound visualization, vibrant audio spectrum, glowing neon waves, geometric frequency patterns, synesthesia art, 8k resolution, cinematic lighting, digital art style, deep blue and electric violet color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-18T00:55:38.605+09:00"
+}

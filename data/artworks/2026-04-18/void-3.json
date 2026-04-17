@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 베일",
+    "en": "The Singularity’s Veil"
+  },
+  "description": {
+    "ko": "심우주의 특이점 주변에서 왜곡되는 빛과 가스를 통해 우주의 무한한 침묵과 장엄함을 묘사.",
+    "en": "A majestic exploration of the cosmic abyss, showing the distortion of light and gas around a central singularity."
+  },
+  "prompt": "A cinematic ultra-realistic wide shot of VOID-3, titled 'The Singularity’s Veil.' A massive gravitational anomaly in deep space, swirling #3D1A78 deep violet and #7B68EE indigo gravitational gases into a #0D0221 obsidian abyss. Faint #E6E6FA lavender nebula clouds drift in the background as gravitational lensing distorts distant stars. 8k resolution, photorealistic cosmic dust, capturing the silent, terrifying majesty of the infinite universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-18T00:55:42.742+09:00"
+}

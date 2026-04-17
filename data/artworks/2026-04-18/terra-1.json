@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지각의 고동",
+    "en": "The Lithospheric Pulse"
+  },
+  "description": {
+    "ko": "지구 표면의 퇴적층과 광물 침전물이 만들어낸 정교하고 거친 지질학적 미학.",
+    "en": "A detailed topographic view of Earth’s surface, showcasing the raw beauty of sedimentary layers and mineral deposits."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Lithospheric Pulse.' A top-down macro perspective of a river delta where #8B4513 sienna earth and #D2691E ochre sedimentary layers meet volcanic #2F4F4F slate mineral deposits. Sharp #F4A460 sand dunes create patterns like frozen lightning. Tactile texture showing every grain of sand and crystalline fracture. Cinematic natural lighting, 8k resolution, hyper-detailed geological mapping.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-18T00:55:46.879+09:00"
+}

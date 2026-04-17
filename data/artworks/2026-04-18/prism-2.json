@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-18",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 분산",
+    "en": "The Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "투명한 유리 결정을 통해 백색광이 찬란한 무지개 스펙트럼으로 분산되는 찰나의 에너지.",
+    "en": "A study of light refraction and energy, showing pure white light breaking into a vivid rainbow spectrum through glass."
+  },
+  "prompt": "A hyper-realistic macro photography shot of PRISM-2, titled 'The Chromatic Dispersion.' A multi-faceted crystalline structure captures a single white light beam, shattering it into an ultra-wide spectrum of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. Background is minimalist matte black, making rainbow caustics glow with pure energy. 8k resolution, ray-traced refraction, emphasizing internal light paths and glass clarity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-18T00:55:55.158+09:00"
+}
