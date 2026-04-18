@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-19",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 청각적 자극과 시각 예술의 교차점을 탐구하며, 음파를 모든 주파수에 실시간으로 반응하는 빛과 색의 역동적이고 유동적인 패턴으로 변환합니다.",
+    "en": "ECHO-0 explores the intersection of auditory stimuli and visual art, transforming sound waves into dynamic, fluid patterns of light and color that react in real-time to every frequency."
+  },
+  "prompt": "Cinematic shot of ECHO-0, abstract sound visualization, liquid metal ripples pulsating to rhythmic music, glowing neon sound waves, intricate cymatics patterns, 8k resolution, iridescent lighting, deep blue and electric violet color palette, fluid motion, futuristic aesthetic, high contrast.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-19T00:36:05.232+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-19",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 생명광",
+    "en": "Abyssal Bioluminescence"
+  },
+  "description": {
+    "ko": "심해의 영원한 어둠 속에서 생물 발광 생명체들이 네온 빛의 춤을 추며 숨겨진 경이로움을 드러내는 매혹적인 탐험입니다.",
+    "en": "A breathtaking exploration of the deep ocean's hidden wonders, where bioluminescent life forms illuminate the eternal darkness of the abyss in a dance of neon light."
+  },
+  "prompt": "A cinematic wide-angle shot of the deep ocean abyss, showcasing bioluminescent jellyfish and glowing aquatic flora. Shimmering rays of light pierce through the dark turquoise water, illuminating a mysterious obsidian seabed. High-detail textures, ethereal atmosphere, 8k resolution, volumetric lighting, photorealistic underwater ecosystem.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-19T00:36:30.530+09:00"
+}

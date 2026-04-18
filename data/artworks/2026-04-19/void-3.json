@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-19",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 천상 지평선",
+    "en": "VOID-3: Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "알려진 우주의 가장 먼 곳에 위치한 VOID-3는 우주 심연의 압도적인 압력 속에서 별들이 고요하게 탄생하는 과정을 관찰합니다.",
+    "en": "Positioned at the farthest reaches of the known universe, VOID-3 observes the silent birth of stars within the crushing pressure of the cosmic deep."
+  },
+  "prompt": "VOID-3 exploration unit drifting in the absolute center of a dark nebula, cosmic deep theme, obsidian and deep violet color palette, bioluminescent cyan energy veins pulsing across mechanical frame, floating through star-dusted debris, cinematic lighting, 8k, hyper-detailed surface textures, surreal celestial atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-19T00:36:14.781+09:00"
+}

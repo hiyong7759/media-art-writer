@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-19",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 사이버네틱 에덴",
+    "en": "FLORA-9: Cybernetic Eden"
+  },
+  "description": {
+    "ko": "기술과 식물학이 뒤얽혀 빛을 발하는 식물군과 디지털화된 생태계가 만들어내는 초현실적인 풍경을 보여주는 숨막히는 비전입니다.",
+    "en": "A breathtaking vision of a world where technology and botany intertwine, creating a surreal landscape of light-emitting flora and digitized ecosystems."
+  },
+  "prompt": "Hyper-realistic digital nature scene, bioluminescent exotic flowers with glowing fiber-optic petals, circuit board patterns integrated into leaf veins, holographic butterflies fluttering in a synthwave forest, cinematic lighting, 8k resolution, ethereal atmosphere, vibrant cyan and magenta color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-19T00:35:57.581+09:00"
+}

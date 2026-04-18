@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-19",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라 앱스트랙트: 지구의 질감 모자이크",
+    "en": "Terra Abstract: Earth's Textural Mosaic"
+  },
+  "description": {
+    "ko": "높은 고도의 위성 시점에서 포착된 지구 표면의 복잡하고 다양한 질감을 탐구하여 대자연의 예술적 패턴을 드러냅니다.",
+    "en": "An exploration of the intricate and diverse textures found on the Earth's surface, captured from a high-altitude satellite perspective to reveal nature's artistic patterns."
+  },
+  "prompt": "High-resolution satellite view of diverse Earth textures, including cracked desert salt flats, lush Amazonian rainforest canopy, swirling turquoise ocean currents near coral reefs, and jagged snow-capped mountain ridges. Hyper-realistic, cinematic lighting, top-down perspective, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-19T00:36:22.588+09:00"
+}
