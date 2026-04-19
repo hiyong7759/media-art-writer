@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 사이버펑크 메트로폴리스",
+    "en": "Neon Pulse: Cyberpunk Metropolis"
+  },
+  "description": {
+    "ko": "비에 젖은 채 생동감 넘치는 네온 사인으로 빛나는 광활한 미래 도시의 풍경입니다. 그림자와 빛이 시네마틱한 분위기 속에서 충돌하며, 하이테크 문명의 빛나는 조명이 거리에 반사됩니다.",
+    "en": "A sprawling futuristic cityscape drenched in rain and illuminated by vibrant neon signs. The streets reflect the glowing lights of a high-tech civilization where shadows and light collide in a cinematic atmosphere."
+  },
+  "prompt": "Hyper-realistic cyberpunk city at night, rain-slicked streets reflecting vibrant magenta and cyan neon signs, towering skyscrapers with holographic advertisements, volumetric fog, cinematic lighting, NEON-V aesthetic, ultra-detailed, 8k resolution, futuristic urban landscape.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-20T00:33:44.075+09:00"
+}

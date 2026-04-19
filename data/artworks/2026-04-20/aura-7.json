@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 오가닉 플로우",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "자연스러운 움직임의 리드미컬한 정수를 담아낸 몰입형 시각 경험으로, 유체 역학과 유기적 실루엣이 조화를 이루며 살아있는 에너지로 융합되는 과정을 보여줍니다.",
+    "en": "An immersive visual experience capturing the rhythmic essence of natural motion, where fluid dynamics and biological silhouettes merge into a harmonious, living energy."
+  },
+  "prompt": "A cinematic macro capture of translucent iridescent liquid flowing through a void, organic undulating curves, soft biological structures, bioluminescent fibers weaving through fluid silk, smooth pastel gradients, ethereal lighting, high-speed fluid dynamics, 8k resolution, photorealistic texture",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-20T00:33:26.873+09:00"
+}

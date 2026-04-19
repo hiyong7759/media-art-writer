@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 메아리",
+    "en": "ECHO-0: Resonant Echoes"
+  },
+  "description": {
+    "ko": "소리의 보이지 않는 힘이 생동감 넘치는 색채와 역동적인 기하학적 패턴의 풍경으로 변하는 과정을 탐험하세요. 이 시각화는 유동적인 움직임과 빛나는 광원을 통해 청각 주파수의 본질을 시각적으로 포착합니다.",
+    "en": "Experience the invisible power of sound as it transforms into a breathtaking landscape of vibrant colors and dynamic geometric patterns. This visualization captures the essence of auditory frequencies through fluid motion and radiant light."
+  },
+  "prompt": "A cinematic macro shot of fluid sound waves manifesting as neon oscillating patterns, cymatics art inspired by deep bass frequencies, vibrant pulses of light reacting to rhythm, holographic frequency ripples in a dark void, deep navy and electric violet color palette, 8k resolution, ethereal and hyper-realistic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-20T00:34:00.151+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 찬란함",
+    "en": "Refractive Brilliance"
+  },
+  "description": {
+    "ko": "빛이 유리 매질을 통해 근본적인 색상으로 분해되는 광학 물리 현상을 예술적으로 표현하여, 명료함과 다각적인 관점을 상징합니다.",
+    "en": "An artistic representation of optical physics where light breaks into its fundamental colors through a glass medium, symbolizing clarity and multifaceted perspectives."
+  },
+  "prompt": "A macro cinematic shot of a multi-faceted crystal prism refracting a beam of white light into a brilliant spectral rainbow. Soft caustic patterns dance across a neutral grey surface, sharp focus on the internal light reflections, iridescent flares, 8k resolution, minimalist aesthetic, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-20T00:34:32.481+09:00"
+}

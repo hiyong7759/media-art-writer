@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 특이점: VOID-3",
+    "en": "Abyssal Singularity: VOID-3"
+  },
+  "description": {
+    "ko": "멀티버스의 미개척 구역 깊은 곳에는 물리학의 법칙을 거스르는 천체 현상인 VOID-3가 존재합니다. 이 시각적 여정은 진공의 절대적인 고요함과 붕괴하는 별의 혼돈스러운 에너지가 만나는 심우주의 공포스럽고도 아름다운 모습을 담아냅니다.",
+    "en": "Deep within the uncharted sectors of the multiverse lies VOID-3, a celestial phenomenon that challenges the laws of physics. This visual journey captures the terrifying beauty of the cosmic deep, where the absolute silence of the vacuum meets the chaotic energy of a collapsing star."
+  },
+  "prompt": "Cinematic, hyper-realistic shot of a massive black hole designated VOID-3 in the deep cosmic void. Swirling accretion disk of iridescent violet, deep indigo, and starlight white plasma. Gravitational lensing warping the background starfield into circular streaks. High contrast, 8k resolution, unreal engine 5 render style, ethereal lighting, infinite scale, cosmic horror mixed with divine beauty.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-20T00:34:11.457+09:00"
+}

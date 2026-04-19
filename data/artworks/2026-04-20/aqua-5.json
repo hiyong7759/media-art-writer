@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-20",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연",
+    "en": "AQUA-5: Abyssal Depths"
+  },
+  "description": {
+    "ko": "심해의 미드나잇 존에서 생물 발광의 신비를 탐사하기 위해 극한의 수압을 견디도록 설계된 최첨단 해저 탐사 유닛입니다.",
+    "en": "A high-tech underwater exploration unit designed to withstand extreme pressure while discovering bioluminescent wonders in the midnight zone of the ocean."
+  },
+  "prompt": "A futuristic, sleek submersible robot named AQUA-5 navigating the pitch-black deep ocean. Bioluminescent flora and fauna glow in neon blues and purples in the background. Bubbles rising, high-tech metallic textures, cinematic lighting, 8k resolution, photorealistic underwater scenery, extreme depth atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-20T00:34:23.042+09:00"
+}
