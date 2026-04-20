@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 바이오루미네선트 합성",
+    "en": "FLORA-9: The Bioluminescent Synthesis"
+  },
+  "description": {
+    "ko": "FLORA-9은 알고리즘의 정밀함과 희귀 식물의 유기적 아름다움을 결합한 디지털 식물학의 정점을 보여줍니다. 이 작품은 코드가 숨을 쉬고 픽셀이 네온 그라데이션으로 피어나는 세상을 탐구합니다.",
+    "en": "FLORA-9 represents the pinnacle of digital botany, blending algorithmic precision with the organic beauty of rare flora. This piece explores a world where code breathes and pixels bloom in neon gradients."
+  },
+  "prompt": "A macro shot of a futuristic digital flower, FLORA-9, with translucent crystalline petals pulsing with cyan and violet fiber-optic veins. Surrounded by a dark, glitch-textured atmosphere with floating data particles and soft bokeh. 8k resolution, cinematic lighting, hyper-realistic, unreal engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-21T01:10:04.015+09:00"
+}

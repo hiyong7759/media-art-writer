@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "층층이 쌓인 침묵",
+    "en": "The Stratified Silence"
+  },
+  "description": {
+    "ko": "지구 표면에 대한 고해상도 지질학적 연구로, 퇴적층과 고대 암석 형성의 가공되지 않은 촉각적 아름다움을 포착한 작품입니다.",
+    "en": "A high-resolution geological study of Earth's surface, capturing the raw, tactile beauty of sedimentary layers and ancient rock formations."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Stratified Silence.' A top-down macro perspective of a canyon where #8B4513 sienna earth and #D2691E ochre sedimentary layers meet volcanic #2F4F4F slate mineral deposits. Sharp #F4A460 sand dunes drift across the jagged rock formations, creating patterns like frozen lightning. The texture is extremely tactile, showing every grain of sand and crystalline fracture. Cinematic natural lighting, 8k resolution, hyper-detailed geological mapping of land carved by time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-21T01:10:23.796+09:00"
+}

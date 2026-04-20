@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 광채",
+    "en": "Refractive Radiance"
+  },
+  "description": {
+    "ko": "투명한 매질을 통과할 때 빛이 굴절되고 분산되는 방식을 탐구하며, 단일 광선 속에 숨겨진 다채로운 색채를 드러냅니다.",
+    "en": "An exploration of how light bends and separates when passing through transparent mediums, revealing the hidden colors within a single beam."
+  },
+  "prompt": "Macro photograph of a triangular glass prism refracting a single beam of pure white light into a vivid, sharp rainbow spectrum. Chromatic aberration, caustic light patterns on a soft grey minimalist surface, high resolution, cinematic lighting, 8k.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-21T01:10:39.954+09:00"
+}

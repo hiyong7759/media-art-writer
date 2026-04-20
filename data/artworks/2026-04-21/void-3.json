@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 확장",
+    "en": "The Abyssal Expanse"
+  },
+  "description": {
+    "ko": "빛이 무한한 우주의 심연으로 사라지고, 공허의 고요한 위엄이 드러나는 우주의 가장 먼 곳으로의 여정입니다.",
+    "en": "A journey into the furthest reaches of the universe where light fades into the infinite cosmic deep, revealing the silent majesty of the void."
+  },
+  "prompt": "Cinematic hyper-realistic shot of a massive celestial void, swirling abyssal nebula with deep indigo and obsidian hues, faint glimmering stardust, a distant event horizon of a black hole, ethereal cosmic dust, 8k resolution, photorealistic, atmospheric lighting, depth of field.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-21T01:10:19.657+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 미드나잇 펄스",
+    "en": "NEON-V: Midnight Pulse"
+  },
+  "description": {
+    "ko": "네온으로 물든 미래 대도시의 심장부를 가르며 중력과 시간을 거스르는 네온-V와 함께 속도와 기술의 궁극적인 융합을 경험해 보세요.",
+    "en": "Experience the ultimate fusion of speed and technology as the NEON-V tears through the heart of a neon-drenched futuristic metropolis, defying gravity and time."
+  },
+  "prompt": "Cinematic shot of the NEON-V, a sleek futuristic hyper-car with glowing cyan accents and transparent aerodynamic wings, speeding through a dense cyberpunk cityscape at night. The wet asphalt reflects vibrant pink and blue neon lights. Massive holographic advertisements float between towering skyscrapers. Volumetric fog, rain droplets on the camera lens, hyper-realistic textures, 8k resolution, synthwave aesthetic, high motion blur on the wheels.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-21T01:09:53.874+09:00"
+}

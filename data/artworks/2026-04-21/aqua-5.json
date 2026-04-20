@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐사자",
+    "en": "AQUA-5: The Abyssal Explorer"
+  },
+  "description": {
+    "ko": "AQUA-5는 극한의 수압을 견디며 바다에서 가장 깊고 어두운 해구의 숨겨진 경이로움을 포착하기 위해 설계된 최첨단 심해 자율 탐사 로봇입니다.",
+    "en": "AQUA-5 is a state-of-the-art deep-sea autonomous unit designed to withstand extreme pressure and capture the hidden wonders of the ocean's darkest trenches."
+  },
+  "prompt": "Cinematic wide shot of AQUA-5, a sleek bioluminescent underwater exploration droid, navigating through the dark Hadal zone. Glowing neon azure lights, bubbles rising from thermal vents, ancient rock formations, hyper-realistic textures, 8k resolution, ray tracing, deep blue and black color palette.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-21T01:10:31.759+09:00"
+}

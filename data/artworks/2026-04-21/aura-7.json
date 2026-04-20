@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-21",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "폐포의 성운",
+    "en": "The Alveolar Nebula"
+  },
+  "description": {
+    "ko": "에메랄드빛 이끼와 황금빛 액체 조명이 고요한 수중 분위기 속에서 만나는 우주적 규모의 유기적 호흡 시스템을 장엄하게 시각화한 작품입니다.",
+    "en": "A majestic visualization of a cosmic-scale organic breathing system, where emerald moss meets golden liquid light in a serene underwater atmosphere."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Alveolar Nebula.' A gargantuan, breathing organic lung structure composed of #7FB069 emerald moss membranes and deep #2D5A3D vascular networks. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere. Thick, viscous ribbons of #FFE66D golden bioluminescent nectar pulse through the translucent walls, drifting like liquid silk into the void. Macro focus on the semi-permeable cellular textures and internal capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-21T01:09:24.983+09:00"
+}
