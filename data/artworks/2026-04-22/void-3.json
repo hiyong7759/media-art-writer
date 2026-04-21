@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 영롱한 심연",
+    "en": "VOID-3: Ethereal Abyss of the Cosmos"
+  },
+  "description": {
+    "ko": "빛과 그림자가 영원한 침묵 속에 춤추며 허공의 잊혀지지 않는 아름다움을 드러내는 우주의 가장 먼 곳으로의 여행입니다.",
+    "en": "A journey into the furthest reaches of the universe where light and shadow dance in perpetual silence, revealing the haunting beauty of the void."
+  },
+  "prompt": "Cinematic wide shot of a deep cosmic void, swirling dark nebulae with vibrant purple and cyan gas clouds, distant glittering star clusters, hyper-realistic, 8k resolution, volumetric lighting, deep shadows, melancholic and majestic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-22T01:10:05.141+09:00"
+}

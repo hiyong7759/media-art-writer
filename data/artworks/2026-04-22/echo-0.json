@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 진동",
+    "en": "ECHO-0: Harmonic Oscillations"
+  },
+  "description": {
+    "ko": "소리 주파수를 생동감 넘치고 고동치는 빛의 구조와 유동적인 기하학적 패턴으로 변환하여, 청각과 시각 사이의 가교를 탐구하는 몰입형 디지털 아트 설치물입니다.",
+    "en": "An immersive digital art installation that translates sonic frequencies into vibrant, pulsating light structures and fluid geometric patterns, exploring the bridge between hearing and seeing."
+  },
+  "prompt": "A high-tech digital art installation titled ECHO-0, featuring glowing 3D sound waves, spectral frequency visualizations, cyan and magenta neon light trails, fluid motion blur, cinematic lighting, 8k resolution, minimalist black background, holographic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-22T01:09:56.459+09:00"
+}

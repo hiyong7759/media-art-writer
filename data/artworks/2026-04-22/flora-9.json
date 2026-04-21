@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 자연의 맥박",
+    "en": "FLORA-9: The Pulse of Digital Nature"
+  },
+  "description": {
+    "ko": "플로라-9은 유기적 생명체와 디지털 구조의 융합을 나타내며, 데이터 스트림과 생체 발광 회로를 통해 광합성이 이루어지는 미래의 생태계를 상징합니다.",
+    "en": "FLORA-9 represents the fusion of organic life and digital architecture, where photosynthesis is powered by data streams and bioluminescent circuitry."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, a synthetic botanical organism featuring translucent crystalline petals embedded with glowing blue fiber-optic veins. The plant pulses with soft neon light amidst a dark, high-tech greenhouse environment. Holographic data streams swirl around the leaves, 8k resolution, macro photography, cyberpunk aesthetic, digital nature theme.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-22T01:09:49.375+09:00"
+}

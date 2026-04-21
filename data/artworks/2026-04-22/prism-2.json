@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 변화: 빛의 기하학",
+    "en": "Spectrum Shift: The Geometry of Light"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛을 추상적으로 탐구하며, 굴절과 분산을 통해 생생한 무지개와 복잡한 기하학적 패턴을 만들어냅니다.",
+    "en": "An abstract exploration of light passing through glass prisms, creating vibrant rainbows and intricate geometric patterns through refraction and dispersion."
+  },
+  "prompt": "A high-quality 3D render of a triangular glass prism on a dark minimalist background. A single beam of sharp white light hits the surface, refracting into a vivid, multi-colored spectrum that fans out across the scene. Cinematic lighting, caustic effects, hyper-realistic glass texture, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-22T01:10:54.613+09:00"
+}

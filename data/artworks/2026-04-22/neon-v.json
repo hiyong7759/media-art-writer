@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 사이버네틱 스카이라인",
+    "en": "Neon-V: Cybernetic Skyline"
+  },
+  "description": {
+    "ko": "영원한 황혼과 네온 불빛에 젖어든 거대 도시. 홀로그램 광고와 흩날리는 빗줄기 아래 첨단 기술과 도시의 쇠락이 공존하는 사이버펑크 세계관을 담고 있습니다.",
+    "en": "A sprawling metropolis bathed in eternal twilight and neon brilliance, where advanced technology and urban decay coexist under a canopy of holographic advertisements and shimmering rain."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk megacity, dense urban landscape with towering skyscrapers, glowing neon signs in cyan and electric purple, rain-slicked asphalt streets reflecting city lights, flying vehicles weaving through sky-bridges, volumetric fog and hazy atmosphere, hyper-detailed, photorealistic, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-22T01:09:36.640+09:00"
+}

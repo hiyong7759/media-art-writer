@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-22",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 시너지: 생명의 흐름",
+    "en": "Ethereal Synergy: The Living Flow"
+  },
+  "description": {
+    "ko": "AURA-7 오가닉 플로우는 자연과 디지털 인공물의 완벽한 연결을 탐구합니다. 심해 생물의 우아한 움직임과 바람이 스치는 풍경을 모방한 유동적이고 리드미컬한 패턴을 통해 고요하고 연속적인 움직임을 전달합니다.",
+    "en": "AURA-7 Organic Flow explores the seamless connection between nature and digital artifice. It features fluid, rhythmic patterns that mimic the graceful movement of deep-sea organisms and wind-swept landscapes, creating a sense of serene, continuous motion."
+  },
+  "prompt": "Cinematic 3D render of AURA-7, organic fluid motion, liquid silk textures flowing in zero gravity, soft iridescent color palette, pearlescent glow with bioluminescent veins, abstract architectural curves inspired by natural anatomy, high-speed macro photography, ethereal atmosphere, 8k resolution, hyper-realistic lighting",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-22T01:09:01.687+09:00"
+}
