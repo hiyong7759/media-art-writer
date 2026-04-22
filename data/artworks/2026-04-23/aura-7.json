@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "아우라-7: 유기적 흐름의 정수",
+    "en": "AURA-7: Essence of Organic Flow"
+  },
+  "description": {
+    "ko": "기술과 자연의 유연한 우아함이 만나는 아우라-7의 시각적 탐구입니다. 이 작품은 부드러운 곡선과 생체 발광 리듬을 특징으로 하며, 디지털 의식과 유기적 움직임 사이의 완벽한 전이를 묘사합니다.",
+    "en": "A visual exploration of AURA-7 where technology meets the fluid grace of nature. This piece illustrates the seamless transition between digital consciousness and organic movement, characterized by soft curves and bioluminescent rhythms."
+  },
+  "prompt": "A high-resolution digital masterpiece of AURA-7 manifesting through organic flow, featuring iridescent liquid metal ribbons swirling into biological shapes, glowing neural pathways resembling translucent jellyfish, soft pastel color palette with pearlescent finishes, volumetric lighting, ethereal atmosphere, macro photography style, hyper-detailed textures, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-23T01:07:26.843+09:00"
+}

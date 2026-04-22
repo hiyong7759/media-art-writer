@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "유기적 생명과 디지털 구조 사이의 경계를 탐구하는 매혹적인 작품으로, 광섬유 수술과 투명한 수정 잎을 가진 금속 꽃을 특징으로 합니다.",
+    "en": "A mesmerizing exploration of the boundary between organic life and digital constructs, featuring a metallic flower with fiber-optic stamens and translucent crystalline leaves."
+  },
+  "prompt": "Macro photography of a futuristic flower, FLORA-9 model, bioluminescent blue veins pulsing through translucent glass petals, integrated circuit board patterns on the leaves, cybernetic nature, 8k resolution, cinematic lighting, digital ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-23T01:08:11.245+09:00"
+}

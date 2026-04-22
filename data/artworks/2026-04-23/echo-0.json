@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명 지형도",
+    "en": "The Resonance Topography"
+  },
+  "description": {
+    "ko": "넘실거리는 액체 금속과 빛의 기하학으로 표현된 음향 주파수의 물리적 현상.",
+    "en": "The physical manifestation of sound frequencies as shimmering liquid metal and light-based geometry."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, titled 'The Resonance Topography.' A central floating core of liquid chrome vibrates at a sub-bass frequency, generating complex 3D holographic rings that manifest as #4169E1 royal blue waves and #FF4500 electric orange ripples. The surrounding space crystallizes into #32CD32 green geometric particles and #FFD700 gold light trails. Set against a dark studio void, featuring hyper-realistic ray tracing and intricate UI elements that react to invisible frequencies. 8k resolution, capturing the visual consonance of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-23T01:08:15.408+09:00"
+}

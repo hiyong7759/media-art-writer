@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 성계 지평선",
+    "en": "VOID-3: Abyssal Stellar Horizon"
+  },
+  "description": {
+    "ko": "빛이 무한한 우주의 심연에 삼켜져 멀리 떨어진 성운과 죽어가는 별들의 잊혀지지 않는 아름다움을 드러내는 우주의 가장 먼 곳에 대한 시각적 탐구입니다.",
+    "en": "A visual exploration of the universe's furthest reaches, where light is swallowed by the infinite cosmic abyss, revealing the haunting beauty of distant nebulae and dying stars."
+  },
+  "prompt": "Cinematic wide-angle shot of the deep cosmic void, ethereal dark blue and violet nebulae, scattered distant stars, glowing cosmic dust, silence of the infinite abyss, 8k resolution, photorealistic, hyper-detailed, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-23T01:08:24.342+09:00"
+}

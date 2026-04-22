@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 발광",
+    "en": "AQUA-5: Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 세계에서 가장 깊은 해구의 생물 발광 기적과 압도적인 침묵 속으로 들어가 해저 한밤중 구역의 잊을 수 없는 아름다움을 경험해 보세요.",
+    "en": "Experience the haunting beauty of the ocean's midnight zone, where the AQUA-5 explores the bioluminescent wonders and crushing silence of the world's deepest trenches."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean abyss, featuring the AQUA-5 submersible navigating through bioluminescent flora and strange deep-sea creatures, glowing neon blues and purples against the dark void, high-pressure environment, particles of marine snow, hyper-realistic, 8k, ethereal underwater lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-23T01:08:44.155+09:00"
+}

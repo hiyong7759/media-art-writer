@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "인디고 몬순 저수지",
+    "en": "The Indigo Monsoon Reservoir"
+  },
+  "description": {
+    "ko": "폭우와 선명한 홀로그램이 액체 네온 반사를 만들어내는 우울한 테크-누아르 도시 경관.",
+    "en": "A melancholic tech-noir cityscape where heavy rain and vibrant holograms create a liquid neon reflection."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Indigo Monsoon Reservoir.' Towering #1A0033 indigo megastructures are reflected in a flooded urban plaza. Massive 3D holographic lotuses bloom in pulsing #FF00FF magenta and #00FFFF cyan light through a heavy downpour. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections, and lens flares from flickering neon signs. 8k resolution, capturing the romantic and melancholic soul of a futuristic megacity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-23T01:07:51.036+09:00"
+}

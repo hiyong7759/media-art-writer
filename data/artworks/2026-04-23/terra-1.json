@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-23",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 표면: 촉각의 여정",
+    "en": "Earth's Surface: A Tactile Journey"
+  },
+  "description": {
+    "ko": "사막의 갈라진 진흙부터 고대 숲의 무성한 이끼까지, 지구상에서 발견되는 다양한 질감에 대한 고화질 탐구입니다.",
+    "en": "A high-definition exploration of the diverse textures found on Earth, from the cracked clay of deserts to the lush moss of ancient forests."
+  },
+  "prompt": "Cinematic macro photography of Earth's surface textures, hyper-realistic, top-down view of cracked desert earth, lush green mossy river stones, and swirling ocean foam, 8k resolution, intricate details, natural lighting, earthy color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-23T01:08:34.301+09:00"
+}
