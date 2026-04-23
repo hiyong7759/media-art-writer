@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "자외선 몬순",
+    "en": "The Ultraviolet Monsoon"
+  },
+  "description": {
+    "ko": "폭우, 네온 불빛, 미래 기술이 낭만적으로 교차하는 우울하면서도 활기찬 도시 풍경을 포착합니다.",
+    "en": "A melancholic yet vibrant cityscape capturing the romantic intersection of heavy rain, neon lights, and futuristic technology."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Ultraviolet Monsoon.' Towering #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta neon. Massive 3D holographic koi fish swim through the heavy rain, casting #00FFFF cyan light onto wet metallic asphalt. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, ray-traced puddle reflections, and lens flares from flickering signs. 8k resolution, capturing the romantic and melancholic soul of a futuristic metropolis.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-24T01:30:29.514+09:00"
+}

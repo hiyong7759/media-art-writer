@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "허공이 죽어가는 별들과 성운의 그림자와 만나는 우주의 가장 먼 곳으로 떠나는 몰입형 여행.",
+    "en": "An immersive journey into the furthest reaches of the cosmos where the void meets dying stars and nebular shadows."
+  },
+  "prompt": "Cinematic shot of a vast cosmic void, deep space abyss with faint bioluminescent nebulae, distant collapsing stars, dark matter tendrils, ultra-detailed 8k, ethereal lighting, obsidian atmosphere, VOID-3 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-24T01:30:49.417+09:00"
+}

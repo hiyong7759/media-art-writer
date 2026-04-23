@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "세포질의 리듬",
+    "en": "The Cytoplasmic Rhythm"
+  },
+  "description": {
+    "ko": "유동적인 유기적 전이와 생물 발광의 생명력을 강조하며 생물학적 실체의 호흡하는 삶을 심층적으로 탐구합니다.",
+    "en": "A deep-dive into the respiratory life of a biological entity, emphasizing fluid organic transitions and bioluminescent vitality."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Cytoplasmic Rhythm.' A colossal, pulsating cellular membrane structure composed of #7FB069 emerald moss-like textures and #2D5A3D deep forest vascular filaments. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere, exhaling viscous #FFE66D golden bioluminescent nectar that flows like rhythmic liquid silk. Macro focus on the semi-permeable translucent walls revealing complex internal capillary systems of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-24T01:30:21.172+09:00"
+}

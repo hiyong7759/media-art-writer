@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 발광",
+    "en": "ECHO-0: Sonic Luminescence"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 오디오 신호를 빛과 기하학의 실체적인 풍경으로 해독하여 사용자가 소리의 구조를 시각적으로 경험할 수 있게 하는 첨단 시각화 시스템입니다.",
+    "en": "ECHO-0 is an advanced visualization system that decodes complex audio signals into a tangible landscape of light and geometry, allowing users to see the architecture of sound."
+  },
+  "prompt": "A futuristic digital installation representing sound visualization, where sonic frequencies manifest as glowing 3D geometric waves and pulsing light particles in a dark void. High-tech aesthetic, neon cyan and magenta accents, fluid motion, cinematic depth of field, 8k resolution, sharp details, algorithmic art style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-24T01:30:41.802+09:00"
+}

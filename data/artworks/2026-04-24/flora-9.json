@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 광합성",
+    "en": "The Silicon Photosynthesis"
+  },
+  "description": {
+    "ko": "식물적 형태가 광섬유와 회로 기판의 미학을 통해 재해석되는 디지털 봄에 대한 탐구입니다.",
+    "en": "An exploration of a digital spring where botanical forms are reinterpreted through fiber-optics and circuit board aesthetics."
+  },
+  "prompt": "A hyper-macro cinematic shot of FLORA-9, titled 'The Silicon Photosynthesis.' A sentient digital flower with #89CFF0 iridescent fiber-optic petals and #50C878 emerald circuit-veined leaves. The bloom exhales #FFB6C1 pink holographic pollen into a dark #4A0E4E velvet void. Floating binary code droplets cling to the crystalline surfaces like digital dew. 8k resolution, photorealistic fusion of organic growth and cybernetic hardware, featuring ethereal volumetric lighting and intricate liquid crystal textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-24T01:30:33.685+09:00"
+}

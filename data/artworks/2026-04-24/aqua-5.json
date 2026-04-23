@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 고요: AQUA-5",
+    "en": "Abyssal Serenity: AQUA-5"
+  },
+  "description": {
+    "ko": "생체 발광 생명체들이 영원한 어둠을 밝히는 미지의 깊은 바다로 여행을 떠나보세요. AQUA-5는 당신을 미드나잇 존의 중심부로 안내하여, 심해저의 고요한 장엄함과 최첨단 탐사의 현장을 공개합니다.",
+    "en": "Journey into the unexplored depths where bioluminescent creatures illuminate the eternal darkness. AQUA-5 takes you to the heart of the midnight zone, revealing the silent majesty and high-tech exploration of the ocean floor."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean's midnight zone, glowing bioluminescent flora and fauna, dark abyssal plains, shimmering blue neon light particles, futuristic AQUA-5 research submersible, high-tech underwater machinery, 8k resolution, hyper-realistic, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-24T01:31:16.629+09:00"
+}

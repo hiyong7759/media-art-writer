@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 굴절: PRISM-2",
+    "en": "Light Refraction: PRISM-2"
+  },
+  "description": {
+    "ko": "PRISM-2는 광학적 분산의 물리학을 탐구하며, 백색광이 찬란한 스펙트럼으로 분해되는 순간을 포착합니다. 이 테마는 크리스탈 매질의 투명함과 굴절된 빛의 파동이 가진 과학적인 아름다움을 강조합니다.",
+    "en": "PRISM-2 explores the physics of optical dispersion, capturing the moment white light fractures into a brilliant spectrum. This theme emphasizes the clarity of crystal mediums and the scientific beauty of refracted light waves."
+  },
+  "prompt": "A high-precision optical glass prism placed on a minimalist dark matte surface. A focused beam of white light enters the crystal, dispersing into a sharp, vibrant spectrum of rainbow colors. Subtle chromatic aberration, cinematic lighting, macro photography, 8k resolution, elegant caustics reflecting on the surface.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-24T01:31:25.942+09:00"
+}

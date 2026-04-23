@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "재귀적 파편화",
+    "en": "The Recursive Fragmentation"
+  },
+  "description": {
+    "ko": "완벽한 기하학이 하이테크 디지털 아티팩트와 단색의 복잡성에 의해 파괴되는 수학적 혼돈에 대한 시각적 연구입니다.",
+    "en": "A visual study of mathematical chaos, where perfect geometry is disrupted by high-tech digital artifacts and monochrome complexity."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian monolith by KURO-X, titled 'The Recursive Fragmentation.' The structure is captured mid-shatter into a precision vortex of #808080 and #C0C0C0 geometric shards against a clinical #FFFFFF void. Intense digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration intersect the sharp polygonal planes. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian surfaces. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical beauty of digital chaos within structured order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-24T01:30:25.338+09:00"
+}

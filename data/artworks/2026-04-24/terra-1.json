@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-24",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 근원적 질감",
+    "en": "TERRA-1: Elemental Textures"
+  },
+  "description": {
+    "ko": "지각을 가로지르는 숨막히는 시각적 여정으로, 자연의 원소들이 만들어낸 가공되지 않은 리드미컬한 패턴을 강조합니다. 건조한 사막부터 얼어붙은 산봉우리까지, TERRA-1은 지구를 추상 예술의 걸작으로 포착합니다.",
+    "en": "A breathtaking visual journey across the Earth's crust, highlighting the raw and rhythmic patterns formed by nature's elements. From arid deserts to frozen peaks, TERRA-1 captures the planet as a masterpiece of abstract art."
+  },
+  "prompt": "Ultra-high-definition satellite photography focusing on the abstract textures of the Earth's surface. A composition featuring the cracked golden patterns of the Danakil Depression, the deep azure swirling currents of the Great Barrier Reef, and the jagged, snow-dusted ridges of the Himalayas. Cinematic lighting, macro-geological detail, hyper-realistic textures, 8k resolution, vibrant natural colors.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-24T01:31:07.353+09:00"
+}
