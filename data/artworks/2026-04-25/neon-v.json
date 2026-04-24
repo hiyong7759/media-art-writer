@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-25",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "일렉트릭 제니스",
+    "en": "The Electric Zenith"
+  },
+  "description": {
+    "ko": "네온 불빛과 몬순의 빗줄기가 어우러져 우울하면서도 낭만적인 도시 경관을 만들어내는 미래 대도시의 광활한 풍경입니다.",
+    "en": "A sweeping view of a futuristic metropolis where neon light and monsoon rain merge to create a melancholic yet romantic urban landscape."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Electric Zenith.' Towering #1A0033 indigo megastructures are linked by sky-bridges pulsing with #FF00FF magenta neon and #00FFFF cyan holographic data streams. Heavy monsoon rain creates vibrant, distorted reflections on wet metallic asphalt. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, ray-traced puddle reflections, and lens flares from flickering neon signs. 8k resolution, capturing the romantic and melancholic soul of a futuristic megacity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-25T01:03:19.244+09:00"
+}

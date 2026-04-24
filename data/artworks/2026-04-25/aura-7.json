@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-25",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "균사체의 고동",
+    "en": "The Mycelial Pulse"
+  },
+  "description": {
+    "ko": "자연의 상호 연결성을 시각화한 작품으로, 황금빛 생체 발광 흐름 속에 숨 쉬는 유기적 신경망을 묘사합니다.",
+    "en": "A visualization of the interconnectedness of nature, depicting a breathing neural network of organic life in a state of golden luminescent flow."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Mycelial Pulse.' A complex network of #7FB069 emerald moss-like filaments and #2D5A3D deep forest vascular roots forming an interconnected organic brain. The structure is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere, exhaling thick, viscous ribbons of #FFE66D golden liquid light that weave through semi-permeable membranes. Macro focus on the cellular permeability and internal glowing sap channels. Rendered in Octane, 8k resolution, hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh to capture a divine, breathing organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-25T01:02:41.854+09:00"
+}

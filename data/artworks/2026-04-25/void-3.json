@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-25",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "시공간의 구조가 영원한 흑암의 심연으로 뻗어 나가는 VOID-3의 심장부로의 여정으로, 고요한 우주의 잊을 수 없는 아름다움을 드러냅니다.",
+    "en": "A journey into the heart of VOID-3, where the fabric of space-time stretches into an eternal obsidian abyss, revealing the haunting beauty of the silent cosmos."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 phenomenon, a massive swirling vortex of dark matter and violet energy in the deepest reaches of space, distant dying stars flickering in the background, ethereal cosmic dust, hyper-realistic textures, 8k resolution, volumetric lighting, sense of infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-25T01:04:33.351+09:00"
+}

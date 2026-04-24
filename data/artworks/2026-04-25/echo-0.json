@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-25",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "음향 에너지를 시각적으로 탐구하며, 소리의 파동을 유동적이고 빛나는 건축적 형태와 리드미컬한 빛의 패턴으로 변환합니다.",
+    "en": "A visual exploration of acoustic energy, where sound waves are transformed into fluid, glowing architectural forms and rhythmic light patterns."
+  },
+  "prompt": "Cinematic sound visualization, 3D parametric waves of liquid silver and neon violet, pulsating frequency spectrum, holographic particles floating in a dark void, ripples of light reacting to an invisible beat, macro lens, hyper-realistic textures, 8k resolution, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-25T01:03:29.072+09:00"
+}
