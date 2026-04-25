@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 발광",
+    "en": "AQUA-5: Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "빛 한 점 들지 않는 칠흑 같은 심해의 심연 속에서, 스스로 빛을 내는 생명체들이 선사하는 신비롭고 경이로운 빛의 향연을 감상해 보세요.",
+    "en": "Descend into the midnight zone of the deep ocean, where rare bioluminescent life forms create a stunning display of light within the crushing silence of the abyss."
+  },
+  "prompt": "Hyper-realistic cinematic underwater footage of the abyssal zone, bioluminescent jellyfish and glowing deep-sea organisms illuminating the dark void, hydrothermal vents casting golden light, obsidian-colored water, ethereal atmosphere, 8k resolution, macro photography style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-26T00:38:00.465+09:00"
+}

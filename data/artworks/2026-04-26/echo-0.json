@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0 환경 내에서 음향 에너지를 시각적으로 구현한 것으로, 음파가 생동감 넘치는 기하학적 빛의 패턴과 유체 운동으로 변환되는 모습을 보여줍니다.",
+    "en": "A visual manifestation of acoustic energy within the ECHO-0 environment, where sound waves are transformed into vibrant geometric light patterns and fluid motion."
+  },
+  "prompt": "Cinematic visualization of complex sound waves and sonic frequencies, glowing neon pulse patterns, iridescent ripples in a dark liquid digital space, mathematical geometry, ECHO-0 interface style, high-tech abstract aesthetic, 8k resolution, hyper-detailed particles.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-26T00:37:32.379+09:00"
+}

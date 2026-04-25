@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 영원한 메트로폴리스",
+    "en": "Neon Pulse: The Eternal Metropolis"
+  },
+  "description": {
+    "ko": "비 내리는 밤의 어둠을 뚫고 네온 불빛이 빛나는 미래 도시의 숨막히는 전경으로, 기술 발전과 도시 밀집도의 정점을 보여줍니다.",
+    "en": "A breathtaking view of a futuristic city where neon lights pierce through the darkness of a rainy night, showcasing the peak of technological advancement and urban density."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk metropolis at night, towering skyscrapers with glowing neon signs in cyan and magenta, flying vehicles with light trails, rain-slicked streets reflecting city lights, high-tech dystopian atmosphere, ultra-detailed, 8k resolution, ray tracing, futuristic architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-26T00:36:57.683+09:00"
+}

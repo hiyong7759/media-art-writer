@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 범위",
+    "en": "VOID-3: The Abyssal Reach"
+  },
+  "description": {
+    "ko": "빛이 희귀한 유물처럼 느껴지고 우주의 거대함이 어둠의 위엄 속에서 무겁고 무한하게 다가오는 외곽 지역의 깊은 침묵을 탐험하세요.",
+    "en": "Explore the profound silence of the outer rim, where light is a rare artifact and the vastness of the universe feels heavy and infinite in its dark majesty."
+  },
+  "prompt": "VOID-3, cosmic deep space, abyssal void, swirling dark matter, faint distant nebulae, glowing celestial particles, hyper-realistic, 8k resolution, cinematic lighting, deep blues and blacks, infinite horizon, ethereal cosmic dust",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-26T00:37:41.962+09:00"
+}

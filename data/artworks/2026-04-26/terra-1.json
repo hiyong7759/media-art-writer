@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "건조한 지형: 지구의 혈관",
+    "en": "Arid Topography: The Earth's Veins"
+  },
+  "description": {
+    "ko": "햇빛에 바랜 강바닥과 갈라진 대지를 고해상도 매크로 촬영으로 담아내어, 마치 살아있는 행성의 복잡한 순환 계통을 연상시키며 지질학적 부식과 형성의 가공되지 않은 아름다움을 보여줍니다.",
+    "en": "A high-resolution macro capture of sun-baked riverbeds and cracked earth, resembling the intricate circulatory system of a living planet, showcasing the raw beauty of geological decay and formation."
+  },
+  "prompt": "High-resolution satellite photography of earth textures, arid desert topography with intricate riverbed patterns, cracked clay soil, cinematic lighting, earthy tones, 8k, hyper-detailed, organic geological formations, aerial view of abstract landscape art created by nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-26T00:37:49.975+09:00"
+}

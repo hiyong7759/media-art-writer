@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-26",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "유동적인 움직임과 자연스러운 대칭을 시각적으로 탐구하며, 생물학적 리듬과 부드러운 심해의 조류에서 영감을 받은 빛나는 형태의 매끄러운 전이를 담아냈습니다.",
+    "en": "A visual exploration of fluid motion and natural symmetry, capturing the seamless transition of luminous forms inspired by biological rhythms and gentle underwater currents."
+  },
+  "prompt": "Macro cinematic shot of iridescent fluid silk undulating in deep space, bioluminescent pulses flowing through translucent organic membranes, soft golden and violet glowing currents, liquid dynamics, ethereal atmosphere, hyper-realistic textures, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-26T00:36:41.961+09:00"
+}
