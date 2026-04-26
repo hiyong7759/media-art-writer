@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "천상의 판막 흐름",
+    "en": "The Celestial Valve Flow"
+  },
+  "description": {
+    "ko": "반투명한 막을 통해 생체 발광 빛을 내뿜는 유기적 호흡 생명체의 형상화.",
+    "en": "A representation of organic respiratory life breathing bioluminescent light through translucent membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Celestial Valve Flow.' A gargantuan, translucent organic pump structure composed of #7FB069 emerald moss membranes and #2D5A3D deep forest vascular networks. The entity is suspended in a weightless #E6F2E1 pearlescent mist. Rhythmic pulses exhale thick, viscous ribbons of #FFE66D golden bioluminescent nectar that flow like liquid silk through semi-permeable cellular walls. Macro focus on the internal capillary systems and glowing sap channels. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-27T00:38:29.182+09:00"
+}

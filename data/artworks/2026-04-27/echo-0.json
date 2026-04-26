@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 공명하는 파동",
+    "en": "ECHO-0: Resonance Waves"
+  },
+  "description": {
+    "ko": "음파가 시각적 건축물로 나타나는 과정을 디지털로 탐구한 작품입니다. 에코-0는 보이지 않는 주파수의 압력을 시각화하여 오디오를 유동적이고 빛나는 기하학적 형태로 변환합니다.",
+    "en": "A digital exploration of how sound waves manifest as visual architecture. ECHO-0 visualizes the unseen pressure of frequencies, turning audio into fluid, glowing geometry."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0 showcasing sound visualization, pulsating waves of light and frequency, iridescent sonic ripples, abstract geometric structures reacting to audio vibrations, deep blue and neon violet color palette, high resolution, 8k, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-27T00:40:01.060+09:00"
+}

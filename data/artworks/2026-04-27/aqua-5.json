@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 영겁의 심해",
+    "en": "AQUA-5: Eternal Abyss"
+  },
+  "description": {
+    "ko": "햇빛이 닿지 않는 바다의 가장 깊은 곳, 완전한 어둠 속에서 신비로운 생체 발광으로 생명을 이어가는 경이로운 심해의 세계를 탐험합니다.",
+    "en": "A breathtaking exploration of the ocean's deepest reaches, where sunlight fades into total darkness and life survives through mesmerizing bioluminescence."
+  },
+  "prompt": "Deep sea abyss, bioluminescent flora and mysterious glowing jellyfish, hydrothermal vents emitting smoke, cinematic underwater lighting, dark midnight blue palette, ultra-high definition, ethereal atmosphere, macro photography style, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-27T00:40:31.975+09:00"
+}

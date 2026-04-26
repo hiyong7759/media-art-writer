@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 특이점",
+    "en": "VOID-3: The Abyssal Singularity"
+  },
+  "description": {
+    "ko": "빛이 영원한 우주의 심연 속으로 사라지고, 신비로운 중력핵 주위에서 물리 법칙이 뒤틀리는 우주의 고요한 심장부로의 여정입니다.",
+    "en": "A journey into the silent heart of the universe, where light fades into the eternal cosmic deep and the laws of physics bend around a mysterious gravitational core."
+  },
+  "prompt": "A hyper-detailed cinematic visualization of the VOID-3 cosmic deep, featuring swirling dark matter, luminescent nebulae in deep shades of violet and midnight blue, a gravitational singularity distorting the fabric of space-time, distant glowing star clusters, ethereal atmospheric lighting, 8k resolution, cosmic horror aesthetic, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-27T00:40:09.823+09:00"
+}

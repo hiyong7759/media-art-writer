@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "수정처럼 맑은 빛의 분산",
+    "en": "Crystalline Spectral Refraction"
+  },
+  "description": {
+    "ko": "유리와 빛의 상호작용을 통해 탄생하는 화려한 스펙트럼을 탐구합니다. 투명함과 굴절된 색채의 역동적인 조화가 돋보이는 장면으로, 정교한 시각적 깊이를 전달합니다.",
+    "en": "A captivating visual exploration of light as it interacts with glass, breaking into a brilliant spectrum. The scene highlights the delicate balance between transparency and the vibrant complexity of refracted colors."
+  },
+  "prompt": "A high-end cinematic shot of a complex glass prism, sunlight piercing through, intense light refraction, spectral dispersion creating vivid rainbow flares, caustic light patterns on a minimalist background, hyper-realistic glass textures, macro photography, 8k resolution, volumetric lighting, ethereal atmosphere, PRISM-2 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-27T00:40:51.110+09:00"
+}

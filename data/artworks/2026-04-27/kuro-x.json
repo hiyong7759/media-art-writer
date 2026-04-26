@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-27",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "동기화된 디지털 붕괴",
+    "en": "The Synchronized Digital Collapse"
+  },
+  "description": {
+    "ko": "수학적 질서와 무질서한 디지털 파편화가 만나는 고대비 탐구.",
+    "en": "A high-contrast exploration of mathematical order meeting chaotic digital fragmentation."
+  },
+  "prompt": "A brutalist #1A1A1A obsidian tesseract by KURO-X, titled 'The Synchronized Digital Collapse.' The structure is captured mid-shatter, exploding into a precision vortex of #808080 and #C0C0C0 geometric shards against a clinical #FFFFFF void. Heavy digital glitch artifacts, datamoshing textures, and extreme RGB chromatic aberration intersect the razor-sharp polygonal planes. High-contrast cinematic lighting with ray-traced reflections on shifting obsidian surfaces. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical beauty of digital chaos within order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-27T00:38:33.355+09:00"
+}
