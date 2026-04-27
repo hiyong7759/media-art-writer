@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-28",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모노리스의 글리치",
+    "en": "The Monolith’s Glitch"
+  },
+  "description": {
+    "ko": "엄격한 기하학적 질서가 파편들의 아름답고 계산된 혼돈으로 붕괴하는 디지털 엔트로피를 탐구합니다.",
+    "en": "A study in digital entropy, where rigid geometric order collapses into a beautiful, calculated chaos of fragments."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Monolith’s Glitch.' A massive #1A1A1A obsidian pillar frozen in a state of hyper-geometric disintegration, shattering into a calculated vortex of #808080 and #C0C0C0 razor-sharp polygonal shards. The scene is set against a clinical #FFFFFF void, intersected by heavy digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-28T01:25:59.687+09:00"
+}

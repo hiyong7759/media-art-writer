@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-28",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투압의 고동",
+    "en": "The Osmotic Pulse"
+  },
+  "description": {
+    "ko": "반투명한 생물학적 막을 통해 빛과 생명이 리드미컬하게 교환되는 유기적 생명력을 표현한 작품입니다.",
+    "en": "A representation of organic vitality, depicting the rhythmic exchange of light and life through translucent biological membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Pulse.' A monumental respiratory node constructed from #7FB069 emerald moss membranes and #2D5A3D deep forest vascular structures, suspended in a weightless #E6F2E1 pearlescent liquid medium. Rhythmic pulsations exhale thick, luminous ribbons of #FFE66D golden liquid light that weave through semi-permeable cellular walls. Macro focus on internal capillary systems and glowing sap channels. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-28T01:25:55.496+09:00"
+}

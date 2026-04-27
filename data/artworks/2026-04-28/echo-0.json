@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-28",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 구체",
+    "en": "The Sonic Sphere"
+  },
+  "description": {
+    "ko": "보이지 않는 소리의 주파수를 빛과 기하학의 만질 수 있는 풍경으로 바꾸는 공감각적 탐구입니다.",
+    "en": "An exploration of synesthesia, turning invisible sound frequencies into a tangible landscape of light and geometry."
+  },
+  "prompt": "A cinematic high-tech visualization of ECHO-0, titled 'The Sonic Sphere.' A central floating sphere of liquid silver vibrates at a sub-bass frequency, generating complex 3D holographic ripples that manifest as #4169E1 royal blue waves and #FF4500 electric orange frequencies. The surrounding space is filled with #32CD32 green geometric particles and #FFD700 gold light trails. Set against a dark studio void, featuring hyper-realistic ray tracing and intricate UI elements reacting to sound. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-28T01:26:37.137+09:00"
+}

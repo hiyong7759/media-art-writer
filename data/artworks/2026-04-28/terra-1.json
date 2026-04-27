@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-28",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "광맥의 모자이크",
+    "en": "The Mineral Vein Mosaic"
+  },
+  "description": {
+    "ko": "지각에 새겨진 풍부한 질감과 고대 역사를 보여주는, 시간이 조각한 지질학적 서사입니다.",
+    "en": "A geological narrative carved by time, showcasing the rich textures and ancient history embedded in the Earth's crust."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Mineral Vein Mosaic.' A top-down macro perspective of a high-altitude plateau where #8B4513 sienna earth and #D2691E ochre sedimentary layers are cut by deep #2F4F4F slate mineral canyons. Sharp #F4A460 sand dunes drift across the surface, creating patterns of frozen motion. Tactile texture showing every grain of sand and crystalline fracture. Cinematic natural lighting, 8k resolution, hyper-detailed geological mapping.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-28T01:26:50.790+09:00"
+}

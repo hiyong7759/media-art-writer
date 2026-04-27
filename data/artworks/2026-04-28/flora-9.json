@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-28",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 합성",
+    "en": "FLORA-9: The Digital Synthesis"
+  },
+  "description": {
+    "ko": "FLORA-9은 유기적 생명체와 기계 지능의 궁극적인 융합을 나타내며, 수액 대신 데이터가 흐르고 빛으로 인코딩된 스트림을 통해 광합성이 이루어지는 식물 개체입니다.",
+    "en": "FLORA-9 represents the ultimate convergence of organic life and machine intelligence, a botanical entity where sap is replaced by data and photosynthesis occurs through light-encoded streams."
+  },
+  "prompt": "A hyper-realistic digital nature scene featuring FLORA-9, a futuristic bioluminescent plant with translucent crystalline leaves showing glowing cyan fiber-optic veins and golden circuit patterns. The plant grows from a sleek metallic base amidst a swirling cloud of digital pollen and floating data pixels. Soft holographic UI elements hover in the background of a dark, high-tech laboratory. Cinematic lighting, macro photography, 8k resolution, ethereal aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-28T01:26:32.944+09:00"
+}
