@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "인디고의 동맥",
+    "en": "The Indigo Arteries"
+  },
+  "description": {
+    "ko": "인디고 고층 빌딩의 어둠이 마젠타와 시안색 네온 궤적의 낭만적인 빛에 의해 꿰뚫리는, 비에 젖은 사이버펑크 도시의 풍경입니다.",
+    "en": "A rain-slicked cyberpunk cityscape where the darkness of indigo towers is pierced by the romantic glow of magenta and cyan neon trails."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Indigo Arteries.' Towering #1A0033 indigo megastructures are drenched in heavy monsoon rain, reflecting vibrant #FF00FF magenta and #00FFFF cyan holographic advertisements. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections, and lens flares from flickering neon signs. 8k resolution, capturing the melancholic soul of a future city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-29T01:50:19.808+09:00"
+}

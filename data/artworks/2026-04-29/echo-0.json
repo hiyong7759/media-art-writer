@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 오디오 주파수를 역동적인 시각적 풍경으로 변환하며, 실시간 파티클 시뮬레이션과 기하학적 변위를 통해 소리의 보이지 않는 구조를 포착합니다.",
+    "en": "ECHO-0 translates complex auditory frequencies into dynamic visual landscapes, capturing the invisible architecture of sound through real-time particle simulation and geometric displacement."
+  },
+  "prompt": "Abstract 3D sound visualization, intricate audio waves rendered as glowing fiber-optic strands, undulating kinetic topography, deep charcoal background with cyan and magenta accents, cinematic lighting, 8k resolution, mathematical symmetry, digital fluid motion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-04-29T01:51:10.715+09:00"
+}

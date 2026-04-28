@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 사이버네틱 블룸",
+    "en": "FLORA-9: The Cybernetic Bloom"
+  },
+  "description": {
+    "ko": "유기적 식물학과 디지털 인프라의 교차점을 시각적으로 탐구하며, 광섬유 맥락과 홀로그램 꽃가루가 주입된 생물 발광 꽃을 보여줍니다.",
+    "en": "A visionary exploration of the intersection between organic botany and digital infrastructure, showcasing a bioluminescent flower infused with fiber-optic veins and holographic pollen."
+  },
+  "prompt": "Hyper-realistic macro shot of a futuristic flower named FLORA-9, translucent petals with embedded glowing circuitry, fiber-optic filaments as stamens, digital particles floating in the air, deep forest background with neon glitch effects, 8k resolution, cinematic lighting, synthwave aesthetics, organic meets tech.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-29T01:51:02.218+09:00"
+}

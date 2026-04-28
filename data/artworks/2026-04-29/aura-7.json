@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "초록의 호흡",
+    "en": "The Verdant Respiration"
+  },
+  "description": {
+    "ko": "에메랄드빛 막과 황금빛 과즙이 중력 없는 액체 공간 속에서 흐르는, 가장 원초적이고 살아 숨 쉬는 유기적 생명의 상태를 표현합니다.",
+    "en": "A representation of organic life in its most primal, breathing state, where emerald membranes and golden nectar flow in a weightless liquid void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Verdant Respiration.' A living architectural heart composed of #7FB069 emerald moss membranes and #2D5A3D deep vascular capillaries. The entity floats in a #E6F2E1 pearlescent liquid atmosphere, exhaling thick, viscous ribbons of #FFE66D golden bioluminescent nectar. Macro focus on the semi-permeable cellular pores and rhythmic pulses of light. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-04-29T01:50:11.504+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "백색광 한 줄기가 정교하게 가공된 유리를 통과하며 생동감 넘치는 스펙트럼으로 변하는 빛의 물리학을 시각적으로 구현한 작품입니다.",
+    "en": "A stunning visual study of light physics, showcasing how a single beam of white light transforms into a vibrant spectrum as it passes through precision-cut glass."
+  },
+  "prompt": "Macro photography of a complex geometric glass sculpture, a powerful beam of light hitting the edge, creating intricate light refraction and caustic patterns. Vivid rainbow spectrums dispersing across a minimalist dark gray background. High-speed shutter, 8k resolution, cinematic lighting, sharp focus on the glass edges and the separation of colors.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-29T01:52:13.424+09:00"
+}

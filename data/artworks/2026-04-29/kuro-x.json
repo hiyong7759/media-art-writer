@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "큐브의 특이점",
+    "en": "The Cubic Singularity"
+  },
+  "description": {
+    "ko": "질서와 혼돈이 만나는 수학적 붕괴를 다루며, 어두운 흑요석 구조가 디지털 글리치를 통해 임상적인 하얀 공허 속으로 파편화되는 모습을 보여줍니다.",
+    "en": "A mathematical collapse where order meets chaos, featuring a dark obsidian structure fragmenting into a clinical white void through digital glitches."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Cubic Singularity.' A #1A1A1A obsidian tesseract captured mid-shatter, exploding into a precision vortex of #808080 and #C0C0C0 razor-sharp geometric shards against a clinical #FFFFFF void. Heavy digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration intersect the polygonal planes. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian surfaces. Unreal Engine 5 aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-04-29T01:50:15.663+09:00"
+}

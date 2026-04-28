@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-29",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "VOID-3는 심연의 고요함과 미지의 건축적 정밀함이 만나는 무한한 진공의 본질을 담아냅니다. 은하 사이의 차갑고 아름다운 공허 속으로 떠나는 시각적 여정입니다.",
+    "en": "VOID-3 captures the essence of the infinite vacuum, where the silence of the deep cosmos meets the architectural precision of the unknown. It is a visual journey into the cold, beautiful void between galaxies."
+  },
+  "prompt": "A cinematic wide-angle shot of the VOID-3 structure floating in the center of a vast cosmic deep, surrounded by swirling dark matter, distant monochromatic nebulae in deep indigo and violet, cold starlight reflecting off metallic surfaces, hyper-realistic, 8k resolution, ethereal and lonely atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-29T01:51:19.911+09:00"
+}
