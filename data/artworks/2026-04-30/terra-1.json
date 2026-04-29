@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 결정체 패턴",
+    "en": "Crystalline Earth Patterns"
+  },
+  "description": {
+    "ko": "지구 표면의 질감을 탐구하며, 소금 평원에서 자연적으로 형성된 복잡한 소금 결정과 광물 퇴적물을 추상화처럼 포착한 작품입니다.",
+    "en": "A stunning exploration of Earth's surface textures, focusing on the intricate salt crusts and mineral deposits that form naturally in salt flats, resembling an abstract painting of nature."
+  },
+  "prompt": "Macro satellite photography of the Great Salt Lake textures, showing crystalline salt crusts, teal water veins, and cracked earth patterns, high contrast, cinematic lighting, 8k resolution, hyper-realistic geological details.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-04-30T01:27:15.676+09:00"
+}

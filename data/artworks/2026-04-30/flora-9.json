@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "플로라-9은 생물학적 진화와 디지털 건축의 교차점을 탐구합니다. 이 작품은 식물들이 데이터 중심 환경에 적응하여 리듬감 있는 빛을 내뿜고 신경망 뿌리를 통해 정보를 처리하는 세상을 묘사합니다.",
+    "en": "FLORA-9 explores the intersection of biological evolution and digital architecture. It depicts a world where flora has adapted to a data-driven environment, featuring plants that pulse with rhythmic light and process information through their neural-network roots."
+  },
+  "prompt": "A hyper-realistic depiction of FLORA-9, a futuristic digital nature environment. Glowing bioluminescent flowers made of fiber-optic filaments and liquid crystals. Translucent leaves with visible integrated circuit patterns. Floating holographic pollen particles drifting through a dark, ethereal forest floor. Cinematic lighting, 8k resolution, deep blues and vibrant neons, organic-tech hybrid aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-04-30T01:26:53.697+09:00"
+}

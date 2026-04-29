@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘-2: 색채의 굴절",
+    "en": "PRISM-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "프리즘-2와 함께 과학과 예술의 융합을 탐구해 보세요. 이 테마는 빛이 유리를 통과하며 변하는 정밀한 순간을 포착하여, 스펙트럼의 색상과 산란되는 빛의 찬란함을 매혹적으로 보여줍니다.",
+    "en": "Explore the convergence of science and art with PRISM-2. This theme captures the precise moment light transforms through glass, creating a mesmerizing display of spectral colors and caustic brilliance."
+  },
+  "prompt": "A high-end cinematic close-up of a crystal prism dispersing a sharp beam of white light into a brilliant, vivid rainbow spectrum. The background is a soft, dark gradient that emphasizes the caustic light patterns and ethereal glows. Hyper-realistic textures, 8k resolution, ray-tracing reflections, and sharp focus on the internal refraction angles.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-04-30T01:27:35.340+09:00"
+}

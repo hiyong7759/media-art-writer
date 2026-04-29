@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 파수꾼: AQUA-5",
+    "en": "Abyssal Sentinel: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5는 초심해저의 엄청난 수압을 견디도록 설계된 최첨단 잠수 로봇입니다. 정밀한 생물 발광 센서를 탑재하여 인류의 발길이 닿지 않은 깊은 바닷속 심연을 탐사합니다.",
+    "en": "The AQUA-5 is a state-of-the-art submersible unit engineered to withstand the crushing pressures of the Hadal zone. Equipped with advanced bioluminescent sensors, it explores the uncharted depths of the ocean floor."
+  },
+  "prompt": "Cinematic shot of AQUA-5, a futuristic deep-sea exploration drone with bioluminescent blue lights, navigating through a dark underwater trench, glowing hydrothermal vents in the background, marine snow particles, hyper-realistic, 8k, volumetric lighting, metallic titanium textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-04-30T01:27:23.682+09:00"
+}

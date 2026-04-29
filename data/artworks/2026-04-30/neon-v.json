@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "NEON-V: 사이버네틱 메트로폴리스",
+    "en": "NEON-V: Cybernetic Metropolis"
+  },
+  "description": {
+    "ko": "NEON-V를 통해 숨막히는 미래의 비전을 경험해 보세요. 이 테마는 비가 그치지 않고 잠들지 않는 도시의 분위기 속에서, 첨단 기술과 거친 네온 사인이 어우러진 사이버펑크 메갈로폴리스의 정수를 담아냈습니다.",
+    "en": "Experience a breathtaking vision of the future with NEON-V. This theme captures the essence of a cyberpunk megalopolis, blending advanced technology with a gritty, neon-soaked atmosphere where the rain never stops and the city never sleeps."
+  },
+  "prompt": "A cinematic, wide-angle shot of a sprawling cyberpunk city at night. Towering skyscrapers are adorned with massive holographic advertisements and flickering neon signs in vibrant cyan, magenta, and electric violet. Low-hanging clouds and a light drizzle create a misty atmosphere, with wet asphalt streets reflecting the brilliant city lights. Flying vehicles weave through the vertical urban landscape, and a sense of high-tech grit permeates the scene. 8k resolution, hyper-realistic, synthwave aesthetic, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-04-30T01:26:44.133+09:00"
+}

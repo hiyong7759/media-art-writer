@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-30",
+  "artistId": "void-3",
+  "title": {
+    "ko": "사건의 지평선 눈",
+    "en": "The Event Horizon Eye"
+  },
+  "description": {
+    "ko": "무한한 우주 공허 속 중앙 특이점을 중심으로 소용돌이치는 암흑 물질과 짙은 보라색 에너지의 심연의 소용돌이입니다.",
+    "en": "An abyssal vortex of dark matter and deep violet energy swirling around a central singularity in the infinite cosmic void."
+  },
+  "prompt": "A hyper-detailed cinematic visualization of the VOID-3 cosmic deep, titled 'The Event Horizon Eye.' A massive swirling vortex of #0D0221 obsidian dark matter and #3D1A78 deep violet energy in the deepest reaches of space. #7B68EE lavender nebula tendrils wrap around a central gravitational singularity. Distant #E6E6FA soft lavender star clusters flicker through ethereal cosmic dust. 8k resolution, volumetric lighting, sense of infinite scale and cosmic horror mixed with divine majesty.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-04-30T01:27:05.695+09:00"
+}
