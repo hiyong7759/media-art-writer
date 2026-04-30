@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고대 지각의 속삭임",
+    "en": "Whispers of the Ancient Crust"
+  },
+  "description": {
+    "ko": "리샤트 구조의 매혹적인 동심원 패턴과 풍부한 광물 질감을 통해 지구의 지질학적 역사를 보여주는 놀라운 시네마틱 이미지입니다.",
+    "en": "A stunning cinematic capture of Earth's geological history, showcasing the mesmerizing concentric patterns and rich mineral textures of the Richat Structure."
+  },
+  "prompt": "Ultra-high-resolution satellite photography of the Sahara Desert's Eye of the Sahara, intricate concentric rings of sedimentary rock and exposed quartz, deep rust oranges, golden sands, and pale cerulean shadows, hyper-realistic geological textures, cinematic lighting, 8k resolution, macro topographical detail.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-01T01:17:24.738+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명하는 주파수",
+    "en": "Resonant Frequencies"
+  },
+  "description": {
+    "ko": "소리를 복잡한 기하학적 패턴과 유동적인 파동으로 변환하여, 빛과 형상을 통해 청각적 진동의 보이지 않는 정수를 포착한 역동적인 탐구입니다.",
+    "en": "A dynamic exploration of sound transformed into intricate geometric patterns and fluid waves, capturing the invisible essence of auditory vibration through light and form."
+  },
+  "prompt": "Abstract digital representation of sound waves, liquid metallic ripples pulsating outward, complex cymatics patterns, vibrant gradients of neon cyan and electric violet, ethereal translucent layers, sharp focus on geometric audio structures, 8k resolution, futuristic aesthetic, ECHO-0 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-01T01:16:53.348+09:00"
+}

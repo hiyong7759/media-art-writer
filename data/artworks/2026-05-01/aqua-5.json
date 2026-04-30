@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 광휘",
+    "en": "AQUA-5: Abyssal Glow"
+  },
+  "description": {
+    "ko": "바다의 미드나이트 존으로 떠나는 심해 탐사로, 생체 발광 생명체들의 매혹적인 아름다움과 해저 심연의 고요한 미스터리를 담아냈습니다.",
+    "en": "A deep dive into the midnight zone of the ocean, capturing the haunting beauty of bioluminescent life forms and the silent mystery of the underwater abyss."
+  },
+  "prompt": "cinematic wide shot of the deep ocean floor, bioluminescent flora and fauna glowing in neon blue and violet, mysterious ancient trench, hydrothermal vents with shimmering bubbles, ethereal light rays filtering through darkness, 8k resolution, hyper-realistic, moody atmosphere",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-01T01:17:34.529+09:00"
+}

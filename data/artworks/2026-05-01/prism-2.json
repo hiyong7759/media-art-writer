@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 빛의 굴절",
+    "en": "PRISM-2: Light Refraction"
+  },
+  "description": {
+    "ko": "이 작품은 PRISM-2의 핵심 본질을 포착하여, 빛이 미래지향적인 수정 형태를 통해 구조화된 스펙트럼으로 변하는 광학 분산의 정밀한 순간을 보여줍니다.",
+    "en": "This piece captures the core essence of PRISM-2, illustrating the precise moment of optical dispersion where light transforms into a structured spectrum through a futuristic crystalline form."
+  },
+  "prompt": "A high-tech, minimalist PRISM-2 glass sculpture centered in a dark void. A single beam of intense white light hits the edge, refracting into a complex, multi-layered spectrum of vibrant neon colors. Sharp geometric shadows, caustic light patterns on the floor, cinematic lighting, 8k resolution, ethereal atmosphere, translucent crystal textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-01T01:17:43.688+09:00"
+}

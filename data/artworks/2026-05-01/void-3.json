@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 천체 지평선",
+    "en": "Abyssal Celestial Horizon"
+  },
+  "description": {
+    "ko": "우주의 심연, 그 절대적인 어둠 속에서 천체 현상이 발현되는 고요하고 무한한 깊이에 대한 탐구.",
+    "en": "An exploration of the silent, infinite depths of the universe, where celestial phenomena emerge from the absolute darkness of the cosmic abyss."
+  },
+  "prompt": "Cinematic wide shot of a bioluminescent nebula within the deep cosmic void, swirling dark matter, distant pulsars casting ethereal light, ultra-detailed textures, 8k resolution, surreal atmosphere, deep blues and purples, VOID-3 style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-01T01:17:09.084+09:00"
+}

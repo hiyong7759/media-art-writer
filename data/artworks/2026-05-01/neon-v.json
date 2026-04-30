@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 사이버 시티의 정점",
+    "en": "NEON-V: Zenith of the Cyber-City"
+  },
+  "description": {
+    "ko": "비에 젖은 거리에 끝없이 이어지는 네온 광고와 치솟은 고층 빌딩의 강렬한 빛이 반사되는 첨단 메트로폴리스의 역동적인 에너지를 경험해 보세요.",
+    "en": "Experience the pulsating energy of a high-tech metropolis where rain-slicked streets mirror the vibrant glow of endless neon advertisements and soaring towers."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk megalopolis at night, dense skyscrapers with glowing neon signs in violet, cyan, and hot pink, flying vehicles with light trails, rainy streets reflecting neon lights, intricate architectural details, hyper-realistic, 8k, synthwave aesthetic, NEON-V style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-01T01:16:44.998+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-01",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "AURA-7은 디지털 건축과 자연스러운 유동성 사이의 경계를 탐구하며, 유기적 생명체의 우아함과 함께 맥동하는 리드미컬하고 살아있는 에너지를 시각화합니다.",
+    "en": "AURA-7 explores the boundary between digital architecture and natural fluidity, manifesting as a rhythmic, living energy that pulses with the grace of organic life."
+  },
+  "prompt": "Cinematic macro shot of AURA-7, an ethereal entity of organic flow, swirling liquid silk and translucent bioluminescent membranes, rhythmic undulating patterns resembling cellular growth, soft golden and violet gradients, hyper-detailed textures, 8k resolution, serene atmospheric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-01T01:16:20.827+09:00"
+}
