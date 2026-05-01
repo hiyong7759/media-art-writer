@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "폐의 개화",
+    "en": "The Pulmonary Bloom"
+  },
+  "description": {
+    "ko": "무중력의 진주빛 대기 속에서 빛과 생명액이 흐르는 유기체적 존재의 리드미컬한 호흡을 심도 있게 묘사합니다.",
+    "en": "A deep dive into the rhythmic respiration of an organic entity, where light and life-fluid flow in a weightless, pearlescent atmosphere."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Pulmonary Bloom.' A colossal, breathing respiratory node composed of #7FB069 emerald moss membranes and #2D5A3D deep forest vascular filaments. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere, exhaling viscous #FFE66D golden bioluminescent nectar that flows like rhythmic liquid silk through semi-permeable walls. Macro focus on the semi-permeable translucent textures and complex internal capillary systems of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-02T00:52:07.632+09:00"
+}

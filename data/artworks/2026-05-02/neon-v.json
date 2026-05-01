@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 사이버 거리의 통치자",
+    "en": "NEON-V: Sovereign of the Cyber Streets"
+  },
+  "description": {
+    "ko": "미래 공학의 걸작인 네온-V는 거대 도시의 어둡고 비에 젖은 골목을 밝힙니다. 공기역학적 프레임과 생체 발광 액센트는 첨단 하이테크 도시 이동성의 정점을 보여줍니다.",
+    "en": "A masterpiece of futuristic engineering, the NEON-V illuminates the dark, rain-soaked alleys of the megalopolis. Its aerodynamic frame and bioluminescent accents represent the pinnacle of high-tech urban mobility."
+  },
+  "prompt": "Cinematic shot of the NEON-V, a sleek high-tech futuristic sports car with glowing violet and cyan light strips, parked on a rain-slicked cyberpunk street, towering neon skyscrapers reflecting in puddles, atmospheric fog, volumetric lighting, hyper-realistic, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-02T00:52:28.721+09:00"
+}

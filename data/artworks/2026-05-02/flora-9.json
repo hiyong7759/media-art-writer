@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 네온 생태계",
+    "en": "FLORA-9: The Neon Ecosystem"
+  },
+  "description": {
+    "ko": "유기적 생명과 디지털 기술의 접점을 탐구하는 시각적 여정으로, 복잡한 알고리즘과 빛을 통해 가상 공간에서 번성하는 합성 식물군을 묘사합니다.",
+    "en": "A visionary exploration of the intersection between organic life and digital technology, where synthetic flora thrives in a virtual landscape through complex algorithms and light."
+  },
+  "prompt": "A high-resolution cinematic shot of a bioluminescent forest where plants are made of fiber optics and glowing circuitry. Shimmering digital pollen floating in the air, deep teal and neon violet color palette, hyper-realistic textures, 8k resolution, ethereal lighting, intricate data-stream patterns on translucent leaves.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-02T00:52:38.168+09:00"
+}

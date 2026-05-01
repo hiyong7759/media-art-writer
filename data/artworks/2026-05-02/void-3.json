@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주의 가장 먼 곳으로의 탐험, VOID-3가 암흑 물질과 죽어가는 별들의 차가운 빛 사이에서 고요한 파수꾼으로 서 있습니다.",
+    "en": "An exploration into the furthest reaches of the universe, where VOID-3 stands as a silent sentinel amidst the dark matter and the cold light of dying stars."
+  },
+  "prompt": "A high-detail cinematic rendering of VOID-3, depicted as a massive, obsidian geometric monolith floating in the heart of a cosmic abyss. Swirling nebulae in deep indigo, violet, and charcoal grey wrap around the structure. Faint bioluminescent circuits glow on its surface. Distant, ancient stars flicker through thick cosmic dust. Atmosphere of eternal silence and infinite scale. Hyper-realistic, 8k, ray-traced lighting, ethereal and cold.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-02T00:52:53.959+09:00"
+}

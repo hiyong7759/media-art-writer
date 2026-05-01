@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "소금 결정의 기하학",
+    "en": "Crystalline Salt Geometry"
+  },
+  "description": {
+    "ko": "볼리비아 소금 평원의 지표면에 형성된 천연 기하학적 패턴을 상세히 탐구하며, 건조한 결정질 광물 질감의 극명한 아름다움을 담아냈습니다.",
+    "en": "A detailed exploration of the natural geometric patterns formed on the Earth's surface in the Bolivian salt flats, capturing the stark beauty of dry, crystalline mineral textures."
+  },
+  "prompt": "Hyper-realistic satellite photography of the Salar de Uyuni salt flats, intricate hexagonal salt crust patterns, stark white crystalline textures, deep shadows, minimalist earth composition, geological survey style, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-02T00:53:03.917+09:00"
+}

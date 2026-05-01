@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 건축",
+    "en": "ECHO-0: Sonic Architecture"
+  },
+  "description": {
+    "ko": "오디오 주파수와 디지털 기하학의 접점을 탐구하는 몰입형 시각 여정으로, 음파가 유형의 3D 풍경으로 나타나는 모습을 보여줍니다.",
+    "en": "An immersive visual journey exploring the intersection of auditory frequencies and digital geometry, where sound waves manifest as tangible 3D landscapes."
+  },
+  "prompt": "Abstract cinematic 3D sound visualization, ECHO-0 aesthetic, kinetic typography and fluid wave patterns, neon cyan and obsidian black color palette, oscillating frequencies transformed into crystalline structures, hyper-realistic textures, 8k resolution, ray tracing, atmospheric lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-02T00:52:45.306+09:00"
+}

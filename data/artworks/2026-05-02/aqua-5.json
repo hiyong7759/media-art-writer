@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-02",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척지",
+    "en": "AQUA-5: Abyssal Frontier"
+  },
+  "description": {
+    "ko": "바다에서 가장 신비로운 심해에 잠겨 있는 최첨단 연구 시설로, 생물 발광 생명체들이 심연의 영원한 어둠을 밝히는 풍경을 담고 있습니다.",
+    "en": "A high-tech research facility submerged in the most mysterious depths of the ocean, where bioluminescent life forms illuminate the eternal darkness of the abyss."
+  },
+  "prompt": "Cinematic shot of a futuristic underwater research station named AQUA-5, located in the dark abyssal zone of the deep ocean, featuring neon blue bioluminescent accents, surrounded by glowing deep-sea jellyfish and ancient hydrothermal vents, ultra-realistic, 8k resolution, volumetric lighting, deep navy and cyan color palette",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-02T00:53:12.067+09:00"
+}
