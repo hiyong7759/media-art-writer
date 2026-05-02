@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 공명",
+    "en": "KURO-X: Geometric Resonance"
+  },
+  "description": {
+    "ko": "수학적 정밀함과 디지털 혼돈의 교차점을 통해 KURO-X의 정체성을 탐구하며, 조각난 기하학적 형상과 고에너지 글리치 아티팩트를 특징으로 합니다.",
+    "en": "An exploration of the KURO-X identity through the intersection of mathematical precision and digital chaos, featuring fractured geometric shapes and high-energy glitch artifacts."
+  },
+  "prompt": "KURO-X brand identity reimagined in a geometric glitch aesthetic, sharp polygonal fragments, displaced digital pixels, rhythmic grid patterns, chromatic aberration, neon cyan and magenta accents on a deep charcoal background, hyper-detailed tech textures, 8k resolution, vector-style complexity, motion blur artifacts.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-03T00:41:17.894+09:00"
+}

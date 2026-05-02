@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "디지털 블룸: FLORA-9 프로토콜",
+    "en": "Digital Bloom: The FLORA-9 Protocol"
+  },
+  "description": {
+    "ko": "유기적 식물학과 첨단 컴퓨팅의 교차점을 탐구하는 프로젝트로, 합성 생물학과 디지털 아키텍처가 결합된 FLORA-9 표본을 시각화합니다.",
+    "en": "A conceptual exploration of the intersection between organic botany and advanced computing, featuring the FLORA-9 specimen where synthetic biology meets digital architecture."
+  },
+  "prompt": "Hyper-realistic 8k render of a futuristic digital plant, FLORA-9, featuring glowing bioluminescent neon blue and violet fiber-optic petals, circuit board patterns etched onto translucent crystalline leaves, microscopic data particles floating like pollen, dark futuristic laboratory environment, cinematic lighting, macro photography, unreal engine 5 style.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-03T00:41:30.679+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원초적 질감",
+    "en": "TERRA-1: Primal Textures"
+  },
+  "description": {
+    "ko": "수천 년 동안 자연의 원소들이 만들어낸 가공되지 않은 대조적인 지질학적 패턴을 조명하는 지구 표면의 시각적 연구입니다.",
+    "en": "A visual study of the Earth's surface, highlighting the raw and contrasting geological patterns formed by nature's elements over millennia."
+  },
+  "prompt": "Hyper-realistic aerial satellite view of diverse Earth textures, merging cracked volcanic basalt, flowing golden desert dunes, and deep emerald glacial runoff, macro geological details, high-contrast topography, cinematic lighting, 8k resolution, organic abstract patterns",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-03T00:42:01.646+09:00"
+}

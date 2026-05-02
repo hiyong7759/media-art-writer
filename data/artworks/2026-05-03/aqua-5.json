@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyss Sentinel"
+  },
+  "description": {
+    "ko": "AQUA-5는 바다의 미드나이트 존으로 하강하여, 거대한 압력과 고요한 어둠 속에서 스스로 빛을 내는 생명체들의 신비로운 아름다움을 포착합니다.",
+    "en": "AQUA-5 plunges into the midnight zone of the ocean, capturing the haunting beauty of bioluminescent life and the immense silence of the crushing depths."
+  },
+  "prompt": "Cinematic shot of a high-tech deep-sea submersible illuminated by glowing neon blue lights, exploring a dark oceanic trench with bioluminescent creatures, floating particles, crushed rock textures, atmospheric underwater lighting, 8k resolution, hyper-realistic, deep abyss aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-03T00:42:10.579+09:00"
+}

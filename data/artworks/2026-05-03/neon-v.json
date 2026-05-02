@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-03",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "자외선 동맥",
+    "en": "The Ultraviolet Arteries"
+  },
+  "description": {
+    "ko": "비와 네온 사인을 통해 미래 도시의 디지털 로맨스를 묘사한, 우울하면서도 활기찬 도시 풍경입니다.",
+    "en": "A melancholic yet vibrant cityscape depicting the digital romance of a futuristic city through rain and neon light."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Ultraviolet Arteries.' Towering #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta neon and #00FFFF cyan holographic data streams through a heavy downpour. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections on wet metallic asphalt, and lens flares from flickering neon signs. 8k resolution, capturing the romantic soul of a futuristic metropolis.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-03T00:41:22.048+09:00"
+}
