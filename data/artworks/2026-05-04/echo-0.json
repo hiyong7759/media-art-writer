@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-04",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화로운 공명: ECHO-0",
+    "en": "Harmonic Resonance: ECHO-0"
+  },
+  "description": {
+    "ko": "음파에 대한 시각적 탐구로, 소리의 주파수가 복잡한 기하학적 패턴과 활기찬 빛의 파동으로 변하며 오디오의 보이지 않는 에너지를 포착합니다.",
+    "en": "A visual exploration of acoustic waves, where sound frequencies transform into intricate geometric patterns and vibrant light pulses, capturing the invisible energy of audio."
+  },
+  "prompt": "Cinematic 3D visualization of sound waves, ECHO-0 aesthetic, sonic vibrations manifesting as glowing geometric patterns and liquid metal ripples, frequency spectrum visualized as flowing neon light trails in a dark void, deep blue and electric violet color palette, high fidelity, 8k resolution, abstract digital art, macro lens perspective of vibrating particles.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-04T00:42:05.405+09:00"
+}

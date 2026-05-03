@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-04",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 합성체",
+    "en": "FLORA-9: The Digital Synthesis"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 구조 사이의 경계를 탐구하는 FLORA-9은 자연이 흙과 물 대신 데이터와 빛을 통해 번성하도록 진화한 세계를 묘사합니다.",
+    "en": "An exploration of the boundary between organic life and digital constructs, FLORA-9 depicts a world where nature has evolved to thrive on data and light rather than soil and water."
+  },
+  "prompt": "A high-resolution cinematic shot of a futuristic botanical organism, FLORA-9, featuring translucent iridescent petals with embedded micro-circuitry and glowing fiber-optic veins. The plant is situated in a surreal digital landscape where organic roots merge with flowing data streams and neon liquid mercury. Soft bokeh background of a cybernetic forest, ethereal lighting, hyper-realistic textures, 8k resolution, unreal engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-04T00:41:57.536+09:00"
+}

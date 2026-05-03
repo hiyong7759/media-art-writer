@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-04",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "신경의 오아시스",
+    "en": "The Neural Oasis"
+  },
+  "description": {
+    "ko": "미시적이면서도 거대한 규모의 유기적 생명체를 표현하며, 살아있는 네트워크를 통해 흐르는 에너지의 흐름에 집중합니다.",
+    "en": "A representation of organic life at a microscopic yet monumental scale, focusing on the flow of energy through a living network."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Neural Oasis.' A vast, pulsating vascular network composed of #7FB069 emerald moss-like textures and #2D5A3D deep forest capillaries. The entity is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere, exhaling viscous #FFE66D golden bioluminescent nectar that flows like rhythmic liquid silk. Macro focus on the semi-permeable translucent walls revealing complex internal neural pathways of glowing sap. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-04T00:41:38.018+09:00"
+}

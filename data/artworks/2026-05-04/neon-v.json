@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-04",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 사이버네틱 심연",
+    "en": "NEON-V: Cybernetic Abyss"
+  },
+  "description": {
+    "ko": "네온의 광채가 디지털 개척지의 그림자와 미래형 대도시의 끊임없는 맥박을 밝히는 첨단 기술의 도시 전경을 탐험해보세요.",
+    "en": "Explore a high-tech cityscape where the glow of neon illuminates the shadows of a digital frontier and the relentless pulse of a futuristic metropolis."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk city, NEON-V aesthetic, futuristic skyscrapers with massive holographic advertisements, rain-slicked streets reflecting vibrant neon pink and cyan lights, flying vehicles weaving through dense urban architecture, hyper-detailed, 8k resolution, volumetric lighting, synthwave atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-04T00:41:49.338+09:00"
+}

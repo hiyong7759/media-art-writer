@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-04",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코즈믹 딥",
+    "en": "VOID-3: The Cosmic Deep"
+  },
+  "description": {
+    "ko": "시간이 팽창하고 빛이 심연의 공허라는 절대적인 위엄에 삼켜지는, 우주의 고요한 심장부로 떠나는 몰입형 여정입니다.",
+    "en": "An immersive journey into the silent heart of the universe, where time dilates and light is consumed by the absolute majesty of the abyssal void."
+  },
+  "prompt": "Cinematic ultra-wide shot of the cosmic abyss, a massive supermassive black hole at the center with a glowing violet and gold accretion disk, distant dying stars flickering in the pitch-black void, ethereal cosmic dust floating in the foreground, highly detailed, 8k resolution, photorealistic, hauntingly beautiful atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-04T00:42:13.223+09:00"
+}
