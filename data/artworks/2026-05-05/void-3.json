@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-05",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 코즈믹 딥",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "VOID-3 함선이 가스로 가득 찬 성운의 미답지 깊은 곳으로 하강하며, 우주와 심해의 경계가 생체 발광의 심연 속으로 흐려지는 경이로운 광경을 포착합니다.",
+    "en": "The VOID-3 vessel descends into the uncharted depths of a gas-dense nebula, where the boundaries between space and ocean blur into a bioluminescent abyss."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 exploration vessel submerged in a liquid-gas nebula, cosmic bioluminescence illuminating the dark hull, massive celestial structures in the background, swirling dark matter, hyper-realistic textures, volumetric lighting, 8k resolution, sci-fi aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-05T01:30:23.462+09:00"
+}

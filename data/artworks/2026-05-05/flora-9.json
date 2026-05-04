@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-05",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "디지털 차원 속에서 진화하는 자연을 정교하게 표현한 작품입니다. 이 작품은 유기적인 아름다움과 알고리즘의 복잡성 사이의 간극을 메우며, 생생한 하이테크 생태계 속에서 리듬감 있게 빛나는 기계 난초를 보여줍니다.",
+    "en": "An exquisite representation of nature evolving within a digital dimension. This piece showcases a mechanical orchid that pulses with rhythmic light, bridging the gap between organic beauty and algorithmic complexity in a vivid, high-tech ecosystem."
+  },
+  "prompt": "A hyper-realistic bioluminescent orchid made of translucent crystalline circuits, glowing with neon cyan and violet light, rooted in a soil of shimmering data shards, surrounded by floating holographic pollen and soft bokeh digital rain, cinematic lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-05T01:30:11.245+09:00"
+}

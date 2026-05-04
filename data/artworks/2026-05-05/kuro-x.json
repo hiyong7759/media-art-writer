@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-05",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "벡터의 해체",
+    "en": "The Vector Disintegration"
+  },
+  "description": {
+    "ko": "완벽한 기하학적 구조가 혼돈스럽지만 계산된 단색 파편의 소용돌이로 붕괴하는 모습을 묘사한 디지털 엔트로피 연구입니다.",
+    "en": "A study in digital entropy, depicting a perfect geometric structure collapsing into a chaotic but calculated vortex of monochromatic fragments."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Vector Disintegration.' A massive #1A1A1A obsidian tesseract frozen in the exact moment of a hyper-geometric collapse, shattering into a precision vortex of #808080 and #C0C0C0 razor-sharp polygonal shards against a clinical #FFFFFF void. Heavy digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration intersect the sharp planes. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian surfaces. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical beauty of digital chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-05T01:29:03.874+09:00"
+}

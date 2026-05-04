@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-05",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지구 질감의 합성",
+    "en": "TERRA-1: Earth Texture Synthesis"
+  },
+  "description": {
+    "ko": "행성의 촉각적 층위를 시각적으로 탐구하며, 다양한 지리적 요소들을 지구 표면 역사의 하나의 응집된 태피스트리로 결합합니다.",
+    "en": "A visual journey through the tactile layers of the planet, merging various geographical elements into a single cohesive tapestry of Earth's surface history."
+  },
+  "prompt": "Ultra-detailed macro photography of Earth's diverse textures, showcasing a seamless blend of cracked arid clay, deep green forest moss, swirling golden desert sands, and crystalline glacial ice. High-resolution geological details, satellite perspective mixed with microscopic precision, cinematic lighting, earthy organic tones, 8k resolution, TERRA-1 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-05T01:30:40.606+09:00"
+}

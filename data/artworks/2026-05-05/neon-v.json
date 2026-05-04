@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-05",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "NEON-V: 사이버펑크 시티스케이프",
+    "en": "NEON-V: Cyberpunk Cityscape"
+  },
+  "description": {
+    "ko": "한밤중의 빗줄기를 뚫고 네온 사인이 빛나는 디스토피아 미래의 고동을 느껴보세요. 거대 사이버펑크 메트로폴리스의 첨단 기술과 거친 도시 분위기를 생생하게 담아냈습니다.",
+    "en": "Experience the pulse of a dystopian future where neon lights pierce the midnight rain. This visual captures the high-tech, low-life atmosphere of a sprawling cyberpunk metropolis."
+  },
+  "prompt": "A hyper-realistic cyberpunk city at night during a heavy rainstorm, vibrant neon signs in blue and pink reflecting in street puddles, towering skyscrapers with massive holographic advertisements, flying futuristic vehicles navigating through dense urban canyons, cinematic lighting, 8k resolution, highly detailed textures, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-05T01:30:02.122+09:00"
+}
