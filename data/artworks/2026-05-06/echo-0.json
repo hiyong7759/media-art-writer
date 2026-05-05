@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화로운 공명: 시각적 메아리",
+    "en": "Harmonic Resonance: The Visual Echo"
+  },
+  "description": {
+    "ko": "음파가 어떻게 복잡한 기하학적 패턴과 생생한 색상 스펙트럼으로 변하는지 탐구하는 디지털 작업으로, 소리의 물리적 본질을 표현합니다.",
+    "en": "A digital exploration of how sound waves transform into intricate geometric patterns and vibrant color spectrums, representing the physical essence of audio."
+  },
+  "prompt": "An abstract 3D visualization of sound waves, cymatics patterns, translucent pulsating rings, holographic light diffraction, deep blue and neon violet color palette, cinematic lighting, 8k resolution, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-06T01:21:59.147+09:00"
+}

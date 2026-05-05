@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 수호자: AQUA-5",
+    "en": "Abyssal Guardian: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5는 심해의 극한 압력을 견디도록 설계된 최첨단 탐사 드론입니다. 고급 생체 발광 내비게이션 시스템과 소나 매핑 기능을 갖추고 있어 심해의 미스터리를 밝혀냅니다.",
+    "en": "AQUA-5 is a state-of-the-art exploration drone designed to withstand the extreme pressures of the deep ocean. It features advanced bioluminescent navigation systems and sonar mapping capabilities to uncover the mysteries of the abyss."
+  },
+  "prompt": "Cinematic 8k render of a sleek, bioluminescent deep-sea submersible robot named AQUA-5, exploring a dark oceanic trench, glowing neon blue lights, surrounded by alien-like marine life, bubbles, high-tech sensors, hydrothermal vents in the background, volumetric lighting, photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-06T01:22:28.609+09:00"
+}

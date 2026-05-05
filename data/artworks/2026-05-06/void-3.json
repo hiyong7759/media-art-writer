@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 우주",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주의 가장 먼 곳으로의 여정, 공허의 정적과 천체의 탄생과 파괴라는 격정적인 아름다움이 만나는 곳입니다.",
+    "en": "A journey into the farthest reaches of the universe, where the silence of the void meets the violent beauty of celestial birth and destruction."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 deep cosmic expanse, featuring a massive swirling nebula in shades of midnight blue and deep violet, a distant supermassive black hole with a glowing accretion disk, gravitational lensing effects warping the starlight, dense star fields and cosmic dust clouds, hyper-realistic, 8k, unreal engine 5 render, ethereal and majestic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-06T01:22:07.814+09:00"
+}

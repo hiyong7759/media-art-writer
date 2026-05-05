@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "디지털 플로라 프로토콜",
+    "en": "Digital Flora Protocol"
+  },
+  "description": {
+    "ko": "유기적 생명체와 합성 데이터 사이의 경계를 탐구하며, 전광과 디지털 정보로 고동치는 사이버네틱 꽃을 묘사합니다.",
+    "en": "An exploration of the boundary between organic life and synthetic data, featuring a cybernetic blossom that pulses with electric light and digital information."
+  },
+  "prompt": "Hyper-realistic close-up of a futuristic flower with translucent petals containing glowing fiber-optic circuits, digital glitch effects around the edges, bioluminescent pollen floating like pixels, dark reflective background with a subtle neon grid, cinematic lighting, 8k resolution, cybernetic nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-06T01:21:43.588+09:00"
+}

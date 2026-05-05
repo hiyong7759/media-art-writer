@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 디스트릭트 V",
+    "en": "Neon Pulse: District V"
+  },
+  "description": {
+    "ko": "첨단 기술과 도시 생활의 거친 현실이 만나는 미래 도시의 숨막히는 전경입니다. 네온 불빛과 빗줄기로 가득한 공기가 NEON-V 미학의 정수를 담아냅니다.",
+    "en": "A breathtaking view of a futuristic city where advanced technology meets the gritty reality of urban life. The air is thick with neon light and rain, capturing the essence of the NEON-V aesthetic."
+  },
+  "prompt": "Cinematic shot of a sprawling cyberpunk metropolis at night, glowing neon signs in cyan and magenta, heavy rain reflecting on wet asphalt, towering skyscrapers with holographic advertisements, flying vehicles weaving through dense urban architecture, hyper-realistic, 8k resolution, futuristic noir aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-06T01:21:36.122+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "순수한 빛의 줄기가 유리 프리즘을 통해 선명한 무지개색으로 갈라지는 물리적 현상을 정교한 빛의 놀이와 함께 시각화한 작품입니다.",
+    "en": "A stunning visual representation of light physics, showing a pure beam of light splitting into a vivid rainbow through a glass prism with intricate light play."
+  },
+  "prompt": "Close-up of a high-quality crystal prism refracting a single beam of white light into a vibrant, multi-colored spectrum. Sharp caustic light patterns on a clean white surface, cinematic lighting, macro photography, 8k resolution, photorealistic, subtle chromatic aberration, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-06T01:22:36.592+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "원시 지구의 질감",
+    "en": "Primal Earth Texture"
+  },
+  "description": {
+    "ko": "자연 침식의 복잡한 패턴과 토양 및 암석에 기록된 지질학적 역사를 포착한 지구 표면의 시각적 연구입니다.",
+    "en": "A visual study of the Earth's surface, capturing the intricate patterns of natural erosion and the geological history written in the soil and stone."
+  },
+  "prompt": "Ultra-detailed macro photography of Earth's crust texture, showcasing deep desert cracks, layered sedimentary rocks, and rich mineral deposits in ochre and terracotta colors, cinematic side lighting to emphasize depth and erosion, 8k resolution, geological survey aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-06T01:22:21.188+09:00"
+}

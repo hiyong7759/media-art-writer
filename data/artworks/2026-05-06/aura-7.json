@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-06",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르의 조화: 유기적 흐름",
+    "en": "Ethereal Synchrony: Organic Flow"
+  },
+  "description": {
+    "ko": "빛과 형태가 하나의 살아있는 생명체처럼 매끄럽게 어우러져 대자연의 우아함으로 호흡하는 자연스러운 리듬과 유체 역학의 시각적 탐구입니다.",
+    "en": "A visual exploration of natural rhythm and fluid dynamics, where light and form merge into a seamless, living entity that breathes with the grace of nature."
+  },
+  "prompt": "Macro photography of fluid iridescent silk flowing through a void, soft bioluminescent ripples, golden ratio curves, translucent layers, hyper-realistic textures, 8k resolution, cinematic lighting, ethereal atmosphere, organic motion blur, soft pastel gradients.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-06T01:21:18.769+09:00"
+}
