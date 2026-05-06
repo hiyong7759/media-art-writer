@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-07",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "음파의 주파수가 유동적이고 생광발광하는 기하학적 패턴과 운동감 있는 빛의 조각으로 나타나는 추상적 디지털 탐구.",
+    "en": "An abstract digital exploration of sonic frequencies manifesting as fluid, bioluminescent geometric patterns and kinetic light sculptures."
+  },
+  "prompt": "Cinematic visualization of sound waves as glowing, 3D parametric structures in a deep void. Shimmering neon cyan and violet lines pulse and ripple like liquid silk, representing frequency peaks and harmonic layers. Bioluminescent particles float around the core, reacting to invisible rhythms with trails of light. Hyper-detailed, 8k resolution, ray-tracing, ethereal atmosphere, cybernetic aesthetics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-07T01:27:09.841+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-07",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: 침묵의 구역",
+    "en": "Neon Pulse: The Silent Sector"
+  },
+  "description": {
+    "ko": "산성비 구름을 뚫고 솟아오른 거대 고층 빌딩과 네온 불빛 가득한 골목 사이로 홀로그램 환영이 춤추는, 고도의 기술과 하층민의 삶이 공존하는 영원한 황혼의 거대 도시입니다.",
+    "en": "A sprawling megacity bathed in perpetual twilight, where towering skyscrapers pierce the acid rain clouds and holographic ghosts dance between the neon-lit alleyways of a high-tech, low-life future."
+  },
+  "prompt": "Cinematic wide shot of a futuristic cyberpunk megacity at night, heavy rain, glowing neon signs in various languages, flying vehicles with neon light trails, towering skyscrapers with modular architecture, holographic advertisements flickering in the smog, wet reflective asphalt streets, high contrast, blue and magenta color palette, 8k resolution, hyper-detailed, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-07T01:26:48.393+09:00"
+}

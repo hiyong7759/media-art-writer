@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-07",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 질감 - TERRA-1",
+    "en": "Earth Texture - TERRA-1"
+  },
+  "description": {
+    "ko": "지구의 다양한 지질학적 질감을 시네마틱하게 탐구하며, 위성의 관점에서 자연 패턴의 원시적인 아름다움을 포착합니다.",
+    "en": "A breathtaking cinematic exploration of Earth's diverse geological textures, capturing the raw beauty of natural patterns from a satellite perspective."
+  },
+  "prompt": "Cinematic aerial macro photography, intricate textures of Earth's surface, cracked desert clay patterns, swirling turquoise ocean currents, lush emerald moss and forest canopy, deep mountain ridges with sharp geological details, 8k resolution, photorealistic, natural lighting, high contrast, Terra-1 satellite aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-07T01:27:34.655+09:00"
+}

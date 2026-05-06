@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-07",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 오가닉 플로우",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "자연의 막힘없는 움직임에서 영감을 받아, 유기적인 형태와 부드러운 그라데이션이 뒤섞여 조화로운 시각적 리듬을 만들어내는 AURA-7의 유연한 우아함을 경험해 보세요.",
+    "en": "Experience the fluid elegance of AURA-7, where organic shapes and soft gradients intertwine to create a harmonious visual rhythm inspired by the effortless movement of nature."
+  },
+  "prompt": "Abstract digital art of AURA-7 featuring an organic flow theme. Iridescent liquid silk textures with soft pastel gradients of lavender, mint, and pearl. Fluid, rhythmic shapes merging seamlessly like slow-moving mercury. High resolution, 8k, minimalist aesthetic, ethereal ambient lighting, deep 3D depth and cinematic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-07T01:25:47.470+09:00"
+}

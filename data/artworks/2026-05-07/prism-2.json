@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-07",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 크로마틱 분산",
+    "en": "PRISM-2: Chromatic Dispersion"
+  },
+  "description": {
+    "ko": "빛의 형태가 깨지는 순간을 시각화합니다. 순수한 백색 에너지가 가시적인 유채색 스펙트럼으로 변하는 굴절의 정교한 움직임을 담아냈습니다.",
+    "en": "Visualizing the moment light breaks its form. This piece captures the intricate dance of refraction as it transforms pure white energy into a visible spectrum of colors."
+  },
+  "prompt": "Cinematic macro shot of a triangular crystal prism on a dark surface. A single beam of intense white light hits the edge, refracting into a vivid, sharp rainbow spectrum across the frame. High detail, 8k resolution, caustic light effects, ethereal atmosphere, glass textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-07T01:29:06.293+09:00"
+}
