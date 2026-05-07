@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-08",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "NEON-V: 그리드의 그림자",
+    "en": "NEON-V: Shadows of the Grid"
+  },
+  "description": {
+    "ko": "초디지털 대도시의 잠들지 않는 밤을 위해 설계된 고성능 전기 크루저, NEON-V와 함께 속도와 스타일의 궁극적인 융합을 경험하십시오.",
+    "en": "Experience the ultimate fusion of speed and style with NEON-V, a high-performance electric cruiser designed for the restless nights of a hyper-digital metropolis."
+  },
+  "prompt": "A cinematic shot of the NEON-V prototype gliding through a rain-soaked, neon-drenched cyberpunk alleyway. Glowing cyan and magenta light strips integrated into the chassis, reflection of digital billboards on the wet asphalt, volumetric fog, high-tech carbon fiber body, futuristic architecture with towering skyscrapers in the background, 8k resolution, photorealistic, motion blur on the wheels.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-08T01:46:49.973+09:00"
+}

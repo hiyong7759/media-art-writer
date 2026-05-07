@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-08",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 진화",
+    "en": "FLORA-9: Digital Evolution"
+  },
+  "description": {
+    "ko": "하드웨어와 원예의 경계가 사라진 세계를 발견하세요. 플로라-9은 수정 데이터 코어와 반짝이는 합성 섬유로 구동되는 생물 발광 식물을 특징으로 하는 디지털 자연의 정점을 보여줍니다.",
+    "en": "Discover a world where the boundary between hardware and horticulture dissolves. FLORA-9 represents the pinnacle of digital nature, featuring bioluminescent vegetation powered by crystalline data cores and shimmering synthetic fibers."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, a futuristic biome where translucent glass-like flowers pulse with rhythmic neon blue circuitry. Digital pollen floats like glowing data bits in a dark, atmospheric forest. Ray-tracing, Unreal Engine 5 aesthetic, macro photography, 8k resolution, vibrant bioluminescence.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-08T01:46:58.922+09:00"
+}

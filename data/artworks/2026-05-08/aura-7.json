@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-08",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "에너지가 부드럽고 일렁이는 파동과 상호 연결된 세포 형태로 나타나며 끊임없이 움직이는 생명력을 전달하는, 자연스러운 유동성과 생물학적 리듬에 대한 탐구입니다.",
+    "en": "An exploration of natural fluidity and biological rhythms, where energy manifests as soft, undulating waves and interconnected cellular forms, creating a sense of life in constant motion."
+  },
+  "prompt": "Cinematic macro shot of fluid organic structures, translucent iridescent layers flowing like liquid silk, cellular patterns merging with bioluminescent energy, soft ambient lighting, pastel gradients of teal and lavender, 8k resolution, ethereal atmosphere, AURA-7 signature style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-08T01:46:31.250+09:00"
+}

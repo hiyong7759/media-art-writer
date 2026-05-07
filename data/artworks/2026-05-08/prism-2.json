@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-08",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "백색광이 유리 매질을 통해 고유의 색상들로 분리되는 광학적 순간을 시각적으로 구현한 작품입니다. 과학적 정밀함과 예술적 우아함이 균형을 이루는 구성을 보여줍니다.",
+    "en": "A stunning visual representation of optical physics, showcasing the moment white light splits into its constituent colors through a glass medium. The composition balances scientific precision with artistic elegance."
+  },
+  "prompt": "A macro photograph of a high-quality glass prism placed on a minimalist dark surface. A single sharp beam of white light enters the prism, creating a vivid and detailed spectral dispersion into a rainbow. The image features intricate caustic patterns, soft bokeh in the background, volumetric lighting effects, and 8k high-resolution photorealistic textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-08T01:47:17.657+09:00"
+}
