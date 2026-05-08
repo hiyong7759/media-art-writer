@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "알고리즘의 균열",
+    "en": "The Algorithmic Fracture"
+  },
+  "description": {
+    "ko": "질서 속의 혼돈을 표현한 작품으로, 기하학적인 흑요석 구체가 계산된 디지털 파편과 글리치 아티팩트의 폭풍 속으로 해체되는 모습을 담고 있습니다.",
+    "en": "A representation of chaos within order, featuring a geometric obsidian sphere disintegrating into a calculated storm of digital fragments and glitch artifacts."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Algorithmic Fracture.' A massive #1A1A1A obsidian sphere captured mid-detonation, shattering into a precision vortex of #808080 and #C0C0C0 razor-sharp polygonal shards. The scene is set against a clinical #FFFFFF void, intersected by heavy digital glitch artifacts, pixel sorting layers, and extreme RGB chromatic aberration. High-contrast cinematic lighting with razor-sharp ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical elegance of digital corruption.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-09T01:12:14.064+09:00"
+}

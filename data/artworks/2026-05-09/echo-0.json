@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화로운 모놀리스",
+    "en": "The Harmonic Monolith"
+  },
+  "description": {
+    "ko": "진동이 견고한 기하학적 빛으로 변하여 공허 속에 일시적인 공명의 건축물을 만들어내는 소리의 시각화.",
+    "en": "A visualization of sound where vibrations transform into solid geometric light, creating a temporary architecture of resonance in the void."
+  },
+  "prompt": "A cinematic 3D visualization of ECHO-0, titled 'The Harmonic Monolith.' A central floating geometric core of liquid silver vibrates at a high frequency, generating complex #4169E1 royal blue waves and #FF4500 electric orange ripples that solidify into crystalline structures in mid-air. The surrounding void is filled with #32CD32 green kinetic particles and #FFD700 gold light trails reacting to the sonic rhythm. Hyper-detailed ray tracing, intricate UI elements manifesting from the sound, 8k resolution, immersive atmosphere.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-09T01:12:26.787+09:00"
+}

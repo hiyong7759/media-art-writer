@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "퇴적의 연대기",
+    "en": "The Sedimentary Chronology"
+  },
+  "description": {
+    "ko": "고대 암석층의 층을 이룬 질감과 광물맥을 통해 전달되는 지구 역사의 수직적 탐구.",
+    "en": "A vertical exploration of Earth's history told through the layered textures and mineral veins of ancient rock formations."
+  },
+  "prompt": "Hyper-realistic satellite photography of TERRA-1, titled 'The Sedimentary Chronology.' A top-down macro perspective of a canyon wall where #8B4513 sienna earth and #D2691E ochre sedimentary layers reveal millions of years of geological history. Deep #2F4F4F slate mineral veins cut through the rock like frozen lightning. Sharp #F4A460 sand drifts fill the crevices. Tactile texture showing every grain of mineral and crystalline fracture. Cinematic natural lighting, 8k resolution, hyper-detailed topographical mapping.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-09T01:12:35.208+09:00"
+}

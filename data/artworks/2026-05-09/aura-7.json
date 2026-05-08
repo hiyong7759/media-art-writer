@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투의 대성당",
+    "en": "The Osmotic Cathedral"
+  },
+  "description": {
+    "ko": "무중력 액체 환경에서 유기적 막을 통해 흐르는 황금빛의 리드미컬한 교환에 초점을 맞춘 AURA-7 내부 생명력의 거시적 시각 탐구.",
+    "en": "A macro-visual exploration of AURA-7's internal life, focusing on the rhythmic exchange of golden light through organic membranes in a weightless liquid environment."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Cathedral.' A colossal, pulsating architectural organism composed of #7FB069 emerald moss-membranes and #2D5A3D deep forest vascular networks. The structure is suspended in a weightless #E6F2E1 pearlescent liquid, exhaling thick, viscous ribbons of #FFE66D golden bioluminescent nectar that flow like liquid silk through semi-permeable cellular walls. Macro focus on the intricate internal exchange of glowing sap within translucent capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-09T01:12:09.830+09:00"
+}

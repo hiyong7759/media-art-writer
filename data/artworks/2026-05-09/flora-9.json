@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 수술",
+    "en": "The Silicon Stamen"
+  },
+  "description": {
+    "ko": "유기적인 아름다움이 첨단 회로에 의해 강화되어 생물학적인 것과 기술적인 것이 융합된 디지털 꽃의 정교한 모습.",
+    "en": "An intricate look at a digital flower where organic beauty is reinforced by advanced circuitry, merging the biological with the technological."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, titled 'The Silicon Stamen.' A futuristic botanical organism featuring translucent #FFB6C1 pale pink petals with embedded #50C878 emerald micro-circuitry and #89CFF0 cyan fiber-optic veins. The plant is rooted in a bed of #4A0E4E deep plum soil consisting of crushed data shards. Shimmering digital pollen floats in the air like glowing pixels. Soft bokeh background of a cybernetic forest, ethereal lighting, hyper-realistic textures, 8k resolution, Unreal Engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-09T01:12:22.563+09:00"
+}

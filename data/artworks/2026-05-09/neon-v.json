@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "데이터의 빗줄기",
+    "en": "The Data Rainfall"
+  },
+  "description": {
+    "ko": "환경 자체가 디지털 정보에 반응하는 비에 젖은 사이버펑크 도시 전경으로, 날씨와 데이터를 우울한 도시적 비주얼로 혼합합니다.",
+    "en": "A rain-soaked cyberpunk cityscape where the environment itself reacts to digital information, blending weather and data into a melancholic urban visual."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Data Rainfall.' Towering #1A0033 indigo megastructures are drenched in a heavy holographic downpour, where rain drops transform into #FF00FF magenta and #00FFFF cyan data-stream pixels upon impact. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through a dense, smoky volumetric atmosphere. Hyper-detailed tech-noir textures, ray-traced puddle reflections on wet metallic asphalt, and flickering lens flares from giant advertising screens. 8k resolution, capturing the melancholic soul of a future city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-09T01:12:18.358+09:00"
+}

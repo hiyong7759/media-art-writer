@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 베일",
+    "en": "The Singularity's Veil"
+  },
+  "description": {
+    "ko": "우주의 가장 깊은 심연을 들여다보는 장엄하고도 경외심을 불러일으키는 시선으로, 침묵하는 보랏빛 중력에 의해 빛과 물질이 소멸되는 과정을 담고 있습니다.",
+    "en": "A majestic and terrifying look into the deepest abyss of the universe, where light and matter are consumed by a silent, violet gravitational force."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Singularity's Veil.' A massive swirling vortex of #0D0221 obsidian dark matter and #3D1A78 deep violet energy at the center of the universe. Gossamer-thin #7B68EE lavender nebula tendrils are being pulled into a gravitational singularity, creating a lens-warping effect. Distant #E6E6FA soft lavender star clusters flicker through thick cosmic dust. Atmosphere of infinite scale and divine majesty, hyper-realistic space photography aesthetic, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-09T01:12:30.996+09:00"
+}

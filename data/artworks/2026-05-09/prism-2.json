@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "운동학적 스펙트럼",
+    "en": "The Kinetic Spectrum"
+  },
+  "description": {
+    "ko": "단일 에너지 광선이 핵심 무지개 구성 요소로 산산이 부서져 굴절의 역동적인 비주얼을 만들어내는 빛과 유리에 대한 연구.",
+    "en": "A study of light and glass where a single beam of energy is shattered into its core rainbow components, creating a dynamic visual of refraction."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Kinetic Spectrum.' A complex geometric glass sculpture rotates on a dark matte surface, refracting a sharp beam of white light into a brilliant fanned-out spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Soft #FFFF00 yellow caustic patterns dance across the background with intense chromatic aberration. Macro focus on internal light reflections and the sharp edges of the glass. 8k resolution, minimalist aesthetic, pure energy dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-09T01:12:43.622+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 박동",
+    "en": "The Abyssal Pulse"
+  },
+  "description": {
+    "ko": "심해의 압도적인 어둠 속에서 빛의 파동을 통해 소통하는 생물 발광 생명체들의 평온하고 분위기 있는 묘사.",
+    "en": "A serene and atmospheric depiction of bioluminescent life forms communicating through light pulses in the crushing darkness of the ocean deep."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean floor, titled 'The Abyssal Pulse.' A swarm of #40E0D0 turquoise bioluminescent jellyfish with long, translucent #48D1CC cyan filaments pulsate in rhythmic unison. The #000080 midnight water is thick with shimmering marine snow. In the background, ancient #006994 mineral vents release bubbles that glow with internal thermal light. 8k resolution, photorealistic fluid dynamics, capturing the peaceful, rhythmic dance of transparent life in the high-pressure deep.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-09T01:12:39.410+09:00"
+}
