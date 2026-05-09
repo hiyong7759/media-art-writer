@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 지평선",
+    "en": "VOID-3: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "빛과 시간이 신비로운 VOID-3 주변에서 휘어지는 심우주의 심장부로 떠나는 몰입형 여정입니다. 이 시각적 탐구는 우주 가장 먼 곳의 고요하고도 경외로운 아름다움을 포착하며, 절대적인 허무와 천상의 찬란함 사이의 춤을 보여줍니다.",
+    "en": "An immersive journey into the heart of the cosmic deep, where light and time bend around the mysterious VOID-3. This visual exploration captures the silent, terrifying beauty of the furthest reaches of the universe, revealing the dance between absolute nothingness and celestial brilliance."
+  },
+  "prompt": "A cinematic, ultra-detailed depiction of VOID-3 in the cosmic deep. A massive gravitational singularity at the center, surrounded by a vibrant, swirling accretion disk of bioluminescent teal and violet energy. Shimmering cosmic dust and distant, faint galaxies scattered across the infinite blackness. High contrast, photorealistic, 8k resolution, volumetric lighting, sense of overwhelming scale and silent majesty.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-10T00:45:34.414+09:00"
+}

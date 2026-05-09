@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "KURO-X: 기하학적 글리치의 진화",
+    "en": "KURO-X: Geometric Glitch Evolution"
+  },
+  "description": {
+    "ko": "건축적 정밀함과 디지털 혼돈의 교차점을 경험하십시오. KURO-X는 파편화된 데이터와 날카로운 미래형 라인의 아름다움을 담은 기하학적 글리치 테마로 기존의 틀을 깨뜨립니다.",
+    "en": "Experience the intersection of architectural precision and digital chaos. KURO-X breaks the mold with a geometric glitch theme that captures the beauty of fragmented data and sharp, futuristic lines."
+  },
+  "prompt": "Cinematic high-tech product shot of KURO-X surrounded by sharp geometric glitch effects, fragmented polygonal prisms, digital distortion artifacts, neon cyan and deep violet lighting, sleek matte black surface textures, 8k resolution, futuristic cyber-noir aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-10T00:44:59.573+09:00"
+}

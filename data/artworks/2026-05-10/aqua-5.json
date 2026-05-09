@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyss Sentinel"
+  },
+  "description": {
+    "ko": "초심해대의 극심한 압력을 견디도록 설계된 아쿠아-5는 가장 깊은 해구의 비밀을 밝히기 위해 첨단 음파 탐지기와 생물 발광 내비게이션 시스템을 갖춘 자율 탐사 드론입니다.",
+    "en": "Designed for the extreme pressures of the Hadal zone, AQUA-5 is an autonomous exploration drone equipped with advanced sonar and bioluminescent navigation systems to uncover the secrets of the deepest trenches."
+  },
+  "prompt": "A futuristic deep-sea exploration robot named AQUA-5, sleek obsidian armor plating with glowing neon cyan bioluminescent accents, navigating through a dark oceanic trench, hydrothermal vents emitting smoke in the background, marine snow floating in the water, cinematic lighting, photorealistic, 8k resolution, deep sea atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-10T00:45:50.880+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화로운 스펙트럼",
+    "en": "Harmonic Spectrum"
+  },
+  "description": {
+    "ko": "소리 파동이 보이지 않는 주파수에 반응하여 유동적이고 빛나는 빛의 리본으로 변하는 매혹적인 디지털 캔버스입니다.",
+    "en": "A mesmerizing digital canvas where sound waves transform into fluid, glowing ribbons of light, reacting to invisible frequencies."
+  },
+  "prompt": "Cinematic 3D sound visualization, abstract fluid waveforms pulsating with neon colors, cymatics patterns, glowing particles floating in a dark void, high-speed shutter, 8k resolution, ethereal atmosphere, rhythmic motion blur, bioluminescent gradients.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-10T00:45:25.233+09:00"
+}

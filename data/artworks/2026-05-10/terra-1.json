@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 원소적 질감",
+    "en": "TERRA-1: Elemental Textures"
+  },
+  "description": {
+    "ko": "건조한 황무지, 광물 구조, 그리고 활기찬 유기적 생명체 사이의 복잡한 대비를 강조하며 지구의 다양한 지형적 표면을 탐구하는 시각적 여정입니다.",
+    "en": "A visual journey through the diverse topographical skins of our planet, highlighting the intricate contrast between dry desolation, mineral structures, and vibrant organic life."
+  },
+  "prompt": "Cinematic macro shot of diverse Earth textures, split-screen composition showing cracked arid desert soil, lush deep green forest moss, polished crystalline minerals, and porous volcanic basalt, 8k resolution, photorealistic, natural lighting, intricate details, earthy color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-10T00:45:42.197+09:00"
+}

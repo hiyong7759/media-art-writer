@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-10",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: Digital Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9은 생물학적 구조와 첨단 컴퓨팅이 결합된 선구적인 하이브리드 생태계를 나타냅니다. 빛과 코드를 통해 숨 쉬고 살아가는 디지털 식물들의 고요한 풍경을 묘사하며, 자연 세계와 인공지능 사이의 경계를 탐구합니다.",
+    "en": "FLORA-9 represents a visionary hybrid ecosystem where biological structures merge with advanced computing. It depicts a serene landscape of digital flora that lives and breathes through light and code, exploring the boundary between the natural world and artificial intelligence."
+  },
+  "prompt": "A cinematic hyper-realistic shot of FLORA-9, a futuristic digital garden where plants are composed of glowing fiber-optic cables and iridescent data streams. Bioluminescent petals floating in a holographic atmosphere, neon veins pulsing within crystalline leaves, 8k resolution, ethereal lighting, unreal engine 5 style, macro photography of digital ecosystem.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-10T00:45:17.619+09:00"
+}
