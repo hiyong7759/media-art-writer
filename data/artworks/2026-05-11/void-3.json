@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 특이점",
+    "en": "VOID-3: Abyssal Singularity"
+  },
+  "description": {
+    "ko": "현실의 경계가 우주 심연의 무한한 어둠 속으로 녹아드는, 우주 가장 먼 곳의 고요한 장엄함을 탐험하세요.",
+    "en": "Explore the silent majesty of the furthest reaches of space, where the boundaries of reality dissolve into the infinite darkness of the cosmic deep."
+  },
+  "prompt": "Cinematic wide shot of a deep cosmic void, swirling obsidian and violet nebulae, distant flickering stars, a massive gravitational singularity pulling in trails of stardust, hyper-detailed, 8k resolution, ethereal and haunting atmosphere, cosmic deep aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-11T00:46:36.651+09:00"
+}

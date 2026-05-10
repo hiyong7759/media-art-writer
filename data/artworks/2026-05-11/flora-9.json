@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 합성된 에덴",
+    "en": "FLORA-9: The Synthetic Eden"
+  },
+  "description": {
+    "ko": "FLORA-9은 생물학적 진화와 기술적 복잡성이 만나는 경계를 탐구합니다. 이 디지털 네이처 프로젝트는 빛과 데이터로 구동되는 생태계를 시각화하며, 합성 식물들이 미래 지향적인 네온 조명 환경 속에서 유기 생명체의 복잡한 성장 패턴을 모방하는 모습을 보여줍니다.",
+    "en": "FLORA-9 explores the boundary where biological evolution meets technological complexity. This digital nature project visualizes an ecosystem powered by light and data, where synthetic flora mimics the intricate growth patterns of organic life within a futuristic, neon-lit environment."
+  },
+  "prompt": "A hyper-realistic digital forest where trees are composed of glowing fiber-optic cables and cascading data streams. Bioluminescent flowers with translucent holographic petals bloom in synchronization with rhythmic pulses of light. The ground is a dark, reflective circuit board surface with moss made of emerald LEDs. High-resolution 8k, cyberpunk aesthetic, fusion of organic fractal geometry and technological hardware, cinematic lighting, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-11T00:46:21.438+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 파수꾼",
+    "en": "AQUA-5: Sentinel of the Abyss"
+  },
+  "description": {
+    "ko": "아쿠아-5는 해구의 압도적인 수압을 견디도록 설계된 첨단 심해 탐사 장치입니다. 생체 발광 내비게이션 배열과 적응형 음파 탐지기를 갖추고 있으며, 영원한 어둠에 잠긴 심해저의 비밀을 밝혀냅니다.",
+    "en": "AQUA-5 is an advanced deep-sea exploration unit built to withstand the crushing pressures of the oceanic trenches. Equipped with bioluminescent navigation arrays and adaptive sonar, it discovers secrets hidden in the eternal darkness of the sea floor."
+  },
+  "prompt": "A futuristic submersible android named AQUA-5 navigating the midnight zone of the ocean, glowing bioluminescent blue accents on its sleek titanium body, surrounded by crystalline deep-sea flora and ethereal jellyfish, cinematic lighting, high-pressure environment effects, ultra-detailed, 8k resolution, photorealistic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-11T00:46:52.523+09:00"
+}

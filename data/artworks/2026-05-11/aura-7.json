@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 유기적 흐름",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "생물학적 리듬과 디지털 추상의 완벽한 조화를 나타내며, 유동적인 에너지와 자연스러운 곡선을 평온하게 시각화한 작품입니다.",
+    "en": "A serene visualization of fluid energy and natural curves, representing the seamless harmony between biological rhythms and digital abstraction."
+  },
+  "prompt": "A high-resolution abstract 3D render of 'AURA-7' manifesting as flowing organic ribbons, iridescent liquid textures, and soft bioluminescent pulses. The composition features smooth, interconnected curves resembling silk moving underwater or translucent biological membranes. A color palette of pale emerald, pearlescent white, and soft gold. Cinematic lighting with a macro depth of field, 8k resolution, serene and harmonic atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-11T00:46:00.067+09:00"
+}

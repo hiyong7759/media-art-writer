@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "천상의 지각: 가이아의 혈맥",
+    "en": "Ethereal Crust: The Veins of Gaia"
+  },
+  "description": {
+    "ko": "지질학적 시간의 흐름을 간직한 균열된 토양과 고대 암석 지층의 복잡한 패턴을 보여주는 지구 표면의 고해상도 탐사 결과물입니다.",
+    "en": "A high-resolution exploration of Earth's surface, showcasing the intricate patterns of cracked soil and ancient rock formations that tell the story of geological time."
+  },
+  "prompt": "Cinematic satellite view of diverse Earth textures, macro photography of cracked desert clay meeting volcanic basalt patterns, intricate mineral veins in marble, high contrast, 8k resolution, dramatic lighting, earthy ochre and deep obsidian tones, hyper-realistic geological details.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-11T00:46:44.737+09:00"
+}

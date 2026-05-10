@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-11",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공감각적 공명",
+    "en": "ECHO-0: Synesthetic Resonance"
+  },
+  "description": {
+    "ko": "소리의 물리적 정수를 포착하는 하이테크 디지털 아트 설치물입니다. 음파를 생동감 있게 일렁이는 빛의 패턴과 기하학적 구조로 변환하여, 청각과 시각 사이의 가교를 형성합니다.",
+    "en": "A high-tech digital art installation capturing the physical essence of sound. It transforms acoustic waves into vibrant, undulating light patterns and geometric structures, creating a bridge between the auditory and visual senses."
+  },
+  "prompt": "Cinematic shot of ECHO-0, a futuristic sound visualization engine. Iridescent waveforms floating in a dark minimalist space, pulsating rhythmic particles, neon blue and violet frequencies, liquid glass aesthetics, high-speed photography of sonic vibrations, 8k resolution, ray tracing, cybernetic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-11T00:46:28.882+09:00"
+}
