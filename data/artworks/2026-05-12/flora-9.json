@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "생물학과 기술이 하나로 융합된 세계를 탐험해 보세요. FLORA-9은 식물이 코드와 빛으로부터 자라나는 시뮬레이션된 자연 서식지를 보여주며, 포스트 유기체 시대의 매혹적인 네온 야생 지대를 선사합니다.",
+    "en": "Explore a world where biology and technology become indistinguishable. FLORA-9 showcases a simulated natural habitat where plants grow from code and light, creating a mesmerizing neon wilderness in a post-organic era."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, a futuristic digital garden. Bioluminescent translucent flowers with pulsing fiber-optic veins, holographic leaves shimmering in iridescent colors, and floating data particles like golden pollen. The background is a surreal landscape of liquid crystal rivers and silicon mountains under a star-filled nebula sky. 8k resolution, ray-tracing, ethereal lighting, high-tech aesthetics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-12T02:23:27.593+09:00"
+}

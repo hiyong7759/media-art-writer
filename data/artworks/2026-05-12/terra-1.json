@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지구의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "시간과 자연의 원소들이 만들어낸 가공되지 않은 아름다움을 보여주며, 지구의 복잡하고 다양한 지형적 층을 시각적으로 탐구합니다.",
+    "en": "A visual exploration of the intricate and diverse topographical layers of Earth, showcasing the raw beauty of natural patterns formed by time and the elements."
+  },
+  "prompt": "Ultra-high-resolution satellite-view macro photography of Earth's diverse surface textures, featuring deep tectonic fissures, swirling oceanic currents, crystalline salt flats, and dense emerald forest canopies, cinematic lighting, organic geological patterns, 8k, highly detailed",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-12T02:23:52.749+09:00"
+}

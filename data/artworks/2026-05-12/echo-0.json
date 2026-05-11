@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명하는 파동",
+    "en": "ECHO-0: Resonance Waves"
+  },
+  "description": {
+    "ko": "음파가 무한한 공간 속에서 활기차고 맥동하는 빛의 구조로 나타나는 정교한 디지털 시각화로, 주파수의 보이지 않는 리듬을 시각적으로 포착합니다.",
+    "en": "A sophisticated digital interpretation of sonic vibrations, where sound waves manifest as vibrant, pulsating light structures within an infinite void, capturing the invisible rhythm of frequency."
+  },
+  "prompt": "abstract 3D sound visualization, kinetic energy waves, glowing neon pulses, digital oscilloscope patterns, crystalline particles reacting to high frequencies, deep obsidian background with cyan and electric violet lighting, cinematic volumetric atmosphere, high-tech futuristic aesthetic, 8k resolution, fluid motion",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-12T02:23:35.549+09:00"
+}

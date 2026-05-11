@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "미래의 네온 동맥",
+    "en": "Neon Arteries of the Future"
+  },
+  "description": {
+    "ko": "첨단 기술과 도시의 쇠락이 합성 조명의 영원한 빛 아래 공존하는 수직 도시의 생생한 묘사입니다.",
+    "en": "A vivid depiction of a vertical city where advanced technology and urban decay coexist under the eternal glow of synthetic lights."
+  },
+  "prompt": "A sprawling cyberpunk metropolis at midnight, rain-slicked streets reflecting vibrant holographic advertisements in electric blue and hot pink, dense architectural layers with flying vehicles weaving through skyscraper canyons, cinematic volumetric lighting, hyper-realistic textures, 8k resolution, high-tech low-life aesthetic, sharp focus, atmospheric fog.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-12T02:23:18.881+09:00"
+}

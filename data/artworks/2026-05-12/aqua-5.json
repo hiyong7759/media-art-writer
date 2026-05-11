@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 발광",
+    "en": "Abyssal Luminescence"
+  },
+  "description": {
+    "ko": "고대의 난파선과 활기찬 생물 발광 생명체들이 만나 잊혀지지 않을 만큼 아름다운 수중 안식처를 만들어내는 고요하고 어두운 바다 깊은 곳의 탐험입니다.",
+    "en": "An exploration of the silent, dark depths of the ocean where ancient shipwrecks meet vibrant bioluminescent life forms, creating a hauntingly beautiful underwater sanctuary."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean abyss, bioluminescent coral reefs glowing in neon blue and purple, a colossal mysterious ship wreck resting on the dark sandy floor, ethereal deep-sea jellyfish floating gracefully, volumetric lighting filtering through the dark water, ultra-detailed, 8k, photorealistic, mystical atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-12T02:24:02.235+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-12",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "선명함의 스펙트럼",
+    "en": "The Spectrum of Clarity"
+  },
+  "description": {
+    "ko": "이 비주얼은 빛의 굴절 현상을 탐구하며, 단일 광선이 다면체 크리스탈을 통과하면서 생동감 넘치는 무지갯빛으로 변하는 과정을 보여줍니다.",
+    "en": "This visual explores the physics of light refraction, showcasing how a single beam of light transforms into a vibrant rainbow after passing through a multifaceted crystal."
+  },
+  "prompt": "A high-detail macro shot of a complex geometric crystal prism placed on a minimalist white surface. Sunlight passes through the crystal, creating vivid rainbow spectrums and intricate caustic light patterns across the background. Soft focus, cinematic lighting, 8k resolution, ethereal atmosphere, subtle chromatic aberration, sharp focus on the refraction edges.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-12T02:24:12.441+09:00"
+}
