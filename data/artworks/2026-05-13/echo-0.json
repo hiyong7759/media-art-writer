@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 건축가",
+    "en": "The Sonic Architect"
+  },
+  "description": {
+    "ko": "주파수가 빈 공간에서 수정 같은 잔물결과 황금빛 빛의 궤적으로 고형화되는 소리의 시각적 발현.",
+    "en": "A visual manifestation of sound where frequencies solidify into crystalline ripples and gold light trails in the void."
+  },
+  "prompt": "Cinematic 3D sound visualization of ECHO-0, titled 'The Sonic Architect.' A central floating geometric core vibrates, generating complex #4169E1 royal blue waves and #FF4500 electric orange ripples that solidify into crystalline structures. The surrounding void is filled with #32CD32 green kinetic particles and #FFD700 gold light trails reacting to the sonic rhythm. Hyper-detailed ray tracing, intricate UI elements, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-13T02:05:16.377+09:00"
+}

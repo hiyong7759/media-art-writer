@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "실리콘 맥박",
+    "en": "The Silicon Pulse"
+  },
+  "description": {
+    "ko": "남색 초고층 빌딩과 홀로그램 비가 미래의 우울한 심장을 정의하는 로맨틱한 테크 누아르 도시 풍경.",
+    "en": "A romanticized tech-noir cityscape where indigo skyscrapers and holographic rain define the future's melancholic heart."
+  },
+  "prompt": "Cinematic wide shot of NEON-V, titled 'The Silicon Pulse.' #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta and #00FFFF cyan holographic data streams. A heavy downpour creates ray-traced reflections on wet metallic asphalt. High-speed maglev vehicles leave #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-13T02:05:08.061+09:00"
+}

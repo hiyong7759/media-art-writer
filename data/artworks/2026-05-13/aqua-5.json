@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 왈츠",
+    "en": "The Abyssal Waltz"
+  },
+  "description": {
+    "ko": "대양의 심해, 고압의 어둠 속에서 투명한 생명체들이 펼치는 평화롭고 리드미컬한 춤.",
+    "en": "A peaceful, rhythmic dance of transparent life forms in the high-pressure darkness of the oceanic abyss."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean floor, titled 'The Abyssal Waltz.' A swarm of #40E0D0 turquoise bioluminescent jellyfish with long, translucent #48D1CC cyan filaments pulsate in unison. The #000080 midnight water is thick with shimmering marine snow. In the background, ancient #006994 mineral vents release thermal bubbles. Photorealistic fluid dynamics, high-pressure deep sea atmosphere, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-13T02:05:28.838+09:00"
+}

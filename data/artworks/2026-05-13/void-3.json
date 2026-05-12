@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "void-3",
+  "title": {
+    "ko": "이벤트 호라이즌의 탄식",
+    "en": "The Event Horizon's Sigh"
+  },
+  "description": {
+    "ko": "중력을 왜곡하는 특이점 중심에서의 우주적 공포와 무한한 정적에 대한 장엄한 묘사.",
+    "en": "A majestic depiction of cosmic horror and infinite silence at the center of a gravity-warping singularity."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Event Horizon's Sigh.' A massive swirling vortex of #0D0221 obsidian dark matter and #3D1A78 deep violet energy at the universe's core. Gossamer-thin #7B68EE lavender nebula tendrils are pulled into a gravitational singularity, creating a lens-warping effect. Distant #E6E6FA soft lavender star clusters flicker through dense cosmic dust. Volumetric lighting, infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-13T02:05:20.540+09:00"
+}

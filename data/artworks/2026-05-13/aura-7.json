@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "천상의 폐포",
+    "en": "The Celestial Alveoli"
+  },
+  "description": {
+    "ko": "에메랄드빛 이끼와 황금빛 과즙이 투명한 세포막을 통해 흐르는 유기적 호흡의 깊은 탐구.",
+    "en": "A deep exploration of organic respiration where emerald moss and golden nectar flow through translucent cellular membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Celestial Alveoli.' A microscopic landscape of #7FB069 emerald moss-membranes and #2D5A3D forest vascular filaments pulsating within a #E6F2E1 pearlescent liquid atmosphere. Flowing ribbons of #FFE66D golden nectar move like viscous silk through semi-permeable cellular walls. Macro focus on translucent textures and internal capillary systems. Rendered in Octane with hyper-realistic fluid dynamics and extreme soft focus bokeh, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-13T02:04:59.662+09:00"
+}

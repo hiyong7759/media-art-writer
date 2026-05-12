@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-13",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모놀리스의 균열",
+    "en": "The Monolith Fracture"
+  },
+  "description": {
+    "ko": "수학적 질서가 흑요석 파편의 정교한 소용돌이로 부서지는 디지털 붕괴의 브루탈리즘적 연구.",
+    "en": "A brutalist study of digital disintegration where mathematical order shatters into a precise vortex of obsidian shards."
+  },
+  "prompt": "A digital sculpture by KURO-X, titled 'The Monolith Fracture.' A massive #1A1A1A obsidian prism captured during a hyper-geometric collapse, shattering into #808080 and #C0C0C0 razor-sharp polygonal shards within a #FFFFFF clinical void. Heavy digital glitch artifacts, pixel sorting, and extreme RGB chromatic aberration intersect the sharp planes. High-contrast ray-traced reflections on shifting obsidian surfaces. Unreal Engine 5 aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-13T02:05:03.849+09:00"
+}
