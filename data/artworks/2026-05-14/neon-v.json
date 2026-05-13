@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스 메트로폴리스",
+    "en": "Neon Pulse Metropolis"
+  },
+  "description": {
+    "ko": "전기와 빗줄기가 어우러진 미래 도시의 생동감 넘치는 풍경으로, 거대한 마천루와 첨단 비행 이동 수단으로 가득 찬 하늘을 보여줍니다.",
+    "en": "A vibrant and immersive vision of a futuristic city where electricity and rain collide, featuring towering skyscrapers and a sky filled with advanced aerial transportation."
+  },
+  "prompt": "A cinematic wide shot of a sprawling cyberpunk megacity at night, dense layers of skyscrapers adorned with glowing holographic advertisements in neon cyan and magenta, flying vehicles leaving light trails through the rain-soaked atmosphere, reflective puddles on futuristic streets, hyper-realistic, 8k resolution, synthwave aesthetic, intricate details of high-tech architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-14T02:12:51.475+09:00"
+}

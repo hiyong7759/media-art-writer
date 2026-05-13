@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 사이버 보태니컬 합성",
+    "en": "FLORA-9: The Cyber-Botanical Synthesis"
+  },
+  "description": {
+    "ko": "유기적 식물과 디지털 건축의 교차점을 탐구하는 숨막히는 작품입니다. FLORA-9은 액체 금속 토양에서 자라나는 빛나는 데이터 스트림 꽃잎을 가진 홀로그램 꽃을 선보입니다.",
+    "en": "A breathtaking exploration of the intersection between organic flora and digital architecture. FLORA-9 showcases holographic flowers with glowing data-stream petals growing from a bed of liquid metal soil."
+  },
+  "prompt": "Cinematic shot of a futuristic flower FLORA-9, translucent petals made of glowing digital grids and neon light fibers, intricate circuit patterns as leaf veins, blooming in a dark void with floating binary particles, 8k resolution, ethereal, cybernetic nature, bioluminescent aesthetic, macro photography.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-14T02:13:00.536+09:00"
+}

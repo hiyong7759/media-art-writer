@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 원초적 맥락",
+    "en": "TERRA-1: Primordial Veins"
+  },
+  "description": {
+    "ko": "지구의 다양한 지형을 추상적으로 탐구하여 자연 침식의 복잡한 패턴과 손대지 않은 풍경의 생생한 색채를 보여줍니다.",
+    "en": "An abstract exploration of Earth's diverse topography, showcasing the intricate patterns of natural erosion and the vibrant colors of untouched landscapes."
+  },
+  "prompt": "A high-resolution satellite-style macro shot of Earth's surface, featuring a blend of cracked desert clay, emerald river veins, and swirling golden sand dunes, hyper-realistic, cinematic lighting, 8k, detailed textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-14T02:13:27.823+09:00"
+}

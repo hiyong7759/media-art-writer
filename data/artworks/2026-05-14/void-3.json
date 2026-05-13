@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심우주의 메아리",
+    "en": "VOID-3: Echoes of the Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛과 시간이 천체의 영원한 심연 속으로 녹아드는 우주의 가장 먼 곳을 시각적으로 탐구한 작품입니다.",
+    "en": "A visual exploration into the furthest reaches of the universe, where light and time dissolve into the eternal silence of the celestial abyss."
+  },
+  "prompt": "Cinematic wide shot of a massive gravitational singularity at the center of the VOID-3 sector, surrounded by swirling iridescent nebulae and crystalline star dust, deep obsidian and violet color palette, bioluminescent energy tendrils stretching across the vacuum, hyper-realistic, 8k resolution, ethereal lighting, sense of infinite cosmic scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-14T02:13:20.060+09:00"
+}

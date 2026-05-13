@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 수호자",
+    "en": "AQUA-5: Guardian of the Abyss"
+  },
+  "description": {
+    "ko": "태양광이 닿지 않는 심해의 미답지에서 AQUA-5는 거대한 수압과 생체 발광의 신비 속을 항해하며 고요한 파수꾼 역할을 수행합니다.",
+    "en": "Deep within the midnight zone, AQUA-5 stands as a silent sentinel, navigating the extreme pressures and bioluminescent wonders of the unexplored deep ocean."
+  },
+  "prompt": "AQUA-5, a sleek biomechanical android with translucent blue plating and glowing cyan circuitry, submerged in the deepest part of the ocean. Surrounding the entity are giant bioluminescent jellyfish, ancient coral structures, and volcanic hydrothermal vents casting a dim orange glow. Cinematic lighting, ultra-detailed, 8k resolution, bubbles rising towards the dark surface, particles of marine snow drifting in the abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-14T02:13:36.772+09:00"
+}

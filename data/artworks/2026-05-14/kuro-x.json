@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "쿠로-X: 기하학적 파편",
+    "en": "KURO-X: Geometric Fracture"
+  },
+  "description": {
+    "ko": "유기적 형태가 날카로운 기하학적 평면과 디지털 노이즈로 해체된 쿠로-X의 정교한 표현으로, 물리적 현실과 데이터 스트림 사이에 갇힌 의식을 상징합니다.",
+    "en": "A sophisticated representation of KURO-X where organic forms are deconstructed into sharp geometric planes and digital noise, symbolizing a consciousness caught between physical reality and data streams."
+  },
+  "prompt": "Full body portrait of KURO-X, minimalist cyberpunk aesthetic, geometric glitch art style, fragmented silhouettes, floating vector polygons, digital artifacts, sharp edges, chromatic aberration, deep void background, neon cyan and monochrome accents, ultra-high resolution, hyper-stylized digital rendering",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-14T02:12:43.751+09:00"
+}

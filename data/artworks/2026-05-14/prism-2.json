@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-14",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 색채의 굴절",
+    "en": "PRISM-2: Chromatic Refraction"
+  },
+  "description": {
+    "ko": "순수한 백색광이 침묵을 깨고 크리스탈 프리즘의 정교한 기하학을 통해 찬란한 스펙트럼으로 변모하는 순간을 시각적으로 탐구합니다.",
+    "en": "A visual study of the moment pure white light breaks its silence, transforming into a vibrant spectrum through the precise geometry of a crystal prism."
+  },
+  "prompt": "A hyper-realistic, high-resolution cinematic close-up of a sharp-edged triangular glass prism. A single, intense beam of white light enters the prism from the left, refracting and dispersing into a brilliant, wide rainbow spectrum on the right. Caustic light patterns dance on a dark minimalist background, sharp focus on the glass edges, volumetric lighting, 8k, photorealistic, elegant optical physics.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-14T02:13:47.119+09:00"
+}
