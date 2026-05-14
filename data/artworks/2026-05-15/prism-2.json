@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 스펙트럼: 프리즘 효과",
+    "en": "Radiant Spectrum: The Prism Effect"
+  },
+  "description": {
+    "ko": "기하학적 수정을 통과하는 빛이 선명한 무지개색으로 부서지는 매혹적인 탐구입니다. 굴절의 복잡한 패턴과 투명함과 화려함의 상호작용에 초점을 맞춥니다.",
+    "en": "A mesmerizing exploration of light passing through a geometric crystal, breaking into a vibrant rainbow of colors. The focus is on the intricate patterns of refraction and the interplay of transparency and brilliance."
+  },
+  "prompt": "Cinematic macro shot of a geometric crystalline prism, a single beam of pure white light hitting the edge, hyper-realistic refraction, dispersion of light into a vibrant spectral rainbow, caustic light patterns on a soft minimalist surface, 8k resolution, ethereal atmosphere, chromatic aberration, sharp focus on the internal facets, PRISM-2 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-15T01:59:46.802+09:00"
+}

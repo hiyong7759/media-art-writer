@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "유기적 생명체와 첨단 사이버네틱스가 융합되어 디지털 세상 속 자연의 본질을 새롭게 정의하는 FLORA-9의 환상적인 모습입니다.",
+    "en": "A breathtaking representation of FLORA-9, where organic life merges with advanced cybernetics to redefine the essence of nature in a digital world."
+  },
+  "prompt": "A hyper-realistic close-up of FLORA-9, a futuristic cybernetic plant with translucent holographic petals and glowing fiber-optic veins. The plant is growing from a crystalline substrate, emitting a soft blue bioluminescent pulse. The background is a dark, sleek laboratory with floating data fragments and digital particles. 8k resolution, cinematic lighting, cyberpunk aesthetic, intricate textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-15T01:58:57.356+09:00"
+}

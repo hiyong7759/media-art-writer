@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "에테르 실크의 흐름",
+    "en": "Ethereal Silk Currents"
+  },
+  "description": {
+    "ko": "무게가 없는 공간 속을 유영하는 액체 실크와 같은 유기적인 곡선의 매혹적인 시각물입니다. 진주빛 광택과 깊은 바다의 청록색 사이를 오가는 색상은 자연스러운 리듬과 끊임없는 움직임의 본질을 담아냅니다.",
+    "en": "A mesmerizing visual of fluid, organic curves resembling liquid silk moving through a weightless void. The colors shift between iridescent pearls and deep oceanic teals, capturing the essence of natural rhythm and continuous motion."
+  },
+  "prompt": "Abstract organic flow, fluid dynamics, liquid silk texture, iridescent gradients, soft ambient lighting, high-resolution 3D render, ethereal atmosphere, swirling ribbons of light, macro cinematography, elegant curves, teal and pearl color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-15T01:58:31.593+09:00"
+}

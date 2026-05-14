@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 대지의 천연 질감",
+    "en": "TERRA-1: Earth's Natural Textures"
+  },
+  "description": {
+    "ko": "지구 표면의 가공되지 않은 복잡한 패턴을 시각적으로 탐구합니다. 사막의 건조한 균열부터 숲 바닥의 울창함까지, 우리 행성이 가진 촉각적 아름다움을 조명하는 시리즈입니다.",
+    "en": "A visual exploration of the Earth's surface, capturing the raw and intricate patterns of nature. From the arid cracks of the desert to the lush density of forest floors, this series highlights the tactile beauty of our planet."
+  },
+  "prompt": "Ultra-detailed macro photography of diverse Earth textures, including cracked desert clay, vibrant green forest moss, porous volcanic basalt, and swirling river sediment. Top-down aerial view, 8k resolution, cinematic lighting, emphasizing depth, shadows, and natural patterns.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-15T01:59:24.229+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "우주의 먼 고요한 진공 깊은 곳에서 VOID-3 유닛은 고독한 파수꾼처럼 표류합니다. 오래전 소멸한 별들의 고대 먼지와 절대적인 공허의 메아리만이 유일한 동료인, 빛조차 닿지 않는 우주의 영역을 항해합니다.",
+    "en": "Deep within the silent vacuum of the far universe, the VOID-3 unit drifts as a solitary sentinel. It navigates through the lightless reaches of the cosmos, where the only company is the ancient dust of stars long dead and the echoes of the absolute void."
+  },
+  "prompt": "Cinematic, hyper-realistic shot of the VOID-3 robot unit floating in the silent cosmic deep, surrounded by dark violet nebulae and distant collapsing stars. The robot's visor emits a faint amber glow against the obsidian vacuum of space. Intricate mechanical textures, floating space debris, cold lighting, wide angle perspective, 8k resolution, ray tracing, unreal engine 5 render.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-15T01:59:15.381+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "음파의 공명: 에코-0",
+    "en": "Sonic Resonance: ECHO-0"
+  },
+  "description": {
+    "ko": "복잡한 오디오 주파수를 생생하고 빛나는 기하학적 패턴과 천상의 파동으로 변환하는 ECHO-0의 고급 시각화 시스템입니다.",
+    "en": "An advanced visualization system for ECHO-0 that transforms complex audio frequencies into vibrant, glowing geometric patterns and ethereal pulses."
+  },
+  "prompt": "A cinematic digital interface of ECHO-0 visualizing sound waves, intricate neon blue and violet audio spectrums, 3D geometric waveforms pulsing in a dark void, floating light particles, futuristic HUD design, hyper-detailed digital art, 8k resolution, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-15T01:59:05.699+09:00"
+}

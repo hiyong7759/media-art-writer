@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 탐사자",
+    "en": "AQUA-5: The Abyssal Explorer"
+  },
+  "description": {
+    "ko": "AQUA-5는 바다의 가장 깊고 도달하기 어려운 곳에 숨겨진 비밀을 밝혀내기 위해 극한의 압력을 견딜 수 있도록 설계된 차세대 심해 탐사선입니다.",
+    "en": "AQUA-5 is a next-generation deep-sea vessel engineered to withstand extreme pressures while uncovering the hidden secrets of the ocean's most unreachable depths."
+  },
+  "prompt": "A cinematic shot of the AQUA-5 submersible navigating the pitch-black deep ocean floor, illuminated by vibrant cyan bioluminescence and high-powered floodlights, revealing mysterious trenches and alien-like sea life, futuristic sleek design, 8k resolution, hyper-realistic, atmospheric depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-15T01:59:33.500+09:00"
+}

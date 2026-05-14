@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 펄스: V-스타일 메트로폴리스",
+    "en": "Neon Pulse: The V-Style Metropolis"
+  },
+  "description": {
+    "ko": "첨단 기술과 거친 도시의 중심이 만나 NEON-V 특유의 고전압 색채로 빛나는 미래 도시의 숨막히는 전경입니다.",
+    "en": "A breathtaking view of a futuristic city where advanced technology meets a gritty urban core, illuminated by the signature high-voltage glow of the NEON-V color palette."
+  },
+  "prompt": "Ultra-realistic cinematic shot of a sprawling cyberpunk metropolis at night, NEON-V aesthetic, vibrant electric purple and cyan lighting, rain-slicked asphalt streets reflecting massive holographic advertisements, towering skyscrapers with glowing geometric patterns, dense urban atmosphere with flying vehicles in motion blur, high contrast, 8k resolution, futuristic megacity architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-15T01:58:48.403+09:00"
+}
