@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 굴절",
+    "en": "Prismatic Refraction"
+  },
+  "description": {
+    "ko": "유리를 통해 굴절되는 빛의 매혹적인 시각화로, 굴절의 물리학을 통해 백색광이 고유의 색상들로 섬세하게 분리되는 순간을 포착합니다.",
+    "en": "A mesmerizing visualization of light bending through glass, capturing the delicate separation of white light into its constituent colors through the physics of refraction."
+  },
+  "prompt": "A beam of pure white light passing through a high-precision glass prism, splitting into a vibrant, ethereal rainbow spectrum. Soft caustic light patterns dancing on a minimalist white surface. 8k resolution, cinematic lighting, macro photography, sharp focus on the refraction point, iridescent colors, dispersion of light.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-16T01:50:17.236+09:00"
+}

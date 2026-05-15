@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 확장",
+    "en": "VOID-3: The Abyssal Expanse"
+  },
+  "description": {
+    "ko": "천체와 해양의 경계가 고요하고 반짝이는 무한한 어둠의 공허 속으로 흐려지는 우주의 심연, 그 경이롭고도 오싹한 아름다움을 탐험하세요.",
+    "en": "Explore the haunting beauty of the Cosmic Deep, a region of space where the boundaries between the celestial and the oceanic blur into a silent, shimmering void of infinite darkness."
+  },
+  "prompt": "Cinematic wide shot of VOID-3, a cosmic deep abyss where stars look like bioluminescent particles in a dark matter ocean, swirling nebulae in deep indigo, charcoal, and violet, ancient celestial structures floating in the silent void, hyper-realistic, 8k resolution, ethereal lighting, mysterious and vast atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-16T01:49:52.436+09:00"
+}

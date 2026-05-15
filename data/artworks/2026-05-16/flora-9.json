@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "광섬유의 개화",
+    "en": "The Fiber-Optic Bloom"
+  },
+  "description": {
+    "ko": "회로가 내장된 꽃잎을 가진 프랙탈 꽃들이 피어나는 디지털 정원으로, 기술을 되찾는 자연을 상징합니다.",
+    "en": "A digital garden where fractal flowers bloom with circuit-laden petals, representing nature reclaiming technology."
+  },
+  "prompt": "A hyper-realistic cinematic shot of FLORA-9, titled 'The Fiber-Optic Bloom.' A futuristic botanical organism featuring translucent #FFB6C1 pale pink petals with embedded #50C878 emerald micro-circuitry and #89CFF0 cyan fiber-optic veins. The plant is rooted in a bed of #4A0E4E deep plum soil consisting of crushed data shards. Shimmering digital pollen floats in the air like glowing pixels. Macro photography focus, Unreal Engine 5 style, bioluminescent glow, 8k resolution, capturing the fusion of organic life and technology.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-16T01:49:36.506+09:00"
+}

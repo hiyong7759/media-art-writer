@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "AURA-7: 오가닉 플로우",
+    "en": "AURA-7: Organic Flow"
+  },
+  "description": {
+    "ko": "AURA-7 시리즈의 시각적 연구로, 미래지향적 기술과 자연스러운 움직임 사이의 조화를 강조합니다. 이 작품은 유체 역학과 부드러운 전환을 묘사하며 숨 쉬는 듯한 생생한 에너지를 전달합니다.",
+    "en": "A visual study of the AURA-7 series, emphasizing the harmony between futuristic technology and natural movement. This piece illustrates fluid dynamics and soft transitions, creating a sense of breathing, living energy."
+  },
+  "prompt": "Cinematic 3D render of AURA-7, ethereal organic flowing shapes, fluid ribbon-like structures intertwining in mid-air, soft bioluminescent glow, translucent glass and liquid metal textures, pastel iridescent color palette, macro photography, 8k resolution, serene atmosphere, dreamlike movement",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-16T01:49:14.868+09:00"
+}

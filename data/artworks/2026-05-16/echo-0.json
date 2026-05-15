@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 파동",
+    "en": "ECHO-0: Resonance Pulse"
+  },
+  "description": {
+    "ko": "음파가 빛나는 기하학적 구조로 변모하는 과정을 디지털로 해석하여, 오디오와 비주얼 데이터 사이의 조화를 표현합니다.",
+    "en": "A digital interpretation of sound waves transforming into luminous geometric structures, representing the harmony between audio and visual data."
+  },
+  "prompt": "abstract 3d sound visualization, glowing neon waveform particles, liquid metal vibrations, parametric architecture reflecting audio frequencies, dark background, cinematic lighting, 8k resolution, ethereal resonance",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-16T01:49:43.773+09:00"
+}

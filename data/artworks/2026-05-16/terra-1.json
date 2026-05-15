@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 살아있는 세계의 질감",
+    "en": "TERRA-1: Textures of the Living World"
+  },
+  "description": {
+    "ko": "메마른 강바닥부터 생기 넘치는 이끼 지대까지, 지질학적 힘과 생물학적 성장이 만들어낸 가공되지 않은 정교한 패턴을 포착하며 지구의 표면을 가로지르는 시각적 여정입니다.",
+    "en": "A visual journey across the globe's skin, capturing the raw and intricate patterns formed by geological forces and biological growth, from parched riverbeds to vibrant mossy terrains."
+  },
+  "prompt": "Ultra-high-definition satellite photography showcasing diverse Earth textures, including cracked desert clay, swirling ocean tides, lush forest canopies, and jagged mountain ridges, macro-detail, cinematic lighting, topographic patterns, 8k resolution, hyper-realistic geological formations.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-16T01:50:01.184+09:00"
+}

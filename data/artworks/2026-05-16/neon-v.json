@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온 소버린티: 제7구역",
+    "en": "Neon Sovereignty: Sector 7"
+  },
+  "description": {
+    "ko": "끊임없이 내리는 비와 거대한 건축물 사이로 강렬한 네온 사인이 번쩍이는 첨단 대도시의 몰입감 넘치는 풍경입니다.",
+    "en": "An immersive look into a high-tech metropolis where vibrant neon lights pierce through perpetual urban rain and towering architecture."
+  },
+  "prompt": "Hyper-detailed cinematic wide shot of a sprawling cyberpunk megacity at midnight, heavy rain, glowing neon billboards in magenta and electric blue reflecting on wet pavement, flying cars weaving through massive skyscrapers, dense fog, futuristic atmosphere, 8k resolution, Unreal Engine 5 render style, synthwave aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-16T01:49:32.357+09:00"
+}

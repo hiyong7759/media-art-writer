@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-16",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척자",
+    "en": "AQUA-5: The Abyssal Frontier"
+  },
+  "description": {
+    "ko": "첨단 생물 발광 추적 기술과 고압 선체 무결성을 갖춘 AQUA-5 잠수정으로 바다의 신비로운 깊은 곳을 탐험하세요.",
+    "en": "Explore the mysterious depths of the ocean with the AQUA-5 submersible, featuring advanced bioluminescent tracking and high-pressure hull integrity."
+  },
+  "prompt": "Cinematic underwater shot of the AQUA-5 high-tech research submarine navigating a dark abyssal trench, bioluminescent sea life glowing in the background, 8k resolution, hyper-realistic, volumetric lighting, deep blue and teal color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-16T01:50:08.751+09:00"
+}
