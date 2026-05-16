@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "바이너리 개화",
+    "en": "The Binary Blossom"
+  },
+  "description": {
+    "ko": "유기적 꽃잎의 질감과 광섬유 회로가 조화를 이룬 디지털 꽃.",
+    "en": "A digital flower blending organic petal textures with fiber-optic circuitry."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Binary Blossom.' A futuristic botanical form featuring translucent #FFB6C1 pink petals woven with #50C878 emerald micro-circuitry and #89CFF0 cyan fiber-optic veins. Rooted in a bed of #4A0E4E deep plum data-soil. Shimmering digital pollen floats like glowing pixels. Unreal Engine 5 style, macro focus, bioluminescent glow, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-17T00:53:44.172+09:00"
+}

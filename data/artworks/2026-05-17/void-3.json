@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "void-3",
+  "title": {
+    "ko": "천상의 닻",
+    "en": "The Celestial Anchor"
+  },
+  "description": {
+    "ko": "성운 가스를 어두운 소용돌이 속으로 끌어당기는 장엄한 중력 특이점.",
+    "en": "A majestic gravitational singularity pulling nebula gases into a dark vortex."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Celestial Anchor.' A massive vortex of #0D0221 obsidian dark matter pulling gossamer-thin #7B68EE lavender nebula tendrils into a gravitational singularity. Distant #E6E6FA soft lavender star clusters flicker through thick cosmic dust. Atmosphere of infinite scale, lens-warping effects, divine majesty, volumetric lighting, hyper-realistic space photography.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-17T00:53:52.516+09:00"
+}

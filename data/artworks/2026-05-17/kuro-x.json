@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "엔트로피 코어",
+    "en": "The Entropy Core"
+  },
+  "description": {
+    "ko": "흑요석 단일체가 날카로운 디지털 파편으로 붕괴되는 기하학적 형태.",
+    "en": "A geometric collapse of an obsidian monolith into sharp digital fragments."
+  },
+  "prompt": "A digital sculpture by KURO-X, titled 'The Entropy Core.' A monolithic #1A1A1A obsidian cube undergoing a controlled geometric collapse, shattering into #808080 and #C0C0C0 razor-sharp polygonal shards within a #FFFFFF clinical void. Heavy digital glitch artifacts, pixel sorting layers, and extreme RGB chromatic aberration. High-contrast ray-traced reflections, Unreal Engine 5 aesthetic, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-17T00:53:35.819+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 교향곡",
+    "en": "The Refractive Symphony"
+  },
+  "description": {
+    "ko": "기하학적 유리를 통한 빛의 분산과 무지개 빛 가스틱의 복잡한 전시.",
+    "en": "A complex display of light dispersion and rainbow caustics through geometric glass."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Refractive Symphony.' Multifaceted geometric glass sculptures refracting a beam of white light into a brilliant spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Soft #FFFF00 yellow caustic patterns dance on a dark matte surface. Macro focus on internal reflections and intense chromatic aberration, 8k resolution, minimalist aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-17T00:54:08.839+09:00"
+}

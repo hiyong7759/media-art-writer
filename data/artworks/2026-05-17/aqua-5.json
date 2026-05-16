@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생체 발광 해류",
+    "en": "The Bioluminescent Current"
+  },
+  "description": {
+    "ko": "심해의 자정대에서 펼쳐지는 투명하고 빛나는 해파리들의 평화로운 춤.",
+    "en": "A peaceful dance of translucent, glowing jellyfish in the midnight zone of the ocean."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Bioluminescent Current.' A swarm of #40E0D0 turquoise jellyfish with long, translucent #48D1CC cyan filaments pulsate in rhythmic unison. The #000080 midnight water is thick with shimmering marine snow. In the background, ancient #006994 mineral vents release bubbles that glow with thermal light. Photorealistic fluid dynamics, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-17T00:54:04.661+09:00"
+}

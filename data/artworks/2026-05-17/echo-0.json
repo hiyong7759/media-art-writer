@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명의 격자",
+    "en": "The Resonance Lattice"
+  },
+  "description": {
+    "ko": "음파가 복잡한 기하학적 구조로 고체화되는 과정을 시각화함.",
+    "en": "A visualization of sound waves solidifying into complex geometric structures."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Resonance Lattice.' A central vibrating geometric core generating complex #4169E1 royal blue frequency waves and #FF4500 electric orange ripples that solidify into floating crystalline lattices. The surrounding void is filled with #32CD32 green kinetic particles and #FFD700 gold light trails reacting to audio frequencies. Ray-traced, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "rhythmic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-17T00:53:48.344+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "크롬의 빗줄기",
+    "en": "The Chrome Rainfall"
+  },
+  "description": {
+    "ko": "빗방울이 디지털 픽셀로 변하는 비 내리는 사이버펑크 거리.",
+    "en": "A rain-soaked cyberpunk street where raindrops transform into digital pixels."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Chrome Rainfall.' Towering #1A0033 indigo skyscrapers drenched in a holographic downpour where raindrops transform into #FF00FF magenta and #00FFFF cyan data pixels on impact. #FF6B35 orange light trails from maglev vehicles cut through a smoky volumetric atmosphere. Ray-traced puddle reflections on wet metallic asphalt, tech-noir textures, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-17T00:53:39.999+09:00"
+}

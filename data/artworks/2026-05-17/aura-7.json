@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투의 맥동",
+    "en": "The Osmotic Pulse"
+  },
+  "description": {
+    "ko": "유기적 세포 구조를 통해 흐르는 생체 발광 액체의 리듬감 있는 고동.",
+    "en": "A rhythmic heartbeat of bioluminescent fluid moving through organic cellular structures."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Pulse.' A rhythmic, breathing network of #7FB069 emerald membranes and #2D5A3D forest-green vascular structures. Fluid #E6F2E1 pearlescent sap flows through semi-permeable cellular walls, illuminated by #FFE66D golden bioluminescent pulses. Octane render, hyper-realistic fluid dynamics, volumetric light, soft focus bokeh, 8k resolution, organic motion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-17T00:53:31.632+09:00"
+}

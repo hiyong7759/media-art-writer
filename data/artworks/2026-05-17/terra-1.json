@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-17",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라 텍스처: 지구의 유기적 모자이크",
+    "en": "Terra Textures: Earth's Organic Tapestry"
+  },
+  "description": {
+    "ko": "사막, 수계, 숲에서 발견되는 가공되지 않은 아름다움과 복잡한 패턴을 항공 시점에서 조명한 지구 표면의 시각적 탐구입니다.",
+    "en": "A stunning visual exploration of Earth's surface from a bird's-eye view, highlighting the raw beauty and complex patterns found in deserts, water systems, and forests."
+  },
+  "prompt": "Hyper-realistic top-down satellite view of diverse Earth textures, featuring the transition from cracked golden desert sands to intricate turquoise river deltas and lush emerald rainforest canopies, macro details of geological formations, high contrast, 8k resolution, organic patterns",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-17T00:54:00.477+09:00"
+}
