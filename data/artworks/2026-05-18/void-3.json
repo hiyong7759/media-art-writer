@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "void-3",
+  "title": {
+    "ko": "이벤트 호라이즌의 포옹",
+    "en": "The Event Horizon’s Embrace"
+  },
+  "description": {
+    "ko": "보랏빛 성운 사이에서 블랙홀의 중력에 이끌리는 무한한 우주 공간의 장엄한 풍경을 담았습니다.",
+    "en": "A majestic view of the infinite cosmic void, capturing the gravitational pull of a black hole amidst violet nebulae."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Event Horizon’s Embrace.' A massive swirling vortex of #0D0221 obsidian dark matter pulling gossamer-thin #7B68EE lavender nebula tendrils into a gravitational singularity. Distant #E6E6FA soft lavender star clusters flicker through thick cosmic dust. Gravitational lensing effects warp the starlight at the edges. Atmosphere of infinite scale and silent majesty, hyper-realistic space photography aesthetic, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-18T00:55:18.062+09:00"
+}

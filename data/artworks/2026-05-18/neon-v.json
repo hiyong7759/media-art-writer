@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "인디고의 잔향",
+    "en": "The Indigo Echo"
+  },
+  "description": {
+    "ko": "홀로그램 데이터 비와 하이테크 대도시의 선명한 오렌지빛 궤적이 만나는 비 내리는 사이버펑크 도시 경관입니다.",
+    "en": "A rainy cyberpunk cityscape where holographic data rainfall meets the vibrant orange light trails of a high-tech metropolis."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Indigo Echo.' Towering #1A0033 indigo megastructures reflect off rain-slicked metallic asphalt. A heavy holographic downpour turns into #FF00FF magenta and #00FFFF cyan data pixels upon impact. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced puddle reflections. 8k resolution, the melancholic soul of a future city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-18T00:55:00.332+09:00"
+}

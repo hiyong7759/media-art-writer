@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "엽록소의 고동",
+    "en": "The Chlorophyll Pulse"
+  },
+  "description": {
+    "ko": "에메랄드빛 막을 통해 흐르는 생체 발광 수액이 액체 빛처럼 순환하는 AURA-7의 미시적인 생명력을 깊이 있게 묘사합니다.",
+    "en": "A deep dive into the microscopic life-force of AURA-7, where bioluminescent sap flows through emerald membranes like liquid light."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Chlorophyll Pulse.' A vast, living network of #7FB069 emerald moss-membranes and #2D5A3D forest-green vascular structures suspended in a weightless #E6F2E1 pearlescent liquid. Flowing ribbons of #FFE66D golden bioluminescent nectar move like viscous liquid silk through semi-permeable cellular walls. Macro photography focus on translucent textures and internal capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene organic flow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-18T00:54:51.973+09:00"
+}

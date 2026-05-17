@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 질감: 건조한 맥락",
+    "en": "Earth Texture: Arid Veins"
+  },
+  "description": {
+    "ko": "고해상도 수직 항공 촬영으로 포착한 지구 표면의 모습으로, 메마른 사막의 복잡하고 극적인 질감을 보여줍니다. 깊게 패인 균열과 대지의 색조는 자연스러운 침식 작용이 만들어낸 원초적인 아름다움을 강조합니다.",
+    "en": "A high-resolution top-down perspective of Earth's surface, showcasing the intricate and dramatic textures of a parched desert. The deep fissures and earthy tones highlight the raw beauty of natural erosion."
+  },
+  "prompt": "Cinematic aerial shot of a cracked, dry desert landscape with deep fissures and varying shades of ochre, sienna, and dusty orange. Intricate natural patterns resembling organic veins, high resolution, 8k, hyper-realistic, top-down perspective, dramatic lighting casting shadows in the cracks.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-18T00:55:26.215+09:00"
+}

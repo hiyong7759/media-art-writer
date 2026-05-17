@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 오키드",
+    "en": "The Silicon Orchid"
+  },
+  "description": {
+    "ko": "유기적인 아름다움과 기술적 정밀함의 융합으로, 회로와 광섬유로 이루어진 꽃을 시각화합니다.",
+    "en": "A fusion of organic beauty and technological precision, showcasing a flower made of circuitry and fiber optics."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Silicon Orchid.' A futuristic botanical entity with translucent #FFB6C1 pale pink petals embedded with #50C878 emerald micro-circuitry. Glowing #89CFF0 cyan fiber-optic veins pulse rhythmically within the leaves. The plant is rooted in #4A0E4E deep plum data-soil. Shimmering digital pollen floats like glowing pixels in an ethereal atmosphere. Macro photography focus, Unreal Engine 5 style, 8k resolution, bioluminescent digital nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-18T00:55:05.176+09:00"
+}

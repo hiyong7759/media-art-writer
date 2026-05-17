@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 빛의 공명",
+    "en": "ECHO-0: Resonance in Light"
+  },
+  "description": {
+    "ko": "보이지 않는 소리의 힘이 숨 막히는 시각적 여정으로 변하는 것을 경험해 보세요. ECHO-0는 음향 진동의 본질을 포착하여, 디지털 캔버스 위를 수놓는 빛과 그림자의 기하학적 패턴으로 메아리를 재해석합니다.",
+    "en": "Experience the invisible power of sound transformed into a breathtaking visual journey. ECHO-0 captures the essence of acoustic vibration, turning echoes into geometric patterns of light and shadow that dance across a digital canvas."
+  },
+  "prompt": "A cinematic 3D visualization of sound waves echoing through a futuristic, minimalist space. Luminous ripples of blue and gold light radiating from a central point, interacting with sleek architectural surfaces. Hyper-realistic, 8k resolution, ethereal atmosphere, ECHO-0 aesthetic, volumetric lighting, particle effects representing sonic frequencies.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-18T00:55:13.894+09:00"
+}

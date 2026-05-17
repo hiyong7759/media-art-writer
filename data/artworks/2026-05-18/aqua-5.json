@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해 탐사선",
+    "en": "AQUA-5: Abyssal Explorer"
+  },
+  "description": {
+    "ko": "극한의 압력 환경을 위해 설계된 최첨단 심해 잠수정으로, 생물 발광 조명과 고급 음파 탐지 매핑 기술을 갖추고 있습니다.",
+    "en": "A state-of-the-art deep-sea submersible designed for extreme pressure environments, featuring bioluminescent lighting and advanced sonar mapping technology."
+  },
+  "prompt": "A futuristic deep-sea exploration vessel, AQUA-5, navigating through a dark underwater trench. Glowing blue bioluminescent details, robotic arms, high-tech sensors, surrounded by strange deep-sea creatures and volcanic vents, cinematic lighting, 8k resolution, photorealistic style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-18T00:55:33.950+09:00"
+}

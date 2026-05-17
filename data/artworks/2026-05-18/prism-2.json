@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-18",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "크로매틱 심포니",
+    "en": "The Chromatic Symphony"
+  },
+  "description": {
+    "ko": "백색광이 기하학적 커스틱스의 선명한 무지개로 부서지는 순수 에너지와 빛 굴절의 탐구입니다.",
+    "en": "An exploration of pure energy and light refraction, where white light shatters into a vivid rainbow of geometric caustics."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Chromatic Symphony.' A multifaceted geometric glass sculpture refracts a sharp beam of white light into a brilliant fanned-out spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Soft #FFFF00 yellow caustic patterns dance across a dark matte background with intense chromatic aberration. Macro focus on internal reflections and sharp edges. 8k resolution, minimalist aesthetic, pure light dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-18T00:55:38.134+09:00"
+}
