@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-19",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지질학적 층서학",
+    "en": "TERRA-1: Geological Stratigraphy"
+  },
+  "description": {
+    "ko": "궤도 시점에서 촬영한 퇴적층과 자연 침식 패턴의 복잡한 아름다움을 강조하는 지구 표면 질감에 대한 상세한 시각적 연구입니다.",
+    "en": "A detailed visual study of Earth's surface textures, highlighting the complex beauty of sedimentary layers and natural erosion patterns captured from an orbital perspective."
+  },
+  "prompt": "Ultra-high-definition satellite photography of layered rock formations and sediment deposits, showcasing diverse geological textures, rich ochre and sienna tones, cinematic lighting, top-down aerial perspective, intricate natural patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-19T02:30:02.249+09:00"
+}

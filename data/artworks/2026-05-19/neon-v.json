@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-19",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "시안 제니스",
+    "en": "The Cyan Zenith"
+  },
+  "description": {
+    "ko": "빛과 데이터가 하나가 되어 미래 도시의 우울한 영혼을 반영하는, 비에 젖은 사이버펑크 거대 도시의 풍경입니다.",
+    "en": "A rain-drenched cyberpunk megacity where light and data become one, reflecting the melancholic soul of a futuristic metropolis."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Cyan Zenith.' Towering #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta and #00FFFF cyan holographic data streams. A torrential downpour transforms into glowing data pixels upon hitting the wet metallic asphalt, creating ray-traced puddle reflections. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures and flickering lens flares. 8k resolution, capturing the urban romanticism.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-19T02:29:36.875+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-19",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 생물 발광",
+    "en": "Abyssal Bioluminescence"
+  },
+  "description": {
+    "ko": "영원한 어둠 속에서 생물 발광 생명체들이 빛을 발하는 신비로운 심해를 탐험하세요. 고요한 심연과 심해의 경이로움을 관통하는 여정입니다.",
+    "en": "Explore the mysterious depths of the ocean where bioluminescent creatures light up the eternal darkness. A journey through the silent abyss and the wonders of the deep sea."
+  },
+  "prompt": "cinematic shot of the deep ocean floor, bioluminescent jellyfish and strange glowing fish, hydrothermal vents emitting smoke, dark navy and neon blue lighting, high detail, 8k resolution, ethereal atmosphere, macro photography of alien-like aquatic life",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-19T02:30:10.348+09:00"
+}

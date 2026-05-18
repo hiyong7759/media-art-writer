@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-19",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "프랙탈 단편화",
+    "en": "The Fractal Defragmentation"
+  },
+  "description": {
+    "ko": "단단한 구조가 무채색 기하학의 정밀하고 글리치가 가득한 디지털 폭발로 붕괴되는 통제된 카오스에 대한 연구입니다.",
+    "en": "A study of controlled chaos where a solid structure disintegrates into a precise, glitch-heavy digital explosion of monochrome geometry."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Fractal Defragmentation.' A massive #1A1A1A obsidian monolith undergoing a systematic geometric collapse, shattering into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards. Set within a clinical #FFFFFF void, the scene is intersected by heavy digital glitch artifacts, pixel sorting layers, and sharp RGB chromatic aberration slicing through the composition. High-contrast ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical elegance of digital corruption.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-19T02:29:32.689+09:00"
+}

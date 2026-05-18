@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-19",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "소리를 물리적 실체로 탐구하며, 오디오 주파수를 생동감 넘치고 고동치는 빛의 구조와 유동적인 기하학적 패턴으로 변환하는 미래지향적인 여정입니다.",
+    "en": "A futuristic exploration of sound as a physical entity, translating audio frequencies into vibrant, pulsating light structures and fluid geometric patterns."
+  },
+  "prompt": "Cinematic visualization of sound waves, ECHO-0 aesthetic, holographic frequency spectrum, pulsating light rings, fluid neon geometry, deep blue and electric violet color palette, high-tech abstract environment, 8k resolution, ethereal soundscape representation.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-19T02:29:53.727+09:00"
+}
