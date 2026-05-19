@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-20",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 스펙트럼",
+    "en": "Prismatic Spectrum"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛이 선명한 무지개빛 스펙트럼으로 분산되는 놀라운 시각화입니다. 이 작품은 광학 물리학의 복잡한 아름다움과 굴절된 빛의 순수함을 포착합니다.",
+    "en": "A stunning visualization of light passing through a glass prism, breaking into a vibrant spectrum of colors. This piece captures the intricate beauty of optical physics and the purity of refracted light."
+  },
+  "prompt": "Macro photography of a high-quality crystal prism on a clean white surface, a single beam of intense white light entering and refracting into a vivid, sharp rainbow spectrum, caustic light patterns, hyper-realistic glass textures, volumetric lighting, 8k resolution, cinematic composition, optical physics, chromatic aberration.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "bright",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-20T02:38:17.824+09:00"
+}

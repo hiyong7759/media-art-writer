@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-20",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "생체 발광 데이터 숲",
+    "en": "Bioluminescent Data Grove"
+  },
+  "description": {
+    "ko": "고대 나무들이 광섬유 케이블과 빛나는 신경망으로 이루어진 숨 막히는 풍경으로, 네온 빛 황혼 아래 유기적 성장과 수정 같은 디지털 구조가 조화를 이룹니다.",
+    "en": "A breathtaking landscape where ancient trees are composed of fiber-optic cables and glowing neural networks, blending organic growth with crystalline digital structures under a neon twilight."
+  },
+  "prompt": "FLORA-9 style, cinematic wide shot, digital nature, holographic flowers blooming with pixel particles, glowing roots made of flowing data streams, translucent leaves with circuit patterns, hyper-realistic textures, 8k resolution, ethereal lighting, synthwave color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-20T02:37:37.340+09:00"
+}

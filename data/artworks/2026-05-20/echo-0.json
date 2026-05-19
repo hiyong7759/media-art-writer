@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-20",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonance Frequency"
+  },
+  "description": {
+    "ko": "음향 에너지의 역동적인 시각화인 ECHO-0는 디지털 공간에서 상호작용하는 보이지 않는 소리의 물결을 포착합니다.",
+    "en": "A dynamic visualization of acoustic energy, ECHO-0 captures the invisible ripples of sound as they interact with a digital void."
+  },
+  "prompt": "Abstract sound visualization of ECHO-0, rhythmic concentric waves pulsating from a central core, neon cyan and deep violet gradients, holographic frequency bars, fluid motion blur, high-tech aesthetic, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-20T02:37:50.262+09:00"
+}
