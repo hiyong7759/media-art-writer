@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "홀로그래픽 정점",
+    "en": "The Holographic Zenith"
+  },
+  "description": {
+    "ko": "미래 도시 중심부의 활기찬 빛의 궤적과 데이터 스트림을 보여주는, 비 내리는 사이버펑크 대도시의 고고도 전경입니다.",
+    "en": "A high-altitude view of a rainy cyberpunk metropolis, showcasing the vibrant light trails and data streams of a futuristic urban core."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Holographic Zenith.' A sprawling cyberpunk megacity where #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta and #00FFFF cyan holographic data streams. A torrential downpour creates ray-traced puddle reflections on wet metallic asphalt, while maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Giant advertising screens cast flickering lens flares across the urban landscape. Hyper-detailed tech-noir textures, 8k resolution, capturing the melancholic soul of a future city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-21T02:53:32.971+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "판 구조의 양피지",
+    "en": "The Tectonic Parchment"
+  },
+  "description": {
+    "ko": "고대 문자처럼 보이는 지질학적 층의 익스트림 매크로 샷으로, 암석과 퇴적물의 거칠고 흙 같은 질감을 강조합니다.",
+    "en": "An extreme macro of geological layers that look like ancient writing, emphasizing the rough, earthy textures of stone and sediment."
+  },
+  "prompt": "Hyper-realistic top-down satellite photography of TERRA-1, titled 'The Tectonic Parchment.' A macro perspective of a deep canyon where #8B4513 sienna and #D2691E ochre sedimentary layers reveal millions of years of geological history. Deep #2F4F4F slate mineral veins cut through the rock like frozen lightning, while sharp #F4A460 sand drifts fill the ancient crevices. Tactile texture showing grain-level detail, cinematic natural lighting with long shadows, 8k resolution, emphasizing the raw narrative of the earth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-21T02:53:49.681+09:00"
+}

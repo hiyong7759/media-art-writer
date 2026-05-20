@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "광합성 네트워크",
+    "en": "The Photosynthetic Network"
+  },
+  "description": {
+    "ko": "데이터가 풍부한 환경 속에서 광섬유 잎맥과 픽셀화된 꽃가루를 특징으로 하는, 생물학과 회로가 만나는 디지털 난초입니다.",
+    "en": "A digital orchid where biology meets circuitry, featuring fiber-optic veins and pixelated pollen in a data-rich environment."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Photosynthetic Network.' A futuristic botanical entity featuring translucent #FFB6C1 pale pink petals woven with #50C878 emerald micro-circuitry and #89CFF0 cyan fiber-optic veins. The plant is rooted in a bed of #4A0E4E deep plum data-soil composed of crushed silicon shards. Shimmering digital pollen floats in the air like glowing pixels in an ethereal atmosphere. Macro photography focus, Unreal Engine 5 style, bioluminescent glow, 8k resolution, merging organic life with technological hardware.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-21T02:53:37.177+09:00"
+}

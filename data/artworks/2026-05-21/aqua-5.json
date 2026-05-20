@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 오로라",
+    "en": "The Abyssal Aurora"
+  },
+  "description": {
+    "ko": "생물 발광 해파리와 열수 분출구가 어두운 바다에서 천연 빛의 쇼를 만들어내는 평온한 수중 장면입니다.",
+    "en": "A serene underwater scene featuring bioluminescent jellyfish and hydrothermal vents, creating a natural light show in the dark ocean."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Abyssal Aurora.' A swarm of #40E0D0 turquoise bioluminescent jellyfish with long, translucent #48D1CC cyan filaments pulsate in rhythmic unison. The #000080 midnight water is thick with shimmering marine snow, while in the background, ancient #006994 hydrothermal vents release bubbles that glow with thermal light. Photorealistic fluid dynamics, high-pressure deep sea atmosphere, 8k resolution, capturing a peaceful dance of transparent life in the abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-21T02:53:53.857+09:00"
+}

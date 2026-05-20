@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "void-3",
+  "title": {
+    "ko": "특이점의 후광",
+    "en": "The Singularity’s Halo"
+  },
+  "description": {
+    "ko": "라벤더빛 성간 먼지를 빨아들이는 블랙홀의 웅장한 모습으로, 무한한 우주 심연의 규모와 침묵을 탐구합니다.",
+    "en": "A majestic view of a black hole pulling in lavender stardust, exploring the scale and silence of the infinite cosmic abyss."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Singularity’s Halo.' A massive swirling vortex of #0D0221 obsidian dark matter pulling gossamer-thin #7B68EE lavender nebula tendrils into a gravitational singularity. Distant #E6E6FA soft lavender star clusters flicker through thick cosmic dust, creating a lens-warping gravitational lensing effect. The atmosphere conveys infinite scale and silent majesty, with volumetric lighting and hyper-realistic space photography aesthetic. Capturing the divine horror and beauty of the deep universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-21T02:53:45.515+09:00"
+}

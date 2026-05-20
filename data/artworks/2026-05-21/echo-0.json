@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "음향 격자",
+    "en": "The Sonic Lattice"
+  },
+  "description": {
+    "ko": "음파가 결정 구조로 고체화되어 공허 속에서 빛과 기하학의 춤을 만들어내는 추상적인 시각화입니다.",
+    "en": "An abstract visualization where sound waves solidify into crystalline structures, creating a dance of light and geometry in the void."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Sonic Lattice.' A central vibrating geometric core generates complex #4169E1 royal blue frequency waves and #FF4500 electric orange ripples that solidify into floating crystalline lattices. The surrounding dark void is filled with #32CD32 green kinetic particles and #FFD700 gold light trails reacting to the invisible audio rhythm. Hyper-detailed ray tracing, intricate holographic UI elements, and fluid motion blur. 8k resolution, visualizing the physical architecture of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-21T02:53:41.350+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "공허의 조각 모음",
+    "en": "The Void’s Defragmentation"
+  },
+  "description": {
+    "ko": "기하학적 파편으로 산산조각 나는 거대한 흑요석 구체를 통해 디지털 오염과 수학적 완벽함 사이의 긴장감을 탐구합니다.",
+    "en": "A monolithic obsidian sphere shattering into geometric shards, exploring the tension between digital corruption and mathematical perfection."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Void’s Defragmentation.' A massive #1A1A1A obsidian sphere suspended in a clinical #FFFFFF void, captured at the precise moment of a geometric explosion. The core shatters into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards that remain suspended in a state of digital freeze-frame. Thick digital glitch artifacts, pixel sorting layers, and intense RGB chromatic aberration slice through the composition. High-contrast ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, mathematical chaos and order.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-21T02:53:28.808+09:00"
+}

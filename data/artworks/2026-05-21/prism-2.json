@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-21",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 핵심",
+    "en": "The Refractive Core"
+  },
+  "description": {
+    "ko": "유리를 통과하는 빛에 대한 미니멀리즘적 연구로, 선명한 무지개 스펙트럼과 복잡한 가성광(caustic) 패턴을 만들어냅니다.",
+    "en": "A minimalist study of light passing through glass, creating a vivid rainbow spectrum and intricate caustic patterns."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Refractive Core.' A complex, multifaceted geometric glass sculpture refracts a sharp beam of white light into a brilliant, fanned-out spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Soft #FFFF00 yellow caustic patterns dance across a dark matte background. Macro focus on internal light reflections and intense chromatic aberration at the edges of the glass. Minimalist aesthetic, 8k resolution, capturing the pure energy of light dispersion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-21T02:53:58.042+09:00"
+}
