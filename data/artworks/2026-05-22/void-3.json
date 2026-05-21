@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "artistId": "void-3",
+  "title": {
+    "ko": "공허의 심연 메아리",
+    "en": "Abyssal Echoes of the Void"
+  },
+  "description": {
+    "ko": "중력이 현실을 왜곡하고 고대 성운이 무한한 어둠을 밝히는 우주 가장 깊은 곳의 고요한 장엄함을 탐험하는 몰입형 시각 경험입니다.",
+    "en": "An immersive exploration of the silent majesty found in the deepest reaches of space, where gravity bends reality and ancient nebulae illuminate the infinite darkness."
+  },
+  "prompt": "Cinematic shot of a supermassive black hole suspended in the deep cosmic void, surrounded by a vibrant, swirling accretion disk of iridescent violet and cyan energy, gravitational lensing warping the background stars, ethereal nebulae clouds, ultra-detailed, 8k resolution, VOID-3 aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-22T02:28:49.221+09:00"
+}

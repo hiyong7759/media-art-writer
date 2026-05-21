@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "명료함의 스펙트럼: 프리즘 굴절",
+    "en": "Spectrum of Clarity: Prism Refraction"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 빛이 굴절되어 다채로운 색상으로 분산되는 과정을 탐구합니다. 투명함과 생생한 스펙트럼 분산 사이의 상호작용을 강조합니다.",
+    "en": "An exploration of light passing through a glass prism, bending and splitting into its constituent colors. Highlighting the interplay of transparency and vibrant spectral dispersion."
+  },
+  "prompt": "A cinematic, high-detail macro shot of a triangular glass prism on a dark surface. A single beam of intense white light enters from the left, refracting inside the glass, and exiting as a vivid, spreading rainbow spectrum. Prismatic chromatic aberration, caustic light patterns, 8k resolution, ray-tracing, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-22T02:29:17.756+09:00"
+}

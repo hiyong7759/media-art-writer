@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "우리 행성의 가공되지 않은 유기적 패턴에 대한 시각적 탐구입니다. 이 컬렉션은 지각 변동의 거친 기하학적 구조와 자연적 침식의 부드럽고 유동적인 형태를 대조하여 지구의 촉각적 본질을 포착합니다.",
+    "en": "A visual deep-dive into the raw, organic patterns of our planet. This collection captures the tactile essence of the Earth, contrasting the harsh geometry of tectonic shifts with the soft, flowing forms of natural erosion."
+  },
+  "prompt": "High-resolution satellite view and macro photography of various Earth surfaces, showcasing dry cracked mud, lush emerald moss, layered sedimentary rock, and swirling desert sands, cinematic lighting, hyper-realistic textures, 8k resolution, geological patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-22T02:28:58.967+09:00"
+}

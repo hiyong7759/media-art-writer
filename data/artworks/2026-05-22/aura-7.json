@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "균사체의 심장박동",
+    "en": "The Mycelial Heartbeat"
+  },
+  "description": {
+    "ko": "에메랄드빛 막과 황금빛 과즙이 리듬감 넘치는 액체 댄스 속에서 서로 뒤엉키는 살아 숨 쉬는 유기적 네트워크의 매크로 탐구입니다.",
+    "en": "A macro exploration of a living, breathing organic network where emerald membranes and golden nectar intertwine in a rhythmic, liquid dance."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Mycelial Heartbeat.' A hyper-complex, breathing organic architecture composed of #7FB069 emerald moss-membranes and #2D5A3D dark forest vascular structures. The entity is suspended in a weightless #E6F2E1 pearlescent liquid, exhaling swirling #FFE66D golden bioluminescent nectar that flows like rhythmic liquid silk through semi-permeable cellular walls. Macro cinematography focus on the rhythmic pulsation of translucent capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-22T02:28:07.156+09:00"
+}
