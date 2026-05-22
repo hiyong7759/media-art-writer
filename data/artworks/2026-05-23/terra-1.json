@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-23",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지각의 맥락",
+    "en": "TERRA-1: Tectonic Veins"
+  },
+  "description": {
+    "ko": "위성 렌즈를 통해 본 지구 표면의 추상적 탐구로, 지질학적 침식과 유기적 성장 사이의 복잡한 조화를 포착합니다.",
+    "en": "An abstract exploration of Earth's surface through a satellite lens, capturing the intricate harmony between geological erosion and organic growth."
+  },
+  "prompt": "Hyper-realistic satellite photography of diverse earth textures, merging arid cracked clay deserts with deep emerald mossy highlands and intricate river delta veins, cinematic lighting, top-down perspective, high contrast, 8k resolution, detailed mineral deposits and organic patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-23T02:04:32.409+09:00"
+}

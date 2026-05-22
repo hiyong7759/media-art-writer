@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-23",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "명료함의 스펙트럼",
+    "en": "The Spectrum of Clarity"
+  },
+  "description": {
+    "ko": "유리를 통과하는 빛의 정밀한 굴절을 통해 스펙트럼 속에 숨겨진 색채를 드러내는 놀라운 시각적 탐구입니다.",
+    "en": "A stunning visual exploration of light passing through glass, revealing the hidden colors of the spectrum through precise refraction."
+  },
+  "prompt": "A high-precision optical glass prism placed on a minimalist white surface, a single beam of pure white light striking the facet, exploding into a vibrant, detailed rainbow spectrum. Intricate caustic light patterns on the background, hyper-realistic, 8k resolution, cinematic lighting, ethereal atmosphere, soft bokeh.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-23T02:04:48.673+09:00"
+}

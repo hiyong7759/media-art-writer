@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-23",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "물질과 허무의 경계가 영원한 보랏빛 파도로 용해되는 우주의 가장 먼 곳으로의 하강.",
+    "en": "A descent into the furthest reaches of the universe where the boundary between matter and nothingness dissolves into an eternal violet tide."
+  },
+  "prompt": "Ultra-detailed cinematic shot of the VOID-3 vessel navigating through a dense, ink-black cosmic abyss, glowing dark violet and teal nebulas in the background, bioluminescent star dust swirling in the vacuum, surreal light refraction, high contrast, 8k resolution, photorealistic, sci-fi concept art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-23T02:04:23.194+09:00"
+}
