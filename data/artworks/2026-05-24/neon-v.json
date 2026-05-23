@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "자외선 동맥",
+    "en": "The Ultraviolet Arteries"
+  },
+  "description": {
+    "ko": "네온 빛의 궤적, 비에 젖은 크롬, 그리고 데이터의 무한한 흐름으로 정의되는 미래 메트로폴리스의 맥동하는 생명력입니다.",
+    "en": "The pulsating life of a futuristic metropolis, defined by neon light trails, rain-slicked chrome, and the infinite flow of data."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Ultraviolet Arteries.' A sprawling cyberpunk megacity where #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta and #00FFFF cyan holographic data streams. A torrential downpour creates ray-traced puddle reflections on wet metallic asphalt. High-speed maglev vehicles leave long #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and a melancholic urban atmosphere. 8k resolution, Unreal Engine 5 render.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-24T01:00:22.608+09:00"
+}

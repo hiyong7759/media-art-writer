@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 가이아의 혈관",
+    "en": "TERRA-1: The Veins of Gaia"
+  },
+  "description": {
+    "ko": "고공에서 바라본 시점으로 바짝 마른 지형과 물의 유동적인 에너지 사이의 극명한 대비를 포착하여 지구의 원초적인 표면을 탐구합니다.",
+    "en": "An exploration of the planet's raw skin, capturing the stark contrast between parched landscapes and the fluid energy of water from a high-altitude perspective."
+  },
+  "prompt": "Ultra-detailed aerial shot of Earth's diverse textures, featuring deep ochre cracked mud, swirling emerald river deltas, and jagged obsidian volcanic rock formations, cinematic lighting, 8k resolution, satellite photography style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-24T01:00:53.844+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "세포질의 표류",
+    "en": "The Cytoplasmic Drift"
+  },
+  "description": {
+    "ko": "에메랄드빛 막을 통해 생체 발광 영양분이 흐르는 미세한 생명력의 세계를 무중력의 진주빛 공간 속에서 탐구합니다.",
+    "en": "A deep dive into the microscopic life-force, where bioluminescent nutrients flow through emerald membranes in a weightless, pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Cytoplasmic Drift.' A microscopic perspective of a rhythmic, breathing network composed of #7FB069 emerald moss-membranes and #2D5A3D forest-green vascular filaments. The structure is suspended in a weightless #E6F2E1 pearlescent liquid atmosphere. Flowing ribbons of #FFE66D golden bioluminescent sap move like viscous liquid silk through semi-permeable cellular walls. Macro photography focus on internal capillary systems and translucent textures. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene organic movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-24T01:00:09.766+09:00"
+}

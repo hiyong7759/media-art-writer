@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 심연 에디션",
+    "en": "AQUA-5: The Deep Abyss Edition"
+  },
+  "description": {
+    "ko": "AQUA-5와 함께 미지의 세계를 탐험하세요. 심해의 거대한 압력을 견디도록 설계된 이 타임피스는 현대적 탐험가를 위한 생체 발광의 선명함과 타의 추종을 불허하는 내구성을 결합했습니다.",
+    "en": "Explore the unexplored with AQUA-5. Designed to withstand the crushing pressure of the deep ocean, this timepiece combines bioluminescent clarity with unparalleled durability for the modern explorer."
+  },
+  "prompt": "A futuristic high-tech dive watch named AQUA-5, submerged in the dark, mysterious depths of the deep ocean. The watch features glowing cyan bioluminescent markers and a sleek titanium frame. Background includes faint silhouettes of giant squids, glowing jellyfish, and thermal vents. Cinematic lighting with god-rays filtering through deep blue water, ultra-realistic, 8k resolution, macro photography style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-24T01:01:02.977+09:00"
+}

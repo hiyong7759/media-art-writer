@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 숲",
+    "en": "The Silicon Grove"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 구조가 만나는 숨막히는 시각화로, 고요한 사이버네틱 생태계 속에서 복잡한 회로와 통합된 빛나는 식물들을 보여줍니다.",
+    "en": "A breathtaking visualization where organic life meets digital architecture, featuring luminous flora integrated with complex circuitry in a serene cybernetic ecosystem."
+  },
+  "prompt": "Hyper-realistic digital nature, a forest of bioluminescent translucent flowers with glowing circuit board patterns on petals, floating data particles, neon fiber-optic roots extending into a shimmering digital lake, cinematic lighting, 8k resolution, ethereal atmosphere, cyber-organic fusion, vibrant teal and magenta accents.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-24T01:00:30.255+09:00"
+}

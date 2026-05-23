@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-24",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 소리의 숨겨진 구조를 포착하여 보이지 않는 주파수를 아름다운 3차원 유체 빛의 구조로 변환하는 고급 시각화 프로젝트입니다.",
+    "en": "ECHO-0 is an advanced visualization project that captures the hidden architecture of sound, transforming invisible frequencies into breathtaking, 3D fluid light structures."
+  },
+  "prompt": "Abstract sound visualization of digital frequencies, holographic pulsating waves, liquid chrome ripples in a dark void, neon cyan and magenta streaks, intricate audio waveforms, cinematic lighting, hyper-realistic, 8k resolution, futuristic interface aesthetics.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-24T01:00:37.909+09:00"
+}
