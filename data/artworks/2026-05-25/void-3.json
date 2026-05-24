@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 별들의 영원한 심연",
+    "en": "VOID-3: Eternal Abyss of the Stars"
+  },
+  "description": {
+    "ko": "고대 블랙홀 주위로 빛이 휘어지고 고요한 성운이 창조의 비밀을 속삭이는 VOID-3 우주의 가장 먼 곳으로 떠나는 여정입니다.",
+    "en": "A journey into the furthest reaches of the VOID-3 universe, where light bends around ancient black holes and silent nebulae whisper the secrets of creation."
+  },
+  "prompt": "Cinematic 8k hyper-realistic visualization of VOID-3, cosmic deep space theme, swirling dark matter, glowing event horizon of a supermassive black hole, vibrant distant nebulae in deep violet and cyan, floating crystalline structures, ethereal atmosphere, volumetric lighting, unreal engine 5 render style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-25T00:59:12.061+09:00"
+}

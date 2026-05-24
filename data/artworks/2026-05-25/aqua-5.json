@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 침묵의 심연",
+    "en": "AQUA-5: The Silent Abyss"
+  },
+  "description": {
+    "ko": "빛조차 닿지 않는 해저의 압도적인 어둠 속에서, 생물 발광의 경이로움이 생명력을 불어넣는 깊은 바다의 미지의 신비를 탐험하세요.",
+    "en": "Explore the untouched mysteries of the deep ocean, where light fades and bioluminescent wonders bring life to the crushing darkness of the seafloor."
+  },
+  "prompt": "Cinematic wide shot of the deep ocean abyss, bioluminescent jellyfish and rare deep-sea creatures glowing in the dark, ancient shipwrecks and mysterious underwater caverns, ethereal turquoise and navy blue lighting, high detail, photorealistic, 8k resolution, atmospheric pressure effects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-25T00:59:29.341+09:00"
+}

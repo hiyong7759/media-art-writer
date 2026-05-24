@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명의 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "ECHO-0는 복잡한 음파를 몰입형 3D 기하학적 패턴으로 변환하여 음향 진동과 디지털 건축 사이의 공생 관계를 탐구하는 실험적인 시청각 시스템입니다.",
+    "en": "ECHO-0 is an experimental audiovisual system that transforms complex sound waves into immersive 3D geometric patterns, exploring the symbiosis between acoustic vibration and digital architecture."
+  },
+  "prompt": "Macro shot of abstract sound wave visualization, glowing neon crystalline structures reacting to deep bass, translucent geometric shards suspended in a dark void, cinematic lighting, 8k resolution, ethereal atmosphere, cybernetic aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-25T00:59:05.203+09:00"
+}

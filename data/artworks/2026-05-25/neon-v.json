@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온-V: 일렉트릭 어비스",
+    "en": "NEON-V: The Electric Abyss"
+  },
+  "description": {
+    "ko": "영원한 네온의 빛이 디지털 지하 세계의 그림자를 가리는 하이테크 대도시로 빠져들어 보세요. 크롬과 빛으로 정의된 미래형 디스토피아에 대한 숨 막히는 비전입니다.",
+    "en": "Immerse yourself in a high-tech metropolis where the glow of eternal neon masks the shadows of a digital underworld. A breathtaking vision of a futuristic dystopia defined by chrome and light."
+  },
+  "prompt": "Cinematic wide shot of a sprawling cyberpunk megacity at night, rain-slicked asphalt reflecting vibrant cyan and magenta neon signs, soaring skyscrapers with holographic advertisements, flying vehicles weaving through dense urban fog, intricate metallic architecture, hyper-realistic, 8k resolution, volumetric lighting, moody atmosphere, NEON-V aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-05-25T00:58:48.870+09:00"
+}

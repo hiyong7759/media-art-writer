@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "쿠로-X: 기하학적 균열",
+    "en": "KURO-X: Geometric Fracture"
+  },
+  "description": {
+    "ko": "날카로운 기하학적 형상과 글리치 아티팩트가 충돌하여 파편화된 미래형 실루엣을 만들어내는 디지털 공허 속 쿠로-X의 시각적 탐구입니다.",
+    "en": "A visual exploration of the KURO-X entity manifesting through a digital void, where sharp geometric shapes and glitch artifacts collide to create a fragmented, futuristic silhouette."
+  },
+  "prompt": "A high-tech mecha entity KURO-X, geometric glitch art style, fragmented polygons, digital distortion, chromatic aberration, neon cyan and magenta light leaks, deep black minimalist background, sharp vector edges, displacement maps, futuristic data corruption aesthetic, 8k resolution, cinematic lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-25T00:58:39.908+09:00"
+}

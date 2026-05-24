@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 지각의 패턴",
+    "en": "TERRA-1: Crustal Patterns"
+  },
+  "description": {
+    "ko": "거시적 위성 렌즈를 통해 지질학적 침식의 가공되지 않은 아름다움과 행성 표면의 자연스러운 기하학적 구조를 강조하며 지구의 물리적 피부를 상세하게 탐구합니다.",
+    "en": "A detailed exploration of the Earth's physical skin, highlighting the raw beauty of geological erosion and the natural geometry of the planet's surface through a macro-satellite lens."
+  },
+  "prompt": "Ultra-high-resolution satellite photography of diverse Earth textures, featuring cracked desert clay, swirling sedimentary rock formations, and the organic patterns of a dried-up delta, cinematic lighting, top-down perspective, 8k resolution, highly detailed geological structures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-25T00:59:20.843+09:00"
+}

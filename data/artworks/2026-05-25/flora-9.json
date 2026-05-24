@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털의 맥박",
+    "en": "FLORA-9: The Digital Pulse"
+  },
+  "description": {
+    "ko": "식물이 첨단 컴퓨팅과 결합하여 자가 지속 가능한 디지털 생태계를 형성하는 포스트 생물학 시대의 자연 진화를 시각적으로 표현한 작품입니다.",
+    "en": "A visual representation of the evolution of nature in a post-biological era, where flora has integrated with advanced computing to create a self-sustaining digital ecosystem."
+  },
+  "prompt": "Hyper-realistic close-up of FLORA-9, a futuristic cybernetic flower with translucent crystalline petals infused with glowing blue circuitry and fiber-optic veins. The core of the flower emits a soft pulsating holographic light. Surrounded by a dark, digital forest atmosphere with floating data bits and neon-lit moss. Cinematic bokeh, 8k resolution, iridescent textures, ethereal lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-25T00:58:56.875+09:00"
+}

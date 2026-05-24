@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-25",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "시상(視床)의 조수",
+    "en": "The Thalamic Tide"
+  },
+  "description": {
+    "ko": "진주빛 공간 속에서 에메랄드빛 막을 통해 흐르는 황금빛 넥타를 묘사한 유기적 생명체의 미시적 탐구.",
+    "en": "A microscopic exploration of organic life, where golden nectar flows through emerald membranes in a pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Thalamic Tide.' A rhythmic, breathing network of #7FB069 emerald moss-membranes and #2D5A3D forest-green vascular filaments pulsating within a #E6F2E1 pearlescent liquid atmosphere. Flowing ribbons of #FFE66D golden bioluminescent nectar move like viscous liquid silk through semi-permeable cellular walls. Macro cinematography focus on the rhythmic pulsation of translucent capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-25T00:58:32.166+09:00"
+}
