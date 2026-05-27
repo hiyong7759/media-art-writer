@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "테라-1: 지질학적 맥락",
+    "en": "TERRA-1: Geological Veins"
+  },
+  "description": {
+    "ko": "수백만 년에 걸친 자연 침식과 광물 퇴적물로 형성된 원초적이고 추상적인 질감에 초점을 맞춘 지구 표면의 시각적 탐구입니다.",
+    "en": "A visual exploration of Earth's complex surface, focusing on the raw and abstract textures formed by millions of years of natural erosion and mineral sedimentation."
+  },
+  "prompt": "Ultra-high-resolution satellite view of natural Earth textures, abstract patterns of cracked salt flats and dried riverbeds, mineral deposits in ochre, turquoise, and deep brown, intricate geological formations, cinematic lighting, 8k resolution, macro-topography style, organic layers and deep crevices.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-28T02:55:28.515+09:00"
+}

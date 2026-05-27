@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 합성의 개화",
+    "en": "FLORA-9: The Synthetic Bloom"
+  },
+  "description": {
+    "ko": "식물학적 우아함과 미래 기술의 매혹적인 융합으로, 빛나는 신경 섬유가 반투명한 꽃잎과 뒤엉켜 디지털 시대 생명의 본질을 재정의합니다.",
+    "en": "A mesmerizing fusion of botanical elegance and futuristic technology, where glowing neural fibers intertwine with translucent petals to redefine the essence of life in a digital age."
+  },
+  "prompt": "Macro photography of FLORA-9, a bioluminescent digital plant, translucent crystalline petals with embedded glowing circuit patterns, neon cyan and violet neural veins, floating binary data particles, hyper-realistic textures, 8k resolution, cinematic lighting, cybernetic garden setting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-28T02:55:05.104+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모놀리식 조각화 해제",
+    "en": "The Monolithic Defragmentation"
+  },
+  "description": {
+    "ko": "흰 공백 속에서 폴리곤 파편으로 산산조각 나는 거대한 흑요석 모놀리스와 강렬한 글리치 아트.",
+    "en": "A massive obsidian monolith shattering into polygonal shards within a white void, featuring heavy glitch art and chromatic aberration."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Monolithic Defragmentation.' A massive #1A1A1A obsidian monolith suspended in a sterile #FFFFFF void, undergoing a violent geometric collapse into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards. The composition is sliced by intense digital glitch artifacts, pixel sorting layers, and extreme RGB chromatic aberration. High-contrast ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical elegance of systematic chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-05-28T02:54:49.719+09:00"
+}

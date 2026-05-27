@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "소리의 공명: ECHO-0",
+    "en": "Sonic Resonances: ECHO-0"
+  },
+  "description": {
+    "ko": "음파가 복잡한 기하학적 패턴과 유동적인 시각적 메아리로 변모하는 과정을 탐구하는 몰입형 디지털 아트 작품입니다.",
+    "en": "An immersive digital art piece exploring the metamorphosis of sound waves into intricate geometric patterns and fluid visual echoes."
+  },
+  "prompt": "A high-tech digital art installation titled ECHO-0, visualizing complex sound waves as 3D holographic structures, fluid neon light trails, and cymatic patterns, dark cinematic atmosphere, pulsating energy spheres, macro perspective, 8k resolution, ethereal lighting, obsidian background",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-28T02:55:12.222+09:00"
+}

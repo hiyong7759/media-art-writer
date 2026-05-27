@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 우주",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "보이드-3 탐사선이 우주의 고요한 심장부로 들어가, 심연의 우주가 가진 압도적인 아름다움과 거대한 규모를 마주하는 여정입니다.",
+    "en": "A journey into the silent heart of the universe where the VOID-3 vessel encounters the overwhelming beauty and terrifying scale of the deep cosmos."
+  },
+  "prompt": "Cinematic wide shot of the VOID-3 explorer ship navigating a surreal cosmic abyss, glowing event horizon of a supermassive black hole in the background, intricate nebulae patterns in deep indigo and violet, stardust particles floating in the foreground, hyper-realistic textures, volumetric lighting, 8k resolution, sci-fi concept art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-28T02:55:20.004+09:00"
+}

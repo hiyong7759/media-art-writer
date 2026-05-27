@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "반사되는 다채로운 스펙트럼",
+    "en": "Chromatic Spectrum"
+  },
+  "description": {
+    "ko": "수정 프리즘을 통과하는 빛이 선명한 기하학적 반사와 함께 활기찬 무지개색 스펙트럼으로 분산되는 추상적인 탐구입니다.",
+    "en": "An abstract exploration of light passing through a crystalline prism, dispersing into a vibrant spectrum of colors with sharp geometric reflections."
+  },
+  "prompt": "A macro cinematic shot of a glass prism on a dark minimalist background, light beam hitting the edge, sharp light refraction, caustic patterns, rainbow dispersion, 8k resolution, ray tracing, translucent textures, prismatic glow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-28T02:55:45.183+09:00"
+}

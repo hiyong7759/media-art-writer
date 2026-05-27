@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-28",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 지평선",
+    "en": "AQUA-5: The Abyssal Horizon"
+  },
+  "description": {
+    "ko": "빛이 사라지고 심해의 압력 속에 고대의 비밀이 깃든 신비로운 바다 깊은 곳을 탐험합니다.",
+    "en": "An exploration into the mysterious depths of the ocean where light fades and ancient secrets dwell within the crushing pressure of the abyss."
+  },
+  "prompt": "AQUA-5 futuristic research vessel submerged in the midnight zone of the deep ocean, glowing cyan bioluminescent accents, surrounding bioluminescent jellyfish and hydrothermal vents, cinematic lighting, 8k resolution, photorealistic, mysterious atmosphere, deep blue and black color palette.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-28T02:55:37.074+09:00"
+}
