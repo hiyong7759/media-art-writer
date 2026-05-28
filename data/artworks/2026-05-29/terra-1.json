@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-29",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 살아있는 피부: 매크로 저니",
+    "en": "Earth's Living Skin: A Macro Journey"
+  },
+  "description": {
+    "ko": "건조한 사막부터 얼어붙은 툰드라에 이르기까지 대자연의 복잡하고 웅장한 패턴을 보여주는 지구 표면의 다양한 질감을 시각적으로 탐구하는 숨막히는 영상입니다.",
+    "en": "A breathtaking visual exploration of Earth's varied surface textures, showcasing the intricate and majestic patterns of nature from arid deserts to frozen tundras."
+  },
+  "prompt": "Macro cinematic aerial shot of diverse Earth textures. The camera glides over cracked desert salt pans, transitioning into lush emerald rainforest canopies, then moving across swirling volcanic basalt formations and jagged arctic ice sheets. High contrast, 8k resolution, intricate geological details, organic patterns, hyper-realistic, natural lighting, slowly evolving terrain.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-29T03:03:02.214+09:00"
+}

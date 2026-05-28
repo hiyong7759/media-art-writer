@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-29",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 수목원",
+    "en": "FLORA-9: The Digital Arboretum"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 코드가 하나의 생태계로 융합된 미래의 비전입니다. FLORA-9은 합성 지능과 자연적 성장의 궁극적인 합성을 나타내며, 빛과 데이터로 구축된 세계에서 번성합니다.",
+    "en": "A vision of a future where organic life and digital code merge into a single ecosystem. FLORA-9 represents the ultimate synthesis of synthetic intelligence and natural growth, flourishing in a world built from light and data."
+  },
+  "prompt": "A high-tech cinematic masterpiece of FLORA-9, a sentient botanical entity within a digital nature landscape. The scene features bioluminescent flowers with fiber-optic petals, leaves etched with glowing circuit board patterns, and emerald vines that pulse with flowing data streams. Neon pollen particles float in the air like pixels. The background is a fusion of a lush rainforest and a holographic grid, shot in 8k resolution with surreal cyber-organic lighting and depth of field.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-29T03:02:02.612+09:00"
+}

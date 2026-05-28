@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-29",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "원형질의 장막",
+    "en": "The Protoplasmic Veil"
+  },
+  "description": {
+    "ko": "생명의 리듬을 미시적으로 탐구한 작품으로, 무중력의 진주빛 공간 속에서 에메랄드빛 세포망을 따라 흐르는 황금빛 생물 발광을 표현했습니다.",
+    "en": "A microscopic exploration of life's rhythm, where golden bioluminescence flows through emerald cellular networks in a weightless, pearlescent void."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Protoplasmic Veil.' A complex, breathing membrane of #7FB069 emerald moss and #2D5A3D dark forest vascular structures floating in a weightless #E6F2E1 pearlescent liquid. Flowing ribbons of #FFE66D golden bioluminescent nectar pulse through semi-permeable cellular walls like liquid electricity. Macro cinematography focus on the rhythmic pulsation of translucent capillary systems and golden sap exchange. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-05-29T03:00:52.683+09:00"
+}

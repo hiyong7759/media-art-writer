@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-29",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명 스펙트럼: ECHO-0",
+    "en": "Resonance Spectrum: ECHO-0"
+  },
+  "description": {
+    "ko": "소리의 파동을 생동감 넘치고 맥동하는 시각적 구조로 변환하여, 다차원 공간에서 소리의 보이지 않는 기하학적 형태와 리듬의 본질을 포착한 디지털 탐구입니다.",
+    "en": "A digital exploration of sonic waves translated into vibrant, pulsating visual architectures, capturing the invisible geometry and rhythmic essence of sound in a multi-dimensional space."
+  },
+  "prompt": "Abstract cinematic 3D sound wave visualization, ECHO-0 signature style, fluid iridescent waveforms undulating in a void, glowing particles reacting to frequency peaks, deep indigo and neon cyan color palette, futuristic data aesthetics, high resolution, 8k, parametric design, sharp focus, ethereal lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-29T03:02:51.261+09:00"
+}
