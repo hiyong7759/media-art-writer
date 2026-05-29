@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-30",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 빛: 영원한 심연",
+    "en": "Abyssal Luminescence: The Eternal Depths"
+  },
+  "description": {
+    "ko": "생체 발광 생명체들이 어둠 속에서 춤추며 잊혀진 시대의 신비로운 유적을 비추는 미드나잇 존의 압도적인 깊이를 탐험하세요.",
+    "en": "Explore the crushing depths of the midnight zone where bioluminescent life forms dance in the dark, illuminating the mysterious ruins of a forgotten era."
+  },
+  "prompt": "Ultra-realistic cinematic shot of the deep ocean floor, bioluminescent jellyfish and strange abyssal fish glowing in neon blue and purple, hydrothermal vents emitting smoke, ancient underwater ruins, dark blue color palette, 8k resolution, high contrast, ethereal lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-30T03:14:05.090+09:00"
+}
