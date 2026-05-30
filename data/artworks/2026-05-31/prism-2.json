@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 굴절",
+    "en": "Spectral Refraction"
+  },
+  "description": {
+    "ko": "고투명 크리스탈 프리즘을 통과하는 백색광이 선명한 무지개색으로 분산되는 찰나를 포착하여 광학 물리학의 섬세한 아름다움을 시각화했습니다.",
+    "en": "A stunning visualization of white light splitting into its constituent colors as it passes through a high-clarity crystal prism, capturing the delicate beauty of optical physics."
+  },
+  "prompt": "A macro photograph of a sharp triangular glass prism placed on a dark reflective surface. A singular beam of white light enters the prism and exits as a vibrant, wide spectral rainbow. High chromatic aberration, sharp focus on the internal light dispersion, caustic lighting patterns, crystalline texture, 8k resolution, cinematic lighting, ethereal atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-05-31T01:03:21.078+09:00"
+}

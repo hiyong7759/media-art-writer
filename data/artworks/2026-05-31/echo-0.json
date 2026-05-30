@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 공명 주파수",
+    "en": "ECHO-0: Resonant Frequencies"
+  },
+  "description": {
+    "ko": "ECHO-0는 보이지 않는 음향 신호를 기하학적 빛과 유동적인 패턴의 매혹적인 움직임으로 변환하여, 청각과 시각 사이의 간극을 메우는 최첨단 시각화 실험 프로젝트입니다.",
+    "en": "ECHO-0 is an advanced visual experiment that translates invisible acoustic signals into a mesmerizing dance of geometric light and fluid patterns, bridging the gap between hearing and seeing."
+  },
+  "prompt": "Abstract digital representation of sound waves, pulsating concentric ripples of neon cyan and violet light in a deep black void, cinematic lighting, futuristic oscilloscope aesthetic, fluid motion, high resolution, 8k, synesthesia visualization",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-05-31T01:02:07.813+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 심연의 도달",
+    "en": "VOID-3: The Abyssal Reach"
+  },
+  "description": {
+    "ko": "물리 법칙이 굴절되고 거대한 우주의 침묵이 실체로 느껴지는 VOID-3 구역의 가장 깊은 곳에 대한 시각적 기록입니다.",
+    "en": "A visual documentation of the VOID-3 sector's deepest reaches, where the laws of physics bend and the vast cosmic silence becomes a tangible presence."
+  },
+  "prompt": "VOID-3 exploration vessel drifting through a monochromatic cosmic abyss, giant structures of dark matter, faint glowing particles of ancient star dust, cinematic wide shot, hyper-realistic textures, deep space atmosphere, eerie silence visualised",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-05-31T01:02:16.734+09:00"
+}

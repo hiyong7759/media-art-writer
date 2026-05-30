@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 질감",
+    "en": "TERRA-1: Earthly Textures"
+  },
+  "description": {
+    "ko": "말라버린 점토, 광물 퇴적물, 토양의 자연스러운 침식으로 형성된 복잡한 패턴에 초점을 맞춘 지구 표면의 고해상도 시각적 탐구 시리즈입니다.",
+    "en": "A high-definition exploration of the Earth's raw surface, focusing on the intricate patterns formed by dried clay, mineral deposits, and the natural erosion of soil."
+  },
+  "prompt": "Ultra-high-resolution macro photography of natural earth textures, featuring deep cracked mud patterns, mineral-rich soil layers, and organic sedimentary details, cinematic natural lighting, 8k resolution, hyper-realistic geological textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-05-31T01:02:45.404+09:00"
+}

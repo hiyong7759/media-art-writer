@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생체 발광의 심해",
+    "en": "The Bioluminescent Abyss"
+  },
+  "description": {
+    "ko": "신비로운 생명체들이 스스로 빛을 내어 어둠을 밝히는 바다의 가장 깊은 곳으로 떠나는 여정입니다.",
+    "en": "A journey into the darkest reaches of the ocean where mysterious creatures light up the void with their own natural glow."
+  },
+  "prompt": "Cinematic wide shot of a deep-sea hydrothermal vent on the ocean floor, bioluminescent jellyfish floating in the dark abyss, neon cyan and violet glowing marine life, floating particles, high-detail textures, 8k resolution, ethereal atmosphere, abyss aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-05-31T01:02:54.417+09:00"
+}

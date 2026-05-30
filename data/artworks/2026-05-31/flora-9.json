@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-31",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 수목원: 가상 숲의 맥동",
+    "en": "Neon Arboretum: Pulse of the Virtual Forest"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 건축의 초현실적 합성으로, 합성 오로라 아래 광섬유 네트워크와 떠다니는 데이터 입자가 통합된 생물 발광 나무를 특징으로 합니다.",
+    "en": "A surreal synthesis of organic life and digital architecture, featuring bioluminescent trees integrated with fiber-optic networks and floating data particles under a synthetic aurora."
+  },
+  "prompt": "A cinematic high-detail shot of a digital nature landscape, FLORA-9 style, glowing translucent crystal flowers with circuit board patterns on petals, fiber optic vines pulsating with blue light, neon-lit moss, ethereal atmosphere, 8k resolution, photorealistic rendering, cybernetic forest aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-05-31T01:01:35.315+09:00"
+}
