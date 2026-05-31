@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "크로마틱 펄스",
+    "en": "The Chromatic Pulse"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 거대 도시 속의 도시적 고독을 활기차게 탐구한 작품입니다.",
+    "en": "A vibrant exploration of urban solitude within a rain-drenched cyberpunk megacity."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Chromatic Pulse.' Towering #1A0033 indigo megastructures reflect off rain-slicked metallic asphalt in a high-tech intersection. A torrential holographic downpour creates #FF00FF magenta and #00FFFF cyan data pixels upon impact with wet surfaces. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails cutting through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced puddle reflections. 8k resolution, the urban romanticism of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-01T01:01:46.839+09:00"
+}

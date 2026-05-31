@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 왕관",
+    "en": "The Abyssal Crown"
+  },
+  "description": {
+    "ko": "암흑 물질과 별빛의 중력적 춤에 초점을 맞춘, 우주적 규모의 장엄한 표현입니다.",
+    "en": "A majestic representation of cosmic scale, focusing on the gravitational dance of dark matter and starlight."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Abyssal Crown.' A massive planetary ring composed of #0D0221 obsidian dark matter and gossamer-thin #7B68EE lavender nebula tendrils. Distant #E6E6FA soft lavender star clusters flicker through thick cosmic dust, creating a lens-warping gravitational lensing effect. Atmosphere of infinite scale and silent majesty, with volumetric lighting and hyper-realistic space photography aesthetic. Capturing the divine and terrifying beauty of the deep universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-01T01:02:03.135+09:00"
+}

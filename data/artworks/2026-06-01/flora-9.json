@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "꽃잎 프로세서",
+    "en": "The Petal Processor"
+  },
+  "description": {
+    "ko": "생물학적 진화와 하드웨어 통합의 섬세한 융합으로, 데이터를 꽃피우는 식물을 시각화했습니다.",
+    "en": "A delicate fusion of biological evolution and hardware integration, visualizing a flower that blooms data."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Petal Processor.' A futuristic botanical form with translucent #FFB6C1 pink petals embedded with #50C878 emerald micro-circuitry and #89CFF0 cyan fiber-optic veins. Rooted in a bed of #4A0E4E deep plum data-soil composed of silicon shards. Shimmering digital pollen floats like glowing pixels in an ethereal atmosphere. Macro photography focus on the intersection of biological growth and hardware integration. Unreal Engine 5 style, bioluminescent glow, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-01T01:01:51.004+09:00"
+}

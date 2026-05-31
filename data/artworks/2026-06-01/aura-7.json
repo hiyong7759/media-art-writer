@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투압의 장막",
+    "en": "The Osmotic Veil"
+  },
+  "description": {
+    "ko": "고요한 유기적 네트워크 내의 세포 교환과 흐르는 생체 발광을 거시적으로 탐구한 작품입니다.",
+    "en": "A macroscopic study of cellular exchange and flowing bioluminescence within a serene organic network."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Veil.' A macro perspective of a pulsating membrane network featuring #7FB069 emerald moss-walls and #2D5A3D forest-green vascular filaments. The structure is submerged in a weightless #E6F2E1 pearlescent liquid atmosphere. Flowing ribbons of #FFE66D golden bioluminescent sap migrate like viscous liquid silk through semi-permeable cellular walls. Focus on the rhythmic expansion and contraction of translucent capillary systems. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene organic life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-01T01:01:38.501+09:00"
+}

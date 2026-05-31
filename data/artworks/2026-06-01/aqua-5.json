@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "열수구의 발레",
+    "en": "The Hydrothermal Ballet"
+  },
+  "description": {
+    "ko": "심해의 고압적인 어둠 속에서 번성하는 생체 발광 생명체에 대한 평화로운 관찰입니다.",
+    "en": "A peaceful observation of bioluminescent life thriving in the high-pressure darkness of the deep sea."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Hydrothermal Ballet.' A swarm of #40E0D0 turquoise bioluminescent jellyfish with long, translucent #48D1CC cyan filaments pulsate around #006994 mineral vents. The #000080 midnight water is thick with shimmering marine snow, while thermal light glows from the abyss. Photorealistic fluid dynamics, high-pressure deep sea atmosphere, 8k resolution, capturing a peaceful dance of transparent life in the midnight zone.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-01T01:02:11.472+09:00"
+}

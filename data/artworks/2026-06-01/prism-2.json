@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "빛의 분산: 프리즘의 조각",
+    "en": "Spectral Fracture"
+  },
+  "description": {
+    "ko": "순백의 빛이 수정 프리즘을 통과하며 본연의 색상으로 분리되는 광학적 물리 현상을 매혹적으로 표현했습니다. 무지갯빛과 기하학적 그림자가 어우러진 아름다운 광경을 담았습니다.",
+    "en": "A mesmerizing display of optical physics where pure white light splits into its fundamental colors through a crystalline prism, creating a dance of rainbows and geometric shadows."
+  },
+  "prompt": "Cinematic macro shot of a geometric glass prism refracting a single beam of white light into a vibrant spectrum of colors, iridescent caustic patterns on a minimalist white surface, ethereal glow, sharp focus, 8k resolution, optical physics art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-01T01:02:19.967+09:00"
+}

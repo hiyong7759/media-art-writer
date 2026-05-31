@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "소리의 주파수를 유동적이고 리드미컬한 시각적 패턴으로 변환하여, 정적의 진공 속에서 오디오 파동과 빛의 교차점을 탐구하는 몰입형 디지털 아트 설치물입니다.",
+    "en": "An immersive digital art installation that translates sonic frequencies into fluid, rhythmic visual patterns, exploring the intersection of audio waves and light in a vacuum of silence."
+  },
+  "prompt": "Cinematic digital art, sound visualization, abstract wave patterns vibrating in a dark void, glowing neon filaments reacting to bass frequencies, fluid motion, high contrast, 8k resolution, ethereal lighting, ECHO-0 aesthetic, parametric design, microscopic sound waves becoming macroscopic architecture.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-01T01:01:58.964+09:00"
+}

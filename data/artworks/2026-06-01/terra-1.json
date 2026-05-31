@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지층의 연대기",
+    "en": "The Strata Chronicle"
+  },
+  "description": {
+    "ko": "암석과 퇴적물에 기록된 역사를 드러내는 지구 지각의 상세한 지형학적 연구입니다.",
+    "en": "A detailed topographical study of Earth's crust, revealing the history written in rock and sediment."
+  },
+  "prompt": "Hyper-realistic top-down satellite photography of TERRA-1, titled 'The Strata Chronicle.' A macro perspective of a deep tectonic rift where #8B4513 sienna and #D2691E ochre sedimentary layers reveal ancient geological narratives. Deep #2F4F4F slate mineral veins cut through the rock like frozen lightning, while sharp #F4A460 sand drifts fill the crevices. Tactile texture showing grain-level detail, cinematic natural lighting with long shadows, 8k resolution, emphasizing the raw power of the earth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-01T01:02:07.302+09:00"
+}

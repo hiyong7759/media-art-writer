@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "운동적 특이점",
+    "en": "The Kinetic Singularity"
+  },
+  "description": {
+    "ko": "단단한 모놀리스가 디지털 글리치 풍경으로 산산조각 나는, 제어된 혼돈과 기하학적 파괴를 다룬 연구입니다.",
+    "en": "A study of controlled chaos and geometric destruction, where a solid monolith shatters into a digital glitch landscape."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Kinetic Singularity.' A monolithic #1A1A1A obsidian sphere suspended in a clinical #FFFFFF void, captured at the exact moment of a controlled geometric fragmentation. The core erupts into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards. Heavy digital glitch artifacts, pixel sorting layers, and sharp RGB chromatic aberration slicing through the composition. High-contrast ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing mathematical chaos in frozen motion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-01T01:01:42.669+09:00"
+}
