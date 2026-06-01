@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 탐사자",
+    "en": "AQUA-5: Abyss Explorer"
+  },
+  "description": {
+    "ko": "극한의 압력을 견디며 생물 발광이 빛나는 미드나잇 존의 깊은 바닷속을 항해하도록 설계된 특수 심해 탐사 유닛입니다.",
+    "en": "A specialized deep-sea exploration unit designed to withstand extreme pressure while navigating the bioluminescent depths of the midnight zone."
+  },
+  "prompt": "A high-tech futuristic submersible robot named AQUA-5, sleek metallic blue and silver carbon fiber plating, glowing cyan bioluminescent LED accents, navigating a dark oceanic abyss, giant glowing translucent jellyfish and hydrothermal vents in the background, floating micro-particles, cinematic underwater lighting, 8k resolution, hyper-realistic, volumetric light rays.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-02T04:54:31.060+09:00"
+}

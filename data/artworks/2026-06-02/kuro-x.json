@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모놀리식 싱귤래리티",
+    "en": "The Monolithic Singularity"
+  },
+  "description": {
+    "ko": "고도로 발달한 디지털 아티팩트와 흑백의 공간 속에서 산산조각 나는 흑요석 모놀리스를 통해 질서와 혼돈을 탐구합니다.",
+    "en": "A stark exploration of order and chaos, featuring a shattering obsidian monolith in a monochrome void with high-tech digital artifacts."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Monolithic Singularity.' A massive #1A1A1A obsidian monolith suspended in a sterile #FFFFFF void, captured at the moment of a controlled geometric fragmentation. The core erupts into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards frozen in time. Heavy digital glitch artifacts, pixel sorting layers, and sharp RGB chromatic aberration slice through the composition. High-contrast ray-traced reflections on shifting obsidian planes. Unreal Engine 5 aesthetic, 8k resolution, capturing mathematical chaos in a state of perfect digital suspension.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-02T04:53:34.352+09:00"
+}

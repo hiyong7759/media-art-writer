@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 조화로운 공명",
+    "en": "ECHO-0: Harmonic Resonance"
+  },
+  "description": {
+    "ko": "ECHO-0는 우주의 고요한 진동을 해석하여 보이지 않는 음파를 빛과 기하학의 숨막히는 향연으로 변화시킵니다. 이 시각적 표현은 청각적 감각과 디지털 예술 사이의 가교를 상징합니다.",
+    "en": "ECHO-0 interprets the silent vibrations of the universe, transforming invisible sound waves into a breathtaking display of light and geometry. This visual representation captures the bridge between auditory sensation and digital art."
+  },
+  "prompt": "A futuristic cyborg named ECHO-0 standing in a dark, minimalist space, visualizing complex audio frequencies. Translucent, glowing holographic sound waves in neon cyan and violet ripple out from its chest plate. The air is filled with floating geometric data points and oscillating waveforms that react to unseen music. Cinematic lighting, hyper-realistic textures, 8k resolution, volumetric atmosphere, sleek chrome and matte black hardware design.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-02T04:54:03.455+09:00"
+}

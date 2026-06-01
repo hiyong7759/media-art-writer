@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "생체 모방의 미로",
+    "en": "The Biomorphic Labyrinth"
+  },
+  "description": {
+    "ko": "에메랄드빛 막과 황금빛 넥타를 통해 빛과 생명이 흐르는 심해 유기적 건축물로, 리듬감 있게 호흡하는 생태계를 표현합니다.",
+    "en": "A deep-sea organic architecture where light and life flow through emerald membranes and golden nectar, creating a rhythmic, breathing ecosystem."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Biomorphic Labyrinth.' A vast, pulsating network of #7FB069 emerald-green mossy membranes and #2D5A3D dark forest-green vascular structures, resembling a living, breathing cathedral. The structure is submerged in a weightless #E6F2E1 pearlescent fluid, with #FFE66D golden bioluminescent nectar flowing through semi-permeable walls like liquid electricity. Macro cinematography focuses on the microscopic vibrations of translucent capillary systems and golden sap exchange. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-02T04:53:30.156+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "수정체 구조론: 지구의 거시적 질감",
+    "en": "Crystalline Tectonics: Earth's Macro Texture"
+  },
+  "description": {
+    "ko": "말라버린 강바닥, 광물 퇴적물, 그리고 요동치는 지각 능선 사이의 복잡한 상호작용을 선명한 대지의 색조와 깊은 음영으로 담아낸 지구 표면의 고해상도 매크로 관점입니다.",
+    "en": "A high-resolution macro perspective of Earth's surface, showcasing the intricate interplay between dried riverbeds, mineral deposits, and shifting tectonic ridges in vibrant earthy tones and deep shadows."
+  },
+  "prompt": "Ultra-high-definition satellite photography of Earth's surface texture, macro view of salt flats and oxidized mineral veins, cracked desert floor meeting turquoise glacial meltwater, intricate topographical details, cinematic lighting, 8k resolution, geological patterns, hyper-realistic, abstract natural art style, top-down perspective.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-02T04:54:22.469+09:00"
+}

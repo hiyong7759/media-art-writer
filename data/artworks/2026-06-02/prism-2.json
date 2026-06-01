@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "크로매틱 프리즘: 굴절의 향연",
+    "en": "Chromatic Prism: The Dance of Refraction"
+  },
+  "description": {
+    "ko": "정교한 유리 프리즘을 통과하는 하얀 빛이 찬란한 무지개 스펙트럼으로 갈라지는 순간을 시각화했습니다. 부드러운 보케와 정밀한 커스틱 빛 패턴이 돋보이는 고해상도 매크로 사진 스타일의 결과물입니다.",
+    "en": "A stunning visualization of white light passing through a complex glass prism, splitting into a vibrant spectrum of colors. This piece captures high-detail macro photography with soft bokeh and intricate caustic light patterns."
+  },
+  "prompt": "A hyper-realistic close-up of a geometric crystal prism positioned on a dark, reflective surface. A single beam of intense white light strikes the facet at a precise angle, refracting into a vivid, glowing rainbow spectrum that fans out across the scene. Detailed dispersion of light, spectral colors, sharp focus on the glass edges, 8k resolution, cinematic lighting, ethereal atmosphere, complex caustic light patterns, ray tracing effects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-02T04:54:39.635+09:00"
+}

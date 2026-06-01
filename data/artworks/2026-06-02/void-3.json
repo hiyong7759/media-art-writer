@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-02",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 특이점: VOID-3",
+    "en": "Abyssal Singularity: VOID-3"
+  },
+  "description": {
+    "ko": "VOID-3는 우주 심연의 마지막 경계를 상징하며, 물리 법칙이 영원하고 고요한 아름다움 속으로 용해되는 지각을 가진 심연입니다.",
+    "en": "VOID-3 represents the final frontier of the cosmic deep, a sentient abyss where the laws of physics dissolve into an eternal, silent beauty."
+  },
+  "prompt": "A cinematic wide-angle shot of VOID-3, an immense sentient singularity manifesting in the deepest reaches of the cosmos. Swirling accretion disks of violet and midnight blue gas, shattered frozen planetoids caught in its gravity, ethereal light escaping the event horizon in long crystalline strands. High-resolution cosmic photography style, hyper-detailed, photorealistic, 8k, volumetric lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-02T04:54:14.099+09:00"
+}
