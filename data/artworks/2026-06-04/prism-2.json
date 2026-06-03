@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 균열",
+    "en": "The Spectral Fracture"
+  },
+  "description": {
+    "ko": "빛의 물리학에 대한 연구로, 단일 광선이 복잡한 유리 프리즘을 통해 선명한 무지개 스펙트럼으로 부서지는 모습을 보여줍니다.",
+    "en": "A study in light physics, showing a single beam of light shattering into a vivid rainbow spectrum through a complex glass prism."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Spectral Fracture.' A complex, multi-faceted geometric crystal sculpture positioned on a dark reflective surface refracts a sharp beam of pure white light into a brilliant, fanned-out spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Intricate #FFFF00 yellow caustic patterns dance across the background. Macro focus on internal light reflections and intense chromatic aberration at the sharp edges of the glass. Minimalist aesthetic, 8k resolution, capturing the pure energy of light dispersion and scientific beauty.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-04T03:42:15.450+09:00"
+}

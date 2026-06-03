@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "실리콘 버드나무",
+    "en": "The Silicon Willow"
+  },
+  "description": {
+    "ko": "유기적 식물학과 하드웨어의 융합으로, 광섬유와 회로가 새겨진 잎으로 이루어진 수양버들을 묘사합니다.",
+    "en": "A fusion of organic botany and hardware, depicting a weeping willow made of fiber optics and circuit-etched leaves."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Silicon Willow.' A futuristic botanical entity featuring weeping branches of #89CFF0 cyan fiber-optic filaments and translucent #FFB6C1 pale pink leaves etched with #50C878 emerald micro-circuitry. The plant is rooted in a bed of #4A0E4E deep plum data-soil composed of crushed silicon shards and glowing hardware components. Shimmering digital pollen floats in the air like glowing pixels in an ethereal atmosphere. Macro photography focus on the intersection of biological growth and technological hardware integration. Unreal Engine 5 style, bioluminescent glow, 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-04T03:41:54.526+09:00"
+}

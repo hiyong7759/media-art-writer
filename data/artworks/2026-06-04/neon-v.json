@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "빗물에 젖은 동맥",
+    "en": "The Rain-Slicked Arteries"
+  },
+  "description": {
+    "ko": "사이버펑크 도시의 내부를 무드 있고 대기감 있게 묘사하며, 젖은 도시 표면에 반사되는 네온 데이터 스트림을 강조합니다.",
+    "en": "A moody, atmospheric view of a cyberpunk city's interior, emphasizing the reflection of neon data streams on wet urban surfaces."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Rain-Slicked Arteries.' A perspective looking down a narrow cyberpunk alleyway where towering #1A0033 indigo skyscrapers are linked by low-hanging sky-bridges pulsing with #FF00FF magenta data streams. A torrential holographic downpour creates #00FFFF cyan pixel-ripples on wet metallic surfaces, reflecting the city's neon soul. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails that cut through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering holographic advertisements, and ray-traced puddle reflections. 8k resolution, capturing the urban romanticism of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-04T03:41:50.341+09:00"
+}

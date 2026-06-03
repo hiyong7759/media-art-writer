@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "조화의 모놀리스",
+    "en": "The Harmonic Monolith"
+  },
+  "description": {
+    "ko": "음파가 물리적인 수정 건축물로 변하는 과정을 통해 보이지 않는 주파수의 공명과 에너지를 시각화합니다.",
+    "en": "Sound waves transformed into physical crystalline architecture, visualizing the resonance and energy of invisible frequencies."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Harmonic Monolith.' A central vibrating geometric core generates complex #4169E1 royal blue frequency waves that solidify into floating crystalline lattices. The surrounding dark void is filled with #32CD32 green kinetic particles and #FFD700 gold light trails reacting to a rhythmic pulse of #FF4500 electric orange energy. Hyper-detailed ray tracing, intricate holographic UI elements reflecting frequency data, and fluid motion blur. 8k resolution, visualizing the physical architecture of sound in a vacuum of silence.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-04T03:41:58.695+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 대성당",
+    "en": "The Abyssal Cathedral"
+  },
+  "description": {
+    "ko": "바다 가장 깊은 곳에서 생물 발광 생명체들이 펼치는 평화로운 춤을 통해 열수구 주변에 빛의 대성당을 형성합니다.",
+    "en": "A peaceful dance of bioluminescent life in the deepest parts of the ocean, creating a cathedral of light around hydrothermal vents."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Abyssal Cathedral.' A massive swarm of #40E0D0 turquoise bioluminescent organisms form a glowing spire around ancient #006994 hydrothermal vents. The #000080 midnight water is thick with shimmering marine snow, while translucent #48D1CC cyan jellyfish-like forms pulsate in rhythmic unison, casting soft light on the dark seabed. Photorealistic fluid dynamics, high-pressure deep sea atmosphere, and volumetric light rays filtering through the abyssal currents. 8k resolution, capturing the peaceful, transparent life of the midnight zone.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-04T03:42:11.252+09:00"
+}

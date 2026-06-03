@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-04",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "엔트로피 매트릭스",
+    "en": "The Entropy Matrix"
+  },
+  "description": {
+    "ko": "견고한 단일 구조체가 기하학적 파편과 글리치 아티팩트의 혼돈스러운 폭풍으로 분해되는 디지털 붕괴의 미학을 연구합니다.",
+    "en": "A study of digital decay where a solid monolith fragments into a chaotic storm of geometric shards and glitch artifacts."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Entropy Matrix.' A monolithic #1A1A1A obsidian cuboid suspended in a clinical #FFFFFF void, undergoing a violent yet controlled geometric dissolution. The structure shatters into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards that transition into pixel-sorted digital dust. High-contrast ray-traced reflections on shifting obsidian planes are intersected by heavy digital glitch artifacts and sharp RGB chromatic aberration. Unreal Engine 5 aesthetic, 8k resolution, capturing the mathematical elegance of systematic data corruption and architectural collapse.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-04T03:41:46.160+09:00"
+}
