@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 결절점",
+    "en": "The Chromatic Nexus"
+  },
+  "description": {
+    "ko": "순수한 빛 에너지에 대한 탐구로, 굴절의 극적인 아름다움과 백색광이 스펙트럼 성분으로 분리되는 과정을 보여줍니다.",
+    "en": "An exploration of pure light energy, showcasing the dramatic beauty of refraction and the separation of white light into its spectral components."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Chromatic Nexus.' A complex, multi-faceted geometric crystal monolith refracts a single concentrated beam of white light into a brilliant, fanned-out spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet. Intricate #FFFF00 yellow caustic patterns are projected onto a dark, matte surface. Macro focus on the internal light reflections and the intense chromatic aberration at the sharp, glass edges. Minimalist aesthetic, 8k resolution, capturing the pure energy and scientific precision of light dispersion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-05T02:41:01.811+09:00"
+}

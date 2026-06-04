@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "주파수 대성당",
+    "en": "The Frequency Cathedral"
+  },
+  "description": {
+    "ko": "음파가 물리적 형태를 갖추는 과정을 시각적으로 표현하여, 진동과 공명을 통해 일시적인 건축적 경이로움을 구축합니다.",
+    "en": "A visual representation of sound waves taking physical form, constructing a temporary architectural marvel through vibration and resonance."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Frequency Cathedral.' A central vibrating core generates complex #4169E1 royal blue waves that transform into architectural crystalline structures. The surrounding dark void is filled with #32CD32 green kinetic frequency bars and #FFD700 gold light filaments that vibrate in response to a deep #FF4500 electric orange pulse. Hyper-detailed ray tracing, intricate holographic UI elements reflecting frequency data, and fluid motion blur on the vibrating edges. 8k resolution, visualizing the physical weight and resonance of sound in a silent vacuum.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-05T02:40:45.044+09:00"
+}

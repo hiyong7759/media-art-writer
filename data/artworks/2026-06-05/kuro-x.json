@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "재귀적 파편화",
+    "en": "The Recursive Defragmentation"
+  },
+  "description": {
+    "ko": "기하학적 질서가 계산된 단색 파편의 디지털 폭발로 붕괴되는 체계적 혼돈에 대한 연구입니다.",
+    "en": "A study of systematic chaos where geometric order collapses into a calculated digital explosion of monochrome fragments."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Recursive Defragmentation.' A massive #1A1A1A obsidian geometric fractal suspended in a sterile #FFFFFF void, undergoing a systematic data collapse. The structure splits into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards that rotate in a complex, mathematical spiral. Heavy digital glitch artifacts, pixel sorting layers, and sharp RGB chromatic aberration slice through the composition at 45-degree angles. High-contrast ray-traced reflections on shifting obsidian planes intersect with scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of architectural entropy.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-05T02:40:32.469+09:00"
+}

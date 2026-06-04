@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "광섬유 숲",
+    "en": "The Fiber-Optic Grove"
+  },
+  "description": {
+    "ko": "식물학과 기술의 정교한 융합을 보여주며, 미세 회로와 데이터가 풍부한 토양이 디지털 생명을 지탱하는 꽃들의 개화를 표현합니다.",
+    "en": "An intricate fusion of botany and technology, where flowers bloom with micro-circuits and data-rich soil supports digital life."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Fiber-Optic Grove.' A futuristic botanical scene featuring a cluster of translucent #FFB6C1 pale pink flowers with petals intricately etched with #50C878 emerald micro-circuitry. Glowing #89CFF0 cyan fiber-optic veins pulse within the stems, which are rooted in a bed of #4A0E4E deep plum data-soil. Shimmering digital pollen particles float in the air like suspended pixels. Macro photography focus on the intersection of biological petal textures and metallic hardware integration. Unreal Engine 5 style, bioluminescent glow, 8k resolution, showcasing the eternal spring of a digital garden.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-05T02:40:40.838+09:00"
+}

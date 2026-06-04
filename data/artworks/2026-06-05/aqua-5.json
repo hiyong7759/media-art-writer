@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "생체 발광 해류",
+    "en": "The Bioluminescent Current"
+  },
+  "description": {
+    "ko": "심해 생명체에 대한 평화로운 관찰을 담았으며, 심해의 압도적인 어둠 속에서 투명한 유기체들이 유일한 빛이 되어줍니다.",
+    "en": "A peaceful observation of life in the deep ocean, where transparent organisms provide the only light in the crushing darkness of the abyss."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Bioluminescent Current.' A massive swarm of #40E0D0 turquoise jellyfish with long, trailing #48D1CC cyan filaments drifts through the #000080 midnight-blue water. In the background, ancient #006994 hydrothermal vents release glowing thermal bubbles and shimmering marine snow. Photorealistic fluid dynamics and volumetric light rays filter through the high-pressure abyssal currents. Focus on the transparent, fragile grace of the deep-sea organisms and the peaceful silence of the trenches. 8k resolution, hyper-realistic underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-05T02:40:57.619+09:00"
+}

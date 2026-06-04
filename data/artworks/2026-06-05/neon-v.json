@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "실리콘 빗줄기",
+    "en": "The Silicon Rainfall"
+  },
+  "description": {
+    "ko": "날씨와 데이터가 융합되어 거대한 사이버펑크 대도시 속에서 반사적이고 낭만적인 분위기를 자아내는 테크 누아르 풍경입니다.",
+    "en": "A sprawling tech-noir landscape where weather and data merge, creating a reflective, romantic atmosphere within a dense cyberpunk metropolis."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Silicon Rainfall.' A perspective looking down a massive cyberpunk thoroughfare where towering #1A0033 indigo skyscrapers are saturated with #FF00FF magenta neon advertisements. A torrential holographic rain creates #00FFFF cyan pixel-ripples on the wet metallic asphalt, reflecting the city's verticality. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails that cut through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced puddle reflections. 8k resolution, capturing the urban romanticism and lonely scale of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-05T02:40:36.659+09:00"
+}

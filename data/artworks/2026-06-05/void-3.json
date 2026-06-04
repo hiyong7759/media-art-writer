@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "void-3",
+  "title": {
+    "ko": "사건의 지평선 베일",
+    "en": "The Event Horizon’s Veil"
+  },
+  "description": {
+    "ko": "심우주의 숭고하고 공포스러운 힘을 묘사하며, 빛과 물질이 우주의 공허 속으로 엮여 들어가는 순간을 포착합니다.",
+    "en": "A depiction of the sublime and terrifying power of the deep universe, capturing the moment light and matter are woven into a cosmic void."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Event Horizon’s Veil.' A massive swirling vortex of #0D0221 obsidian dark matter pulling gossamer-thin #7B68EE lavender nebula tendrils into a central gravitational well. Distant #E6E6FA soft lavender star clusters are distorted by extreme gravitational lensing at the edges of the frame. The core of the singularity emits a faint, haunting #3D1A78 deep purple glow that illuminates the surrounding cosmic dust. Atmosphere of infinite scale and silent majesty, hyper-realistic space photography aesthetic, volumetric lighting, and terrifying cosmic beauty.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-05T02:40:49.253+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "공생하는 박동",
+    "en": "The Symbiotic Pulse"
+  },
+  "description": {
+    "ko": "세포막을 통한 생체 발광 영양분의 유동적 교환을 강조하며 유기적 연결성을 거시적으로 탐구한 작품입니다.",
+    "en": "A macroscopic exploration of organic connectivity, highlighting the fluid exchange of bioluminescent nutrients through cellular membranes."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Symbiotic Pulse.' A macroscopic view of a breathing organic landscape where #7FB069 emerald moss-membranes form a network of soft, pulsating chambers. Inside these chambers, #2D5A3D dark forest-green vascular structures anchor the system. The entire entity is submerged in a #E6F2E1 pearlescent liquid medium, with #FFE66D golden bioluminescent nectar flowing like liquid electricity through semi-permeable cellular walls. Macro cinematography focus on the rhythmic expansion and the glowing exchange of nutrients. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine biological movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-05T02:40:28.281+09:00"
+}

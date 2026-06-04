@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-05",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "퇴적물의 장부",
+    "en": "The Sedimentary Ledger"
+  },
+  "description": {
+    "ko": "지표면에 대한 지형학적 연구로, 층층이 쌓인 암석 형성과 미네랄이 풍부한 질감을 통해 시간의 흐름을 기록합니다.",
+    "en": "A topographic study of the earth's surface, documenting the passage of time through layered rock formations and mineral-rich textures."
+  },
+  "prompt": "Hyper-realistic top-down satellite photography of TERRA-1, titled 'The Sedimentary Ledger.' A macro perspective of a vast canyon floor where #8B4513 sienna and #D2691E ochre rock layers reveal a million-year geological narrative. Deep #2F4F4F slate mineral veins zig-zag through the terrain like frozen lightning, while fine-grained #F4A460 sand drifts accumulate in the crevices. The image features extreme tactile detail, showing the porous nature of the stone and the dry, cracked textures of the earth. Cinematic natural lighting with long, dramatic shadows. 8k resolution, emphasizing the raw, carved beauty of the land.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-05T02:40:53.431+09:00"
+}
