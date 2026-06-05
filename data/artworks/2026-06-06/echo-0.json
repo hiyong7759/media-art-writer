@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 시각적 주파수",
+    "en": "ECHO-0: The Visual Frequency"
+  },
+  "description": {
+    "ko": "ECHO-0가 보이지 않는 음파를 유형의 빛나는 기하학적 구조와 유체 빛 조각으로 변환하는 정교한 청각 데이터의 시각화입니다.",
+    "en": "A sophisticated representation of auditory data where ECHO-0 transforms invisible sound waves into tangible, glowing geometric architectures and fluid light sculptures."
+  },
+  "prompt": "Cinematic 3D render of ECHO-0, a futuristic spherical core visualizing sound waves, intricate kinetic geometry made of liquid chrome and neon filaments, cymatics patterns vibrating in mid-air, deep obsidian background, pulsing turquoise and magenta energy, hyper-realistic, 8k resolution, depth of field, sharp focus on crystalline sound structures.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-06T02:15:27.392+09:00"
+}

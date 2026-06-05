@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 빛의 굴절",
+    "en": "PRISM-2: Light Refraction"
+  },
+  "description": {
+    "ko": "백색광이 크리스탈 프리즘을 통해 찬란한 무지개 스펙트럼으로 변하는 찰나의 순간을 포착한 매혹적인 광학 시각화입니다.",
+    "en": "A mesmerizing visualization of optical physics, capturing the precise moment a white light beam transforms into a brilliant spectrum through a crystal prism."
+  },
+  "prompt": "A high-quality macro shot of a triangular glass prism resting on a sleek, dark reflective surface. A single, concentrated beam of white light enters the prism from the left, undergoing chromatic dispersion to emerge as a vibrant, wide-angled rainbow spectrum on the right. Hyper-realistic details, volumetric lighting, sharp focus on the glass edges, refractive caustics, and subtle dust particles illuminated in the beam, 8k resolution, cinematic atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-06T02:16:16.261+09:00"
+}

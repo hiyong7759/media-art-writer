@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "흑요석의 특이점",
+    "en": "The Obsidian Singularity"
+  },
+  "description": {
+    "ko": "완벽한 흑요석 구조가 수학적인 파편과 디지털 글리치로 산산조각 나는 체계적인 혼돈을 표현합니다.",
+    "en": "A representation of systematic chaos where a perfect obsidian structure shatters into a mathematical array of shards and digital glitches."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Obsidian Singularity.' A massive #1A1A1A matte black geometric monolith suspended in a clinical #FFFFFF void, undergoing a controlled architectural collapse. The structure shatters into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards that float in a state of suspended animation. Heavy digital glitch artifacts, pixel sorting layers, and sharp RGB chromatic aberration slice through the composition at precise angles. High-contrast ray-traced reflections on shifting obsidian planes intersect with digital scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of mathematical chaos.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-06T02:14:46.451+09:00"
+}

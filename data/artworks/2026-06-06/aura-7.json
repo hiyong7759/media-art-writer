@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "삼투압의 평형",
+    "en": "The Osmotic Equilibrium"
+  },
+  "description": {
+    "ko": "생물학적 조화를 매크로 시점으로 탐구하여, 생체 발광 막과 유체 혈관 네트워크를 통한 영양분의 리드미컬한 교환을 포착합니다.",
+    "en": "A macro exploration of biological harmony, capturing the rhythmic exchange of nutrients through bioluminescent membranes and fluid vascular networks."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Osmotic Equilibrium.' A macro perspective of a complex, pulsating cellular network where #7FB069 emerald moss-membranes form semi-permeable chambers. Deep #2D5A3D dark forest vascular structures anchor the entity within a weightless #E6F2E1 pearlescent liquid atmosphere. Swirling ribbons of #FFE66D golden bioluminescent nectar flow through the capillary systems like liquid light. Macro cinematography focus on the rhythmic expansion and the glowing exchange of nutrients. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, serene and divine biological movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-06T02:14:42.247+09:00"
+}

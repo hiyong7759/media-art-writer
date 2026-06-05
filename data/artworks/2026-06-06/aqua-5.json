@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-06",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 파수꾼",
+    "en": "AQUA-5: Abyss Sentinel"
+  },
+  "description": {
+    "ko": "첨단 소나와 내압 장갑을 장착한 AQUA-5는 빛이 닿지 않는 심해층의 미답지 영역을 탐사하며, 희귀한 생물 발광 생명체와 고대 지질 구조를 기록합니다.",
+    "en": "Equipped with advanced sonar and pressure-resistant plating, AQUA-5 explores the uncharted depths of the midnight zone, documenting rare bioluminescent life and ancient geological formations."
+  },
+  "prompt": "A high-tech submersible robot named AQUA-5, sleek hydrodynamic metallic chassis with glowing azure optical sensors, navigating through a dark oceanic trench, bioluminescent flora and floating particles in the background, hydrothermal vents emitting steam, cinematic lighting, ultra-detailed 8k render, sci-fi aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-06T02:15:49.522+09:00"
+}
