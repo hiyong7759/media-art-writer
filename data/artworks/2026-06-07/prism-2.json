@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 미로",
+    "en": "The Refractive Labyrinth"
+  },
+  "description": {
+    "ko": "유리 파편에 의해 갈라진 복잡한 빛의 네트워크가 무질서하면서도 아름다운 스펙트럼 색상의 태피스트리를 만들어냅니다.",
+    "en": "A complex network of light beams split by glass shards, creating a chaotic yet beautiful tapestry of spectral colors."
+  },
+  "prompt": "A high-precision optical render of PRISM-2, titled 'The Refractive Labyrinth.' A cluster of interlocking multi-faceted glass shards refracts a single beam of white light into a complex web of #FF0080 magenta, #00FF80 mint, and #8000FF violet light. The background is a dark matte surface covered in intricate #FFFF00 yellow caustic patterns and rainbow light leaks. Macro focus on the internal glass imperfections and the intense chromatic aberration at the sharp, crystalline edges. Minimalist aesthetic, 8k resolution, capturing the pure energy of light dispersion and geometric precision.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-07T01:04:54.251+09:00"
+}

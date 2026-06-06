@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명하는 파동",
+    "en": "The Resonant Ripple"
+  },
+  "description": {
+    "ko": "어두운 진공 상태에서 깊은 베이스 주파수에 반응하는 액체 크롬의 물리적 파동으로 음파를 시각적으로 포착했습니다.",
+    "en": "A visual capture of sound waves as physical ripples in liquid chrome, reacting to deep bass frequencies in a dark vacuum."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Resonant Ripple.' A central liquid-chrome sphere suspended in a dark obsidian void, vibrating at a low frequency. The vibration generates concentric #4169E1 royal blue ripples that transform into sharp #32CD32 green geometric spikes at peak amplitude. Swirling #FFD700 gold light filaments wrap around the waves, while an underlying #FF4500 electric orange pulse illuminates the floor of the void. Hyper-detailed ray tracing, fluid motion blur on the vibrating edges, and complex cymatic patterns. 8k resolution, visualizing the physical impact of a bass drop in a vacuum.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-07T01:04:37.699+09:00"
+}

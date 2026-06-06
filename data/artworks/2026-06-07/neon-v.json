@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "네온의 동맥",
+    "en": "The Neon Arteries"
+  },
+  "description": {
+    "ko": "운송 라인과 네온 불빛이 복잡하고 살아있는 순환계를 형성하는 미래 도시의 압도적인 조감도입니다.",
+    "en": "A sweeping aerial view of a futuristic city where transit lines and neon lights form a complex, living circulatory system."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Neon Arteries.' An aerial perspective of a sprawling cyberpunk megacity where #1A0033 indigo transit lines flow like veins through the urban sprawl. Thousands of #FF6B35 orange light trails from maglev vehicles create a burning contrast against the #FF00FF magenta and #00FFFF cyan holographic advertisements. A heavy holographic rainstorm creates pixelated ripples on the wet metallic surfaces of skyscrapers. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced reflections in the flooded streets. 8k resolution, capturing the lonely, vertical scale of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-07T01:04:29.402+09:00"
+}

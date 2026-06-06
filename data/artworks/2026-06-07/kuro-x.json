@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "프랙탈 조각 모음",
+    "en": "The Fractal Defragmentation"
+  },
+  "description": {
+    "ko": "디지털 공허 속에서 흑요석 구체가 무한한 기하학적 파편으로 산산조각 나는 카오스의 수학적 표현입니다.",
+    "en": "A mathematical representation of chaos where an obsidian sphere shatters into infinite geometric fragments within a digital void."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Fractal Defragmentation.' A massive #1A1A1A matte black geometric sphere suspended in a clinical #FFFFFF void, undergoing a recursive data collapse. The sphere's surface splits into millions of #808080 and #C0C0C0 micro-cubes that form a complex mathematical spiral. Heavy digital glitch artifacts, horizontal pixel sorting layers, and sharp RGB chromatic aberration slice through the fragments. High-contrast ray-traced reflections on shifting obsidian planes intersect with digital scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of architectural entropy.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-07T01:04:25.206+09:00"
+}

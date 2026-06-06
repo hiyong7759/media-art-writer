@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "데이터 수분",
+    "en": "The Data Pollination"
+  },
+  "description": {
+    "ko": "빛나는 이진 코드 형태의 디지털 꽃가루를 방출하여 자연과 데이터 사이의 간극을 메우는 사이버 유기체 꽃입니다.",
+    "en": "A cyber-organic flower releasing digital pollen in the form of glowing binary code, bridging the gap between nature and data."
+  },
+  "prompt": "A hyper-realistic cinematic 3D render of FLORA-9, titled 'The Data Pollination.' A macro shot of a cybernetic flower with #FFB6C1 pale pink translucent petals etched with #50C878 emerald micro-circuitry. From the stamen, thousands of #89CFF0 cyan glowing binary particles drift into the air like digital pollen. The flower is rooted in #4A0E4E deep plum data-soil with visible fiber-optic roots pulsing with light. Shimmering bokeh effect on the floating data bits. Unreal Engine 5 style, bioluminescent glow, 8k resolution, merging botanical beauty with advanced hardware architecture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-07T01:04:33.546+09:00"
+}

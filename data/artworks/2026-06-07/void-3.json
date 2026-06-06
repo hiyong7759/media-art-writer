@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "void-3",
+  "title": {
+    "ko": "항성의 요람",
+    "en": "The Stellar Nursery"
+  },
+  "description": {
+    "ko": "암흑 물질 소용돌이 속에서 새로운 별이 탄생하는 모습으로, 우주 창조의 격렬하면서도 장엄한 아름다움을 보여줍니다.",
+    "en": "The birth of new stars within a dark matter vortex, showcasing the violent yet majestic beauty of cosmic creation."
+  },
+  "prompt": "A cinematic 8k render of VOID-3, titled 'The Stellar Nursery.' A massive swirling vortex of #0D0221 obsidian dark matter acting as a womb for newborn stars. Inside the #3D1A78 deep purple nebula clouds, bright #E6E6FA lavender star clusters ignite, casting light through #7B68EE violet cosmic dust. Extreme gravitational lensing warps the light of distant galaxies into glowing halos around the central abyss. Atmosphere of infinite scale and silent majesty, hyper-realistic space photography aesthetic, volumetric lighting, and terrifyingly beautiful cosmic creation. 8k resolution.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-07T01:04:41.837+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-07",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 오로라",
+    "en": "The Abyssal Aurora"
+  },
+  "description": {
+    "ko": "신비로운 심해 생명체가 남긴 생체 발광 흔적이 바다의 고요하고 어두운 미드나잇 존을 밝힙니다.",
+    "en": "A bioluminescent trail left by a mysterious deep-sea entity, illuminating the silent and dark midnight zone of the ocean."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Abyssal Aurora.' A long, serpentine bioluminescent creature composed of #40E0D0 turquoise light drifts through the #000080 midnight water, leaving a trail of #48D1CC cyan glowing particles. In the background, #006994 blue hydrothermal vents release shimmering marine snow that catches the creature's light. Photorealistic fluid dynamics and volumetric light rays filter through the high-pressure abyss. Focus on the transparent, ethereal glow of the deep-sea life against the absolute darkness. 8k resolution, hyper-realistic underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-07T01:04:50.111+09:00"
+}
