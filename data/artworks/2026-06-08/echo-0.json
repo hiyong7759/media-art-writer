@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "ECHO-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "음향 주파수를 역동적인 빛의 형태로 시각적 번역하여, 움직이는 음파의 보이지 않는 아름다움을 포착합니다.",
+    "en": "A visual translation of acoustic frequencies into dynamic light forms, capturing the invisible beauty of sound waves in motion."
+  },
+  "prompt": "Abstract 3D sound visualization featuring fluid kinetic sculptures made of light, echoing ripples in a dark crystalline void, neon cerulean and deep magenta color palette, rhythmic pulse patterns, cinematic lighting, 8k resolution, ultra-detailed textures, ECHO-0 futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-08T01:10:54.850+09:00"
+}

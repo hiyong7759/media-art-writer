@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 블룸",
+    "en": "FLORA-9: The Digital Bloom"
+  },
+  "description": {
+    "ko": "유기적 생명과 디지털 코드가 융합된 FLORA-9 프로젝트의 환상적인 표현입니다. 이 작품은 자연이 합성 진화와 빛나는 데이터 기반 생태계를 통해 번성하는 세상을 탐구합니다.",
+    "en": "A visionary representation of the FLORA-9 project, where organic life merges with digital code. This piece explores a world where nature thrives through synthetic evolution and luminous data-driven ecosystems."
+  },
+  "prompt": "A macro cinematic shot of a futuristic FLORA-9 specimen, translucent holographic petals shimmering with iridescent data streams, glowing fiber-optic roots intertwining with organic moss, floating digital particles in the background, bioluminescent neon turquoise and soft magenta lighting, hyper-realistic, 8k resolution, cybernetic botanical garden aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-08T01:10:46.117+09:00"
+}

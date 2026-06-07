@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "TERRA-1: 대지의 질감",
+    "en": "TERRA-1: Earth Texture"
+  },
+  "description": {
+    "ko": "지구의 거친 피부를 정의하는 토양, 암석 형성 및 자연적 침식의 복잡한 세부 사항을 포착하여 우리 행성의 촉각적 본질로 떠나는 몰입형 시각적 여정입니다.",
+    "en": "An immersive visual journey into the tactile essence of our planet, capturing the intricate details of soil, rock formations, and natural erosion that define the Earth's rugged skin."
+  },
+  "prompt": "Cinematic macro shot of Earth's surface texture, detailed geological layers, cracked clay and mineral veins, satellite-inspired abstract topography, erosion patterns, 8k resolution, photorealistic, earth tones with hints of copper and azure.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-08T01:11:07.282+09:00"
+}

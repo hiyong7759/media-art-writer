@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘의 광휘",
+    "en": "Prismatic Radiance"
+  },
+  "description": {
+    "ko": "유리 프리즘을 통과하는 백색광이 선명한 기하학적 굴절 패턴과 함께 찬란한 무지개 빛깔로 분산되는 놀라운 시각적 형상입니다.",
+    "en": "A stunning visualization of white light passing through a glass prism, splitting into a vibrant spectrum of colors with sharp geometric refraction patterns."
+  },
+  "prompt": "A high-resolution cinematic shot of a triangular crystal prism on a dark reflective surface. A single beam of sharp white light enters the prism and exits as a beautiful, dispersed rainbow spectrum. Intricate light refraction, caustic patterns, 8k, hyper-realistic, optical physics, vibrant colors.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-08T01:11:20.477+09:00"
+}
