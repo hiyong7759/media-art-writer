@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "디지털 몬순",
+    "en": "The Digital Monsoon"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 대도시의 항공 부감샷으로, 차가운 금속 구조물과 활기찬 홀로그램 데이터 흐름 사이의 대비를 강조합니다.",
+    "en": "An aerial perspective of a rain-slicked cyberpunk metropolis, highlighting the contrast between cold metallic structures and vibrant holographic data flows."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Digital Monsoon.' A sprawling cyberpunk megacity where #1A0033 indigo skyscrapers are linked by sky-bridges pulsing with #FF00FF magenta data streams. A torrential holographic rain creates #00FFFF cyan pixel-ripples on the wet metallic asphalt, reflecting the city's verticality. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails that cut through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced puddle reflections. 8k resolution, capturing the urban romanticism of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-09T02:49:48.329+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3: 우주의 심연",
+    "en": "VOID-3: Cosmic Deep"
+  },
+  "description": {
+    "ko": "빛과 어둠이 존재의 가장자리에서 춤추는 우주의 깊은 침묵과 무한한 규모를 탐험하는 몰입형 여정입니다.",
+    "en": "An immersive exploration into the profound silence and infinite scale of the cosmos, where light and darkness dance at the edge of existence."
+  },
+  "prompt": "Cinematic wide shot of a cosmic abyss, swirling deep indigo and violet nebulae, shimmering distant star clusters, dark matter filaments, minimalist abstract composition, ethereal glow, hyper-realistic textures, 8k resolution, serene atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-09T02:50:16.659+09:00"
+}

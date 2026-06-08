@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 수호자: AQUA-5",
+    "en": "Abyssal Guardian: AQUA-5"
+  },
+  "description": {
+    "ko": "AQUA-5는 극한의 수압을 견디도록 제작된 특수 탐사 유닛으로, 고요한 심해를 항해하며 자체 생체 발광 코어로 어둠을 밝힙니다.",
+    "en": "AQUA-5 is a specialized exploration unit built to withstand extreme oceanic pressures, illuminated by its own internal bioluminescent power core as it navigates the silent depths."
+  },
+  "prompt": "A highly advanced robotic entity named AQUA-5 with sleek translucent plating and glowing cyan bioluminescent circuitry, floating in the dark deep ocean at the midnight zone, surrounded by glowing jellyfish and hydrothermal vents, hyper-realistic, cinematic lighting, 8k resolution, underwater photography style.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-09T02:50:38.662+09:00"
+}

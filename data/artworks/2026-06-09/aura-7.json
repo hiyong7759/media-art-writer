@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛나는 유체 리듬",
+    "en": "Luminous Liquid Rhythms"
+  },
+  "description": {
+    "ko": "AURA-7의 핵심 에너지를 매혹적으로 시각화한 것으로, 끝없는 유기적 춤 속에서 서로 얽히는 유동적이고 생물 발광적인 흐름을 묘사합니다. 이 움직임은 기술과 자연 사이의 매끄러운 시너지를 나타냅니다.",
+    "en": "A mesmerizing visualization of AURA-7's core energy, depicting fluid, bioluminescent streams that intertwine in an endless organic dance. The motion represents the seamless synergy between technology and nature."
+  },
+  "prompt": "Aura-7 cinematic visualization, organic flow, liquid light, bioluminescent glowing particles, flowing curves, iridescent textures, 8k resolution, ethereal atmosphere, abstract digital art, procedural waves, soft lighting, depth of field",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-09T02:49:39.930+09:00"
+}

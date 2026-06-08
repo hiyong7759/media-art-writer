@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "천상의 지형",
+    "en": "Ethereal Topography"
+  },
+  "description": {
+    "ko": "복잡한 토양 패턴, 마른 강바닥, 풍화된 광물 퇴적물을 특징으로 하는 지구의 자연적 질감에 대한 고해상도 탐구입니다.",
+    "en": "A high-resolution exploration of the Earth's natural textures, featuring intricate soil patterns, dried riverbeds, and weathered mineral deposits."
+  },
+  "prompt": "A macro cinematic shot of Earth's surface texture, showcasing deep geological fissures, layered sedimentary rocks, and fine crystalline sand. Rich earthy tones of ochre, sienna, and slate grey. High contrast lighting highlighting the rugged relief and organic patterns, 8k resolution, photorealistic, hyper-detailed.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-09T02:50:25.466+09:00"
+}

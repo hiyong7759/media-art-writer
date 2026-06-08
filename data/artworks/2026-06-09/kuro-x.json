@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "복셀 조각화",
+    "en": "The Voxel Defragmentation"
+  },
+  "description": {
+    "ko": "데이터 손상의 브루탈리즘적 표현으로, 완벽한 흑요석 구체가 혼란스럽지만 수학적으로 정밀한 기하학적 폭발로 산산조각 나는 모습을 담았습니다.",
+    "en": "A brutalist representation of data corruption, where a perfect obsidian sphere shatters into a chaotic yet mathematically precise geometric explosion."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Voxel Defragmentation.' A massive #1A1A1A obsidian sphere suspended in a sterile #FFFFFF void, undergoing a controlled geometric collapse into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards. The composition is sliced by intense digital glitch artifacts, horizontal pixel sorting layers, and sharp RGB chromatic aberration. High-contrast ray-traced reflections on shifting obsidian planes intersect with digital scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of systematic data corruption.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-09T02:49:44.136+09:00"
+}

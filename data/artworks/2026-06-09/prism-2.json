@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-09",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프리즘 굴절: 빛의 구조",
+    "en": "Prismatic Refraction: The Architecture of Light"
+  },
+  "description": {
+    "ko": "PRISM-2 미학에서 영감을 받은 이 테마는 백색광이 기하학적 유리를 통해 고유한 색상으로 분해되는 순간을 포착하여 명확성과 다면적인 시각을 상징합니다.",
+    "en": "Inspired by the PRISM-2 aesthetic, this theme captures the moment white light breaks into its constituent colors through geometric glass, symbolizing clarity and multifaceted perspectives."
+  },
+  "prompt": "A high-end macro photography shot of a triangular glass prism refracting a single beam of light into a brilliant, multi-layered rainbow spectrum. The background is a clean, neutral gray with subtle caustic light patterns. Sharp focus on the glass edges, realistic chromatic aberration, cinematic lighting, 8k resolution, hyper-detailed textures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "bright",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-09T02:50:48.007+09:00"
+}
