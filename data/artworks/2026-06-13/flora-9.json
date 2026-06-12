@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "FLORA-9: 디지털 진화",
+    "en": "FLORA-9: Digital Evolution"
+  },
+  "description": {
+    "ko": "FLORA-9은 사이버네틱 통합을 통해 강화된 생물학적 유기체로, 디지털 자연의 정점을 상징합니다. 이는 유기적 생명체와 합성 기술 사이의 경계를 허물며 빛과 데이터 모두를 양분 삼아 번성합니다.",
+    "en": "FLORA-9 represents the pinnacle of digital nature, a biological organism enhanced by cybernetic integration. It blurs the line between organic life and synthetic technology, thriving on both light and data."
+  },
+  "prompt": "Cinematic macro photography of the FLORA-9 specimen, a hybrid digital plant. The flower features iridescent crystalline petals with integrated micro-circuitry glowing in soft neon azure. Its stem is made of polished carbon fiber with liquid data flowing through transparent veins. Hovering in a high-tech laboratory terrarium with floating holographic particles and soft bokeh lighting. 8k resolution, photorealistic, futuristic aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-13T02:36:20.966+09:00"
+}

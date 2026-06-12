@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채의 향연: 굴절의 예술",
+    "en": "Chromatic Splendor: The Art of Refraction"
+  },
+  "description": {
+    "ko": "기하학적 유리 구조를 통과하는 빛을 시각적으로 탐구하며, 백색광이 근본적인 색상으로 분리되는 순간을 포착합니다. 이 작품은 투명함과 생생한 스펙트럼 분산 사이의 섬세한 균형을 강조합니다.",
+    "en": "A stunning visual exploration of light passing through a geometric glass structure, capturing the moment white light splits into its fundamental colors. This piece highlights the delicate balance between clarity and vibrant spectral dispersion."
+  },
+  "prompt": "A high-quality macro shot of a complex glass prism, a beam of pure white light hitting the edge, dispersing into a vibrant spectrum of colors, sharp focus, volumetric lighting, iridescent glows, 8k resolution, cinematic composition.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-13T02:37:21.544+09:00"
+}

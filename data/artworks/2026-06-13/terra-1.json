@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "대지의 맥박",
+    "en": "The Pulse of the Earth"
+  },
+  "description": {
+    "ko": "햇빛에 갈라진 진흙의 복잡한 질감과 그 사이로 돋아난 강인한 이끼, 광물맥을 포착한 고해상도 매크로 샷으로, 지구 지각의 원초적인 아름다움과 생명력을 상징합니다.",
+    "en": "A high-definition macro shot capturing the intricate textures of sun-cracked clay intertwined with resilient sprouts of moss and mineral veins, symbolizing the raw beauty and vitality of the terrestrial crust."
+  },
+  "prompt": "Macro photography of earth texture, intricate cracked dry clay patterns transitioning into lush green moss and crystalline mineral deposits, cinematic lighting, 8k resolution, organic patterns, earthy tones with vibrant emerald highlights.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-13T02:36:56.350+09:00"
+}

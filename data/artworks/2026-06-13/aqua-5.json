@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심해의 개척자",
+    "en": "AQUA-5: Abyssal Frontier"
+  },
+  "description": {
+    "ko": "AQUA-5는 지구에서 가장 깊은 해구 속에 숨겨진 비밀을 밝혀내기 위해 심해의 압도적인 수압을 견딜 수 있도록 설계된 최첨단 탐사 장치입니다.",
+    "en": "AQUA-5 is a state-of-the-art exploration unit designed to withstand the crushing pressures of the deep ocean, uncovering the secrets hidden within the Earth's darkest trenches."
+  },
+  "prompt": "Cinematic shot of AQUA-5, a futuristic bioluminescent deep-sea research submersible, navigating through the Hadal zone. Surrounded by glowing crystalline formations and rare abyssal fauna, dark navy and neon cyan lighting, 8k resolution, photorealistic, hyper-detailed mechanical parts, volumetric underwater lighting.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-13T02:37:09.665+09:00"
+}

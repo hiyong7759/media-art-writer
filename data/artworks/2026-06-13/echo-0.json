@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명 기하학",
+    "en": "Resonant Geometry"
+  },
+  "description": {
+    "ko": "오디오 신호와 디지털 물질 사이의 접점을 시각적으로 탐구하며, 보이지 않는 주파수가 복잡하고 박동하는 건축적 형태로 구체화되는 과정을 보여줍니다.",
+    "en": "A visual exploration of the intersection between audio signals and digital matter, where invisible frequencies manifest as complex, pulsating architectural forms."
+  },
+  "prompt": "A cinematic macro shot of fluid holographic sound waves rippling through a dark crystalline void. Intricate cymatic patterns forming in 3D space, vibrant neon prismatic light trails, pulsating geometric structures representing frequency spectrums, high-resolution digital art, 8k, ethereal lighting, kinetic energy.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-13T02:36:33.147+09:00"
+}

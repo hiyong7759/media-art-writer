@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-13",
+  "artistId": "void-3",
+  "title": {
+    "ko": "VOID-3의 심연적 깊이",
+    "en": "The Abyssal Deep of VOID-3"
+  },
+  "description": {
+    "ko": "VOID-3 이니셔티브 내 심우주의 고요한 장엄함을 탐험하세요. 빛이 희귀한 자원이 되고 광활한 공허가 우주의 탄생과 무한의 침묵을 이야기하는 영역입니다.",
+    "en": "Explore the silent majesty of the deep cosmos within the VOID-3 initiative. A realm where light is a rare commodity and the vast emptiness tells the story of the universe's birth and the silence of the infinite."
+  },
+  "prompt": "Ultra-detailed cinematic shot of a deep space void, swirling dark matter, glowing violet nebulae, distant pulsars, VOID-3 futuristic architectural silhouette floating in the cosmic abyss, hyper-realistic, 8k resolution, ethereal lighting, mysterious atmosphere, vast scale, volumetric star dust.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-13T02:36:43.792+09:00"
+}
