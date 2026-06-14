@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "흑요석 지층",
+    "en": "The Obsidian Stratum"
+  },
+  "description": {
+    "ko": "수백만 년의 지질학적 압력과 환경적 침식을 정교하게 보여주는 대지의 지형적 서사입니다.",
+    "en": "A topographical narrative of the land, showcasing millions of years of geological pressure and environmental erosion in high detail."
+  },
+  "prompt": "Hyper-realistic top-down satellite photography of TERRA-1, titled 'The Obsidian Stratum.' A macro perspective of a high-altitude plateau where layers of #8B4513 sienna and #D2691E ochre rock have been carved by ancient winds. Deep #2F4F4F slate mineral veins create high-contrast grid patterns across the terrain, while #F4A460 fine sand drifts accumulate in the tectonic cracks. Extreme tactile detail showing individual granules of stone and weathered mineral deposits. Cinematic natural lighting with harsh shadows. 8k resolution, emphasizing the earth as a living record of time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-15T01:19:57.563+09:00"
+}

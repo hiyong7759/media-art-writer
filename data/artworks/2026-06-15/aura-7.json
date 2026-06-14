@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "세포질의 오로라",
+    "en": "The Cytoplasmic Aurora"
+  },
+  "description": {
+    "ko": "생명의 내면적 호흡에 대한 거시적 탐구로, 에메랄드빛 공간 속에서 황금빛 수액이 무중력의 우아함으로 흐르는 모습을 담았습니다.",
+    "en": "A macroscopic study of life's internal breath, where golden sap flows through emerald chambers in a state of weightless grace."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Cytoplasmic Aurora.' A macro perspective of a massive, pulsating organic network where #7FB069 emerald moss-membranes form intricate chambers filled with #E6F2E1 pearlescent liquid. Flowing through the center are thick #2D5A3D dark forest-green vascular filaments that exhale swirling #FFE66D golden bioluminescent nectar. The nectar moves like viscous liquid mercury, creating glowing eddies that illuminate the translucent cell walls. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing a divine state of biological respiration.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-15T01:19:20.661+09:00"
+}

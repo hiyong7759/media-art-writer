@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이드-3: 심연의 경계",
+    "en": "VOID-3: The Abyssal Reach"
+  },
+  "description": {
+    "ko": "시간과 빛이 우주 심연의 절대적인 침묵 속으로 녹아드는 우주의 가장 먼 곳을 탐사하며, 그곳을 지키는 침묵의 감시자 보이드-3의 모습을 담았습니다.",
+    "en": "An exploration of the furthest reaches of space where time and light dissolve into the absolute silence of the cosmic deep, featuring the silent sentinel VOID-3."
+  },
+  "prompt": "Cinematic wide shot of VOID-3, a monolithic obsidian vessel drifting through the cosmic deep, surrounded by swirling dark matter and distant nebulae in shades of deep indigo and violet, ethereal starlight refracting through crystalline structures, ultra-detailed, 8k resolution, photorealistic, mysterious atmosphere, cold aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-15T01:19:53.399+09:00"
+}

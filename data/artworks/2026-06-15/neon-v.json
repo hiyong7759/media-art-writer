@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "실리콘 몬순",
+    "en": "The Silicon Monsoon"
+  },
+  "description": {
+    "ko": "데이터와 빗줄기가 색채의 교향곡으로 어우러지는 홀로그램 폭풍 속 미래 대도시의 고독하고 수직적인 풍경입니다.",
+    "en": "A lonely, vertical perspective of a futuristic metropolis during a holographic storm, where data and rain merge into a chromatic symphony."
+  },
+  "prompt": "A cinematic wide shot of NEON-V, titled 'The Silicon Monsoon.' A panoramic view of a sprawling cyberpunk megacity where towering #1A0033 indigo skyscrapers are saturated with #FF00FF magenta holographic advertisements. A torrential digital rain creates #00FFFF cyan pixelated ripples on wet metallic asphalt, reflecting the city's vertical scale. High-speed maglev vehicles leave long, vibrant #FF6B35 orange light trails that cut through dense, smoky volumetric fog. Hyper-detailed tech-noir textures, flickering lens flares, and ray-traced puddle reflections. 8k resolution, capturing the urban romanticism of a neon-soaked future.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-15T01:19:29.013+09:00"
+}

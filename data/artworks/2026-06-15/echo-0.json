@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "공명하는 격자",
+    "en": "The Resonant Lattice"
+  },
+  "description": {
+    "ko": "보이지 않는 오디오 주파수를 빛과 액체 금속의 물리적 구조로 변환하여 복잡한 공명을 시각화했습니다.",
+    "en": "A visual manifestation of complex frequencies, turning invisible audio into a physical structure of light and liquid metal."
+  },
+  "prompt": "A cinematic 3D sound visualization of ECHO-0, titled 'The Resonant Lattice.' A central vibrating liquid-chrome core suspended in a dark obsidian void. The vibration generates concentric #4169E1 royal blue ripples that solidify into sharp #32CD32 green geometric spikes at peak amplitude. Swirling #FFD700 gold light filaments wrap around the waves like violin strings, while an underlying #FF4500 electric orange pulse illuminates the atmospheric fog. Hyper-detailed ray tracing, fluid motion blur on the vibrating edges, and complex cymatic patterns. 8k resolution, visualizing the physical architecture of sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-15T01:19:44.802+09:00"
+}

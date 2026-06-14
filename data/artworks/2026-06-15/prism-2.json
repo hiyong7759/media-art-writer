@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 굴절된 스펙트럼",
+    "en": "PRISM-2: Refracted Spectrum"
+  },
+  "description": {
+    "ko": "기하학적 유리 매질을 통해 순수한 백색광이 선명한 색의 스펙트럼으로 변하는 순간을 포착한 시각적 탐구로, 명확함과 숨겨진 깊이를 상징합니다.",
+    "en": "A visual study of light refraction, capturing the moment pure white light transforms into a vibrant color spectrum through a geometric glass medium, representing clarity and hidden depth."
+  },
+  "prompt": "High-resolution macro photography of a triangular crystal prism positioned on a dark reflective surface. A singular beam of intense white light hits the glass, refracting into a vivid, sharp-edged rainbow spectrum across the frame. Caustic light patterns, ethereal bokeh, chromatic aberration effects, 8k resolution, cinematic lighting, sharp focus on the internal light paths.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-15T01:20:10.668+09:00"
+}

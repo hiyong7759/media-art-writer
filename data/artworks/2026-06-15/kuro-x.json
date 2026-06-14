@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "복셀 단편화",
+    "en": "The Voxel Defragmentation"
+  },
+  "description": {
+    "ko": "디지털 글리치와 기하학적 파편화를 통해 질서와 혼돈이 충돌하는 건축적 붕괴의 순간을 포착했습니다.",
+    "en": "A frozen moment of architectural collapse where order and chaos collide through digital glitch and geometric fragmentation."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Voxel Defragmentation.' A massive #1A1A1A obsidian cube suspended in a sterile #FFFFFF void, undergoing a systematic geometric dissolution. The structure is being sliced by horizontal pixel-sorting layers and sharp RGB chromatic aberration, causing thousands of #808080 and #C0C0C0 razor-sharp polygonal shards to break away in a mathematical spiral. High-contrast ray-traced reflections on shifting obsidian planes intersect with digital scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of systematic data corruption.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-15T01:19:24.841+09:00"
+}

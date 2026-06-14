@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플로라-9: 디지털 자연의 합성",
+    "en": "FLORA-9: Digital Nature Synthesis"
+  },
+  "description": {
+    "ko": "유기적 식물학과 디지털 건축이 만나는 플로라-9의 개념적 비전으로, 광합성 회로를 통해 흐르는 생체 발광 데이터 스트림이 특징입니다.",
+    "en": "A conceptual vision of FLORA-9, where organic botany meets digital architecture, featuring bioluminescent data streams flowing through photosynthetic circuits."
+  },
+  "prompt": "Hyper-realistic macro shot of FLORA-9, a cybernetic flower with iridescent translucent petals made of liquid crystal, glowing fiber-optic stamens emitting neon blue particles, digital glitch effects around the edges, integrated circuit patterns on the leaves, dark futuristic laboratory background, cinematic lighting, 8k resolution, digital nature aesthetic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-15T01:19:40.624+09:00"
+}

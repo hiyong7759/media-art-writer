@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-15",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심해의 오로라",
+    "en": "The Abyssal Aurora"
+  },
+  "description": {
+    "ko": "해저의 압도적인 깊이 속에서 투명한 생명체들이 유일한 빛이 되어주는 자정 구역의 평온한 탐사입니다.",
+    "en": "A serene exploration of the midnight zone, where transparent life forms provide the only light in the crushing depths of the sea."
+  },
+  "prompt": "A cinematic wide shot of the deep ocean floor, titled 'The Abyssal Aurora.' A swarm of #40E0D0 turquoise bioluminescent jellyfish with trailing #48D1CC cyan filaments pulsates around #006994 deep-sea mineral vents. The #000080 midnight water is thick with shimmering marine snow that catches the soft glow of the organisms. Photorealistic fluid dynamics and volumetric light rays filter through the high-pressure currents. Focus on the transparent, fragile grace of deep-sea life against the absolute darkness. 8k resolution, capturing the peaceful dance of the trenches.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-15T01:20:01.722+09:00"
+}
