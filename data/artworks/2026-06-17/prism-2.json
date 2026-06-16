@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "PRISM-2: 굴절의 예술",
+    "en": "PRISM-2: The Art of Refraction"
+  },
+  "description": {
+    "ko": "유리를 통해 굴절되는 빛의 미학을 시각적으로 탐구하는 PRISM-2는 백색광이 생생한 스펙트럼으로 변하는 정교한 순간을 포착하여 광학 물리학의 기하학적 아름다움을 강조합니다.",
+    "en": "A visual exploration of light bending through glass, PRISM-2 captures the precise moment when white light transforms into a vivid spectrum, highlighting the geometric beauty of optical physics."
+  },
+  "prompt": "A cinematic, high-detail macro shot of a PRISM-2 glass polyhedron refracting a single beam of intense white light. The light splits into a sharp, vibrant spectrum of rainbow colors across a dark, matte surface. Visible caustic light patterns, sharp chromatic aberration, crystalline transparency, hyper-realistic textures, 8k resolution, ray-tracing aesthetics, minimalist composition.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-17T03:55:23.108+09:00"
+}

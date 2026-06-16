@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "AQUA-5: 심연의 침묵",
+    "en": "AQUA-5: Abyssal Silence"
+  },
+  "description": {
+    "ko": "고요한 고압의 세계, 심해의 영원한 어둠 속에서 생물 발광 생명체들이 신비롭게 빛나는 바다의 가장 깊은 곳을 탐험해 보세요.",
+    "en": "Explore the mysterious depths of the deep ocean, where bioluminescent creatures illuminate the eternal darkness of the sea floor in a silent, high-pressure world."
+  },
+  "prompt": "Cinematic wide shot of a deep ocean abyss, AQUA-5 style, glowing bioluminescent jellyfish and rare deep-sea flora, dark turquoise and midnight blue tones, high pressure underwater atmosphere, particles of marine snow, hyper-realistic, 8k resolution, ethereal lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-17T03:55:14.023+09:00"
+}

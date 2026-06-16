@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 블룸: 디지털 생태계",
+    "en": "Neon Bloom: The Digital Ecosystem"
+  },
+  "description": {
+    "ko": "유기적인 식물과 사이버네틱 회로가 결합된 숨 막히는 광경으로, 가상 숲속에서 데이터 기반의 에너지를 뿜어내는 발광 식물들을 묘사합니다.",
+    "en": "A breathtaking fusion of organic flora and cybernetic circuitry, where luminous plants pulse with data-driven energy in a virtual forest."
+  },
+  "prompt": "A hyper-realistic macro shot of a bioluminescent flower with translucent petals revealing glowing fiber-optic veins, set in a dense digital jungle of circuit-board ferns and holographic moss, 8k resolution, cinematic lighting, neon teal and electric purple color palette, cybernetic nature aesthetic, intricate details.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-17T03:54:38.424+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 특이점",
+    "en": "The Abyssal Singularity"
+  },
+  "description": {
+    "ko": "고대 우주 먼지에 둘러싸인 거대하고 빛나는 특이점 근처에서 빛이 휘어지고 시간이 느려지는 우주의 가장 먼 곳으로 떠나는 여정입니다.",
+    "en": "A journey into the furthest reaches of the universe where light bends and time slows near a massive, glowing singularity surrounded by ancient cosmic dust."
+  },
+  "prompt": "VOID-3 aesthetic, cosmic deep, cinematic lighting, hyper-realistic, super-massive black hole with a vibrant glowing accretion disk, swirling purple and gold nebulae, deep space void, 8k resolution, volumetric lighting, stars flickering in the extreme distance, obsidian darkness, ethereal and haunting atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-17T03:54:55.293+09:00"
+}

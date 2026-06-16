@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "원시의 지형: 지구의 유기적인 피부",
+    "en": "Primordial Topography: Earth's Organic Skin"
+  },
+  "description": {
+    "ko": "지표면의 건조한 지질학적 형성과 풍부한 광물 퇴적물 사이의 자연스러운 대비를 보여주는 항공 시점의 정교한 시각적 탐구입니다.",
+    "en": "A detailed visual exploration of the Earth's surface from an aerial perspective, showcasing the natural contrast between dry geological formations and rich mineral deposits."
+  },
+  "prompt": "Top-down satellite view of intricate earth textures, featuring deep tectonic cracks, swirling patterns of golden sand dunes, and patches of oxidised red clay. High-resolution geological survey style, macro photography of soil layers, vibrant mineral veins running through dry mud, cinematic lighting highlighting every ridge and valley, 8k resolution, photorealistic organic detail.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-17T03:55:05.416+09:00"
+}

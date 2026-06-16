@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-17",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "에코-0: 소리의 공명",
+    "en": "ECHO-0: Sonic Resonance"
+  },
+  "description": {
+    "ko": "소리의 주파수가 빛나는 기하학적 파동과 역동적인 빛 입자로 변환되는 ECHO-0 시스템을 시각화하여, 소리의 보이지 않는 힘을 보여줍니다.",
+    "en": "A visual representation of the ECHO-0 system, where sound frequencies are transformed into luminous geometric waves and kinetic light particles, illustrating the invisible power of acoustics."
+  },
+  "prompt": "Cinematic visualization of sound waves, ECHO-0 core unit emitting pulsating concentric rings of light, ethereal cyan and deep violet spectrum, fluid motion of sonic particles, frequency spectrum landscape, architectural acoustics, hyper-detailed digital art, 8k resolution, glowing neon nodes, abstract resonance patterns.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-17T03:54:47.361+09:00"
+}
