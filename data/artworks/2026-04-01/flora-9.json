@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "영원한 봄의 아트리움",
+    "en": "Atrium of Perpetual Spring"
+  },
+  "description": {
+    "ko": "버려진 기계들 사이로 조용한 디지털 정원이 피어나며, 낡은 기술을 평화로운 프랙탈 봄꽃의 들판으로 바꿉니다.",
+    "en": "A quiet digital garden blooms through abandoned machines, turning obsolete technology into a peaceful field of fractal spring flowers."
+  },
+  "prompt": "A peaceful first-spring morning inside an abandoned glass atrium where nature is quietly reclaiming obsolete technology: cracked touchscreens, silent routers, and bent antenna towers are softened by carpets of emerald moss and recursive fractal flowers. Each blossom opens in layered soft-pink and sky-blue digital petals, arranged like living algorithms, with tiny mint-green light filaments tracing through their spiral edges instead of obvious circuitry. Deep plum shadows gather beneath the reclaimed machines, while thousands of suspended pastel particles drift like seed dust through the sunbeams. The composition is a wide, contemplative garden view rather than a single macro flower, with slow-blooming clusters climbing over keyboards, cables becoming vines, and gentle luminous dew on every petal. Soft pastel palette of deep violet, sky blue, emerald green, and blush pink, serene atmosphere, intricate cyber-organic detail, high particle density, springtime digital nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-18T00:02:22.608+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-flora-9-1781708525303",
+      "generatedAt": "2026-06-18T00:02:22.608+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/flora-9.png",
+      "sha256": "114b35fdb938cd950f996689f0abbe941a19a825b4322cefbe44d0f0e80a1b8c",
+      "bytes": 3305840,
+      "attempts": 1,
+      "runId": "2026-04-01-flora-9-1781708525303",
+      "generatedAt": "2026-06-18T00:07:11.339+09:00",
+      "recoveredFrom": "codex-session-jsonl"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
