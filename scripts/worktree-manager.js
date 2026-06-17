@@ -87,7 +87,9 @@ function buildPlan(args) {
   if (args.action === 'status') {
     plan.commands.push(command('git', ['worktree', 'list']));
   } else if (args.action === 'prepare') {
-    plan.commands.push(command('git', ['fetch', 'origin', 'main']));
+    if (args.base.startsWith('origin/')) {
+      plan.commands.push(command('git', ['fetch', 'origin', 'main']));
+    }
     plan.commands.push(command('git', ['worktree', 'add', '-B', args.branch, worktreePath, args.base]));
   } else if (args.action === 'remove') {
     plan.commands.push(command('git', ['worktree', 'remove', worktreePath]));
