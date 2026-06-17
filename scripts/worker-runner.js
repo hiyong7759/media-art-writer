@@ -29,6 +29,7 @@ function parseArgs(argv) {
     codexSandbox: 'workspace-write',
     timeoutMs: 30 * 60 * 1000,
     attempts: 3,
+    imageAttempts: 1,
     json: false
   };
 
@@ -64,6 +65,8 @@ function parseArgs(argv) {
     else if (arg.startsWith('--timeout-ms=')) args.timeoutMs = Number(arg.slice('--timeout-ms='.length));
     else if (arg === '--attempts') args.attempts = Number(argv[++i]);
     else if (arg.startsWith('--attempts=')) args.attempts = Number(arg.slice('--attempts='.length));
+    else if (arg === '--image-attempts') args.imageAttempts = Number(argv[++i]);
+    else if (arg.startsWith('--image-attempts=')) args.imageAttempts = Number(arg.slice('--image-attempts='.length));
     else throw new Error(`Unknown argument: ${arg}`);
   }
 
@@ -72,6 +75,7 @@ function parseArgs(argv) {
   if (args.limit !== null && (!Number.isFinite(args.limit) || args.limit < 0)) throw new Error('--limit must be a non-negative number.');
   if (!Number.isFinite(args.timeoutMs) || args.timeoutMs <= 0) throw new Error('--timeout-ms must be positive.');
   if (!Number.isFinite(args.attempts) || args.attempts <= 0) throw new Error('--attempts must be positive.');
+  if (!Number.isFinite(args.imageAttempts) || args.imageAttempts <= 0) throw new Error('--image-attempts must be positive.');
 
   return args;
 }
@@ -175,6 +179,7 @@ function makeJobOptions(args, job) {
     codexSandbox: args.codexSandbox,
     timeoutMs: args.timeoutMs,
     attempts: args.attempts,
+    imageAttempts: args.imageAttempts,
     json: false
   };
 }

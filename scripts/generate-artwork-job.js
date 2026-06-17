@@ -26,6 +26,7 @@ function parseArgs(argv) {
     codexSandbox: 'workspace-write',
     timeoutMs: 30 * 60 * 1000,
     attempts: 3,
+    imageAttempts: 1,
     json: false
   };
 
@@ -54,6 +55,8 @@ function parseArgs(argv) {
     else if (arg.startsWith('--timeout-ms=')) args.timeoutMs = Number(arg.slice('--timeout-ms='.length));
     else if (arg === '--attempts') args.attempts = Number(argv[++i]);
     else if (arg.startsWith('--attempts=')) args.attempts = Number(arg.slice('--attempts='.length));
+    else if (arg === '--image-attempts') args.imageAttempts = Number(argv[++i]);
+    else if (arg.startsWith('--image-attempts=')) args.imageAttempts = Number(arg.slice('--image-attempts='.length));
     else throw new Error(`Unknown argument: ${arg}`);
   }
 
@@ -69,6 +72,9 @@ function parseArgs(argv) {
   }
   if (!Number.isFinite(args.attempts) || args.attempts <= 0) {
     throw new Error('--attempts must be a positive number.');
+  }
+  if (!Number.isFinite(args.imageAttempts) || args.imageAttempts <= 0) {
+    throw new Error('--image-attempts must be a positive number.');
   }
 
   return args;
@@ -284,7 +290,7 @@ function missingImage(relPng) {
   };
 }
 
-function failedImage(relPng, error, attempts) {
+function failedImage(relPng, error, attempts, extra = {}) {
   return {
     status: 'failed',
     tool: 'codex-cli',
@@ -293,8 +299,18 @@ function failedImage(relPng, error, attempts) {
     path: relPng,
     attempts,
     lastError: String(error).slice(0, 500),
-    lastAttemptAt: kstNow()
+    lastAttemptAt: kstNow(),
+    ...extra
   };
+}
+
+function isImagePlacementBlocked(result) {
+  const text = `${result?.stdout || ''}\n${result?.stderr || ''}`.toLowerCase();
+  return text.includes('bwrap: loopback: failed rtm_newaddr')
+    || text.includes('could not save')
+    || text.includes('could not place')
+    || text.includes('could not verify or complete')
+    || text.includes('png placement step could not run');
 }
 
 function saveArtwork({ artist, date, data, paths, runId, attempts }) {
@@ -458,7 +474,10 @@ async function generateImage(options, paths, job) {
   if (!artwork.prompt) throw new Error(`Artwork JSON has no prompt: ${paths.relJson}`);
 
   let lastError = null;
-  for (let attempt = 1; attempt <= options.attempts; attempt++) {
+  let lastAttempt = 0;
+  const maxImageAttempts = options.imageAttempts || 1;
+  for (let attempt = 1; attempt <= maxImageAttempts; attempt++) {
+    lastAttempt = attempt;
     const promptFile = path.join(job.dir, `image-attempt-${attempt}.prompt.txt`);
     const outputFile = path.join(job.dir, `image-attempt-${attempt}.last-message.txt`);
     const logFile = path.join(job.dir, `image-attempt-${attempt}.log.json`);
@@ -500,10 +519,15 @@ async function generateImage(options, paths, job) {
     }
 
     if (!fs.existsSync(paths.pngFile)) {
-      lastError = 'png_not_created';
+      const placementBlocked = isImagePlacementBlocked(result);
+      lastError = placementBlocked ? 'image_generated_but_not_saved' : 'png_not_created';
       artwork.generation = artwork.generation || { schemaVersion: 1, pipeline: 'n100-codex-worker' };
-      artwork.generation.image = failedImage(paths.relPng, lastError, attempt);
+      artwork.generation.image = failedImage(paths.relPng, lastError, attempt, {
+        retryable: !placementBlocked,
+        note: placementBlocked ? 'Codex reported image generation completed, but local PNG placement failed.' : undefined
+      });
       fs.writeFileSync(paths.jsonFile, `${JSON.stringify(artwork, null, 2)}\n`);
+      if (placementBlocked) break;
       continue;
     }
 
@@ -527,7 +551,7 @@ async function generateImage(options, paths, job) {
     };
   }
 
-  throw new Error(`Image generation failed after ${options.attempts} attempts for ${paths.relPng}: ${lastError}`);
+  throw new Error(`Image generation failed after ${lastAttempt || maxImageAttempts} attempts for ${paths.relPng}: ${lastError}`);
 }
 
 async function runJob(options) {
