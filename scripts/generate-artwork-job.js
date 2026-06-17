@@ -165,7 +165,7 @@ function recoverPngFromCodexJsonEvents(stdout, pngFile) {
   }
 
   for (let i = hits.length - 1; i >= 0; i--) {
-    if (writeBase64Png(hits[i], pngFile)) return 'codex-exec-json-events';
+    if (writeBase64Png(hits[i], pngFile)) return 'codex-app-server-events';
   }
   return null;
 }
