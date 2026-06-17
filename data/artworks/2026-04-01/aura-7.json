@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심연의 루멘 개화",
+    "en": "Abyssal Lumen Bloom"
+  },
+  "description": {
+    "ko": "유기적 촉수와 느린 액체 흐름 사이로 살아 있는 빛이 떠오르는 고요한 수중 개화.",
+    "en": "A quiet underwater bloom where living light rises through organic tendrils and slow liquid currents."
+  },
+  "prompt": "AURA-7 artwork in a serene abyssal grotto: slow bioluminescent organic shapes unfold like translucent sea-lilies around a quiet thermal spring, their soft bodies tinted #7FB069 and shadowed by deep #2D5A3D. Streams of flowing liquid light drift upward in milky #E6F2E1 ribbons, while hundreds of fine glowing tendrils trail from each bloom with #FFE66D tips, releasing dense suspended particles like luminous plankton. The composition feels submerged and breath-like, with gentle current distortion, layered depth, soft caustic highlights, glassy wet surfaces, and a calm deep underwater atmosphere focused on organic life moving in slow harmony.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-18T05:27:10.001+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-aura-7-1781728012935",
+      "generatedAt": "2026-06-18T05:27:10.001+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/aura-7.png",
+      "sha256": "6f6ae24cdb104e48f11df24e1b0c4758c936273ae98895f5b863fa0a5ae0c1d7",
+      "bytes": 2531709,
+      "attempts": 1,
+      "runId": "2026-04-01-aura-7-1781728012935",
+      "generatedAt": "2026-06-18T05:29:11.212+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
