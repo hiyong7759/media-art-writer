@@ -140,7 +140,15 @@ function audit(args) {
       if (shaExists(pngFile)) {
         pngPresent++;
       } else {
-        tasks.missingPng.push({ date, artistId, path: `${relBase}.png`, hasJson: Boolean(artwork) });
+        tasks.missingPng.push({
+          date,
+          artistId,
+          path: `${relBase}.png`,
+          hasJson: Boolean(artwork),
+          imageStatus: artwork?.generation?.image?.status || null,
+          imageRetryable: artwork?.generation?.image?.retryable !== false,
+          imageLastError: artwork?.generation?.image?.lastError || null
+        });
       }
     }
   }

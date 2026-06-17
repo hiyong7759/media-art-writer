@@ -134,6 +134,8 @@ function buildBackfillJobs(args) {
   }
 
   for (const item of result.tasks.missingPng) {
+    if (item.hasJson && item.imageRetryable === false && !args.force) continue;
+
     if (args.task !== 'auto') {
       pushUnique(jobs, seen, { mode: 'backfill', date: item.date, artist: item.artistId, task: args.task });
     } else if (item.hasJson) {
