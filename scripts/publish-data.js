@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { spawnSync } = require('child_process');
 const path = require('path');
 
@@ -61,10 +62,41 @@ function isAllowedPath(file, allowedPaths) {
   return allowedPaths.some(item => file === item || file.startsWith(`${item}/`));
 }
 
+function collectJsonFiles(relPath, files = []) {
+  const fullPath = path.join(ROOT, relPath);
+  if (!fs.existsSync(fullPath)) return files;
+  const stat = fs.statSync(fullPath);
+  if (stat.isDirectory()) {
+    for (const name of fs.readdirSync(fullPath)) {
+      collectJsonFiles(path.join(relPath, name), files);
+    }
+  } else if (stat.isFile() && relPath.startsWith('data/artworks/') && relPath.endsWith('.json')) {
+    files.push(relPath);
+  }
+  return files;
+}
+
+function failedArtworkFiles(changedPaths) {
+  const files = new Set();
+  for (const item of changedPaths) {
+    for (const file of collectJsonFiles(item)) files.add(file);
+  }
+
+  return [...files].filter(file => {
+    try {
+      const artwork = JSON.parse(fs.readFileSync(path.join(ROOT, file), 'utf8'));
+      return artwork?.generation?.image?.status === 'failed';
+    } catch {
+      return true;
+    }
+  }).sort();
+}
+
 function buildPlan(args) {
   const lines = statusLines();
   const changedPaths = lines.map(pathFromStatusLine);
   const disallowed = changedPaths.filter(file => !isAllowedPath(file, args.paths));
+  const failedArtworks = failedArtworkFiles(changedPaths);
   const message = args.message || `art: update generated artworks ${new Date().toISOString().slice(0, 10)}`;
 
   return {
@@ -75,6 +107,7 @@ function buildPlan(args) {
     message,
     changedPaths,
     disallowed,
+    failedArtworks,
     commands: [
       ['add', ...args.paths],
       ['diff', '--cached', '--quiet'],
@@ -90,6 +123,11 @@ function execute(args) {
   if (plan.disallowed.length > 0 && !args.allowCode) {
     plan.ok = false;
     plan.error = 'disallowed_dirty_paths';
+    return plan;
+  }
+  if (plan.failedArtworks.length > 0) {
+    plan.ok = false;
+    plan.error = 'failed_artwork_outputs';
     return plan;
   }
 
@@ -126,6 +164,10 @@ function printHuman(result) {
   if (result.disallowed?.length) {
     console.log('Dirty paths outside publish scope:');
     for (const file of result.disallowed) console.log(`- ${file}`);
+  }
+  if (result.failedArtworks?.length) {
+    console.log('Failed artwork outputs:');
+    for (const file of result.failedArtworks) console.log(`- ${file}`);
   }
   console.log('Changed paths:');
   for (const file of result.changedPaths) console.log(`- ${file}`);
