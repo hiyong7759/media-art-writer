@@ -4,6 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const { runCodex } = require('./codex-runner');
+const { runCodexAppServer } = require('./codex-app-server-runner');
 const { analyzeAndGenerateStyle } = require('./style-analyzer');
 const { validatePrompt } = require('./validate-prompt');
 
@@ -515,15 +516,13 @@ async function generateImage(options, paths, job) {
     const logFile = path.join(job.dir, `image-attempt-${attempt}.log.json`);
     fs.writeFileSync(promptFile, buildImagePrompt(artwork, paths.pngFile));
 
-    const result = await runCodex({
+    const result = await runCodexAppServer({
       cwd: options.workdir,
       promptFile,
-      output: outputFile,
       model: options.codexModel,
       sandbox: options.codexSandbox,
       timeoutMs: options.timeoutMs,
       logFile,
-      jsonEvents: true,
       run: options.run
     });
 
