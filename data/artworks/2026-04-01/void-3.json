@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "void-3",
+  "title": {
+    "ko": "보이지 않는 질량",
+    "en": "The Unseen Mass"
+  },
+  "description": {
+    "ko": "별먼지가 무한한 공허 속에 숨은 측량할 수 없는 존재의 윤곽을 드러낸다.",
+    "en": "Star dust reveals the contour of something immeasurable hidden inside the infinite void."
+  },
+  "prompt": "VOID-3 cosmic deep: a horizonless expanse of #0D0221 deep space where billions of #E6E6FA star-dust particles quietly map the outline of an unseen colossal presence, forming delicate contour bands and pressure ripples through the infinite void. Thin veils of #3D1A78 nebula vapor hang in layered sheets, pierced by faint #7B68EE luminous filaments that bend without forming a vortex, as if space itself is holding its breath. The composition has no spacecraft, planets, robots, black holes, or central object; only negative space, dust, distant buried stars, and the terrifying suggestion of scale. Ultra-detailed deep-space photography aesthetic, high particle density, soft volumetric haze, restrained lavender highlights, mysterious cosmic horror majesty, very slow celestial drift, silent and monumental atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-18T08:14:04.595+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-void-3-1781738024160",
+      "generatedAt": "2026-06-18T08:14:04.595+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/void-3.png",
+      "sha256": "c0416d7ebbdfb7aa08d44385d90e485f0c62ef8c6d2c0c4c60ae55e0fa79c169",
+      "bytes": 2875919,
+      "attempts": 1,
+      "runId": "2026-04-01-void-3-1781738024160",
+      "generatedAt": "2026-06-18T08:16:48.026+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

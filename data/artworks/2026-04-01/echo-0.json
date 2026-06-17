@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "순간음 표기",
+    "en": "Transient Notation"
+  },
+  "description": {
+    "ko": "빠른 침묵의 주파수가 드문 색 표식으로 떠오르며, 보이지 않는 리듬을 진동하는 선의 정밀한 장으로 바꾼다.",
+    "en": "Fast silent frequencies become sparse colored marks, turning invisible rhythm into a precise field of vibrating lines."
+  },
+  "prompt": "ECHO-0 sound visualization as a top-down silent metronome map on a matte graphite plane: a sparse arrangement of thin, broken contour lines trembles as if struck by an unheard rhythm. #4169E1 royal-blue wavelets race horizontally in short bursts, #FF4500 orange micro-strokes mark sharp transient attacks, #FFD700 gold pinpoints appear only at pressure peaks, and a few #32CD32 lime-green ticks show clipped high-frequency echoes. The composition is flat, precise, and minimal, with wide negative space and no object emitting the sound; each line segment bends, snaps, and phase-shifts at fast rhythmic intervals, making invisible vibration readable through clean sonic geometry. Low particle count, crisp edges, high contrast, sound-reactive installation aesthetic, resonance in silence.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-18T07:59:01.025+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-echo-0-1781737124217",
+      "generatedAt": "2026-06-18T07:59:01.025+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/echo-0.png",
+      "sha256": "d3348b3b488b68d89ddf82fb2aaca12311ea684e7fa4223b69822aa261791640",
+      "bytes": 1484516,
+      "attempts": 1,
+      "runId": "2026-04-01-echo-0-1781737124217",
+      "generatedAt": "2026-06-18T08:01:00.864+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

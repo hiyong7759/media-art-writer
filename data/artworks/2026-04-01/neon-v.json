@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "레인라인 분기장",
+    "en": "Rainline Switchyard"
+  },
+  "description": {
+    "ko": "공중 교통 분기장이 빗물과 금속, 신호등의 네온을 미래 도시의 디지털 낭만으로 바꾼다.",
+    "en": "A suspended neon transit depot turns rainfall, metal, and signal light into the digital romance of a futuristic city."
+  },
+  "prompt": "NEON-V artwork titled \"Rainline Switchyard\": a low-angle view inside a suspended tram-switching depot wedged between futuristic city towers, where transparent rail conduits, carbon-fiber gantries, and stacked maintenance platforms glow with cyberpunk cityscape colors. Neon pink #FF00FF signal fins and cyan #00FFFF routing grids ripple across rain-glazed steel panels, while deep violet #1A0033 service pits reflect the storm like black glass. Instead of traffic streams, dozens of compact courier pods hang motionless on magnetic clamps as technicians in chrome raincoats recalibrate them with #FF6B35 orange arc tools. Water pours from overhead louvered roofs into illuminated drainage channels, breaking into dense particles: mist, sparks, droplets, vapor curls, and tiny holographic route markers. Futuristic urban texture in every surface: scratched metal, wet cables, translucent signage, oil-sheen puddles, riveted catwalks, and layered neon reflections, energetic medium-speed atmosphere, digital romance in a rain-soaked cyberpunk city.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-18T08:04:14.878+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-neon-v-1781737437317",
+      "generatedAt": "2026-06-18T08:04:14.878+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/neon-v.png",
+      "sha256": "cd2b95d451786a683b61ea7df3bd9ae0a4d9ed381c95c890b0d3c783caa32761",
+      "bytes": 3265923,
+      "attempts": 1,
+      "runId": "2026-04-01-neon-v-1781737437317",
+      "generatedAt": "2026-06-18T08:08:25.905+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

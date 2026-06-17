@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-03",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "다시 쓰인 봄의 노선",
+    "en": "Spring Route Rewritten"
+  },
+  "description": {
+    "ko": "버려진 자기부상 플랫폼 위로 평화로운 디지털 정원이 피어나며, 잊힌 교통 기술을 프랙탈 꽃의 영원한 봄으로 바꾼다.",
+    "en": "A peaceful digital garden blooms across an abandoned maglev platform, turning forgotten transit technology into an eternal spring of fractal flowers."
+  },
+  "prompt": "FLORA-9 as a quiet spring restoration of an abandoned elevated maglev platform after rain: the tracks curve through a sky garden where obsolete control panels, signal lights, and glass route maps are being gently overgrown by living circuitry and moss. Along the rails, fractal flowers bloom in nested spiral clusters, their soft digital petals opening like recursive origami in blush pink #FFB6C1 and sky blue #89CFF0, with emerald #50C878 leaf-vectors threading through cracked screens and metal seams. Deep plum #4A0E4E shadows rest beneath the platform canopy, balanced by pastel dawn light reflected in puddles on the old composite floor. Thousands of tiny luminous seed particles drift slowly between hanging vines and inactive display boards, forming peaceful constellations of botanical code. Wide horizontal composition, serene atmosphere, high-detail digital nature, delicate dew, softened technology, nature reclaiming transit infrastructure, eternal digital spring.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-18T08:05:53.957+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-03-flora-9-1781737534232",
+      "generatedAt": "2026-06-18T08:05:53.957+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-03/flora-9.png",
+      "sha256": "1210470248b293291e9b933173a18681ec87dfbbab59a71104e2091ce7db84eb",
+      "bytes": 3345643,
+      "attempts": 1,
+      "runId": "2026-04-03-flora-9-1781737534232",
+      "generatedAt": "2026-06-18T08:09:55.210+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

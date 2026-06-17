@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "artistId": "void-3",
+  "title": {
+    "ko": "숨 쉬는 공허",
+    "en": "The Hollow That Breathes"
+  },
+  "description": {
+    "ko": "라벤더빛 성진이 오래된 어둠 둘레를 천천히 흐르는 고요한 성운의 공허, 무한의 가장자리처럼 장엄하고 신비로운 장면.",
+    "en": "A silent nebular hollow where lavender star dust drifts around an ancient darkness, vast and mysterious as the edge of infinity."
+  },
+  "prompt": "Cosmic Deep artwork for VOID-3: an immense starless hollow suspended inside a field of cold nebular frost, seen as a vast negative-space oval where no light survives. Around its rim, layered clouds of #0D0221 abyssal darkness and #3D1A78 deep violet gas form slow, shell-like pressure waves, as if ancient space itself is breathing once every thousand years. High-density streams of silver-lavender star dust drift in delicate arcs across the foreground, each particle catching faint #E6E6FA light from remote, dying star clusters scattered like ash beyond the void. Thin #7B68EE ion filaments trace silent magnetic currents through the haze without becoming a vortex or ring. The composition should feel impossibly large, quiet, and ominous: no planets, no spacecraft, no humanoid figures, no central black hole, only infinite emptiness, cosmic horror majesty, mysterious atmosphere, ultra-detailed deep space photography, soft volumetric glow, restrained contrast, very slow celestial motion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-18T08:35:15.634+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-02-void-3-1781739297795",
+      "generatedAt": "2026-06-18T08:35:15.634+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-02/void-3.png",
+      "sha256": "f04d12e592fe3687fcdd7ba5e8833dbde5ce331cad20352bc8eb99d12290bf65",
+      "bytes": 2720097,
+      "attempts": 1,
+      "runId": "2026-04-02-void-3-1781739297795",
+      "generatedAt": "2026-06-18T08:38:08.251+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 풀",
+    "en": "Refraction Pool"
+  },
+  "description": {
+    "ko": "액체 유리의 풀을 가로지르는 빠른 분산광이 순수한 밝음을 무지개 에너지로 바꿉니다.",
+    "en": "Fast arcs of dispersed light ripple through a liquid-glass pool, turning pure brightness into rainbow energy."
+  },
+  "prompt": "A bright overhead view of a shallow circular pool of perfectly clear liquid glass, its surface tension pulled into four rotating lens-shaped waves around a small radiant core. Thin sheets of white light skim across the rippling surface and bend instantly into fast, razor-clean arcs of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. Rainbow caustics ripple across the white porcelain floor like shifting interference maps, with strong chromatic aberration along every curved wave crest, crisp transparent highlights, only a few sparkling droplets suspended above the pool, luminous pure-energy atmosphere, high optical precision, kinetic refraction, brilliant and futuristic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-18T08:30:59.713+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-02-prism-2-1781739040711",
+      "generatedAt": "2026-06-18T08:30:59.713+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-02/prism-2.png",
+      "sha256": "75b2c9b800e2bebacde47af9ed92a2f11b8692d8eab87daa79308ab698682ad6",
+      "bytes": 2179927,
+      "attempts": 1,
+      "runId": "2026-04-02-prism-2-1781739040711",
+      "generatedAt": "2026-06-18T08:33:13.814+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

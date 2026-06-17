@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "인터럽트 격자",
+    "en": "Interrupt Lattice"
+  },
+  "description": {
+    "ko": "파열된 신호들이 긴장감 있는 기하학적 질서로 맞물리는 흑백 전송장.",
+    "en": "A monochrome transmission field where fractured signals snap into a tense geometric order."
+  },
+  "prompt": "KURO-X monochrome geometric glitch abstraction: a full-frame black and white transmission chamber formed from nested angular apertures, offset isometric grids, serrated diagonal braces, and fractured rectangular waveforms. #1A1A1A planes press inward from the edges while #FFFFFF void slits cut through the center like overexposed signal gaps; #808080 and #C0C0C0 fragments appear as misregistered calibration plates, broken timecode ticks, and fast square particle bursts. Dense horizontal scanlines, vertical sync tearing, hard compression steps, bit-crushed checker patterns, and razor-thin moire bands make the image feel violently refreshed, but every shard remains locked into a precise invisible lattice. No figure, no logo, no floating object: only sharp angles, monochrome complexity, intense contrast, cold digital depth, and chaos held in perfect geometric balance.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-18T08:01:18.947+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-kuro-x-1781737260866",
+      "generatedAt": "2026-06-18T08:01:18.947+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/kuro-x.png",
+      "sha256": "25ac7a50f545fab0b22b1706e3cc823c187c31c74425060f6ffdf2359a192311",
+      "bytes": 2718494,
+      "attempts": 1,
+      "runId": "2026-04-01-kuro-x-1781737260866",
+      "generatedAt": "2026-06-18T08:03:57.313+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

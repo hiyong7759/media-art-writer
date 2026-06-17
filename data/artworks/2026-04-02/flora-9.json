@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-02",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 신호의 초원",
+    "en": "Signal Meadow in Bloom"
+  },
+  "description": {
+    "ko": "잊힌 통신 장비가 프랙털 꽃과 살아 있는 덩굴에 덮이며 영원한 디지털 봄 정원으로 변한 평화로운 옥상 풍경.",
+    "en": "A peaceful rooftop antenna field becomes an eternal digital spring garden, where fractal blossoms and living vines reclaim forgotten communication machines."
+  },
+  "prompt": "FLORA-9 imagined as a quiet rooftop antenna meadow after years of neglect: obsolete satellite dishes and bent signal masts have become shallow rain basins, their metal bowls lined with moss, fern fronds, and living emerald filaments. From the center of each dish rises a different fractal flower, with recursively nested petals unfolding like soft pastel panels in blush #FFB6C1 and sky #89CFF0, edged by faint luminous logic traces rather than hard circuitry. Deep #4A0E4E plum shadows sit inside the old receivers, while #50C878 vines climb through corroded screws, cracked signal housings, and weathered solar tiles. Thousands of tiny seed-like light particles hover in slow spirals around the blossoms, dense but gentle, as if the air itself is germinating code. Peaceful spring dawn, wide elevated composition, mist-softened city horizon, organic growth calmly overtaking forgotten communication technology, eternal digital garden atmosphere, delicate botanical detail, slow blooming motion, soft pastel glow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-18T08:24:03.067+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-02-flora-9-1781738620300",
+      "generatedAt": "2026-06-18T08:24:03.067+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-02/flora-9.png",
+      "sha256": "e5f375f1e3aec4a427204c047f69cb267d036c36375f1767ec4a642c0526796d",
+      "bytes": 2838568,
+      "attempts": 1,
+      "runId": "2026-04-02-flora-9-1781738620300",
+      "generatedAt": "2026-06-18T08:25:58.936+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
