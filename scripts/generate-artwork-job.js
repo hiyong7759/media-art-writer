@@ -473,6 +473,17 @@ async function generateImage(options, paths, job) {
   const artwork = readJson(paths.jsonFile);
   if (!artwork.prompt) throw new Error(`Artwork JSON has no prompt: ${paths.relJson}`);
 
+  const priorImage = artwork.generation?.image;
+  if (!options.force && priorImage?.status === 'failed' && priorImage.retryable === false) {
+    return {
+      status: 'skipped',
+      task: 'image',
+      reason: 'non_retryable_image_failure',
+      path: paths.relPng,
+      lastError: priorImage.lastError || null
+    };
+  }
+
   let lastError = null;
   let lastAttempt = 0;
   const maxImageAttempts = options.imageAttempts || 1;

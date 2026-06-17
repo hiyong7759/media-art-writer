@@ -69,6 +69,7 @@ npm run generate:job -- --date 2026-04-01 --artist flora-9 --task both --run
 
 # History is synced by default; add --no-update-history to disable it
 # Image generation defaults to one attempt; use --image-attempts only when you really want another paid try
+# Non-retryable image placement failures are skipped unless --force is passed
 
 # Preview a backfill batch; default backfill limit is 1 job
 npm run worker -- backfill --from 2026-04-01 --to 2026-06-17 --limit 2
