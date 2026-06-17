@@ -144,6 +144,31 @@ function collectBase64Pngs(value, hits = []) {
   return hits;
 }
 
+function writeBase64Png(base64Png, pngFile) {
+  const buffer = Buffer.from(base64Png, 'base64');
+  if (buffer.slice(0, 8).toString('hex') !== '89504e470d0a1a0a') return false;
+  fs.mkdirSync(path.dirname(pngFile), { recursive: true });
+  fs.writeFileSync(pngFile, buffer);
+  return true;
+}
+
+function recoverPngFromCodexJsonEvents(stdout, pngFile) {
+  const hits = [];
+  for (const line of String(stdout || '').split(/\n/)) {
+    if (!line.trim()) continue;
+    try {
+      collectBase64Pngs(JSON.parse(line), hits);
+    } catch {
+      // Ignore progress lines that are not JSON events.
+    }
+  }
+
+  for (let i = hits.length - 1; i >= 0; i--) {
+    if (writeBase64Png(hits[i], pngFile)) return 'codex-exec-json-events';
+  }
+  return null;
+}
+
 function recoverPngFromCodexSession(stderr, pngFile) {
   const sessionFile = findCodexSessionFile(stderr);
   if (!sessionFile) return null;
@@ -158,14 +183,10 @@ function recoverPngFromCodexSession(stderr, pngFile) {
     }
   }
 
-  if (hits.length === 0) return null;
-
-  const buffer = Buffer.from(hits[hits.length - 1], 'base64');
-  if (buffer.slice(0, 8).toString('hex') !== '89504e470d0a1a0a') return null;
-
-  fs.mkdirSync(path.dirname(pngFile), { recursive: true });
-  fs.writeFileSync(pngFile, buffer);
-  return 'codex-session-jsonl';
+  for (let i = hits.length - 1; i >= 0; i--) {
+    if (writeBase64Png(hits[i], pngFile)) return 'codex-session-jsonl';
+  }
+  return null;
 }
 
 function loadContext(artistId) {
@@ -502,6 +523,7 @@ async function generateImage(options, paths, job) {
       sandbox: options.codexSandbox,
       timeoutMs: options.timeoutMs,
       logFile,
+      jsonEvents: true,
       run: options.run
     });
 
@@ -525,6 +547,9 @@ async function generateImage(options, paths, job) {
     }
 
     let recoveredFrom = null;
+    if (!fs.existsSync(paths.pngFile)) {
+      recoveredFrom = recoverPngFromCodexJsonEvents(result.stdout, paths.pngFile);
+    }
     if (!fs.existsSync(paths.pngFile)) {
       recoveredFrom = recoverPngFromCodexSession(result.stderr, paths.pngFile);
     }
@@ -624,5 +649,6 @@ module.exports = {
   parseArgs,
   runJob,
   buildTextPrompt,
-  buildImagePrompt
+  buildImagePrompt,
+  recoverPngFromCodexJsonEvents
 };
