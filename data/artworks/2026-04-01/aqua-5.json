@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-01",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "조석 등불의 나선",
+    "en": "Tidal Lantern Spiral"
+  },
+  "description": {
+    "ko": "느린 해류 속에서 투명한 심해 생명들이 거품과 청록빛을 따라 고요한 나선을 그립니다.",
+    "en": "A calm spiral of translucent deep-sea life glows within a slow current of bubbles and turquoise light."
+  },
+  "prompt": "Vertical underwater macro composition in the midnight deep sea, with no seabed or machinery visible: a slow toroidal current shapes dozens of translucent jellyfish-like bells into a quiet floating spiral, their glassy bodies edged with #40E0D0 and #48D1CC bioluminescent glow against #000080 darkness. Fine chains of tiny bubbles trace the flow lines, stretching and compressing as if caught in gentle fluid dynamics; suspended marine particles shimmer sparsely in #006994 blue-green light. The mood is calm and meditative, emphasizing transparent life, soft pulsing illumination, layered depth, delicate membranes, refracted cyan highlights, and a peaceful dance of luminous forms in still abyssal water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-18T00:34:31.566+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-01-aqua-5-1781710456154",
+      "generatedAt": "2026-06-18T00:34:31.566+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-01/aqua-5.png",
+      "sha256": "bc98d14ef975fb97dbfded3f7e631d5b6ffd9a32fd5629220da5745955c7ff7e",
+      "bytes": 2418179,
+      "attempts": 1,
+      "runId": "2026-04-01-aqua-5-1781727530825",
+      "generatedAt": "2026-06-18T05:20:42.259+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
