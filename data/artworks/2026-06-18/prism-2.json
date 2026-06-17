@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "굴절의 나선",
+    "en": "Helix of Refraction"
+  },
+  "description": {
+    "ko": "투명한 유리 나선이 순수한 빛을 빠른 무지개 카스틱과 색수차 에너지로 바꾼다.",
+    "en": "A bright glass helix turns pure light into fast rainbow caustics and chromatic energy."
+  },
+  "prompt": "Inside a luminous white optical chamber, a suspended helix of ultra-clear glass ribbons twists through the center, catching several needle-thin white light filaments that ricochet through its curved facets. Each bend erupts into rapid diagonal bands of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow, with rainbow caustics projected as sharp lattice shadows across the air and walls. Bright pure-energy atmosphere, low sparse dust motes, crisp refraction paths, layered chromatic aberration along every glass rim, dynamic fast-motion streaks, polished optical clarity, radiant and futuristic.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-18T06:32:29.960+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-prism-2-1781731933553",
+      "generatedAt": "2026-06-18T06:32:29.960+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/prism-2.png",
+      "sha256": "00ba636d4ae1c8042cc923d2f06057cdc75f1c54105efcb9961ef3338bd84ac2",
+      "bytes": 2277438,
+      "attempts": 1,
+      "runId": "2026-06-18-prism-2-1781731933553",
+      "generatedAt": "2026-06-18T06:34:21.775+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

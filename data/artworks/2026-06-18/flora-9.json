@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 서버 온실",
+    "en": "Server Conservatory in Bloom"
+  },
+  "description": {
+    "ko": "잊힌 기계실이 FLORA-9의 프랙탈 꽃과 부드러운 디지털 꽃잎으로 뒤덮이며 고요한 봄 정원으로 변한다.",
+    "en": "A forgotten machine room becomes a quiet spring garden as FLORA-9 covers obsolete technology with fractal flowers and soft digital petals."
+  },
+  "prompt": "FLORA-9 as a peaceful reclaimed server conservatory at early spring dawn: rows of obsolete server racks stand open like trellises while living emerald vines thread through cable trays, keyboards, and cooling grates. From each vent blooms a different fractal flower, its digital petals unfolding in recursive spirals of blush pink and sky blue, with delicate lace-like circuitry softened by dew. Deep plum shadows gather beneath the old machines, while pale pastel light washes across glass panels cracked by roots. High-density luminous seed-motes drift slowly through the air, not as harsh pixels but as soft botanical code spores, suggesting a garden that keeps regenerating itself from forgotten technology. Wide interior composition, serene atmosphere, fine botanical detail, gentle volumetric haze, organic textures overtaking hard metal surfaces, digital nature, eternal spring.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-18T06:25:52.880+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-flora-9-1781731536340",
+      "generatedAt": "2026-06-18T06:25:52.880+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/flora-9.png",
+      "sha256": "93c13038645e49262572d9c962c9ae106eae9caeee6ff8fe27b6768512faca18",
+      "bytes": 3278457,
+      "attempts": 1,
+      "runId": "2026-06-18-flora-9-1781731536340",
+      "generatedAt": "2026-06-18T06:27:28.266+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

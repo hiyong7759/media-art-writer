@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "신호 단층 지도",
+    "en": "Signal Fault Atlas"
+  },
+  "description": {
+    "ko": "격렬한 신호 단층 속에서도 각진 파편들이 완벽한 균형을 이루는 흑백 글리치 지도.",
+    "en": "A monochrome glitch atlas where angular fragments hold perfect balance inside a violent signal fracture."
+  },
+  "prompt": "KURO-X artwork titled \"Signal Fault Atlas\": a black and white geometric glitch abstraction seen like an impossible topographic circuit map, built from interlocking #1A1A1A angular corridors, #FFFFFF negative-space fractures, and layered #808080 / #C0C0C0 calibration grids. A violent diagonal signal fault tears across the composition, offsetting entire bands of triangles, trapezoids, and serrated chevrons as if the image were being refreshed too fast. Dense horizontal scanlines, bit-plane shearing, hard-edged compression blocks, broken barcode rhythms, and medium-density square particle debris create monochrome complexity without color. The balance is precise but tense: every fragment feels locked to an invisible mathematical grid while the surface flickers with fast, intense digital motion, sharp angles, high contrast, crisp vector edges, and cold abstract depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-18T06:27:44.828+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-kuro-x-1781731648268",
+      "generatedAt": "2026-06-18T06:27:44.828+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/kuro-x.png",
+      "sha256": "37ddb835a04edf8196d394e7dd578f26924e022eeae14e1680a4e8b8a69bfc6c",
+      "bytes": 2230805,
+      "attempts": 1,
+      "runId": "2026-06-18-kuro-x-1781731648268",
+      "generatedAt": "2026-06-18T06:30:06.655+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

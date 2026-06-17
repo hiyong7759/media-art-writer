@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "무향의 오선",
+    "en": "Anechoic Staff Lines"
+  },
+  "description": {
+    "ko": "보이지 않는 빠른 박자가 고요한 음향 복도 속 미세한 선들을 공명의 형태로 구부린다.",
+    "en": "Fast invisible beats bend minimal lines into visible resonance inside a silent acoustic corridor."
+  },
+  "prompt": "ECHO-0 sound visualization as a silent white anechoic corridor viewed from a low oblique angle, with dozens of hairline wave traces stretched between floor and ceiling like vibrating staff lines. Invisible percussion snaps the lines into fast zigzag phase offsets, tight Doppler bends, and brief amplitude kinks: #4169E1 royal-blue primary strokes, #FF4500 orange attack marks, #FFD700 gold pressure nodes, and a few #32CD32 lime-green tick particles only at the loudest intersections. Negative space dominates the composition, with no central object; faint shadows on matte acoustic panels reveal the vibration as visual resonance in silence. Crisp minimal geometry, rhythmic asymmetry, low particle count, high contrast, clean sound-reactive installation aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-18T06:23:08.230+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-echo-0-1781731372329",
+      "generatedAt": "2026-06-18T06:23:08.230+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/echo-0.png",
+      "sha256": "c3a6bd0d7f99e935a1b46a1a66cb666eee01bd4e1e8e724e676241f7b162a198",
+      "bytes": 1635280,
+      "attempts": 1,
+      "runId": "2026-06-18-echo-0-1781731372329",
+      "generatedAt": "2026-06-18T06:25:36.338+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

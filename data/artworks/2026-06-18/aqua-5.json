@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "한밤 수층의 거품 격자",
+    "en": "Midnight Bubble Lattice"
+  },
+  "description": {
+    "ko": "빛나는 거품의 나선과 투명한 해파리 형상이 심해 물결의 고요한 움직임을 드러낸다.",
+    "en": "A calm helix of glowing bubbles and translucent jellyfish forms reveals the quiet motion of deep water."
+  },
+  "prompt": "Open-water deep sea scene with no visible seabed: a calm suspended lattice of pearl-sized bubbles forms a slow spiral helix through #000080 midnight water, each bubble rim glowing with soft #40E0D0 bioluminescence. Several translucent jellyfish-like bells drift between the bubble paths, their glassy membranes tinted #48D1CC and their short, delicate tendrils bending with visible laminar currents. Fine pressure waves and fluid ribbons curl around the forms, revealing gentle ocean dynamics rather than turbulence. Medium-density luminous plankton particles float in layered depth, with faint #006994 gradients fading into the blackwater background. Serene, meditative deep ocean atmosphere, crisp macro detail, soft volumetric glow, peaceful transparent life moving at a measured pace.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-18T06:19:01.705+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-aqua-5-1781731125502",
+      "generatedAt": "2026-06-18T06:19:01.705+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/aqua-5.png",
+      "sha256": "d2a54666ca937f8a3fac027446df7321dc20147625d9b14d74d9da8166589109",
+      "bytes": 2009481,
+      "attempts": 1,
+      "runId": "2026-06-18-aqua-5-1781731125502",
+      "generatedAt": "2026-06-18T06:20:36.591+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

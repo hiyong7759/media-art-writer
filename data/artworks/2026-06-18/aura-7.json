@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "해저 등불의 개화",
+    "en": "Benthic Lantern Bloom"
+  },
+  "description": {
+    "ko": "유기적인 포드가 액체 빛을 숨 쉬듯 내보내며 빛나는 덩굴로 피어나는 고요한 심해의 개화.",
+    "en": "A serene underwater bloom where organic pods breathe streams of liquid light into drifting glowing tendrils."
+  },
+  "prompt": "AURA-7 artwork, deep underwater organic flow: a quiet abyssal basin where translucent seed-pods unfurl from dark #2D5A3D mineral silt, their soft biomorphic shells glowing with #7FB069 inner life. Slow currents draw continuous streams of liquid light from the pods, forming #FFE66D luminous droplets, trailing filaments, and long glowing tendrils that rise through the water like breathing roots. The surrounding ocean is a misty #E6F2E1 haze filled with thousands of tiny bioluminescent plankton particles, faint caustic rays, and suspended pearly bubbles. Low-angle composition across the seabed, serene and weightless, wet translucent surfaces, no figures, no machinery, no hard geometry, gentle motion blur, high particle density, refined cinematic depth, detailed generative art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-18T06:20:53.168+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-aura-7-1781731236593",
+      "generatedAt": "2026-06-18T06:20:53.168+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/aura-7.png",
+      "sha256": "93225e58b5b17641b0b0a0b65fd0dc52f0cfa04032eeeca90eb5b24a5d81502d",
+      "bytes": 2480155,
+      "attempts": 1,
+      "runId": "2026-06-18-aura-7-1781731236593",
+      "generatedAt": "2026-06-18T06:22:52.327+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

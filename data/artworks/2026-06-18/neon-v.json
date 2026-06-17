@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "프리즘 배수 시장",
+    "en": "Prism Drain Bazaar"
+  },
+  "description": {
+    "ko": "비와 크롬, 디지털 반사가 뒤섞인 지하 도시 시장이 네온빛으로 살아난다.",
+    "en": "A neon-soaked undercity market glows through rain, chrome, and restless digital reflections."
+  },
+  "prompt": "NEON-V artwork titled \"Prism Drain Bazaar\": a street-level cyberpunk city scene beneath an elevated monorail viaduct during electric rain, focused on a crowded rain-harvesting market where chrome gutters, transparent pipes, and black ceramic paving mirror #FF00FF neon pink and #00FFFF neon blue signage. LED-mesh umbrellas form glowing canopies over food stalls, repair kiosks, cable bundles, oxidized metal shutters, and vending walls etched with futuristic urban grime. Deep #1A0033 violet shadows fill the underpass columns while #FF6B35 orange sparks from maintenance drones and welding booths streak through misty air. High particle density: rain beads, vapor bursts, floating dust, micro hologram fragments, and splashing droplets frozen in energetic mid-motion. Detailed cyberpunk city texture, reflective wet surfaces, neon romance, dense layered depth, sharp foreground details, luminous rainy reflections, medium-speed urban movement.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-18T06:30:29.372+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-neon-v-1781731806656",
+      "generatedAt": "2026-06-18T06:30:29.372+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/neon-v.png",
+      "sha256": "597f50e16147a7dc63d3894bf1e3e59f52a065d10dd35b20e546e546df947d26",
+      "bytes": 3255388,
+      "attempts": 1,
+      "runId": "2026-06-18-neon-v-1781731806656",
+      "generatedAt": "2026-06-18T06:32:13.551+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

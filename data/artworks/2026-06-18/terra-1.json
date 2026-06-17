@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "황토의 등고선",
+    "en": "The Loess Cartography"
+  },
+  "description": {
+    "ko": "침식된 황토 단층이 시간과 흙, 바위와 퇴적층으로 새겨진 지도가 되는 대지의 질감 연구.",
+    "en": "A grounded earth-texture study where eroded loess terraces become a carved map of time, soil, stone, and sediment."
+  },
+  "prompt": "TERRA-1, titled \"The Loess Cartography.\" A photorealistic oblique macro view of an exposed soil escarpment shaped by slow erosion into nested contour terraces, as if a topographic map has been carved directly into the ground. Thin sediment bands of #8B4513 umber, #D2691E burnt ochre, and #F4A460 sandy tan wrap around compacted clay shelves, pebble lenses, root casts, and brittle shale crumbs. Sparse #2F4F4F slate-gray mineral dust gathers along rain-polished runnels and undercut ledges, emphasizing rough stone, dry loam, granular soil, and compressed geological time. Low natural side light reveals tactile ridges, crumbly edges, porous earth, stratified deposits, and grounded earthy tones; quiet, monumental, hyper-detailed natural texture study.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-18T06:34:40.048+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-18-terra-1-1781732061777",
+      "generatedAt": "2026-06-18T06:34:40.048+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-18/terra-1.png",
+      "sha256": "9f8ba09ed38dc8fb7a66771e93c87c1d2f7bec2a61144d39222629e9d0e99a43",
+      "bytes": 3419413,
+      "attempts": 1,
+      "runId": "2026-06-18-terra-1-1781732061777",
+      "generatedAt": "2026-06-18T06:37:07.249+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
