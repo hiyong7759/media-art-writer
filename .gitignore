@@ -1,3 +1,4 @@
 node_modules/
 .env
 .DS_Store
+.n100-worker/

@@ -5,11 +5,20 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "generate": "node scripts/generate.js"
+        "generate": "node scripts/generate.js",
+        "audit": "node scripts/audit-artworks.js",
+        "migrate:provenance": "node scripts/migrate-provenance.js",
+        "validate:prompt": "node scripts/validate-prompt.js",
+        "codex:run": "node scripts/codex-runner.js",
+        "generate:job": "node scripts/generate-artwork-job.js",
+        "worktree": "node scripts/worktree-manager.js",
+        "worker": "node scripts/worker-runner.js",
+        "publish:data": "node scripts/publish-data.js"
     },
     "keywords": [
         "generative-art",
-        "gemini",
+        "codex",
+        "gpt-image",
         "automation"
     ],
     "author": "",

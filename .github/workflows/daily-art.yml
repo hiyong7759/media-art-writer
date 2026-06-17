@@ -1,58 +1,19 @@
-name: Daily Art Generation
+name: Legacy Gemini Art Generation Disabled
 
 on:
-  schedule:
-    # 매일 한국 시간 00:00 (UTC 15:00) 실행
-    - cron: '0 15 * * *'
   workflow_dispatch:
-    inputs:
-      artist_id:
-        description: 'Specific Artist ID to regenerate (or "all")'
-        required: false
-        default: 'all'
-      date:
-        description: 'Date (YYYY-MM-DD)'
-        required: false
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: daily-art
+  group: legacy-gemini-art-disabled
   cancel-in-progress: false
 
 jobs:
-  build:
+  disabled:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Pull latest changes
-        run: git pull --rebase origin main
-
-      - name: Generate Artwork
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_IMAGE_API_KEYS: ${{ secrets.GEMINI_IMAGE_API_KEYS }}
-        run: node scripts/generate.js "${{ inputs.artist_id || 'all' }}" "${{ inputs.date }}"
-
-      - name: Get KST Date
-        id: date
-        run: echo "date=$(TZ='Asia/Seoul' date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
-
-      - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "art: Daily generative artwork for ${{ steps.date.outputs.date }}"
-          branch: main
-          file_pattern: 'data/**'
+      - name: Disabled
+        run: echo "Legacy Gemini generation is disabled. Use the N100 Codex worker pipeline."

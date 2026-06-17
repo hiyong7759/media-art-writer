@@ -27,21 +27,21 @@
 
 ## ⚙️ Automated Workflow
 
-이 프로젝트는 100% 자동화된 파이프라인을 통해 운영됩니다.
+이 프로젝트는 GitHub Actions 기반 Gemini 생성에서 **N100 로컬 Codex worker** 중심 파이프라인으로 전환 중입니다.
 
 ```mermaid
 graph LR
-    A[Daily Trigger] -->|GitHub Actions| B(Text Generation)
-    B -->|Gemini 2.5 Flash| C{Creative Contents}
+    A[Daily / Backfill Queue] -->|N100 Codex Workers| B(Prompt Generation)
+    B -->|ChatGPT/Codex| C{Creative Contents}
     C -->|Prompt & Style| D(Image Generation)
     C -->|Title & Desc| E[Metadata JSON]
-    D -->|Gemini 2.5 Flash Image| F[Background Image]
+    D -->|GPT Image 2| F[Background Image]
     E & F --> G[Web Viewer]
     G -->|User Interaction| H[Generating Hybrid Art]
 ```
 
-1.  **Text Creation**: `Google Gemini 2.5 Flash`가 오늘의 주제, 프롬프트, 작가 노트를 생성합니다.
-2.  **Image Creation**: `Gemini 2.5 Flash Image (Nanobanana)` 모델이 프롬프트를 바탕으로 고품질 배경 이미지를 생성합니다.
+1.  **Text Creation**: Codex worker가 작가별 컨셉과 기존 히스토리를 검증하며 오늘의 주제, 프롬프트, 작가 노트를 생성합니다.
+2.  **Image Creation**: `GPT Image 2`가 프롬프트를 바탕으로 배경 이미지를 생성합니다.
 3.  **Visualization**: 브라우저에서 `HTML5 Canvas` 기반의 자체 엔진(EngineFactory + Strategy Pattern)이 이미지 위에 살아있는 효과를 렌더링합니다.
 
 ## 🚀 How to Run
@@ -50,17 +50,48 @@ graph LR
 1. Clone repository
 2. Open `index.html` with Live Server
 
-### Manual Generation
+### Operations
 ```bash
-# Generate daily artwork manually
-node scripts/generate.js --date=2026-01-26
+# Audit missing JSON/PNG files
+npm run audit -- --from 2026-01-25 --to 2026-06-17
+
+# Preview provenance labels without changing data
+npm run migrate:provenance -- --from 2026-03-31 --to 2026-04-02
+
+# Validate a candidate prompt against artist concept and history
+npm run validate:prompt -- --artist flora-9 --prompt "..."
+
+# Preview a single Codex worker job without calling Codex
+npm run generate:job -- --date 2026-04-01 --artist flora-9 --task both
+
+# Actually run a single Codex worker job
+npm run generate:job -- --date 2026-04-01 --artist flora-9 --task both --run
+
+# History is synced by default; add --no-update-history to disable it
+
+# Preview a backfill batch; default backfill limit is 1 job
+npm run worker -- backfill --from 2026-04-01 --to 2026-06-17 --limit 2
+
+# Run one daily batch for all artists on an explicit date
+npm run worker -- daily --date 2026-06-17 --run
+
+# Publish generated data after a clean worker run
+npm run publish:data -- --run
+
+# On an 8GB N100, start with two worker slots: daily-01 and backfill-01
+
+# Preview a separate worker checkout
+npm run worktree -- prepare --slot backfill-01 --kind backfill
+
+# Actually create the worker checkout
+npm run worktree -- prepare --slot backfill-01 --kind backfill --run
 ```
 
 ## 🛠 Tech Stack
 - **Frontend**: Vanilla JS (ES6 Modules), HTML5 Canvas, CSS3
 - **Architecture**: EngineFactory (Registry Pattern), BaseMode (Strategy Pattern)
-- **AI Models**: Google Gemini 2.5 Flash (Text + Image)
-- **Automation**: GitHub Actions, Node.js
+- **AI Models**: ChatGPT/Codex (Text), GPT Image 2 (Image)
+- **Automation**: N100 Codex workers, Node.js
 - **Hosting**: GitHub Pages
 
 ---

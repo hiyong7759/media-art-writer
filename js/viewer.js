@@ -13,6 +13,22 @@ function getCookie(name) {
   if (parts.length === 2) return parts.pop().split(';').shift();
 }
 
+function getModelInfoLabel(date, artwork) {
+  const textModel = artwork?.generation?.text?.modelDisplay;
+  const imageModel = artwork?.generation?.image?.modelDisplay;
+  const models = [textModel, imageModel].filter(Boolean);
+
+  if (models.length > 0) {
+    return "MODEL: " + [...new Set(models)].join(" / ");
+  }
+
+  if (date && date <= "2026-03-31") {
+    return "MODEL: Gemini 2.5 Flash / Gemini 2.5 Flash Image";
+  }
+
+  return "MODEL: ChatGPT/Codex / GPT Image 2";
+}
+
 class MediaArtViewer {
   constructor() {
     this.canvas = document.getElementById('generativeCanvas');
@@ -751,7 +767,7 @@ class MediaArtViewer {
     document.getElementById('artistDescription').textContent = artistDesc;
 
     document.getElementById('generatedDate').textContent = this.targetDate;
-    document.getElementById('modelInfo').textContent = `MODEL: GEMINI-3-FLASH`;
+    document.getElementById('modelInfo').textContent = getModelInfoLabel(this.targetDate, artwork);
     document.getElementById('promptText').textContent = artwork?.prompt || "No prompt data.";
 
     // 2. Artist Colors
