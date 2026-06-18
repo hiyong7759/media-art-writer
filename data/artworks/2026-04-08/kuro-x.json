@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-08",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "패리티 균열 직조",
+    "en": "Parity Fracture Loom"
+  },
+  "description": {
+    "ko": "각진 띠들이 질서와 균열을 정밀한 균형으로 직조하는 흑백 글리치 필드.",
+    "en": "A monochrome glitch field where angular bands weave order and rupture into precise balance."
+  },
+  "prompt": "KURO-X artwork titled \"Parity Fracture Loom\": a black and white geometric glitch abstraction arranged as an interlaced field of angular bands, with no figure and no central sculpture. Dense #1A1A1A trapezoid plates weave through thin #FFFFFF negative-space channels, while #808080 and #C0C0C0 stair-step meshes misregister into offset layers. The composition behaves like a high-speed machine weaving corrupted geometry: sawtooth ribbons snap through hard 30, 60, and 90 degree turns; nested right triangles lock into asymmetric hexagonal cells; narrow black gaps vibrate between tightly packed fragments. Horizontal and vertical scanlines collide across the surface, alternating rows jump by single-bit offsets, checkerboard parity errors interrupt the grid, sliced halftone bars stutter at the edges, and medium-density square particles trail from the fastest distortions. The mood is intense and controlled, balancing ordered monochrome architecture with fast digital instability, sharp angles, crisp vector edges, high contrast, and cold fragmentary depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-18T22:59:56.159+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-08-kuro-x-1781791177487",
+      "generatedAt": "2026-06-18T22:59:56.159+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-08/kuro-x.png",
+      "sha256": "6972321c6842f4f62246d6a3de74943259b5b44a088bf917ecddd349c4c75bda",
+      "bytes": 2203787,
+      "attempts": 1,
+      "runId": "2026-04-08-kuro-x-1781791177487",
+      "generatedAt": "2026-06-18T23:01:59.230+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

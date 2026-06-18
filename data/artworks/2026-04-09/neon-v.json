@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-09",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "유리 조수 정거장",
+    "en": "Glass Tide Station"
+  },
+  "description": {
+    "ko": "네온 여객 터미널의 비, 운하 물결, 크롬, 통근자의 움직임이 NEON-V의 디지털 낭만으로 빛난다.",
+    "en": "A neon ferry terminal turns rain, canal water, chrome, and commuter motion into NEON-V's digital romance."
+  },
+  "prompt": "NEON-V scene \"Glass Tide Station\": a rain-battered cyberpunk ferry terminal built along a black canal between chrome apartment stacks, where transparent boarding tubes curve over the water like illuminated ribs. #FF00FF neon pink ticket glyphs and #00FFFF blue wayfinding arrows ripple across the canal surface, broken by falling rain, floating plastic petals, and tiny hologram confetti. Commuters in lacquered coats wait on grated metal platforms beside vending pillars, biometric turnstiles, exposed coolant cables, rust-stained service panels, and polished steel bollards. Deep #1A0033 violet shadows sit beneath the docks while #FF6B35 orange hazard beacons blink from autonomous water taxis and repair buoys, adding warm streaks to the cold reflections. High particle density with rain spray, steam from drainage vents, drifting micro-screens, splashes against glass barriers, and energized city motion; detailed futuristic urban texture, neon-and-metal romance, sharp foreground, layered cyberpunk depth, medium-speed rainy atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-18T22:41:18.581+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-09-neon-v-1781790058179",
+      "generatedAt": "2026-06-18T22:41:18.581+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-09/neon-v.png",
+      "sha256": "e3a0334f1d79579f6641eb628f60202448849f483139e83d6d67815f19bbb7c7",
+      "bytes": 3210605,
+      "attempts": 1,
+      "runId": "2026-04-09-neon-v-1781790058179",
+      "generatedAt": "2026-06-18T22:44:41.708+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

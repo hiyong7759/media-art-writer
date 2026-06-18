@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "래스터 전단 직조",
+    "en": "Raster Shear Loom"
+  },
+  "description": {
+    "ko": "각진 파편들이 긴장된 수학적 균형으로 짜여 들어가는 흑백 글리치 격자.",
+    "en": "A monochrome glitch lattice where angular fragments weave into tense mathematical balance."
+  },
+  "prompt": "KURO-X composition \"Raster Shear Loom\": a black and white geometric abstraction arranged as a corrupted mechanical weave, with #1A1A1A knife-edged beams interlocking through #FFFFFF slit-like voids and stepped #808080 / #C0C0C0 spacer plates. The image is viewed straight-on as a dense flat plane, not a character or object, with nested triangles, clipped parallelograms, jagged right-angle hinges, and broken chevron seams snapping out of alignment in rapid horizontal jumps. Fine scanlines run across the entire surface while staggered row offsets, bit-crushed halftone bands, binary dropout holes, and medium-density square particles interrupt the grid. The composition should feel intensely fast and controlled: chaotic fragments are held in exact tension by an invisible geometric system, creating sharp monochrome depth, hard vector edges, high contrast, compressed digital noise, and a severe balance between order and fracture.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-18T23:01:26.470+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-10-kuro-x-1781791264506",
+      "generatedAt": "2026-06-18T23:01:26.470+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-10/kuro-x.png",
+      "sha256": "b568e8ca9447b0df4215705345b2535ce72a54dc69962da01a7dafb9551fae97",
+      "bytes": 2162080,
+      "attempts": 1,
+      "runId": "2026-04-10-kuro-x-1781791264506",
+      "generatedAt": "2026-06-18T23:03:26.603+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

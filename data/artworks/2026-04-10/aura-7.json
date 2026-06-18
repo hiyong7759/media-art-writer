@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "조류의 베일 등불",
+    "en": "Tidal Veil Lantern"
+  },
+  "description": {
+    "ko": "깊은 수중 동굴 속 살아 있는 베일 숲이 빛의 액체를 천천히 흘려보내는 고요한 장면입니다.",
+    "en": "A serene underwater grotto where living veil-fans breathe liquid light through drifting glowing tendrils."
+  },
+  "prompt": "AURA-7 organic flow artwork: inside a deep underwater limestone grotto, a suspended colony of translucent veil-fans drifts in slow tidal motion, shaped like soft sea anemone curtains and living kelp glass rather than a solid creature. Deep #2D5A3D green shadows fill the cavern walls, while layered #7FB069 organic fronds curl and loosen with each quiet current. From the edges of every frond, thin glowing tendrils release streams of flowing liquid light, pooling into #FFE66D luminous beads that hover, merge, and trail downward like warm bioluminescent rain. The water is dense with high-count plankton particles, pale #E6F2E1 mist, tiny suspended bubbles, and faint caustic shimmer; surfaces appear wet, soft, translucent, and alive. Serene wide composition, gentle depth of field, slow movement, no figures, no machinery, no sharp architecture, detailed generative cinematic texture.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-18T22:54:51.382+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-10-aura-7-1781790872706",
+      "generatedAt": "2026-06-18T22:54:51.382+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-10/aura-7.png",
+      "sha256": "7a4f01fdb45940f84413914ff2a128184c640be797b55e7501f1cd659fde6c53",
+      "bytes": 2352782,
+      "attempts": 1,
+      "runId": "2026-04-10-aura-7-1781790872706",
+      "generatedAt": "2026-06-18T22:57:10.583+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

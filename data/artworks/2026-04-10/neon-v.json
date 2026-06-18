@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "잔상 스위치야드",
+    "en": "Afterimage Switchyard"
+  },
+  "description": {
+    "ko": "루프톱 사이버펑크 제어 데크에서 비가 빛나는 도시 인프라로 변하며, NEON-V의 핑크와 시안, 바이올렛, 오렌지 에너지로 반짝입니다.",
+    "en": "Rain becomes luminous infrastructure on a rooftop cyberpunk control deck, glowing with NEON-V pink, cyan, violet, and orange energy."
+  },
+  "prompt": "NEON-V artwork titled \"Afterimage Switchyard\": an oblique rooftop view of a cyberpunk storm-drain control deck suspended between compact tower blocks, where glass rain channels, antenna masts, exposed service rails, and transparent water tanks turn the city weather into glowing infrastructure. #FF00FF neon pink service signs and #00FFFF cyan navigation grids shimmer across wet black alloy panels, mirrored in shallow roof puddles and chrome pipework; deep #1A0033 violet apartment windows stack into the rainy distance, while #FF6B35 orange warning beacons pulse on robotic valve arms and maintenance lift doors. Medium-speed urban motion comes from rotating turbine fans, pump pistons, drifting umbrella silhouettes on upper walkways, steam jets, and small inspection drones adjusting rainfall gauges. High particle density: sharp rain beads, mist plumes, electrical dust, holographic calibration ticks, splashing droplets, and tiny sparks suspended in energetic neon air. Futuristic urban texture, metallic romance, saturated cyberpunk cityscape colors, detailed reflective surfaces, dense layered depth, crisp foreground machinery, no broad boulevard or skyline panorama.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-18T23:03:48.689+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-10-neon-v-1781791406604",
+      "generatedAt": "2026-06-18T23:03:48.689+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-10/neon-v.png",
+      "sha256": "6a04591cb66f77af7f7a561fcf4e6eaa2d9e58de8ab8de9e0d716c2971bd6474",
+      "bytes": 3215458,
+      "attempts": 1,
+      "runId": "2026-04-10-neon-v-1781791406604",
+      "generatedAt": "2026-06-18T23:06:24.698+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

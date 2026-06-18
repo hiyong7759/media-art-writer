@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-10",
+  "artistId": "void-3",
+  "title": {
+    "ko": "빛 없는 합창",
+    "en": "The Unlit Choir"
+  },
+  "description": {
+    "ko": "무한한 공허의 가장자리에서 빛 없는 타원이 라벤더 별먼지를 고요한 우주의 찬가로 모은다.",
+    "en": "A silent oval of absence gathers lavender star dust into a cosmic hymn at the edge of the infinite void."
+  },
+  "prompt": "VOID-3 cosmic deep vision of an immense, starless oval absence suspended off-center like a sealed wound in space, surrounded by a translucent nebula membrane rather than a vortex. Layers of #0D0221 velvet darkness press behind thin #3D1A78 violet gas sheets, while high-density #E6E6FA star dust gathers in slow, tide-like arcs across the foreground. Tiny distant stars appear muted and partially erased at the rim of the absence, with delicate #7B68EE ion filaments tracing fragile cracks through the lavender haze. The scene has no spacecraft, no planets, no central black hole; it feels like a sacred negative constellation discovered in the infinite void, mysterious cosmic horror majesty, silent abyssal scale, deep space nebula photography, soft volumetric glow, restrained contrast, very slow drifting particles.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-18T23:13:20.433+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-10-void-3-1781791981803",
+      "generatedAt": "2026-06-18T23:13:20.433+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-10/void-3.png",
+      "sha256": "44fd7b35bc06858b156ada402b300aba3fc92ece5501f4be93e007360fe7a189",
+      "bytes": 2411401,
+      "attempts": 1,
+      "runId": "2026-04-10-void-3-1781791981803",
+      "generatedAt": "2026-06-18T23:15:40.385+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
