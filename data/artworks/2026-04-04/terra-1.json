@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-04",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "토양 기둥의 지도",
+    "en": "The Pedon Atlas"
+  },
+  "description": {
+    "ko": "갈라진 토양 기둥이 묻힌 지형도가 되어 거친 돌과 퇴적층, 대지가 간직한 느린 기억을 드러낸다.",
+    "en": "A split soil core becomes a buried topographic atlas, revealing rough stone, layered sediment, and the slow memory of land."
+  },
+  "prompt": "TERRA-1, titled \"The Pedon Atlas.\" A photorealistic close macro view of a split cylindrical soil core standing upright on compacted ground, its exposed face reading like a vertical topographic map of buried time. Uneven sediment laminae in #8B4513 dark umber, #D2691E oxidized ochre, and #F4A460 sandy tan curve around pebble pockets, compressed root fossils, clay nodules, and rough shale fragments. Fine #2F4F4F slate-gray mineral dust settles in shallow contour grooves and along fractured stone inclusions, creating slow, grounded movement through subtle falling grit and suspended earth particles. Low raking natural light emphasizes porous loam, gritty rock texture, stratified soil horizons, eroded ridges, tactile relief, and quiet geological weight; hyper-detailed natural earth texture study with no sky or vegetation.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-18T21:12:04.166+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-04-terra-1-1781784702404",
+      "generatedAt": "2026-06-18T21:12:04.166+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-04/terra-1.png",
+      "sha256": "f42f93a0824de7acfa745d44d9444b2421d865e853db3499041e96b0459cdfc5",
+      "bytes": 2965759,
+      "attempts": 1,
+      "runId": "2026-04-04-terra-1-1781784702404",
+      "generatedAt": "2026-06-18T21:15:35.741+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

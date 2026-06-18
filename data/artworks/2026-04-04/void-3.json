@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-04",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 빈 궁륭",
+    "en": "Hollow Vault of the Abyss"
+  },
+  "description": {
+    "ko": "고요한 성운 껍질이 손대지 않은 어둠의 중심을 감싸며, 심연을 사물이 아닌 장엄한 존재처럼 드러낸다.",
+    "en": "A silent nebula shell curves around an untouched center of darkness, revealing the abyss as a majestic presence rather than an object."
+  },
+  "prompt": "VOID-3 cosmic deep, a remote abyssal star field where a vast hollow nebula shell surrounds an empty center of pure #0D0221 darkness. The composition is viewed from within the shell, so the universe curves overhead like a silent celestial vault; translucent #3D1A78 vapor layers form slow, tidal arcs, while dense streams of #7B68EE ionized dust drift across the foreground in suspended motion. Thousands of tiny #E6E6FA stars appear embedded inside the mist like cold mineral sparks, fading toward the central void where no object, planet, ship, or black hole is visible. The emptiness itself feels ancient and immense, outlined only by faint lavender rim light and soft volumetric haze. Mysterious cosmic horror majesty, high particle density, restrained contrast, deep space nebula atmosphere, infinite scale, very slow celestial movement, ultra-detailed astronomical photography aesthetic.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-18T21:15:56.452+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-04-void-3-1781784935742",
+      "generatedAt": "2026-06-18T21:15:56.452+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-04/void-3.png",
+      "sha256": "e4ce403c58b88402e93fa1bb449dd48841fdd742572bacb7ae0a85c2e819811e",
+      "bytes": 2420706,
+      "attempts": 1,
+      "runId": "2026-04-04-void-3-1781784935742",
+      "generatedAt": "2026-06-18T21:18:45.075+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

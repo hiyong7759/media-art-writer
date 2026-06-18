@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-04",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "칼날 시계 탈동기화",
+    "en": "Blade Clock Desync"
+  },
+  "description": {
+    "ko": "긴장감 있는 흑백 타이밍 다이얼이 날카로운 기하학 리듬으로 균열되며, 수학적 질서와 빠른 글리치 불안정성을 균형 있게 드러낸다.",
+    "en": "A tense monochrome timing dial fractures into sharp geometric rhythms, balancing mathematical order with fast glitch instability."
+  },
+  "prompt": "KURO-X artwork titled \"Blade Clock Desync\": a black and white geometric abstraction arranged as a fractured radial timing dial, with concentric rings of #1A1A1A angular wedges, #FFFFFF knife-thin gaps, and #808080 / #C0C0C0 tick marks snapping out of alignment. The image feels like a corrupted mechanical clock seen through a malfunctioning monochrome display: serrated arcs are staggered by tiny frame jumps, triangular hands repeat as ghosted hard-edge echoes, and narrow scanlines vibrate across every layer. Medium-density square particles and clipped rectangular data crumbs orbit the center in fast motion, while stepped halftone noise, broken registration marks, and harsh black-white contrast create dense monochrome complexity. No figure, no landscape, only precise mathematical order under intense glitch pressure, sharp angles, crisp vector geometry, and a balanced yet unstable circular composition.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-18T21:04:39.808+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-04-kuro-x-1781784260648",
+      "generatedAt": "2026-06-18T21:04:39.808+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-04/kuro-x.png",
+      "sha256": "f0f1e565a41e13d581f8a19bd200e2259b116d71f9564df93ba23f7419985b2b",
+      "bytes": 2415089,
+      "attempts": 1,
+      "runId": "2026-04-04-kuro-x-1781784260648",
+      "generatedAt": "2026-06-18T21:07:14.400+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
