@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-06",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "분산의 자이로스코프",
+    "en": "Gyroscope of Dispersion"
+  },
+  "description": {
+    "ko": "밝게 빛나는 굴절 유리 자이로스코프가 질주하는 빛을 무지개 카스틱과 순수한 스펙트럼 에너지로 바꿉니다.",
+    "en": "A bright refractive glass gyroscope channels racing light into rainbow caustics and pure spectral energy."
+  },
+  "prompt": "A radiant kinetic still life of a transparent glass gyroscope floating in a sunlit white atrium, its nested rings made from curved beveled lenses rather than flat prisms. Thin pulses of white light race around the circular tracks, bending through each lens and bursting into intersecting arcs of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. Rainbow caustics appear as crisp spiral grids across the floor, ceiling, and the glass rings themselves, with visible light dispersion, intense glass refraction, clean chromatic aberration on every rim, low sparse particles suspended in the air, fast luminous motion trails, bright pure-energy mood, polished futuristic clarity.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-18T22:14:10.855+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-06-prism-2-1781788433127",
+      "generatedAt": "2026-06-18T22:14:10.855+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-06/prism-2.png",
+      "sha256": "cf445cab336783ce41e92661d1b81f4a476a8796384f52e000f53d052c40fb4f",
+      "bytes": 2416114,
+      "attempts": 1,
+      "runId": "2026-04-06-prism-2-1781788433127",
+      "generatedAt": "2026-06-18T22:16:07.390+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
