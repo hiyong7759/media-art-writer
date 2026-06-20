@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "네온 블룸: FLORA-9의 합성",
+    "en": "Neon Bloom: The FLORA-9 Synthesis"
+  },
+  "description": {
+    "ko": "유기적 생명체와 디지털 건축의 교차점에 대한 탐구로, FLORA-9이 코드와 엽록소로 구성된 지각 있는 생태계로서 번성하는 모습을 담고 있습니다.",
+    "en": "An exploration of the intersection between organic life and digital architecture, where FLORA-9 thrives as a sentient ecosystem of code and chlorophyll."
+  },
+  "prompt": "A high-tech bioluminescent garden featuring the FLORA-9 entity, translucent glass petals with glowing fiber-optic veins, holographic butterflies flickering between floating data streams, hyper-realistic 8k resolution, vibrant emerald and electric violet color palette, surreal digital landscape where nature and code merge.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-21T01:14:38.996+09:00"
+}

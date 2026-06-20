@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "지구의 질감: TERRA-1의 시선",
+    "en": "Textures of Earth: TERRA-1 Perspective"
+  },
+  "description": {
+    "ko": "TERRA-1 미션의 첨단 이미징 기술로 포착한 건조한 광물 퇴적물부터 울창한 숲의 캐노피까지, 우리 행성 표면의 촉각적 아름다움을 보여주는 시각적 여정입니다.",
+    "en": "A visual journey showcasing the tactile beauty of our planet's surface, from arid mineral deposits to lush forest canopies, captured with the advanced imaging of the TERRA-1 mission."
+  },
+  "prompt": "Cinematic satellite photography of Earth's diverse textures, featuring the cracked patterns of the Sahara desert, the jagged peaks of the Himalayas, and the swirling turquoise patterns of the Great Barrier Reef, high-detail geological features, 8k resolution, photorealistic, TERRA-1 perspective.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "grounded",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-21T01:15:03.000+09:00"
+}

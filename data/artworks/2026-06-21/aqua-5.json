@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "아쿠아-5: 심해의 개척자",
+    "en": "AQUA-5: Abyssal Frontier"
+  },
+  "description": {
+    "ko": "아쿠아-5는 대양의 가장 깊은 곳에 위치한 최첨단 수중 연구 시설입니다. 고도의 내압 소재와 생체 발광 기술을 활용하여 미지의 해양 생태계와 열수 에너지원을 연구합니다.",
+    "en": "AQUA-5 is a state-of-the-art underwater research facility stationed in the deepest parts of the ocean. It utilizes advanced pressure-resistant materials and bioluminescent technology to study uncharted marine ecosystems and hydrothermal energy sources."
+  },
+  "prompt": "A cinematic, wide-angle shot of the AQUA-5 deep-sea station, featuring a futuristic modular design with glowing cyan bioluminescent accents, submerged in the midnight zone of the Pacific Ocean, surrounded by schools of transparent jellyfish and volcanic thermal vents, hyper-realistic, 8k resolution, unreal engine 5 render, volumetric underwater lighting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-21T01:15:11.515+09:00"
+}

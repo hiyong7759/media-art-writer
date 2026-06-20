@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "운동적 파편화",
+    "en": "The Kinetic Defragmentation"
+  },
+  "description": {
+    "ko": "디지털 글리치와 날카로운 각도의 절제된 혼돈 속으로 부서지는 흑요석 구체의 기하학적 연구.",
+    "en": "A geometric study of an obsidian sphere shattering into a disciplined chaos of digital glitches and sharp angles."
+  },
+  "prompt": "A brutalist digital sculpture by KURO-X, titled 'The Kinetic Defragmentation.' A massive #1A1A1A obsidian sphere suspended in a sterile #FFFFFF void, caught in the middle of a controlled geometric explosion. The core is shattering into thousands of #808080 and #C0C0C0 razor-sharp polygonal shards that follow a mathematical spiral. Heavy digital glitch artifacts, horizontal pixel-sorting layers, and sharp RGB chromatic aberration slice through the fragments. High-contrast ray-traced reflections on shifting obsidian planes intersect with digital scanlines. Unreal Engine 5 aesthetic, 8k resolution, capturing the cold elegance of systematic data corruption.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-21T01:14:24.152+09:00"
+}
