@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Motion Lab</title>
+    <link rel="stylesheet" href="css/image-motion-lab.css?v=1">
+</head>
+
+<body>
+    <main class="stage" aria-label="Image motion canvas lab">
+        <canvas id="motionCanvas"></canvas>
+    </main>
+
+    <header class="toolbar">
+        <label class="field artwork-field" for="artworkSelect">
+            <span>Artwork</span>
+            <select id="artworkSelect"></select>
+        </label>
+
+        <div class="mode-tabs" aria-label="Motion mode">
+            <button type="button" data-mode="still">Still</button>
+            <button type="button" data-mode="slice">Slice</button>
+            <button type="button" data-mode="flow" class="active">Masked Flow</button>
+            <button type="button" data-mode="mesh">Mesh</button>
+            <button type="button" data-mode="hybrid">Hybrid</button>
+            <button type="button" data-mode="mask">Mask</button>
+        </div>
+
+        <label class="field slider-field" for="strengthSlider">
+            <span>Strength</span>
+            <input id="strengthSlider" type="range" min="0" max="1" step="0.01" value="0.42">
+        </label>
+
+        <label class="field slider-field" for="speedSlider">
+            <span>Speed</span>
+            <input id="speedSlider" type="range" min="0" max="1" step="0.01" value="0.36">
+        </label>
+
+        <label class="field slider-field" for="maskSlider">
+            <span>Mask</span>
+            <input id="maskSlider" type="range" min="0" max="1" step="0.01" value="0.48">
+        </label>
+
+        <label class="check-field" for="splitToggle">
+            <input id="splitToggle" type="checkbox">
+            <span>Split</span>
+        </label>
+    </header>
+
+    <section class="readout">
+        <div>
+            <p class="kicker"><span id="statusText">loading</span><span id="fpsText">0 fps</span></p>
+            <h1 id="artworkTitle">Image Motion Lab</h1>
+            <p id="artworkDescription"></p>
+        </div>
+        <div id="statsText" class="stats"></div>
+    </section>
+
+    <script type="module" src="js/image-motion-lab.js?v=1"></script>
+</body>
+
+</html>
