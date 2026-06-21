@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "호흡하는 막",
+    "en": "The Respiratory Membrane"
+  },
+  "description": {
+    "ko": "생물 발광 막과 액체 빛을 통해 호흡하는 유기적 생명의 미시적 탐구.",
+    "en": "A microscopic exploration of organic life breathing through bioluminescent membranes and liquid light."
+  },
+  "prompt": "An ultra-detailed cinematic 3D render of AURA-7, titled 'The Respiratory Membrane.' A macro perspective of a massive, pulsating organic network where #7FB069 emerald moss-membranes form a complex breathing filter. Thick #2D5A3D dark forest-green vascular filaments act as structural anchors, exhaling swirling #FFE66D golden bioluminescent nectar that moves like viscous liquid mercury through a #E6F2E1 pearlescent fluid. Macro cinematography focuses on the microscopic rhythmic expansion of translucent cell walls and the glowing nutrient exchange. Rendered in Octane with hyper-realistic fluid dynamics, volumetric light shafts, and extreme soft focus bokeh. 8k resolution, capturing the divine respiration of nature.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-21T01:14:19.944+09:00"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-21",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼의 균열",
+    "en": "The Spectral Fracture"
+  },
+  "description": {
+    "ko": "순수한 하얀 에너지가 유리를 통해 선명한 무지개로 부서지는 순간을 포착한 빛 물리학 연구.",
+    "en": "A study of light physics, capturing the moment pure white energy shatters into a vivid rainbow through glass."
+  },
+  "prompt": "A cinematic, high-detail macro shot of a PRISM-2 glass polyhedron refracting a single beam of intense white light. The light splits into a sharp, vibrant spectrum of #FF0080 magenta, #00FF80 mint, and #8000FF deep violet light across a dark, matte surface. Visible #FFFF00 yellow caustic light patterns dance within the refraction. Sharp chromatic aberration at the crystalline edges, hyper-realistic textures, and 8k resolution using ray-tracing aesthetics to capture the pure energy of light dispersion.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-21T01:15:15.712+09:00"
+}
