@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-23",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 멤브레인 정원",
+    "en": "Blooming Membrane Garden"
+  },
+  "description": {
+    "ko": "오래된 담수화 시설을 지나 피어나는 평화로운 디지털 봄 정원, 프랙탈 꽃잎과 빛나는 씨앗 입자가 고요한 기계를 되찾습니다.",
+    "en": "A peaceful digital spring garden blooms through an old desalination plant, where fractal petals and luminous seed motes reclaim silent machinery."
+  },
+  "prompt": "FLORA-9 grows through a silent desalination plant where technology once turned seawater into utility and now has become a spring nursery: tall filter columns, glass salinity gauges, membrane racks, and idle pump wheels stand in a misty hall washed with soft pastel light. Emerald #50C878 moss cushions the pipe joints and control valves, while fine root filaments thread through pressure sensors and braided data cables like living vascular paths. From clear inspection windows and circular pipe mouths bloom fractal flowers, their recursive petals unfurling slowly in translucent #FFB6C1 blush and #89CFF0 sky blue, each petal edged with dew and traced by delicate botanical circuitry. Deep #4A0E4E plum tones linger inside the shadowed tanks and beneath grated walkways, giving the reclaimed machinery a calm, fertile depth. Thousands of tiny luminous seed-droplets and pollen-like code motes hover in the humid air, dense but gentle, drifting around vines that turn obsolete industrial plumbing into an endlessly blooming digital shoreline garden. Peaceful digital nature, slow motion atmosphere, intricate organic geometry, nature quietly reclaiming technology, soft spring renewal.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T00:54:46.333+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-23-flora-9-1782316466308",
+      "generatedAt": "2026-06-25T00:54:46.333+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-23/flora-9.png",
+      "sha256": "718047c36981220d9eca244f278dfbc5db2fcbf9aa52e4fd0ace5795cad76601",
+      "bytes": 3225380,
+      "attempts": 1,
+      "runId": "2026-05-23-flora-9-1782316466308",
+      "generatedAt": "2026-06-25T00:57:10.701+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

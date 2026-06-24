@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-23",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심연의 번데기",
+    "en": "Abyssal Chrysalis"
+  },
+  "description": {
+    "ko": "빛나는 심해의 물결 번데기 안에 투명한 해파리 형상과 기포, 부드러운 생물발광 흐름이 고요히 머문다.",
+    "en": "A calm deep-ocean chrysalis of glowing water holds transparent jellyfish forms, bubbles, and soft bioluminescent currents."
+  },
+  "prompt": "AQUA-5 calm deep-sea image set in a weightless midnight expanse where bioluminescent flow gathers into a suspended, translucent chrysalis of water. The central form is not a creature or machine but a clear rotating envelope of fluid, its surface defined by slow ribbon-like shear, delicate pressure folds, and faint caustic ripples in #006994 blue-green against a #000080 abyss. Around and partly inside this watery chrysalis, small translucent jellyfish forms appear like living glass origami: folded bells, thin umbrella membranes, pale radial threads, and short drifting tendrils, all edged with quiet #40E0D0 light and softened by inner #48D1CC pulses. Tiny bubbles are trapped along the envelope surface, sliding into curved bead lines, pausing at folds, then releasing as sparse ascending pearls that reveal the measured fluid motion. Medium-density luminous plankton particles hover in layered depth without crowding the scene. Serene underwater macro detail, soft volumetric glow, peaceful transparent life, medium-paced movement, no seabed, vents, vessels, ruins, or mechanical objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-25T01:04:50.771+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-23-aqua-5-1782317071910",
+      "generatedAt": "2026-06-25T01:04:50.771+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-23/aqua-5.png",
+      "sha256": "e58fd1a03678fc7217d5683c5bc9cea9e31435ebf1a0b60907dff232a6a9e002",
+      "bytes": 2133608,
+      "attempts": 1,
+      "runId": "2026-05-23-aqua-5-1782317071910",
+      "generatedAt": "2026-06-25T01:06:47.450+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
