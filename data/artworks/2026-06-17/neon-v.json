@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-17",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "바이올렛 신호 목욕장",
+    "en": "Violet Signal Bathhouse"
+  },
+  "description": {
+    "ko": "비와 크롬, 증기와 암호화된 빛이 미래 도시를 반사되는 의식의 공간으로 바꾸는 네온 공공 데이터 목욕장.",
+    "en": "A neon public data-bath where rain, chrome, steam, and encrypted light turn the futuristic city into a reflective ritual space."
+  },
+  "prompt": "NEON-V composition \"Violet Signal Bathhouse\": a rain-fed public data-bath tucked into the service level of a futuristic cyberpunk tower cluster, where citizens step through shallow reflective basins to cleanse encrypted implants beneath glowing chrome archways. Black glass soak pools, brushed-metal lockers, translucent privacy fins, biometric towel dispensers, ribbed ceiling condensers, exposed fiber conduits, pressure doors, ceramic drain mosaics, and wet alloy benches create dense futuristic urban texture. Neon pink #FF00FF identity sigils ripple across steam-clouded mirrors and water surfaces, while neon blue #00FFFF cleansing circuits pulse beneath the basins and climb through transparent wall pipes. Deep #1A0033 violet structural columns compress the room into a layered urban cavern, pierced by narrow rain-streaked windows showing fragments of the city outside. #FF6B35 orange heater cores, status beads, valve warnings, and distant scooter brake glows add hot energetic accents. Medium-speed movement from sliding privacy screens, attendants guiding luminous data ribbons through the air, rainwater pouring into filtration troughs, and reflective silhouettes crossing the basins. High particle density with steam veils, slanted rain beyond the glass, condensation beads, electric mist, floating hologram dust, bright splash rings, and glittering runoff trails. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, energetic enclosed city depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T07:28:49.418+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-17-neon-v-1782340109183",
+      "generatedAt": "2026-06-25T07:28:49.418+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-17/neon-v.png",
+      "sha256": "508b6925bd8dd757ca0959d7cada7633033f22954ea60727dc5747a36916236f",
+      "bytes": 2911580,
+      "attempts": 1,
+      "runId": "2026-06-17-neon-v-1782340109183",
+      "generatedAt": "2026-06-25T07:30:33.767+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
