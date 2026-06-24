@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-22",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플랑크톤 회로의 개화",
+    "en": "Plankton Circuit Bloom"
+  },
+  "description": {
+    "ko": "고요한 수족관 설비실이 FLORA-9의 영원한 정원으로 변해, 파스텔 프랙탈 꽃잎과 빛나는 씨앗의 흐름이 펌프와 계기, 유리 배관을 되찾습니다.",
+    "en": "A peaceful aquarium systems room becomes an eternal FLORA-9 garden, where fractal pastel petals and luminous seed currents reclaim pumps, gauges, and glass pipes."
+  },
+  "prompt": "FLORA-9 as a quiet decommissioned aquarium systems room where seawater monitoring technology has been overtaken by an endless digital spring: transparent acrylic pipes, idle pump housings, salinity gauges, sensor panels, and valve wheels are softened by emerald #50C878 moss, pale algae, and rootlike fiber strands that follow the old water circuits. Inside the clear pipes, slow streams of sky-blue #89CFF0 light carry tiny seed particles like luminous plankton, while fractal flowers bloom from cracked pressure dials and open filter chambers. Their recursive digital petals unfold in calm layers of blush #FFB6C1 and misty cyan, translucent like wet glass, with delicate botanical circuitry branching through each petal. Deep #4A0E4E plum shadows rest beneath metal grates and inside dark maintenance cabinets, giving the pastel growth a gentle depth. Dense clouds of soft code-pollen drift through the humid air, catching on dew beads and glass edges, as nature quietly rewrites pumps, cables, gauges, and pipes into a peaceful garden that keeps blooming forever. Serene digital nature, high particle density, slow movement, intricate fractal botany, soft pastel illumination, no harsh neon, no human figures.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T00:32:37.340+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-22-flora-9-1782315135003",
+      "generatedAt": "2026-06-25T00:32:37.340+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-22/flora-9.png",
+      "sha256": "f2894daec02c1a498eaae86854cfb55b79deb06d2d8a7b2bf0975e5b7b468c5a",
+      "bytes": 3570252,
+      "attempts": 1,
+      "runId": "2026-05-22-flora-9-1782315135003",
+      "generatedAt": "2026-06-25T00:36:34.052+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

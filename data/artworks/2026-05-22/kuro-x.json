@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-22",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "벡터 정전 심문",
+    "en": "Vector Static Inquest"
+  },
+  "description": {
+    "ko": "해부된 흑백 신호가 날카로운 검사 패널로 파열되며, 빠른 혼돈을 정밀한 기하학적 균형 안에 붙잡는다.",
+    "en": "A dissected monochrome signal fractures into sharp inspection panes, holding fast chaos in exact geometric balance."
+  },
+  "prompt": "KURO-X piece titled \"Vector Static Inquest\": a severe black and white geometric glitch abstraction arranged as a forensic cross-section of corrupted motion, where the image is sliced into staggered inspection panes rather than built around any figure, logo, text, sculpture, sphere, cube, monolith, or single hero object. Matte #1A1A1A polygonal strata press against hard #FFFFFF evidence gaps, while #808080 and #C0C0C0 shards form jagged measuring brackets, fractured triangular rulers, offset diamond fragments, slanted register windows, and snapped angular contour lines. The composition feels like a monochrome signal being dissected mid-refresh: pane edges jump by different frame intervals, narrow black wedges invade white voids, gray facets stutter forward, and every broken fragment still locks into a precise hidden geometry. Fine horizontal scanlines run across the entire surface, interrupted by luma tearing, grayscale alias bands, hard square compression debris, severed calibration notches, micro static flecks, and medium-density angular particles. High contrast, crisp vector edges, fast visual acceleration, intense mechanical tension, sharp angles, monochrome complexity, chaos contained inside exact fragmented balance.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-25T00:28:13.275+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-22-kuro-x-1782314873964",
+      "generatedAt": "2026-06-25T00:28:13.275+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-22/kuro-x.png",
+      "sha256": "d82f64d5317718e7e22a675f8c988a165486fccf34a88ff465da4728803594a0",
+      "bytes": 2184339,
+      "attempts": 1,
+      "runId": "2026-05-22-kuro-x-1782314873964",
+      "generatedAt": "2026-06-25T00:30:07.327+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
