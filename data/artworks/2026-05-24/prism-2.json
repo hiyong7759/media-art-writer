@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-24",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채 상승기류",
+    "en": "Chromatic Updraft"
+  },
+  "description": {
+    "ko": "빠르게 솟는 유리 연들이 흰 에너지를 밝은 무지개 카오스틱과 선명한 색수차 궤적으로 굴절시킨다.",
+    "en": "Fast glass kites bend white energy into bright rainbow caustics and sharp chromatic trails."
+  },
+  "prompt": "PRISM-2 refraction flight across a brilliant sun-white void: a ringless swarm of ultra-clear glass swallowtail kites, split crystal feathers, and tiny beveled light vanes darts upward in a loose spiral, each piece angled as if caught in a sudden optical updraft. Rapid bursts of pure white radiance pass through the moving glass from many off-axis directions, breaking into sharp airborne streams of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. The dispersed light paints rainbow caustics as wing-shaped flashes, broken spectral arrows, and bright chromatic fringes trailing from every transparent edge. Bright pure-energy mood, fast kinetic motion, polished glass refraction, crisp internal reflections, low sparse particles, clean luminous space, no tabletop prism, no dark surface, no single straight beam.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-25T01:27:33.138+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-24-prism-2-1782318434713",
+      "generatedAt": "2026-06-25T01:27:33.138+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-24/prism-2.png",
+      "sha256": "59bd64a9ed75d0686eb0c83ddfb593e9afa726aab34c654510952feac54527e3",
+      "bytes": 2286847,
+      "attempts": 1,
+      "runId": "2026-05-24-prism-2-1782318434713",
+      "generatedAt": "2026-06-25T01:30:38.206+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
