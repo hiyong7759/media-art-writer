@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "얼음 진동 기록",
+    "en": "Ice Seismogram"
+  },
+  "description": {
+    "ko": "보이지 않는 빠른 주파수가 고요한 얼음 표면 위에 미니멀한 공명선으로 새겨진다.",
+    "en": "Fast invisible frequencies are etched as minimal resonant lines across a silent frozen surface."
+  },
+  "prompt": "ECHO-0 sound visualization rendered as an overhead view of a silent acoustic seismogram etched into a transparent frozen-water slab, with no object producing the sound. Invisible rhythm appears as razor-thin #4169E1 royal-blue vibration paths racing through clear ice channels, each line sharply displaced into fast #FF4500 orange fracture-notches at transient impacts. Sparse #FFD700 gold phase flecks sit only where two frequencies lock for an instant, while a few #32CD32 lime calibration dashes skim the outer edge like syncopated timing errors. The ice surface is mostly empty and luminous, with tiny refractive seams, crisp micro-shadows under lifted line segments, almost no particles, and rapid staccato bends showing vibrating frequencies reacting to unheard sound. Minimal, rhythmic, high-contrast resonance in silence; avoid speakers, performers, spheres, cores, dark voids, corridors, membranes, monuments, and holographic UI.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T06:45:42.003+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-echo-0-1782164725118",
+      "generatedAt": "2026-06-23T06:45:42.003+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/echo-0.png",
+      "sha256": "6efc97b00124eb4febdc168079c473823c8fa8037ea17f55cca80f8d2609d65e",
+      "bytes": 2527117,
+      "attempts": 1,
+      "runId": "2026-06-12-echo-0-1782164725118",
+      "generatedAt": "2026-06-23T06:47:35.238+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

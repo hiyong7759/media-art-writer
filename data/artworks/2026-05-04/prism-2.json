@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-04",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "광자 레가타",
+    "en": "Photon Regatta"
+  },
+  "description": {
+    "ko": "유리 빛의 돛들이 백색 광휘를 가르며 순수한 에너지를 밝은 무지개 카스틱으로 분산한다.",
+    "en": "Glass light-sails race through white radiance, splitting pure energy into bright rainbow caustics."
+  },
+  "prompt": "PRISM-2 photon regatta in a brilliant high-key void: a racing fleet of ultra-clear glass sail-forms, curved like thin optical foils and angled at different speeds, cuts through a compressed stream of white radiance. Each transparent sail refracts the rushing light into fast wake trails of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow, leaving crisp rainbow caustics that curl like luminous spray without water. Chromatic aberration flares along every beveled sail edge, with sharp internal reflections, bright glass purity, low sparse particles, and energetic motion streaks. No tabletop setup, no dark surface, no traditional triangular prism, only suspended pure rainbow energy and clean refraction dynamics.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-24T11:43:25.062+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-04-prism-2-1782268986427",
+      "generatedAt": "2026-06-24T11:43:25.063+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-04/prism-2.png",
+      "sha256": "96d6a0a11bc955c5644e31075fe0e6f3e899343fd78db095aa51e564ad149472",
+      "bytes": 2142579,
+      "attempts": 1,
+      "runId": "2026-05-04-prism-2-1782268986427",
+      "generatedAt": "2026-06-24T11:45:44.243+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

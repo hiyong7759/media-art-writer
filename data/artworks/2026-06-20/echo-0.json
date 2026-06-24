@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "극좌표 스냅 공명",
+    "en": "Polar Snap Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 리듬이 푸른 파형 호를 주황색 순간 파열과 드문 위상 노드로 휘어 보이게 하는 미니멀한 방사형 사운드 흔적.",
+    "en": "A minimal radial sound trace where invisible rhythm bends blue wave arcs into orange transient snaps and sparse phase nodes."
+  },
+  "prompt": "ECHO-0 sound visualization imagined as a silent polar diffraction trace hovering a few millimeters above a matte graphite field, viewed in a tight oblique macro composition. No speaker, performer, instrument, humanoid, core, sphere, corridor, membrane, glass pane, ice slab, tile grid, ribbon array, vellum map, abacus, or circuit chip appears; the artwork is only minimal line behavior responding to invisible sound. Hair-thin #4169E1 royal-blue soundwave arcs whip outward in broken radial sweeps, then kink into sharp #FF4500 orange snap accents where rapid transient beats cut across the pattern. Sparse #FFD700 gold phase points sit at rare arc intersections, while tiny #32CD32 lime timing bars interrupt the outer rim like syncopated pitch jumps. Keep the particle count low and the negative space dominant: crisp floating line shadows, clipped amplitude corners, offset echo ghosts, high contrast, fast rhythmic tempo, vibrating frequencies made visible as resonance in silence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T10:06:49.292+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-echo-0-1782176790562",
+      "generatedAt": "2026-06-23T10:06:49.292+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/echo-0.png",
+      "sha256": "49dbdbafccd7c778dd4698e27c78be81e7e062b939c6408a672514e02ecf0106",
+      "bytes": 1906098,
+      "attempts": 1,
+      "runId": "2026-06-20-echo-0-1782176790562",
+      "generatedAt": "2026-06-23T10:08:25.324+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

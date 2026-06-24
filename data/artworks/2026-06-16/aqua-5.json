@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "고요한 빛의 계단",
+    "en": "Staircase of Quiet Light"
+  },
+  "description": {
+    "ko": "투명한 심해 밀도파 사이로 발광 해파리들이 떠가고, 작은 기포들이 고요한 물결의 흐름을 드러낸다.",
+    "en": "Bioluminescent jellyfish drift through layered deep-sea density waves, where bubbles reveal calm currents in transparent midnight water."
+  },
+  "prompt": "AQUA-5 deep-sea composition in open midnight blackwater, focused on a suspended staircase of density waves drifting far from any seabed, vents, vessels, ruins, or machines. Thin #006994 blue-green current sheets overlap like transparent glass shelves inside the #000080 depth, each shelf bending into soft Kelvin-like ripples that reveal calm fluid dynamics and gentle pressure refraction. Translucent jellyfish forms hover between the wave steps at varied distances: small clear bell domes, folded veil bodies, faint radial veins, and short weightless tendrils tilted by the passing flow. Their edges glow with quiet #40E0D0 bioluminescence, while slow #48D1CC pulses travel through the gelatin membranes and dissolve into the surrounding water. Tiny bubbles collect beneath each density shelf, flatten into bright oval lenses, then release upward as irregular pearl strands that make the medium-paced current visible without turbulence. Medium-density luminous plankton particles drift through foreground and background layers, creating a serene, meditative deep ocean scene with crisp underwater macro detail, soft volumetric glow, and a peaceful dance of transparent life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T09:27:48.895+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-aqua-5-1782174450609",
+      "generatedAt": "2026-06-23T09:27:48.895+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/aqua-5.png",
+      "sha256": "34a15c2afc8b7df304a641e6fafbf34b8e93f87216e4de54287fcf8741974eac",
+      "bytes": 2151028,
+      "attempts": 1,
+      "runId": "2026-06-16-aqua-5-1782174450609",
+      "generatedAt": "2026-06-23T09:29:39.638+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

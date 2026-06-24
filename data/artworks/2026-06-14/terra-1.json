@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "레골리스의 직조",
+    "en": "The Regolith Loom"
+  },
+  "description": {
+    "ko": "자갈 조각과 흙 알갱이가 등고선 같은 띠로 쌓이며, 침식과 시간이 천천히 엮어 낸 대지의 묵직한 질감을 드러낸다.",
+    "en": "Braided rock chips and soil grains settle into contour bands, revealing the grounded texture of land slowly woven by erosion and time."
+  },
+  "prompt": "TERRA-1, titled \"The Regolith Loom.\" A photorealistic close oblique study of a dry talus apron at the foot of a weathered outcrop, where angular rock chips, compacted soil grains, and thin sediment lenses have settled into braided contour bands across a shallow slope, like a topographic map woven from eroded stone. Dense #8B4513 umber loam fills the deepest interstices, #D2691E oxidized clay dust coats fractured shale and sandstone fragments, and #F4A460 sandy grit collects along the raised crests of each slow-moving debris line. Muted #2F4F4F slate mineral staining appears on chipped edges, pressure shadows, and small polished facets, adding grounded weight to the rough texture. The surface shows imbricated pebbles, crumbly aggregate, mica flecks, dry granular soil, broken sediment layers, and subtle elevation steps formed by gravity and time; low natural grazing light, no sky, no vegetation, no water, no human objects, quiet tactile earth texture with medium particulate detail and slow geological movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T07:18:38.113+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-terra-1-1782166698028",
+      "generatedAt": "2026-06-23T07:18:38.113+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/terra-1.png",
+      "sha256": "ef18e1a2006aaef2fc78b0bfafa316723d9f4d434fee4a4b1cc2b2c396afd5ba",
+      "bytes": 3656286,
+      "attempts": 1,
+      "runId": "2026-06-14-terra-1-1782166698028",
+      "generatedAt": "2026-06-23T07:20:44.700+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

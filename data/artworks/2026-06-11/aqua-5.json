@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "고요한 전단의 꽃",
+    "en": "Silent Shear Bloom"
+  },
+  "description": {
+    "ko": "고요한 심해 전단류 속에서 투명한 해파리 꽃들이 잔잔한 청록빛 생물발광과 떠오르는 기포에 물들어 흐른다.",
+    "en": "Transparent jellyfish blossoms drift through a quiet deep-sea shear current, lit by calm turquoise bioluminescence and rising bubbles."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork set in open midnight water, framed as an intimate diagonal view through a slow internal tide where two transparent currents slide past one another. Instead of a seafloor or machine, the main form is a layered ribbon of pressure-lit water: #006994 blue-green bands bend into gentle S-curves across a #000080 abyss, revealing smooth fluid dynamics, faint shear lines, and soft refractive wavering. Translucent jellyfish forms drift along the slipping boundary like clear glass blossoms seen from different angles, with rounded bells, folded veil edges, faint radial veins, and short weightless tendrils. Their rims glow in #40E0D0 bioluminescence while muted #48D1CC pulses bloom inside the membranes and fade slowly through the water. Small bubbles are caught in the current seam, stretched into tiny lens shapes before separating into uneven vertical threads, making the water movement visible without turbulence. Medium-density luminous plankton particles hover in layered depth, calm and meditative, with crisp underwater macro detail, soft volumetric glow, and the peaceful medium-paced dance of transparent deep-sea life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T06:29:05.949+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-aqua-5-1782163725481",
+      "generatedAt": "2026-06-23T06:29:05.949+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/aqua-5.png",
+      "sha256": "0d9a28358a6ef86d890875762eb2dcb94f6202a87e67218a7e0c55e4308bbab6",
+      "bytes": 2046901,
+      "attempts": 1,
+      "runId": "2026-06-11-aqua-5-1782163725481",
+      "generatedAt": "2026-06-23T06:31:15.637+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

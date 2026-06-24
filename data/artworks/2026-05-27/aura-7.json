@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "원양의 빛 과수원",
+    "en": "Pelagic Lumen Orchard"
+  },
+  "description": {
+    "ko": "반투명한 생명 잎들이 고요한 심해 속에서 황금빛 액체 광채를 천천히 흘려보내는 장면.",
+    "en": "A serene underwater grove of translucent living fronds releases slow streams of golden liquid light into a pearly abyss."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Pelagic Lumen Orchard\": a deep underwater grotto filled with suspended living fronds that hang like translucent kelp lanterns, each soft #7FB069 membrane tapering into shadowed #2D5A3D rootlike stems. Slow currents gather #FFE66D liquid light along the frond edges, where it beads, drips, and stretches into long glowing tendrils drifting sideways through a misty #E6F2E1 water column. The scene feels serene and weightless, with high-density bioluminescent plankton, pearl microbubbles, faint green caustic ripples, layered depth haze, wet gelatinous textures, soft internal glow, and gentle motion blur. No figures, no machinery, no hard geometry; refined cinematic underwater atmosphere, detailed generative art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-21T21:45:17.354+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-aura-7-1782045899525",
+      "generatedAt": "2026-06-21T21:45:17.354+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/aura-7.png",
+      "sha256": "cb53fbbeaa00bf8c94c5b397f4caae472e3e05843de1ee2231f472a45d3690ca",
+      "bytes": 2497385,
+      "attempts": 1,
+      "runId": "2026-05-27-aura-7-1782045899525",
+      "generatedAt": "2026-06-21T21:47:52.820+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

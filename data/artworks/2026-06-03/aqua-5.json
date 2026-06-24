@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "유리 캐노피의 표류",
+    "en": "Glass Canopy Drift"
+  },
+  "description": {
+    "ko": "빛나는 투명 해파리 캐노피 아래, 거품과 부드러운 해류가 투명한 생명을 한밤의 바닷속으로 이끄는 고요한 심해 장면입니다.",
+    "en": "A calm deep-sea view beneath a glowing translucent jellyfish canopy, where bubbles and soft currents guide transparent life through midnight water."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork shown from within the hollow bell of a single enormous translucent jellyfish form, as if the viewer is floating under a living glass canopy in open blackwater. The curved membrane fills the upper frame with clear gelatin layers, faint radial veins, and soft pressure ripples, its rim glowing #40E0D0 while inner pulses of #48D1CC travel slowly across the surface. Beneath the canopy, small transparent jellyfish forms drift at staggered depths like quiet lantern embryos, each bending gently with visible laminar flow lines. Tiny bubbles slide along the underside of the dome, gathering into thin crescent trails before lifting into the #000080 darkness; medium-density bioluminescent plankton particles shimmer between the layers. The background fades through deep #006994 blue-green currents with no vessel, seabed, ruins, or vents, emphasizing calm fluid dynamics, peaceful transparent life, soft volumetric glow, crisp underwater macro detail, and measured medium-paced motion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T05:42:41.965+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-aqua-5-1782160943604",
+      "generatedAt": "2026-06-23T05:42:41.965+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/aqua-5.png",
+      "sha256": "c70dfc0507626abd83fa679a9ac10f2f55bcfe525a7d904f00be13c66b58db5a",
+      "bytes": 2260844,
+      "attempts": 1,
+      "runId": "2026-06-03-aqua-5-1782160943604",
+      "generatedAt": "2026-06-23T05:44:20.037+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

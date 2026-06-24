@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "래스터 압력 게이트",
+    "en": "Raster Pressure Gate"
+  },
+  "description": {
+    "ko": "각진 셔터들이 파편을 압축하며 정확한 균형을 만드는 강렬한 흑백 글리치 필드.",
+    "en": "An intense monochrome glitch field where angular shutters compress fragments into exact balance."
+  },
+  "prompt": "KURO-X artwork titled \"Raster Pressure Gate\": a black and white geometric glitch abstraction built as an asymmetric field of nested angular apertures, like a high-speed monochrome signal being crushed through invisible mechanical shutters. Deep #1A1A1A triangular plates, hard #FFFFFF pressure gaps, and layered #808080 / #C0C0C0 grayscale facets form a tense off-center grid with no figure, logo, sculpture, or single main object. The composition uses staggered zigzag gates, knife-thin diagonal seams, fractured checkerboard strips, stepped chevrons, and abrupt right-angle collapses that appear to accelerate across the frame while remaining mathematically balanced. Fine horizontal scanlines, grayscale channel misregistration, luma tearing, bit-crushed rectangular noise, broken halftone bands, and medium-density square particles create intense monochrome complexity. Crisp vector edges, sharp angles, high contrast, cold mechanical depth, fast visual motion, chaos locked inside exact geometric order.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-21T21:48:14.418+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-kuro-x-1782046072863",
+      "generatedAt": "2026-06-21T21:48:14.418+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/kuro-x.png",
+      "sha256": "749dea36c6af19dc6bf688731b52e15f8051570b11c3d8601f99d76cc0b81029",
+      "bytes": 2645779,
+      "attempts": 1,
+      "runId": "2026-05-27-kuro-x-1782046072863",
+      "generatedAt": "2026-06-21T21:50:25.521+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

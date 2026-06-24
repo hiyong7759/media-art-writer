@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "회전 수하물의 개화",
+    "en": "Carousel Bloom"
+  },
+  "description": {
+    "ko": "고요한 공항 수하물 홀이 FLORA-9의 영원한 디지털 정원이 되어 멈춘 컨베이어에서 프랙탈 꽃잎이 피어납니다.",
+    "en": "A quiet airport baggage hall becomes FLORA-9's eternal digital garden, where fractal petals rise from dormant conveyors."
+  },
+  "prompt": "FLORA-9 in a deserted airport baggage-claim hall transformed into an endless spring conservatory: oval conveyor belts sit motionless like dark river loops, their rubber slats split by emerald #50C878 moss, fern-like circuit tendrils, and hair-thin roots following the old sensor tracks. From the seams between rollers bloom fractal flowers with layered digital petals, blush #FFB6C1 fading into #89CFF0 sky blue, each petal translucent and recursively patterned like soft botanical lace rather than hard machinery. Retired barcode scanners, luggage-tag printers, and arrival monitors remain visible beneath the growth, their glass faces dimly reflecting deep #4A0E4E plum shadows and pastel morning light from the terminal windows. Fiber-optic vines curl around metal railings and baggage chutes, sending slow pulses through dew beads shaped like tiny data seeds. A high-density field of luminous pollen motes hangs above the carousels in gentle, suspended currents, making the reclaimed technology feel calm, fertile, and permanently in bloom. Peaceful digital nature, soft pastel palette, intricate botanical geometry, slow motion atmosphere, nature quietly overtaking obsolete travel systems.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T06:18:18.841+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-flora-9-1782163079356",
+      "generatedAt": "2026-06-23T06:18:18.841+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/flora-9.png",
+      "sha256": "8a6c50c4bdf4ef6dce93e76c4b9b6cb3a94da9751be613644b69f1e4f06e9b90",
+      "bytes": 3269110,
+      "attempts": 1,
+      "runId": "2026-06-11-flora-9-1782163079356",
+      "generatedAt": "2026-06-23T06:20:50.509+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "회로 등불 정원",
+    "en": "Circuit Lantern Yard"
+  },
+  "description": {
+    "ko": "비밀스러운 사이버펑크 설비 안뜰이 네온 전력 셀, 젖은 금속 질감, 빗물에 갈라진 반사로 빛난다.",
+    "en": "A hidden cyberpunk utility courtyard glows with neon power cells, wet metal textures, and rain-split reflections."
+  },
+  "prompt": "NEON-V artwork titled \"Circuit Lantern Yard\": a compact cyberpunk repair courtyard hidden behind stacked tower blocks after a neon rainstorm, viewed through a half-open service gate with the city compressed into wet metal layers. Suspended lantern-shaped power cells, rain-fed cable spools, black titanium utility cabinets, translucent conduit bridges, gridded drain plates, ceramic wall tiles, pressure doors, and polished tool benches create dense futuristic urban texture. Neon pink #FF00FF fault diagrams glow across hanging diagnostic screens, neon blue #00FFFF current paths trace through glass cables and puddled floor channels, and deep #1A0033 violet residential walls rise close on every side. #FF6B35 orange capacitor cores, solder flares, warning tabs, and heater vents add energetic warm flashes against the cool reflections. Medium-speed motion from technicians swapping glowing power modules, small wall-crawling maintenance drones, sliding access panels, and rainwater flowing through illuminated gutters. High particle density with fine rain needles, steam curls, electric mist, bright droplets on chrome edges, floating hologram fragments, and tiny sparks scattering into reflective puddles. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, layered enclosed city depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T09:37:08.033+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-neon-v-1782175006298",
+      "generatedAt": "2026-06-23T09:37:08.033+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/neon-v.png",
+      "sha256": "11753daee15153eb74c4b556d0c5d9497f185d2eb9e8f682cb58d8d5c9e7cb45",
+      "bytes": 2735175,
+      "attempts": 1,
+      "runId": "2026-06-19-neon-v-1782175006298",
+      "generatedAt": "2026-06-23T09:39:31.431+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

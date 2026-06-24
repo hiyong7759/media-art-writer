@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-27",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "조수 웅덩이의 신호 개화",
+    "en": "Tidepool Signal Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9가 잊힌 해안 케이블 착륙지를 평화로운 디지털 습지로 바꾸고, 오래된 관로에서 프랙탈 꽃잎이 피어나며 부드러운 코드 꽃가루가 조수와 함께 흐른다.",
+    "en": "FLORA-9 turns a forgotten coastal cable landing into a peaceful digital wetland, where fractal petals bloom from old conduits and soft code-pollen drifts with the tide."
+  },
+  "prompt": "A peaceful FLORA-9 coastal cable garden at low spring tide, where a forgotten undersea communication landing site has become a soft digital wetland. Weathered fiber-optic conduits emerge from the sand like old roots, their ceramic junction boxes, signal repeaters, and warning posts softened by emerald #50C878 moss, salt grass, and translucent algae. From the open cable mouths bloom fractal flowers with recursive digital petals, pale #FFB6C1 blush folding into clear #89CFF0 sky blue, each petal thin as sea glass and traced with living circuit veins. Deep #4A0E4E plum tones glow in tidepool shadows and beneath corroded metal housings, while tiny dew beads on the cables hold miniature branching code patterns. High-density luminous pollen-seeds hover above the pools and drift slowly with the sea mist, turning obsolete communication technology into an eternally blooming digital shoreline. Soft pastel light, intricate botanical geometry, calm regenerative mood, nature quietly reclaiming every connector, casing, and buried signal line.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-24T00:34:59.147+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-27-flora-9-1782228879918",
+      "generatedAt": "2026-06-24T00:34:59.147+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-27/flora-9.png",
+      "sha256": "36082507a1243b0807c798be1b95a760d1fcacbe360f1640a3cf22dfffaf03bf",
+      "bytes": 2971600,
+      "attempts": 1,
+      "runId": "2026-04-27-flora-9-1782228879918",
+      "generatedAt": "2026-06-24T00:37:16.537+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

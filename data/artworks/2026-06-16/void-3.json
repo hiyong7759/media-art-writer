@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 압력 껍질",
+    "en": "Abyssal Pressure Shells"
+  },
+  "description": {
+    "ko": "보이지 않는 중력이 투명한 성운 껍질과 별먼지의 윤곽을 남기며 고요한 우주의 어둠을 감싼다.",
+    "en": "Invisible gravity leaves translucent nebula shells and star dust halos around a silent basin of cosmic darkness."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a vast interstellar void captured like an ancient astronomical plate, where the nebula has collapsed into enormous, translucent shell layers rather than clouds. Each shell is an uneven oval membrane of #3D1A78 ultraviolet vapor, floating at different depths around an invisible abyssal mass that never appears on screen. Dense #E6E6FA star dust collects along the membranes as millions of fine grains, forming faint contour halos and broken pressure marks, while thin #7B68EE lavender ion threads glow only at torn edges where space seems stretched too thin. The center is not a black hole or portal, but a mute basin of pure #0D0221 darkness that absorbs every star behind it, creating infinite depth without rotation or motion. Very slow celestial drift, high particle density, mysterious cosmic horror majesty, restrained lavender luminance, cold volumetric haze, ultra-detailed deep space nebula texture, solemn silence across the infinite void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T09:22:34.780+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-void-3-1782174136117",
+      "generatedAt": "2026-06-23T09:22:34.780+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/void-3.png",
+      "sha256": "046246a7f5786d3a9944898380735344b1e706a9831301daa777e8793fadadde",
+      "bytes": 2923613,
+      "attempts": 1,
+      "runId": "2026-06-16-void-3-1782174136117",
+      "generatedAt": "2026-06-23T09:24:27.735+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

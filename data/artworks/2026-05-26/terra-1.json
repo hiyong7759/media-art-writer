@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "페돌리스 지도첩",
+    "en": "The Pedolith Atlas"
+  },
+  "description": {
+    "ko": "수직으로 드러난 흙의 단면이 퇴적층과 돌, 광물 얼룩을 시간에 새겨진 촉각적 지도처럼 펼쳐 보입니다.",
+    "en": "An upright soil monolith turns sediment, stone, and mineral stains into a tactile atlas of time-carved land."
+  },
+  "prompt": "TERRA-1, titled \"The Pedolith Atlas.\" A photorealistic close oblique view of an upright soil monolith cut cleanly from an ancient floodplain, its exposed face resembling a hand-drawn topographic map made from real earth. Compact #8B4513 umber subsoil, #D2691E oxidized clay, and #F4A460 sandy silt appear in thin, uneven sediment bands interrupted by rounded gravel pockets, compressed root fossils, mica flecks, and rough stone nodules. Muted #2F4F4F slate mineral staining pools in small depressions and along pressure seams, giving the surface a grounded, time-worn gravity. Fine dust clings to ledges, crumbly grains fall from undercut shelves, and shallow contour ridges ripple across the cut face like elevation lines. Soft low-angle natural light reveals porous soil, rugged rock texture, stratified deposits, and the slow narrative of land built layer by layer; quiet, tactile, earthy, hyper-detailed geological texture study.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-21T21:29:26.213+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-terra-1-1782044947375",
+      "generatedAt": "2026-06-21T21:29:26.213+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/terra-1.png",
+      "sha256": "afd47c1c939a5c6e112d4772f0cfbab2b79dcce8112f3fd0c6443831626d16a5",
+      "bytes": 3643941,
+      "attempts": 1,
+      "runId": "2026-05-26-terra-1-1782044947375",
+      "generatedAt": "2026-06-21T21:32:27.808+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

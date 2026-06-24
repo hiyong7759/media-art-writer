@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무한 공허의 종유성진",
+    "en": "Stalactites of the Infinite Void"
+  },
+  "description": {
+    "ko": "고요한 성운이 창백한 별먼지 종유석으로 얼어붙고, 그 너머로 헤아릴 수 없는 어둠이 펼쳐진다.",
+    "en": "A silent nebula freezes into pale star-dust needles before an immeasurable darkness."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a boundless deep space nebula where the foreground is filled with thousands of suspended, needle-fine star-dust stalactites, each grain glowing faintly #E6E6FA as if frozen in very slow descent through an infinite void. Behind them, immense curtains of #3D1A78 ultraviolet vapor hang in uneven vertical folds, thinning into transparent layers that reveal a silent expanse of #0D0221 darkness with no visible source or destination. Thin #7B68EE lavender plasma threads cling to the tips of the dust formations like static along glass, implying an unseen abyssal pressure rather than motion. The scene contains no vessel, planet, ring, vortex, eclipse, central singularity, lattice, or split chasm; it should feel like an impossible astronomical exposure of space crystallizing around a presence too vast to appear. High particle density, very slow celestial drift, mysterious cosmic horror majesty, restrained lavender luminance, cold volumetric haze, ultra-detailed deep space texture, solemn infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T07:16:09.058+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-void-3-1782166548321",
+      "generatedAt": "2026-06-23T07:16:09.058+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/void-3.png",
+      "sha256": "6ed92933bbec5945e4bfdd40e2739d3a782b9c93d2d25fbef555f5d6c37fbe29",
+      "bytes": 2810214,
+      "attempts": 1,
+      "runId": "2026-06-14-void-3-1782166548321",
+      "generatedAt": "2026-06-23T07:18:17.982+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 기록 보관소",
+    "en": "The Blooming Archive"
+  },
+  "description": {
+    "ko": "잊힌 독서 장치들 사이로 평화로운 디지털 봄 정원이 자라나며, 낡은 기록 보관소를 프랙털 꽃과 빛나는 씨앗 코드로 바꿉니다.",
+    "en": "A peaceful digital spring garden grows through forgotten reading devices, turning obsolete archives into fractal flowers and luminous seed-code."
+  },
+  "prompt": "FLORA-9 manifests as a tranquil spring tide inside a forgotten electronic book archive, where rows of dormant e-readers, cracked tablets, charging drawers, and optical catalog terminals have become nursery beds for living code. Thin emerald #50C878 roots slip between glass screens and paper-thin circuits, lifting the devices apart with patient botanical force while soft moss cushions every plastic edge. Instead of text, the dark screens display drifting vein maps that grow into fractal flowers: nested petals bloom outward in translucent blush #FFB6C1 and pale #89CFF0, each petal shaped like a folded page but patterned with recursive botanical circuitry. Deep #4A0E4E plum shadows gather in the shelving gaps and under open drawers, balanced by gentle pastel daylight filtering through dusty high windows. Countless luminous seed-glyphs float slowly between the shelves like pollen from a library learning to flower, dense but calm, turning obsolete reading machines into an endlessly renewing digital garden. Peaceful digital nature, soft pastel palette, intricate fractal petals, high particle density, nature reclaiming technology with quiet spring permanence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T10:04:23.886+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-flora-9-1782176641380",
+      "generatedAt": "2026-06-23T10:04:23.886+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/flora-9.png",
+      "sha256": "d4d212ea5a29f7dafbc43cf2a2538e284320f657a3c19ecc55502a562e6afd53",
+      "bytes": 3196070,
+      "attempts": 1,
+      "runId": "2026-06-20-flora-9-1782176641380",
+      "generatedAt": "2026-06-23T10:06:30.519+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

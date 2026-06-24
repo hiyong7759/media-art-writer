@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "분광의 활주",
+    "en": "Spectral Slipstream"
+  },
+  "description": {
+    "ko": "빠른 백색광이 떠 있는 유리 핀 사이를 지나며 밝은 무지개 카스틱과 색수차 에너지로 폭발한다.",
+    "en": "Fast white light threads through hovering glass fins, bursting into bright rainbow caustics and chromatic energy."
+  },
+  "prompt": "PRISM-2 pure refraction event in a bright high-key optical wind tunnel: dozens of ultra-clear glass fins hover in a staggered arc, tilted like frozen shutters, while a braided pulse of white radiance races between them. Each transparent fin bends the light into fast crossing ribbons of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow, forming airborne rainbow caustic nets, prismatic shock lines, and crisp chromatic aberration along every beveled rim. Low sparse particles, polished glass clarity, luminous clean atmosphere, sharp internal refraction paths, energetic motion streaks, pure rainbow energy suspended without a floor or horizon.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-21T22:08:33.870+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-prism-2-1782047290446",
+      "generatedAt": "2026-06-21T22:08:33.870+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/prism-2.png",
+      "sha256": "031c370bc02a8f18c6ffb25336206895d1444cf40c5c9540fb56ad06c0dbd0ca",
+      "bytes": 2243967,
+      "attempts": 1,
+      "runId": "2026-05-27-prism-2-1782047290446",
+      "generatedAt": "2026-06-21T22:10:24.383+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

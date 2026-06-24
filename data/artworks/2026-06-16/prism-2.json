@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "색채 맥동의 관",
+    "en": "Chromatic Pulse Crown"
+  },
+  "description": {
+    "ko": "곡면 유리판과 물방울 같은 렌즈가 백색광의 맥동을 빠른 무지개 카우스틱으로 바꾸는 밝은 PRISM-2 굴절의 관입니다.",
+    "en": "A bright PRISM-2 refraction crown where curved glass sheets and droplets turn white light pulses into fast rainbow caustics."
+  },
+  "prompt": "PRISM-2 chromatic pulse inside a radiant white cloud chamber: a floating optical crown made from ultra-clear glass meniscus sheets, tiny concave mirrorless bowls, and needle-cut diamond droplets is suspended around an invisible pressure wave of white light. Instead of a single beam, the core releases fast crescent-shaped flashes that skim across the curved glass surfaces, refracting into snapped ribbons of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics appear as airborne splash arcs, scalloped interference marks, and bright prismatic wavelets curling through the chamber, with crisp chromatic aberration tracing every liquid-smooth rim and droplet edge. Bright pure-energy mood, polished optical transparency, sharp internal reflections, low sparse particles only, energetic spectral motion trails, no tabletop arrangement, no dark surface, no traditional triangular prism.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T09:30:04.008+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-prism-2-1782174579684",
+      "generatedAt": "2026-06-23T09:30:04.008+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/prism-2.png",
+      "sha256": "139c33eaa8a1cc041a60bc24589a1da48534f28b642fb3c7d0c0c2a638f0a15c",
+      "bytes": 2246814,
+      "attempts": 1,
+      "runId": "2026-06-16-prism-2-1782174579684",
+      "generatedAt": "2026-06-23T09:32:22.139+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

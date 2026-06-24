@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "void-3",
+  "title": {
+    "ko": "중력의 격자",
+    "en": "The Gravity Lattice"
+  },
+  "description": {
+    "ko": "암흑 물질과 라벤더빛 별먼지의 고요한 격자가 우주 심연 속 헤아릴 수 없는 부재의 형상을 드러낸다.",
+    "en": "A silent lattice of dark matter and lavender star dust reveals the shape of an immeasurable absence in the cosmic deep."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an immense abyssal starfield where the nebula has condensed into a silent, cathedral-scale lattice of dark matter ribs stretching diagonally through endless space. Between the ribs, translucent #3D1A78 ultraviolet vapor pools like cold ink under glass, revealing no solid object, only a vast pressure pattern around something absent and immeasurable. Dense #E6E6FA star dust gathers along the lattice edges in thousands of suspended grains, drifting with very slow tidal motion, while faint #7B68EE lavender ion sparks flicker at distant intersections like dying constellations trapped in a cosmic web. The deepest gaps remain pure #0D0221 void, swallowing perspective into infinite depth. No spacecraft, planets, rings, vortex, or central black hole; the image should feel like a forbidden astronomical exposure of space architecture made by gravity itself. Mysterious cosmic horror majesty, high particle density, restrained lavender glow, cold volumetric haze, finely detailed deep space texture, solemn silence across the infinite universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T06:23:10.374+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-void-3-1782163372374",
+      "generatedAt": "2026-06-23T06:23:10.374+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/void-3.png",
+      "sha256": "329a703b68ab0252919ccdb52b1754787dcf941f75e45ee8b16197e757b36776",
+      "bytes": 2986762,
+      "attempts": 1,
+      "runId": "2026-06-11-void-3-1782163372374",
+      "generatedAt": "2026-06-23T06:26:01.832+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

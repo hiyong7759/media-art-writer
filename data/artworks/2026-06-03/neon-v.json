@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "비 뒤의 신호 정원",
+    "en": "Signal Garden After Rain"
+  },
+  "description": {
+    "ko": "비에 젖은 옥상 신호 테라스가 네온 핑크와 블루 데이터 빛으로 빛나는 NEON-V의 금속적 낭만을 담는다.",
+    "en": "A rain-polished rooftop signal terrace glows with neon pink and blue data light above the metal romance of NEON-V."
+  },
+  "prompt": "NEON-V artwork titled \"Signal Garden After Rain\": a rooftop communications terrace perched above a futuristic cyberpunk city, viewed from under a transparent maintenance canopy where rain sheets down the glass and turns the skyline into layered neon reflections. Brushed titanium antenna fins, wet black solar tiles, exposed fiber conduits, coolant vents, signal relays, and rain-etched access panels create dense futuristic urban texture. Neon pink #FF00FF diagnostic glyphs pulse across suspended holo-screens, neon blue #00FFFF routing beams thread between rooftop masts, and deep #1A0033 violet tower walls drop into the city below. #FF6B35 orange hazard strobes, elevator pod glows, and tiny repair sparks add energetic warm accents against the rain. Medium-speed motion from sliding service lifts, rotating antenna rings, and wind-blown technician coats, with high particle density: rain needles, mist from vents, glittering droplets on cables, floating hologram fragments, steam ribbons, and splashes on reflective metal grates. Cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground detail, dense layered depth, no empty skyline.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T05:28:54.541+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-neon-v-1782160116348",
+      "generatedAt": "2026-06-23T05:28:54.541+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/neon-v.png",
+      "sha256": "a1aaf0b5be6d887ca90a1d4ecf5d77003622163df66ac72e3f92e8ce6dde6148",
+      "bytes": 3144139,
+      "attempts": 1,
+      "runId": "2026-06-03-neon-v-1782160116348",
+      "generatedAt": "2026-06-23T05:31:57.502+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "사막 포장면 측량",
+    "en": "The Varnish Pavement Survey"
+  },
+  "description": {
+    "ko": "사막 포장면의 검게 코팅된 돌과 압축된 흙 틈, 퇴적 먼지가 침식의 작은 지형 기록처럼 배열된 작품입니다.",
+    "en": "A grounded study of varnished desert stones, compact soil seams, and sediment dust arranged like a miniature topographic record of erosion."
+  },
+  "prompt": "TERRA-1, titled \"The Varnish Pavement Survey.\" A close, ground-level geological composition of an ancient desert pavement where wind has removed the finer soil and left a tightly fitted mosaic of flat, varnished stones. Each pebble and broken shard sits at a slightly different height, forming a natural relief chart of miniature ridges, saddles, and basin-like gaps. Deep #8B4513 umber soil shows in compressed seams beneath the stone armor, #D2691E iron oxide glazes the rough upper faces, #F4A460 sandy dust collects as soft contour lines around lifted edges, and muted #2F4F4F slate mineral staining darkens chipped facets and sheltered pores. Several overturned fragments reveal thin sediment skins, clay coatings, quartz grit, compacted silt, and weathered rock interiors, giving the surface the feeling of a topographic map assembled grain by grain. Low grazing natural light, slow grounded mood, medium suspended dust detail, tactile earth texture, stratified mineral history, no sky, no plants, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T09:48:15.421+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-terra-1-1782175667901",
+      "generatedAt": "2026-06-23T09:48:15.421+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/terra-1.png",
+      "sha256": "7dce9e057afce996b8dfeffa1e383d1c09a00536ca5c9af4471e02668b6265e3",
+      "bytes": 3772292,
+      "attempts": 1,
+      "runId": "2026-06-19-terra-1-1782175667901",
+      "generatedAt": "2026-06-23T09:50:24.486+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

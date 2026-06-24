@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛의 산호 호흡 정원",
+    "en": "Lumen Coral Breathing Garden"
+  },
+  "description": {
+    "ko": "부드러운 산호 같은 생명체들이 고요한 수중 안개 속으로 황금빛 액체의 빛을 숨처럼 내뿜는다.",
+    "en": "Soft reef-like organisms breathe golden liquid light into a serene underwater haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Lumen Coral Breathing Garden\": a serene deep underwater scene inside a natural hollow of soft living reef, where rounded biomorphic coral cushions and porous sponge-like lobes float slightly above the abyss floor without rigid branches or stone texture. The organisms are translucent #7FB069, with deep #2D5A3D chlorophyll shadows gathered in their pores and inner folds. Slow pulses of #FFE66D bioluminescent liquid light rise from the hollow centers, seep through tiny openings, and gather into drifting aureoles before stretching into delicate glowing tendrils that curl through a pale #E6F2E1 underwater haze. The water is dense with luminous plankton dust, pearly microbubbles, suspended organic motes, faint green caustic shimmer, soft internal radiance, wet gelatinous surfaces, and calm slow-motion currents. Emphasize breathing natural light, organic life flow, high particle density, layered cinematic abyssal depth, no figures, no machinery, no architecture, no hard geometry, no rigid symmetry, no cosmic setting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T09:56:19.476+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-aura-7-1782176159593",
+      "generatedAt": "2026-06-23T09:56:19.476+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/aura-7.png",
+      "sha256": "7f29cf0f77d1e3d84bda05e66833f9d8a741b1776e74c40d3402bfb5e1044589",
+      "bytes": 2892324,
+      "attempts": 1,
+      "runId": "2026-06-20-aura-7-1782176159593",
+      "generatedAt": "2026-06-23T09:59:20.627+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-14",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "광자 사이클론",
+    "en": "Photon Cyclone"
+  },
+  "description": {
+    "ko": "비틀린 유리 궤도가 백색 에너지를 빠른 무지개 카스틱과 색수차 호로 분산시키는 밝은 PRISM-2 굴절 장면입니다.",
+    "en": "A bright PRISM-2 refraction event where twisted glass orbits split white energy into fast rainbow caustics and chromatic arcs."
+  },
+  "prompt": "PRISM-2 fast refraction bloom in a brilliant white vacuum gallery: a weightless array of ultra-clear glass Möbius strips, split-ring lens fragments, and pinhole crystal disks orbits a compact white photon seed, forming an asymmetrical optical cyclone rather than a prism or tabletop study. The seed detonates into short radial bursts that skim through twisted glass surfaces and tiny apertures, splitting into accelerated ribbons of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics appear as floating spiral fingerprints, sharp arc-shaped interference flashes, and transparent color shadows suspended in the air; every curved rim shows crisp chromatic aberration, polished internal reflections, and clean glass refraction. Bright high-key atmosphere, low sparse particles, fast spectral motion trails, luminous negative space, precise optical energy with no dark background, no single straight beam, and no traditional triangular prism.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T10:34:25.537+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-14-prism-2-1782178446002",
+      "generatedAt": "2026-06-23T10:34:25.537+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-14/prism-2.png",
+      "sha256": "151c997afe1a334f04e493b2823a24dcb65b36b84aca9745b9c728812d86a4af",
+      "bytes": 1839552,
+      "attempts": 1,
+      "runId": "2026-04-14-prism-2-1782178446002",
+      "generatedAt": "2026-06-23T10:36:24.982+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

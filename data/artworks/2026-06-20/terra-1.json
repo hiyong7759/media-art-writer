@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "미끄럼면의 대지 기록",
+    "en": "The Slickenside Earth Register"
+  },
+  "description": {
+    "ko": "단층 압력에 닳은 점토암 위에 퇴적물과 광물 얼룩, 전단 홈이 시간의 촉각적 지형도처럼 남은 대지 질감 연구.",
+    "en": "A grounded geological texture study of fault-polished claystone, where sediment, mineral staining, and pressure grooves read like a tactile map of time."
+  },
+  "prompt": "TERRA-1, titled \"The Slickenside Earth Register.\" A photorealistic close oblique macro study of an exposed fault-gouge surface where pressure-polished claystone has been dragged into parallel striations, stepped ridges, and torn sediment ribbons, resembling a topographic map scraped into rock by slow tectonic motion. Dense #8B4513 umber fault clay packs the lowest shear grooves, #D2691E oxidized gouge smears across raised friction planes, #F4A460 sandy grains collect in fine ledges and shallow pull-apart pockets, and muted #2F4F4F slate mineral staining darkens crushed seams and slick polished facets. The surface reveals rough soil crumbs, fractured mudstone scales, powdered mineral dust, embedded quartz grit, thin sediment skins, and tiny pressure shadows along each ridge. Low natural grazing light emphasizes tactile relief, layered earth texture, grounded weight, and the narrative of land carved by compression and time; frame only dry stone and soil, no horizon, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T10:11:58.403+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-terra-1-1782177095162",
+      "generatedAt": "2026-06-23T10:11:58.403+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/terra-1.png",
+      "sha256": "377a77d27264df1c369eb44801f8068590caa240059494829a443492cda05299",
+      "bytes": 3608147,
+      "attempts": 1,
+      "runId": "2026-06-20-terra-1-1782177095162",
+      "generatedAt": "2026-06-23T10:13:57.256+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

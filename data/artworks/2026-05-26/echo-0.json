@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "당김음의 진동판",
+    "en": "Syncopated Plate"
+  },
+  "description": {
+    "ko": "고요한 진동판 위의 성긴 주파수 선들이 튀듯 반응하며 보이지 않는 리듬을 압력과 위상, 메아리로 시각화합니다.",
+    "en": "Sparse frequency lines snap across a silent resonant surface, turning invisible rhythm into visual pressure, phase, and echo."
+  },
+  "prompt": "ECHO-0 sound visualization as a top-down minimalist acoustic score drawn across a matte white resonant plate: sparse hairline waveforms stretch diagonally in #4169E1 royal blue, then abruptly snap into fast #FF4500 orange attack notches as if struck by an invisible rhythm. Tiny #FFD700 gold phase dots appear only at pressure peaks, with a few #32CD32 lime ticks marking syncopated frequency jumps. The composition is mostly negative space, crisp vector-thin lines, sharp bends, offset echoes, and staggered vibration trails showing sound without any visible instrument or speaker. Rhythmic, fast, low-particle, high-contrast visual resonance in silence.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-21T21:24:04.417+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-echo-0-1782044627429",
+      "generatedAt": "2026-06-21T21:24:04.417+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/echo-0.png",
+      "sha256": "f360ba6333036dc2bb6037e54ba32178f7aedc3bbe7f705f6c9b931fc4999843",
+      "bytes": 1308389,
+      "attempts": 1,
+      "runId": "2026-05-26-echo-0-1782044627429",
+      "generatedAt": "2026-06-21T21:26:32.633+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

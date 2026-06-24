@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-04",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "스트로브 균열 직조",
+    "en": "Strobe Fracture Loom"
+  },
+  "description": {
+    "ko": "각진 신호의 실들이 흑백의 균열 속에서 뒤틀리고 다시 맞물리며 정교한 기하학적 혼돈을 만든다.",
+    "en": "A monochrome field of angular signal threads jams and rebalances into precise geometric chaos."
+  },
+  "prompt": "KURO-X artwork titled \"Strobe Fracture Loom\": a black and white geometric glitch abstraction arranged as a borderless tension field of interwoven angular signal threads, with no figure, logo, typography, sculpture, sphere, cube, monolith, or single hero object. Matte #1A1A1A diagonal struts stretch across hard #FFFFFF rupture slits, while #808080 and #C0C0C0 fractured plates knot into skewed diamond clamps, clipped triangular hooks, snapped zigzag filaments, offset raster ribbons, and narrow blade-like crossings. The structure feels like a high-speed monochrome loom jamming under digital pressure: separate bands pull in opposing directions, splice, skip, and reattach while still forming exact visual equilibrium. Fine horizontal scanlines run through every layer, interrupted by luma stutter, grayscale phase errors, hard compression tiles, broken edge echoes, micro-checker interference, and medium-density square particle debris. High contrast, crisp vector edges, severe sharp angles, fast intense motion, cold mechanical depth, monochrome complexity, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-24T11:26:24.738+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-04-kuro-x-1782267966195",
+      "generatedAt": "2026-06-24T11:26:24.738+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-04/kuro-x.png",
+      "sha256": "320f245241961ce7a7af5c7b7c9e321523a3d4dc15c140ad0c71e78f54277193",
+      "bytes": 2721218,
+      "attempts": 1,
+      "runId": "2026-05-04-kuro-x-1782267966195",
+      "generatedAt": "2026-06-24T11:28:49.326+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "칼리치 기억의 들판",
+    "en": "The Caliche Memory Field"
+  },
+  "description": {
+    "ko": "갈라진 칼리치 지각과 철빛 실트, 모래, 슬레이트 광물 흔적이 시간의 지형적 기억을 이루는 묵직한 대지 질감 연구입니다.",
+    "en": "A grounded earth-texture study where fractured caliche crust, iron silt, sand, and slate mineral traces form a tactile topographic memory of time."
+  },
+  "prompt": "TERRA-1, titled \"The Caliche Memory Field.\" A photorealistic close macro study of a weathered caliche hardpan exposed on a dry desert floor, where pale carbonate crust has fractured into shallow raised islands and contour-like rims resembling a relief topographic map made from soil and stone. #8B4513 umber earth appears in undercut seams, #D2691E iron-stained silt wraps around uneven shelves, and powdery #F4A460 sand settles in soft troughs between rough crust plates. Muted #2F4F4F slate mineral speckles collect in tiny pits, pressure lines, and shadowed pores, giving the surface a grounded, time-worn weight. The image emphasizes rough rock texture, compacted soil grains, thin sediment laminations, brittle carbonate flakes, dust caught along ridges, and slow erosion carving memory into the land; low natural side light, no sky, no vegetation, no water, no human objects, hyper-detailed earthy geological texture study.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T06:26:19.518+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-terra-1-1782163561878",
+      "generatedAt": "2026-06-23T06:26:19.518+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/terra-1.png",
+      "sha256": "44413df3a7ce4581dcb6e292f25b73d30c7bfccb86fdd8dc80e1c63c058db0c7",
+      "bytes": 3299257,
+      "attempts": 1,
+      "runId": "2026-06-11-terra-1-1782163561878",
+      "generatedAt": "2026-06-23T06:28:45.439+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

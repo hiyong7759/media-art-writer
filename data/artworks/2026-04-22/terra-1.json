@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-22",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "고토양 굴 흔적의 부조",
+    "en": "The Paleosol Burrow Relief"
+  },
+  "description": {
+    "ko": "화석화된 흙의 통로와 퇴적층이 묻힌 시간의 대지 부조 지도를 이룬다.",
+    "en": "Fossilized soil channels and sediment layers form an earthy relief map of buried time."
+  },
+  "prompt": "TERRA-1, titled \"The Paleosol Burrow Relief.\" A photorealistic macro geological study of an exposed ancient paleosol surface where fossilized burrow casts and compacted clay tubes interrupt thin sediment layers, creating a natural relief chart of knots, channels, and raised contour loops. Deep #8B4513 umber earth packs the old tubular voids, #D2691E oxidized clay wraps their rims in rough halos, #F4A460 sandy silt dusts the lifted ridges, and muted #2F4F4F slate mineral staining settles inside tiny pores, pressure shadows, and broken cross-sections. The surface is dry, heavy, and tactile: snapped clay skins, granular loam, embedded quartz grit, weathered mudstone chips, mica flecks, and irregular sediment laminations record slow burial, compression, and erosion. Low natural grazing light reveals crumbly edges, pitted rock texture, dusty topographic relief, and the grounded narrative of land carved by time; no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T17:44:11.238+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-22-terra-1-1782204229184",
+      "generatedAt": "2026-06-23T17:44:11.238+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-22/terra-1.png",
+      "sha256": "8085d46c64b824559841da026158a305666b60a2ba91d01ef1e9774e351a2471",
+      "bytes": 3892835,
+      "attempts": 1,
+      "runId": "2026-04-22-terra-1-1782204229184",
+      "generatedAt": "2026-06-23T17:47:25.427+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-08",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 쓰이지 않은 별들",
+    "en": "Abyssal Unwritten Stars"
+  },
+  "description": {
+    "ko": "무한한 우주의 심연 속에서 성운의 장막과 별먼지가 읽을 수 없는 부재를 고요히 감싼다.",
+    "en": "A silent field of nebular veils and star dust surrounds an unreadable absence in the infinite cosmic deep."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an endless abyssal starfield where the nebula has thinned into vast, translucent veils of #3D1A78 ultraviolet gas stretched across the frame like silent auroras in deep space. At the center is no object, no portal, and no singularity, only a broad region of pure #0D0221 absence where the stars seem to have forgotten how to shine. Dense clouds of #E6E6FA star dust gather into uneven constellations of tiny luminous grains, drifting with extremely slow motion as if suspended in cold cosmic water. Across the darkness, sparse #7B68EE lavender ion threads form faint, broken glyph-like traces that never resolve into language, suggesting a hidden abyssal intelligence beneath the infinite void. Mysterious cosmic horror majesty, high particle density, restrained lavender glow, cold volumetric haze, immense scale, ultra-detailed deep space nebula texture, silent and solemn atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-24T13:09:33.443+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-08-void-3-1782274154054",
+      "generatedAt": "2026-06-24T13:09:33.443+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-08/void-3.png",
+      "sha256": "71f9046a05cd598c438bd79864f060fcbb43945aa670b29dd7e3300a30364c36",
+      "bytes": 2575215,
+      "attempts": 1,
+      "runId": "2026-05-08-void-3-1782274154054",
+      "generatedAt": "2026-06-24T13:11:31.456+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

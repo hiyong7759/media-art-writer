@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "위상 막",
+    "en": "Phase Membrane"
+  },
+  "description": {
+    "ko": "보이지 않는 음압이 투명한 막을 가르며 드문 공명점과 날카로운 박자의 선으로 드러난다.",
+    "en": "Invisible sound pressure cuts through transparent membranes as sparse rhythmic lines, sharp attacks, and rare resonance nodes."
+  },
+  "prompt": "ECHO-0 sound visualization rendered as a suspended cutaway of invisible audio pressure passing through five nearly transparent acrylic membranes, viewed in clean side profile. No speaker, performer, instrument, sphere, core, or architectural void: only razor-thin #4169E1 royal-blue waveform lines pierce each membrane, then fracture into fast #FF4500 orange staccato slashes where transient beats strike. Tiny #FFD700 gold node sparks appear only at phase-lock points, with rare #32CD32 lime-green calibration ticks stepping upward like syncopated rests. The membranes are barely visible through faint refraction and soft contact shadows, leaving wide negative space and silence under tension. Crisp minimal geometry, rhythmic asymmetry, low particle count, high-contrast visual resonance, invisible sound made legible as vibrating frequencies.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-21T21:56:41.027+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-echo-0-1782046581521",
+      "generatedAt": "2026-06-21T21:56:41.027+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/echo-0.png",
+      "sha256": "d67cd2c0f28198b3259515286027f2692066dbaf37adee8b7625d16f8ab89eb7",
+      "bytes": 551799,
+      "attempts": 1,
+      "runId": "2026-05-27-echo-0-1782046581521",
+      "generatedAt": "2026-06-21T21:58:22.311+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

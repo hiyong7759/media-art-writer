@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "카스틱 블룸 엔진",
+    "en": "Caustic Bloom Engine"
+  },
+  "description": {
+    "ko": "속도감 있는 백색 에너지 파동이 속이 빈 유리 렌즈들을 지나 꽃잎 같은 무지개 카스틱으로 번지는 밝은 PRISM-2 굴절 장면.",
+    "en": "A bright PRISM-2 refraction bloom where hollow glass lenses turn rapid white energy pulses into petal-shaped rainbow caustics."
+  },
+  "prompt": "PRISM-2 bright refraction bloom in a weightless white studio: an asymmetrical constellation of hollow, blown-glass teardrops surrounds a compact white energy core, each teardrop stretched like an optical lens and frozen at a different tilt. The core releases rapid strobing wavefronts instead of a single beam, and the curved glass shells fracture the pulses into petal-shaped rainbow caustics, zigzag dispersion paths, and crisp chromatic aberration halos. Emphasize #FF0080 magenta flare cuts, #00FF80 mint refraction veins, #8000FF violet rim glows, and #FFFF00 yellow focal sparks crossing through transparent glass. Low sparse particles only, high-key luminous atmosphere, polished optical clarity, fast spectral motion trails, sharp internal reflections, pure rainbow energy suspended without a floor, horizon, triangular prism, or dark surface.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T06:08:20.439+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-prism-2-1782162481716",
+      "generatedAt": "2026-06-23T06:08:20.439+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/prism-2.png",
+      "sha256": "008759f52fc7f564673485ff19ae6faa6916607359d35480879afbdfcd67e6a8",
+      "bytes": 2165060,
+      "attempts": 1,
+      "runId": "2026-06-10-prism-2-1782162481716",
+      "generatedAt": "2026-06-23T06:10:07.023+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

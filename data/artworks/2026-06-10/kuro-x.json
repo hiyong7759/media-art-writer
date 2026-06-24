@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "널 페이즈 스위치야드",
+    "en": "Null Phase Switchyard"
+  },
+  "description": {
+    "ko": "빠른 글리치 움직임이 정밀한 균형 안에 묶인 단색의 파편화된 기하학 스위치야드",
+    "en": "A monochrome switching yard of fractured geometry, where fast glitch motion is held in exact balance."
+  },
+  "prompt": "KURO-X artwork titled \"Null Phase Switchyard\": a pure black-and-white geometric glitch abstraction laid out like an overhead switching yard for corrupted light, with the entire frame built from interlocked #1A1A1A angular rails, #FFFFFF fault gaps, and #808080 / #C0C0C0 beveled signal plates. There is no portrait, logo, typography, sphere, monolith, or heroic centerpiece; the visual tension comes from an all-over network of broken isometric tracks, clipped triangular switches, razor-thin diagonal dividers, nested right-angle turns, and offset sawtooth lanes that seem to reroute at high speed. Fine horizontal scanlines pass through every layer, while grayscale channel slippage, hard luma tearing, stepped compression blocks, fragmented timing marks, and medium-density square particle debris make the surface feel intensely unstable. The composition must remain mathematically balanced despite the chaos: crisp vector edges, severe sharp angles, high contrast, cold mechanical depth, monochrome complexity, fast directional motion, fragments locked inside invisible geometric order.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T05:50:26.657+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-kuro-x-1782161408851",
+      "generatedAt": "2026-06-23T05:50:26.657+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/kuro-x.png",
+      "sha256": "06ea8a40c78e038b5666c84fd129b8ac8bb100644227d0734b15828c25bd5c8c",
+      "bytes": 2202569,
+      "attempts": 1,
+      "runId": "2026-06-10-kuro-x-1782161408851",
+      "generatedAt": "2026-06-23T05:52:22.113+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

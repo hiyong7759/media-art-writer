@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-14",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "사프롤라이트 등고 채석면",
+    "en": "The Saprolite Contour Quarry"
+  },
+  "description": {
+    "ko": "분해된 화강암이 거친 흙, 광물 얼룩, 퇴적된 시간으로 이루어진 묵직한 지형의 장이 된다.",
+    "en": "Decomposed granite becomes a grounded topographic field of gritty soil, mineral staining, and sedimented time."
+  },
+  "prompt": "TERRA-1, titled \"The Saprolite Contour Quarry.\" A photorealistic close vertical study of decomposed granite saprolite where feldspar crystals have weathered into gritty soil and the remaining quartz grains stand as rough pale ridges, forming an irregular relief map without any clean cut face. Dense #8B4513 umber clay packs the deepest mineral pockets, #D2691E rust-stained granite grit coats crumbling knobs, #F4A460 sandy feldspar powder gathers in soft crescent shelves, and muted #2F4F4F slate-green staining settles around dark biotite flakes and old pressure seams. The terrain shows granular rot, snapped mica plates, pebble-sized stone cores, powdery sediment halos, tiny collapsed pits, and slow contour steps made by rock turning back into soil. Low grazing natural light emphasizes tactile roughness, earthy weight, layered mineral decay, and the quiet narrative of land altered grain by grain through time; no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T10:31:46.037+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-14-terra-1-1782178284296",
+      "generatedAt": "2026-06-23T10:31:46.037+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-14/terra-1.png",
+      "sha256": "ad642928e457e06b78e3e08a30866e76eae1f0006b2f587f025caeb2f3931a8a",
+      "bytes": 3499575,
+      "attempts": 1,
+      "runId": "2026-04-14-terra-1-1782178284296",
+      "generatedAt": "2026-06-23T10:34:05.956+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

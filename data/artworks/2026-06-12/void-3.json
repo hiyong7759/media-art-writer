@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무의 조석",
+    "en": "The Null Tide"
+  },
+  "description": {
+    "ko": "보이지 않는 심연의 조석이 별먼지와 보랏빛 성운을 무한한 어둠의 평면으로 조용히 밀어붙입니다.",
+    "en": "An unseen abyssal tide presses star dust and violet nebula into a silent plane of infinite darkness."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a horizonless deep space nebula compressed by an unseen abyssal tide, where a vast tilted sheet of pure #0D0221 darkness cuts silently across the starfield like a lightless cosmic ocean seen edge-on. Above the dark plane, layered #3D1A78 ultraviolet vapor hangs in broad, bruised bands; below it, dense #E6E6FA star dust gathers into suspended shoals and thin luminous sediment, each particle drifting with extremely slow tidal motion. Faint #7B68EE lavender filaments crawl only along stress fractures at the boundary, revealing pressure from something immeasurable outside perception. No planets, spacecraft, rings, vortex, central black hole, lattice, or chasm; the scene should feel like a forbidden astronomical exposure of infinite space being flattened into silence. Mysterious cosmic horror majesty, high particle density, restrained lavender glow, cold volumetric haze, ultra-detailed astrophotographic texture, solemn abyssal scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T06:47:52.281+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-void-3-1782164855282",
+      "generatedAt": "2026-06-23T06:47:52.281+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/void-3.png",
+      "sha256": "81c1c5ffa91b29f17bf538b79de2d7fcbc89b7308889fa0042dcb5cb3b7bbfe2",
+      "bytes": 2623577,
+      "attempts": 1,
+      "runId": "2026-06-12-void-3-1782164855282",
+      "generatedAt": "2026-06-23T06:50:42.441+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해 꽃거울",
+    "en": "The Bathypelagic Bloom Mirror"
+  },
+  "description": {
+    "ko": "거울 같은 심해 염수면 위에서 살아 있는 반투명 막들이 숨 쉬며, 짙은 플랑크톤 안개 속으로 황금빛 액체 광채를 흘려보내는 고요한 유기적 흐름.",
+    "en": "A serene underwater bloom where living translucent membranes breathe above a mirrorlike brine surface, releasing golden liquid light into dense plankton haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"The Bathypelagic Bloom Mirror\": a deep underwater horizontal composition where a calm reflective brine surface lies like a soft living mirror beneath floating biomorphic bloom-forms. Each bloom is a translucent #7FB069 gelatin membrane with darker #2D5A3D vein shadows branching from its underside, slowly folding and unfolding as if breathing. Thin streams of #FFE66D bioluminescent liquid light slide across the brine surface, separate into luminous beads, then rise as curling glowing tendrils through a misty #E6F2E1 water column. The atmosphere is serene, slow, and weightless, filled with high-density plankton sparks, pearl microbubbles, soft green caustic shimmer, layered underwater haze, wet organic translucency, delicate internal glow, and gentle motion blur. No figures, no machinery, no rigid architecture; refined cinematic depth and detailed generative art.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T05:22:40.583+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-aura-7-1782159742641",
+      "generatedAt": "2026-06-23T05:22:40.583+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/aura-7.png",
+      "sha256": "7f32881178fe6a8a11193d2085bcbf14007d03ef3882e0f1169a30f3443f2ee2",
+      "bytes": 2554255,
+      "attempts": 1,
+      "runId": "2026-06-03-aura-7-1782159742641",
+      "generatedAt": "2026-06-23T05:25:26.564+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

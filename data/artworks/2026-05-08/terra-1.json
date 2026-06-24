@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-08",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "이암 조석 원장",
+    "en": "The Mudstone Tide Ledger"
+  },
+  "description": {
+    "ko": "종잇장처럼 얇은 이암 층이 지도 같은 등고선으로 말리며 퇴적과 시간의 느린 무게를 기록한다.",
+    "en": "Paper-thin mudstone layers curl into map-like contours, recording the slow weight of sediment and time."
+  },
+  "prompt": "TERRA-1, titled \"The Mudstone Tide Ledger.\" A hyper-detailed natural geological still life centered on a freshly exposed slab of varved mudstone lying flat after a slope collapse, its paper-thin laminae curling at the edges into delicate elevation contours like a worn survey map built from sediment. Deep #8B4513 compact clay appears in dark recessed lines, #D2691E ferric silt forms rusted wave bands, #F4A460 fine sand dusts the lifted rims, and muted #2F4F4F slate-gray mineral blooms spread through tiny dendritic stains and pressure freckles. The slab surface is rough and matte, with chipped corners, stacked seasonal layers, crushed grit, mica sparks, small pebble inclusions, and powdery soil caught in shallow map-like valleys. Soft grazing daylight from one side creates slow micro-shadows across the raised laminae, emphasizing grounded earthy weight, tactile rock and soil texture, sedimentary time, medium airborne dust, and a quiet land narrative carved layer by layer; no sky, no plants, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-24T13:11:51.272+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-08-terra-1-1782274291501",
+      "generatedAt": "2026-06-24T13:11:51.272+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-08/terra-1.png",
+      "sha256": "d85878a3c50696097a10e021b65a74bd7c3360ef56aae3b8ce2f9d11ad883798",
+      "bytes": 3463350,
+      "attempts": 1,
+      "runId": "2026-05-08-terra-1-1782274291501",
+      "generatedAt": "2026-06-24T13:14:11.802+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

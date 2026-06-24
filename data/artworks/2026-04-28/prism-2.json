@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "세포형 굴절 개화",
+    "en": "Cellular Refraction Bloom"
+  },
+  "description": {
+    "ko": "밝은 유리 셀 구조가 백색 에너지를 빠른 무지개 카우스틱과 순수한 색채 굴절로 분산한다.",
+    "en": "A bright field of glass cells fractures white energy into fast rainbow caustics and pure chromatic refraction."
+  },
+  "prompt": "PRISM-2 radiant refraction bloom in a seamless sun-white void: a weightless cluster of ultra-clear glass bubble membranes forms an irregular Voronoi sphere around a compact white photon flare, each cell slightly convex with beveled crystalline seams. The flare fires rapid zigzag bursts through the transparent cells, creating intense light dispersion, rainbow caustics, glass refraction, and crisp chromatic aberration that split every edge into #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Caustics appear as floating honeycomb flashes, fractured spectrum polygons, and bright cellular interference marks crossing through open air. Keep the scene high-key and luminous, with very few particles, polished optical clarity, sharp internal reflections, fast spectral motion streaks, pure rainbow energy, no dark surface, no tabletop setup, no traditional triangular prism, and no single straight beam composition.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-24T01:15:15.597+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-28-prism-2-1782231297008",
+      "generatedAt": "2026-06-24T01:15:15.597+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-28/prism-2.png",
+      "sha256": "9ff9aa295e68c634b29261ba7760701ee46a7a910f0e384366a6f5cbfe8d1751",
+      "bytes": 1951562,
+      "attempts": 1,
+      "runId": "2026-04-28-prism-2-1782231297008",
+      "generatedAt": "2026-06-24T01:17:57.878+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

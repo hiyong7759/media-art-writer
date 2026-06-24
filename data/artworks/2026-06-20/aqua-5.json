@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "물방울 등불",
+    "en": "Droplet Lanterns"
+  },
+  "description": {
+    "ko": "심해에 떠 있는 물방울 사이로 생물발광 해파리가 흐르며 고요한 해류를 투명한 등불빛으로 바꿉니다.",
+    "en": "Bioluminescent jellyfish drift through suspended deep-sea droplets, turning calm currents into transparent lantern light."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork in open midnight water, composed as a macro view of a suspended bioluminescent droplet field: dozens of clear, lens-like water beads drift through #000080 depth, each bead bending the surrounding #006994 blue-green glow into tiny inverted ocean worlds. Translucent jellyfish forms pass among the droplets like soft glass umbrellas and folded moonlit veils, with faint radial veins, scalloped membranes, and short floating tendrils. Their edges emit calm #40E0D0 bioluminescence, while gentle #48D1CC pulses move through the gelatin bodies and refract inside the nearby droplets. Small bubbles gather on the underside of several beads, then detach in uneven pearl trails that reveal slow laminar slip, delicate wake curls, and measured medium-paced fluid dynamics without turbulence. Medium-density luminous plankton particles hover at varied depths, creating quiet spatial layering, soft volumetric glow, crisp underwater macro detail, and the peaceful dance of transparent life far from any seabed, machinery, ruins, vessels, or vents.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T10:14:18.554+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-aqua-5-1782177237302",
+      "generatedAt": "2026-06-23T10:14:18.554+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/aqua-5.png",
+      "sha256": "9aec988d4104e7cbbb3f4e01ac70b73beb9919d69f3b74859cf41817857ac62e",
+      "bytes": 2280789,
+      "attempts": 1,
+      "runId": "2026-06-20-aqua-5-1782177237302",
+      "generatedAt": "2026-06-23T10:18:04.757+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

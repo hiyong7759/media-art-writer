@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 하프 쇄도",
+    "en": "Spectral Harp Surge"
+  },
+  "description": {
+    "ko": "밝은 PRISM-2 광학 하프가 빠른 백색광 펄스를 진동하는 무지개 caustics와 선명한 색수차 굴절로 바꿉니다.",
+    "en": "A bright PRISM-2 optical harp transforms rapid pulses of white light into vibrating rainbow caustics and clean chromatic refraction."
+  },
+  "prompt": "PRISM-2 luminous refraction surge in a seamless white energy chamber: a weightless optical harp made from ultra-clear glass filaments, curved crystal combs, and tiny suspended tuning beads is stretched diagonally through open space, not resting on any surface. Rapid white light plucks strike the glass strings in staggered bursts, and each transparent strand bends the impact into fast spectral fan-notes of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics vibrate as floating wave bars, prismatic interference knots, and needle-clean chromatic fringes along every polished glass edge. Keep the atmosphere bright and high-key, with low sparse particles, crisp internal reflections, strong glass refraction, energetic motion trails, pure rainbow energy, no dark macro setup, no tabletop prism, and no single straight beam composition.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T10:18:30.688+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-prism-2-1782177484800",
+      "generatedAt": "2026-06-23T10:18:30.688+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/prism-2.png",
+      "sha256": "5426c0535f0ffe6a9f103c02430fc3f21f0f0f49ff2820cf86215d98ec6bc4a3",
+      "bytes": 2077516,
+      "attempts": 1,
+      "runId": "2026-06-20-prism-2-1782177484800",
+      "generatedAt": "2026-06-23T10:20:57.087+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

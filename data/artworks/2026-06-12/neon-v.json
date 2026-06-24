@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "잔상 아케이드",
+    "en": "Afterimage Arcade"
+  },
+  "description": {
+    "ko": "비와 크롬, 움직이는 홀로그램이 도시 내부를 restless한 전기적 반사로 바꾸는 네온 아케이드.",
+    "en": "A neon-soaked arcade where rain, chrome, and moving holograms turn the city interior into a restless electric reflection."
+  },
+  "prompt": "NEON-V artwork titled \"Afterimage Arcade\": a rain-drenched cyberpunk shopping arcade cut through the lower floors of a futuristic city block, viewed from just inside a cracked glass storefront as the corridor bends into dense neon depth. Wet black terrazzo, brushed chrome shop shutters, transparent ceiling gutters, fiber-optic cable vines, vending walls, repair counters, mirrored security panels, and stacked micro-apartment windows create rich futuristic urban texture. Neon pink #FF00FF signage bleeds across the puddled floor and curved display glass, neon blue #00FFFF service grids glow from beneath drainage slots, and deep #1A0033 violet tower cores press down through the translucent roof panels. #FF6B35 orange heat from noodle steam vents, warning strobes, solder sparks, and delivery locker indicators cuts through the cool rain glow. Medium-speed motion from sliding storefront screens, courier silhouettes in clear rain capes, compact cleaning bots pushing ripples through shallow water, and rotating hologram menus reflected in every wet surface. High particle density with rain needles leaking from roof seams, vapor plumes, condensation beads, floating hologram fragments, electric mist, splashing footsteps, and glittering runoff threads. Energetic cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground detail, layered urban enclosure, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T06:39:49.492+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-neon-v-1782164371224",
+      "generatedAt": "2026-06-23T06:39:49.492+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/neon-v.png",
+      "sha256": "4f2f62b9e6143533e3bf32447a3d50d325c31bb83eee93f59bb5fd9c02462975",
+      "bytes": 3098699,
+      "attempts": 1,
+      "runId": "2026-06-12-neon-v-1782164371224",
+      "generatedAt": "2026-06-23T06:41:31.117+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

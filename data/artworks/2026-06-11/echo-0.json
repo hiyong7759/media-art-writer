@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "맥동 주판",
+    "en": "Pulse Abacus"
+  },
+  "description": {
+    "ko": "팽팽한 선로와 드문 위상점, 빠르게 튀는 주파수 변화를 통해 보이지 않는 리듬을 세는 사운드 시각화.",
+    "en": "Invisible rhythm counted through taut rails, sparse phase nodes, and fast vibrating frequency jumps."
+  },
+  "prompt": "ECHO-0 sound visualization imagined as a weightless acoustic abacus suspended in clean pale-gray negative space, viewed in a precise isometric close-up. Twelve parallel hairline rails cross the image at slightly different depths, each rail bowed and snapped by an unheard rhythm: #4169E1 royal-blue frequency strokes form the main vibrating paths, #FF4500 orange micro-breaks mark rapid percussive attacks, #FFD700 gold bead-like phase nodes sit sparsely at exact harmonic alignments, and a few #32CD32 lime tick marks jump between rails to show syncopated frequency changes. The air contains almost no particles; the resonance is carried by crisp line tension, offset echoes, tiny shadow gaps, and fast staccato bends. Minimal geometry, rhythmic asymmetry, high contrast, invisible sound made visible without any speaker, performer, sphere, core, dark void, corridor, membrane, or architectural monument.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T06:21:07.947+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-echo-0-1782163250554",
+      "generatedAt": "2026-06-23T06:21:07.947+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/echo-0.png",
+      "sha256": "b83ec4127585fc892fd44f16c898f94f90a9a01795d3cfa3160b6d46c612d6ad",
+      "bytes": 1389751,
+      "attempts": 1,
+      "runId": "2026-06-11-echo-0-1782163250554",
+      "generatedAt": "2026-06-23T06:22:52.333+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

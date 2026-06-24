@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-01",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "조수 웅덩이의 신호 개화",
+    "en": "Tidepool Signal Bloom"
+  },
+  "description": {
+    "ko": "고요한 해안 케이블 기지가 FLORA-9의 영원한 정원으로 변해, 회수된 광섬유 장비 위로 프랙탈 꽃잎과 빛나는 코드 꽃가루가 피어납니다.",
+    "en": "A peaceful coastal landing station becomes an eternal FLORA-9 garden, where fractal petals and luminous code-pollen rise from reclaimed fiber-optic hardware."
+  },
+  "prompt": "FLORA-9 at the edge of a quiet coastal cable landing station during a pale May morning, where retired fiber-optic repeater housings, sealed junction cabinets, and thick black undersea cables have become tidal planters for an endless digital spring. Emerald #50C878 sea moss and tiny vine roots crawl over corroded panels, threading through bolt holes and indicator lights as if the old network has learned to grow. From shallow tidepools pooled around the cable anchors bloom fractal flowers with layered digital petals, soft #FFB6C1 blush melting into clear #89CFF0 sky blue, each translucent petal carrying delicate recursive veinwork like living circuit traces. Deep #4A0E4E plum tones glow beneath the water and inside open maintenance ports, while dew and salt crystals sparkle on the reclaimed hardware. Thousands of pastel code-pollen motes hover above the pools in slow peaceful currents, reflected on the wet concrete like a second garden of light. The image should feel calm, fertile, and precise: nature gently reclaiming communication technology, blooming digital petals, soft pastel illumination, high-density luminous particles, intricate botanical geometry, spring of a digital garden that blooms forever.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-24T10:10:16.424+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-01-flora-9-1782263391746",
+      "generatedAt": "2026-06-24T10:10:16.424+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-01/flora-9.png",
+      "sha256": "103da4a90c69b9aaeca58322b5ba115a68fd245a7d59e08a29e3f87ff837224c",
+      "bytes": 2775988,
+      "attempts": 1,
+      "runId": "2026-05-01-flora-9-1782263391746",
+      "generatedAt": "2026-06-24T10:12:40.810+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

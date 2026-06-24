@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "소포 헤일로 발송장",
+    "en": "Parcel Halo Dispatch"
+  },
+  "description": {
+    "ko": "비 내리는 드론 발송장이 네온과 금속으로 빛나는 NEON-V의 미래 도시 낭만으로 변한다.",
+    "en": "A rainlit drone dispatch courtyard turns logistics into NEON-V’s neon-and-metal city romance."
+  },
+  "prompt": "NEON-V artwork titled \"Parcel Halo Dispatch\": a rain-bright cyberpunk drone logistics courtyard tucked inside a futuristic city block, seen from a glass-walled control booth overlooking stacked launch shelves, circular mag-rails, wet carbon decking, barcode-lit cargo lockers, black chrome gantries, fiber bundles, battery cradles, and brushed metal service ladders. Neon pink #FF00FF routing numbers scroll across suspended cargo tags while neon blue #00FFFF landing rings pulse on the soaked platforms, doubling in puddles, rain-streaked glass, polished drone shells, and slick guardrails. Deep #1A0033 violet tower interiors rise around the courtyard like close vertical walls, with #FF6B35 orange charger cores, brake flashes, warning strips, and tiny repair sparks adding hot energetic accents. Medium-speed motion from parcel drones lifting through rain, conveyor halos rotating, robotic arms swapping batteries, and courier silhouettes crossing transparent catwalks. High particle density with slanted rain trails, atomized coolant, electric spray, glowing droplets shaken from rotors, floating hologram fragments, steam from floor vents, and bright splash bursts on reflective metal. Cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, dense futuristic urban texture, sharp foreground control panels, layered enclosed city depth, energetic night atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T09:14:55.013+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-neon-v-1782173655954",
+      "generatedAt": "2026-06-23T09:14:55.013+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/neon-v.png",
+      "sha256": "74c2bc6d3d71174ef04436043e0e6ca91c00eb56aa1ecbd4f746b331a2f29fec",
+      "bytes": 3118189,
+      "attempts": 1,
+      "runId": "2026-06-16-neon-v-1782173655954",
+      "generatedAt": "2026-06-23T09:16:54.766+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

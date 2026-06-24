@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "이온 랜턴 환승홀",
+    "en": "Ion Lantern Concourse"
+  },
+  "description": {
+    "ko": "비와 크롬, 네온 신호가 일상의 이동을 미래 도시의 낭만으로 바꾸는 수직 환승역입니다.",
+    "en": "A vertical transit station where rain, chrome, and neon signals turn daily movement into futuristic city romance."
+  },
+  "prompt": "Rain-charged NEON-V scene: an open-air vertical transit concourse built into the side of a futuristic tower cluster, viewed from a tilted mezzanine above a rain-polished plaza. Stacked glass elevators, chrome escalator ribs, cable conduits, ticket gates, vending alcoves, and brushed-metal wall panels create dense futuristic urban texture. Neon pink #FF00FF arrival boards and neon blue #00FFFF route maps glow through sheets of rain, multiplying across mirrored flooring, puddled stair treads, transparent safety screens, and wet carbon-fiber handrails. Deep #1A0033 violet architecture rises in layered silhouettes behind the station void, while #FF6B35 orange warning beacons, drone taillights, and platform edge strips add hot rhythmic accents. Commuter silhouettes move at medium speed under translucent LED umbrellas as compact courier drones skim between platforms, throwing small reflections and motion streaks without dominating the scene. High particle density with rain needles, mist from platform vents, floating hologram shards, water beads on glass, electrical spray from overhead cables, and splashes kicked up by passing feet. Energetic cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground detail, dense layered depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-21T21:50:46.257+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-neon-v-1782046225563",
+      "generatedAt": "2026-06-21T21:50:46.257+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/neon-v.png",
+      "sha256": "9ce6f17c3e1e47d3d7dadbba7f488fdd19616008615cb3101aa0d5e2ce8b9920",
+      "bytes": 3243706,
+      "attempts": 1,
+      "runId": "2026-05-27-neon-v-1782046225563",
+      "generatedAt": "2026-06-21T21:53:51.497+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

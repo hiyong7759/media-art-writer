@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-13",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "마젠타 스핀 세탁소",
+    "en": "Magenta Spin Launderette"
+  },
+  "description": {
+    "ko": "네온 세탁소가 비와 크롬, 코드화된 섬유를 역동적인 사이버펑크 도시의 반사로 바꾼다.",
+    "en": "A neon laundromat turns rain, chrome, and coded fabric into a kinetic cyberpunk city reflection."
+  },
+  "prompt": "NEON-V artwork titled \"Magenta Spin Launderette\": a rain-soaked cyberpunk street-level laundromat and garment-coding studio built into the base of a futuristic city tower, seen through a row of circular smart-glass washer doors that mirror the neon street outside. Wet black alloy floor tiles, brushed steel folding tables, transparent detergent tubes, barcode garment racks, chrome ceiling rails, cable-wrapped payment kiosks, condensation-streaked windows, and ribbed metal wall panels create dense futuristic urban texture. Neon pink #FF00FF wash-cycle halos and neon blue #00FFFF fabric data grids pulse across the spinning glass drums, spreading reflections through puddles, polished machine rims, rain-streaked storefront glass, and slick sidewalk plates. Deep #1A0033 violet tower walls press close beyond the window, while #FF6B35 orange heater coils, dryer vents, repair sparks, and delivery-bike brake glows add energetic warm accents. Medium-speed motion from rotating washer cylinders, sliding garment conveyors, raincoat silhouettes passing outside, and small service drones threading between hanging wet jackets. High particle density with rain needles on the entrance, steam curls, glowing droplets, detergent mist, floating hologram fragments, electric spray, and bright splashes under the doorway. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, layered urban night depth, energetic mood.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T10:21:20.300+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-13-neon-v-1782177657134",
+      "generatedAt": "2026-06-23T10:21:20.300+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-13/neon-v.png",
+      "sha256": "d3fade0f8e457e62fd53d7a6b6566ba7448dc2ff57f3682520c0bcea270426a0",
+      "bytes": 3208214,
+      "attempts": 1,
+      "runId": "2026-04-13-neon-v-1782177657134",
+      "generatedAt": "2026-06-23T10:23:34.518+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

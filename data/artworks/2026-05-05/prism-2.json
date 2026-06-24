@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-05",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "광자 돛의 굴절",
+    "en": "Photon Sail Refraction"
+  },
+  "description": {
+    "ko": "투명한 유리 돛들이 순백의 에너지를 무지개 카우스틱과 색수차의 빛 궤적으로 쪼개는 빠르고 밝은 PRISM-2 굴절 장면입니다.",
+    "en": "A fast, bright PRISM-2 refraction field where glass kite panels fracture pure white energy into rainbow caustics and chromatic light trails."
+  },
+  "prompt": "PRISM-2 radiant refraction sprint in a clean daylight-white void: a levitating array of transparent glass kite panels and thin crescent prisms folds around an off-center white photon flare, arranged like a shattered optical sail caught in rapid rotation. The flare does not travel as one beam; it skips in short angular bursts from panel to panel, producing intense light dispersion, razor-bright rainbow caustics, and glass refraction paths that twist through the empty space. Use #FF0080 magenta blade flashes, #00FF80 green edge trails, #8000FF violet split rims, and #FFFF00 yellow focal sparks, with visible chromatic aberration fringing every beveled glass corner. Bright luminous mood, fast kinetic streaks, very low particle count, transparent material purity, hard refracted highlights, no dark surface, no tabletop, no traditional triangular prism composition.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-24T12:06:50.282+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-05-prism-2-1782270389484",
+      "generatedAt": "2026-06-24T12:06:50.282+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-05/prism-2.png",
+      "sha256": "40ca3077ebc9efcac175528d0110b00d16ad7fa36def25bbfff45a9dce57efdb",
+      "bytes": 1909783,
+      "attempts": 1,
+      "runId": "2026-05-05-prism-2-1782270389484",
+      "generatedAt": "2026-06-24T12:10:34.772+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

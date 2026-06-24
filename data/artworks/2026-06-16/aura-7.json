@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛의 말미잘 관측소",
+    "en": "Lumen Anemone Observatory"
+  },
+  "description": {
+    "ko": "투명한 유기체 말미잘이 숨 쉬듯 빛나며 고요한 심해 안개 속으로 황금빛 덩굴을 흘려보냅니다.",
+    "en": "A breathing underwater anemone of translucent organic light releases golden tendrils into serene abyssal haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Lumen Anemone Observatory\": a serene deep underwater close view of a hollow biomorphic anemone form suspended just above the seafloor, its translucent #7FB069 petal-tubes arranged in an uneven crown rather than a perfect circle. Inside each soft tube, shadowed #2D5A3D chlorophyll ribs curve like breathing cartilage while warm #FFE66D liquid light wells upward from hidden pores, pools at the rims, and spills outward as slow glowing threads. The tendrils drift in different depths through a pale #E6F2E1 marine fog, breaking into dense plankton sparks and tiny pearly bubbles around the open central void. Emphasize wet gelatinous texture, soft internal radiance, slow current motion, layered abyssal haze, faint green caustic shimmer, high particle density, breathing natural light, calm organic life, no figures, no machinery, no architecture, no hard geometry, no cosmic setting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T09:08:57.999+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-aura-7-1782173307314",
+      "generatedAt": "2026-06-23T09:08:57.999+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/aura-7.png",
+      "sha256": "facd369d3cffa5cb427c7b254f51da4a6d25375848a5c963abdcf366b48cd17e",
+      "bytes": 2251299,
+      "attempts": 1,
+      "runId": "2026-06-16-aura-7-1782173307314",
+      "generatedAt": "2026-06-23T09:11:36.342+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

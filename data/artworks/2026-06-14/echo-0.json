@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "꿰어진 주파수",
+    "en": "Stitched Frequencies"
+  },
+  "description": {
+    "ko": "고요한 세라믹 공간을 가로지르는 미니멀한 음파가 보이지 않는 리듬을 빠르게 진동하는 선으로 바꾼다.",
+    "en": "Minimal soundwaves stitch across silent ceramic space, turning invisible rhythm into fast vibrating lines."
+  },
+  "prompt": "ECHO-0 sound visualization as a silent kinetic embroidery of invisible audio stitched through a field of matte white ceramic tuning tiles, viewed from a clean three-quarter overhead angle. No instrument, speaker, performer, core, sphere, corridor, membrane, ice slab, glass pane, dark void, or architectural monument appears; the sound exists only as minimal reactive linework. Hair-thin #4169E1 royal-blue threads sprint between separated tile seams, snapping into sharp #FF4500 orange stitch breaks wherever fast transient beats strike. Sparse #FFD700 gold pinpoints mark exact harmonic consonance at a few crossings, while rare #32CD32 lime micro-ticks skip sideways like syncopated frequency jumps. The tiles remain mostly empty, with crisp contact shadows beneath lifted thread segments, clipped amplitude bends, offset echo strokes, and low particle presence. Rhythmic, high-contrast, fast visual tempo: resonance in silence made visible as vibrating frequencies reacting to unheard sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T07:13:10.738+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-echo-0-1782166372518",
+      "generatedAt": "2026-06-23T07:13:10.738+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/echo-0.png",
+      "sha256": "5425ffb43b31c44962262854be9ad270fd13b7b5b7fb2682f615bb9979508fcd",
+      "bytes": 1987847,
+      "attempts": 1,
+      "runId": "2026-06-14-echo-0-1782166372518",
+      "generatedAt": "2026-06-23T07:15:48.279+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

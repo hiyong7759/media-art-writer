@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "철빛 등고 분지",
+    "en": "The Ferric Contour Basin"
+  },
+  "description": {
+    "ko": "점토와 실트, 모래와 돌이 얕은 분지 안에서 침식과 시간의 고요한 등고 기록이 된다.",
+    "en": "A shallow basin of clay, silt, sand, and stone becomes a quiet topographic record of erosion and time."
+  },
+  "prompt": "TERRA-1, titled \"The Ferric Contour Basin.\" A photorealistic ground-level macro study of a shallow eroded rain basin in compacted earth, its surface naturally raised into nested contour rings like a relief topographic map pressed from soil and stone. #8B4513 dark umber clay forms dense outer ridges, #D2691E iron-rich silt gathers in scalloped terraces, and #F4A460 pale sand settles as fine powder in quiet low pockets between rough pebble bars. Small fragments of shale, feldspar grit, fossil-like leaf impressions, and broken sandstone flakes interrupt the layers, while muted #2F4F4F slate mineral staining traces slow seep lines around each elevation step. The view is close enough to show porous grains, crumbly edges, sediment laminations, dust caught on stone lips, and the slow weight of erosion shaping land into cartography; restrained natural side light, grounded earthy mood, tactile geological texture, no sky, no vegetation, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-21T22:03:07.778+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-terra-1-1782046965793",
+      "generatedAt": "2026-06-21T22:03:07.778+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/terra-1.png",
+      "sha256": "35b44e81c641a5b4b79b1a0e9fb7c5fd332eb9b4dded0e21dae297824e39a9f1",
+      "bytes": 3718012,
+      "attempts": 1,
+      "runId": "2026-05-27-terra-1-1782046965793",
+      "generatedAt": "2026-06-21T22:05:32.927+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

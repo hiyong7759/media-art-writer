@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-07",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 서문",
+    "en": "Script of the Abyss"
+  },
+  "description": {
+    "ko": "무한한 VOID-3 심연 위로 별먼지가 읽을 수 없는 우주의 문자를 이루는 고요한 장면.",
+    "en": "A silent field of star dust forms unreadable cosmic script across the infinite VOID-3 abyss."
+  },
+  "prompt": "VOID-3 Cosmic Deep, an ultra-detailed deep space nebula where the infinite void appears as a colossal field of unreadable cosmic script stretched across darkness. Dense #E6E6FA star dust forms millions of tiny, suspended strokes and broken sigils, each grain drifting in very slow motion as if the universe is writing a warning too vast to read. Beneath the script, layered #0D0221 abyssal darkness opens in soft depth pockets that swallow distant stars without becoming a hole, portal, ring, vessel, or vortex. Wisps of #3D1A78 ultraviolet nebula vapor pass behind the glyph-like dust trails in transparent veils, while rare #7B68EE lavender plasma accents illuminate torn edges of the pattern like cold static. The composition should feel mysterious, solemn, and monumental: high particle density, restrained lavender glow, cold volumetric haze, infinite scale, astrophotographic texture, cosmic horror majesty, stars dust suspended in the silent deep universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-24T12:45:27.693+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-07-void-3-1782272709840",
+      "generatedAt": "2026-06-24T12:45:27.693+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-07/void-3.png",
+      "sha256": "f4f7ca93e70dc3bc82b869fc410f09e371a9b8acde27e9da960a9ae6b9813a23",
+      "bytes": 2811520,
+      "attempts": 1,
+      "runId": "2026-05-07-void-3-1782272709840",
+      "generatedAt": "2026-06-24T12:47:39.984+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

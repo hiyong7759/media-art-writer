@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "루마 전단 악보",
+    "en": "Luma Shear Score"
+  },
+  "description": {
+    "ko": "스캔라인을 가르며 가속하는 파편화된 기하가 엄격한 균형을 유지하는 흑백 신호 악보.",
+    "en": "A monochrome signal score where fractured geometry accelerates through scanlines while preserving strict balance."
+  },
+  "prompt": "KURO-X artwork titled \"Luma Shear Score\": a black and white geometric glitch abstraction arranged as a vertical score of fractured signal notation, with no character, logo, sculpture, sphere, cube, monolith, or single central object. Dense columns of #1A1A1A angular bars, #FFFFFF blank interruptions, and #808080 / #C0C0C0 splintered facets stack into an unstable rhythm like a corrupted monochrome transmission being read at extreme speed. The frame is divided by abrupt phase jumps: narrow triangular wedges, clipped parallelogram slats, serrated waveform teeth, diagonal slash marks, and misaligned rectangular registers appear to skip forward by several frames while still forming a balanced all-over composition. Fine horizontal scanlines, grayscale sync errors, luma-only ghosting, hard compression tiles, broken calibration ticks, and medium-density square particle debris add intense mechanical noise. High contrast, crisp vector edges, sharp angles, fast visual motion, cold abstract depth, chaotic fragments held in exact mathematical equilibrium.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T05:25:45.299+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-kuro-x-1782159926606",
+      "generatedAt": "2026-06-23T05:25:45.299+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/kuro-x.png",
+      "sha256": "6a2b56ded39bed33f1d66c46bdbe297ecbeeae603a490277bddd137bf1b7b436",
+      "bytes": 2133544,
+      "attempts": 1,
+      "runId": "2026-06-03-kuro-x-1782159926606",
+      "generatedAt": "2026-06-23T05:28:36.309+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

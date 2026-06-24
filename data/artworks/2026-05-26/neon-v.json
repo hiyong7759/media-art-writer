@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "시안 수문 지구",
+    "en": "Cyan Lock District"
+  },
+  "description": {
+    "ko": "네온 운하 지구가 비, 금속, 움직이는 반사를 NEON-V 특유의 에너지 넘치는 사이버펑크 낭만으로 바꿉니다.",
+    "en": "A neon canal quarter turns rain, metal, and moving reflections into NEON-V's energetic cyberpunk romance."
+  },
+  "prompt": "NEON-V artwork titled \"Cyan Lock District\": a rain-drenched cyberpunk canal quarter seen from a low bridge beside a transparent floodgate, where black chrome retaining walls, ribbed metal walkways, and stacked capsule storefronts shine with futuristic urban texture. Neon pink #FF00FF noodle signs and neon blue #00FFFF transit glyphs ripple across canal water and glass puddles, while deep #1A0033 violet tower silhouettes loom behind condensation-streaked windows. Autonomous canal taxis glide at medium speed beneath segmented light rails, disturbing the reflections into sharp waves; #FF6B35 orange signal lamps, brake flares, and repair sparks add hot accents through the mist. High particle density with rain needles, spray, steam jets, floating hologram fragments, droplets on railings, and glittering runoff streams. Energetic cyberpunk cityscape colors, neon and metal digital romance, crisp foreground detail, luminous rainy reflections, dense layered depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-21T21:16:54.762+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-neon-v-1782044196944",
+      "generatedAt": "2026-06-21T21:16:54.762+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/neon-v.png",
+      "sha256": "654479c84b08a9b27a36eb13f0abef434f97a0c45c7bae0cca2311a87662db03",
+      "bytes": 3172247,
+      "attempts": 1,
+      "runId": "2026-05-26-neon-v-1782044196944",
+      "generatedAt": "2026-06-21T21:20:18.582+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

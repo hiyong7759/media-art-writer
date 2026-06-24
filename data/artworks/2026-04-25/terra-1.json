@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-25",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "새프롤라이트 풍화 경계",
+    "en": "The Saprolite Weathering Front"
+  },
+  "description": {
+    "ko": "화강암이 흙으로 풀려 가는 지질 단면 위에 등고선 같은 풍화 고리와 광물 틈, 시간의 층리가 드러난다.",
+    "en": "A grounded geological cutaway where granite dissolves into soil, leaving contour-like halos, mineral seams, and layered earth textures carved by time."
+  },
+  "prompt": "TERRA-1, titled \"The Saprolite Weathering Front.\" A photorealistic close cutaway view of decomposed granite slowly changing into soil, where half-buried corestones sit inside softened mineral earth with weathering halos that resemble contour lines on a topographic map. Dense #8B4513 umber clay fills the lowest cracks, #D2691E iron-orange oxide wraps the rounded stone rinds, and #F4A460 sandy feldspar grains spill from crumbling pockets in fine granular fans. Muted #2F4F4F slate-gray mineral seams trace old fractures, pressure shadows, and thin boundary lines between intact rock and loosened regolith. The surface shows rough stone skins, friable soil crumbs, mica specks, quartz grit, peeled sediment laminations, and compacted dust caught along tiny ledges, creating a grounded record of bedrock being rewritten by time. Low natural side light, tactile earthy tones, medium suspended particulate detail, slow geological movement, no sky, no plants, no water, no human objects, hyper-detailed mineral texture study.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T23:57:04.511+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-25-terra-1-1782226602271",
+      "generatedAt": "2026-06-23T23:57:04.511+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-25/terra-1.png",
+      "sha256": "4e37ef43c033b10df928402870ef588ce2345db95daea6934690c4704fb72884",
+      "bytes": 3741782,
+      "attempts": 1,
+      "runId": "2026-04-25-terra-1-1782226602271",
+      "generatedAt": "2026-06-23T23:59:07.705+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "void-3",
+  "title": {
+    "ko": "프리즘의 침묵",
+    "en": "The Prism Silence"
+  },
+  "description": {
+    "ko": "검은 공허의 단면과 라벤더 별먼지가 우주의 깊이를 이루는 침묵의 기념비처럼 결정화된다.",
+    "en": "Black void facets and lavender star dust crystallize into a silent monument of cosmic depth."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an immense deep space nebula where the infinite void appears as a field of suspended black-glass prisms, each facet filled with pure #0D0221 darkness and separated by hairline gaps of cold stellar haze. Around the prisms, dense #E6E6FA star dust gathers in slow, granular halos like frozen ash under zero gravity, while broad #3D1A78 ultraviolet nebula mist seeps between the facets without forming clouds or rotation. Sparse #7B68EE lavender ion glints mark tiny fracture points across the darkness, suggesting an unseen abyssal intelligence pressing against the fabric of space. No spacecraft, planets, rings, vortex, central black hole, eclipse, lattice, shells, or chasm; the composition should feel like a forbidden astronomical exposure of the universe crystallizing into silence. Mysterious cosmic horror majesty, high particle density, very slow celestial drift, restrained lavender luminance, cold volumetric depth, ultra-detailed astrophotographic texture, stars dust suspended across an infinite abyss.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T09:45:16.533+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-void-3-1782175494946",
+      "generatedAt": "2026-06-23T09:45:16.533+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/void-3.png",
+      "sha256": "eb61c6071d5aef07ce89dc289b4eb60c988b7a2061600c3ecb6f2fada2b57dd2",
+      "bytes": 2495131,
+      "attempts": 1,
+      "runId": "2026-06-19-void-3-1782175494946",
+      "generatedAt": "2026-06-23T09:47:47.855+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

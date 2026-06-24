@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "고요한 뿌리의 빛 강어귀",
+    "en": "Lumen Estuary of Quiet Roots"
+  },
+  "description": {
+    "ko": "살아 있는 빛의 수중 삼각주에서 유기적 둔덕이 숨 쉬고 황금빛 덩굴이 진주빛 녹색 안개 속을 천천히 흐른다.",
+    "en": "A serene underwater delta of living light, where organic banks breathe and golden tendrils drift through pearl-green haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Lumen Estuary of Quiet Roots\": a deep underwater macro panorama shaped like a soft biological river delta suspended in open water, where slow branching streams of #FFE66D liquid light emerge from unseen porous tissue and drift outward through a cool #E6F2E1 marine haze. The channels are bordered by cushion-like #7FB069 organic banks, translucent and moist, with shadowy #2D5A3D root fibers visible beneath their surfaces as if the whole delta is inhaling and exhaling. Fine glowing tendrils peel away from the current edges, curling gently into the surrounding depth while thousands of tiny plankton sparks and pearly microbubbles move with the same slow tide. Emphasize serene breathing natural light, bioluminescent organic shapes, flowing liquid illumination, gelatinous wet texture, soft internal radiance, layered underwater depth, high particle density, faint green caustic shimmer, calm motion blur, and no figures, machines, architecture, hard geometry, rigid symmetry, or cosmic setting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T06:58:17.198+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-aura-7-1782165479390",
+      "generatedAt": "2026-06-23T06:58:17.198+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/aura-7.png",
+      "sha256": "759d32f62f9a67b64c863157fb5f086506e404b4c842fa7643d954881b2d4662",
+      "bytes": 2526870,
+      "attempts": 1,
+      "runId": "2026-06-14-aura-7-1782165479390",
+      "generatedAt": "2026-06-23T07:02:09.809+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

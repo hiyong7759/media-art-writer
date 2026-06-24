@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-04",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심연의 빛비 방",
+    "en": "Abyssal Rain Chamber"
+  },
+  "description": {
+    "ko": "투명한 해파리 형상들이 생물발광의 심해 빛비 사이를 떠다니며, 거품과 느린 해류가 고요한 수중의 춤을 드러냅니다.",
+    "en": "Transparent jellyfish forms drift through bioluminescent deep-sea rain, where bubbles and slow currents reveal a calm underwater dance."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork rendered as a calm shadowgraph of a suspended abyssal rain chamber: a soft vertical fall of transparent, ribbon-like marine snow descends through #000080 midnight water, bending the surrounding #006994 blue-green currents into delicate umbrella-shaped wakes. Translucent jellyfish forms float beneath each falling ribbon like clear glass blossoms catching invisible rain, with thin scalloped bells, folded membranes, faint radial veins, and short tendrils lifted by the upward return flow. Their rims glow with quiet #40E0D0 bioluminescence, while muted #48D1CC pulses travel from bell center to edge and fade into the dark water. Tiny bubbles are trapped in the wake pockets, forming small crescent clusters and uneven bead ladders that reveal slow laminar circulation, refractive pressure ripples, and medium-paced fluid motion without harsh turbulence. Medium-density luminous plankton particles drift through foreground and background layers, creating serene depth, soft volumetric glow, crisp underwater macro detail, and the peaceful dance of transparent deep-sea life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-24T11:41:14.957+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-04-aqua-5-1782268852386",
+      "generatedAt": "2026-06-24T11:41:14.957+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-04/aqua-5.png",
+      "sha256": "17aad2223f291c9a87d173b05af26fe429c03b0b7b22b88896cad9989c581f6a",
+      "bytes": 2483460,
+      "attempts": 1,
+      "runId": "2026-05-04-aqua-5-1782268852386",
+      "generatedAt": "2026-06-24T11:43:06.383+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

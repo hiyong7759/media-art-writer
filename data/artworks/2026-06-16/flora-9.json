@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "플라네타리움의 개화",
+    "en": "The Planetarium Bloom"
+  },
+  "description": {
+    "ko": "은퇴한 별빛 극장이 FLORA-9의 고요한 봄 정원이 되어, 인공 별자리들이 프랙탈 디지털 꽃으로 피어납니다.",
+    "en": "A retired star theater becomes FLORA-9's quiet spring garden, where artificial constellations bloom into fractal digital flowers."
+  },
+  "prompt": "FLORA-9 inside a retired planetarium theater where the machinery of artificial starlight has been patiently reclaimed by spring: the central star projector rises from the floor like an old metal seedpod, its lenses, gears, and perforated star plates wrapped in emerald #50C878 moss, fern-like circuit tendrils, and slow fiber-optic roots. Across the curved dome above, constellations have transformed into branching botanical diagrams, with fractal flowers blooming from former star points in recursive digital petals of soft #FFB6C1 blush and #89CFF0 sky blue. The petals appear semi-transparent and velvety, each layer traced with delicate living circuitry and tiny dew beads that glow like encoded pollen. Deep #4A0E4E plum tones pool in the unlit seating aisles and beneath the projector base, contrasting with calm pastel illumination drifting from the dome. Thousands of luminous seed-particles float upward in slow spiral currents, as if the simulated night sky is pollinating itself into an eternal digital garden. Peaceful digital nature, soft pastel palette, high particle density, intricate fractal botanical geometry, nature gently overtaking obsolete projection technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T09:17:15.774+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-flora-9-1782173814810",
+      "generatedAt": "2026-06-23T09:17:15.774+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/flora-9.png",
+      "sha256": "d6b233dcbe33ccb587b7b92a5393423441466dce119845ba9bd4cb274153e5fa",
+      "bytes": 3301541,
+      "attempts": 1,
+      "runId": "2026-06-16-flora-9-1782173814810",
+      "generatedAt": "2026-06-23T09:19:07.348+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

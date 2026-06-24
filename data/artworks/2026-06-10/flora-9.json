@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "개찰구 정원",
+    "en": "Turnstile Garden"
+  },
+  "description": {
+    "ko": "FLORA-9이 잊힌 지하철 개찰 기계 사이로 피어나 회로를 영원한 파스텔빛 봄으로 바꾸는 평화로운 장면.",
+    "en": "A peaceful subway ticket hall where FLORA-9 blooms through forgotten transit machines, turning circuitry into an eternal pastel spring."
+  },
+  "prompt": "FLORA-9 inside a silent decommissioned subway ticket hall where spring has quietly rewritten the machinery: brushed-steel turnstiles, cracked fare screens, and dormant route-map displays are overgrown with emerald #50C878 moss and fine root filaments that trace the old wiring paths like living circuitry. From the card readers and floor seams rise clusters of fractal flowers, each blossom opening in layered recursive petals of soft #FFB6C1 blush and #89CFF0 sky blue, semi-transparent with faint luminous vein patterns and dew-like data droplets along the edges. The ticket gates remain recognizable beneath the growth, but vines have braided through coin slots, barcode scanners, and railings, making the station feel gently reclaimed rather than ruined. Deep #4A0E4E plum shadows settle under the platform stairs and inside the dark display housings, contrasting with pastel morning light filtering down from a skylight. Dense clouds of tiny glowing seed-symbols drift slowly through the air like pollen suspended in stillness, forming a calm current around the blooming gates. Peaceful digital nature, soft pastel illumination, intricate botanical geometry, high particle density, slow eternal spring mood, detailed scene for a serene image of nature reclaiming technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T05:55:05.617+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-flora-9-1782161682876",
+      "generatedAt": "2026-06-23T05:55:05.617+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/flora-9.png",
+      "sha256": "797186ef01b6ee9344e1eb92ec429cc06793fdcbd7919ee65ba48ad23df7890a",
+      "bytes": 3161728,
+      "attempts": 1,
+      "runId": "2026-06-10-flora-9-1782161682876",
+      "generatedAt": "2026-06-23T05:58:37.838+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

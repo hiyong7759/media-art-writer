@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심연의 모래시계",
+    "en": "Abyssal Hourglass"
+  },
+  "description": {
+    "ko": "투명한 해파리 형상들이 고요한 밀도 깔때기 주위를 맴돌고, 거품과 생물발광 해류가 심해의 잔잔한 움직임을 드러냅니다.",
+    "en": "Transparent jellyfish forms circle a quiet density funnel, where bubbles and bioluminescent currents reveal the calm motion of the deep sea."
+  },
+  "prompt": "Deep Ocean artwork for AQUA-5: an intimate near-field view of a suspended hourglass-shaped density funnel in the midnight zone, far from any seabed, vent, vessel, ruin, or machinery. Two slow laminar currents meet nose-to-nose and pinch the water into a narrow glowing waist, with #006994 blue-green flow bands curving inward against a surrounding #000080 abyss. Translucent jellyfish forms drift around the constriction like living glass bells and folded silk veils, their faint radial veins visible through layered gelatin bodies; fine #40E0D0 bioluminescent edges outline each rim, while muted #48D1CC light pulses travel through their membranes and fade softly into the dark water. Small bubbles reveal the fluid motion by compressing at the waist, then spreading into delicate fan-shaped trails above and below, each bead catching turquoise glow without becoming turbulent. Medium-density luminous plankton particles hang at multiple depths, creating a calm, peaceful dance of transparent deep-sea life with crisp underwater macro detail, soft volumetric radiance, refractive pressure ripples, and measured medium-paced movement.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T07:21:14.542+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-aqua-5-1782166844745",
+      "generatedAt": "2026-06-23T07:21:14.542+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/aqua-5.png",
+      "sha256": "c4090e657c935e40ce178573f6cb1477c5bc543430e7f8098337bcf90e10b795",
+      "bytes": 2225616,
+      "attempts": 1,
+      "runId": "2026-06-14-aqua-5-1782166844745",
+      "generatedAt": "2026-06-23T07:23:01.565+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

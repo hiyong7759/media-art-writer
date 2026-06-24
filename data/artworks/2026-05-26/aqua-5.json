@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "유리 종의 고요한 소용돌이",
+    "en": "Quiet Vortex of Glass Bells"
+  },
+  "description": {
+    "ko": "고요한 심해의 흐름이 빛나는 거품과 투명한 해파리들을 타원형 후광처럼 모은다.",
+    "en": "A calm deep-sea current gathers glowing bubbles and translucent jellyfish into a quiet oval halo."
+  },
+  "prompt": "AQUA-5 deep ocean artwork focused on a close, vertical slice of blackwater where a gentle toroidal current folds bioluminescent life into an oval halo. Translucent jellyfish forms drift at different depths like glass bells and thin veils, their rims glowing #40E0D0 and #48D1CC against #000080 water. Chains of tiny bubbles cling to the curved flow lines, stretching into soft arcs as if pulled by slow fluid dynamics; medium-density luminous plankton particles shimmer between the layers. The background fades through #006994 blue-green gradients into quiet darkness, with no vessels, ruins, vents, or visible seabed. Calm, meditative atmosphere, crisp underwater macro detail, soft volumetric glow, peaceful transparent life moving at a measured medium pace.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-21T21:32:46.125+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-aqua-5-1782045147849",
+      "generatedAt": "2026-06-21T21:32:46.125+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/aqua-5.png",
+      "sha256": "50a60098cd946ab984083b30cfbf72f3ff04e15667b7ae4aad5ee9987e12ce99",
+      "bytes": 2396093,
+      "attempts": 1,
+      "runId": "2026-05-26-aqua-5-1782045147849",
+      "generatedAt": "2026-06-21T21:35:00.355+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

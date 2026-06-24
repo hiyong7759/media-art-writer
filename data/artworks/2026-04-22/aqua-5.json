@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-22",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "압력문 표류",
+    "en": "Pressure Gate Drift"
+  },
+  "description": {
+    "ko": "투명한 해파리들이 심해의 고요한 생물발광 압력층 사이를 떠돈다.",
+    "en": "Transparent jellyfish drift through calm bioluminescent pressure layers in the deep ocean."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork in open midnight blackwater, composed as a quiet close view of an invisible pressure gate where two offset layers of water pass through one another like transparent sliding panes, with no seabed, vents, vessels, ruins, machinery, fish, or architecture. The #000080 abyss is crossed by tall, faint #006994 blue-green refraction planes, their edges bending into soft parabolic wakes that make the fluid dynamics visible without turbulence. Translucent jellyfish forms drift through the pressure gate at varied depths like clear blown-glass lanterns and thin folded veils, showing scalloped rims, faint radial veins, layered gelatin membranes, and short weightless tendrils gently tilted by the flow. Calm #40E0D0 bioluminescence outlines each rim, while muted #48D1CC pulses move through the bodies and scatter across the refractive planes as soft aquatic caustics. Tiny bubbles collect along the invisible pane edges, stretch into flattened comma shapes, then separate into sparse bead trails that reveal measured medium-paced motion. Medium-density luminous plankton particles hover between foreground and background layers, creating a serene deep-sea macro scene with crisp transparent detail, soft volumetric glow, and the peaceful dance of light-bearing life in dark water.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T17:47:47.192+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-22-aqua-5-1782204445468",
+      "generatedAt": "2026-06-23T17:47:47.192+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-22/aqua-5.png",
+      "sha256": "446e5fe9e4cabd13723ac80131b27c8c5c84f5d14668f2524b2d893f98fc235e",
+      "bytes": 2032402,
+      "attempts": 1,
+      "runId": "2026-04-22-aqua-5-1782204445468",
+      "generatedAt": "2026-06-23T17:49:58.792+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

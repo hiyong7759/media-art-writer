@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "응결의 자오선",
+    "en": "The Concretion Meridian"
+  },
+  "description": {
+    "ko": "둥근 돌과 퇴적의 결이 대지 속 시간의 지도를 드러낸다.",
+    "en": "Rounded stones and sediment seams expose a grounded map of time inside the earth."
+  },
+  "prompt": "TERRA-1, titled \"The Concretion Meridian.\" A ground-hugging photoreal geological study of a weathered badland slope where erosion has uncovered rows of rounded sandstone concretions embedded in compact soil. Several split nodules reveal concentric #8B4513 iron-brown cores, #D2691E oxidized clay halos, and powdery #F4A460 sandy rims, reading like miniature topographic maps pressed into stone. Between them, rough shale splinters, granular loam, mica dust, pebble lenses, and thin sediment seams step downward in slow uneven bands, while muted #2F4F4F mineral staining settles in hairline pressure cracks and shadowed pores. The composition feels heavy and grounded: no sky, no vegetation, no water, no human objects, only tactile earth, worn rock, crusted soil, and layered time. Low raking natural light catches crumbly edges, pitted surfaces, compacted grains, and subtle relief, creating a quiet earth-texture image with slow movement, medium particulate detail, and richly stratified earthy tones.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T06:03:54.640+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-terra-1-1782162214817",
+      "generatedAt": "2026-06-23T06:03:54.640+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/terra-1.png",
+      "sha256": "6d6ce494bb353acb27ca75c58893b7d7e9654e532dddfb088b503099a70da1a1",
+      "bytes": 3490884,
+      "attempts": 1,
+      "runId": "2026-06-10-terra-1-1782162214817",
+      "generatedAt": "2026-06-23T06:05:57.943+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

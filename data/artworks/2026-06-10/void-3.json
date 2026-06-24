@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 별비",
+    "en": "Abyssal Starfall"
+  },
+  "description": {
+    "ko": "보이지 않는 어둠을 향해 별먼지가 내려앉고, 접힌 보랏빛 성운 사이로 무한한 우주의 고요한 장엄이 드러난다.",
+    "en": "Star dust descends through folded violet nebulae toward a bodyless darkness, revealing the silent majesty of the infinite void."
+  },
+  "prompt": "VOID-3 Cosmic Deep, a vast deep space nebula viewed as an impossible eclipse without a body: thousands of #E6E6FA star-dust points bend into long, slow, vertical rainlike trails as they pass before a flat expanse of #0D0221 absolute darkness. Across the upper void, translucent #3D1A78 ultraviolet gas sheets fold into immense, silent pleats, while razor-thin #7B68EE lavender electrical filaments appear only where the nebula is being stretched by an unseen mass beyond the frame. The composition has no spacecraft, no planet, no ring, no vortex, and no central black hole; it feels like the universe itself is being quietly pulled downward into an infinite abyss. High particle density, very slow celestial drift, mysterious cosmic horror majesty, restrained lavender glow, cold volumetric haze, finely detailed astrophotographic texture, stars dust suspended in solemn infinite silence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T06:01:25.853+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-void-3-1782162068512",
+      "generatedAt": "2026-06-23T06:01:25.853+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/void-3.png",
+      "sha256": "9c4805edb91c483a7b5cf4e78b2d3d57ebf59290a5b9caf62e3e5697f976bb86",
+      "bytes": 2448524,
+      "attempts": 1,
+      "runId": "2026-06-10-void-3-1782162068512",
+      "generatedAt": "2026-06-23T06:03:34.772+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

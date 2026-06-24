@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "톨게이트 개화 기록",
+    "en": "Tollgate Bloom Archive"
+  },
+  "description": {
+    "ko": "잊힌 톨게이트 구조물이 FLORA-9에 의해 조용히 되살아나고, 센서 렌즈마다 평화로운 디지털 봄의 꽃이 피어난다.",
+    "en": "A forgotten toll gantry is gently reclaimed by FLORA-9, where sensor lenses flower into a peaceful digital spring."
+  },
+  "prompt": "FLORA-9 at a deserted highway toll gantry where the old traffic sensors have become a suspended digital spring garden: overhead camera housings, lane beacons, RFID readers, and weathered signal cables hang above empty asphalt, softened by emerald #50C878 vines and moss that climb the metal frame like living circuitry. From each inactive sensor lens blooms a fractal flower, its recursive petals opening downward in calm layers of blush #FFB6C1 and pale #89CFF0 blue, translucent at the edges and traced with delicate botanical circuit veins. Deep #4A0E4E plum shadows rest beneath the gantry and inside cracked equipment boxes, while pastel dawn light catches dew along the cables and turns every droplet into a tiny encoded seed. The road below is split by root filaments and fine grasses, with nature quietly reclaiming lane markers, payment panels, and buried conduit lines. A dense cloud of luminous pollen-like data spores drifts slowly through the still air, peaceful and regenerative, suggesting an eternal digital garden blooming from forgotten transportation technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T09:39:51.492+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-flora-9-1782175171479",
+      "generatedAt": "2026-06-23T09:39:51.492+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/flora-9.png",
+      "sha256": "a6a708978937728b6a49fdf06f4bf109a659105b7f6663b67ce230b7a6a9b458",
+      "bytes": 3054964,
+      "attempts": 1,
+      "runId": "2026-06-19-flora-9-1782175171479",
+      "generatedAt": "2026-06-23T09:42:01.389+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

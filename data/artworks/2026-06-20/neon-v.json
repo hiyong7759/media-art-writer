@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "증기 중계 온실",
+    "en": "Vapor Relay Conservatory"
+  },
+  "description": {
+    "ko": "빗물로 움직이는 사이버펑크 온실이 타워 사이에서 빛나고, 네온 관개 장치와 드론이 젖은 금속을 디지털 낭만으로 바꾼다.",
+    "en": "A rain-fed cyberpunk greenhouse glows between tower walls, where neon irrigation systems and drifting drones turn wet metal into digital romance."
+  },
+  "prompt": "NEON-V cyberpunk city vision, \"Vapor Relay Conservatory\": a rain-fed vertical greenhouse and climate-control arcade nested between futuristic tower walls, viewed from a wet maintenance balcony facing stacked transparent grow chambers, chrome irrigation rails, algae-lit glass tanks, black alloy floor grates, sensor vines, mist nozzles, coolant pipes, and curved data windows. Neon pink #FF00FF plant-growth graphs bloom across suspended screens, neon blue #00FFFF humidity lines run through glass tubing and shallow floor channels, and deep #1A0033 violet city facades press in behind the translucent greenhouse skin. Rainwater streams over the exterior panels and breaks the city lights into liquid reflections across puddles, polished metal trays, visor glass, and slick ceramic steps. #FF6B35 orange heater coils, pollination drone lamps, valve warnings, and nutrient pump glows add hot energetic accents. Medium-paced motion from rotating hydroponic racks, drifting courier silhouettes on the balcony, small pollination drones weaving through mist, and sliding rain shutters opening to the neon street beyond. Dense particles fill the scene: rain needles, atomized vapor, glowing droplets, pollen-like hologram specks, condensation beads, electric mist, and bright splashes along the grates. Futuristic urban texture, neon pink and blue cityscape colors, rainy reflections, neon and metal digital romance, sharp foreground detail, layered enclosed city depth, energetic night mood.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T10:02:01.473+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-neon-v-1782176501285",
+      "generatedAt": "2026-06-23T10:02:01.474+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/neon-v.png",
+      "sha256": "ba9a55544c90f9c31ff98b41548236d1d5980a4452500b102e9f021b1709ab12",
+      "bytes": 3171604,
+      "attempts": 1,
+      "runId": "2026-06-20-neon-v-1782176501285",
+      "generatedAt": "2026-06-23T10:04:01.334+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

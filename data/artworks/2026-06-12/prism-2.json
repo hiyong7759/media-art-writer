@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럴 룸",
+    "en": "Spectral Loom"
+  },
+  "description": {
+    "ko": "공중의 투명한 광학 회로가 흰 에너지를 유리관과 막 사이로 엮어 빠른 무지개 카스틱으로 굴절시킨다.",
+    "en": "A bright airborne optical circuit weaves white energy through glass tubes and membranes, refracting it into fast rainbow caustics."
+  },
+  "prompt": "PRISM-2 spectral loom: in a radiant white volume, a suspended grid of ultra-clear glass capillary tubes, tiny square apertures, and thin liquid-crystal membranes forms an airborne optical circuit rather than a traditional prism. Rapid white photon threads weave through the tubes at sharp angles, then scatter through the membranes into braided dispersion bands of #FF0080 magenta, #00FF80 mint, #8000FF violet, and #FFFF00 yellow. The refracted energy draws flickering barcode caustics, concentric rainbow ripples, and split-second chromatic fringes around every curved tube rim and aperture corner. Bright pure-energy mood, fast spectral motion, polished refraction clarity, crisp internal reflections, very few suspended particles, clean luminous atmosphere, no tabletop prism or dark macro setup.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T06:56:01.895+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-prism-2-1782165344511",
+      "generatedAt": "2026-06-23T06:56:01.895+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/prism-2.png",
+      "sha256": "f41ff94c6a6ec21da1ab7fc653eba7d6fc0478b184f199207b742149309a5357",
+      "bytes": 2450181,
+      "attempts": 1,
+      "runId": "2026-06-12-prism-2-1782165344511",
+      "generatedAt": "2026-06-23T06:57:59.347+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

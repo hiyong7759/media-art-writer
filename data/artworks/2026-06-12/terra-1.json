@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "암화된 물결 측량",
+    "en": "The Lithified Ripple Survey"
+  },
+  "description": {
+    "ko": "사암으로 굳은 오래된 물결 능선이 흙빛 등고선과 광물 먼지, 층층의 시간을 품는다.",
+    "en": "Ancient ripple ridges hardened into sandstone, carrying earth-toned contour lines, mineral dust, and layered time."
+  },
+  "prompt": "TERRA-1, titled \"The Lithified Ripple Survey.\" A photorealistic oblique macro study of an exposed sandstone bedding plane where ancient ripple marks have hardened into long, low contour ridges, like a topographic map raised from compacted earth. The ridges alternate between #8B4513 iron-brown stone, #D2691E oxidized silt glaze, and #F4A460 sandy abrasion on the worn crests; muted #2F4F4F slate mineral dust gathers in the troughs, tiny pores, and fractured cross-beds. Broken edges reveal thin sediment laminations, compressed clay seams, pebble grit, mica flecks, and rough granular soil packed into shallow cracks. The composition is close, grounded, and tactile: no sky, no vegetation, no water, no human objects, only weathered rock, dry sediment, mineral staining, and the slow record of land pressed into layered relief. Low natural grazing light emphasizes pitted sandstone, crumbly margins, fine dust, raised contour lines, and the quiet weight of geological time.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T06:51:01.708+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-terra-1-1782165042486",
+      "generatedAt": "2026-06-23T06:51:01.708+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/terra-1.png",
+      "sha256": "f4130d71ebc6659b8ab58787d0de4355b602bdfe5039c5dcdf0a0577b920a3cd",
+      "bytes": 3274785,
+      "attempts": 1,
+      "runId": "2026-06-12-terra-1-1782165042486",
+      "generatedAt": "2026-06-23T06:52:58.862+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

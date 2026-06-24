@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "크로마포지 레인 레인",
+    "en": "Chromaforge Rain Lane"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 제작 골목에서 네온 간판 장인, 크롬 기계, 반사된 도시의 빛이 금속 작업을 디지털 낭만으로 바꾼다.",
+    "en": "A rain-soaked cyberpunk fabrication street where neon sign-makers, chrome machinery, and reflected city lights turn metalwork into digital romance."
+  },
+  "prompt": "NEON-V artwork titled \"Chromaforge Rain Lane\": a narrow cyberpunk fabrication street embedded between stacked apartment towers, viewed from beside an open-front metal printing workshop where the city is reflected in wet black steel, glass awnings, and puddled loading rails. Robotic sign-makers, chrome printer arms, induction furnaces, grated balconies, coil racks, fiber conduits, transparent rain shields, and scorched ceramic floor plates create dense futuristic urban texture. Neon pink #FF00FF kanji-style shop marks and neon blue #00FFFF calibration grids glow across freshly printed sign panels, rainwater sheets, visor glass, puddles, and polished machine casings; deep #1A0033 violet tower walls rise close overhead through steam and rain. #FF6B35 orange furnace light, welding arcs, heat warnings, and delivery pod brake glows add energetic warm flashes. Medium-speed motion from rolling fabrication arms, sliding cargo trays, sign panels being lifted into the rain, passing silhouettes in clear coats, and small service drones threading through sparks. High particle density with rain needles, metal vapor, coolant mist, floating hologram fragments, glowing droplets, grinding dust, and bright splashes on reflective rails. Cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground machinery, layered urban depth, energetic night atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T07:05:17.415+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-neon-v-1782165898018",
+      "generatedAt": "2026-06-23T07:05:17.415+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/neon-v.png",
+      "sha256": "dd2236cb963c340b5d0c524004f2aaa87082f5f63892bb2d0d8d6e24d949108a",
+      "bytes": 3098407,
+      "attempts": 1,
+      "runId": "2026-06-14-neon-v-1782165898018",
+      "generatedAt": "2026-06-23T07:08:57.206+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

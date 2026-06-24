@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-20",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "회전하는 정원",
+    "en": "Spin Cycle Garden"
+  },
+  "description": {
+    "ko": "잊힌 세탁 기계들 속에서 고요한 디지털 봄 정원이 피어납니다.",
+    "en": "A serene digital spring garden blooms from forgotten laundromat machines."
+  },
+  "prompt": "For 2026-04-20, FLORA-9 appears as a peaceful spring bloom inside a forgotten automated laundromat, where silent washing machines and glass dryer doors have become round nursery windows for digital nature. Emerald #50C878 moss cushions the enamel surfaces, fine roots lace through coin trays, detergent drawers, rubber door seals, and old control buttons, gently converting every appliance into a planter. Within each circular drum, fractal flowers rotate open like living mandalas: translucent digital petals in soft #FFB6C1 blush and #89CFF0 sky blue unfold in nested layers, traced with delicate green circuit-veins and dotted with dew-bright encoded seeds. Deep #4A0E4E plum shadows glow inside the dark machine interiors and beneath cracked tile flooring, balanced by pastel morning light entering through steamed front windows. High-density pollen-like particles drift slowly between hanging cables, softened chrome, and vine-wrapped pipes, making the laundromat feel calm, fertile, and permanently in bloom as nature quietly reclaims the obsolete machines.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T16:46:36.306+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-20-flora-9-1782200776394",
+      "generatedAt": "2026-06-23T16:46:36.306+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-20/flora-9.png",
+      "sha256": "80a864ee05a3ac272c8fb514d1bef67434f43c51f069f947138df0fd4a20a993",
+      "bytes": 3320341,
+      "attempts": 1,
+      "runId": "2026-04-20-flora-9-1782200776394",
+      "generatedAt": "2026-06-23T16:48:56.302+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

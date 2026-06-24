@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "체크섬 길로틴 매트릭스",
+    "en": "Checksum Guillotine Matrix"
+  },
+  "description": {
+    "ko": "빠르게 절단되는 흑백 기하학의 파편들이 정밀한 균형 속에서 혼돈을 붙잡는 장면.",
+    "en": "A high-speed monochrome field where fractured geometric blades and checksum fragments hold chaos in exact balance."
+  },
+  "prompt": "KURO-X artwork titled \"Checksum Guillotine Matrix\": a severe black and white geometric glitch abstraction with no character, logo, typography, sculpture, sphere, cube, monolith, or single central object. The frame is constructed as a suspended field of interlocking guillotine-like vector blades and checksum cells: matte #1A1A1A angular slabs shear against hard #FFFFFF data voids, while #808080 and #C0C0C0 clipped facets form staggered triangular counters, split hexagonal locks, thin diagonal cuts, and broken right-angle hinges. The composition feels like a corrupted verification system firing at high speed, with rows of fragments shifting in alternating directions yet resolving into exact visual equilibrium. Dense horizontal scanlines cross every layer; luma tearing, grayscale jitter, bit-crushed square noise, fractured parity marks, stepped edge echoes, and medium-density particle debris intensify the monochrome complexity. High contrast, crisp vector edges, sharp angles, cold mechanical depth, fast motion, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T07:02:26.901+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-kuro-x-1782165729850",
+      "generatedAt": "2026-06-23T07:02:26.901+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/kuro-x.png",
+      "sha256": "8e831822ee800df805ad161c6941bd83d80759d7c34f5dfc429c349db4e60292",
+      "bytes": 1913300,
+      "attempts": 1,
+      "runId": "2026-06-14-kuro-x-1782165729850",
+      "generatedAt": "2026-06-23T07:04:57.973+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

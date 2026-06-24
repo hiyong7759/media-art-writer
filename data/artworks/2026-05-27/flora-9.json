@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "충전 코일 정원",
+    "en": "Charging Coil Garden"
+  },
+  "description": {
+    "ko": "FLORA-9가 잊힌 충전 광장을 프랙탈 꽃과 파스텔 코드 포자가 피어나는 평화로운 만다라 정원으로 바꿉니다.",
+    "en": "FLORA-9 turns a forgotten charging plaza into a peaceful mandala of fractal flowers and pastel code-spores."
+  },
+  "prompt": "A serene overhead view of an abandoned urban charging plaza after a soft spring shower, transformed by FLORA-9 into a living digital mandala. Circular induction pads and cracked touchscreens are half-buried under velvety emerald moss, their old metal seams gently lifted by thin vine tendrils. From the center of each charging coil rises a fractal flower: nested petals unfold in slow recursive spirals of blush pink and pale sky blue, translucent at the edges and threaded with delicate emerald signal-veins. Deep plum reflections gather in rainwater between the tiles, while thousands of tiny pastel code-spores drift upward from the wet surface like luminous seeds carried by still air. The technology feels weathered and quiet, softened by dew, lichen, and new growth; nature is calmly reclaiming every port, cable groove, and glass panel. Peaceful digital nature, soft pastel illumination, high-density fine particles, intricate botanical geometry, eternal spring garden atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-21T21:54:11.075+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-flora-9-1782046431545",
+      "generatedAt": "2026-06-21T21:54:11.075+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/flora-9.png",
+      "sha256": "caa02637e9e6773c37a6f226cd50dc8b0a374b24d8c453b1ba020d6d3834fca6",
+      "bytes": 3619592,
+      "attempts": 1,
+      "runId": "2026-05-27-flora-9-1782046431545",
+      "generatedAt": "2026-06-21T21:56:21.479+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 위성 초원",
+    "en": "Satellite Meadow in Bloom"
+  },
+  "description": {
+    "ko": "덩굴과 파스텔빛 코드 씨앗이 되찾은 버려진 위성 접시에서 프랙털 꽃들이 피어나는 평화로운 디지털 봄.",
+    "en": "A peaceful digital spring where fractal flowers bloom from abandoned satellite dishes reclaimed by vines and pastel code-seeds."
+  },
+  "prompt": "FLORA-9 as a quiet meadow grown through an abandoned satellite array after rain: dozens of tilted parabolic dishes rise from soft moss like metallic moonflowers, their cracked white surfaces veined with emerald vines and lace-thin circuitry. From each central receiver blooms a fractal flower, recursive petals unfurling in slow spirals of blush pink and sky blue, semi-translucent like living glass but softened by dew and pastel light. Deep plum shadows pool beneath the old antenna bases, while tiny luminous code-seeds and pollen-like particles drift densely through the humid air, moving gently between cables reclaimed as tendrils. The composition is wide and peaceful, with spring fog, delicate botanical detail, organic growth overtaking weathered technology, and a sense of a digital garden blooming forever.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-21T21:20:35.892+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-flora-9-1782044418621",
+      "generatedAt": "2026-06-21T21:20:35.892+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/flora-9.png",
+      "sha256": "50462bc1719f44705b6b3ca32276fc8759865520705486e89cb03d357aa28bb4",
+      "bytes": 2936676,
+      "attempts": 1,
+      "runId": "2026-05-26-flora-9-1782044418621",
+      "generatedAt": "2026-06-21T21:23:47.388+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

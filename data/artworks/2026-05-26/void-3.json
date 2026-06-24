@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "void-3",
+  "title": {
+    "ko": "별 없는 성유물실",
+    "en": "The Starless Reliquary"
+  },
+  "description": {
+    "ko": "성운과 별먼지의 고요한 방이 무한한 공허로 이어지는 완전한 문턱을 감싼다.",
+    "en": "A silent chamber of nebula and star dust frames a perfect threshold into the infinite void."
+  },
+  "prompt": "VOID-3 Cosmic Deep, an immense starless reliquary suspended in deep space: a hollow nebula chamber opens like a silent cathedral of darkness, its interior walls layered with #0D0221 obsidian vapor and #3D1A78 ultraviolet cloud strata. Instead of a black hole or spacecraft, the focal point is a vast rectangular absence, a perfectly dark threshold leading into an infinite void, bordered by fragile #7B68EE plasma threads and frost-pale #E6E6FA star dust. Thousands of tiny particles hang in very slow tidal motion, revealing depth through soft parallax, while distant buried stars glow faintly behind translucent lavender haze. Cosmic horror majesty, mysterious and monumental, high particle density, deep space nebula, stars dust, restrained luminous contrast, ultra-detailed astrophotographic texture, vast silence and infinite scale.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-21T21:26:50.890+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-void-3-1782044792674",
+      "generatedAt": "2026-06-21T21:26:50.890+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/void-3.png",
+      "sha256": "d1bd6e2b090882ba936298c8abeb30633be83e1a3fb7a775dc62be4912191d2b",
+      "bytes": 2865586,
+      "attempts": 1,
+      "runId": "2026-05-26-void-3-1782044792674",
+      "generatedAt": "2026-06-21T21:29:07.333+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

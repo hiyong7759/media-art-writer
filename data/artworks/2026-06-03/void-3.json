@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "void-3",
+  "title": {
+    "ko": "부재의 성도",
+    "en": "The Cartography of Absence"
+  },
+  "description": {
+    "ko": "심우주의 고요 속에서 별먼지의 지도가 보이지 않는 공허의 윤곽을 드러낸다.",
+    "en": "A silent map of stardust traces the shape of an unseen void in the deepest reaches of space."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an immense suspended cartography of absence inside a deep space nebula, where countless #E6E6FA star-dust grains arrange into delicate contour lines around a vast unmoving field of #0D0221 negative space. Layered #3D1A78 ultraviolet fog sheets recede like silent pressure waves across the infinite void, while thin #7B68EE lavender plasma seams outline broken geometric fault lines in the darkness. No planets, spacecraft, rings, vortex, or central black hole; the scene feels like a cosmic sonar image of something too large to see. High particle density, very slow celestial drift, mysterious cosmic horror majesty, restrained luminous contrast, cold volumetric haze, deep space scale, finely detailed astrophotographic texture, stars dust suspended in abyssal silence.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T05:37:52.653+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-void-3-1782160655517",
+      "generatedAt": "2026-06-23T05:37:52.653+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/void-3.png",
+      "sha256": "3a423d15339c00eb3663b03d5b77b8c0f16f60675e849ca58dcfc0727c1cfd5b",
+      "bytes": 2728338,
+      "attempts": 1,
+      "runId": "2026-06-03-void-3-1782160655517",
+      "generatedAt": "2026-06-23T05:40:05.688+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

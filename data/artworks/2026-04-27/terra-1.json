@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-27",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "철질 삼각선상지",
+    "en": "The Ferruginous Delta Fan"
+  },
+  "description": {
+    "ko": "마른 선상지의 흙 능선, 산화 점토, 모래 퇴적, 슬레이트빛 광물 먼지가 시간 속에서 자연 지형으로 굳어진 대지 질감 연구.",
+    "en": "A grounded earth-texture study of dry alluvial ridges, oxidized clay, sand bars, and slate mineral dust shaped into natural topography by time."
+  },
+  "prompt": "TERRA-1, titled \"The Ferruginous Delta Fan.\" An intimate, high-detail geological portrait of a dry alluvial fan exposed in miniature relief, where branching distributary channels have hardened into raised, map-like ridges of soil and stone. Dense #8B4513 brown earth anchors the compact channel floors, #D2691E rusted clay coats the levee edges, #F4A460 sandy grains collect in crescent bars and abandoned flow lobes, and muted #2F4F4F slate mineral dust settles in narrow shadowed cuts. The surface is packed with rough pebbles, snapped mudstone chips, granular silt, thin sediment laminations, mica flecks, and small collapsed banks, all arranged like a natural topographic survey carved by slow runoff and long drying. Low angled natural light reveals gritty pores, crumbly relief, layered deposits, drifting dust particles, and a quiet grounded mood; only dry earth, rock, sediment, and time-worn texture, with no sky, plants, water, or human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-24T00:42:33.138+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-27-terra-1-1782229328022",
+      "generatedAt": "2026-06-24T00:42:33.138+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-27/terra-1.png",
+      "sha256": "b9632566eec86f02a1e6e51b6f6ad0877d8fa56939af8d62d48227afc0da6320",
+      "bytes": 3793086,
+      "attempts": 1,
+      "runId": "2026-04-27-terra-1-1782229328022",
+      "generatedAt": "2026-06-24T00:44:50.942+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

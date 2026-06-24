@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "레인 엔진 아트리움",
+    "en": "Rain Engine Atrium"
+  },
+  "description": {
+    "ko": "네온 빗물 처리 아트리움이 비와 금속, 도시 기계를 박동하는 사이버펑크 낭만으로 바꾼다.",
+    "en": "A neon stormwater atrium turns rain, metal, and city machinery into a pulsing cyberpunk romance."
+  },
+  "prompt": "NEON-V artwork titled \"Rain Engine Atrium\": a cyberpunk city stormwater exchange carved into the base of compact tower blocks, seen from a waist-high service catwalk above a luminous runoff channel. Transparent aqueduct tubes carry rainwater through the interior street like liquid glass, while rotating turbine wells, black chrome pump housings, smart concrete steps, wet ceramic tiles, cable nests, maintenance lockers, and stacked apartment balconies create dense futuristic urban texture. Neon pink #FF00FF pressure gauges and shop signs shimmer across the wet floor; neon blue #00FFFF filtration grids glow beneath the shallow water and scatter fractured reflections along handrails, pipes, visor glass, and polished metal grates. Deep #1A0033 violet tower walls close around the atrium, pierced by narrow apartment windows and vertical service slots, with #FF6B35 orange valve lights, drone welding sparks, and heat vents adding urgent warm accents. Medium-speed motion from maintenance crews in translucent rain coats, small inspection drones orbiting the turbine cores, sliding flood barriers, and rippling water pushed by pump pulses. High particle density with rain needles falling through roof gaps, spray from pressure leaks, steam ribbons, floating hologram fragments, condensation beads, electric mist, and bright splashes against the catwalk. Energetic cyberpunk cityscape colors, neon and metal digital romance, rainy reflections, sharp foreground machinery, layered urban depth, richly detailed wet surfaces.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T06:15:05.721+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-neon-v-1782162885528",
+      "generatedAt": "2026-06-23T06:15:05.721+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/neon-v.png",
+      "sha256": "179112e096ddc8434c24c365399c4d611d156b2aa88846a65e6c060d49748cf0",
+      "bytes": 3206654,
+      "attempts": 1,
+      "runId": "2026-06-11-neon-v-1782162885528",
+      "generatedAt": "2026-06-23T06:17:59.310+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

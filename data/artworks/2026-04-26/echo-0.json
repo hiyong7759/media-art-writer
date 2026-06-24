@@ -18,5 +18,27 @@
     "--dynamic-tertiary": "#FFD700",
     "--dynamic-quaternary": "#32CD32"
   },
-  "generatedAt": "2026-04-26T00:37:32.379+09:00"
+  "generatedAt": "2026-04-26T00:37:32.379+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-26/echo-0.png",
+      "sha256": "19dc4ed5a82143c75b0e8d235e87f7bb47a00f9105c6f1c08e31a7cbb58d5c40",
+      "bytes": 2531649,
+      "attempts": 1,
+      "runId": "2026-04-26-echo-0-1782227834217",
+      "generatedAt": "2026-06-24T00:18:40.563+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
 }

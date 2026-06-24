@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "서브프레임 레이저 콤",
+    "en": "Subframe Razor Comb"
+  },
+  "description": {
+    "ko": "면도날 같은 기하학 파편들이 고속으로 충돌하며 정밀한 균형을 이루는 흑백 글리치 배열.",
+    "en": "A high-speed monochrome glitch array where razor-like geometric fragments collide into exact visual balance."
+  },
+  "prompt": "KURO-X artwork titled \"Subframe Razor Comb\": a severe black-and-white geometric glitch abstraction composed as a compressed all-over array of interleaved razor-comb channels, without any character, logo, typography, sculpture, sphere, cube, monolith, or singular centerpiece. Matte #1A1A1A angular teeth bite through hard #FFFFFF signal gaps, while #808080 and #C0C0C0 fractured plates form clipped delta joints, staggered notch rows, slanted timing bars, and snapped trapezoid counters. The composition surges horizontally in fast alternating pulses, as if multiple monochrome subframes were misregistered and forced into perfect alignment at the same instant. Dense horizontal scanlines, luma-only tearing, grayscale jitter, hard-edged compression tiles, broken sync ticks, stepped echo fragments, and medium-density square particle debris create intense monochrome complexity. High contrast, crisp vector edges, sharp angles, cold mechanical depth, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T09:12:02.550+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-kuro-x-1782173496382",
+      "generatedAt": "2026-06-23T09:12:02.550+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/kuro-x.png",
+      "sha256": "5ad80d71183c70e5bc50d674508cec299b55da21f24fff4480eab7e6b6ff15b2",
+      "bytes": 1676444,
+      "attempts": 1,
+      "runId": "2026-06-16-kuro-x-1782173496382",
+      "generatedAt": "2026-06-23T09:14:15.912+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

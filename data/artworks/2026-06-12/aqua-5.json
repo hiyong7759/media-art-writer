@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "수렴의 못",
+    "en": "Convergence Pool"
+  },
+  "description": {
+    "ko": "투명한 해파리들이 고요한 심해 압력 렌즈 주위를 떠돌고, 빛나는 거품들이 어두운 물속의 원형 흐름을 드러냅니다.",
+    "en": "Transparent jellyfish drift around a calm deep-sea pressure lens, where glowing bubbles reveal circular currents in the dark water."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork in open blackwater, composed as a quiet top-down view of a circular convergence pool suspended far below the surface, with no seabed, vents, vessels, ruins, or machinery. At the center, a clear pressure lens of water bends the #000080 darkness into concentric refractive rings, each ring edged by faint #006994 blue-green gradients. Translucent jellyfish forms gather around the lens like drifting glass petals, varied in size and angle: soft bell domes, folded veil membranes, faint radial veins, and short tendrils that curl with the current. Their contours emit calm #40E0D0 bioluminescent light, while slow #48D1CC pulses pass through their bodies and dim into the surrounding water. Tiny bubbles trace the circular flow as uneven bead arcs, some compressed into oval lenses where the currents meet, making the gentle fluid dynamics visible without turbulence. Medium-density luminous plankton particles float above and below the convergence pool, creating layered depth, soft volumetric glow, crisp underwater macro detail, and a peaceful medium-paced dance of transparent deep-sea life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T06:53:17.559+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-aqua-5-1782165178930",
+      "generatedAt": "2026-06-23T06:53:17.559+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/aqua-5.png",
+      "sha256": "0a441c9774ec88c3fafe7fa44016e365907945305a5335702e6497106e3e73d8",
+      "bytes": 2019986,
+      "attempts": 1,
+      "runId": "2026-06-12-aqua-5-1782165178930",
+      "generatedAt": "2026-06-23T06:55:44.466+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

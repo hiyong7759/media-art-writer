@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "시차 오류 직조",
+    "en": "Parallax Error Loom"
+  },
+  "description": {
+    "ko": "파열된 신호 리본의 단색 격자가 빠른 디지털 혼돈을 엄격한 기하 질서 안에 붙잡는다.",
+    "en": "A monochrome lattice of fractured signal ribbons holds fast digital chaos inside strict geometric order."
+  },
+  "prompt": "KURO-X artwork titled \"Parallax Error Loom\": a pure black and white geometric abstraction with no character, logo, sculpture, or central object, formed as a tilted field of interwoven angular signal ribbons. Matte #1A1A1A trapezoid bands, hard #FFFFFF void cuts, and layered #808080 / #C0C0C0 facets lock into a precise but unstable lattice, like fragmented data being woven at impossible speed. The composition is driven by fast diagonal shear: rows of serrated triangles, broken diamonds, offset parallelograms, and thin sliver-like polygons snap out of alignment while still preserving perfect visual balance. Dense horizontal scanlines, interlaced glitch tearing, bit-crushed compression blocks, stepped waveform edges, and medium-density square particle debris create intense monochrome complexity. High contrast, crisp vector edges, sharp angles, cold mechanical depth, chaotic fragments held inside an invisible mathematical order.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-21T21:14:31.401+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-kuro-x-1782044050978",
+      "generatedAt": "2026-06-21T21:14:31.401+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/kuro-x.png",
+      "sha256": "efb48137147d27c077aa3f3bd16d689756782c2ea70442f28565f12d5aef4496",
+      "bytes": 2204314,
+      "attempts": 1,
+      "runId": "2026-05-26-kuro-x-1782044050978",
+      "generatedAt": "2026-06-21T21:16:36.902+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

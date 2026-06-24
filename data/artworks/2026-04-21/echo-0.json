@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-21",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "티타늄 주파수 스침",
+    "en": "Titanium Frequency Skim"
+  },
+  "description": {
+    "ko": "보이지 않는 소리가 고요한 티타늄 표면 위의 가는 빛의 파형을 끌어당기는 미니멀한 ECHO-0 공명 연구입니다.",
+    "en": "A minimal ECHO-0 resonance study where invisible sound pulls bright hairline waves across a silent titanium surface."
+  },
+  "prompt": "ECHO-0 sound visualization rendered as a silent macro study of a brushed titanium resonance plate, viewed from a low grazing angle with wide clean negative space and no visible sound source. Across the satin metal surface, hair-thin #4169E1 royal-blue waveform filaments skim just above shallow engraved grooves, their paths vibrating into rapid micro-jitters as if invisible frequencies are tugging them sideways. Sudden percussive transients appear as clipped #FF4500 orange impact notches and tiny angular displacements along the blue traces, while sparse #FFD700 gold consonance dots mark only a few exact phase alignments. Rare #32CD32 lime-green timing ticks stand upright like small calibration marks at abrupt pitch changes. The composition stays minimal and rhythmic: low particle count, crisp line shadows, fast staccato motion, precise amplitude bends, bright palette against cool metal, resonance in silence made visible as vibrating frequencies reacting to unheard sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T17:15:46.119+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-21-echo-0-1782202523604",
+      "generatedAt": "2026-06-23T17:15:46.119+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-21/echo-0.png",
+      "sha256": "74e847feeb0399c04dbd05e529e5b11ac37ed1f995a7ef03fed0b5a1472aa4a7",
+      "bytes": 2009564,
+      "attempts": 1,
+      "runId": "2026-04-21-echo-0-1782202523604",
+      "generatedAt": "2026-06-23T17:17:41.273+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

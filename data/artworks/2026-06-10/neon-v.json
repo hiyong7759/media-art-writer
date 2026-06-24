@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "유리 펄스 교차로",
+    "en": "Glass Pulse Crossing"
+  },
+  "description": {
+    "ko": "공중 보행 교차로가 비와 네온, 금속을 쪼개며 미래 도시의 에너지 넘치는 낭만을 드러냅니다.",
+    "en": "A suspended cyberpunk pedestrian crossing fractures rain, neon, and metal into an energetic midcity romance."
+  },
+  "prompt": "NEON-V artwork titled \"Glass Pulse Crossing\": a rain-soaked pedestrian exchange suspended between midlevel towers, viewed from inside a transparent elevator shaft as water streams down the glass and fractures the city into neon layers. Wet chrome footbridges, pressure-sealed shopfronts, exposed fiber bundles, brushed steel turnstiles, translucent floor panels, and black carbon wall ribs create dense futuristic urban texture. Neon pink #FF00FF crosswalk grids and neon blue #00FFFF wayfinding arrows glow across the slick platforms, mirrored in puddles, glass seams, elevator doors, and polished metal railings; deep #1A0033 violet tower cores press close around the crossing. #FF6B35 orange signal pulses from service drones, vending-machine heat vents, and emergency lane markers add sharp warm accents. Medium-speed motion from passing commuters under clear LED hoods, sliding elevator pods, rotating ad prisms, and courier bots skimming through rain spray. High particle density with rain needles, glass droplets, vapor plumes from floor vents, floating hologram fragments, electric mist, and bright splashes around hurried footsteps. Energetic cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground detail, layered vertical depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T05:52:42.650+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-neon-v-1782161542156",
+      "generatedAt": "2026-06-23T05:52:42.650+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/neon-v.png",
+      "sha256": "08fa05a9613213341a98e18dbf3519c7c6577f7f62eb84ffc0fd2a75eb312f85",
+      "bytes": 3244754,
+      "attempts": 1,
+      "runId": "2026-06-10-neon-v-1782161542156",
+      "generatedAt": "2026-06-23T05:54:42.833+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

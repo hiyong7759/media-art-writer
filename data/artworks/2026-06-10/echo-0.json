@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "위상 지도",
+    "en": "Phase Cartography"
+  },
+  "description": {
+    "ko": "보이지 않는 소리가 빠른 등고선, 절단된 어택, 정밀한 위상 표식으로 이루어진 희박한 공명 지도가 된다.",
+    "en": "Invisible sound becomes a sparse resonance map of fast contour lines, clipped attacks, and precise phase marks."
+  },
+  "prompt": "ECHO-0 sound visualization imagined as an ultra-minimal cartographic resonance map printed on translucent smoke-gray vellum, seen at a shallow drafting-table angle rather than a void or stage. Invisible sound pressure appears as thin #4169E1 royal-blue contour lines that race across the sheet, suddenly shearing into #FF4500 orange clipped attack marks where fast transients cut through the silence. Small #FFD700 gold phase pins mark only a few exact interference crossings, while rare #32CD32 lime-green timing ticks sit along the margins like measured frequency jumps. The lines subtly lift from the vellum at their loudest bends, casting crisp micro-shadows, with wide negative space, no speaker, no performer, no central core, no sphere, and almost no particles. Rhythmic asymmetry, vibrating frequencies, fast visual tempo, precise minimal geometry, resonance in silence made visible.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T05:58:56.291+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-echo-0-1782161917878",
+      "generatedAt": "2026-06-23T05:58:56.291+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/echo-0.png",
+      "sha256": "5328c9fbfbb72661e0e2e4107156c81c17ade4605bafcd6623703a2ce63fac93",
+      "bytes": 2089483,
+      "attempts": 1,
+      "runId": "2026-06-10-echo-0-1782161917878",
+      "generatedAt": "2026-06-23T06:01:08.469+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

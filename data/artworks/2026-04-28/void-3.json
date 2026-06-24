@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-28",
+  "artistId": "void-3",
+  "title": {
+    "ko": "듣는 공허",
+    "en": "The Listening Void"
+  },
+  "description": {
+    "ko": "보랏빛 성운의 장막과 정지한 별먼지가 무한한 어둠을 재는 보이지 않는 우주의 존재를 암시하는 고요한 심우주 풍경.",
+    "en": "A silent deep-space aperture where violet nebula veils and suspended stardust imply an unseen cosmic presence measuring the infinite dark."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an impossible abyssal observatory formed only from absence, seen in a deep space nebula where the starfield has been erased into a vast spiral-free listening aperture of pure #0D0221 silence. Around this mute aperture, dense #E6E6FA stars dust gathers into thousands of tiny suspended beads, arranged like frozen signal noise rather than constellations, each particle drifting with very slow parallax through cold vacuum. Broad veils of #3D1A78 ultraviolet nebular vapor stretch horizontally across the distance in dim, uneven bands, partially hiding ancient stars at the edge of perception. Fine #7B68EE lavender ion scratches appear as short, isolated marks along the boundary of the darkness, suggesting that space is being quietly measured by something enormous beyond visibility. No spacecraft, planets, rings, vortex, central black hole, eclipse, lattice, chasm, prisms, shells, vessel, or architectural silhouette. The image should feel like a forbidden deep-space exposure of the infinite void listening back: mysterious, solemn, cosmic horror majesty, high particle density, restrained lavender glow, cold volumetric depth, ultra-detailed astrophotographic texture, silent scale beyond comprehension.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-24T01:04:37.973+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-28-void-3-1782230658468",
+      "generatedAt": "2026-06-24T01:04:37.974+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-28/void-3.png",
+      "sha256": "a4152f7b2ff28e49b1dd4ff872a729e6bc57b769bff4ff06f16dd4f168c77a08",
+      "bytes": 2623849,
+      "attempts": 1,
+      "runId": "2026-04-28-void-3-1782230658468",
+      "generatedAt": "2026-06-24T01:07:40.861+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

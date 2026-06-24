@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "델타 에코 절단면",
+    "en": "Delta Echo Breakplane"
+  },
+  "description": {
+    "ko": "각진 흑백 파동면이 균열되고 재조립되며 강렬한 기하학적 글리치의 균형을 만든다.",
+    "en": "Angular monochrome wavefronts fracture and reassemble into a balanced field of intense geometric glitch noise."
+  },
+  "prompt": "KURO-X artwork titled \"Delta Echo Breakplane\": a severe black and white geometric glitch abstraction organized as a high-speed cascade of shattered delta-wave panels, with no figure, emblem, lettering, 3D sculpture, orb, block, or singular focal object. The entire frame is a tense monochrome breakplane where matte #1A1A1A wedge fields collide with hard #FFFFFF signal vacuums, while #808080 and #C0C0C0 fractured laminations form skewed arrowhead strata, snapped hinge angles, offset triangular relays, clipped diagonal ledges, and narrow blade-like voids. Instead of a grid, the structure behaves like synchronized seismic echoes: multiple angular wavefronts enter from different edges, buckle, fragment, and reassemble into exact visual balance. Fine horizontal scanlines cut through every layer, interrupted by luma dropouts, grayscale quantization noise, stuttering frame offsets, crushed rectangular artifacts, fractured timing dashes, and medium-density square particle debris. High contrast, crisp vector edges, sharp angles, fast intense motion, cold mechanical depth, monochrome complexity, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T09:59:40.336+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-kuro-x-1782176360677",
+      "generatedAt": "2026-06-23T09:59:40.336+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/kuro-x.png",
+      "sha256": "b671d00f8c49c41d41f24d029f9d9861160f5e4931894b9cab58a0c958f7f73d",
+      "bytes": 2544684,
+      "attempts": 1,
+      "runId": "2026-06-20-kuro-x-1782176360677",
+      "generatedAt": "2026-06-23T10:01:41.236+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

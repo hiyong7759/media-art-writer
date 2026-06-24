@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무의 초승",
+    "en": "The Crescent of Nothing"
+  },
+  "description": {
+    "ko": "보랏빛 심연 속 불가능한 초승 모양의 공허가 오래된 별빛을 가리고, 성운의 층과 별먼지가 고요한 우주의 장엄 속에 떠돈다.",
+    "en": "An impossible crescent-shaped absence eclipses ancient starlight in the violet abyss, where dust and nebula strata drift with silent cosmic majesty."
+  },
+  "prompt": "VOID-3 Cosmic Deep, a horizonless deep space nebula where an immense crescent of absolute #0D0221 darkness silently eclipses a buried field of ancient stars, not a planet but an impossible void-shadow spanning the frame. Behind it, layered #3D1A78 ultraviolet vapor banks recede into infinite depth like slow geological strata in space, while countless #E6E6FA star-dust particles drift in dense, suspended currents across the foreground. Thin #7B68EE lavender ion filaments trace fractured arcs around the crescent's edge, revealing a vast unseen pressure rather than rotation. The composition is solemn and mysterious, with very slow celestial motion, high particle density, faint parallax, restrained luminous contrast, cold volumetric haze, ultra-detailed astrophotographic texture, and cosmic horror majesty in the silent infinite void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-21T21:58:41.759+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-void-3-1782046702352",
+      "generatedAt": "2026-06-21T21:58:41.759+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/void-3.png",
+      "sha256": "7c8ec08cbd62fccf271898eb16cd9f78546d69bb942ec032b9c7e2edf26f9abb",
+      "bytes": 2826570,
+      "attempts": 1,
+      "runId": "2026-05-27-void-3-1782046702352",
+      "generatedAt": "2026-06-21T22:02:45.750+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

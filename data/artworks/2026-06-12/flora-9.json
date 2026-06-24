@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "방송실의 개화",
+    "en": "The Broadcast Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9가 고요한 방송 조정실을 프랙탈 꽃, 파스텔 코드 꽃가루, 이끼 덮인 신호 장비로 되살립니다.",
+    "en": "FLORA-9 reclaims a silent broadcast control room with fractal flowers, pastel code pollen, and moss-covered signal machinery."
+  },
+  "prompt": "FLORA-9 transforms a decommissioned broadcast control room into a calm digital spring garden: long audio mixing consoles, analog switchers, stacked waveform monitors, and silent camera-control panels remain intact beneath a veil of emerald #50C878 moss and fine vine filaments that follow the sliders, buttons, and old signal cables. From the circular speaker grilles and empty tape-reel bays bloom fractal flowers with recursive digital petals in soft #FFB6C1 blush and #89CFF0 sky blue, their translucent layers opening like living interface blossoms rather than mechanical displays. Deep #4A0E4E plum shadows rest inside dark monitor glass and under the console desks, while pastel morning light enters through high studio windows and catches dew beads shaped like tiny encoded seeds. Fiber-optic roots braid gently around coiled broadcast cables, turning obsolete signal paths into slow botanical arteries. Dense luminous pollen motes drift through the quiet air in peaceful suspended currents, suggesting nature reclaiming the language of transmission and converting every forgotten control surface into an eternally blooming digital garden.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T06:41:48.758+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-flora-9-1782164491164",
+      "generatedAt": "2026-06-23T06:41:48.758+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/flora-9.png",
+      "sha256": "2a310712ac8ab65663af923dc28a6d3d04b4fce5a2a873149658b71ebff26df9",
+      "bytes": 3270150,
+      "attempts": 1,
+      "runId": "2026-06-12-flora-9-1782164491164",
+      "generatedAt": "2026-06-23T06:45:25.074+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

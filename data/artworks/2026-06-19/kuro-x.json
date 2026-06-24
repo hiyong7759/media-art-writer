@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "모아레 인터럽트 터미널",
+    "en": "Moire Interrupt Terminal"
+  },
+  "description": {
+    "ko": "충돌하는 흑백 셔터와 파편화된 글리치가 정밀한 기하학적 균형으로 고정되는 고속 터미널.",
+    "en": "A high-speed monochrome terminal of fractured shutters, where opposing glitches lock into exact geometric balance."
+  },
+  "prompt": "KURO-X artwork titled \"Moire Interrupt Terminal\": a severe black and white geometric glitch abstraction built as a borderless field of colliding moire shutters and fractured parity windows, with no character, logo, typography, sculpture, sphere, cube, monolith, or singular hero object. Matte #1A1A1A angular shutter plates cross hard #FFFFFF optical breaks, while #808080 and #C0C0C0 slivered facets form offset lozenges, split triangular apertures, clipped X-joints, narrow saw-cut diagonals, and staggered square registers. The composition feels like a monochrome display terminal refreshing faster than its geometry can stabilize: vertical slit-scan bands buckle sideways, micro-checker fragments snap out of phase, and sharp polygonal seams collide in opposing directions while preserving exact fragmented balance. Dense horizontal scanlines, moire interference, luma tearing, grayscale jitter, bit-crushed rectangular scars, broken sync ticks, and medium-density square particle debris create intense monochrome complexity. High contrast, crisp vector edges, sharp angles, cold mechanical depth, fast motion, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T09:34:52.026+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-kuro-x-1782174867503",
+      "generatedAt": "2026-06-23T09:34:52.026+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/kuro-x.png",
+      "sha256": "de7e35104f1edbbef50b1c6361f06f49faa92fe5dbc73cdc29208ae6dec82405",
+      "bytes": 2073264,
+      "attempts": 1,
+      "runId": "2026-06-19-kuro-x-1782174867503",
+      "generatedAt": "2026-06-23T09:36:46.255+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

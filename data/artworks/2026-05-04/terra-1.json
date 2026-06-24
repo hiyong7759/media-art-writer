@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-04",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "빙력석 등고 기록",
+    "en": "The Tillstone Contour Register"
+  },
+  "description": {
+    "ko": "압력과 시간이 다진 빙하 퇴적토, 긁힌 돌, 퇴적층이 자연의 지형처럼 드러나는 대지 질감 연구.",
+    "en": "A grounded earth-texture study of compacted glacial till, striated stones, and sediment bands shaped into natural topography by pressure and time."
+  },
+  "prompt": "TERRA-1, titled \"The Tillstone Contour Register.\" A sharply focused geological close-up of an eroded glacial till wall, where compacted clay, crushed stone flour, and half-buried striated cobbles form a dense relief surface like a topographic chart pressed into ancient ground. Dark #8B4513 umber till fills the compressed matrix, #D2691E rust-orange oxide halos surround embedded stones, #F4A460 sandy lenses appear as thin interrupted ribbons, and muted #2F4F4F slate staining marks scratched cobble faces and cold pressure seams. The frame is filled only with dry earth and rock: flattened pebble imprints, snapped shale chips, granular soil crumbs, chalky mineral dust, and exposed sediment layers bending around lodged stones. Low natural grazing light catches rough textures, tiny shadows under protruding clasts, brittle ledges, and slow time-carved relief; grounded, tactile, earthy, hyper-detailed, no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-24T11:39:03.025+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-04-terra-1-1782268712186",
+      "generatedAt": "2026-06-24T11:39:03.025+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-04/terra-1.png",
+      "sha256": "6302ef70fc5a38a8d8de895a05daf2e7a6df94d8b6a37505b4afc826c57e6714",
+      "bytes": 3816799,
+      "attempts": 1,
+      "runId": "2026-05-04-terra-1-1782268712186",
+      "generatedAt": "2026-06-24T11:40:52.341+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "전단 침묵 악보",
+    "en": "Shear Silence Score"
+  },
+  "description": {
+    "ko": "희박한 진동 리본들이 들리지 않는 리듬을 절단된 색, 위상 표식, 침묵의 장력으로 바꾼다.",
+    "en": "A sparse field of vibrating frequency ribbons turns unheard rhythm into clipped color, phase marks, and silent tension."
+  },
+  "prompt": "ECHO-0 sound visualization as a silent array of tension-calibrated tuning ribbons hovering over a matte charcoal measuring plane, viewed in a sharp three-quarter overhead composition. No speaker, performer, instrument, core, sphere, corridor, membrane, glass pane, ice slab, tile field, cathedral, or dark void: the sound is visible only through minimal reactive line behavior. Hairline #4169E1 royal-blue waveform ribbons cross the plane in staggered diagonal lanes, each strip vibrating into fast #FF4500 orange shear cuts at sudden transient strikes. Sparse #FFD700 gold phase pinpoints appear only where two invisible frequencies briefly align, while rare #32CD32 lime ticks sit beside the lanes like syncopated timing marks. The background stays mostly empty, with crisp shadows under lifted line segments, clipped amplitude bends, offset echo traces, and almost no particles. Rhythmic, high-contrast, fast visual tempo; resonance in silence rendered as vibrating frequencies reacting to unheard sound.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T09:19:27.024+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-echo-0-1782173947389",
+      "generatedAt": "2026-06-23T09:19:27.024+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/echo-0.png",
+      "sha256": "2f20e7d4c085c7d5ff8d906b8012fc30c3437ba41ff1dfd427501f77bc3dd98c",
+      "bytes": 2329108,
+      "attempts": 1,
+      "runId": "2026-06-16-echo-0-1782173947389",
+      "generatedAt": "2026-06-23T09:22:16.076+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

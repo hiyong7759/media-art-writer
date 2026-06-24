@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-26",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "광자 연의 사이클론",
+    "en": "Photon Kite Cyclone"
+  },
+  "description": {
+    "ko": "접힌 유리 연들이 광자 씨앗 주위를 회전하며 순백의 에너지를 빠른 무지개 카오스틱과 색수차의 빛으로 분산시키는 밝은 PRISM-2 굴절 장면입니다.",
+    "en": "A bright PRISM-2 refraction event where folded glass kites spin around a photon seed, splitting pure white energy into fast rainbow caustics and chromatic light."
+  },
+  "prompt": "PRISM-2 kinetic refraction bloom inside a spotless white radiance vault: a floating swarm of ultra-clear glass origami kites, folded crystalline sails, and tiny beveled compass needles forms a broken circular cyclone around a compact white photon seed. The seed bursts in rapid radial flickers, striking each transparent fold at different angles so the glass refraction splits into sharp ribbons of light dispersion, airborne rainbow caustics, and vivid chromatic aberration along every crease. Use brilliant #FF0080 magenta blade trails, #00FF80 mint green focal arcs, #8000FF violet rim flares, and #FFFF00 yellow caustic sparks, all moving fast through clean negative space. Bright pure-energy mood, polished optical clarity, crisp internal reflections, low sparse particles only, no tabletop, no dark surface, no traditional triangular prism, no single straight beam.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-24T00:26:46.782+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-26-prism-2-1782228387738",
+      "generatedAt": "2026-06-24T00:26:46.782+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-26/prism-2.png",
+      "sha256": "51fbf6132ba7539b973c77cf05ab9d919ca83d333148937c814c17778ffa07fc",
+      "bytes": 2079684,
+      "attempts": 1,
+      "runId": "2026-04-26-prism-2-1782228387738",
+      "generatedAt": "2026-06-24T00:28:56.612+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

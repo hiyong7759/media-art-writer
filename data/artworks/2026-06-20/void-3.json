@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-20",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 중력 멍",
+    "en": "Gravity Bruises of the Abyss"
+  },
+  "description": {
+    "ko": "고대 별빛에 남은 고요한 함몰이 무한한 공허 너머 보이지 않는 우주적 존재를 드러낸다.",
+    "en": "Silent depressions in ancient starlight reveal an unseen cosmic presence across the infinite void."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a boundless deep space nebula where the infinite void reveals itself as an immense field of silent gravitational bruises, not holes but soft-edged depressions in starlight spread across the frame like pressure marks on dark velvet. Each bruise is a depthless pool of #0D0221 darkness surrounded by faint #3D1A78 ultraviolet vapor that thins into translucent, smoky gradients instead of spirals or clouds. Dense #E6E6FA star dust hangs between the depressions in high-particle constellations, with individual grains suspended in very slow drift and subtle parallax, while scarce #7B68EE lavender ion sparks trace tiny crescent scars where space has been bent by something too distant and vast to see. No spacecraft, planets, rings, vortex, central black hole, eclipse, lattice, shells, chasm, prisms, or vessel; the image should feel like a forbidden long-exposure photograph of the universe quietly dented by an unseen abyssal presence. Mysterious cosmic horror majesty, restrained lavender luminance, cold volumetric haze, ultra-detailed astrophotographic texture, stars dust across an infinite silent void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-23T10:08:44.492+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-20-void-3-1782176905368",
+      "generatedAt": "2026-06-23T10:08:44.492+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-20/void-3.png",
+      "sha256": "4f07ef50cc250d2d4f15677edc93639f6b5e6030e3ec63fcc63cf2cba3eeb382",
+      "bytes": 2931485,
+      "attempts": 1,
+      "runId": "2026-06-20-void-3-1782176905368",
+      "generatedAt": "2026-06-23T10:11:35.114+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

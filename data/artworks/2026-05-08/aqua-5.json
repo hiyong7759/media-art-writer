@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-08",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "뫼비우스 해류",
+    "en": "Mobius Current"
+  },
+  "description": {
+    "ko": "빛나는 심해의 물결 띠가 투명한 해파리들을 푸른 어둠 속으로 고요히 이끕니다.",
+    "en": "A calm deep-sea ribbon of glowing current carries translucent jellyfish through layered blue darkness."
+  },
+  "prompt": "AQUA-5 Deep Ocean composition in open midnight water, centered on a suspended Mobius-like ribbon of current twisting gently through the frame as one continuous translucent water sheet. The ribbon shows calm fluid dynamics through fine laminar striations, soft pressure ripples, and refracted #006994 blue-green edges fading into #000080 depth. Translucent jellyfish forms hover along both faces of the twisting flow like clear glass lanterns caught in a peaceful drift: thin bell domes, folded veil membranes, faint radial veins, and short floating tendrils tilted by the passing current. Their rims glow with restrained #40E0D0 bioluminescence, while slow #48D1CC pulses travel through the gelatin bodies and reflect across the curved water surface. Tiny bubbles do not spiral or form curtains; instead they skim the ribbon surface in scattered crescent clusters, briefly flattening into oval lenses before lifting away as sparse pearl beads that reveal measured medium-paced motion. Medium-density luminous plankton particles float at layered depths, creating quiet underwater space, soft volumetric radiance, crisp macro detail, and the calm dance of transparent deep-sea life far from any seabed, vents, vessels, ruins, or machinery.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-24T13:14:33.210+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-08-aqua-5-1782274451843",
+      "generatedAt": "2026-06-24T13:14:33.211+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-08/aqua-5.png",
+      "sha256": "ea1d6f723917222cf875222e6a47df885949690ecd347b312aa023ff73bf2159",
+      "bytes": 2032543,
+      "attempts": 1,
+      "runId": "2026-05-08-aqua-5-1782274451843",
+      "generatedAt": "2026-06-24T13:16:15.193+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-14",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "홀로 스탬프 등록소",
+    "en": "Holo Stamp Registry"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 등록소에서 네온 서식, 크롬 카운터, 젖은 도시 유리가 일상의 행정을 디지털 낭만으로 바꾼다.",
+    "en": "A rain-bright cyberpunk registry where neon forms, chrome counters, and wet city glass turn civic routine into digital romance."
+  },
+  "prompt": "NEON-V artwork titled \"Holo Stamp Registry\": a rain-soaked civic identity office embedded in the lower floors of a futuristic cyberpunk city block, viewed from street level through a row of transparent queue barriers and mirrored registration kiosks. Black chrome service counters, brushed steel document lifts, glass data-vault cylinders, wet ceramic wall panels, biometric scan arches, exposed fiber conduits, ticket-number pylons, and puddled curb plates create dense futuristic urban texture. Neon pink #FF00FF form glyphs and queue numbers hover above each counter while neon blue #00FFFF identity grids sweep across the rain-polished floor, reflecting in glass partitions, wet metal edges, scanner lenses, and shallow street puddles. Deep #1A0033 violet tower walls compress the background into layered vertical darkness, cut by narrow apartment lights and pressure-sealed office windows. #FF6B35 orange stamp lasers, warning tabs, heater vents, and courier capsule brake glows add energetic warm accents. Medium-speed motion from sliding clerk windows, rotating holographic seals, citizens passing under clear LED umbrellas, compact courier capsules docking at curb slots, and inspection drones crossing between service bays. High particle density with fine rain needles, condensation beads, electric mist around scanners, floating hologram fragments, steam ribbons from floor vents, bright splashes at the curb, and glittering runoff trails. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, layered enclosed city depth, energetic night mood, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-23T10:23:59.749+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-14-neon-v-1782177814564",
+      "generatedAt": "2026-06-23T10:23:59.749+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-14/neon-v.png",
+      "sha256": "3925fa0f21937da550cde1de34069ee3d106ea2339e5c1922cf7136f65a6892a",
+      "bytes": 3024410,
+      "attempts": 1,
+      "runId": "2026-04-14-neon-v-1782177814564",
+      "generatedAt": "2026-06-23T10:31:24.248+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

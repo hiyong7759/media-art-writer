@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "간섭 접힘 배열",
+    "en": "Interference Fold Array"
+  },
+  "description": {
+    "ko": "날카로운 파편과 글리치 노이즈가 정밀하지만 불안정한 균형을 이루는 빠른 흑백 기하학 접힘 장면.",
+    "en": "A fast monochrome field of fractured geometric folds where glitch noise and sharp fragments hold a precise, unstable balance."
+  },
+  "prompt": "KURO-X artwork titled \"Interference Fold Array\": a severe black-and-white geometric abstraction built as an oblique field of folded signal membranes, with no character, logo, typography, sculpture, sphere, cube, monolith, or single heroic object. Matte #1A1A1A triangular planes crease into hard #FFFFFF fracture channels, while #808080 and #C0C0C0 knife-edged facets interlock like corrupted origami under extreme pressure. The composition moves fast from lower left to upper right through staggered pleats, split rhombus panels, clipped arrowhead seams, inverted stair-step cuts, and narrow zigzag voids that nearly misalign but still resolve into perfect visual balance. Fine horizontal scanlines wrap across every fold, broken by grayscale frame skipping, luma stutter, hard bit-plane fractures, thin calibration scratches, compressed rectangular scars, and medium-density square particle debris. High contrast, crisp vector edges, sharp angles, cold mechanical depth, intense monochrome complexity, chaos contained inside exact fragmented order.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T06:36:33.142+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-kuro-x-1782164175301",
+      "generatedAt": "2026-06-23T06:36:33.142+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/kuro-x.png",
+      "sha256": "724420797bae6152a6a25af0d067e3b7fa9c6dfedcaf1f0f92363fa646fab303",
+      "bytes": 2754384,
+      "attempts": 1,
+      "runId": "2026-06-12-kuro-x-1782164175301",
+      "generatedAt": "2026-06-23T06:39:31.180+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

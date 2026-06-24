@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "클린룸의 개화",
+    "en": "Cleanroom Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9가 고요한 반도체 클린룸의 정밀 기계를 평화로운 디지털 봄 정원으로 바꾸며 프랙탈 꽃이 피어납니다.",
+    "en": "Fractal flowers reclaim a silent semiconductor cleanroom as FLORA-9 turns precision machinery into a peaceful digital spring garden."
+  },
+  "prompt": "FLORA-9 reimagines a silent decommissioned semiconductor cleanroom as an eternal spring garden: white lithography machines, wafer carriers, robotic transfer arms, and overhead filter grids remain recognizable beneath a delicate takeover of emerald #50C878 moss and threadlike living circuits. From open wafer pods bloom circular fractal flowers, their recursive digital petals arranged like soft calibration rings, fading from blush #FFB6C1 to clear #89CFF0 sky blue with translucent edges and dew-lit veinwork. Deep #4A0E4E plum shadows settle under the idle fabrication tools and along polished floor channels now threaded with root filaments. Slow fiber-optic vines climb the robotic arms, turning precision machinery into trellises, while countless pastel pollen particles float through the clean air like glowing spring seeds suspended in stillness. Peaceful digital nature, soft pastel illumination, high-density particles, intricate botanical geometry, nature calmly reclaiming obsolete technology, a digital garden that blooms forever.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T07:09:14.608+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-flora-9-1782166137251",
+      "generatedAt": "2026-06-23T07:09:14.608+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/flora-9.png",
+      "sha256": "b7a3015289d0707cbd6f6fda926a43827b32e5d68c1ce92d795b86a25725cb3d",
+      "bytes": 3334183,
+      "attempts": 1,
+      "runId": "2026-06-14-flora-9-1782166137251",
+      "generatedAt": "2026-06-23T07:12:52.474+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

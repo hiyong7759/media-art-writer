@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "조석의 빛 망토",
+    "en": "Tidal Lumen Mantle"
+  },
+  "description": {
+    "ko": "깊은 바다 아래 넓은 생체 망토가 숨 쉬며 황금빛 액체 광채를 고요한 발광 입자 속으로 흘려보낸다.",
+    "en": "A broad living mantle breathes beneath the deep sea, releasing golden liquid light into a serene field of glowing particles."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Tidal Lumen Mantle\": a serene deep-sea panorama centered on a single broad, living mantle of translucent #7FB069 tissue unfurling like a slow underwater aurora beneath an unseen current. Its edges ripple in soft wavelets, revealing dim #2D5A3D vein shadows suspended inside the gelatinous layers, while narrow seams open and release #FFE66D liquid light that slides across the surface, gathers into glowing pearls, and trails downward as fine bioluminescent tendrils. The surrounding depth is a cool #E6F2E1 marine haze with dense drifting plankton sparks, pearly microbubbles, faint green caustic bands, wet organic translucency, soft internal radiance, and calm motion blur. Avoid humanoid forms, machines, architecture, rigid symmetry, and sharp geometric edges; emphasize breathing natural light, slow organic flow, high particle density, and refined cinematic underwater depth.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T06:10:25.343+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-aura-7-1782162607065",
+      "generatedAt": "2026-06-23T06:10:25.343+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/aura-7.png",
+      "sha256": "5ca8caa906ece69beec5526b24aa5bea36029bfeb74a6a2994b3cecd97e0b1c4",
+      "bytes": 2303118,
+      "attempts": 1,
+      "runId": "2026-06-11-aura-7-1782162607065",
+      "generatedAt": "2026-06-23T06:12:45.324+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-15",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "한밤 바다의 액체 하프",
+    "en": "Liquid Harp of the Midnight Sea"
+  },
+  "description": {
+    "ko": "투명한 해파리들이 빛나는 해류의 줄 사이를 흐르고, 기포는 심해 속 조용한 음표처럼 떠오른다.",
+    "en": "Transparent jellyfish drift through bioluminescent current strands, where bubbles rise like quiet notes in the deep sea."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork imagined as a still, close-range view of a suspended bioluminescent harp of water in the midnight zone, far from seabed, vents, vessels, ruins, or machinery. Slender vertical strands of refractive current descend through #000080 darkness like clear liquid strings, each strand bending slightly where slow crossflow passes through a muted #006994 blue-green haze. Translucent jellyfish forms drift between the strands as delicate glass medallions and folded veil blossoms, with faint radial veins, scalloped rims, and short floating tendrils that arc gently with the water. Soft #40E0D0 bioluminescence outlines the jellyfish edges and catches on the current strings, while quiet #48D1CC pulses travel through their gelatin bodies and fade into layered blackwater. Tiny bubbles attach to the liquid strands in irregular notes, then release one by one into curved pearl trails, making the calm fluid dynamics visible without turbulence. Medium-density luminous plankton particles hover at several depths, creating serene underwater macro detail, soft volumetric glow, and a peaceful medium-paced dance of transparent life.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T11:56:50.754+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-15-aqua-5-1782183386473",
+      "generatedAt": "2026-06-23T11:56:50.754+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-15/aqua-5.png",
+      "sha256": "66533e78b9227bbc6395cf929e7e6ebc165e6271c91551d3b6a8965a8348e6c1",
+      "bytes": 2217040,
+      "attempts": 1,
+      "runId": "2026-04-15-aqua-5-1782183386473",
+      "generatedAt": "2026-06-23T12:02:03.769+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

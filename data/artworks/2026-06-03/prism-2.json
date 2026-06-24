@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 렌즈 캐스케이드",
+    "en": "Spectral Lens Cascade"
+  },
+  "description": {
+    "ko": "공중에 매달린 투명 렌즈의 연쇄가 하얀 에너지 섬광을 빠른 무지개 카스틱과 빛나는 색수차 halo로 분산합니다.",
+    "en": "A suspended cascade of clear lenses fractures a white energy flare into fast rainbow caustics and luminous chromatic halos."
+  },
+  "prompt": "PRISM-2 light refraction event in a bright white optical conservatory: a floating cascade of wafer-thin convex glass lenses hangs in midair like transparent stepping stones, each lens rotated at a different angle around a compact white energy flare. The flare expands through the lenses as fast, clean sheets of dispersed light, creating overlapping crescent rainbow caustics, prismatic halos, and razor-edged chromatic aberration at every rim. Use vivid #FF0080 magenta splinters, #00FF80 mint green refraction trails, #8000FF violet edge glow, and #FFFF00 yellow focal sparks against a luminous high-key atmosphere. Low sparse particles only, polished glass clarity, no floor-bound prism, no dark surface, dynamic motion blur on the spectral sheets, crisp internal reflections, pure rainbow energy suspended in air.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T05:44:39.881+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-prism-2-1782161060082",
+      "generatedAt": "2026-06-23T05:44:39.881+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/prism-2.png",
+      "sha256": "a882a151a3252008aa94cb786edc3e05d70ef0f625e5670f8bab0ef0f3d62265",
+      "bytes": 1737862,
+      "attempts": 1,
+      "runId": "2026-06-03-prism-2-1782161060082",
+      "generatedAt": "2026-06-23T05:46:43.321+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

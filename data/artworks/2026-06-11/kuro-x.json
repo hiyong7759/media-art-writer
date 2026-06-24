@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-11",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "하드 싱크 테셀레이션",
+    "en": "Hard Sync Tessellation"
+  },
+  "description": {
+    "ko": "흑백의 타이밍 엔진이 날카로운 동기화 셀로 갈라지며 속도, 노이즈, 기하학적 질서를 균형 있게 붙잡는다.",
+    "en": "A monochrome timing engine fractures into sharp synchronized cells, balancing speed, noise, and geometric order."
+  },
+  "prompt": "KURO-X geometric glitch abstraction titled \"Hard Sync Tessellation\": a severe black-and-white composition built like a fractured timing engine, not a portrait, logo, sculpture, sphere, cube, monolith, or cinematic character. The frame is packed edge to edge with intermeshed #1A1A1A triangular wedges, #FFFFFF strobe voids, and #808080 / #C0C0C0 slanted plates that snap into alternating diagonal and vertical lockstep. Instead of a single centerpiece, dozens of small angular cells collide in synchronized bursts: cropped octagons, knife-point trapezoids, split chevron brackets, broken ladder segments, and thin barcode-like slivers appear to jump forward by one corrupted frame. Fine horizontal scanlines cover the entire surface, interrupted by luma dropouts, grayscale phase slips, jagged bit-plane cuts, hard rectangular compression scars, and medium-density square particle debris. The image should feel fast and intense, with crisp vector edges, sharp angles, high contrast, monochrome complexity, cold mechanical depth, and chaos held in perfect fragmented balance.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-23T06:13:04.082+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-11-kuro-x-1782162765369",
+      "generatedAt": "2026-06-23T06:13:04.082+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-11/kuro-x.png",
+      "sha256": "0882dafa371b892edca4cd663fde95840fd20d169b381baa58d6b7db24b866f7",
+      "bytes": 2449755,
+      "attempts": 1,
+      "runId": "2026-06-11-kuro-x-1782162765369",
+      "generatedAt": "2026-06-23T06:14:45.486+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-16",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "라테라이트 압력 기록",
+    "en": "The Laterite Pressure Archive"
+  },
+  "description": {
+    "ko": "흙과 돌, 퇴적층이 빽빽하게 굳은 철질 지각 위에 대지의 느린 압력이 등고선 같은 질감으로 남아 있다.",
+    "en": "A dense ferric crust of soil, stone, and sediment holds the slow pressure of land in raised contour textures."
+  },
+  "prompt": "TERRA-1, titled \"The Laterite Pressure Archive.\" A photorealistic close oblique macro view of a ferric laterite crust exposed after long dry-season erosion, where pea-sized pisoliths, compact clay, and broken ironstone plates form a dense mineral field like a weathered elevation chart in relief. Deep #8B4513 umber soil shows through narrow undercut gaps, #D2691E rust-orange oxide coats the rounded nodules, #F4A460 sandy dust gathers in shallow saddles between raised crust shelves, and muted #2F4F4F slate staining darkens pressure seams and tiny stone pores. The composition emphasizes rough rock texture, granular earth, thin sediment laminations visible on snapped plate edges, embedded quartz grit, mica sparks, pitted ironstone, and slow contour bands shaped by heat, compression, and time. Low grazing natural light reveals crisp micro-shadows, crumbly margins, matte dust, and grounded earthy weight; frame only dry mineral terrain, with no horizon, plants, liquid, tools, or built artifacts.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T09:24:47.903+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-16-terra-1-1782174267779",
+      "generatedAt": "2026-06-23T09:24:47.903+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-16/terra-1.png",
+      "sha256": "0cf001650b0d9080caf743926905032a08a8ff93e7dd2a83637a56852d7aea08",
+      "bytes": 3247338,
+      "attempts": 1,
+      "runId": "2026-06-16-terra-1-1782174267779",
+      "generatedAt": "2026-06-23T09:27:30.561+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

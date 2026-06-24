@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심연의 빛 보육원",
+    "en": "Abyssal Lumen Nursery"
+  },
+  "description": {
+    "ko": "고요한 심해의 유생 구름이 숨 쉬듯 부풀며 초록빛 진주 물결 속으로 황금 생물발광 실을 흘려보냅니다.",
+    "en": "A calm underwater cluster of breathing larval forms releases golden bioluminescent threads into a green pearlescent current."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Abyssal Lumen Nursery\": a serene deep underwater scene built around a suspended cloud of translucent larval spheres, each sphere formed from soft #7FB069 living tissue with faint #2D5A3D branching shadows folded inside like sleeping roots. The cluster drifts in a misty #E6F2E1 water column, slowly expanding and contracting as if breathing. From tiny openings in the spheres, #FFE66D bioluminescent liquid light leaks in delicate threads, braids into floating glowing tendrils, then dissolves into thousands of luminous plankton particles. The composition feels weightless and calm, with layered depth haze, pearl microbubbles, gentle green caustic shimmer, wet gelatinous translucency, soft internal radiance, slow current trails, no figures, no machinery, no rigid geometry, highly detailed organic textures and refined cinematic underwater atmosphere.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T05:47:00.998+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-aura-7-1782161203366",
+      "generatedAt": "2026-06-23T05:47:00.998+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/aura-7.png",
+      "sha256": "c761f56e540a2df9d4287968fb115cc66614e36dd959daad3c4b4c2889537dd7",
+      "bytes": 2430806,
+      "attempts": 1,
+      "runId": "2026-06-10-aura-7-1782161203366",
+      "generatedAt": "2026-06-23T05:50:08.812+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

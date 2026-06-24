@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "점토 부조의 팔림프세스트",
+    "en": "The Clay Relief Palimpsest"
+  },
+  "description": {
+    "ko": "말려 올라간 점토판과 드러난 퇴적층의 가장자리가 시간이 빚은 대지의 부조 지도를 이룬다.",
+    "en": "Curled clay plates and exposed sediment edges form a grounded relief map of earth shaped by time."
+  },
+  "prompt": "TERRA-1, titled \"The Clay Relief Palimpsest.\" A photorealistic oblique macro view of a dry ancient lakebed pavement where thin curled clay plates have lifted and overlapped into raised relief lines, resembling a weathered topographic map made from real soil. The fractured flakes expose tiny sediment edges: deep #8B4513 umber clay beneath oxidized #D2691E bands, powdery #F4A460 sand caught in narrow shadow gaps, and muted #2F4F4F slate-gray mineral staining feathering across pressure seams. Smooth wind-polished mudstone islands sit between rough gravel grains, crushed shale chips, mica specks, and compacted silt ridges. Low raking natural light reveals porous dust, brittle lifted edges, stratified deposits, tactile rock texture, and the slow grounded narrative of earth drying, folding, and preserving time; no sky, no vegetation, no water, no human objects, hyper-detailed geological texture study.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-23T05:40:25.768+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-terra-1-1782160805731",
+      "generatedAt": "2026-06-23T05:40:25.768+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/terra-1.png",
+      "sha256": "f564974669d7ee40ad5d11181108160eee80fe8ac185b7f2269f905383f574a6",
+      "bytes": 3637210,
+      "attempts": 1,
+      "runId": "2026-06-03-terra-1-1782160805731",
+      "generatedAt": "2026-06-23T05:42:23.563+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

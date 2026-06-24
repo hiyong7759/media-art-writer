@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-29",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "역암 등고 유물함",
+    "en": "The Conglomerate Contour Reliquary"
+  },
+  "description": {
+    "ko": "갈라진 역암 판이 강돌과 점토, 퇴적층을 대지의 묵직한 지형 기억으로 바꾼다.",
+    "en": "A fractured conglomerate slab turns river stones, clay, and sediment layers into a grounded topographic memory of the land."
+  },
+  "prompt": "TERRA-1, titled \"The Conglomerate Contour Reliquary.\" A hyper-detailed geological still view of a naturally fractured conglomerate slab lying flat on compact earth, its exposed surface packed with river-rounded stones, clay matrix, and sliced sediment lenses arranged like an ancient relief map. Deep #8B4513 umber mudstone fills the recessed channels between cobbles, #D2691E oxidized clay wraps each embedded pebble in weathered halos, #F4A460 sandy grains gather as pale contour skirts along raised rims, and muted #2F4F4F slate mineral staining darkens old pressure seams and chipped stone interiors. The composition centers on slow land memory: rough quartzite, sandstone, and shale fragments locked in hardened soil, broken edges revealing stacked micro-layers, dusty pores, granular crust, abrasion marks, and subtle elevation changes across the slab. Low, dry natural light grazes the uneven terrain, emphasizing tactile rock and soil texture, medium suspended dust, earthy tones, sediment history, and a grounded mood with no sky, vegetation, water, tools, or built objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-24T09:38:26.997+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-04-29-terra-1-1782261487481",
+      "generatedAt": "2026-06-24T09:38:26.997+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-04-29/terra-1.png",
+      "sha256": "809121a2e47ffc75dfa9e77de21088446503038482a17207fd5796238a785be3",
+      "bytes": 3655794,
+      "attempts": 1,
+      "runId": "2026-04-29-terra-1-1782261487481",
+      "generatedAt": "2026-06-24T09:41:46.984+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

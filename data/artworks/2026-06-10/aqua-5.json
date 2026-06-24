@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-10",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "염분 렌즈의 성좌",
+    "en": "Salinity Lens Constellation"
+  },
+  "description": {
+    "ko": "투명한 해파리 형상과 빛나는 거품들이 고요한 심해 염분 흐름 속을 떠돈다.",
+    "en": "Transparent jellyfish forms and glowing bubbles drift through a quiet deep-sea salinity current."
+  },
+  "prompt": "A calm AQUA-5 deep-ocean blackwater composition viewed beside a slow descending salinity lens, with no seabed, vents, vessels, ruins, or machinery. A loose constellation of translucent jellyfish forms gathers around a horizontal liquid-mirror current: clear bell bodies, veil-like membranes, short glass threads, and faint radial veins suspended at staggered depths. The surrounding water falls into #000080 midnight blue at the edges and opens into a muted #006994 blue-green glow near the center. Bioluminescent #40E0D0 rims trace each jellyfish contour, while soft #48D1CC pulses travel through their bodies like light through layered glass. Tiny bubbles flatten into silver ellipses as they pass through the shear layer, then rise into uneven bead trails that reveal gentle fluid dynamics, refractive ripples, and calm medium-paced motion. Medium-density luminous plankton particles drift between foreground and background, creating a serene transparent dance of deep-sea life with crisp macro detail and soft underwater glow.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-23T06:06:16.104+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-10-aqua-5-1782162357989",
+      "generatedAt": "2026-06-23T06:06:16.104+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-10/aqua-5.png",
+      "sha256": "5e438ea3edd8ac068be599a1bb09389dbd27e1962bf6c9ed4a39206b72ce75cb",
+      "bytes": 2176614,
+      "attempts": 1,
+      "runId": "2026-06-10-aqua-5-1782162357989",
+      "generatedAt": "2026-06-23T06:08:01.669+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

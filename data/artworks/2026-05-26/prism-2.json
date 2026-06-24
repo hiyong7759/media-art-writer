@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-26",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "분광 조리개",
+    "en": "Spectral Aperture"
+  },
+  "description": {
+    "ko": "회전하는 유리 조리개가 흰 빛을 빠른 무지개 카우스틱과 순수한 프리즘 에너지로 굴절시킵니다.",
+    "en": "A spinning glass aperture refracts white radiance into fast rainbow caustics and pure prismatic energy."
+  },
+  "prompt": "PRISM-2 light refraction study in a bright white void: a weightless circular aperture built from ultra-clear beveled glass wedges is captured mid-spin around a vertical column of pure white radiance. The rotating facets shear the light into fast radial slivers, curved rainbow caustics, and razor-thin chromatic aberration trails, with #FF0080 magenta arcs, #00FF80 mint flashes, #8000FF violet edges, and #FFFF00 yellow hotspots crossing through the transparent glass. Low sparse particles only, polished optical clarity, luminous high-key atmosphere, energetic motion blur on the refracted spectrum, crisp internal reflections, pure rainbow energy suspended in air.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-21T21:35:16.760+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-26-prism-2-1782045300397",
+      "generatedAt": "2026-06-21T21:35:16.761+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-26/prism-2.png",
+      "sha256": "98e83c8dfb3af32dc2293606bdfc7bf4ecee8854b1f1d425ad9afa00a64f8879",
+      "bytes": 1896844,
+      "attempts": 1,
+      "runId": "2026-05-26-prism-2-1782045300397",
+      "generatedAt": "2026-06-21T21:37:23.642+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

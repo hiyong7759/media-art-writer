@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛섬모의 조류",
+    "en": "Lumen Cilia Tides"
+  },
+  "description": {
+    "ko": "살아 있는 빛섬모의 들판이 느린 유기적 조류 속에서 액체 생물광을 흘려 보낸다.",
+    "en": "A serene underwater field of living comb-cilia carries liquid bioluminescence through slow organic currents."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Lumen Cilia Tides\": a serene deep underwater close panorama of a living ctenophore-like field drifting in open water, built from thousands of soft translucent comb-cilia rather than petals, pods, ribbons, or membranes. Each curved filament is tinted #7FB069 with dim #2D5A3D chlorophyll shadows at its base, swaying in slow synchronized waves through a pale #E6F2E1 marine haze. Warm #FFE66D liquid light runs bead by bead along the comb edges, then loosens into hair-thin glowing tendrils that trail behind the current and dissolve into dense bioluminescent particles. The composition should feel weightless, breathing, and calm, with wet gelatinous texture, soft internal radiance, pearly microbubbles, faint green caustic shimmer, layered abyssal depth, gentle motion blur, and high particle density. No figures, no machinery, no architecture, no rigid symmetry, no sharp geometry, no cosmic setting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T09:32:39.320+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-aura-7-1782174742189",
+      "generatedAt": "2026-06-23T09:32:39.320+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/aura-7.png",
+      "sha256": "f2998fb9e15544b1814aa0e4f014ead99bd39289525cb488d919469bc42c145b",
+      "bytes": 2443975,
+      "attempts": 1,
+      "runId": "2026-06-19-aura-7-1782174742189",
+      "generatedAt": "2026-06-23T09:34:27.457+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

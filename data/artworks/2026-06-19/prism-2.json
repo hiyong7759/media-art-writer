@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "갈라진 빛의 자이로스코프",
+    "en": "Gyroscope of Split Light"
+  },
+  "description": {
+    "ko": "회전하는 유리 자이로스코프가 순백의 에너지를 빠른 무지개 카스틱과 선명한 색수차로 바꿉니다.",
+    "en": "A spinning glass gyroscope turns pure white energy into fast rainbow caustics and sharp chromatic fringes."
+  },
+  "prompt": "A radiant refraction artwork in a clean sun-white void: a levitating optical gyroscope made of nested ultra-clear glass gimbal rings, sliced torus lenses, and tiny beveled quartz pins spins around a compressed white light bead. Short white flashes leap between the rotating rings, bending through the curved glass into high-speed comet arcs of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics ripple as airborne crescent grids and bright interference knots around the gyroscope, while fine chromatic aberration splits every transparent rim into sharp colored fringes. Keep the scene bright, crystalline, and energetic, with very few particles, clean negative space, crisp internal reflections, fast spectral motion trails, and no tabletop macro setup.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T09:52:55.502+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-prism-2-1782175954422",
+      "generatedAt": "2026-06-23T09:52:55.502+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/prism-2.png",
+      "sha256": "765505ca07bc5029ff655e686e2ff31d62a7884e1ad7fb8845df3e44045705ad",
+      "bytes": 1969768,
+      "attempts": 1,
+      "runId": "2026-06-19-prism-2-1782175954422",
+      "generatedAt": "2026-06-23T09:55:59.552+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-14",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "프레넬 플래시 엔진",
+    "en": "Fresnel Flash Engine"
+  },
+  "description": {
+    "ko": "공중의 프레넬 유리 엔진이 백색 에너지를 빠른 무지개 caustic과 색수차의 빛 자국으로 분산한다.",
+    "en": "An airborne Fresnel glass engine fractures white energy into fast rainbow caustics and chromatic light scars."
+  },
+  "prompt": "PRISM-2 refraction cascade in a bright zero-gravity white field: an exploded cube of ultra-clear Fresnel glass tiles, tiny pyramid cells, and hollow cylindrical light wells hangs apart with precise air gaps, like a transparent optical engine caught mid-activation. Multiple white flash-bolts snap through the gaps from different directions instead of one straight beam, ricocheting tile to tile and breaking into high-speed spectral slices of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics appear as sharp checkerboard flares, fractured ring halos, and angled light scars suspended in the air; every beveled micro-pyramid edge shows crisp chromatic aberration and polished internal reflections. Bright pure-energy mood, fast motion streaks, low sparse particles only, clean luminous atmosphere, no tabletop setup, no dark surface, no traditional triangular prism.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-23T07:23:18.654+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-14-prism-2-1782166981607",
+      "generatedAt": "2026-06-23T07:23:18.654+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-14/prism-2.png",
+      "sha256": "cd7b84540d76a8f18c7bda95d3b450038884c061231f643d2274358b769fe4c4",
+      "bytes": 2181462,
+      "attempts": 1,
+      "runId": "2026-06-14-prism-2-1782166981607",
+      "generatedAt": "2026-06-23T07:25:22.575+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

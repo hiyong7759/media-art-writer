@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "유리 진동 악보",
+    "en": "Glass Tremor Score"
+  },
+  "description": {
+    "ko": "보이지 않는 주파수가 침묵의 유리 위에 빠르고 미니멀한 리듬을 그린다.",
+    "en": "Invisible frequencies write a fast, minimal rhythm across silent glass."
+  },
+  "prompt": "ECHO-0 sound visualization rendered as a silent close-up of a matte black glass pane covered with hairline tension traces, as if invisible sound is sketching directly across the surface. Thin #4169E1 royal-blue waveform strokes run in parallel lanes, then jump into fast #FF4500 orange angular tremors where sharp transients pass through. Small #FFD700 gold phase nodes cling to only a few crossing points, while rare #32CD32 lime markers flicker like measured frequency ticks. The composition avoids any speaker, performer, core, sphere, corridor, or architectural monument: only vibrating minimal lines, offset echoes, clipped harmonics, and clean negative space revealing resonance in silence. Rhythmic, high-contrast, low-particle, precise soundwave abstraction with crisp edges and rapid visual tempo.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T05:34:31.901+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-echo-0-1782160450017",
+      "generatedAt": "2026-06-23T05:34:31.901+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/echo-0.png",
+      "sha256": "740617579da5c8938fe829084a10dce530b1d9af37234ff5e4405dad282c5ef1",
+      "bytes": 1732239,
+      "attempts": 1,
+      "runId": "2026-06-03-echo-0-1782160450017",
+      "generatedAt": "2026-06-23T05:37:35.479+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

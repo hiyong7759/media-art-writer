@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "원양의 발광 베틀",
+    "en": "Pelagic Lumen Loom"
+  },
+  "description": {
+    "ko": "고요한 심해 속 반투명 생체 막의 느린 물결이 황금빛 액체의 빛을 입자 가득한 물속으로 흘려보냅니다.",
+    "en": "A slow underwater braid of living translucent membranes carries golden liquid light through a serene, particle-rich abyss."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Pelagic Lumen Loom\": a serene deep underwater scene where slow currents weave dozens of translucent ribbon-organisms into a loose drifting braid, not a net or lattice, each strand made of soft #7FB069 living membrane with muted #2D5A3D chlorophyll shadows sliding inside like submerged breath. Along the bends, #FFE66D bioluminescent liquid gathers in thin glowing veins, spills into hair-fine tendrils, and separates into warm droplets that hover among dense plankton sparks. The surrounding water is a pale #E6F2E1 abyssal mist with pearly microbubbles, faint green caustic glimmers, suspended organic dust, wet gelatinous surfaces, soft internal radiance, and gentle slow-motion blur. Emphasize breathing natural light, calm liquid flow, high particle density, delicate organic texture, and deep cinematic underwater depth; avoid figures, machines, architecture, rigid symmetry, sharp geometry, and cosmic space.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-23T06:33:14.839+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-12-aura-7-1782163977557",
+      "generatedAt": "2026-06-23T06:33:14.839+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-12/aura-7.png",
+      "sha256": "f535a5e1403148fa3f517956868fa274749c27645dec8647a6e30b9c9f4fa4a2",
+      "bytes": 2397863,
+      "attempts": 1,
+      "runId": "2026-06-12-aura-7-1782163977557",
+      "generatedAt": "2026-06-23T06:36:15.254+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

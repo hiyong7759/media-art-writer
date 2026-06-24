@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-19",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "미세유체 공명",
+    "en": "Microfluidic Resonance"
+  },
+  "description": {
+    "ko": "보이지 않는 소리가 새겨진 채널을 따라 드문 색의 맥박으로 질주하며, 침묵을 리듬감 있는 압력 회로로 바꾼다.",
+    "en": "Invisible sound races through etched channels as sparse color-coded pulses, turning silence into a rhythmic pressure circuit."
+  },
+  "prompt": "ECHO-0 sound visualization rendered as a silent microfluidic resonance chip on a frost-white laboratory surface, viewed in a precise macro top-down composition. The chip contains an irregular maze of ultra-thin etched channels, but no visible source of sound; invisible frequencies reveal themselves as #4169E1 royal-blue hairline pulses sprinting through the channels in broken rhythmic bursts. At sudden beat impacts, the blue lines split into sharp #FF4500 orange forked accents and tiny clipped corners, suggesting rapid vibration without any moving object. A few #FFD700 gold phase beads appear only where two channels briefly synchronize, while rare #32CD32 lime-green gate marks flash at abrupt pitch jumps. Keep the particle count extremely low: most of the image is quiet white space, clear acrylic edges, subtle refraction, crisp micro-shadows, offset echo traces, and fast staccato line behavior. Minimal, high-contrast, rhythmic resonance in silence, with vibrating frequencies made visible as controlled graphic pressure paths.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-23T09:42:21.974+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-19-echo-0-1782175321431",
+      "generatedAt": "2026-06-23T09:42:21.974+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-19/echo-0.png",
+      "sha256": "2fd85a0b41aa787a1cd69d44b80333048c25ede861c107a5af938adfa627e92c",
+      "bytes": 1814423,
+      "attempts": 1,
+      "runId": "2026-06-19-echo-0-1782175321431",
+      "generatedAt": "2026-06-23T09:44:54.905+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

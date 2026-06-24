@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-27",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "수온약층의 장막",
+    "en": "Thermocline Veil"
+  },
+  "description": {
+    "ko": "고요한 심해의 흐름 속에서 투명한 생명들이 물의 장막을 따라 은은히 빛난다.",
+    "en": "A calm deep-ocean current reveals translucent life glowing along a suspended veil of water."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork set in open blackwater, viewed as a close lateral cross-section of a glowing thermocline veil rather than a seafloor scene. A smooth sheet of #006994 blue-green current folds into soft wave crests through #000080 depth, revealing visible fluid dynamics: laminar bands, slow eddies, and delicate refractive ripples. Translucent jellyfish forms hover along the current boundary like clear glass parasols, their thin membranes lit from within by #40E0D0 bioluminescent rims and #48D1CC inner pulses. Clusters of tiny bubbles collect beneath the wave folds, stretching into uneven pearl trails as the water pressure pulls them sideways. Medium-density luminous plankton particles drift between foreground and background layers, creating calm depth without vessels, vents, ruins, or seabed. Serene underwater macro realism, soft volumetric glow, quiet transparent life moving at a measured medium pace.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-21T22:05:55.648+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-27-aqua-5-1782047132967",
+      "generatedAt": "2026-06-21T22:05:55.648+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-27/aqua-5.png",
+      "sha256": "1cd73e78c137ca228be60fbdc1ed2bbd81b9a4c8ffec46c3b5615451c3df782c",
+      "bytes": 2040343,
+      "attempts": 1,
+      "runId": "2026-05-27-aqua-5-1782047132967",
+      "generatedAt": "2026-06-21T22:08:10.404+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

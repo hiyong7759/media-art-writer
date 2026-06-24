@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-03",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "태양 꽃잎의 회복",
+    "en": "Solar Petal Reclamation"
+  },
+  "description": {
+    "ko": "잊힌 태양광 패널 사이로 프랙탈 디지털 꽃이 피어나는 평화로운 FLORA-9 옥상 정원",
+    "en": "A peaceful FLORA-9 rooftop garden where fractal digital flowers bloom through forgotten solar panels."
+  },
+  "prompt": "FLORA-9 as an abandoned rooftop solar farm transformed into an eternal digital spring garden: long rows of cracked photovoltaic panels tilt beneath a pale morning sky, their black glass softened by emerald #50C878 moss, tiny vines, and transparent dew beads carrying faint lines of code. From the fractures and panel seams bloom fractal flowers with recursive digital petals, blush #FFB6C1 at the tips fading into calm #89CFF0 sky blue, each petal layered like delicate translucent glass and traced with subtle living circuitry. Deep #4A0E4E plum shadows collect under the rusted mounting rails, while old inverter boxes and loose cables are gently wrapped in roots that behave like slow fiber-optic tendrils. Thousands of soft pastel seed-motes drift densely through the air in a peaceful, slow current, as if the sunlight itself is being pollinated by code. Wide serene composition, fine botanical geometry, nature calmly reclaiming obsolete energy technology, soft pastel illumination, high-detail digital nature, quiet regenerative mood.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-23T05:32:16.371+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-03-flora-9-1782160317545",
+      "generatedAt": "2026-06-23T05:32:16.371+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-03/flora-9.png",
+      "sha256": "0c16d8e426867154788e237bee1cbf88dc760153e821276c6e8f12d0811c81fe",
+      "bytes": 3096273,
+      "attempts": 1,
+      "runId": "2026-06-03-flora-9-1782160317545",
+      "generatedAt": "2026-06-23T05:34:09.975+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
