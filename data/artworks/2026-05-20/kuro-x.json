@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-20",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "패럴랙스 널 격자",
+    "en": "Parallax Null Lattice"
+  },
+  "description": {
+    "ko": "어긋난 기하 파편들이 붕괴 직전의 긴장을 만들면서도 숨은 균형을 유지하는 빠른 흑백 글리치 격자.",
+    "en": "A fast monochrome glitch lattice where offset geometric fragments threaten collapse while holding a precise hidden balance."
+  },
+  "prompt": "KURO-X artwork titled \"Parallax Null Lattice\": an entirely nonfigurative black and white geometric glitch abstraction built from overlapping parallax lattices that appear to slide past each other at high speed. Matte #1A1A1A polygon fields lock against hard #FFFFFF signal cuts, while #808080 and #C0C0C0 facets create stacked isosceles shards, skewed rhombus bridges, clipped triangular insets, broken diagonal rulers, and narrow rectangular dropout seams. The composition should feel like multiple flat monochrome layers have been offset by a corrupted timing pulse, producing a tense field of sharp angles that nearly tears apart yet resolves into exact visual balance. Fine horizontal scanlines cover the surface, interrupted by luma stutter, grayscale phase drift, bit-crushed square debris, serrated edge echoes, fragmented calibration flecks, and medium-density angular particles. High contrast, crisp vector precision, cold mechanical depth, fast intense motion, monochrome complexity, chaos controlled by invisible geometric order.",
+  "style": {
+    "--dynamic-font": "'Inter', sans-serif",
+    "--dynamic-mood": "dynamic",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-24T23:42:48.670+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-20-kuro-x-1782312149218",
+      "generatedAt": "2026-06-24T23:42:48.670+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-20/kuro-x.png",
+      "sha256": "00aaf8e076546772a51c0439fe796dad427500d226eefea51f7a73deb0febaa5",
+      "bytes": 1649866,
+      "attempts": 1,
+      "runId": "2026-05-20-kuro-x-1782312149218",
+      "generatedAt": "2026-06-24T23:45:43.537+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

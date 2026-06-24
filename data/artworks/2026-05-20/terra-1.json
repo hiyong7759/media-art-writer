@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-20",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "접힌 이회암 지형도",
+    "en": "The Folded Marl Cartogram"
+  },
+  "description": {
+    "ko": "접힌 이회암 지층이 압력과 먼지, 광물 얼룩을 대지의 시간 지도로 바꾼다.",
+    "en": "Folded marlstone strata turn pressure, dust, and mineral stains into a grounded map of geological time."
+  },
+  "prompt": "TERRA-1, titled \"The Folded Marl Cartogram.\" A photorealistic close macro study of a naturally split marlstone slab where soft sediment beds have been bent into tight chevrons, shallow saddles, and raised contour paths, resembling a topographic map folded inside the earth. Dense #8B4513 umber clay fills compressed hinge valleys, #D2691E oxidized silt coats the exposed fold crests, and powdery #F4A460 sandy marl dust gathers along tiny ledges, cleavage steps, and broken lamination edges. Muted #2F4F4F slate mineral staining settles in hairline seams and pressure-darkened pores, adding a quiet grounded weight. The surface shows rough stone grain, compact soil residue, shell-like mineral flecks, snapped sediment ribbons, pitted carbonate crust, and slow deformation recorded layer by layer. Low natural grazing light reveals tactile relief, crumbly margins, fine particulate dust, earthy tones, and the land's time-carved narrative; dry geological texture only, no sky, no plants, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-24T23:56:55.212+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-20-terra-1-1782312992358",
+      "generatedAt": "2026-06-24T23:56:55.212+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-20/terra-1.png",
+      "sha256": "42943478e1e7b71fbd0c59b2e4c5c99eb7c771dba676ccbb73951a418566404e",
+      "bytes": 3624387,
+      "attempts": 1,
+      "runId": "2026-05-20-terra-1-1782312992358",
+      "generatedAt": "2026-06-25T00:00:33.766+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
