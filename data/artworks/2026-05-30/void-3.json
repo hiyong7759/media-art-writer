@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "void-3",
+  "title": {
+    "ko": "무한 공허의 섬들",
+    "en": "Islands of the Infinite Void"
+  },
+  "description": {
+    "ko": "창백한 별먼지가 연약한 섬처럼 모여 보이지 않는 심연의 존재 앞에 정지한 고요한 심우주 성운.",
+    "en": "A silent deep-space nebula where pale star dust gathers into fragile islands, suspended before an unseen abyssal presence."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a vast abyssal nebula captured as a silent field of suspended stellar embers, where dense #E6E6FA star dust forms thousands of faint, uneven islands across an ocean of pure #0D0221 void. Between the islands, transparent #3D1A78 ultraviolet vapor gathers into thin, glassy pressure veils that overlap at different depths, creating the impression of infinite space slowly folding inward without any visible source. Sparse #7B68EE lavender ion threads appear as delicate frost-like branching along the edges of the dust islands, revealing a cold gravitational presence too large to enter the frame. No spacecraft, planets, rings, vortex, central black hole, gate, eclipse, lattice, shell, chasm, prism, vessel, or flowing river structure; the image should feel like a forbidden long-exposure photograph of stars quietly separating into abyssal silence. Mysterious cosmic horror majesty, very slow celestial drift, high particle density, restrained lavender luminance, cold volumetric haze, ultra-detailed astrophotographic texture, deep space nebula atmosphere, stars dust scattered through the infinite void.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-25T02:49:51.537+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-void-3-1782323373560",
+      "generatedAt": "2026-06-25T02:49:51.537+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/void-3.png",
+      "sha256": "5046ef58aac3270238acaa02a4453dd56189da774017402400f602f2f3170aac",
+      "bytes": 3039406,
+      "attempts": 1,
+      "runId": "2026-05-30-void-3-1782323373560",
+      "generatedAt": "2026-06-25T02:52:17.845+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

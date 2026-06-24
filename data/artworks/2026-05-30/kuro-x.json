@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "kuro-x",
+  "title": {
+    "ko": "스큐 클록 격자",
+    "en": "Skew Clock Lattice"
+  },
+  "description": {
+    "ko": "흑백의 타이밍 격자가 날카로운 글리치 기하로 분열되며 속도와 혼돈, 정밀한 질서가 균형을 이룹니다.",
+    "en": "A monochrome timing lattice fractures into sharp glitch geometry, balancing speed, chaos, and exact order."
+  },
+  "prompt": "KURO-X artwork titled \"Skew Clock Lattice\": an intense black and white geometric abstraction rendered as a fractured timing lattice caught between perfect alignment and violent digital slip. The image is entirely abstract: no figure, logo, lettering, sculpture, sphere, cube, monolith, or single centerpiece. Matte #1A1A1A angular cells interlock with hard #FFFFFF void channels, while #808080 and #C0C0C0 shards form sliced trapezoid clocks, broken diamond registers, serrated diagonal hinges, offset triangular counters, and thin parallel fault rails. The composition bends around several invisible axes of rotation, creating a fast strobing sense of torsion without becoming circular or symmetrical. Fine horizontal scanlines cross every plane, disrupted by grayscale jitter, luma tearing, dropped-frame slices, hard compression squares, snapped calibration dashes, and medium-density square particles. Crisp vector edges, severe sharp angles, high contrast, cold mechanical depth, monochrome complexity, chaos within order, perfect balance created by fragments.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#1A1A1A",
+    "--dynamic-secondary": "#FFFFFF",
+    "--dynamic-tertiary": "#808080",
+    "--dynamic-quaternary": "#C0C0C0"
+  },
+  "generatedAt": "2026-06-25T02:38:09.394+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-kuro-x-1782322671278",
+      "generatedAt": "2026-06-25T02:38:09.394+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/kuro-x.png",
+      "sha256": "a2f3902b5857597894bb6be724bb50b037396a152f7829f18bdc4967ea2df0eb",
+      "bytes": 2437884,
+      "attempts": 1,
+      "runId": "2026-05-30-kuro-x-1782322671278",
+      "generatedAt": "2026-06-25T02:40:23.371+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

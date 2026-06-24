@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "크롬워시 나이트 세탁소",
+    "en": "Chromewash Night Laundrette"
+  },
+  "description": {
+    "ko": "비 내리는 미래 세탁소에서 회전하는 크롬과 유리, 젖은 도시 표면이 NEON-V의 핑크와 블루 디지털 낭만으로 빛난다.",
+    "en": "A futuristic rainlit laundrette turns spinning chrome, glass, and wet city surfaces into NEON-V's pink-blue urban romance."
+  },
+  "prompt": "NEON-V artwork titled \"Chromewash Night Laundrette\": a rain-soaked cyberpunk garment-cleaning street embedded in the lower ribs of a futuristic residential tower, viewed through the curved window of an automated laundrette capsule as stormwater streaks down the glass and turns the city outside into liquid neon. Transparent washing drums, chrome drying tunnels, magnetic clothing rails, wet ceramic floor channels, black alloy service counters, fiber-lit payment columns, pressure-sealed doors, stacked capsule balconies, and exposed coolant pipes create dense futuristic urban texture. Neon pink #FF00FF detergent glyphs and neon blue #00FFFF wash-cycle diagrams glow across spinning glass doors, puddled tile, polished metal rims, rain-slick sidewalks, and visor reflections; deep #1A0033 violet tower walls crowd the background with narrow lit windows and cable shadows. #FF6B35 orange heater coils, status lamps, vending-slot glows, and scooter brake flashes add hot energetic accents. Medium-speed motion from rotating drum halos, garments sliding overhead on smart rails, commuters shaking rain from clear coats, street-cleaning bots pushing water into illuminated drains, and small delivery scooters passing outside without dominating the frame. High particle density with rain needles, steam clouds, condensation beads, electric mist, floating hologram lint, bright splashes, and glittering runoff trails. Cyberpunk cityscape colors, neon and metal digital romance, rainy reflections, sharp foreground detail, layered enclosed urban depth, energetic night mood.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T02:40:43.699+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-neon-v-1782322823464",
+      "generatedAt": "2026-06-25T02:40:43.699+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/neon-v.png",
+      "sha256": "1c0e222c37058c07ef024d1c72402d10049d948cded66dc60bc497c360a127fd",
+      "bytes": 3063834,
+      "attempts": 1,
+      "runId": "2026-05-30-neon-v-1782322823464",
+      "generatedAt": "2026-06-25T02:43:25.664+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

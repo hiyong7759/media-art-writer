@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "셰일 주름 지형도",
+    "en": "The Shale Fold Cartogram"
+  },
+  "description": {
+    "ko": "접힌 셰일과 다져진 흙, 광물 얼룩의 퇴적층이 압력과 시간이 새긴 묵직한 부조 지도를 이룬다.",
+    "en": "Folded shale, compact soil, and mineral-stained sediment layers form a grounded relief map carved by pressure and time."
+  },
+  "prompt": "TERRA-1, titled \"The Shale Fold Cartogram.\" A hyper-detailed natural texture study of an exposed mudstone outcrop where thin shale laminae have buckled into soft anticline folds, torn seams, and shallow relief steps, resembling a topographic map compressed sideways by deep time. Dense #8B4513 umber clay fills the recessed troughs, #D2691E rust-orange sediment skins wrap the lifted fold noses, #F4A460 sandy powder rests on broken ledges and cleaved sheet edges, and muted #2F4F4F slate mineral staining settles in pressure shadows and hairline fractures. The frame is filled only with dry earth and rock: brittle layered plates, gritty soil crumbs, quartz flecks, pitted stone faces, compacted dust, and exposed sediment ribbons curving through the surface like elevation lines. Low natural grazing light reveals rough texture, stratified deposits, grounded earthy tones, medium particulate detail, and the slow narrative of land bent, cracked, and weathered over time; no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-25T02:52:37.458+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-terra-1-1782323537942",
+      "generatedAt": "2026-06-25T02:52:37.458+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/terra-1.png",
+      "sha256": "dc89a6beccb1cff931b208fefc804fbdb846511edbb93fda93c6f076c1637a04",
+      "bytes": 3715504,
+      "attempts": 1,
+      "runId": "2026-05-30-terra-1-1782323537942",
+      "generatedAt": "2026-06-25T02:55:32.821+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

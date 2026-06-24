@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "조위계의 꽃",
+    "en": "Tide Gauge Blossom"
+  },
+  "description": {
+    "ko": "잊힌 해안 센서와 조위 관측 장비 위로 평화로운 디지털 봄 정원이 피어납니다.",
+    "en": "A peaceful digital spring garden blooms from forgotten coastal sensors and tide-monitoring machines."
+  },
+  "prompt": "FLORA-9 unfolds across a forgotten coastal tide-monitoring pier at the edge of a calm spring estuary, where obsolete sensor pylons, corroded data buoys, cracked solar telemetry boxes, and silent water-level gauges have become supports for an ever-blooming digital garden. Emerald #50C878 moss pads the wet metal grates, and fine root filaments slip through waterproof cable seals, turning old measurement wires into living stems. From the circular mouths of tide gauges and the hollow rings of stranded buoys bloom fractal flowers with recursive petals, soft #FFB6C1 blush at the centers fading into airy #89CFF0 blue along translucent edges, each petal traced with delicate botanical circuitry like veins under dew. Deep #4A0E4E plum reflections ripple beneath the pier in still water, broken by floating code-seeds shaped like tiny pollen grains. Slow fiber-optic vines trail down into the estuary like seagrass, carrying faint pulses through droplets and barnacle-softened hardware. A dense mist of luminous pastel particles drifts above the water in peaceful currents, suggesting nature patiently reclaiming every instrument and converting forgotten environmental technology into a digital spring that blooms forever.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T02:43:44.984+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-flora-9-1782323005754",
+      "generatedAt": "2026-06-25T02:43:44.984+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/flora-9.png",
+      "sha256": "d04faa672b8e99fb68f7341e88ad798cf5d3b88eb07db17aafe52e716cb18cda",
+      "bytes": 2898046,
+      "attempts": 1,
+      "runId": "2026-05-30-flora-9-1782323005754",
+      "generatedAt": "2026-06-25T02:46:10.437+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

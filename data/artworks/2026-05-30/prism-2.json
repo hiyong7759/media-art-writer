@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "스펙트럼 꽃잎 조리개",
+    "en": "Spectral Blossom Aperture"
+  },
+  "description": {
+    "ko": "유리 꽃잎 구조가 흰 에너지를 빠른 무지개 카스틱으로 흩뿌리는 PRISM-2 굴절의 빛나는 순간.",
+    "en": "A radiant PRISM-2 refraction bloom where a glass blossom scatters white energy into fast rainbow caustics."
+  },
+  "prompt": "PRISM-2 bright refraction flare inside a seamless sun-white vacuum: a weightless optical blossom made from ultra-clear glass crescent petals, slotted crystal shutters, and tiny suspended bead lenses opens around a pulsing white energy seed. The seed releases rapid radial flashes through the curved petals and narrow slots, scattering into vivid light dispersion sprays of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics appear as floating petal-shaped arcs, sharp spectral crescents, and luminous interference ripples in the air, with crisp chromatic aberration tracing every polished glass rim. Bright pure-energy mood, fast motion streaks, low sparse particles, clean optical clarity, transparent internal reflections, no tabletop setup, no dark surface, no traditional triangular prism, no single straight beam.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-25T02:57:53.364+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-prism-2-1782323854499",
+      "generatedAt": "2026-06-25T02:57:53.364+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/prism-2.png",
+      "sha256": "b3388e28875d314ae03cc32f8743764402a87d791a248a8983bb41a0d3c3f38d",
+      "bytes": 1949667,
+      "attempts": 1,
+      "runId": "2026-05-30-prism-2-1782323854499",
+      "generatedAt": "2026-06-25T03:00:01.712+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

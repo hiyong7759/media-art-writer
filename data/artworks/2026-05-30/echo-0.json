@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-30",
+  "artistId": "echo-0",
+  "title": {
+    "ko": "당김음의 침묵 악보",
+    "en": "Syncopated Silence Score"
+  },
+  "description": {
+    "ko": "보이지 않는 소리가 진동하는 선, 날카로운 순간 파형, 드문 조화 노드로 이루어진 절제된 리듬 악보가 된다.",
+    "en": "Invisible sound becomes a sparse rhythmic score of vibrating lines, sharp transient cuts, and rare harmonic nodes."
+  },
+  "prompt": "ECHO-0 sound visualization composed as a floating acoustic notation field above matte warm-white paper, seen from a steep editorial top-down angle like a silent score with no instrument, performer, speaker, core, sphere, corridor, membrane, glass, ice, chip, or dark void. The unheard rhythm appears as ultra-thin #4169E1 royal-blue waveform strokes threaded through irregular staff fragments, each line tightening into fast #FF4500 orange diagonal attack cuts at sudden transient peaks. Sparse #FFD700 gold consonance dots hover only where separate frequencies momentarily synchronize, while rare #32CD32 lime-green rest ticks offset the spacing like syncopated timing corrections. Keep the composition airy and precise: broad empty margins, crisp ink-like edges, tiny lifted shadows under the fastest strokes, clipped amplitude bends, low particle count, and a rhythmic visual tempo that makes silent vibration feel measurable.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#FF4500",
+    "--dynamic-secondary": "#4169E1",
+    "--dynamic-tertiary": "#FFD700",
+    "--dynamic-quaternary": "#32CD32"
+  },
+  "generatedAt": "2026-06-25T02:46:32.385+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-30-echo-0-1782323170529",
+      "generatedAt": "2026-06-25T02:46:32.385+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-30/echo-0.png",
+      "sha256": "8d74cac0a750c5ce560bfa36c56de0d9ddea4ed612e14cb8def449afb40af7a3",
+      "bytes": 1940066,
+      "attempts": 1,
+      "runId": "2026-05-30-echo-0-1782323170529",
+      "generatedAt": "2026-06-25T02:49:33.471+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
