@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "레인콜 라디오 성소",
+    "en": "Raincall Radio Shrine"
+  },
+  "description": {
+    "ko": "비에 젖은 방송 성소에서 네온 음성 캡슐과 크롬 안테나, 진동하는 물웅덩이가 도시를 소리와 빛의 디지털 낭만으로 바꾼다.",
+    "en": "A rain-soaked broadcast shrine where neon voice capsules, chrome antenna reeds, and vibrating puddles turn the city into a digital romance of sound and light."
+  },
+  "prompt": "NEON-V artwork titled \"Raincall Radio Shrine\": a compact cyberpunk street-side broadcast chapel built into the lower facade of a futuristic tower, framed close against a rain-polished service counter where citizens leave glowing voice capsules beneath a lattice of chrome antenna reeds. Black titanium offering trays, wet ceramic steps, brushed metal speaker horns, transparent soundproof booths, exposed fiber braids, magnetic prayer tags, signal meters, vending slots, and ribbed maintenance shutters create dense futuristic urban texture without an open skyline. Neon pink #FF00FF waveform icons crawl across glass panels and puddled tile, neon blue #00FFFF frequency rings shimmer through rainwater pooled in the counter grooves, and deep #1A0033 violet tower concrete compresses the background into layered metallic shadow. #FF6B35 orange transmitter cores, heater vents, warning beads, and tiny solder sparks add hot energetic accents. Medium-speed motion from rotating antenna fins, commuters sliding voice capsules into illuminated docks, service drones tuning wet speaker arrays, and rain curtains vibrating with bass pulses. High particle density with slanting rain needles, electric mist, steam from drain vents, bright splash crowns, floating hologram fragments, condensation beads on chrome, and glittering runoff trails. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, luminous wet surfaces, energetic enclosed urban depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T05:17:05.823+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-08-neon-v-1782332206692",
+      "generatedAt": "2026-06-25T05:17:05.824+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-08/neon-v.png",
+      "sha256": "e93ee898239466df8c300f5fd7135a62a9f9823817627ddcff721d64640b2b89",
+      "bytes": 3110267,
+      "attempts": 1,
+      "runId": "2026-06-08-neon-v-1782332206692",
+      "generatedAt": "2026-06-25T05:19:24.072+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

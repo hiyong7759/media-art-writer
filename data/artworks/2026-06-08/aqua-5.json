@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "고요한 소용돌이 고리",
+    "en": "Silent Vortex Ring"
+  },
+  "description": {
+    "ko": "한밤빛 심해 속 고요한 생물발광 소용돌이 고리 주위를 투명한 생명들이 떠돈다.",
+    "en": "Transparent deep-sea life drifts around a calm bioluminescent vortex ring in midnight water."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork in open midnight blackwater, framed as a three-quarter macro view of a slow toroidal eddy drifting through empty depth, with no seabed, vents, vessels, ruins, machinery, or abyssal structures. The water itself forms a transparent doughnut-shaped current: #006994 blue-green streamlines wrap around a dark #000080 central oval, revealing calm fluid dynamics, rolling vortex motion, pressure refraction, and smooth medium-paced circulation. Translucent jellyfish forms ride the outer rim like living glass thimbles and folded clear ribbons, each with soft bell membranes, faint radial veins, scalloped edges, and short tendrils curved by the rotating flow. Their contours glow with quiet #40E0D0 bioluminescence while subtle #48D1CC pulses travel through the gelatin layers and reflect across the inner hollow of the eddy. Tiny bubbles orbit the ring in uneven arcs, compressing into bright lens beads on the near side and stretching into delicate trails as they pass behind the current, making the motion readable without turbulence. Medium-density luminous plankton particles scatter through foreground, ring interior, and distant background, creating serene layered depth, crisp underwater macro detail, soft volumetric radiance, and the peaceful dance of transparent life in the deep sea.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-25T05:28:28.109+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-08-aqua-5-1782332889527",
+      "generatedAt": "2026-06-25T05:28:28.109+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-08/aqua-5.png",
+      "sha256": "3a817ca1fa2982a33fc36b64c19799988c8b16891701f2f087687375474bb7a3",
+      "bytes": 2296507,
+      "attempts": 1,
+      "runId": "2026-06-08-aqua-5-1782332889527",
+      "generatedAt": "2026-06-25T05:30:36.605+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
