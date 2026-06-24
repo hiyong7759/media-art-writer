@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-06",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "보랏빛 캡슐 체크인",
+    "en": "Violet Capsule Check-In"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 수면 캡슐 호텔이 네온 핑크와 블루 반사로 빛나며, 좁은 도시 로비를 금속성 디지털 낭만으로 바꾼다.",
+    "en": "A rain-soaked cyberpunk sleep-pod hotel glows with neon pink and blue reflections, turning a compact urban lobby into metallic digital romance."
+  },
+  "prompt": "NEON-V scene \"Violet Capsule Check-In\": a rain-lashed cyberpunk sleep-pod hotel stacked inside a narrow futuristic city wall, viewed from the wet curb through a tall revolving glass entrance where the lobby, street, and tower reflections collapse into one luminous surface. Honeycomb sleep capsules with translucent doors, brushed titanium luggage rails, black chrome reception counters, biometric wristband readers, wet rubber floor mats, illuminated drain seams, vending alcoves, cable-packed ceiling ribs, and vertical apartment slits create dense futuristic urban texture. Neon pink #FF00FF room-status sigils shimmer across rain-streaked glass and polished pod doors, neon blue #00FFFF wake-cycle maps run through floor strips and elevator panels, and deep #1A0033 violet tower concrete presses close around the hotel like a glowing canyon. #FF6B35 orange service-lift lights, heater vents, cleaning-bot sensors, and scooter brake reflections add sharp warm energy. Medium-speed motion from guests sliding luggage through puddles, capsule doors sealing in soft waves, autonomous carts carrying folded coats, and rotating lobby holo-signs mirrored in wet asphalt. High particle density with slanting rain, window droplets, steam from doorway vents, electric mist, floating hologram dust, splash crowns around footsteps, and glittering runoff along metal thresholds. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, energetic night atmosphere, sharp foreground detail, layered enclosed urban depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T04:40:09.994+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-06-neon-v-1782329990097",
+      "generatedAt": "2026-06-25T04:40:09.994+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-06/neon-v.png",
+      "sha256": "7f92f349c82b8567128ce7c667b59dd82a62577150f2dbcc404243552fdcfbc9",
+      "bytes": 3172433,
+      "attempts": 1,
+      "runId": "2026-06-06-neon-v-1782329990097",
+      "generatedAt": "2026-06-25T04:42:32.607+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

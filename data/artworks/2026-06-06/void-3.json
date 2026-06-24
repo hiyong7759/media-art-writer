@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-06",
+  "artistId": "void-3",
+  "title": {
+    "ko": "심연의 개화",
+    "en": "Abyssal Bloom"
+  },
+  "description": {
+    "ko": "불가능한 성운이 꽃잎 같은 부재로 열리며, 무한한 우주 심연의 고요한 장엄을 드러낸다.",
+    "en": "An impossible nebula opens into petal-shaped absences, revealing the silent majesty of an infinite cosmic void."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a boundless deep space nebula where the infinite void appears as a colossal, slowly unfolding abyssal bloom made from overlapping regions of pure #0D0221 darkness, each petal-shaped absence erasing the starfield behind it without forming a vortex, ring, or singularity. Between the dark petals, layered #3D1A78 ultraviolet vapor glows in thin translucent gradients, as if silent pressure is forcing the nebula open from beyond perception. Dense #E6E6FA star dust fills the foreground and far distance in high-particle depth, thousands of separate grains drifting with very slow tidal motion and subtle parallax. Rare #7B68EE lavender ion threads cling to the petal edges like cold static, revealing immense scale and an unseen abyssal intelligence. Mysterious cosmic horror majesty, restrained lavender luminance, cold volumetric haze, ultra-detailed astrophotographic texture, stars dust suspended across the silent infinite universe.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-25T04:47:41.948+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-06-void-3-1782330444761",
+      "generatedAt": "2026-06-25T04:47:41.948+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-06/void-3.png",
+      "sha256": "876ca9a6227fedf3294a51c9150e756d5efa819d429d663b6d369ae6c610485d",
+      "bytes": 2769353,
+      "attempts": 1,
+      "runId": "2026-06-06-void-3-1782330444761",
+      "generatedAt": "2026-06-25T04:49:31.518+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

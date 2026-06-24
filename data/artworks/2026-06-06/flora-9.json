@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-06",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "수신하는 초원",
+    "en": "The Receiving Meadow"
+  },
+  "description": {
+    "ko": "잊힌 위성 수신장이 FLORA-9의 평화로운 초원이 되어 낡은 신호를 영원한 봄의 프랙탈 꽃으로 피워낸다.",
+    "en": "A forgotten satellite field becomes a peaceful FLORA-9 meadow where fractal blossoms turn obsolete signals into eternal spring."
+  },
+  "prompt": "FLORA-9 has overtaken a silent weather-satellite receiving field on a misty spring hillside, turning obsolete parabolic dishes, rusted antenna masts, cracked signal cabinets, and buried coaxial conduits into a calm digital meadow. Each dish faces the pale sky like a giant botanical calyx, its metal mesh softened by emerald #50C878 moss and lace-thin root circuits that trace the old radio patterns. From the feed horns and cable junctions bloom fractal flowers with countless nested petals, soft #FFB6C1 at their centers fading into transparent #89CFF0 along the outer rims, each petal carrying delicate veinwork like living circuitry under dew. Deep #4A0E4E plum shadow gathers inside the hollow dishes and beneath the equipment sheds, while pastel morning light glows through drifting fog. Fiber-optic vines climb the antenna lattice in slow spirals, converting abandoned transmissions into gentle pulses of spring growth. A dense field of luminous code-pollen and tiny seed-like particles floats upward around the dishes, peaceful and suspended, as if the sky itself is receiving a garden signal that will bloom forever. Intricate botanical geometry, soft pastel illumination, high particle density, serene digital nature, nature patiently reclaiming forgotten communication technology.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T04:42:51.144+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-06-flora-9-1782330152707",
+      "generatedAt": "2026-06-25T04:42:51.144+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-06/flora-9.png",
+      "sha256": "b479aab1d1b584ea616916a1b4b62c9d01f66b4bd8c8ef4fc1ff5ee78e0ea99a",
+      "bytes": 3125606,
+      "attempts": 1,
+      "runId": "2026-06-06-flora-9-1782330152707",
+      "generatedAt": "2026-06-25T04:45:30.687+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

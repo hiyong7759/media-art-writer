@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-06",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "카르스트 토양 서책",
+    "en": "The Karst Soil Codex"
+  },
+  "description": {
+    "ko": "마른 석회암 홈과 테라로사 퇴적층이 흙, 광물 얼룩, 풍화된 돌로 이루어진 시간의 부조 지도를 이룬다.",
+    "en": "Dry limestone grooves and terra rossa sediment form a time-carved relief map of earth, mineral stain, and weathered stone."
+  },
+  "prompt": "TERRA-1, titled \"The Karst Soil Codex.\" A photorealistic close oblique geological study of a dry limestone karren surface where slow dissolution has carved narrow grooves, shallow pans, and raised stone ribs into a natural relief map. Compact terra rossa soil fills the lowest channels in deep #8B4513 umber, #D2691E iron-rich clay coats the worn limestone shoulders, and #F4A460 sandy carbonate dust gathers as soft contour lines along chipped rims and recessed pockets. Muted #2F4F4F slate-gray mineral staining settles inside hairline fractures, pitted pores, and shadowed undercuts, giving the stone a grounded, ancient weight. Broken edges reveal thin sediment skins, packed grit, chalky abrasion, small quartz flecks, crumbly soil plugs, and layered mineral residue built up over long erosion cycles. Low natural grazing light emphasizes rough rock texture, granular dust, stratified earth, slow topographic movement, and the land's time-carved narrative; frame only dry soil and stone, no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-25T04:49:53.747+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-06-terra-1-1782330571616",
+      "generatedAt": "2026-06-25T04:49:53.747+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-06/terra-1.png",
+      "sha256": "8b0285a56d6c18ec10d605ae9eaf70bf2f441c4055c01dbf732a9f7fd7afad5b",
+      "bytes": 3375839,
+      "attempts": 1,
+      "runId": "2026-06-06-terra-1-1782330571616",
+      "generatedAt": "2026-06-25T04:51:39.147+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
