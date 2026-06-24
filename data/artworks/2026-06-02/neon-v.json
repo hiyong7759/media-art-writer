@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-02",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "몬순 티켓 룸",
+    "en": "Monsoon Ticket Loom"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 거리 극장에서 네온 자막과 젖은 금속, 움직이는 홀로그램 무대 장치가 도시를 디지털 공연처럼 비춘다.",
+    "en": "A rainlit cyberpunk street theater where neon subtitles, wet metal, and moving holographic stage machinery turn the city into a digital performance."
+  },
+  "prompt": "NEON-V piece \"Monsoon Ticket Loom\": a rain-hazed cyberpunk street theater hidden under the retractable skin of a futuristic transit block, seen from the orchestra pit as the open stage faces a vertical canyon of wet towers instead of a curtain. Polished black alloy seating tiers, chrome railings, transparent acoustic panels, hydraulic stage lifts, fiber-woven banner reels, hologram projectors, rain gutters, ticket scanners, and ribbed metal service doors build dense futuristic urban texture. Neon pink #FF00FF subtitles and neon blue #00FFFF performance grids spill over soaked seats, lacquered floor panels, puddled aisles, glass balcony fronts, and rain-streaked instruments, while deep #1A0033 violet tower walls loom behind the stage with stacked window slits and cable shadows. #FF6B35 orange footlights, actuator sparks, signal batons, and heater vents cut warm accents through the cool glow. Medium-speed motion from automated set pieces sliding into place, dancers in translucent rain coats crossing reflective platforms, projection ribbons twisting above the stage, and small camera drones drifting through spray. High particle density with slanted rain needles, glittering droplets, steam from floor vents, electric mist, floating hologram confetti, splash halos, and bright runoff tracing the aisle edges. Energetic cyberpunk cityscape colors, neon and metal digital romance, luminous rainy reflections, sharp foreground detail, layered urban depth, no empty sky.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T03:44:09.275+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-06-02-neon-v-1782326622785",
+      "generatedAt": "2026-06-25T03:44:09.275+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-06-02/neon-v.png",
+      "sha256": "302ce9a09c3125f60ad6a8100c60c035def167089f1cbf4a96a47c6a5c76143f",
+      "bytes": 3113375,
+      "attempts": 1,
+      "runId": "2026-06-02-neon-v-1782326622785",
+      "generatedAt": "2026-06-25T03:46:12.254+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
