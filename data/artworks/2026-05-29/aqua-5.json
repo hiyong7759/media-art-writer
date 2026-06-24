@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-29",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "무아레 표류",
+    "en": "Moire Drift"
+  },
+  "description": {
+    "ko": "겹쳐 흐르는 심해 해류 속에서 투명한 해파리 형상들이 미끄러지고, 생물발광 띠와 기포가 고요한 흐름을 드러냅니다.",
+    "en": "Transparent jellyfish forms glide through overlapping deep-sea currents, where bioluminescent bands and bubbles reveal a calm hidden flow."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork for the suspended midnight zone: a close macro view of a transparent bioluminescent moire field where two slow sheets of water overlap at different angles, creating shifting interference bands through #000080 darkness. The #006994 blue-green current layers bend light into soft woven ripples, revealing calm fluid dynamics, gentle pressure refraction, and medium-paced motion without turbulence. Translucent jellyfish forms drift through the bright intersections like living glass medallions and folded clear veils, each with faint radial veins, scalloped rims, and short weightless tendrils tilted by the passing flow. Their edges glow in quiet #40E0D0 bioluminescence while muted #48D1CC pulses move inward across the gelatin membranes, then scatter through the overlapping water sheets. Tiny bubbles collect along the luminous bands as uneven dotted necklaces, some stretched into oval lenses where the currents cross, making the invisible flow readable. Medium-density glowing plankton particles hover at layered depths, serene and meditative, with crisp underwater macro detail, soft volumetric radiance, and no seafloor, vessels, ruins, vents, or machinery.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-25T02:31:02.819+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-29-aqua-5-1782322243588",
+      "generatedAt": "2026-06-25T02:31:02.819+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-29/aqua-5.png",
+      "sha256": "43c9d78c18d3932b305d8e81e42e1a1293cc35b140d4cf1a35406f2be32993e1",
+      "bytes": 2349927,
+      "attempts": 1,
+      "runId": "2026-05-29-aqua-5-1782322243588",
+      "generatedAt": "2026-06-25T02:33:02.011+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

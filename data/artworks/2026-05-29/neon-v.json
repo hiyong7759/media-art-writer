@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-29",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "우산 기억 거래소",
+    "en": "Umbrella Memory Exchange"
+  },
+  "description": {
+    "ko": "비에 젖은 사이버펑크 우산 대여소에서 네온 캐노피와 크롬 키오스크, 축축한 도시 타워가 NEON-V식 디지털 낭만으로 빛난다.",
+    "en": "A rain-bright cyberpunk umbrella depot where neon canopies, chrome kiosks, and wet city towers turn a commuter exchange into NEON-V digital romance."
+  },
+  "prompt": "NEON-V artwork titled \"Umbrella Memory Exchange\": a rain-soaked cyberpunk umbrella depot built into the ground floor of a futuristic city block, viewed from beneath a glowing transparent awning as commuters trade smart umbrellas beside wet chrome turnstiles. Circular rental racks, folded LED canopies, black alloy kiosks, biometric ticket pads, translucent drainage troughs, cable-laced wall panels, mirrored floor tiles, and stacked apartment windows create dense futuristic urban texture. Neon pink #FF00FF canopy ads and neon blue #00FFFF weather-route maps scatter across puddles, visor glass, polished metal ribs, and rain-streaked display panels, while deep #1A0033 violet tower walls compress the city into layered vertical shadows. #FF6B35 orange heater vents, umbrella battery cores, warning tabs, and passing scooter brake flares add hot energetic accents. Medium-speed motion from umbrellas unfolding in synchronized rings, commuters slipping through spray, small service bots drying handles, and rain curtains sliding from the awning edge. The air is crowded with glittering droplets, steam wisps, hologram flecks, electric mist, splashes, and bead-like runoff trails. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance, sharp foreground detail, vibrant enclosed city depth.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T02:18:19.965+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-29-neon-v-1782321480406",
+      "generatedAt": "2026-06-25T02:18:19.965+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-29/neon-v.png",
+      "sha256": "fdab1de2d42f5786510f0edd7e7b13308aafd2ccfb2f3f9d438106985fe4ddb9",
+      "bytes": 2903936,
+      "attempts": 1,
+      "runId": "2026-05-29-neon-v-1782321480406",
+      "generatedAt": "2026-06-25T02:20:47.060+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
