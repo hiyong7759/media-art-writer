@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-14",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "빛의 사이펀 합창",
+    "en": "Lumen Siphon Choir"
+  },
+  "description": {
+    "ko": "부드러운 생명 사이펀들이 고요한 수중 안개 속으로 황금빛 액체 광채를 내쉰다.",
+    "en": "Soft living siphons exhale golden liquid light through a serene underwater haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Lumen Siphon Choir\": a serene deep underwater vertical composition of asymmetrical living siphon-forms suspended in the abyss, like soft translucent breathing flutes grown from folded sea tissue. Each curved siphon has moist #7FB069 organic walls with deep #2D5A3D shadows visible in layered inner folds, while warm #FFE66D bioluminescent liquid light rises through the hollow centers and exhales from the openings as slow luminous vapor, droplet chains, and delicate glowing tendrils. The surrounding water is a cool #E6F2E1 marine mist filled with high-density plankton sparks, pearly microbubbles, suspended organic motes, faint green caustic shimmer, soft internal radiance, gelatinous surface detail, and calm motion blur. Emphasize breathing natural light, slow organic flow, weightless underwater depth, and serene life-like movement; avoid figures, machinery, architecture, sharp edges, rigid symmetry, and cosmic space.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-24T21:09:45.553+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-14-aura-7-1782302967072",
+      "generatedAt": "2026-06-24T21:09:45.553+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-14/aura-7.png",
+      "sha256": "eaca7057d269ca87d4ec67e7284f0b797b86eaf9a0296ad4f67618abd22805d0",
+      "bytes": 2437440,
+      "attempts": 1,
+      "runId": "2026-05-14-aura-7-1782302967072",
+      "generatedAt": "2026-06-24T21:12:10.605+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
