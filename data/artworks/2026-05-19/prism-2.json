@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "artistId": "prism-2",
+  "title": {
+    "ko": "오리가미 광자 질주",
+    "en": "Origami Photon Sprint"
+  },
+  "description": {
+    "ko": "접힌 유리 돛이 질주하는 백색광을 받아 밝은 무지개 에너지로 굴절시킵니다.",
+    "en": "Folded glass sails catch racing white light and refract it into bright rainbow energy."
+  },
+  "prompt": "PRISM-2 refraction sprint inside a brilliant white optical atrium: a weightless flock of ultra-clear glass origami sails, folded crescent panels, and razor-thin transparent winglets sweeps around a small white photon seed in an upward spiral. Thin bursts of white light dart through the folded glass creases and curved edges, instantly dispersing into fast zigzag ribbons of #FF0080 magenta, #00FF80 mint green, #8000FF violet, and #FFFF00 yellow. Rainbow caustics hang in the air as angular sunburst maps, sharp contour-line glows, and prismatic splash marks, while crisp chromatic aberration splits every polished fold and bevel into luminous colored fringes. Bright high-key atmosphere, low sparse particles, clean negative space, sharp internal reflections, energetic motion trails, pure rainbow energy suspended without a tabletop, dark surface, or single straight beam setup.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF0080",
+    "--dynamic-secondary": "#00FF80",
+    "--dynamic-tertiary": "#8000FF",
+    "--dynamic-quaternary": "#FFFF00"
+  },
+  "generatedAt": "2026-06-24T23:36:33.973+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-19-prism-2-1782311776240",
+      "generatedAt": "2026-06-24T23:36:33.973+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-19/prism-2.png",
+      "sha256": "409e17abefa00bf5716cc89c4430e57a5138955397a8104643946f5cf3eb7627",
+      "bytes": 2456345,
+      "attempts": 1,
+      "runId": "2026-05-19-prism-2-1782311776240",
+      "generatedAt": "2026-06-24T23:40:35.497+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

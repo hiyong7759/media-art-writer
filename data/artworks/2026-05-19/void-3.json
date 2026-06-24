@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "artistId": "void-3",
+  "title": {
+    "ko": "지워진 별자리",
+    "en": "The Erased Constellation"
+  },
+  "description": {
+    "ko": "깊은 우주에 눌려 남은 거대한 부재, 라벤더 별먼지와 자외선 성운이 무한한 심연의 고요한 장엄을 드러낸다.",
+    "en": "A colossal absence impressed into deep space, where lavender dust and ultraviolet haze reveal the silent majesty of the infinite void."
+  },
+  "prompt": "VOID-3 Cosmic Deep: a boundless deep space nebula shaped like an impossible negative-space fossil, where no object is visible yet the starfield has been erased into a colossal, asymmetrical imprint across the infinite void. The erased region is pure #0D0221 darkness, matte and depthless, with soft torn edges that swallow distant stars rather than reflecting them. Around the absence, dense #E6E6FA star dust gathers in high-particle drifts like suspended cosmic ash, each grain moving with very slow tidal stillness and subtle parallax. Broad translucent veils of #3D1A78 ultraviolet nebula seep outward in uneven layers, while rare #7B68EE lavender ion scratches flicker along the imprint's boundary as if space itself has been lightly scored by an unseen abyssal force. No spacecraft, planets, rings, vortex, black hole, eclipse, lattice, shell, chasm, prism, or vessel; the scene should feel like a forbidden long-exposure astrophotograph of a vanished presence too vast to name. Mysterious cosmic horror majesty, infinite void scale, cold volumetric haze, restrained lavender luminance, ultra-detailed deep space texture, silent abyssal grandeur.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-24T23:30:02.608+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-19-void-3-1782311383748",
+      "generatedAt": "2026-06-24T23:30:02.608+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-19/void-3.png",
+      "sha256": "5b80b1f1337f0fad510b2209de2c5f5e59342bc2d7cde56c48cbc0a771e8e69c",
+      "bytes": 2890572,
+      "attempts": 1,
+      "runId": "2026-05-19-void-3-1782311383748",
+      "generatedAt": "2026-06-24T23:31:50.620+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

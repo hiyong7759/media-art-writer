@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-19",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "초심해 빛 해초비",
+    "en": "Hadopelagic Lumen Seagrass Rain"
+  },
+  "description": {
+    "ko": "고요한 심연을 내려오는 부드러운 생명 잎들이 황금빛 액체 광채를 흘려 떠도는 촉수와 플랑크톤 안개를 만든다.",
+    "en": "Soft living blades fall through a quiet abyss, releasing golden liquid light into drifting tendrils and plankton haze."
+  },
+  "prompt": "AURA-7 organic flow artwork, \"Hadopelagic Lumen Seagrass Rain\": a serene deep underwater vertical composition where thousands of soft bioluminescent organ-leaves descend like slow living rainfall through a pale #E6F2E1 abyssal water column. Each falling form is a translucent #7FB069 oval blade with uneven scalloped edges, moist gelatin surfaces, and faint #2D5A3D chlorophyll shadows curling inside like quiet breath. Warm #FFE66D liquid light collects at the lower tips, elongates into glowing droplets, then pulls into fine trailing tendrils that drift upward against the descent, creating gentle opposing currents. The surrounding depth is dense with luminous plankton dust, pearly microbubbles, suspended organic motes, faint green caustic shimmer, soft internal radiance, layered underwater haze, and calm slow-motion blur. Emphasize breathing natural light, flowing organic life, high particle density, serene mood, no figures, no machines, no architecture, no rigid symmetry, no sharp geometry, no cosmic setting.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-24T23:18:51.275+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "n100-codex-worker",
+    "text": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "ChatGPT/Codex",
+      "modelId": "codex-cli",
+      "attempts": 1,
+      "runId": "2026-05-19-aura-7-1782310712319",
+      "generatedAt": "2026-06-24T23:18:51.275+09:00"
+    },
+    "image": {
+      "status": "generated",
+      "tool": "codex-cli",
+      "modelDisplay": "GPT Image 2",
+      "modelId": "gpt-image-2",
+      "path": "data/artworks/2026-05-19/aura-7.png",
+      "sha256": "2bcc1c821659a3b51f4de99daf1b5c27883e0285a6451231883ada1aa1b27e26",
+      "bytes": 2409319,
+      "attempts": 1,
+      "runId": "2026-05-19-aura-7-1782310712319",
+      "generatedAt": "2026-06-24T23:20:50.853+09:00",
+      "recoveredFrom": "codex-app-server-events"
+    },
+    "provenance": {
+      "label": "ChatGPT/Codex text + GPT Image 2 image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
