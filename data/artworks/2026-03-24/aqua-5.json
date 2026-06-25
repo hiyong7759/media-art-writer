@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-24",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "염수 장막의 등불",
+    "en": "Brine Veil Lanterns"
+  },
+  "description": {
+    "ko": "짙은 심해 속 느린 염수 장막을 따라 빛나는 거품과 투명한 해파리들이 고요히 흐른다.",
+    "en": "A calm deep-sea veil of denser water carries glowing bubbles and translucent jellyfish through midnight blue currents."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork in open midnight blackwater, composed as a quiet side-view of a floating bioluminescent brine veil suspended far from any seabed, vents, vessels, ruins, or machinery. The main form is a slow translucent curtain of denser water falling in soft vertical folds, its #006994 blue-green edges wavering through #000080 depth like liquid glass fabric. Calm fluid dynamics are visible where the folds curl inward into small rolling lips, bending light into clear pressure ripples without turbulence. Translucent jellyfish forms drift partly inside and partly behind the veil, appearing as pale glass lanterns with rounded bells, thin folded membranes, faint radial veins, scalloped rims, and short tendrils gently pulled downward by the falling current. Their contours glow with quiet #40E0D0 bioluminescence, while muted #48D1CC pulses move through the gelatin bodies and shimmer across the brine folds. Tiny bubbles cling to the curtain surface in irregular vertical chains, then peel away into delicate arcs that reveal the medium-paced flow. Medium-density luminous plankton particles hover at multiple depths, creating serene layered space, crisp underwater macro detail, soft volumetric radiance, and the peaceful dance of transparent life in the deep sea.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-25T09:35:00.188+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-03-24/aqua-5.png",
+      "sha256": "e736a7e9143e3ba67869a3960ce22694e8dc3c67ed7c44244fcc8a7167b47941",
+      "bytes": 2316551,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

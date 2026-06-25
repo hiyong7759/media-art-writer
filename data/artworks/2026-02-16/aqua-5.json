@@ -1,0 +1,46 @@
+{
+  "date": "2026-02-16",
+  "artistId": "aqua-5",
+  "title": {
+    "ko": "심연의 부채빛",
+    "en": "Abyssal Fanlight"
+  },
+  "description": {
+    "ko": "투명한 해파리들이 심해의 고요한 생물발광 압력파 부채 사이를 떠돈다.",
+    "en": "Transparent jellyfish drift through a calm fan of bioluminescent pressure waves in the deep sea."
+  },
+  "prompt": "AQUA-5 Deep Ocean artwork set in weightless abyssal blackwater, centered on a suspended fan of transparent pressure waves opening like a slow underwater aurora. Thin #006994 blue-green flow laminae spread from a narrow lower point into wide feathered arcs across #000080 depth, their edges bending light into calm caustic lines that show smooth fluid dynamics and medium-paced motion. Translucent jellyfish forms float along the fan ribs like living glass parasols: clear rounded bells, folded membrane skirts, faint radial veins, and short delicate tendrils softly angled by the current. Each rim carries quiet #40E0D0 bioluminescence, while inner #48D1CC pulses travel outward through the gelatin bodies and echo along the pressure-wave arcs. Tiny bubbles gather at the fan's base, then drift upward in uneven dotted trails between the laminae, flattening briefly into lens-like ovals where the water layers compress. Medium-density glowing plankton particles hang throughout foreground and distant water, creating serene depth, soft volumetric radiance, crisp macro detail, and a peaceful dance of transparent life with no solid structures in sight.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#006994",
+    "--dynamic-secondary": "#40E0D0",
+    "--dynamic-tertiary": "#000080",
+    "--dynamic-quaternary": "#48D1CC"
+  },
+  "generatedAt": "2026-06-25T09:16:36.459+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-02-16/aqua-5.png",
+      "sha256": "da2c3a2e6767e18f1a8ec1c068e7c233c76b503e67554e51b14ba7ab961dc8c1",
+      "bytes": 2327263,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

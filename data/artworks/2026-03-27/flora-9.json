@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-27",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "영원히 피어나는 직조기",
+    "en": "The Looms That Bloom Forever"
+  },
+  "description": {
+    "ko": "고요한 섬유 기계 사이로 디지털 봄 정원이 자라나며, 프랙털 꽃잎과 이끼, 빛나는 코드 꽃가루를 잊힌 직조기에 엮어 넣는다.",
+    "en": "A peaceful digital spring garden grows through silent textile machinery, weaving fractal petals, moss, and luminous code pollen into forgotten looms."
+  },
+  "prompt": "FLORA-9 inhabits a quiet automated textile mill at spring sunrise, where idle Jacquard looms, robotic bobbin arms, perforated pattern cards, tension wheels, and dormant control panels have been softened into a living digital garden. Emerald #50C878 moss grows along the loom rails like velvet, while transparent root-threads pass through needle eyes and copper contacts, weaving slow pulses of light into old machinery. Between the warp threads bloom fractal flowers with layered digital petals, their soft #FFB6C1 centers opening into pale #89CFF0 translucent edges, each petal patterned like botanical lace and fine circuitry rather than fabric. Deep #4A0E4E plum shadows sit beneath the wooden floor gaps and inside the inactive motor housings, balanced by pastel daylight crossing suspended dust and pollen. Thousands of tiny luminous seed-fibers drift in dense, gentle currents above the looms, as if code has become spring pollen. Peaceful digital nature, soft pastel palette, slow blooming motion, intricate recursive floral geometry, technology patiently becoming an endlessly flowering garden.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T09:41:17.436+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-03-27/flora-9.png",
+      "sha256": "6c0d32ca9b477280dc8c2a3bbb2b20d031ab1edde956433676487a9f885b81b5",
+      "bytes": 3430657,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

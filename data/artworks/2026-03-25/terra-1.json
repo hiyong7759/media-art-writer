@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-25",
+  "artistId": "terra-1",
+  "title": {
+    "ko": "사프로라이트 지평 지도",
+    "en": "The Saprolite Horizon Atlas"
+  },
+  "description": {
+    "ko": "풍화된 화강암 단면이 흙과 암석 껍질, 광물 얼룩, 시간에 닳은 대지의 층으로 이루어진 지형 지도처럼 드러난다.",
+    "en": "A weathered granite face becomes a grounded relief map of soil, stone rinds, mineral stains, and time-worn earth layers."
+  },
+  "prompt": "TERRA-1, titled \"The Saprolite Horizon Atlas.\" A photorealistic close oblique geological study of a deeply weathered granite saprolite face, where rounded corestone remnants sit inside soft decomposed feldspar clay and nested alteration halos, resembling a topographic map formed by rock slowly turning back into soil. Deep #8B4513 umber residual earth gathers in pocketed hollows and compact seams, #D2691E oxidized iron skins trace the weathering fronts around each stone, #F4A460 sandy feldspar grains dust the crumbly ledges, and muted #2F4F4F slate-gray mineral staining settles in mica-rich fractures and shaded granular pores. Broken surfaces reveal gritty quartz specks, friable clay bands, exfoliating stone rinds, compressed soil horizons, thin sediment-like laminations, and rough granular texture built by long chemical weathering. Low natural grazing light emphasizes raised contour rims, pitted corestone surfaces, matte dust, grounded earthy tones, medium particulate detail, and the slow narrative of land carved by time; frame only dry rock and soil, no sky, no vegetation, no water, no human objects.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#8B4513",
+    "--dynamic-secondary": "#D2691E",
+    "--dynamic-tertiary": "#F4A460",
+    "--dynamic-quaternary": "#2F4F4F"
+  },
+  "generatedAt": "2026-06-25T09:37:21.584+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-03-25/terra-1.png",
+      "sha256": "5444ee57a75c0f1db4ea4deb09f1c4145c033a7774735d483bf751c9e3eac353",
+      "bytes": 3781574,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

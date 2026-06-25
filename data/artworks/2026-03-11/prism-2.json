@@ -18,5 +18,29 @@
     "--dynamic-tertiary": "#8000FF",
     "--dynamic-quaternary": "#FFFF00"
   },
-  "generatedAt": "2026-03-11T00:56:35.621+09:00"
+  "generatedAt": "2026-03-11T00:56:35.621+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-03-11/prism-2.png",
+      "sha256": "1af587b7f21cc29992a16439f604f9ded3bb19c91343b8f9c84f5cb97e0b1394",
+      "bytes": 1756793,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
 }

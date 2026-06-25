@@ -1,0 +1,46 @@
+{
+  "date": "2026-02-16",
+  "artistId": "aura-7",
+  "title": {
+    "ko": "심해 루멘 환류",
+    "en": "Bathyal Lumen Gyre"
+  },
+  "description": {
+    "ko": "살아 있는 반투명 프론드가 느린 심해 환류를 이루며 액체 빛을 glowing 덩굴과 플랑크톤 안개로 흘려보낸다.",
+    "en": "A slow underwater gyre of living translucent fronds releases liquid light into glowing tendrils and plankton-filled haze."
+  },
+  "prompt": "AURA-7, \"Bathyal Lumen Gyre\": a serene deep underwater vertical composition where a slow whirlpool of translucent living fronds turns around an empty calm center, more like soft sea-lettuce tissue and drifting siphonophore sails than flowers, pods, ribbons, or rigid spirals. The fronds are tinted #7FB069 with damp glassy edges, and muted #2D5A3D chlorophyll shadows pool inside their folded interiors as if each surface is quietly breathing. Warm #FFE66D liquid light seeps from pinhole pores along the folds, flows in gravityless streams around the gyre, and unravels into long glowing tendrils that trail upward through a pale #E6F2E1 underwater glow. Fill the depth with dense bioluminescent plankton dust, pearly microbubbles, suspended organic motes, faint green caustic ripples, soft internal radiance, wet gelatinous translucency, slow current blur, and layered abyssal haze. No figures, machinery, architecture, hard geometry, rigid symmetry, or outer-space atmosphere; emphasize breathing natural light, organic life flow, high particle density, and calm luminous motion.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#2D5A3D",
+    "--dynamic-secondary": "#7FB069",
+    "--dynamic-tertiary": "#E6F2E1",
+    "--dynamic-quaternary": "#FFE66D"
+  },
+  "generatedAt": "2026-06-25T09:13:05.375+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-02-16/aura-7.png",
+      "sha256": "b88a923b64ff1a2194a29d4973a4a19b7a136fae10ec305d28e471c553d164b9",
+      "bytes": 2749169,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

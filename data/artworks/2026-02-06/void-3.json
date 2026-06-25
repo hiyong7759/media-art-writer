@@ -1,0 +1,46 @@
+{
+  "date": "2026-02-06",
+  "artistId": "void-3",
+  "title": {
+    "ko": "쓰이지 않은 심연",
+    "en": "Unwritten Abyss"
+  },
+  "description": {
+    "ko": "별먼지가 무한한 공허 위에 읽을 수 없는 흔적을 이루는 고요한 성운.",
+    "en": "A silent nebula where star dust forms unreadable marks across the infinite void."
+  },
+  "prompt": "VOID-3 Cosmic Deep: an ultra-detailed deep space nebula observed as an abyssal field of silent parallax layers, where thousands of #E6E6FA star-dust particles gather into faint suspended braille-like constellations across a vast #0D0221 infinite void. The darkness is not a hole, ring, corridor, vessel, planet, or vortex; it appears as enormous unreadable intervals between the dust marks, as if the universe has lost parts of its own language. Thin washes of #3D1A78 ultraviolet haze drift behind the particle clusters in slow, translucent bands, while sparse #7B68EE lavender ion pinpoints glow at isolated stress nodes, hinting at a colossal unseen presence beyond the frame. High particle density, very slow celestial motion, restrained lavender luminance, cold volumetric depth, finely grained astrophotographic texture, stars dust suspended through infinite silence, mysterious cosmic horror majesty without a central object.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "mysterious",
+    "--dynamic-primary": "#0D0221",
+    "--dynamic-secondary": "#3D1A78",
+    "--dynamic-tertiary": "#7B68EE",
+    "--dynamic-quaternary": "#E6E6FA"
+  },
+  "generatedAt": "2026-06-25T09:07:30.109+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-02-06/void-3.png",
+      "sha256": "cf471a0758f62388e997d20a43f0c7147b21f2f9ecc59ce19b0663dfe196027d",
+      "bytes": 2192708,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

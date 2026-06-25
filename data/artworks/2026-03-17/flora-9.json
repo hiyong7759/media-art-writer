@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-17",
+  "artistId": "flora-9",
+  "title": {
+    "ko": "피어나는 테이프 기록고",
+    "en": "Tape Archive in Bloom"
+  },
+  "description": {
+    "ko": "FLORA-9가 잊힌 자기 기록 장치를 프랙탈 꽃잎과 빛나는 코드 꽃가루가 가득한 평화로운 봄 정원으로 바꿉니다.",
+    "en": "FLORA-9 turns forgotten magnetic memory into a peaceful spring garden of fractal petals and luminous code pollen."
+  },
+  "prompt": "FLORA-9 quietly inhabits a disused magnetic-tape archive chamber at the first breath of spring, where tall carousel cabinets, open tape reels, barcode shelves, and obsolete archival robots have become trellises for an ever-renewing digital garden. Ribbons of old storage tape unwind across the floor like dark irrigation streams, softened by emerald #50C878 moss and hair-thin root circuits that weave through spindle holes, cassette windows, and brushed metal drawers. Along the suspended tape loops bloom fractal flowers with nested digital petals, their centers glowing soft #FFB6C1 and their translucent outer edges fading to calm #89CFF0, each petal carrying delicate veinwork that resembles both leaf structure and encoded memory. Deep #4A0E4E plum shadows pool inside the open archive cabinets and beneath the idle retrieval arms, while gentle pastel light glances across dew beads gathered on labels and cracked indicator panels. Thousands of luminous code-seeds drift slowly through the still air in dense peaceful clouds, as if forgotten data has turned into pollen. Serene digital nature, soft pastel illumination, intricate recursive blossoms, slow fiber-optic vine movement, nature patiently reclaiming old memory technology into a garden that blooms forever.",
+  "style": {
+    "--dynamic-font": "'Outfit', sans-serif",
+    "--dynamic-mood": "serene",
+    "--dynamic-primary": "#4A0E4E",
+    "--dynamic-secondary": "#89CFF0",
+    "--dynamic-tertiary": "#50C878",
+    "--dynamic-quaternary": "#FFB6C1"
+  },
+  "generatedAt": "2026-06-25T09:32:21.541+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-03-17/flora-9.png",
+      "sha256": "d929bc22ca05c0428f1f8487c69c23ca7a99f8a13506f8e03599b1e13c71e111",
+      "bytes": 3466555,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}

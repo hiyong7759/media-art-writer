@@ -1,0 +1,46 @@
+{
+  "date": "2026-02-09",
+  "artistId": "neon-v",
+  "title": {
+    "ko": "아이리스 릴레이 안광 거리",
+    "en": "Iris Relay Optic Row"
+  },
+  "description": {
+    "ko": "비와 크롬, 네온 반사가 가득한 미래 도시의 안광 클리닉에서 증강 시야가 조율된다.",
+    "en": "A neon-drenched cyberpunk vision clinic tunes augmented eyes amid rain, chrome, reflections, and energetic city motion."
+  },
+  "prompt": "NEON-V artwork titled \"Iris Relay Optic Row\": a rain-glossed cyberpunk vision-clinic street where augmented-eye technicians tune citizens' lenses inside transparent diagnostic bays, viewed from within a circular iris scanner that frames the wet avenue like a glowing mechanical pupil. Chrome exam arms, black glass lens trays, retinal calibration mirrors, fiber-thread ceiling rails, pressure-sealed shop doors, smart ceramic curb tiles, exposed coolant lines, stacked micro-balconies, and rain-polished metal shutters create dense futuristic urban texture. Neon pink #FF00FF prescription sigils pulse across curved glass and visor reflections, neon blue #00FFFF focus grids ripple through puddles and scanner rings, and deep #1A0033 violet tower walls squeeze the clinic row into a luminous city canyon. #FF6B35 orange sterilizer cores, repair sparks, brake glows from passing courier bikes, and warning beads add hot energetic accents. Medium-speed motion from rotating iris apertures, technicians swapping luminous lens wafers, pedestrians blinking through shifting holographic overlays, sliding clinic screens, and small calibration drones skimming through spray. High particle density with slanted rain, condensation pearls on glass, electric mist, bright splash crowns, micro-hologram dust, steam from curb vents, and glittering runoff along chrome thresholds. Cyberpunk cityscape colors, neon pink and blue, rainy reflections, neon and metal digital romance of a futuristic city, sharp foreground optics, layered wet urban depth, energetic night atmosphere.",
+  "style": {
+    "--dynamic-font": "'JetBrains Mono', monospace",
+    "--dynamic-mood": "electric",
+    "--dynamic-primary": "#FF00FF",
+    "--dynamic-secondary": "#00FFFF",
+    "--dynamic-tertiary": "#1A0033",
+    "--dynamic-quaternary": "#FF6B35"
+  },
+  "generatedAt": "2026-06-25T09:09:23.952+09:00",
+  "generation": {
+    "schemaVersion": 1,
+    "pipeline": "github-actions-gemini-legacy",
+    "text": {
+      "status": "generated",
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash",
+      "modelId": "gemini-2.5-flash"
+    },
+    "image": {
+      "status": "generated",
+      "path": "data/artworks/2026-02-09/neon-v.png",
+      "sha256": "78958d707bd3f386d9f6acfaeecb21706c24b6b53449ed51d87a785563b91f85",
+      "bytes": 2882775,
+      "tool": "github-actions",
+      "modelDisplay": "Gemini 2.5 Flash Image",
+      "modelId": "gemini-2.5-flash-image"
+    },
+    "provenance": {
+      "label": "Gemini 2.5 Flash / Gemini 2.5 Flash Image",
+      "policy": "date-cutoff",
+      "cutoff": "2026-04-01"
+    }
+  }
+}
